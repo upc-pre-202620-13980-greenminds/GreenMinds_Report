@@ -405,3 +405,37 @@ Un estudio realizado en Madre de Dios mostró que el 35,4 % de los estudiantes t
 <img src="assets/img/figures/image022.png" width="500">
 
 Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiantes de educación secundaria de Madre de Dios, Perú, por Estrada E., 2022.* 
+
+### 1.2.2. Lean UX Process
+
+#### *1.2.2.1. Lean UX Problem Statements*
+
+
+
+#### *1.2.2.2. Lean UX Assumptions*
+
+
+#### *1.2.2.3. Lean UX Hypothesis Statements*
+
+
+
+#### *1.2.2.4. Lean UX Canvas*
+
+
+
+## 1.3. Segmentos objetivo
+
+<div style="page-break-before: always;">
+
+
+# Bibliografía
+
+- Chuliá, E. (1995). La conciencia ambiental de los españoles en los noventa. Análistas socio-políticos. https://www.asp-research.com/es/node/412  
+
+- Estrada Araoz, E. G., Huaypar Loayza, K. H., Gallegos Ramos, N. A., & Velásquez Giersch, L. (2022). Conciencia ambiental y actitudes proambientales en estudiantes de educación secundaria de Madre de Dios, Perú. Ciencia Amazónica (Iquitos), 9(2), 69-80. https://www.researchgate.net/publication/360519918_Conciencia_ambiental_y_actitudes_proambientales_en_estudiantes_de_educacion_secundaria_de_Madre_de_Dios_Peru  
+
+- Martínez, R. (2010). La importancia de la educación ambiental ante la problemática actual. Revista Electrónica Educare, 14(1), 97–111.  https://www.redalyc.org/articulo.oa?id=194114419010  
+
+- Ministerio del Ambiente. Viceministerio de Gestión Ambiental. Dirección General de Educación, Ciudadanía e Información Ambiental. Dirección de Información, Investigación e Innovación Ambiental. (2024). Anuario estadístico del sector ambiente 2023 (1.ª ed.). Ministerio del Ambiente https://sinia.minam.gob.pe/documentos/anuario-estadistico-sector-ambiente-2023  
+
+- Reyes, R. (2018). El fenómeno del consumismo y sus desafíos para la mejora del medio ambiente. Documentos de Trabajo Areandina, 1. https://revia.areandina.edu.co/index.php/DT/article/view/1265  
