@@ -464,9 +464,39 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+#### Estrategias
+
+1. **Acceso inclusivo y continuidad**  
+   ECOMIND funcionará tanto online como offline, asegurando que los escolares puedan seguir aprendiendo y realizando actividades educativas incluso en zonas con conectividad limitada o desde sus hogares.
+
+2. **Gamificación y personalización mediante tecnología**  
+   La plataforma incorporará gamificación avanzada para el seguimiento del progreso y recomendaciones automáticas. Esto permitirá personalizar el aprendizaje y mantener el interés de los usuarios.
+
+#### Tácticas
+
+#### Desarrollo de contenido hiperlocalizado  
+Creación de retos, misiones y juegos basados en situaciones reales, con énfasis en acciones concretas de cuidado ambiental que los escolares puedan aplicar en su entorno.
+
+#### Gamificación con incentivos y seguimiento  
+Implementación de puntos, medallas, niveles y rankings para motivar a los niños. Además, los padres podrán acceder a reportes de progreso, reforzando el aprendizaje y fomentando hábitos sostenibles.
+
+#### Aprovechamiento de debilidades de la competencia
+
+1. **Frente a Defensor de la Naturaleza**  
+   Dado que su experiencia es limitada y depende de publicidad para financiar el contenido, ECOMIND ofrecerá contenido más completo y libre de anuncios, garantizando aprendizaje continuo y mayor motivación de los usuarios.
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+### 2.2.2. Registro de entrevistas
+### 2.2.3. Análisis de entrevistas
+
 # Bibliografía
 
+- Adrilo, R (s.f.). Happy Little Planet App. Adrilo Rincz. https://www.adrilorincz.com/happy-little-planet-app  
+
 - Chuliá, E. (1995). La conciencia ambiental de los españoles en los noventa. Análistas socio-políticos. https://www.asp-research.com/es/node/412  
+
+- Earth Cubs. (s.f.). Earth Cubs App. Earth Cubs. https://earthcubs.com/ 
 
 - Estrada Araoz, E. G., Huaypar Loayza, K. H., Gallegos Ramos, N. A., & Velásquez Giersch, L. (2022). Conciencia ambiental y actitudes proambientales en estudiantes de educación secundaria de Madre de Dios, Perú. Ciencia Amazónica (Iquitos), 9(2), 69-80. https://www.researchgate.net/publication/360519918_Conciencia_ambiental_y_actitudes_proambientales_en_estudiantes_de_educacion_secundaria_de_Madre_de_Dios_Peru  
 
@@ -474,4 +504,7 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 - Ministerio del Ambiente. Viceministerio de Gestión Ambiental. Dirección General de Educación, Ciudadanía e Información Ambiental. Dirección de Información, Investigación e Innovación Ambiental. (2024). Anuario estadístico del sector ambiente 2023 (1.ª ed.). Ministerio del Ambiente https://sinia.minam.gob.pe/documentos/anuario-estadistico-sector-ambiente-2023  
 
-- Reyes, R. (2018). El fenómeno del consumismo y sus desafíos para la mejora del medio ambiente. Documentos de Trabajo Areandina, 1. https://revia.areandina.edu.co/index.php/DT/article/view/1265  
+- Reyes, R. (2018). El fenómeno del consumismo y sus desafíos para la mejora del medio ambiente. Documentos de Trabajo Areandina, 1. https://revia.areandina.edu.co/index.php/DT/article/view/1265
+
+- Y-Group Games. (s. f.). Defender of the nature. Google Play. https://play.google.com/store/apps/details?id=com.YovoGames.Defender&hl=es_PE 
+
