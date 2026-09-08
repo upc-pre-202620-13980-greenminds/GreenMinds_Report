@@ -427,6 +427,46 @@ Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiante
 
 <div style="page-break-before: always;">
 
+Los segmentos objetivo comprenden a los usuarios finales a los que nuestra solución busca atender. Para el caso de nuestra plataforma, se han determinado los siguientes perfiles prioritarios:
+
+#### Segmento objetivo #1: Estudiantes de Primaria
+Este segmento está constituido por niños y niñas en etapa escolar que se encuentran en una fase crucial para la formación de valores y hábitos sostenibles, y que requieren estímulos visuales y lúdicos para integrar el aprendizaje a su vida diaria.
+
+**Aspectos demográficos:**
+* Edad: 9 a 12 años.
+* Género: Masculino y femenino.
+* Nivel Educativo: Educación Primaria.
+* Ubicación: Zonas urbanas y rurales.
+* Nivel digital: Nativo digital; usuarios habituales de dispositivos móviles y tablets para juegos (como Roblox) y comunicación (Discord).
+
+**Aspectos conductuales:**
+Su aprendizaje es principalmente visual y práctico; prefieren aprender jugando, viendo videos o mediante retos interactivos. Se motivan con sistemas de recompensa y reconocimiento (puntos, insignias). Suelen conocer la teoría sobre el cuidado ambiental por la escuela, pero les cuesta aplicarla de forma constante en casa sin un incentivo o recordatorio dinámico.
+
+**Información estadística de sustento:**
+Para el segmento de estudiantes de primaria, las investigaciones indican que, si bien un 65.42% manifiesta una conciencia ambiental alta a nivel teórico, existe una brecha crítica en la práctica real, donde solo el 44.86% alcanza un nivel alto de sensibilidad emocional hacia el entorno (Bendezú, 2019).
+
+**Necesidad:**
+El estudiante requiere una experiencia de aprendizaje gamificada que convierta las tareas ecológicas (como reciclar o ahorrar agua) en "misiones" divertidas. Necesita una herramienta que le brinde retroalimentación inmediata sobre sus logros, permitiéndole ver el impacto real de sus acciones de manera sencilla y atractiva.
+
+#### Segmento objetivo #2: Padres de Familia
+Este segmento comprende a los adultos responsables del hogar, quienes actúan como el nexo principal para que los hábitos aprendidos en la escuela se consoliden en la rutina familiar cotidiana.
+Aspectos demográficos:
+
+* Edad: 30 a 62 años.
+* Género: Masculino y femenino.
+* Nivel Educativo: Superior técnica, universitaria o secundaria completa.
+* Ubicación: Áreas residenciales y comunidades con acceso a servicios básicos.
+* Nivel digital: Básico a intermedio; utilizan el celular para comunicación (WhatsApp), redes sociales y gestión laboral/bancaria.
+
+**Aspectos conductuales:**
+Valoran profundamente la educación ambiental como parte de la formación de sus hijos, pero enfrentan dificultades de tiempo o falta de estrategias claras para motivarlos. Buscan herramientas que sean seguras, educativas y que fomenten la unión familiar a través de actividades conjuntas.
+
+**Información estadística de sustento:**
+Respecto a los padres de familia, las investigaciones destacan que su involucramiento es fundamental, ya que el 72.53% de ellos logra adoptar hábitos sostenibles en el hogar tras la influencia de programas educativos ambientales iniciados por sus hijos (Taco et al., 2025).
+
+**Necesidad:**
+El padre de familia requiere una guía práctica y recursos simplificados (como guías o FAQs) para acompañar a sus hijos en el desarrollo de hábitos sostenibles. Necesita reportes de impacto y progreso que le den la seguridad de que sus hijos están aprendiendo de forma verificable, reforzando la conexión entre la escuela y el hogar.
+
 
 # Capítulo II: Requirements Development and Software Solution Design
 
