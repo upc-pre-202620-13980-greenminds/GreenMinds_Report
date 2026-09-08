@@ -428,6 +428,42 @@ Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiante
 <div style="page-break-before: always;">
 
 
+# Capítulo II: Requirements Development and Software Solution Design
+
+## 2.1. Competidores
+
+#### 1. Defensor de la naturaleza  
+Defensor de la naturaleza es una aplicación móvil educativa y ecológica dirigida a niños, orientada a fomentar la conciencia ambiental de manera lúdica y accesible. Lanzada por Y-Group Games, esta app ofrece una serie de minijuegos interactivos en los que los pequeños limpian jardines, parques y zonas de juego, plantan árboles y flores, clasifican residuos y limpian ríos y estanques contaminados. La experiencia está diseñada especialmente para enseñar a los niños la importancia de proteger la naturaleza y los entornos que los rodea. (Y-Group Games. (s. f.)  
+
+#### 2. Happy Litle Planet  
+Happy Little Planet es una aplicación educativa diseñada para niños, cuyo objetivo es enseñar hábitos sostenibles y el cuidado del medio ambiente de manera lúdica e interactiva. La app combina juegos educativos y libros con audio, proporcionando experiencias de aprendizaje divertidas y dinámicas que ayudan a los niños a comprender conceptos como reciclaje, ahorro de recursos y respeto por la naturaleza. (Adrilo Rincz, s.f.)   
+
+#### 3. Earth Cubs  
+Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es enseñar sobre el medio ambiente, la sostenibilidad y el cambio climático mediante experiencias lúdicas e interactivas. La app combina minijuegos, acertijos, cómics y videos, además de recursos para el aula, ofreciendo un aprendizaje dinámico que motiva a los más pequeños a desarrollar conciencia ambiental y hábitos responsables con la naturaleza. (Earth Cubs, s.f.)
+
+### 2.1.1. Análisis competitivo
+
+|  | Competitive Analysis Landscape |
+|---|---|
+| ¿Por qué llevar a cabo este análisis? | Llevamos a cabo este análisis con la finalidad de conocer a los competidores, identificar sus fortalezas y debilidades, y definir estrategias de diferenciación y posicionamiento para Green Mind. |
+
+|  |  | **Green Mind** | **Defensor de la Naturaleza** | **Happy Little Planet** | **Earth Cubs** |
+|---|---|---|---|---|---|
+| **Perfil** | Logo | ![Logo Ecomind](assets/img/figures/image024.png) | ![Logo Defensor de la Naturaleza](assets/img/figures/image025.png) | ![Logo Happy Little Planet](assets/img/figures/image026.png) | ![Logo Earth Cubs](assets/img/figures/image027.png) |
+|  | Overview | Plataforma educativa gamificada que enseña hábitos sostenibles a escolares, con acceso en línea y sin conexión, e involucra a familias y comunidades. | Juego móvil centrado en acciones ambientales directas dentro de un entorno lúdico. | Aplicación educativa infantil que enseña hábitos sostenibles y cuidado ambiental mediante juegos interactivos y audiolibros, con acompañamiento de los padres. | Aplicación educativa gamificada que enseña a los niños sobre el medio ambiente, la sostenibilidad y el cambio climático mediante minijuegos, acertijos, cómics y recursos escolares. |
+|  | Ventaja competitiva | Plataforma inclusiva con acceso en línea y sin conexión, que conecta el aprendizaje escolar con la participación de las familias y comunidades. | Educación ambiental sencilla y entretenida para niños de primeras edades. | Aprendizaje ambiental lúdico y seguro para niños pequeños, con participación de los padres y contenido disponible sin conexión. | Contenidos educativos integrales, diversos y orientados a generar un impacto real. |
+| **Perfil de marketing** | Mercado objetivo | Escolares y padres de familia interesados en el cuidado ambiental. | Niños de educación preescolar y primeros grados de primaria. | Niños pequeños y padres interesados en la educación ambiental. | Niños de educación preescolar y primaria, así como sus padres y educadores. |
+|  | Estrategias de marketing | Promoción en redes sociales, alianzas con instituciones educativas y actividades con familias y comunidades. | Promoción en tiendas de aplicaciones y uso de una propuesta visual atractiva para el público infantil. | Promoción en tiendas de aplicaciones, blogs y redes sociales sobre educación infantil, con énfasis en una experiencia visual segura y atractiva. | Difusión multiplataforma y colaboración con escuelas y asociaciones ambientales. |
+| **Perfil de Producto** | Productos y servicios | Plataforma gamificada con minirretos, juegos educativos y actividades sobre hábitos sostenibles. | Aplicación móvil con minijuegos ecológicos interactivos. | Juegos educativos interactivos, audiolibros y contenido descargable para utilizar sin conexión. | Plataforma digital con juegos, videos y recursos educativos. |
+|  | Precios y costos | Acceso gratuito, con suscripciones y microtransacciones opcionales. | Aplicación gratuita financiada mediante anuncios. | Aplicación gratuita. | Aplicación gratuita con acceso a contenidos básicos. |
+|  | Canales de distribución | Plataforma web, aplicación móvil y acceso sin conexión. | Aplicación móvil disponible en Google Play. | Aplicación móvil disponible en Google Play y App Store, además de un sitio web oficial. | Sitio web oficial y aplicaciones móviles disponibles en App Store y Google Play. |
+| **Análisis SWOT** | Fortalezas | Gamificación que fomenta la motivación, acceso en línea y sin conexión, e integración de familias y comunidades. | Juego sencillo, divertido y accesible para niños pequeños. | Vincula el aprendizaje digital con acciones ambientales en la vida cotidiana. | Combina diversión y educación ambiental con una amplia variedad de contenidos. |
+|  | Debilidades | Requiere inversión constante para desarrollar, mantener y actualizar los juegos y contenidos. | Contenido limitado y dependencia de la publicidad. | Contenido limitado y poca interacción social entre usuarios. | Su enfoque amplio puede dificultar la especialización y exige actualizaciones constantes. |
+|  | Oportunidades | Creciente interés por la educación ambiental y posibilidad de establecer alianzas con colegios, municipalidades y organizaciones ambientales. | Crecimiento de la demanda de aplicaciones educativas con temática ecológica. | Expansión hacia grupos de mayor edad e incorporación de experiencias multijugador. | Integración de nuevos contenidos ambientales y ampliación de su presencia educativa global. |
+|  | Amenazas | Competencia de aplicaciones educativas consolidadas y aparición constante de nuevas alternativas digitales. | Alta competencia de aplicaciones educativas similares. | Necesidad de actualizaciones frecuentes y elevada competencia en el mercado de aplicaciones educativas. | Riesgo de quedar rezagada frente a plataformas digitales más innovadoras. |
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
 # Bibliografía
 
 - Chuliá, E. (1995). La conciencia ambiental de los españoles en los noventa. Análistas socio-políticos. https://www.asp-research.com/es/node/412  
