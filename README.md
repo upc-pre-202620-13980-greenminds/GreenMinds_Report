@@ -1,6 +1,6 @@
 <div align="center">
 <br><br>
-<img src="https://marketingperu.beglobal.biz/wp-content/uploads/2025/01/logo-upc-png-transparente-1.png" alt="drawing" width="100"/> <br><br>
+<img src="https://marketingperu.beglobal.biz/wp-content/uploads/2025/01/logo-upc-png-transparente-1.png" alt="drawing" width="50"/> <br><br>
 
 Universidad Peruana de Ciencias Aplicadas
 
@@ -73,7 +73,8 @@ Proyecto <br>
 | -------- | -------- | -------- | -------- |
 | 1.0.0    | 01/09/2026     | Alejandra Astocondor     | initial commit <br> docs: añadir estructura del proyecto |
 | 1.0.0    | 06/09/2026     | Katty Philco | docs: agregar Startup Profile <br> docs: añadir antecedentes y problemática  |
-| 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
+| 1.0.0    | 07/09/2026     | Isabel Aponte   | docs: agregar  competidores <br> docs: agregar estrategias y tacticas <br> docs: agregar segmento objetivo  |
+| 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
@@ -410,18 +411,153 @@ Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiante
 
 #### *1.2.2.1. Lean UX Problem Statements*
 
+EcoMind propone una aplicación móvil educativa que promueve la conciencia ambiental en niños mediante retos interactivos y actividades familiares. A través de un diseño centrado en el usuario, inclusivo y gamificado, busca convertir el aprendizaje ecológico en una experiencia divertida y cotidiana. Su objetivo es integrar a padres e hijos en un entorno digital que fomente hábitos sostenibles y fortalezca el compromiso con el cuidado del planeta. 
 
+Dentro de las escuelas primarias, se quiere que los estudiantes transformen la educación ambiental en hábitos sostenibles que se practiquen de manera constante en el hogar y la comunidad. no obstante, observamos que lo aprendido en el aula no cuenta con un proceso continuo y verificable que lo enlace con la rutina cotidiana, lo que se refleja en pocas eco acciones fuera de clase y baja permanencia en el tiempo. Aunque en la actualidad existen diversas plataformas y programas de educación ambiental y gamificación, identificamos que la continuidad, especialmente en el hogar y la comunidad, son débiles. Ahí radica la oportunidad que se desea aprovechar: intervenir en esa brecha de continuidad y verificación del comportamiento ambiental. Finalmente, todo ello ocurre bajo restricciones de tiempo pedagógico, brechas de conectividad y acceso a dispositivos. 
+
+¿Como podríamos garantizar esa continuidad y acompañamiento entre escuela, hogar y comunidad, bajo dichas restricciones? 
 
 #### *1.2.2.2. Lean UX Assumptions*
 
+**Assumptions Worksheet**
+
+1. ¿Quién es el usuario? 
+
+Estudiantes de primaria (6–12 años): niños que inician la formación de hábitos ambientales y requieren actividades visuales, breves e interactivas para consolidar lo aprendido en la escuela.
+
+Padres de familia de escolares de primaria: adultos responsables de reforzar y acompañar las prácticas sostenibles en el hogar, asegurando continuidad en las eco-acciones.
+
+2. ¿Dónde encaja nuestro producto en su trabajo o vida? 
+
+En el hogar: plataforma para completar mini-retos familiares y dar seguimiento a las eco-acciones.
+
+Conexión comunitaria: registro de actividades ambientales que trascienden el aula y se vinculan con la comunidad.
+
+3. ¿Qué problemas tiene nuestro producto que resolver? 
+
+En escolares de primaria: dificultad para trasladar lo aprendido en la escuela a la vida diaria, ya que los contenidos ambientales no siempre se refuerzan en casa o comunidad.
+
+En padres de familia: falta de recursos y estrategias claras para apoyar a los niños en la práctica de hábitos sostenibles dentro del hogar.
+
+En general: ausencia de retroalimentación y medición de impacto que permitan dar continuidad a las eco-acciones.
+
+4. ¿Cuándo y cómo es usado nuestro producto? 
+
+En el hogar, como parte de tareas, eco-retos o proyectos familiares.
+
+En la comunidad, registrando prácticas ambientales conjuntas.
+
+El producto puede usarse en cualquier momento y lugar, tanto en modo online como en modo offline con sincronización diferida, asegurando continuidad incluso en contextos de baja conectividad.
+
+5. ¿Qué características son importantes? 
+
+Misiones y minijuegos progresivos adaptados a escolares y familias.
+
+Gamificación: puntos, insignias y rankings para incentivar la participación conjunta.
+
+Modo offline con registro y posterior sincronización de actividades.
+
+Interfaz visual, inclusiva y fácil de usar, adecuada para niños y adultos.
+
+6. ¿Cómo debería verse nuestro producto y cómo comportarse?
+
+La aplicación debe presentar un diseño colorido, dinámico e intuitivo, con ilustraciones y personajes que conecten con los escolares y resulten comprensibles para los padres. La navegación debe ser clara, sencilla y atractiva, sin elementos que distraigan del aprendizaje.
+
+En términos de funcionamiento, se espera que la plataforma sea ágil, responsiva y accesible, con tiempos de carga mínimos y transiciones fluidas. Debe comportarse como una experiencia de juego educativo con retroalimentación constante, transmitiendo confianza a las familias mediante visualización de progreso e indicadores claros del impacto de las eco-acciones.
+
+**Assumptions**
+
+- Creo que mis clientes necesitan una plataforma educativa que integre comunidad y hogar para reforzar la conciencia ambiental a través de actividades prácticas y gamificadas. 
+
+- Estas necesidades se pueden resolver con mini-retos, eco-acciones y reportes de impacto que motiven la continuidad de hábitos sostenibles. 
+
+- Mis clientes iniciales son (o serán) escolares de primaria (6–12 años) y sus padres de familia, interesados en adoptar hábitos ambientales dentro y fuera del aula. 
+
+- El valor #1 que un cliente quiere de mi servicio es la posibilidad de ver resultados tangibles en la formación de hábitos sostenibles en los niños. 
+
+- El cliente también puede obtener estos beneficios adicionales: participación conjunta entre escuela y hogar, retroalimentación inmediata y reconocimiento familiar y comunitario. 
+
+- Voy a adquirir la mayoría de mis clientes a través de programas ambientales escolares y difusión digital en redes sociales. 
+
+- Haré dinero a través de herramientas de monetización relacionadas a los aspectos de gamificación y personalización de avatar. 
+
+- Mi competencia principal en el mercado será aplicaciones educativas ambientales como Happy Little Planet o Defensor de la Naturaleza. 
+
+- Los venceremos debido a nuestra propuesta integral que combina hogar y comunidad, con funcionalidad offline y un sistema de gamificación. 
+
+- Mi mayor riesgo de producto es que las familias no utilicen la plataforma de manera constante. 
+
+- Resolveremos esto a través de estrategias de gamificación, incentivos visibles (insignias, rankings) y actividades comunitarias que refuercen la continuidad. 
+
+- ¿Qué otras suposiciones tenemos? Que las familias valorarán la visualización de progreso como evidencia de aprendizaje. Si esta suposición se prueba falsa, el proyecto podría tener baja adopción en los hogares. 
+
+- Suponemos que los escolares se sentirán motivados por las misiones breves, visuales y progresivos, siempre que reciban retroalimentación inmediata al completar actividades.
+
+- Suponemos que los padres estarán dispuestos a participar si las actividades familiares son simples, de corta duración y se pueden realizar con recursos disponibles en casa.
+
+- Suponemos que los colegios pueden convertirse en aliados estratégicos para recomendar la plataforma como complemento de educación ambiental.
+
+- Suponemos que el sistema de ranking, puntos, rachas y recompensas aumentará la frecuencia de uso sin desplazar el propósito educativo de la solución.
+
+- Suponemos que la comunidad y los eventos ambientales cercanos fortalecerán la continuidad de hábitos sostenibles fuera del aula.
+
+- Suponemos que una Landing Page clara, con testimonios y una propuesta de valor directa, facilitará la comprensión del producto y la conversión de visitantes en usuarios registrados.
+
+- Suponemos que la personalización de avatares, cosméticos y recompensas virtuales incrementará la conexión emocional de los escolares con la aplicación.
+
+- Suponemos que los usuarios aceptarán un modelo freemium si las funciones gratuitas entregan valor educativo suficiente y la monetización se basa en compra de moneda de la aplicación para los customizables.
+
+**User Outcomes**
+
+- Los escolares podrán convertir contenidos de educación ambiental en acciones concretas mediante retos, miniactividades y eco-acciones verificables.
+
+- Los escolares podrán visualizar su avance mediante puntos, rachas, logros y rankings, reforzando su motivación para continuar participando.
+
+- Los padres podrán acompañar el aprendizaje ambiental de sus hijos mediante actividades familiares, reportes de progreso y evidencias de retos completados.
+
+- Las familias podrán incorporar hábitos sostenibles en su rutina diaria, conectando lo aprendido en la escuela con prácticas reales en el hogar y la comunidad.
+
+- Los usuarios podrán participar en espacios comunitarios, eventos y logros colectivos que refuercen la colaboración ambiental.
+
+**Business Outcomes**
+
+- Incrementar la adopción inicial de EcoMind mediante instituciones educativas, Landing Page y difusión digital.
+
+- Mejorar la retención de usuarios a través de mecánicas de gamificación, recompensas, personalización y seguimiento del progreso.
+
+- Validar el interés de padres y estudiantes por una solución educativa ambiental que combine escuela, hogar y comunidad.
+
+- Generar una base de usuarios que permita evaluar el modelo freemium y futuras funciones premium de seguimiento, personalización o recompensas.
+
+- Posicionar a EcoMind como una plataforma educativa diferenciada frente a competidores, al integrar gamificación, participación familiar, comunidad y accesibilidad.
 
 #### *1.2.2.3. Lean UX Hypothesis Statements*
+**Hypothesis Statement 1**
 
+Creemos que la implementación de actividades didácticas y gamificadas captará el interés de los niños para su contribución hacia el medio ambiente. Sabremos que lo hemos logrado, cuando al menos un 30% de los niños/estudiantes completen los mini-retos de forma semanal.
+
+**Hypothesis Statement 2**
+
+Creemos que añadir un modo offline permitirá acceso desde cualquier lugar y atraerá a nuevos usuarios de sectores o zonas de menos recursos. Sabremos que lo hemos logrado, cuando haya un incremento de 15% de usuarios que sean de zonas rurales o baja conectividad.
+
+**Hypothesis Statement 3**
+
+Creemos que incentivar a padres e hijos con actividades/mini-retos conjuntos harán que agreguen actividades eco-amigables dentro del hogar. Sabremos que lo hemos logrado, cuando al menos un 40% de las familias registradas complete/publique las actividades conjuntas que realizaron
+
+**Hypothesis Statement 4**
+
+Creemos que integrar un sistema de ranking motivara a los niños a una participación constante en las actividades. Sabremos que lo hemos logrado,cuando los niños aumenten en un 5% en tiempo/días de uso de la aplicación de forma mensual.
 
 
 #### *1.2.2.4. Lean UX Canvas*
 
+Link: https://canva.link/9mzenct40v5ocok
 
+**Figura 3**
+
+*Lean Product Canvas*
+
+![Lean Product Canvas](assets/img/figures/leanProductCanvas.png)
 
 ## 1.3. Segmentos objetivo
 
@@ -433,7 +569,7 @@ Los segmentos objetivo comprenden a los usuarios finales a los que nuestra soluc
 Este segmento está constituido por niños y niñas en etapa escolar que se encuentran en una fase crucial para la formación de valores y hábitos sostenibles, y que requieren estímulos visuales y lúdicos para integrar el aprendizaje a su vida diaria.
 
 **Aspectos demográficos:**
-* Edad: 9 a 12 años.
+* Edad: 6 a 12 años.
 * Género: Masculino y femenino.
 * Nivel Educativo: Educación Primaria.
 * Ubicación: Zonas urbanas y rurales.
