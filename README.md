@@ -191,7 +191,7 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 2.6.5.6. [Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)  
 2.6.5.6.1. [Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)  
 2.6.5.6.2. [Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)  
-2.6.6. [Bounded Context: Ranking](#266-bounded-context-ranking)  
+2.6.6. [Bounded Context: Gamification](#266-bounded-context-gamification)  
 2.6.6.1. [Domain Layer](#2661-domain-layer)  
 2.6.6.2. [Interface Layer](#2662-interface-layer)  
 2.6.6.3. [Application Layer](#2663-application-layer)  
@@ -209,15 +209,6 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 2.6.7.6. [Bounded Context Software Architecture Code Level Diagrams](#2676-bounded-context-software-architecture-code-level-diagrams)  
 2.6.7.6.1. [Bounded Context Domain Layer Class Diagrams](#26761-bounded-context-domain-layer-class-diagrams)  
 2.6.7.6.2. [Bounded Context Database Design Diagram](#26762-bounded-context-database-design-diagram)  
-2.6.8. [Bounded Context: Achievements](#268-bounded-context-achievements)  
-2.6.8.1. [Domain Layer](#2681-domain-layer)  
-2.6.8.2. [Interface Layer](#2682-interface-layer)  
-2.6.8.3. [Application Layer](#2683-application-layer)  
-2.6.8.4. [Infrastructure Layer](#2684-infrastructure-layer)  
-2.6.8.5. [Bounded Context Software Architecture Component Level Diagrams](#2685-bounded-context-software-architecture-component-level-diagrams)  
-2.6.8.6. [Bounded Context Software Architecture Code Level Diagrams](#2686-bounded-context-software-architecture-code-level-diagrams)  
-2.6.8.6.1. [Bounded Context Domain Layer Class Diagrams](#26861-bounded-context-domain-layer-class-diagrams)  
-2.6.8.6.2. [Bounded Context Database Design Diagram](#26862-bounded-context-database-design-diagram)
 
 
 **Capítulo III: Solution UI/UX Design**  
@@ -241,7 +232,7 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 3.1.4.5. [Mobile Applications Prototyping](#3145-mobile-applications-prototyping)  
 
 **Capítulo IV: Product Implementation & Validation**  
-4. [Product Implementation & Validation](#4-product-implementation-&-validation)  
+1. [Product Implementation & Validation](#4-product-implementation-&-validation)  
 4.1. [Software Configuration Management](#41-software-configuration-management)  
 4.1.1. [Software Development Environment Configuration](#411-software-development-environment-configuration)  
 4.1.2. [Source Code Management](#412-source-code-management)  
@@ -665,6 +656,104 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
+
+## 2.3. Needfinding
+### 2.3.1. User Personas
+### 2.3.2. User Task Matrix
+### 2.3.3. User Journey Mapping
+### 2.3.4. Empathy Mapping
+### 2.3.5. Big Picture EventStorming
+### 2.3.6. Ubiquitous Language
+
+## 2.4. Requirements Specification
+### 2.4.1. User Stories
+### 2.4.2. Impact Mapping
+### 2.4.3. Product Backlog
+
+## 2.5. Strategic-Level Domain-Driven Design
+### 2.5.1. EventStorming
+#### 2.5.1.1. Candidate Context Discovery
+#### 2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.3. Bounded Context Canvases
+
+### 2.5.2. Context Mapping
+
+### 2.5.3. Software Architecture
+#### 2.5.3.1. Software Architecture Context Level Diagrams
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+
+## 2.6. Tactical-Level Domain-Driven Design
+
+### 2.6.1. Bounded Context: IAM
+#### 2.6.1.1. Domain Layer
+#### 2.6.1.2. Interface Layer
+#### 2.6.1.3. Application Layer
+#### 2.6.1.4. Infrastructure Layer
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+### 2.6.2. Bounded Context: Profile
+#### 2.6.2.1. Domain Layer
+#### 2.6.2.2. Interface Layer
+#### 2.6.2.3. Application Layer
+#### 2.6.2.4. Infrastructure Layer
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+### 2.6.3. Bounded Context: Learning
+#### 2.6.3.1. Domain Layer
+#### 2.6.3.2. Interface Layer
+#### 2.6.3.3. Application Layer
+#### 2.6.3.4. Infrastructure Layer
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+### 2.6.4. Bounded Context: Quests
+#### 2.6.4.1. Domain Layer
+#### 2.6.4.2. Interface Layer
+#### 2.6.4.3. Application Layer
+#### 2.6.4.4. Infrastructure Layer
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+### 2.6.5. Bounded Context: Community
+#### 2.6.5.1. Domain Layer
+#### 2.6.5.2. Interface Layer
+#### 2.6.5.3. Application Layer
+#### 2.6.5.4. Infrastructure Layer
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+### 2.6.6. Bounded Context: Gamification
+#### 2.6.6.1. Domain Layer
+#### 2.6.6.2. Interface Layer
+#### 2.6.6.3. Application Layer
+#### 2.6.6.4. Infrastructure Layer
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.6.6.2. Bounded Context Database Design Diagram
+
+### 2.6.7. Bounded Context: Monetization
+#### 2.6.7.1. Domain Layer
+#### 2.6.7.2. Interface Layer
+#### 2.6.7.3. Application Layer
+#### 2.6.7.4. Infrastructure Layer
+#### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.7.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.7.6.2. Bounded Context Database Design Diagram
 
 # Bibliografía
 
