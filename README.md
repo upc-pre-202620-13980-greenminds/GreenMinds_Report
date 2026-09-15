@@ -75,7 +75,7 @@ Proyecto <br>
 | 1.0.0    | 06/09/2026     | Katty Philco | docs: agregar Startup Profile <br> docs: añadir antecedentes y problemática  |
 | 1.0.0    | 07/09/2026     | Isabel Aponte   | docs: agregar  competidores <br> docs: agregar estrategias y tacticas <br> docs: agregar segmento objetivo  |
 | 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
-| 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
+| 1.0.0    | 15/09/2026     |  Isabel Aponte  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
@@ -698,6 +698,30 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 
 
 ### 2.2.2. Registro de entrevistas
+
+**Video de la entrevista** :
+
+
+#### Segmento: Padres de Familia
+<br>
+
+| **Entrevista Nro. 1** |
+|---|
+| <img src="assets/img/figures/imagen0781.png" width="335" hspace="240"> |
+| **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:34<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 48 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
+
+#### Segmento objetivo: Escolares de Primaria
+
+| **Entrevista Nro. 1** |
+|---|
+| <img src="assets/img/figures/image036.png" width="330" hspace="230"> |
+| **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 11 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:**  <br> **Duración:** 3:15<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pablo, un estudiante de 11 años. En su tiempo libre le gusta jugar con sus juguetes, salir, utilizar la consola o la PC, y también emplear aplicaciones como Roblox para jugar y Discord para comunicarse.<br><br>En relación con el cuidado del medio ambiente, recuerda que en su colegio le han enseñado sobre el ahorro de agua, no botar botellas y guardar chapas. En su casa procura no usar muchas bolsas de plástico. Lo que más lo motiva es haber visto en la provincia la acumulación de basura y cómo afecta tanto a las personas como a los animales, lo que lo hace reflexionar sobre la importancia de reducir los desechos.<br><br>Sobre la forma de aprender, señala que prefiere actividades digitales, aunque también reconoce el valor de las que son en papel. Le gusta aprender escuchando, viendo videos y leyendo textos cortos. Además, considera que los juegos pueden servir como herramienta de aprendizaje si tienen mecánicas bien diseñadas, aunque algunos pueden resultar adictivos.<br><br>Finalmente, Pablo demuestra que disfruta combinar distintas formas de aprendizaje y entretenimiento, mostrando una postura crítica frente al uso de videojuegos educativos. |
+
+| **Entrevista Nro. 2** |
+|---|
+| <img src="assets/img/figures/image037.png" width="330" hspace="250"> |
+| **Entrevistado N°2:** Gianfranco de la Cruz <br> **Edad:** 12 años<br>**Ubicación:** La Molina, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** <br> **Duración:** 3:40<br><br> **Resumen:** <br><br>El entrevistado se llama Gianfranco de la Cruz, tiene 12 años y está por culminar la primaria. Le gusta pasar el tiempo usando su celular, ya sea para jugar o ver videos.<br><br>Nos menciona que en su colegio sí le han enseñado de manera regular sobre el cuidado del ambiente, como la implementación de tachos de basura específicos para reciclaje. Sin embargo, fuera del colegio no tiene muy claro qué actividades o acciones puede realizar, aparte de mantener limpias sus zonas de convivencia.<br><br>Por último, menciona que actualmente realiza este tipo de acciones más por ayudar que por motivación propia. Sin embargo, la idea de aprender nuevas formas de apoyo mediante juegos o videos le parecería motivante para esforzarse más. |
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
