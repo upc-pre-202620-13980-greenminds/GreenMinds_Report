@@ -653,7 +653,50 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
    Dado que su experiencia es limitada y depende de publicidad para financiar el contenido, ECOMIND ofrecerá contenido más completo y libre de anuncios, garantizando aprendizaje continuo y mayor motivación de los usuarios.
 
 ## 2.2. Entrevistas
+
 ### 2.2.1. Diseño de entrevistas
+
+**Escolares de primaria:**
+
+1. ¿Cuál es tu nombre y cuántos años tienes? 
+
+2. ¿Qué cosas te gusta hacer en tu tiempo libre? 
+
+3. ¿Usas celular, Tablet o computadora? ¿Qué aplicaciones te gustan más? 
+
+4. ¿Has aprendido en tu colegio algo sobre el cuidado del medio ambiente? ¿Qué es lo que más recuerdas? 
+
+5. ¿Qué cosas haces tú en casa para ayudar al planeta? (ejemplo: separar basura, ahorrar agua, apagar luces).
+
+6. ¿Qué es lo que más te divierte o motiva a hacerlo? 
+
+7. Si pudieras aprender con juegos o retos sobre cómo cuidar el medio ambiente, ¿te gustaría? ¿Por qué? 
+
+8. ¿Prefieres usar una aplicación en celular/Tablet o prefieres actividades en papel? ¿Por qué? 
+
+9. ¿Cómo te gusta aprender más? ¿Jugando, viendo videos, ¿leyendo o escuchando? 
+
+**Padres de familia:**
+
+1. ¿Podría contarme un poco de usted? (edad, ocupación, hijos, lugar de residencia). 
+
+2. ¿Qué nivel de confianza tiene en el uso de celulares o aplicaciones?
+
+3. ¿Qué actividades suelen realizar en familia durante la semana? 
+
+4. ¿Qué importancia le da al tema del cuidado del medio ambiente en la educación de sus hijos? 
+
+5. ¿Qué acciones realizan en casa relacionadas con el medio ambiente? 
+
+6. ¿Con qué dificultades se encuentran al intentar enseñar hábitos sostenibles en casa? 
+
+7. Si existiera una aplicación con retos simples para que sus hijos aprendan y practiquen acciones ambientales, ¿la usaría en familia? ¿Por qué sí o por qué no? 
+
+8. ¿Qué cosas le ayudarían a usted a motivar más a sus hijos en este tema? 
+
+9. ¿Qué espera que su hijo logre aprender en los próximos años sobre el medio ambiente? 
+
+
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
