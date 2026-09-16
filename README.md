@@ -76,7 +76,7 @@ Proyecto <br>
 | 1.0.0    | 07/09/2026     | Isabel Aponte   | docs: agregar  competidores <br> docs: agregar estrategias y tacticas <br> docs: agregar segmento objetivo  |
 | 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
 | 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery  |
-| 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog  |
+| 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog <br> docs: agregar impact mapping  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
@@ -1295,6 +1295,33 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
         <li>DELETE /api/v1/educational-materials/{materialId} elimina un material educativo cuando corresponde.</li>
         <li>POST /api/v1/educational-materials/{materialId}/favorite permite marcar o desmarcar un material como favorito.</li>
         <li>GET /api/v1/educational-materials/search permite buscar materiales educativos según criterios definidos.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-018</td>
+    <td><b>Epic ID</b></td><td>EP012</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de metas comunitarias y chat temporal</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints para gestionar metas comunitarias y chats temporales asociados a eventos, para soportar la participación comunitaria y la coordinación de actividades.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>Los endpoints permiten consultar las metas comunitarias disponibles dentro de una comunidad.</li>
+        <li>Los endpoints permiten crear metas comunitarias a partir de opciones estandarizadas y calcular su cantidad objetivo según los miembros inscritos.</li>
+        <li>Los endpoints permiten registrar y validar la inscripción de un usuario en una meta comunitaria, considerando el límite de 3 metas activas y la racha mínima de 5 días.</li>
+        <li>Al crear un evento comunitario, el sistema genera un chat temporal asociado exclusivamente a dicho evento.</li>
+        <li>Al registrar la inscripción de un usuario en un evento, el sistema lo agrega al chat temporal correspondiente.</li>
       </ol>
     </td>
   </tr>
@@ -3510,7 +3537,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 </table>
 
 <table align="center">
-  <tr><td><b>User Story ID</b></td><td>HU-067</td><td><b>Epic ID</b></td><td>EP04</td></tr>
+  <tr><td><b>User Story ID</b></td><td>HU-067</td><td><b>Epic ID</b></td><td>EP01</td></tr>
   <tr><td><b>Título</b></td><td colspan="3">Protector de racha</td></tr>
   <tr><td><b>Descripción</b></td><td colspan="3">Como usuario, quiero adquirir protectores para mi racha actual, para evitar perder mi progreso y mantener mi motivación.</td></tr>
   <tr><td colspan="4"><b>Criterios de aceptación:</b><br/><br/>
@@ -3524,7 +3551,35 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 </table>
 
 ### 2.4.2. Impact Mapping
+
+Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de negocio, los actores clave, los impactos esperados y las funcionalidades que los sustentan, esto para ambos segmentos objetivo en los que nos enfocamos
+
+
+**Primer Segmento Objetivo (Padres de Familia)**
+
+<div align="center">
+ 
+![Impact_Map_Padre](assets/img/figures/Impact-map-car.jpg)
+
+
+</div>
+
+---
+
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+<div align="center">
+
+![Impact_Map_Niño](assets/img/figures/Impact-map-val.jpg)
+
+</div>
+
+
 ### 2.4.3. Product Backlog
+
+Para establecer el orden de prioridad de las historias de usuario planteadas para el desarrollo de la aplicación, realizamos su respectivo product backlog, con el cual podemos ver tanto el orden adecuado, como su estimación de tiempo para su desarrollo, con lo cual, con lo cual podremos administrar bien las fases de desarrollo de la aplicación. Para ello nos ayudamos de la herramienta de Trello: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
+
+![Product Backlog](assets/img/figures/Product_Backlog.png)
 
 | # | ID | Título | Descripción | SP |
 |---|---|---|---|---|
@@ -3613,6 +3668,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 | 83 | HU-057 | Inicio de sesión | Como usuario registrado, quiero autenticarme en el sistema mediante la validación de mis credenciales únicas (correo electrónico y contraseña), para establecer una sesión segua. | 7 |
 | 84 | HU-058 | Recuperación de contraseña | Como usuario, quiero iniciar el protocolo de recuperación de credenciales mediante mi dirección de correo electrónico vinculada, para volver a acceder a mi cuenta. | 7 |
 | 85 | HU-059 | Cierre de sesión | Como usuario, quiero ejecutar la finalización de mi sesión activa mediante la opción de "Log out, para proteger mi información personal en la plataforma. | 7 |
+
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
 
