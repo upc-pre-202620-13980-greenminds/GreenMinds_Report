@@ -76,7 +76,7 @@ Proyecto <br>
 | 1.0.0    | 07/09/2026     | Isabel Aponte   | docs: agregar  competidores <br> docs: agregar estrategias y tacticas <br> docs: agregar segmento objetivo  |
 | 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
 | 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery  |
-| 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
+| 1.0.0    | 15/09/2026     |    | docs: agregar user stories  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
@@ -746,6 +746,2773 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 
 ## 2.4. Requirements Specification
 ### 2.4.1. User Stories
+
+En esta sección se presentan las épicas y user stories definidas para EcoMind, construidas a partir del análisis de la problemática, los segmentos objetivo y las necesidades identificadas durante el proceso de needfinding. Las historias de usuario permiten traducir los requerimientos funcionales y técnicos en unidades de trabajo claras, priorizables y verificables para el equipo de desarrollo.
+
+Cada user story describe una necesidad desde la perspectiva del usuario o del equipo técnico, especificando el valor esperado y los criterios de aceptación necesarios para validar su cumplimiento. Estas historias abarcan los principales módulos de la solución, incluyendo retos gamificados, participación familiar, comunidad, ranking, perfil, monetización, autenticación y servicios backend.
+
+### Épicas
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Epic ID</b></td>
+    <td align="center"><b>Título</b></td>
+    <td align="center"><b>Descripción</b></td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP01</b></td>
+    <td align="center">Actividades gamificadas</td>
+    <td>Como estudiante, quiero acceder a actividades gamificadas sobre cuidado ambiental, para aprender de forma entretenida y mantener mi interés en el tema.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP02</b></td>
+    <td align="center">Participación familiar</td>
+    <td>Como padre, quiero que la aplicación ofrezca actividades y proyectos grupales, para fortalecer la interacción, colaboración y aprendizaje dentro de mi familia.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP03</b></td>
+    <td align="center">Información clara y amigable</td>
+    <td>Como estudiante, quiero acceder a información sencilla y fácil de comprender sobre las actividades, para aprender sin perder la motivación.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP04</b></td>
+    <td align="center">Acceso a comunidad</td>
+    <td>Como estudiante, quiero una sección que me permita interactuar con otros usuarios y compartir logros, para sentir motivación en mejorar continuamente.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP05</b></td>
+    <td align="center">Accesibilidad</td>
+    <td>Como estudiante o padre, quiero que la aplicación funcione de manera rápida, sencilla y accesible en cualquier dispositivo, para contar con una experiencia fluida y agradable en cualquier situación.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP06</b></td>
+    <td align="center">Landing page informativa</td>
+    <td>Como estudiante o padre, quiero acceder a una página informativa de EcoMind, para conocer la propuesta del producto y unirme a la comunidad.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP07</b></td>
+    <td align="center">Gestión de Usuarios y Autenticación</td>
+    <td>Como equipo de desarrollo, necesitamos implementar los servicios de autenticación, registro y gestión de perfiles para soportar el acceso seguro a la plataforma.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP08</b></td>
+    <td align="center">Backend: Gestión de Retos y Progreso</td>
+    <td>Como equipo de desarrollo, necesitamos implementar los endpoints para la gestión de retos, puntajes e insignias, para soportar las funcionalidades gamificadas de la plataforma.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>EP09</b></td>
+    <td align="center">Backend: Sincronización y Disponibilidad</td>
+    <td>Como equipo de desarrollo, necesitamos implementar la sincronización offline y garantizar la disponibilidad del sistema para soportar el acceso desde zonas con baja conectividad.</td>
+  </tr>
+  <tr>
+  <td align="center"><b>EP010</b></td>
+  <td align="center">Monetización: Gestión de compras y recompensas</td>
+  <td>Como equipo de desarrollo, necesitamos implementar mecanismos de monetización como la compra de avatares y cosméticos, así como la obtención de recompensas, para generar ingresos y mejorar la experiencia del usuario.</td>
+</tr>
+  <tr>
+  <td align="center"><b>EP011</b></td>
+  <td align="center">EP11 - Backend: Gestión de perfil</td>
+  <td>Como equipo de desarrollo, necesitamos implementar los servicios de perfil, familia, amistades, progreso e inventario del usuario, para centralizar su información personal y permitir el seguimiento de su evolución dentro de la plataforma.</td>
+</tr>
+  <tr>
+  <td align="center"><b>EP012</b></td>
+  <td align="center">EP12 - Backend: Participación comunitaria</td>
+  <td>Como equipo de desarrollo, necesitamos implementar los servicios de publicaciones, logros comunitarios, eventos ambientales e inscripción a actividades, para fomentar la interacción entre usuarios y la participación en iniciativas sostenibles.</td>
+</tr>
+  <tr>
+  <td align="center"><b>EP013</b></td>
+  <td align="center">EP13 - Backend: Monetización y cosméticos</td>
+  <td>Como equipo de desarrollo, necesitamos implementar los servicios de tienda, gemas, compras, cosméticos y potenciadores, para gestionar transacciones, recompensas y personalización del usuario dentro de la aplicación.</td>
+</tr>
+</table>
+
+### Technical Stories
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-001</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de usuarios</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir los endpoints GET /api/v1/user y PUT /api/v1/user/{id}, para consultar y actualizar la información del usuario, incluyendo ecopoints, gemas y racha.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/user retorna la lista de usuarios registrados en el mock API.</li>
+        <li>GET /api/v1/user/{id} retorna la información de un usuario específico.</li>
+        <li>PUT /api/v1/user/{id} permite actualizar campos como streak, last_streak_date, gem_balance y ecopoints.</li>
+        <li>La respuesta incluye los campos necesarios para mostrar perfil, ranking, racha y balance de gemas.</li>
+        <li>La aplicación sincroniza los cambios del usuario después de completar retos o comprar elementos en tienda.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-002</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoints de familia y miembros familiares</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir los endpoints GET /api/v1/family y GET /api/v1/family_user, para mostrar la familia del usuario y sus miembros vinculados.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/family retorna las familias registradas en el mock API.</li>
+        <li>GET /api/v1/family_user retorna las relaciones entre usuarios y familias.</li>
+        <li>GET /api/v1/family_user?user_id={id} permite obtener las relaciones familiares de un usuario específico.</li>
+        <li>La respuesta permite identificar el rol del usuario dentro de la familia mediante family_role.</li>
+        <li>La aplicación muestra la sección de familia con datos de muestra cuando existen registros relacionados.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-003</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de amigos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir el endpoint GET /api/v1/friend, para consultar las relaciones de amistad del usuario y mostrar sus amigos dentro de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/friend retorna las relaciones de amistad registradas.</li>
+        <li>GET /api/v1/friend?user_id={id} permite filtrar las amistades iniciadas por un usuario.</li>
+        <li>La respuesta incluye user_id, friend_id y status para validar si la amistad está aceptada.</li>
+        <li>La aplicación utiliza las amistades aceptadas para mostrar contactos disponibles.</li>
+        <li>El endpoint puede ser combinado con GET /api/v1/user para obtener los nombres y datos de los amigos.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-004</td>
+    <td><b>Epic ID</b></td><td>EP08</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoints de retos y actividades</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir GET /api/v1/quest y GET /api/v1/activity, para listar retos ambientales, identificar su tipo y mostrar las actividades asociadas.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/quest retorna los retos disponibles con id, category, title, type y recompensas.</li>
+        <li>GET /api/v1/quest?category={category} permite filtrar retos por categoría, como energy, water, recycle o daily_quest.</li>
+        <li>GET /api/v1/activity retorna las actividades asociadas a los retos.</li>
+        <li>GET /api/v1/activity?quest_id={id} permite obtener las actividades de un reto específico.</li>
+        <li>La aplicación utiliza el campo type para distinguir retos de actividades, minijuegos y colaborativos.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-005</td>
+    <td><b>Epic ID</b></td><td>EP08</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoints de progreso de retos y actividades</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir los endpoints /api/v1/quest_user y /api/v1/activity_user, para registrar el inicio, progreso, abandono y finalización de retos del usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/quest_user?user_id={id} retorna el progreso de retos del usuario.</li>
+        <li>POST /api/v1/quest_user crea un registro cuando el usuario inicia un reto.</li>
+        <li>PUT /api/v1/quest_user/{id} actualiza status, progress y end_date al completar un reto.</li>
+        <li>DELETE /api/v1/quest_user/{id} elimina un reto activo cuando el usuario lo abandona o cuando caduca el reto diario.</li>
+        <li>GET, POST, PUT y DELETE sobre /api/v1/activity_user permiten gestionar el progreso de actividades individuales.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-006</td>
+    <td><b>Epic ID</b></td><td>EP08</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoints de logros de usuario y comunidad</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir GET /api/v1/achievement, GET /api/v1/user_achievement y GET /api/v1/community_achievement, para mostrar los logros disponibles y desbloqueados.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/achievement retorna los logros disponibles.</li>
+        <li>GET /api/v1/user_achievement?user_id={id} retorna los logros desbloqueados por un usuario.</li>
+        <li>GET /api/v1/community_achievement?community_id={id} retorna los logros obtenidos por una comunidad.</li>
+        <li>Las respuestas permiten relacionar achievement_id con los datos del logro correspondiente.</li>
+        <li>La aplicación muestra logros de usuario y comunidad cuando existen registros en el mock API.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-007</td>
+    <td><b>Epic ID</b></td><td>EP08</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoints de ranking semanal</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador frontend, necesito consumir GET /api/v1/ranking, GET /api/v1/user y GET /api/v1/ecopoint_transaction, para calcular y mostrar el ranking semanal de usuarios.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/ranking retorna los tipos de ranking disponibles.</li>
+        <li>GET /api/v1/user retorna los usuarios participantes y sus ecopoints acumulados.</li>
+        <li>GET /api/v1/ecopoint_transaction retorna las transacciones usadas para calcular rankings por periodo.</li>
+        <li>La aplicación calcula el ranking semanal filtrando transacciones por rango de fechas.</li>
+        <li>El panel de retos muestra la posición semanal del usuario actual a partir del ranking calculado.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-008</td>
+    <td><b>Epic ID</b></td><td>EP09</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Servicio de notificaciones push</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar un servicio de notificaciones push que envíe alertas de actividades, recordatorios y logros a los dispositivos registrados, para soportar las funcionalidades de alertas de la plataforma.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>El servicio soporta el registro de tokens de dispositivo (FCM para Android, APNs para iOS).</li>
+        <li>Las notificaciones se envían para: nuevos retos disponibles, recordatorios de materiales pendientes, desbloqueo de insignias y resumen semanal de progreso.</li>
+        <li>El usuario puede habilitar/deshabilitar categorías de notificaciones desde su perfil.</li>
+        <li>Las preferencias de notificación se persisten en base de datos y se respetan en cada envío.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-009</td>
+    <td><b>Epic ID</b></td><td>EP011</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de resumen y edición de perfil</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/user/{userId}, GET /api/v1/user_cosmetic y POST /api/v1/user_cosmetic, para permitir la consulta del resumen del perfil y el registro de cosméticos seleccionados por el usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/user/{userId} retorna los datos principales del usuario, incluyendo nombre, ecopoints, gemas y racha.</li>
+        <li>GET /api/v1/user_cosmetic retorna los cosméticos asociados a los perfiles de usuario.</li>
+        <li>GET /api/v1/user_cosmetic/{userCosmeticId} retorna el detalle de un cosmético asignado a un usuario.</li>
+        <li>POST /api/v1/user_cosmetic registra un nuevo cosmético dentro del perfil del usuario cuando corresponde.</li>
+        <li>La respuesta permite refrescar el resumen visual del perfil sin modificar las tablas anteriores del sistema.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-010</td>
+    <td><b>Epic ID</b></td><td>EP011</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de progreso del perfil</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/quest-users/user/{userId}/status/{status}, GET /api/v1/activity-users/quest-user/{questUserId} y GET /api/v1/gem_movement, para exponer el avance del usuario dentro de su perfil.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/quest-users/user/{userId}/status/{status} retorna los retos del usuario filtrados por estado.</li>
+        <li>GET /api/v1/activity-users/quest-user/{questUserId} retorna las actividades asociadas a un reto asignado.</li>
+        <li>GET /api/v1/activity-users/quest-user/{questUserId}/activity/{activityId} retorna el avance de una actividad específica.</li>
+        <li>GET /api/v1/gem_movement permite consultar movimientos de gemas relacionados con recompensas obtenidas.</li>
+        <li>La información obtenida permite construir el resumen de progreso del perfil con actividades, retos y recompensas.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-011</td>
+    <td><b>Epic ID</b></td><td>EP011</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de familia y amigos del perfil</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/family, GET /api/v1/family_user y GET /api/v1/friend, para exponer la familia y amigos vinculados al perfil del usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/family retorna las familias registradas en el sistema.</li>
+        <li>GET /api/v1/family_user permite identificar los usuarios asociados a cada grupo familiar.</li>
+        <li>GET /api/v1/friend retorna las relaciones de amistad registradas para mostrar contactos del usuario.</li>
+        <li>La respuesta permite diferenciar miembros familiares y amigos dentro de la vista de perfil.</li>
+        <li>Si no existen relaciones registradas, la interfaz muestra estados vacíos sin interrumpir la navegación del usuario.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-012</td>
+    <td><b>Epic ID</b></td><td>EP012</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de interacción comunitaria</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/community/posts, POST /api/v1/community/posts y DELETE /api/v1/community/posts/{id}, para gestionar publicaciones dentro de la comunidad.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/community/posts retorna las publicaciones comunitarias disponibles.</li>
+        <li>POST /api/v1/community/posts permite crear una nueva publicación asociada a la comunidad.</li>
+        <li>DELETE /api/v1/community/posts/{id} permite eliminar una publicación existente cuando corresponde.</li>
+        <li>La respuesta incluye información suficiente para actualizar el muro comunitario.</li>
+        <li>Si no existen publicaciones, el sistema retorna una lista vacía para mostrar un estado inicial en la comunidad.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-013</td>
+    <td><b>Epic ID</b></td><td>EP012</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de eventos comunitarios y participación</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/community/events, POST /api/v1/community/events, GET /api/v1/community/events/{eventId}/registrations y POST /api/v1/community/events/{eventId}/registrations, para listar eventos ambientales y registrar la participación de los usuarios.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/community/events retorna los eventos comunitarios disponibles.</li>
+        <li>POST /api/v1/community/events permite crear un nuevo evento comunitario.</li>
+        <li>GET /api/v1/community/events/{eventId}/registrations retorna las inscripciones registradas para un evento.</li>
+        <li>POST /api/v1/community/events/{eventId}/registrations registra la participación de un usuario en el evento.</li>
+        <li>PATCH /api/v1/community/events/{eventId}/registrations/{registrationId}/cancel permite cancelar una inscripción existente.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-014</td>
+    <td><b>Epic ID</b></td><td>EP013</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de catálogo y compra de cosméticos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/cosmetic, GET /api/v1/cosmetic/{cosmeticId}, GET /api/v1/user_cosmetic y POST /api/v1/user_cosmetic, para exponer el catálogo de cosméticos y registrar cosméticos adquiridos por el usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/cosmetic retorna todos los cosméticos disponibles en el catálogo.</li>
+        <li>GET /api/v1/cosmetic/{cosmeticId} retorna el detalle de un cosmético específico.</li>
+        <li>GET /api/v1/user_cosmetic retorna los cosméticos asociados a usuarios.</li>
+        <li>POST /api/v1/user_cosmetic registra un nuevo cosmético adquirido por el usuario.</li>
+        <li>La respuesta permite actualizar el inventario visual del usuario dentro del perfil.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-015</td>
+    <td><b>Epic ID</b></td><td>EP013</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de compra de gemas</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/gem_purchase, POST /api/v1/gem_purchase, GET /api/v1/gem_movement, POST /api/v1/gem_movement y GET /api/v1/multiplier, para registrar compras de gemas y exponer los potenciadores disponibles.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/gem_purchase retorna todas las compras de gemas registradas.</li>
+        <li>POST /api/v1/gem_purchase permite crear una nueva compra de gemas.</li>
+        <li>GET /api/v1/gem_movement retorna los movimientos de gemas asociados a compras o recompensas.</li>
+        <li>POST /api/v1/gem_movement registra un nuevo movimiento de gemas cuando la compra se completa.</li>
+        <li>GET /api/v1/multiplier retorna los multiplicadores disponibles para mostrarlos como potenciadores dentro de la tienda.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-016</td>
+    <td><b>Epic ID</b></td><td>EP09</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de notificaciones del usuario</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/notification, POST /api/v1/notification, PATCH /api/v1/notification/{notificationId}/read, PATCH /api/v1/notification/read-all y GET /api/v1/notification/unread-count, para registrar, consultar y gestionar las notificaciones del usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/notification retorna las notificaciones asociadas al usuario.</li>
+        <li>POST /api/v1/notification permite crear una nueva notificación para recordatorios, logros, retos diarios o eventos comunitarios.</li>
+        <li>PATCH /api/v1/notification/{notificationId}/read marca una notificación específica como leída.</li>
+        <li>PATCH /api/v1/notification/read-all marca todas las notificaciones del usuario como leídas.</li>
+        <li>GET /api/v1/notification/unread-count retorna la cantidad de notificaciones no leídas.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>Technical Story ID</b></td><td>TS-017</td>
+    <td><b>Epic ID</b></td><td>EP010</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Endpoint de materiales de aprendizaje</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como desarrollador backend, necesito implementar los endpoints GET /api/v1/educational-materials, GET /api/v1/educational-materials/{materialId}, POST /api/v1/educational-materials, PUT /api/v1/educational-materials/{materialId}, DELETE /api/v1/educational-materials/{materialId}, POST /api/v1/educational-materials/{materialId}/favorite y GET /api/v1/educational-materials/search, para gestionar materiales educativos dentro de la plataforma.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b>
+      <ol>
+        <li>GET /api/v1/educational-materials retorna todos los materiales educativos registrados.</li>
+        <li>GET /api/v1/educational-materials/{materialId} retorna el detalle de un material educativo por identificador.</li>
+        <li>POST /api/v1/educational-materials permite crear un nuevo material educativo.</li>
+        <li>PUT /api/v1/educational-materials/{materialId} actualiza la información de un material educativo existente.</li>
+        <li>DELETE /api/v1/educational-materials/{materialId} elimina un material educativo cuando corresponde.</li>
+        <li>POST /api/v1/educational-materials/{materialId}/favorite permite marcar o desmarcar un material como favorito.</li>
+        <li>GET /api/v1/educational-materials/search permite buscar materiales educativos según criterios definidos.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+### User Stories
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-001</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Miniactividad guiada con indicaciones</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero completar miniactividades guiadas con indicaciones claras, para aprender de forma entretenida dentro de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Ver miniactividad<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante se encuentra en el menú principal,</li>
+        <li><b>Cuando</b> elige una miniactividad,</li>
+        <li><b>Entonces</b> la aplicación le muestra un resumen de la miniactividad.</li>
+      </ul>
+      <b>Escenario 2:</b> Iniciar miniactividad<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante está viendo una miniactividad,</li>
+        <li><b>Cuando</b> elige "iniciar actividad",</li>
+        <li><b>Entonces</b> la aplicación marca la miniactividad como activa,</li>
+        <li><b>Y</b> muestra un mensaje motivador de inicio.</li>
+      </ul>
+      <b>Escenario 3:</b> Miniactividad completada correctamente<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante inicia una miniactividad y sigue todas las indicaciones mostradas en la pantalla,</li>
+        <li><b>Cuando</b> registra que realizó cada paso correctamente,</li>
+        <li><b>Entonces</b> la aplicación aprueba su trabajo,</li>
+        <li><b>Y</b> muestra un mensaje motivador al finalizar.</li>
+      </ul>
+      <b>Escenario 4:</b> Miniactividad incompleta<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante inicia una miniactividad y omite algunas indicaciones,</li>
+        <li><b>Cuando</b> el estudiante intenta finalizar la miniactividad,</li>
+        <li><b>Entonces</b> la aplicación no permite marcar como completado</li>
+      </ul>
+      <b>Escenario 5:</b> Eliminar miniactividad<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante se encuentra en la sección de actividades activas y elige una miniactividad,</li>
+        <li><b>Cuando</b> selecciona "eliminar actividad" y confirma su selección,</li>
+        <li><b>Entonces</b> el sistema elimina la miniactividad de las actividades activas del usuario.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-002</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Reto ambiental diario</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero realizar un reto ambiental diario en casa o escuela, para aplicar lo aprendido fuera de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Reto diario completado con éxito<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante realiza el reto diario y cumple las indicaciones establecidas,</li>
+        <li><b>Cuando</b> registra su resultado,</li>
+        <li><b>Entonces</b> la aplicación valida la acción,</li>
+        <li><b>Y</b> muestra un reconocimiento visual o puntos obtenidos.</li>
+      </ul>
+      <b>Escenario 2:</b> Actualización del reto diario<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante no realiza el reto diario,</li>
+        <li><b>Cuando</b> el tiempo establecido caduca,</li>
+        <li><b>Entonces</b> la aplicación cambia el reto diario.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-003</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Rachas por completar retos diarios</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que mi racha aumente al completar un reto diario, para motivarme a mantener hábitos sostenibles de forma constante.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Incremento de racha al completar un reto diario<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante tiene un reto diario asignado,</li>
+        <li><b>Cuando</b> completa el reto diario por primera vez en el día,</li>
+        <li><b>Entonces</b> la aplicación incrementa su racha en una unidad.</li>
+      </ul>
+      <b>Escenario 2:</b> Restricción de incremento una vez por día<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ya incrementó su racha durante el día actual,</li>
+        <li><b>Cuando</b> completa otro reto el mismo día,</li>
+        <li><b>Entonces</b> la aplicación mantiene el valor de la racha sin incrementarlo nuevamente.</li>
+      </ul>
+      <b>Escenario 3:</b> Visualización de racha actualizada<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante completó un reto diario correctamente,</li>
+        <li><b>Cuando</b> regresa al panel principal de retos,</li>
+        <li><b>Entonces</b> la aplicación muestra la racha actualizada del usuario.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-004</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Sistema de puntos por aprendizaje</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero obtener puntos al completar actividades, para mantener mi motivación dentro de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Puntos brindados exitosamente<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante culmina una actividad exitosamente,</li>
+        <li><b>Entonces</b> el sistema le brindará el puntaje correspondiente a la actividad,</li>
+        <li><b>Y</b> lo actualizará en el sistema.</li>
+      </ul>
+      <b>Escenario 2:</b> Problema en brindado de puntaje<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante culmina alguna actividad,</li>
+        <li><b>Cuando</b> el sistema presenta un problema al asignar el puntaje,</li>
+        <li><b>Entonces</b> el sistema mostrará un mensaje de error,</li>
+        <li><b>Y</b> deshará la culminación de la actividad.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-005</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Reconocimiento por constancia</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero recibir reconocimientos al completar varias actividades seguidas, para reforzar mi compromiso con el aprendizaje.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Bono de puntos por constancia<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante entra de forma diaria a la aplicación y ha culminado exitosamente sus actividades,</li>
+        <li><b>Cuando</b> llegue a 7 días seguidos,</li>
+        <li><b>Entonces</b> el sistema le brindará un bono de puntos incremental por semana.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-006</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Establecimiento de compromiso</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero establecer compromisos individuales, para mantenerme constante.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Agregar compromisos<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra en su perfil de usuario y selecciona "Agregar compromiso",</li>
+        <li><b>Cuando</b> registra su compromiso y valida su elección,</li>
+        <li><b>Entonces</b> la aplicación agrega su compromiso al perfil del usuario.</li>
+      </ul>
+      <b>Escenario 2:</b> Editar compromisos<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra en su perfil y hace tap/click en su compromiso y lo selecciona,</li>
+        <li><b>Cuando</b> edita el compromiso y valida su elección,</li>
+        <li><b>Entonces</b> la aplicación edita el compromiso seleccionado.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-007</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Seguimiento de progreso</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero ver mi progreso de actividades iniciadas, para saber cuánto he avanzado en ellas.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Ver el progreso de actividades<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario está en el menú principal,</li>
+        <li><b>Cuando</b> el usuario selecciona "Progreso",</li>
+        <li><b>Entonces</b> el sistema mostrará una lista con todas las actividades iniciadas y el progreso de cada una.</li>
+      </ul>
+      <b>Escenario 2:</b> No hay actividades<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario está en el menú principal,</li>
+        <li><b>Cuando</b> el usuario selecciona "Actividades activas",</li>
+        <li><b>Entonces</b> el sistema mostrará el mensaje: "No tienes ninguna actividad activa".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-008</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Animaciones de logro</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero ver animaciones motivadoras al aprobar una actividad, para sentir satisfacción por mi esfuerzo.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Animación por actividad exitosa<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante selecciona una actividad,</li>
+        <li><b>Cuando</b> la realiza de forma exitosa,</li>
+        <li><b>Entonces</b> el sistema mostrará una animación especial de celebración.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-009</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Ranking educativo</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero ver un ranking de los mejores puntajes, para compararme de forma sana con otros usuarios.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Ver Ranking<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario ha realizado alguna actividad en la última semana,</li>
+        <li><b>Cuando</b> el usuario selecciona el "Ranking",</li>
+        <li><b>Entonces</b> el sistema mostrará el ranking de puntos de la comunidad y amigos del usuario,</li>
+        <li><b>Y</b> la posición del usuario.</li>
+      </ul>
+      <b>Escenario 2:</b> Impedimento de acceso al ranking<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario no ha realizado alguna actividad,</li>
+        <li><b>Cuando</b> el usuario selecciona el "Ranking",</li>
+        <li><b>Entonces</b> el sistema mostrará el mensaje: "Para acceder al ranking debes realizar una actividad!".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-010</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Desafío entre compañeros</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero realizar actividades en conjunto con mis amigos, para aprender y divertirnos al mismo tiempo.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Invitar a un amigo a una actividad en conjunto<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante inicia una actividad, selecciona la opción de invitar amigo y no sobrepasa la cantidad de usuarios máximos,</li>
+        <li><b>Cuando</b> el estudiante elija a un amigo y confirma la elección,</li>
+        <li><b>Entonces</b> el sistema enviará la invitación de actividad en conjunto al amigo seleccionado.</li>
+      </ul>
+      <b>Escenario 2:</b> Aceptar invitación de actividad en conjunto<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante recibe una invitación,</li>
+        <li><b>Cuando</b> el estudiante acepta la invitación y la invitación sigue siendo válida,</li>
+        <li><b>Entonces</b> el sistema inscribirá al estudiante a la actividad en conjunto.</li>
+      </ul>
+      <b>Escenario 3:</b> Rechazar invitación<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante recibe una invitación,</li>
+        <li><b>Cuando</b> el estudiante deniega la invitación,</li>
+        <li><b>Entonces</b> el sistema desechará la invitación a la actividad en conjunto.</li>
+      </ul>
+      <b>Escenario 4:</b> Iniciar actividad en conjunto<br/>
+      <ul>
+        <li><b>Dado que</b> el organizador de la actividad invitó a sus amigos,</li>
+        <li><b>Cuando</b> el organizador seleccione "iniciar actividad",</li>
+        <li><b>Entonces</b> el sistema iniciará la actividad para todos los usuarios inscritos.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-011</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Colección de medallas</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero ganar medallas al superar retos, para sentir orgullo por mis logros.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Obtención de medalla<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante halla culminado una sección o realizado una actividad importante,</li>
+        <li><b>Cuando</b> el sistema registre su cumplimiento,</li>
+        <li><b>Entonces</b> el sistema le brindará al estudiante una medalla relacionada.</li>
+      </ul>
+      <b>Escenario 2:</b> Ver medallas<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante está en su perfil,</li>
+        <li><b>Cuando</b> seleccione "Medallas y logros",</li>
+        <li><b>Entonces</b> el sistema mostrará la lista de medallas del estudiante.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-012</td>
+    <td><b>Epic ID</b></td><td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Historial de aprendizaje</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero revisar mi historial de actividades completadas, para repasar contenido de mi progreso.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Ver Historial de aprendizaje<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ingresa al sistema y selecciona la sección de perfil,</li>
+        <li><b>Cuando</b> seleccione la opción de "Ver progreso",</li>
+        <li><b>Entonces</b> el sistema mostrará todas las actividades completadas y pendientes hasta el momento.</li>
+      </ul>
+      <b>Escenario 2:</b> Historial vacío<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ingresa al sistema y selecciona la sección de perfil,</li>
+        <li><b>Cuando</b> seleccione la opción de "Ver progreso",</li>
+        <li><b>Entonces</b> el sistema mostrará el mensaje: "No has completado ninguna actividad. ¡Empieza una!".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-013</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Reto familiar en casa</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero realizar retos ambientales en casa junto a mi familia, para fortalecer nuestros hábitos sostenibles.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Publicación correcta de retos familiares<br/>
+      <ul>
+        <li><b>Dado que</b> el padre ingresa al sistema,</li>
+        <li><b>Cuando</b> seleccione la opción de retos en familia,</li>
+        <li><b>Entonces</b> el sistema mostrará una lista de retos familiares ordenados por dificultad.</li>
+      </ul>
+      <b>Escenario 2:</b> Fallo en publicación de retos familiares<br/>
+      <ul>
+        <li><b>Dado que</b> el padre ingresa al sistema,</li>
+        <li><b>Cuando</b> seleccione la opción de retos en familia,</li>
+        <li><b>Entonces</b> el sistema mostrará una sección sin retos,</li>
+        <li><b>Y</b> mostrará un aviso de que no hay retos disponibles.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-014</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Evento familiar en comunidad</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero participar con mi familia en eventos de la comunidad, para fomentar el trabajo en equipo.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Inscribirse en eventos de la comunidad<br/>
+      <ul>
+        <li><b>Dado que</b> el padre se encuentra en la pantalla principal y tiene activado el GPS,</li>
+        <li><b>Cuando</b> seleccione la opción de eventos de comunidad y elija una opción de la lista,</li>
+        <li><b>Entonces</b> el sistema registrará al grupo familiar del usuario en el evento de la comunidad.</li>
+      </ul>
+      <b>Escenario 2:</b> Cancelar inscripción<br/>
+      <ul>
+        <li><b>Dado que</b> el padre está inscrito en un evento de la comunidad y se encuentra en la sección eventos,</li>
+        <li><b>Cuando</b> el padre seleccione eliminar evento y confirme la selección,</li>
+        <li><b>Entonces</b> el sistema eliminará al grupo familiar del evento de la comunidad.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-015</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Registro de logros familiares</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero registrar los logros de mi familia en la aplicación, para dar seguimiento a nuestras acciones.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Registro exitoso de logro familiar<br/>
+      <ul>
+        <li><b>Dado que</b> el padre completó una actividad ambiental con su familia,</li>
+        <li><b>Cuando</b> acceda a la sección de logros familiares,</li>
+        <li><b>Entonces</b> el sistema mostrará los logros del historial familiar.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-016</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Premios por colaboración familiar</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero que la aplicación premie nuestras acciones conjuntas, para mantenernos motivados.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Obtención de premio por colaboración<br/>
+      <ul>
+        <li><b>Dado que</b> el padre registra una serie de retos conjuntos completados,</li>
+        <li><b>Cuando</b> alcancen el umbral establecido,</li>
+        <li><b>Entonces</b> el sistema otorgará una insignia familiar especial,</li>
+        <li><b>Y</b> mostrará una animación de celebración.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-017</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Planificación de retos familiares</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero planificar nuestras actividades ambientales desde la aplicación, para organizarnos mejor.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Agregar plan de retos familiar<br/>
+      <ul>
+        <li><b>Dado que</b> el padre entra a la sección de retos familiares y selecciona "generar plan de actividades",</li>
+        <li><b>Cuando</b> seleccione retos entre los disponibles y añada los integrantes participantes,</li>
+        <li><b>Entonces</b> el sistema registrará las actividades en un plan y lo guardará en el perfil de padre.</li>
+      </ul>
+      <b>Escenario 2:</b> Editar reto familiar<br/>
+      <ul>
+        <li><b>Dado que</b> el padre ha creado un plan familiar y se encuentra en "Mis planes familiares",</li>
+        <li><b>Cuando</b> seleccione "Editar plan" y edite las actividades o integrantes,</li>
+        <li><b>Entonces</b> el sistema actualizará las actividades en el plan y lo guardará.</li>
+      </ul>
+      <b>Escenario 3:</b> Eliminar reto familiar<br/>
+      <ul>
+        <li><b>Dado que</b> el padre ha creado un plan familiar personalizado,</li>
+        <li><b>Cuando</b> seleccione "Eliminar plan familiar" y confirme su elección,</li>
+        <li><b>Entonces</b> el sistema eliminará el plan familiar.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-018</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Alertas de eventos comunitarios para padres</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero recibir alertas únicamente sobre eventos de la comunidad, para estar informado de oportunidades de participación familiar.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Recibir alerta de evento comunitario<br/>
+      <ul>
+        <li><b>Dado que</b> existe un evento comunitario disponible para familias y el padre tiene las notificaciones activadas,</li>
+        <li><b>Cuando</b> el sistema publique o actualice el evento comunitario,</li>
+        <li><b>Entonces</b> el padre recibirá una alerta con la información principal del evento.</li>
+      </ul>
+      <b>Escenario 2:</b> Alertas solo para padres<br/>
+      <ul>
+        <li><b>Dado que</b> un estudiante y un padre pertenecen a la plataforma,</li>
+        <li><b>Cuando</b> se genere una alerta de evento comunitario para familias,</li>
+        <li><b>Entonces</b> el sistema enviará la alerta únicamente al perfil del padre.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-019</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Agregar integrantes a la familia</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero crear mi grupo familiar para realizar actividades en conjunto y revisar la actividad de mis hijos.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Agregar integrante familiar<br/>
+      <ul>
+        <li><b>Dado que</b> el padre está en su perfil y selecciona "Familia",</li>
+        <li><b>Cuando</b> selecciona "Agregar" y elige a un amigo,</li>
+        <li><b>Entonces</b> el sistema envía una invitación de familia al usuario seleccionado.</li>
+      </ul>
+      <b>Escenario 2:</b> Eliminar un integrante familiar<br/>
+      <ul>
+        <li><b>Dado que</b> el padre está en la sección "Familia" y selecciona "ver perfil" del integrante,</li>
+        <li><b>Cuando</b> selecciona eliminar,</li>
+        <li><b>Entonces</b> el sistema elimina al usuario seleccionado del grupo familiar.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-020</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Felicitación de logros familiares</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero que la aplicación muestre una animación al cumplir un reto en familia, para generar alegría y unión.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Mostrar animación al completar reto exitosamente<br/>
+      <ul>
+        <li><b>Dado que</b> el padre se encuentra en la aplicación y ha cumplido todas las actividades del reto en curso,</li>
+        <li><b>Cuando</b> el padre registra el reto como finalizado,</li>
+        <li><b>Entonces</b> la aplicación muestra una animación de felicitación en la pantalla.</li>
+      </ul>
+      <b>Escenario 2:</b> Reto no completado<br/>
+      <ul>
+        <li><b>Dado que</b> el padre se encuentra en la aplicación y no ha cumplido todas las actividades,</li>
+        <li><b>Cuando</b> el padre registra el reto como finalizado,</li>
+        <li><b>Entonces</b> la aplicación muestra un mensaje "Reto no finalizado",</li>
+        <li><b>Y</b> no muestra ninguna animación.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-021</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Reportes de progreso familiares</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero recibir reportes visuales del progreso familiar, para analizar cómo estamos mejorando juntos.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Generación automática de reportes familiares exitosa<br/>
+      <ul>
+        <li><b>Dado que</b> el padre realiza retos en la aplicación,</li>
+        <li><b>Cuando</b> se completa al menos un reto en un período semanal,</li>
+        <li><b>Entonces</b> la aplicación genera un reporte visual del progreso familiar,</li>
+        <li><b>Y</b> muestra la cantidad de retos cumplidos y logros obtenidos.</li>
+      </ul>
+      <b>Escenario 2:</b> Generación de reporte no exitosa<br/>
+      <ul>
+        <li><b>Dado que</b> el padre no ha completado ningún reto en el período semanal,</li>
+        <li><b>Cuando</b> la aplicación intenta generar el reporte,</li>
+        <li><b>Entonces</b> la aplicación muestra el mensaje "No hay datos suficientes para generar un reporte esta semana",</li>
+        <li><b>Y</b> no genera los datos.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-022</td>
+    <td><b>Epic ID</b></td><td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Ranking de familias</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero ver el ranking de familias participantes, para motivarnos con una competencia saludable.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Visualizar ranking general de familias<br/>
+      <ul>
+        <li><b>Dado que</b> el padre accede a la sección "Ranking de familias",</li>
+        <li><b>Cuando</b> la aplicación carga la información,</li>
+        <li><b>Entonces</b> la aplicación muestra un listado ordenado de familias según su puntaje,</li>
+        <li><b>Y</b> presenta la posición actual de la familia.</li>
+      </ul>
+      <b>Escenario 2:</b> Actualización automática del ranking<br/>
+      <ul>
+        <li><b>Dado que</b> la familia ha completado un reto,</li>
+        <li><b>Cuando</b> se valida el reto como cumplido,</li>
+        <li><b>Entonces</b> el puntaje de la familia se actualiza en el ranking,</li>
+        <li><b>Y</b> la nueva posición se refleja en tiempo real.</li>
+      </ul>
+      <b>Escenario 3:</b> Sin datos disponibles<br/>
+      <ul>
+        <li><b>Dado que</b> el padre accede a la sección "Ranking de familias",</li>
+        <li><b>Cuando</b> la aplicación no tiene datos de progreso de otras familias,</li>
+        <li><b>Entonces</b> la aplicación muestra el mensaje "No hay información disponible".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-023</td>
+    <td><b>Epic ID</b></td><td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Guía simplificada</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero acceder a materiales didacticos, para entender conceptos ambientales sin dificultad.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Acceso a material exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ha iniciado sesión correctamente,</li>
+        <li><b>Cuando</b> selecciona la opción "Aprende más" en el menú principal,</li>
+        <li><b>Entonces</b> la aplicación muestra un listado de materiales y permite al estudiante elegir la que desea consultar.</li>
+      </ul>
+      <b>Escenario 2:</b> Visualización del contenido simplificado<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante selecciona un material del listado,</li>
+        <li><b>Cuando</b> accede al contenido </li>
+        <li><b>Entonces</b> la aplicación muestra el material solicitado de manera maximixada.</li>
+      </ul>
+      <b>Escenario 3:</b> Acceso a material no exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> no existen materiales cargados </li>
+        <li><b>Cuando</b> el estudiante selecciona "Aprende más",</li>
+        <li><b>Entonces</b> la aplicación muestra el mensaje "No hay guías disponibles en este momento".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-024</td>
+    <td><b>Epic ID</b></td><td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Tutorial paso a paso</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero seguir tutoriales paso a paso dentro de la aplicación, para aprender cómo usarla correctamente.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Finalización correcta del tutorial<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra en un tutorial ,</li>
+        <li><b>Cuando</b> marca como completado cada paso en el orden indicado,</li>
+        <li><b>Entonces</b> la aplicación muestra el siguiente paso automáticamente,</li>
+        <li><b>Y</b> al finalizar el último paso muestra un mensaje de confirmación.</li>
+      </ul>
+      <b>Escenario 2:</b> Intento de saltar pasos<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante se encuentra en un tutorial,</li>
+        <li><b>Cuando</b> intenta completar un paso posterior sin haber marcado los anteriores,</li>
+        <li><b>Entonces</b> la aplicación muestra un mensaje indicando pasos pendientes,</li>
+        <li><b>Y</b> impide avanzar hasta que se completen.</li>
+      </ul>
+      <b>Escenario 3:</b> Iniciar Tutorial<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se registro,</li>
+        <li><b>Cuando</b> es su primera sesión,</li>
+        <li><b>Entonces</b> la aplicación inicia un tutorial de bienvenida,</li>
+        <li><b>Y</b> impide avanzar hasta que lo complete.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-025</td>
+    <td><b>Epic ID</b></td><td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Recordatorios educativos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero recibir recordatorios en la aplicación de materiales pendientes, para no olvidarme de revisarlos.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Recordatorio de material pendiente exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante tiene materiales pendientes,</li>
+        <li><b>Cuando</b> se acerca la fecha de recordatorio,</li>
+        <li><b>Entonces</b> la aplicación muestra una notificación en la pantalla principal con el nombre del material y el tiempo restante.</li>
+      </ul>
+      <b>Escenario 2:</b> Acceso al material desde la notificación<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante recibe una notificación de material,</li>
+        <li><b>Cuando</b> hace clic en la notificación,</li>
+        <li><b>Entonces</b> la aplicación abre directamente el contenido del material pendiente,</li>
+        <li><b>Y</b> actualiza el estado de visualización si el estudiante lo revisa.</li>
+      </ul>
+      <b>Escenario 3:</b> Notificaciones deshabilitadas<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante tiene las notificaciones deshabilitadas,</li>
+        <li><b>Cuando</b> se alcanza la fecha de envío del recordatorio,</li>
+        <li><b>Entonces</b> la aplicación muestra un mensaje de advertencia en la sección "Materiales pendientes" indicando que las notificaciones están deshabilitadas.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-026</td>
+    <td><b>Epic ID</b></td><td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Contenido breve y claro</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que la información sea breve y clara, para mantener mi atención mientras aprendo.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Visualización de contenido breve y claro exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a un tema en la aplicación,</li>
+        <li><b>Cuando</b> la información se carga,</li>
+        <li><b>Entonces</b> la aplicación muestra el contenido en un formato breve con frases claras y directas.</li>
+      </ul>
+      <b>Escenario 2:</b> Inclusión de ejemplos<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a un tema,</li>
+        <li><b>Cuando</b> la aplicación explica un concepto ambiental,</li>
+        <li><b>Entonces</b> acompaña la información con un ejemplo práctico y resalta las ideas clave.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-027</td>
+    <td><b>Epic ID</b></td><td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Videos explicativos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero ver videos explicativos dentro de la aplicación, para reforzar lo que leo en las guías.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Reproducción exitosa<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a los materiales,</li>
+        <li><b>Cuando</b> selecciona un video,</li>
+        <li><b>Entonces</b> la aplicación abre el reproductor y reproduce el video desde el inicio.</li>
+      </ul>
+      <b>Escenario 2:</b> Video no disponible<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a un video y el archivo no está disponible,</li>
+        <li><b>Entonces</b> la aplicación muestra "Este video no está disponible" y no inicia la reproducción.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-028</td>
+    <td><b>Epic ID</b></td><td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Lenguaje sencillo</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que el contenido esté en lenguaje sencillo, para comprenderlo fácilmente.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Contenido en lenguaje sencillo exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a un tema,</li>
+        <li><b>Cuando</b> la aplicación carga la información,</li>
+        <li><b>Entonces</b> muestra el contenido en lenguaje claro y sencillo.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-029</td>
+    <td><b>Epic ID</b></td><td>EP10</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Avatares y comesticos personalizables</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero personalizar mi avatar con comesticos para diferenciarme de otros usuarios. </td>
+  </tr>
+  <tr>
+  <td colspan="4">
+  <b>Criterios de aceptación:</b><br/><br/>
+
+  <b>Escenario 1:</b> Obtención de avatares y cosméticos por compra<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario accede a la tienda de avatares y cosméticos y tiene gemas suficiente,</li>
+    <li><b>Cuando</b> selecciona un avatar o cosmético disponible y confirma la compra,</li>
+    <li><b>Entonces</b> la aplicación procesa la compra, descuenta el saldo y agrega el ítem a su inventario.</li>
+  </ul>
+
+  <b>Escenario 2:</b> Obtención de avatares y cosméticos por logro<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario cumple las condiciones de un logro asociado a un avatar o cosmético,</li>
+    <li><b>Cuando</b> el logro es desbloqueado,</li>
+    <li><b>Entonces</b> la aplicación otorga automáticamente la recompensa y la agrega al inventario del usuario.</li>
+  </ul>
+
+  <b>Escenario 3:</b> Compra fallida por saldo insuficiente<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario accede a la tienda de avatares y cosméticos y no tiene saldo suficiente,</li>
+    <li><b>Cuando</b> intenta comprar un avatar o cosmético,</li>
+    <li><b>Entonces</b> la aplicación rechaza la compra y muestra un mensaje indicando que no cuenta con saldo suficiente.</li>
+  </ul>
+
+  <b>Escenario 4:</b> Equipamiento exitoso de cosmético<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario tiene avatares o cosméticos disponibles en su inventario,</li>
+    <li><b>Cuando</b> selecciona un cosmético para equiparlo,</li>
+    <li><b>Entonces</b> la aplicación actualiza la apariencia del avatar con el elemento seleccionado.</li>
+  </ul>
+
+  <b>Escenario 5:</b> Equipamiento fallido de cosmético no obtenido<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario no posee el avatar o cosmético en su inventario,</li>
+    <li><b>Cuando</b> intenta equiparlo,</li>
+    <li><b>Entonces</b> la aplicación impide la acción y muestra un mensaje indicando que debe obtenerlo primero.</li>
+  </ul>
+
+  <b>Escenario 6:</b> Visualización de avatares y cosméticos disponibles<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario accede a la tienda o al inventario,</li>
+    <li><b>Cuando</b> ingresa a la sección de avatares y cosméticos,</li>
+    <li><b>Entonces</b> la aplicación muestra los elementos disponibles, obtenidos y equipados según corresponda.</li>
+  </ul>
+
+  <b>Escenario 7:</b> Intento de obtener un ítem ya desbloqueado<br/>
+  <ul>
+    <li><b>Dado que</b> el usuario ya posee un avatar o cosmético en su inventario,</li>
+    <li><b>Cuando</b> intenta obtener nuevamente el mismo ítem,</li>
+    <li><b>Entonces</b> la aplicación informa que el ítem ya fue obtenido y evita duplicarlo.</li>
+  </ul>
+</td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-030</td>
+    <td><b>Epic ID</b></td><td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Preguntas frecuentes</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero acceder a una sección de preguntas frecuentes, para resolver mis dudas rápidamente.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Acceso exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante está en la aplicación,</li>
+        <li><b>Cuando</b> selecciona "Preguntas frecuentes",</li>
+        <li><b>Entonces</b> la aplicación muestra una lista organizada por categorías.</li>
+      </ul>
+      <b>Escenario 2:</b> Ver respuesta a una pregunta<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante está en la sección de preguntas frecuentes,</li>
+        <li><b>Cuando</b> selecciona una pregunta,</li>
+        <li><b>Entonces</b> la aplicación muestra la respuesta y permite regresar al listado.</li>
+      </ul>
+      <b>Escenario 3:</b> Sin datos cargados<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a "Preguntas frecuentes" sin datos cargados,</li>
+        <li><b>Entonces</b> la aplicación muestra "No hay preguntas frecuentes disponibles".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-031</td>
+    <td><b>Epic ID</b></td><td>EP10</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Multiplicador de XP</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">
+      Como usuario, quiero comprar un multiplicador de XP, para aumentar la experiencia obtenida en mis actividades.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Compra exitosa de multiplicador<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario ha iniciado sesión y tiene las gemas suficientes,</li>
+        <li><b>Cuando</b> selecciona un multiplicador de XP y confirma la compra,</li>
+        <li><b>Entonces</b> el sistema procesa la compra, descuenta el saldo y activa el multiplicador.</li>
+      </ul>
+      <b>Escenario 2:</b> Compra fallida por saldo insuficiente<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario no tiene saldo suficiente,</li>
+        <li><b>Cuando</b> intenta comprar un multiplicador de XP,</li>
+        <li><b>Entonces</b> el sistema rechaza la compra y muestra el mensaje "Gemas insuficientes".</li>
+      </ul>
+      <b>Escenario 3:</b> Aplicación del multiplicador de XP<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario tiene un multiplicador de XP activo,</li>
+        <li><b>Cuando</b> completa una actividad,</li>
+        <li><b>Entonces</b> el sistema incrementa la experiencia obtenida según el multiplicador activo.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-032</td>
+    <td><b>Epic ID</b></td><td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Infografías resumen</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero acceder a infografías que resuman la información de cada actividad, para entender de manera rápida y visual el contenido.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Acceso exitoso a infografías<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ha iniciado sesión,</li>
+        <li><b>Cuando</b> selecciona "Resúmenes" > "Infografías",</li>
+        <li><b>Entonces</b> el sistema mostrará un listado de infografías ordenadas por secciones.</li>
+      </ul>
+      <b>Escenario 2:</b> Sin infografías disponibles<br/>
+      <ul>
+        <li><b>Dado que</b> no hay infografías cargadas,</li>
+        <li><b>Entonces</b> el sistema mostrará el mensaje "No hay infografías disponibles".</li>
+      </ul>
+      <b>Escenario 3:</b> Contenido atractivo<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante selecciona una infografía específica,</li>
+        <li><b>Entonces</b> el sistema la mostrará en tamaño completo con visuales simples y atractivos.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-033</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Compartir logros ambientales</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero compartir mis logros ambientales en la comunidad de la aplicación, para inspirar a otros usuarios.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Publicación correcta<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante completó exitosamente una actividad o reto,</li>
+        <li><b>Cuando</b> seleccione "Compartir en comunidad",</li>
+        <li><b>Entonces</b> el sistema creará una publicación con imagen del logro, descripción y puntos obtenidos,</li>
+        <li><b>Y</b> la mostrará en el feed comunitario,</li>
+        <li><b>Y</b> notificará a sus amigos conectados.</li>
+      </ul>
+      <b>Escenario 2:</b> Error de publicación<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante intenta compartir un logro y ocurre un error de conexión,</li>
+        <li><b>Cuando</b> selecciona la opción para publicar el logro,</li>
+        <li><b>Entonces</b> el sistema mostrará un mensaje de error, guardará la publicación como borrador y permitirá reintentarlo.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-034</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Reaccionar a publicaciones</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero reaccionar a las publicaciones de otros, para mostrar mi apoyo y reconocimiento.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Reacción a publicaciones de terceros<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante visualiza el feed de la comunidad,</li>
+        <li><b>Cuando</b> seleccione un icono de reacción en una publicación,</li>
+        <li><b>Entonces</b> el sistema registrará la reacción, actualizará el contador y notificará al autor.</li>
+      </ul>
+      <b>Escenario 2:</b> Cancelar reacción<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ya reaccionó a una publicación,</li>
+        <li><b>Cuando</b> seleccione nuevamente el mismo icono,</li>
+        <li><b>Entonces</b> el sistema cancelará la reacción y actualizará el contador.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-035</td>
+    <td><b>Epic ID</b></td><td>EP10</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Compra y obtención de gemas</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero obtener gemas mediante compras con dinero real o completando retos y misiones diarias, para utilizarlas dentro de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Compra exitosa de gemas<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario ha iniciado sesión y selecciona un paquete de gemas,</li>
+        <li><b>Cuando</b> realiza el pago con dinero real y este es aprobado,</li>
+        <li><b>Entonces</b> el sistema acredita las gemas en su cuenta.</li>
+      </ul>
+      <b>Escenario 2:</b> Compra fallida de gemas<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario intenta comprar un paquete de gemas,</li>
+        <li><b>Cuando</b> el pago es rechazado o falla,</li>
+        <li><b>Entonces</b> el sistema no acredita gemas y muestra un mensaje de error.</li>
+      </ul>
+      <b>Escenario 3:</b> Obtención de gemas por retos o misiones<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario completa un reto o misión diaria,</li>
+        <li><b>Cuando</b> se cumplen las condiciones de recompensa,</li>
+        <li><b>Entonces</b> el sistema otorga automáticamente gemas al usuario.</li>
+      </ul>
+      <b>Escenario 4:</b> Visualización de gemas disponibles<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario accede a su perfil o panel principal,</li>
+        <li><b>Cuando</b> consulta su saldo de gemas,</li>
+        <li><b>Entonces</b> el sistema muestra la cantidad actual de gemas disponibles.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-036</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Ranking comunitario</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero ver un ranking de usuarios en mi comunidad, para mantener la motivación en los retos.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Visualización del ranking semanal<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a la sección de comunidad y selecciona "Ranking",</li>
+        <li><b>Cuando</b> solicita consultar la clasificación semanal,</li>
+        <li><b>Entonces</b> el sistema mostrará un top 20 de estudiantes con más puntos de la semana, destacando la posición del usuario actual.</li>
+      </ul>
+      <b>Escenario 2:</b> Filtros en el ranking<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante visualiza el ranking,</li>
+        <li><b>Cuando</b> seleccione filtros de tiempo (diario, semanal, mensual, histórico),</li>
+        <li><b>Entonces</b> el sistema actualizará la lista según el periodo seleccionado.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-037</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Eventos ambientales</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero participar en eventos ambientales comunitarios desde la aplicación, para sentir la participación comunitaria.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Inscripción exitosa a un evento<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a la sección de eventos y confirma su participación en un evento disponible,</li>
+        <li><b>Cuando</b> selecciona la opción "Inscribirme" y confirma la inscripción,</li>
+        <li><b>Entonces</b> el sistema registrará su inscripción, lo agregará al chat grupal temporal del evento, enviará una notificación con sus detalles y lo agregará al calendario personal de la aplicación.</li>
+      </ul>
+      <b>Escenario 2:</b> Cancelación de inscripción<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante está inscrito en un evento y cancela con al menos 12 horas de anticipación,</li>
+        <li><b>Cuando</b> selecciona la opción "Cancelar inscripción" y confirma la acción,</li>
+        <li><b>Entonces</b> el sistema eliminará su inscripción, liberará el cupo y enviará confirmación de cancelación.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-038</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Panel de logros compartidos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero consultar un panel con los logros más destacados, para inspirarme en los avances de otros.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Consultar panel de logros destacados<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante se encuentra en la sección "Comunidad",</li>
+        <li><b>Cuando</b> seleccione "Logros de la comunidad",</li>
+        <li><b>Entonces</b> el sistema le mostrará una lista con los logros más destacados de los usuarios de la comunidad.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-039</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Invitar a amigos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero enviar solicitudes de amistad para compartir experiencias de aprendizaje.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Invitación enviada correctamente<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante selecciona "Invitar amigos" y elige contactos o genera un código de invitación,</li>
+        <li><b>Cuando</b> confirma el envío de la invitación,</li>
+        <li><b>Entonces</b> el sistema enviará la invitación y otorgará puntos bonus por cada amigo que se una.</li>
+      </ul>
+      <b>Escenario 2:</b> Invitación rechazada<br/>
+      <ul>
+        <li><b>Dado que</b> el amigo rechaza o ignora la invitación después de 48 horas,</li>
+        <li><b>Cuando</b> finaliza el plazo de respuesta de la invitación,</li>
+        <li><b>Entonces</b> el sistema notificará al estudiante y permitirá enviar una nueva invitación después de 7 días.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-040</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Felicitación de logros comunitarios</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que la aplicación felicite logros colectivos, para sentir orgullo por lo que logramos como comunidad.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Felicitación al alcanzar meta colectiva<br/>
+      <ul>
+        <li><b>Dado que</b> la comunidad alcanza una meta colectiva,</li>
+        <li><b>Cuando</b> el sistema detecte el cumplimiento del objetivo,</li>
+        <li><b>Entonces</b> mostrará una animación especial, publicará un anuncio en el feed y otorgará una insignia conmemorativa a todos los participantes.</li>
+      </ul>
+      <b>Escenario 2:</b> Progreso de la meta comunitaria<br/>
+      <ul>
+        <li><b>Dado que</b> la comunidad trabaja hacia un objetivo colectivo,</li>
+        <li><b>Cuando</b> los estudiantes accedan a la sección de comunidad,</li>
+        <li><b>Entonces</b> el sistema mostrará una barra de progreso y enviará notificaciones motivadoras al alcanzar hitos intermedios (25%, 50%, 75%).</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-041</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Puntaje decreciente por repetición de minijuegos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que al repetir un minijuego el puntaje obtenido disminuya progresivamente hasta llegar a 0, para motivarme a practicar nuevos retos y evitar acumular puntos por repetir la misma actividad.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Primera finalización del minijuego<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante inicia un minijuego que aún no ha completado,</li>
+        <li><b>Cuando</b> finalice el minijuego correctamente,</li>
+        <li><b>Entonces</b> el sistema otorgará el puntaje completo definido para esa actividad.</li>
+      </ul>
+      <b>Escenario 2:</b> Repetición del minijuego<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ya completó previamente un minijuego,</li>
+        <li><b>Cuando</b> vuelva a completarlo,</li>
+        <li><b>Entonces</b> el sistema calculará un puntaje menor que el obtenido en la finalización anterior.</li>
+      </ul>
+      <b>Escenario 3:</b> Puntaje agotado por repetición<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante repitió el mismo minijuego varias veces hasta agotar su valor de recompensa,</li>
+        <li><b>Cuando</b> lo complete nuevamente,</li>
+        <li><b>Entonces</b> el sistema otorgará 0 puntos y mostrará un mensaje indicando que debe practicar otros minijuegos para seguir sumando puntaje.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-042</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Multiplataforma</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que la aplicación funcione en distintos dispositivos, para mantener mi experiencia fluida.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Compatibilidad entre dispositivos<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante inicia sesión desde distintos dispositivos,</li>
+        <li><b>Entonces</b> el sistema adapta la interfaz a cada tipo de pantalla y conserva la misma funcionalidad.</li>
+      </ul>
+      <b>Escenario 2:</b> Continuidad de sesión<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante utiliza varios dispositivos,</li>
+        <li><b>Cuando</b> cambia de uno a otro,</li>
+        <li><b>Entonces</b> la aplicación mantiene el estado de su sesión y permite continuar desde el mismo punto.</li>
+      </ul>
+      <b>Escenario 3:</b> Error de sincronización<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante alterna entre dispositivos sin conexión estable,</li>
+        <li><b>Entonces</b> el sistema detecta la falta de sincronización y muestra un mensaje informando que la actualización se completará al reconectarse.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-043</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Carga rápida</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que la aplicación cargue en menos de 2 segundos entre pestañas, para acceder ágilmente a mis actividades.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Respuesta inmediata<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede al sistema y realiza una acción,</li>
+        <li><b>Cuando</b> envía la solicitud,</li>
+        <li><b>Entonces</b> el sistema realiza la acción en menos de 2 segundos.</li>
+      </ul>
+      <b>Escenario 2:</b> Respuesta lenta<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede al sistema y realiza una acción,</li>
+        <li><b>Cuando</b> el sistema demora más de 3 segundos,</li>
+        <li><b>Entonces</b> el sistema muestra un indicador de carga y un mensaje de espera.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-044</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Interfaz simple</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que la interfaz de la aplicación sea simple, para navegar sin dificultad.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Interfaz clara y comprensible<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante accede a la aplicación,</li>
+        <li><b>Cuando</b> navega entre las diferentes secciones,</li>
+        <li><b>Entonces</b> los botones, menús e íconos se muestran de forma clara y ordenada.</li>
+      </ul>
+      <b>Escenario 2:</b> Diseño confuso o sobrecargado<br/>
+      <ul>
+        <li><b>Dado que</b> el diseño presenta muchos elementos innecesarios,</li>
+        <li><b>Entonces</b> el sistema simplifica la visualización y muestra mensajes de ayuda para orientar al usuario.</li>
+      </ul>
+      <b>Escenario 3:</b> Adaptabilidad de la interfaz<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante utiliza diferentes dispositivos,</li>
+        <li><b>Entonces</b> la interfaz mantiene su estructura simple y ajusta automáticamente los tamaños y posiciones de los elementos.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-045</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Disponibilidad 24/7</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que la aplicación esté disponible las 24 horas del día y 7 días de la semana, para poder realizar mis retos o acceder a información en cualquier momento.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Plataforma disponible 24/7<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante necesite revisar información o realizar un reto,</li>
+        <li><b>Cuando</b> accede a la aplicación en cualquier horario del día,</li>
+        <li><b>Entonces</b> el sistema carga y funciona correctamente.</li>
+      </ul>
+      <b>Escenario 2:</b> Error de disponibilidad<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante intenta acceder y hay un fallo del sistema,</li>
+        <li><b>Entonces</b> el sistema muestra un error detallado explicando el problema.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-046</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Seguridad y Datos Personales</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que mis datos personales estén protegidos mediante cifrado para evitar filtraciones o mal uso.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Datos de usuarios protegidos<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante ingresa sus datos personales,</li>
+        <li><b>Cuando</b> guarda o consulta su información,</li>
+        <li><b>Entonces</b> esta se almacena de forma cifrada y solo usuarios autorizados pueden acceder.</li>
+      </ul>
+      <b>Escenario 2:</b> Vulneración de datos<br/>
+      <ul>
+        <li><b>Dado que</b> se detecta un error desconocido guardando los datos,</li>
+        <li><b>Entonces</b> el sistema borra los datos del usuario, los recupera de la copia de seguridad e informa al usuario del error.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-047</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Soporte técnico</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero contar con soporte técnico dentro de la aplicación, para resolver problemas fácilmente.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Soporte disponible<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante presenta un problema y accede a la sección de soporte técnico,</li>
+        <li><b>Entonces</b> el sistema muestra opciones de ayuda, chat en vivo o centro de preguntas frecuentes.</li>
+      </ul>
+      <b>Escenario 2:</b> Soporte no disponible<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante necesita soporte fuera del horario de atención,</li>
+        <li><b>Entonces</b> el sistema muestra un mensaje de no disponibilidad y ofrece dejar un ticket o correo para recibir respuesta posterior.</li>
+      </ul>
+      <b>Escenario 3:</b> Retroalimentación del soporte<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante recibe atención técnica,</li>
+        <li><b>Cuando</b> finaliza la conversación,</li>
+        <li><b>Entonces</b> el sistema permite calificar la atención recibida y registra la evaluación.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-048</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Visualización de eventos de la comunidad en mapa</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero ver eventos de la comunidad cercanos en un mapa, para participar en actividades cercanas a mi ubicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Visualización de eventos en mapa<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario accede a la pantalla de comunidad,</li>
+        <li><b>Cuando</b> ingresa a la sección de eventos de la comunidad,</li>
+        <li><b>Entonces</b> el sistema muestra un mapa con los eventos cercanos a su ubicación.</li>
+      </ul>
+      <b>Escenario 2:</b> Visualización de detalle de evento<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario visualiza el mapa con eventos,</li>
+        <li><b>Cuando</b> selecciona un evento en el mapa,</li>
+        <li><b>Entonces</b> el sistema muestra la información detallada del evento.</li>
+      </ul>
+      <b>Escenario 3:</b> Sin eventos cercanos<br/>
+      <ul>
+        <li><b>Dado que</b> no existen eventos de la comunidad cercanos a la ubicación del usuario,</li>
+        <li><b>Cuando</b> consulta los eventos disponibles en el mapa,</li>
+        <li><b>Entonces</b> el sistema muestra el mensaje "No hay eventos cercanos disponibles".</li>
+      </ul>
+      <b>Escenario 4:</b> Error de ubicación<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario no otorga permisos de ubicación o hay un error al obtenerla,</li>
+        <li><b>Cuando</b> intenta acceder al mapa de eventos,</li>
+        <li><b>Entonces</b> el sistema muestra un mensaje solicitando habilitar la ubicación.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-049</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Sincronización automática</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que la aplicación sincronice mis datos automáticamente, para no perder mi progreso.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Sincronización exitosa<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante actualiza sus datos,</li>
+        <li><b>Cuando</b> la aplicación detecta conexión a internet,</li>
+        <li><b>Entonces</b> sincroniza automáticamente la información con la nube y confirma que los datos fueron guardados.</li>
+      </ul>
+      <b>Escenario 2:</b> Sincronización fallida<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante usa la aplicación sin conexión,</li>
+        <li><b>Entonces</b> el sistema almacena los datos localmente y los sincroniza al restablecer la conexión.</li>
+      </ul>
+      <b>Escenario 3:</b> Conflicto de datos<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante usa varios dispositivos y se detectan diferencias en la información,</li>
+        <li><b>Entonces</b> el sistema muestra una notificación del conflicto y solicita al usuario elegir qué versión conservar.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-050</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Optimización de recursos</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero que la aplicación use pocos recursos, para que funcione correctamente en cualquier dispositivo.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Uso eficiente de recursos<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante usa la aplicación en un dispositivo con baja capacidad,</li>
+        <li><b>Entonces</b> el sistema gestiona los procesos de forma optimizada y evita el consumo excesivo de memoria o batería.</li>
+      </ul>
+      <b>Escenario 2:</b> Detección de sobrecarga<br/>
+      <ul>
+        <li><b>Dado que</b> el sistema identifica un uso alto de recursos,</li>
+        <li><b>Entonces</b> reduce las animaciones o efectos visuales para mantener la estabilidad.</li>
+      </ul>
+      <b>Escenario 3:</b> Modo de bajo consumo<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante activa el modo de ahorro de energía,</li>
+        <li><b>Entonces</b> el sistema limita funciones no esenciales y prioriza las tareas principales.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-051</td>
+    <td><b>Epic ID</b></td><td>EP06</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Información descriptiva clara</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como visitante, quiero que la información presentada sobre las funcionalidades disponibles se encuentre de forma sencilla, para que pueda ser entendible.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Visualización de información<br/>
+      <ul>
+        <li><b>Dado que</b> el visitante accede a la landing page,</li>
+        <li><b>Cuando</b> se encuentre en la sección inicial,</li>
+        <li><b>Entonces</b> el sistema mostrará una breve descripción de las funcionalidades, del equipo de desarrollo e imágenes descriptivas.</li>
+      </ul>
+      <b>Escenario 2:</b> Información sobrecargada<br/>
+      <ul>
+        <li><b>Dado que</b> la landing page presenta información no concisa o excesiva,</li>
+        <li><b>Entonces</b> el sistema debe presentar la información de manera concisa y ordenada.</li>
+      </ul>
+      <b>Escenario 3:</b> Error en carga de información<br/>
+      <ul>
+        <li><b>Dado que</b> el sistema no puede cargar la información necesaria,</li>
+        <li><b>Entonces</b> mostrará el mensaje: "Hubo un fallo en la carga de información".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-052</td>
+    <td><b>Epic ID</b></td><td>EP06</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Consejos de uso para padres</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como padre, quiero visualizar recomendaciones de uso de la aplicación, para familiarizarme de mejor forma a manejarla.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Visualización de consejos para padres<br/>
+      <ul>
+        <li><b>Dado que</b> el padre accede a la landing page,</li>
+        <li><b>Cuando</b> seleccione la sección "Guía para padres",</li>
+        <li><b>Entonces</b> el sistema mostrará una breve descripción de aspectos de la aplicación, los materiales disponibles y una lista de consejos de uso.</li>
+      </ul>
+      <b>Escenario 2:</b> Error en carga<br/>
+      <ul>
+        <li><b>Dado que</b> el sistema no puede cargar la sección,</li>
+        <li><b>Entonces</b> mostrará el mensaje: "Hubo un fallo en la carga de información".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-053</td>
+    <td><b>Epic ID</b></td><td>EP06</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Preguntas frecuentes en landing page</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como visitante, quiero visualizar una sección de preguntas frecuentes sobre la aplicación en la landing page, para contar con un conocimiento básico de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Acceso a preguntas frecuentes<br/>
+      <ul>
+        <li><b>Dado que</b> el visitante se encuentra en la landing page,</li>
+        <li><b>Cuando</b> presione "Preguntas frecuentes",</li>
+        <li><b>Entonces</b> el sistema redirige a la sección y muestra una lista de preguntas con sus respuestas.</li>
+      </ul>
+      <b>Escenario 2:</b> Error en acceso<br/>
+      <ul>
+        <li><b>Dado que</b> el visitante presiona "Preguntas frecuentes",</li>
+        <li><b>Cuando</b> hay un fallo de navegación,</li>
+        <li><b>Entonces</b> el sistema no redirige a ningún lado.</li>
+      </ul>
+      <b>Escenario 3:</b> Error en carga<br/>
+      <ul>
+        <li><b>Dado que</b> el sistema redirige correctamente pero falla al cargar las preguntas,</li>
+        <li><b>Entonces</b> mostrará el mensaje: "Hubo un fallo en la carga de información".</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-054</td>
+    <td><b>Epic ID</b></td><td>EP06</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Información de la comunidad</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como visitante, quiero visualizar información de la sección de comunidad en la landing page, para conocer de qué formas puedo interactuar con otras personas dentro de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Acceso a la sección "Comunidad"<br/>
+      <ul>
+        <li><b>Dado que</b> el visitante se encuentra en la landing page,</li>
+        <li><b>Cuando</b> selecciona la opción "Comunidad" o hace scroll hacia esa sección,</li>
+        <li><b>Entonces</b> el sistema muestra la sección con una descripción general e indicadores de impacto.</li>
+      </ul>
+      <b>Escenario 2:</b> Interacción y logros comunitarios<br/>
+      <ul>
+        <li><b>Dado que</b> el visitante revisa el bloque "¿Qué puedes hacer en la comunidad?",</li>
+        <li><b>Entonces</b> el sistema muestra el mensaje "Comparte tus logros" y explica cómo celebrar logros con otras familias.</li>
+      </ul>
+      <b>Escenario 3:</b> Testimonios y motivación<br/>
+      <ul>
+        <li><b>Dado que</b> el visitante llega al final de la sección,</li>
+        <li><b>Entonces</b> el sistema muestra testimonios con nombre, rol y ubicación de los usuarios.</li>
+      </ul>
+      <b>Escenario 4:</b> Error de carga<br/>
+      <ul>
+        <li><b>Dado que</b> ocurre un error al obtener los datos,</li>
+        <li><b>Entonces</b> el sistema muestra el mensaje: "Hubo un fallo en la carga de información."</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-055</td>
+    <td><b>Epic ID</b></td><td>EP06</td>
+  </tr>
+
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Redirección a registro de cuenta</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">
+      Como visitante, quiero poder ser redirigido desde la landing page hacia la pantalla de registro de cuenta, para crear mi cuenta y así participar en las actividades de la plataforma.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Acceso desde el botón principal<br/>
+      <ul>
+        <li><b>Dado que</b> el visitante se encuentra en la landing page,</li>
+        <li><b>Cuando</b> hace clic en el botón "Únete ahora",</li>
+        <li><b>Entonces</b> el sistema redirige automáticamente al formulario de registro.</li>
+      </ul>
+      <b>Escenario 2:</b> Redirección desde menú de navegación<br/>
+      <ul>
+        <li><b>Dado que</b> el visitante navega por la página,</li>
+        <li><b>Cuando</b> selecciona "Únete ahora" desde la barra de navegación,</li>
+        <li><b>Entonces</b> el sistema lo lleva al formulario de registro.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-056</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Registro de usuario</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataform como estudiante o padre, para acceder a funcionalidades personalizadas de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Registro exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra en la pantalla de registro,</li>
+        <li><b>Y</b> completa correctamente los campos "Name", "Email address", "Password" y selecciona un rol ("Padre" o "Estudiante"),</li>
+        <li><b>Cuando</b> selecciona el botón "Sign up",</li>
+        <li><b>Entonces</b> el sistema valida la información ingresada,</li>
+        <li><b>Y</b> crea la cuenta exitosamente con el rol seleccionado,</li>
+        <li><b>Y</b> redirige al usuario al panel principal de la aplicación.</li>
+      </ul>
+      <b>Escenario 2:</b> Error en el registro<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario deja campos obligatorios vacíos o ingresa un correo previamente registrado,</li>
+        <li><b>Cuando</b> intenta completar el registro,</li>
+        <li><b>Entonces</b> el sistema muestra mensajes de validación indicando los errores encontrados,</li>
+        <li><b>Y</b> evita que la cuenta sea creada hasta corregir la información.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-057</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Inicio de sesión</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario registrado, quiero autenticarme en el sistema mediante la validación de mis credenciales únicas (correo electrónico y contraseña), para establecer una sesión segua.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Inicio de sesión exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario posee una cuenta registrada en la plataforma,</li>
+        <li><b>Cuando</b> ingresa correctamente su correo y contraseña,</li>
+        <li><b>Entonces</b> el sistema valida las credenciales,</li>
+        <li><b>Y</b> brinda acceso a la aplicación,</li>
+        <li><b>Y</b> redirige al usuario al panel principal.</li>
+      </ul>
+      <b>Escenario 2:</b> Error en el inicio de sesión<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario ingresa credenciales inválidas o deja campos vacíos,</li>
+        <li><b>Cuando</b> intenta iniciar sesión,</li>
+        <li><b>Entonces</b> el sistema muestra mensajes de validación indicando los errores encontrados,</li>
+        <li><b>Y</b> evita el acceso a la plataforma.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-058</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Recuperación de contraseña</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero iniciar el protocolo de recuperación de credenciales mediante mi dirección de correo electrónico vinculada, para volver a acceder a mi cuenta.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Envío de enlace de recuperación<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra en la pantalla de inicio de sesión,</li>
+        <li><b>Cuando</b> selecciona la opción "Forgot password?" e ingresa su correo registrado,</li>
+        <li><b>Entonces</b> el sistema envía un enlace de recuperación al correo electrónico del usuario.</li>
+      </ul>
+      <b>Escenario 2:</b> Correo no registrado<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario ingresa un correo que no existe en la plataforma,</li>
+        <li><b>Cuando</b> solicita recuperar su contraseña,</li>
+        <li><b>Entonces</b> el sistema informa que el correo ingresado no se encuentra registrado.</li>
+      </ul>
+      <b>Escenario 3:</b> Restablecimiento exitoso de contraseña<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario accede al enlace de recuperación enviado a su correo,</li>
+        <li><b>Cuando</b> ingresa y confirma una nueva contraseña válida,</li>
+        <li><b>Entonces</b> el sistema actualiza la contraseña y permite iniciar sesión nuevamente.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-059</td>
+    <td><b>Epic ID</b></td><td>EP07</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Cierre de sesión</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero ejecutar la finalización de mi sesión activa mediante la opción de "Log out, para proteger mi información personal en la plataforma.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Cierre de sesión exitoso<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario se encuentra autenticado en la plataforma,</li>
+        <li><b>Cuando</b> selecciona la opción "Log out",</li>
+        <li><b>Entonces</b> el sistema finaliza la sesión activa,</li>
+        <li><b>Y</b> redirige al usuario a la pantalla de inicio de sesión.</li>
+      </ul>
+      <b>Escenario 2:</b> Restricción de acceso tras cerrar sesión<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario cerró sesión correctamente,</li>
+        <li><b>Cuando</b> intenta acceder nuevamente a una pantalla protegida desde la aplicación,</li>
+        <li><b>Entonces</b> el sistema solicita iniciar sesión nuevamente antes de permitir el acceso.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-060</td>
+    <td><b>Epic ID</b></td><td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Inscripción a una comunidad local cercana</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como usuario, quiero elegir una comunidad local cercana la primera vez que accedo a la sección Comunidad, para mantenerme al tanto de las actividades de mi entorno.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Comunidades locales disponibles<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario accede por primera vez a la sección Comunidad y ha concedido permiso de ubicación,</li>
+        <li><b>Cuando</b> la aplicación consulta las comunidades locales cercanas,</li>
+        <li><b>Entonces</b> muestra un listado ordenado por proximidad para que el usuario elija una comunidad.</li>
+      </ul>
+      <b>Escenario 2:</b> Selección de comunidad local<br/>
+      <ul>
+        <li><b>Dado que</b> la aplicación muestra comunidades locales cercanas,</li>
+        <li><b>Cuando</b> el usuario selecciona una comunidad y confirma su elección,</li>
+        <li><b>Entonces</b> la aplicación registra su inscripción y muestra el contenido de la comunidad seleccionada.</li>
+      </ul>
+      <b>Escenario 3:</b> Ubicación no disponible<br/>
+      <ul>
+        <li><b>Dado que</b> el usuario accede por primera vez a Comunidad y no ha concedido permiso de ubicación,</li>
+        <li><b>Cuando</b> intenta buscar una comunidad local cercana,</li>
+        <li><b>Entonces</b> la aplicación solicita habilitar la ubicación y ofrece reintentar la búsqueda.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr><td><b>User Story ID</b></td><td>HU-061</td><td><b>Epic ID</b></td><td>EP04</td></tr>
+  <tr><td><b>Título</b></td><td colspan="3">Creación de comunidades personalizadas</td></tr>
+  <tr><td><b>Descripción</b></td><td colspan="3">Como padre, quiero crear una comunidad sobre un tópico específico, para encontrar y motivar a personas con intereses en común.</td></tr>
+  <tr><td colspan="4"><b>Criterios de aceptación:</b><br/><br/>
+    <b>Escenario 1:</b> Creación exitosa de comunidad<br/>
+    <ul><li><b>Dado que</b> el padre se encuentra autenticado,</li><li><b>Cuando</b> registra el nombre, tópico, descripción y ubicación de la comunidad y confirma la acción,</li><li><b>Entonces</b> la aplicación valida los datos, crea la comunidad y asigna al padre como administrador.</li></ul>
+    <b>Escenario 2:</b> Datos incompletos<br/>
+    <ul><li><b>Dado que</b> el padre intenta crear una comunidad,</li><li><b>Cuando</b> deja campos obligatorios vacíos o no selecciona un tópico válido,</li><li><b>Entonces</b> la aplicación muestra los errores correspondientes y no crea la comunidad.</li></ul>
+  </td></tr>
+</table>
+
+<table align="center">
+  <tr><td><b>User Story ID</b></td><td>HU-062</td><td><b>Epic ID</b></td><td>EP04</td></tr>
+  <tr><td><b>Título</b></td><td colspan="3">Inscripción a comunidades personalizadas</td></tr>
+  <tr><td><b>Descripción</b></td><td colspan="3">Como usuario, quiero inscribirme en comunidades de tópicos específicos, para interactuar con personas afines y conocer sus actividades.</td></tr>
+  <tr><td colspan="4"><b>Criterios de aceptación:</b><br/><br/>
+    <b>Escenario 1:</b> Inscripción exitosa<br/>
+    <ul><li><b>Dado que</b> el usuario consulta comunidades personalizadas disponibles,</li><li><b>Cuando</b> selecciona una comunidad y confirma la opción "Inscribirme",</li><li><b>Entonces</b> la aplicación registra su inscripción y le permite acceder al contenido y actividades de la comunidad.</li></ul>
+    <b>Escenario 2:</b> Comunidad no disponible<br/>
+    <ul><li><b>Dado que</b> el usuario intenta inscribirse en una comunidad que alcanzó su límite o dejó de estar disponible,</li><li><b>Cuando</b> confirma la inscripción,</li><li><b>Entonces</b> la aplicación informa el motivo y no registra la inscripción.</li></ul>
+  </td></tr>
+</table>
+
+<table align="center">
+  <tr><td><b>User Story ID</b></td><td>HU-063</td><td><b>Epic ID</b></td><td>EP04</td></tr>
+  <tr><td><b>Título</b></td><td colspan="3">Creación de meta comunitaria</td></tr>
+  <tr><td><b>Descripción</b></td><td colspan="3">Como padre administrador de una comunidad, quiero crear una meta comunitaria a partir de opciones estandarizadas de la aplicación, para obtener recompensas y motivar la participación de la comunidad.</td></tr>
+  <tr><td colspan="4"><b>Criterios de aceptación:</b><br/><br/>
+    <b>Escenario 1:</b> Creación de meta estandarizada<br/>
+    <ul><li><b>Dado que</b> el padre es administrador de una comunidad,</li><li><b>Cuando</b> selecciona un tópico y una meta disponible del catálogo, </li><li><b>Entonces</b> la aplicación crea la meta con su tópico, periodo, recompensa y cantidad objetivo calculada según el número de miembros inscritos en la comunidad.</li></ul>
+    <b>Escenario 2:</b> Meta no válida<br/>
+    <ul><li><b>Dado que</b> el padre intenta crear una meta comunitaria,</li><li><b>Cuando</b> no existe una opción estandarizada compatible o la comunidad ya tiene una meta activa del mismo tópico,</li><li><b>Entonces</b> la aplicación informa la restricción y no crea una meta duplicada.</li></ul>
+  </td></tr>
+</table>
+
+<table align="center">
+  <tr><td><b>User Story ID</b></td><td>HU-064</td><td><b>Epic ID</b></td><td>EP04</td></tr>
+  <tr><td><b>Título</b></td><td colspan="3">Inscripción a meta comunitaria</td></tr>
+  <tr><td><b>Descripción</b></td><td colspan="3">Como padre o niño miembro de una comunidad, quiero inscribirme en metas comunitarias disponibles, para obtener recompensas y aumentar mi interacción con la comunidad.</td></tr>
+  <tr><td colspan="4"><b>Criterios de aceptación:</b><br/><br/>
+    <b>Escenario 1:</b> Inscripción válida<br/>
+    <ul><li><b>Dado que</b> el usuario pertenece a una comunidad, tiene una racha de al menos 5 días y tiene menos de 3 metas activas,</li><li><b>Cuando</b> selecciona una meta comunitaria disponible y confirma su inscripción,</li><li><b>Entonces</b> la aplicación registra su participación y muestra el progreso de la meta.</li></ul>
+    <b>Escenario 2:</b> Límite de metas alcanzado<br/>
+    <ul><li><b>Dado que</b> el usuario ya está inscrito en 3 metas comunitarias activas,</li><li><b>Cuando</b> intenta inscribirse en una cuarta meta,</li><li><b>Entonces</b> la aplicación rechaza la inscripción e informa que debe finalizar una meta activa antes de participar en otra.</li></ul>
+    <b>Escenario 3:</b> Racha insuficiente<br/>
+    <ul><li><b>Dado que</b> el usuario pertenece a la comunidad, pero su racha actual es menor a 5 días,</li><li><b>Cuando</b> intenta inscribirse en una meta comunitaria,</li><li><b>Entonces</b> la aplicación informa que necesita una racha mínima de 5 días y no registra la inscripción.</li></ul>
+  </td></tr>
+</table>
+
+<table align="center">
+  <tr><td><b>User Story ID</b></td><td>HU-065</td><td><b>Epic ID</b></td><td>EP04</td></tr>
+  <tr><td><b>Título</b></td><td colspan="3">Creación de chat temporal de evento</td></tr>
+  <tr><td><b>Descripción</b></td><td colspan="3">Como padre, quiero que al terminar la creación de mi evento se cree un chat grupal temporal, para coordinar con los futuros participantes.</td></tr>
+  <tr><td colspan="4"><b>Criterios de aceptación:</b><br/><br/>
+    <b>Escenario 1:</b> Chat creado al publicar el evento<br/>
+    <ul><li><b>Dado que</b> el padre ha completado los datos obligatorios de un evento comunitario,</li><li><b>Cuando</b> confirma la creación y publicación del evento,</li><li><b>Entonces</b> la aplicación crea un chat grupal temporal asociado exclusivamente a ese evento y agrega al padre como administrador.</li></ul>
+    <b>Escenario 2:</b> Acceso de participantes inscritos<br/>
+    <ul><li><b>Dado que</b> existe un chat grupal temporal asociado a un evento,</li><li><b>Cuando</b> un usuario confirma su inscripción al evento,</li><li><b>Entonces</b> la aplicación lo agrega automáticamente al chat grupal de ese evento específico.</li></ul>
+    <b>Escenario 3:</b> Cierre del chat<br/>
+    <ul><li><b>Dado que</b> el evento asociado al chat ha finalizado,</li><li><b>Cuando</b> termina el periodo definido para la actividad,</li><li><b>Entonces</b> la aplicación cierra el chat para nuevos mensajes y conserva su historial para los participantes.</li></ul>
+  </td></tr>
+</table>
+
+<table align="center">
+  <tr><td><b>User Story ID</b></td><td>HU-067</td><td><b>Epic ID</b></td><td>EP04</td></tr>
+  <tr><td><b>Título</b></td><td colspan="3">Selección de comunidad de preferencia</td></tr>
+  <tr><td><b>Descripción</b></td><td colspan="3">Como usuario, quiero elegir qué comunidad consultar al entrar a la sección Comunidad, para mantener ordenado el contenido de las comunidades a las que pertenezco.</td></tr>
+  <tr><td colspan="4"><b>Criterios de aceptación:</b><br/><br/>
+    <b>Escenario 1:</b> Listado de comunidades inscritas<br/>
+    <ul><li><b>Dado que</b> el usuario pertenece a más de una comunidad,</li><li><b>Cuando</b> abre la sección Comunidad,</li><li><b>Entonces</b> la aplicación muestra el listado de comunidades en las que está inscrito.</li></ul>
+    <b>Escenario 2:</b> Acceso a una comunidad seleccionada<br/>
+    <ul><li><b>Dado que</b> la aplicación muestra el listado de comunidades inscritas,</li><li><b>Cuando</b> el usuario selecciona una comunidad,</li><li><b>Entonces</b> la aplicación muestra el feed, eventos, metas y demás contenido de esa comunidad.</li></ul>
+    <b>Escenario 3:</b> Única comunidad inscrita<br/>
+    <ul><li><b>Dado que</b> el usuario solo pertenece a una comunidad local,</li><li><b>Cuando</b> abre la sección Comunidad,</li><li><b>Entonces</b> la aplicación muestra directamente el detalle de esa comunidad sin solicitar una selección.</li></ul>
+  </td></tr>
+</table>
+
+<table align="center">
+  <tr><td><b>User Story ID</b></td><td>HU-068</td><td><b>Epic ID</b></td><td>EP04</td></tr>
+  <tr><td><b>Título</b></td><td colspan="3">Protector de racha</td></tr>
+  <tr><td><b>Descripción</b></td><td colspan="3">Como usuario, quiero adquirir protectores para mi racha actual, para evitar perder mi progreso y mantener mi motivación.</td></tr>
+  <tr><td colspan="4"><b>Criterios de aceptación:</b><br/><br/>
+    <b>Escenario 1:</b> Adquisición exitosa de protector<br/>
+    <ul><li><b>Dado que</b> el usuario tiene una racha activa y suficientes gemas,</li><li><b>Cuando</b> selecciona un protector y confirma la adquisición,</li><li><b>Entonces</b> la aplicación descuenta el costo y agrega el protector a su inventario.</li></ul>
+    <b>Escenario 2:</b> Uso automático del protector<br/>
+    <ul><li><b>Dado que</b> el usuario tiene un protector disponible en su inventario y no completa el reto diario,</li><li><b>Cuando</b> finaliza el día sin registrar la actividad requerida,</li><li><b>Entonces</b> la aplicación consume un protector y conserva la racha del usuario.</li></ul>
+    <b>Escenario 3:</b> Saldo insuficiente<br/>
+    <ul><li><b>Dado que</b> el usuario no tiene suficientes gemas para adquirir un protector,</li><li><b>Cuando</b> confirma la compra,</li><li><b>Entonces</b> la aplicación rechaza la operación y muestra el saldo requerido.</li></ul>
+  </td></tr>
+</table>
+
 ### 2.4.2. Impact Mapping
 ### 2.4.3. Product Backlog
 
