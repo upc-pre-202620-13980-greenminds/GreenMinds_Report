@@ -75,7 +75,7 @@ Proyecto <br>
 | 1.0.0    | 06/09/2026     | Katty Philco | docs: agregar Startup Profile <br> docs: añadir antecedentes y problemática  |
 | 1.0.0    | 07/09/2026     | Isabel Aponte   | docs: agregar  competidores <br> docs: agregar estrategias y tacticas <br> docs: agregar segmento objetivo  |
 | 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
-| 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming  |
+| 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
@@ -762,6 +762,92 @@ A partir de los resultados obtenidos en el Big Picture EventStorming, se realiz�
 ![event_Storming](assets/img/figures/EventStorming035.jpg)
 
 #### 2.5.1.1. Candidate Context Discovery
+
+La sesión de *Candidate Context Discovery* tuvo como objetivo revisar y refinar los bounded contexts identificados inicialmente en el EventStorm de EcoMind.Para realizar el proceso se combinaron las técnicas **start-with-simple** y **look-for-pivotal-events**.
+
+Se aplicó **start-with-simple** porque se partió de una división preliminar del dominio y esta fue refinada progresivamente.
+La técnica **look-for-pivotal-events** se utilizó para identificar eventos que evidenciaban cambios de responsabilidad dentro del flujo del negocio.
+
+La sesión tuvo una duración menor a dos horas y se realizó utilizando Miro.
+
+**Propuesta inicial**
+
+Al comienzo de la sesión se contaba con siete bounded contexts candidatos:
+
+- Gestión de usuarios
+- Perfil
+- Retos
+- Comunidad
+- Ranking
+- Preferencias
+- Monetización
+
+Esta división representaba una primera aproximación a las capacidades del sistema. Sin embargo, al revisar los comandos, eventos, actores y reglas de negocio de cada contexto, se encontraron responsabilidades que debían separarse y otras que podían consolidarse.
+
+![IniCandidate](assets/img/figures/Candidate02.png)
+
+*Figura X. Propuesta inicial de bounded contexts del EventStorm.*
+
+**Separación del contexto Learning**
+
+Durante el análisis del bounded context **Retos**, se observó que este concentraba dos responsabilidades diferentes. Por un lado, tenia el cumplimiento de misiones, progreso, misiones colaborativas y planes familiares. Por el otro, incluía funcionalidades relacionadas con la consulta y visualización de materiales educativos.
+
+Se determinó que los materiales educativos poseen un propósito propio: facilitar el aprendizaje del usuario independientemente de su participación en un reto. Además, su contenido, organización y evolución responden a reglas diferentes de las utilizadas para gestionar retos. Por esta razón, se extrajeron de Retos los eventos y funcionalidades relacionados con la consulta de materiales, creando el bounded context **Learning**.
+
+![SecCandidate](assets/img/figures/Candidate01.png)
+
+*Figura X. Separación de Learning a partir del bounded context Retos.*
+
+**Creación del contexto Achievements**
+
+Posteriormente, se identificó que los eventos relacionados con la obtención de logros estaban distribuidos entre distintos bounded contexts. Esto provocaba que la responsabilidad de reconocer el progreso de los usuarios no tuviera un límite claramente definido.
+
+Como primera medida, dichos eventos fueron retirados de los contextos en los que se encontraban y agrupados en un nuevo bounded context denominado **Achievements**. Este contexto se propuso inicialmente como responsable de determinar cuándo un usuario cumplía las condiciones necesarias para obtener un logro y de registrar los reconocimientos alcanzados.
+
+**Integración de Perfil y Preferencias**
+
+También se revisó la separación existente entre los bounded contexts Perfil y Preferencias. Se concluyó que ambos manejaban información directamente asociada con la experiencia individual del usuario. Las preferencias no presentaban reglas ni un ciclo de vida con suficiente independencia para justificar un bounded context separado. Además, mantener esta división habría generado una comunicación constante entre ambos contextos.
+
+Por ello, Perfil absorbió las responsabilidades de Preferencias. Posteriormente, el contexto resultante fue denominado **Users**, encargado de gestionar la información personal, el perfil y las preferencias de cada usuario.
+
+**Creación del contexto Gamification**
+
+Después de crear Achievements, se evaluó su relación con Ranking. Se observó que ambos contextos compartían el mismo propósito de negocio: incentivar la participación y reconocer el progreso de los usuarios dentro de EcoMind.
+
+Ranking administraba las posiciones y puntuaciones obtenidas por los usuarios, mientras que Achievements gestionaba los logros concedidos por alcanzar determinados objetivos. Debido a que ambas capacidades forman parte de una misma estrategia de motivación, mantenerlas separadas podía fragmentar innecesariamente las reglas de gamificación.
+
+En consecuencia, Ranking y Achievements se fusionaron para formar el bounded context Gamification. El nuevo contexto quedó encargado de administrar las puntuaciones, clasificaciones, logros y demás mecanismos de reconocimiento del sistema.
+
+**Renombramiento y consolidación de los contextos**
+
+Como parte del refinamiento, algunos bounded contexts fueron renombrados para representar con mayor precisión sus responsabilidades:
+
+- **Gestión de usuarios** pasó a denominarse **IAM**, ya que su responsabilidad principal corresponde a la gestión de identidad, autenticación y acceso.
+- El contexto resultante de la integración entre Perfil y Preferencias pasó a denominarse **Users**.
+- **Retos** pasó a denominarse **Quests**, quedando enfocado exclusivamente en la gestión de retos.
+- **Ranking** y **Achievements** se consolidaron bajo el nombre **Gamification**.
+- Los demás contextos adoptaron nombres consistentes en inglés: **Monetization**, **Learning** y **Community**.
+
+Es importante distinguir **IAM** de **Users**. IAM gestiona la identidad digital, las credenciales, la autenticación y la autorización, mientras que Users administra la información del perfil y las preferencias personales.
+
+**Resultado final**
+
+Después de analizar, separar y consolidar las distintas responsabilidades, se definieron siete bounded contexts finales:
+
+| Bounded context | Descripción |
+|---|---|
+| IAM | Gestionar la identidad, autenticación, autorización y acceso de los usuarios |
+| Users | Administrar la información del perfil y las preferencias del usuario |
+| Quests | Gestionar la participación y cumplimiento de misiones |
+| Gamification | Gestionar puntuaciones, rankings, logros y mecanismos de reconocimiento |
+| Monetization | Administrar las funcionalidades y reglas relacionadas con la monetización |
+| Learning | Gestionar los materiales educativos y las experiencias de aprendizaje |
+| Community | Gestionar la interacción y participación entre los miembros de la comunidad |
+
+![EndCandidate](assets/img/figures/Candidate03.png)
+
+*Figura X. Resultado final de la sesión de Candidate Context Discovery.*
+
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 
