@@ -75,7 +75,7 @@ Proyecto <br>
 | 1.0.0    | 06/09/2026     | Katty Philco | docs: agregar Startup Profile <br> docs: añadir antecedentes y problemática  |
 | 1.0.0    | 07/09/2026     | Isabel Aponte   | docs: agregar  competidores <br> docs: agregar estrategias y tacticas <br> docs: agregar segmento objetivo  |
 | 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
-| 1.0.0    | 15/09/2026     |  Isabel Aponte  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas  |
+| 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
@@ -730,6 +730,18 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Big Picture EventStorming
+
+El equipo realizó una sesión colaborativa de Big Picture EventStorming para comprender el dominio desde una perspectiva general. Durante esta actividad se identificaron los eventos más relevantes y se organizaron según su secuencia dentro de los principales procesos del negocio. Esto permitió visualizar el happy path, reconocer escenarios alternativos y detectar posibles problemas u oportunidades en el funcionamiento de la plataforma.
+
+**Paso 1: Identificación de eventos.** Se identificaron y organizaron los eventos más importantes que ocurren durante la interacción de los usuarios con la plataforma.
+
+![event_Storming](assets/img/figures/EventStorming01.jpg)
+
+**Paso 2: Organización de los eventos.** Los eventos de dominio identificados se organizaron cronológicamente, comenzando por el happy path, que representa el flujo exitoso principal. Luego, se añadieron escenarios alternativos para mostrar posibles errores, decisiones diferentes y ramificaciones dentro de los procesos de GreenMinds.
+
+![event_Storming2](assets/img/figures/EventStorming020.jpg)
+![event_Storming](assets/img/figures/EventStorming021.jpg)
+
 ### 2.3.6. Ubiquitous Language
 
 ## 2.4. Requirements Specification
@@ -739,6 +751,16 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
+
+A partir de los resultados obtenidos en el Big Picture EventStorming, se realizó una sesión de EventStorming para profundizar en el modelado del dominio de EcoMind. Los procesos identificados se desarrollaron con mayor detalle mediante la incorporación de eventos, comandos, actores, políticas y otros elementos.
+
+![event_Storming2](assets/img/figures/EventStorming030.jpg)
+![event_Storming](assets/img/figures/EventStorming031.jpg)
+![event_Storming](assets/img/figures/EventStorming032.jpg)
+![event_Storming](assets/img/figures/EventStorming033.jpg)
+![event_Storming](assets/img/figures/EventStorming034.jpg)
+![event_Storming](assets/img/figures/EventStorming035.jpg)
+
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
