@@ -3775,10 +3775,221 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.4. Bounded Context: Quests
+El bounded context **Quests** administra las misiones ecológicas, sus actividades, las asignaciones a usuarios, los minijuegos, las misiones colaborativas y los planes familiares. También controla el progreso, consulta datos necesarios de **Users/Profile** y comunica a **Gamification** cuándo una misión fue completada.
 #### 2.6.4.1. Domain Layer
+En esta capa se representa el núcleo del bounded context y sus reglas de negocio.
+
+**Sub-capa Model**
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate Root | `Quest` | Versión persistente de una misión ecológica. | Mantener sus datos, categoría, tipo, recompensa, versión y estado de publicación sin eliminar el historial. | Se relaciona con `Activity`, `QuestUser`, `Minigame`, `CollabQuestSession`, `FamilyPlanItem` y las demás versiones de la misma misión. |
+| Aggregate Root | `QuestUser` | Asignación de una misión a un usuario. | Controlar el progreso y los estados `IN_PROGRESS`, `READY_TO_COMPLETE`, `COMPLETED` y `EXPIRED`. | Pertenece a una `Quest`, referencia a un usuario de `Users/Profile` y contiene ejecuciones `ActivityUser`. |
+| Aggregate Root | `Minigame` | Definición de un minijuego. | Mantener su nombre, URL y reglas de finalización. | Puede estar asociado con una `Quest` y posee varios `MinigameAttempt`. |
+| Aggregate Root | `MinigameAttempt` | Intento de un usuario en un minijuego. | Registrar puntaje, estado, fechas, metadatos y recompensa obtenida. | Se relaciona con `Minigame`, `Quest` y un usuario de `Users/Profile`. |
+| Aggregate Root | `CollabQuestSession` | Ejecución compartida de una misión. | Controlar el inicio, finalización o cancelación de la sesión. | Pertenece a una `Quest` y agrupa varios `CollabQuestMember`. |
+| Aggregate Root | `FamilyPlan` | Plan de misiones de una familia. | Administrar el ciclo `DRAFT`, `ACTIVE`, `COMPLETED` o `CANCELLED`. | Referencia a una familia de `Users/Profile` y contiene varios `FamilyPlanItem`. |
+| Entity | `Activity` | Paso que forma parte de una misión. | Mantener la descripción, tipo, configuración y orden de ejecución. | Pertenece a `Quest` y origina instancias `ActivityUser`. |
+| Entity | `ActivityUser` | Ejecución de una actividad por un usuario. | Registrar el avance entre 0 y 100 y su fecha de finalización. | Pertenece a `QuestUser` y referencia a `Activity`. |
+| Entity | `CollabQuestMember` | Participante de una misión colaborativa. | Gestionar invitación, aceptación, rechazo o abandono. | Pertenece a `CollabQuestSession` y referencia a un usuario de `Users/Profile`. |
+| Entity | `FamilyPlanItem` | Misión incluida en un plan familiar. | Vincular una misión y, cuando corresponde, una sesión colaborativa con el plan. | Pertenece a `FamilyPlan` y referencia a `Quest` y `CollabQuestSession`. |
+| Value Object | `Reward` | Recompensa base asociada a una misión. | Representar los valores que Gamification deberá procesar al completarse la misión. | Es parte de `Quest` y se incluye en el evento enviado a `Gamification`. |
+| Value Object | `Category` | Categoría ambiental de la misión. | Clasificar misiones como agua, reciclaje o energía. | Es utilizado por `Quest`. |
+| Value Object | `QuestType` | Modalidad de una misión. | Diferenciar misiones de actividades, diarias, colaborativas, familiares y minijuegos. | Determina el flujo aplicado a `Quest`. |
+| Value Object | `Theme` | Tema visual o mecánico de la misión. | Indicar la forma principal de presentación. | Es utilizado por `Quest`. |
+| Value Object | `QuestStatus` | Estado de una asignación. | Representar el ciclo de vida de `QuestUser`. | Es utilizado por `QuestUser`. |
+| Value Object | `QuestPublicationStatus` | Estado de publicación de una misión. | Representar si la misión está `DRAFT`, `PUBLISHED` o `ARCHIVED`. | Es utilizado por `Quest`; una misión archivada permanece consultable, pero no admite nuevas asignaciones. |
+| Value Object | `ActivityType` | Tipo de respuesta de una actividad. | Seleccionar la estrategia de validación de la entrega. | Es utilizado por `Activity` y los submission handlers. |
+| Value Object | `MinigameAttemptStatus` | Estado de un intento. | Representar si el intento está iniciado, completado o cancelado. | Es utilizado por `MinigameAttempt`. |
+| Value Object | `CollabQuestStatus` | Estado de una sesión colaborativa. | Controlar las transiciones de la sesión. | Es utilizado por `CollabQuestSession`. |
+| Value Object | `CollabMemberStatus` | Estado de un participante. | Representar invitación pendiente, aceptación, rechazo o abandono. | Es utilizado por `CollabQuestMember`. |
+| Value Object | `MemberRole` | Rol dentro de una sesión. | Diferenciar al propietario de los participantes. | Es utilizado por `CollabQuestMember`. |
+| Value Object | `FamilyPlanStatus` | Estado del plan familiar. | Controlar el ciclo de vida del plan. | Es utilizado por `FamilyPlan`. |
+
+**Sub-capa Model - Commands**
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Command | `CreateQuestCommand` | Solicitud de creación de una misión. | Transportar los datos de la nueva misión. | Atendido por `QuestCommandService`. |
+| Command | `UpdateQuestCommand` | Solicitud de modificación de una misión. | Editar directamente un `DRAFT` o, si está `PUBLISHED`, archivar la versión original y crear una nueva copia `DRAFT` con los cambios. | Atendido transaccionalmente por `QuestCommandService` y devuelve la nueva versión. |
+| Command | `PublishQuestCommand` | Solicitud de publicación de una misión. | Pasar una misión de `DRAFT` a `PUBLISHED`. | Atendido por `QuestCommandService`. |
+| Command | `ArchiveQuestCommand` | Solicitud de archivado de una misión. | Retirarla del catálogo asignable sin eliminarla ni romper el historial. | Atendido por `QuestCommandService`. |
+| Command | `CreateActivityCommand` | Solicitud de creación de una actividad. | Incorporar una actividad ordenada a una misión. | Atendido por `ActivityCommandService`. |
+| Command | `UpdateActivityCommand` | Solicitud de actualización de una actividad. | Modificar contenido, configuración u orden. | Atendido por `ActivityCommandService`. |
+| Command | `DeleteActivityCommand` | Solicitud de eliminación de una actividad. | Retirar una actividad y reorganizar las restantes. | Atendido por `ActivityCommandService`. |
+| Command | `CreateQuestUserCommand` | Solicitud de asignación de una misión. | Asociar una misión con un usuario. | Atendido por `QuestUserCommandService`. |
+| Command | `CompleteQuestUserCommand` | Solicitud de finalización de una asignación. | Confirmar la misión y publicar su finalización. | Atendido por `QuestUserCommandService`. |
+| Command | `CancelQuestUserCommand` | Solicitud de cancelación de una asignación. | Cambiar su estado a `CANCELLED` conservando el registro histórico. | Atendido por `QuestUserCommandService`. |
+| Command | `CreateActivityUserCommand` | Solicitud de creación de una ejecución de actividad. | Asociar una actividad con una asignación. | Atendido por `ActivityUserCommandService`. |
+| Command | `SubmitActivityUserCommand` | Entrega de la respuesta de una actividad. | Actualizar la actividad y recalcular el progreso de la misión. | Atendido por `ActivityUserCommandService`. |
+| Command | `CreateMinigameCommand` | Solicitud de creación de un minijuego. | Registrar sus datos y reglas de finalización. | Atendido por `MinigameCommandService`. |
+| Command | `DeleteMinigameCommand` | Solicitud de eliminación de un minijuego. | Retirar un minijuego que no esté siendo utilizado. | Atendido por `MinigameCommandService`. |
+| Command | `CreateMinigameAttemptCommand` | Solicitud de inicio de un intento. | Crear un intento en estado `STARTED`. | Atendido por `MinigameAttemptCommandService`. |
+| Command | `FinishMinigameAttemptCommand` | Solicitud de finalización de un intento. | Validar el resultado y publicar la finalización del minijuego. | Atendido por `MinigameAttemptCommandService`. |
+| Command | `CancelMinigameAttemptCommand` | Solicitud de cancelación de un intento. | Cancelar un intento iniciado. | Atendido por `MinigameAttemptCommandService`. |
+| Command | `CreateCollabQuestSessionCommand` | Solicitud de creación de una sesión colaborativa. | Crear la sesión y definir a su propietario. | Atendido por `CollabQuestSessionCommandService`. |
+| Command | `StartCollabQuestSessionCommand` | Solicitud de inicio de una sesión. | Iniciar una sesión pendiente con miembros válidos. | Atendido por `CollabQuestSessionCommandService`. |
+| Command | `DeletePendingCollabQuestSessionCommand` | Solicitud de eliminación de una sesión pendiente. | Retirar una sesión que todavía no comenzó. | Atendido por `CollabQuestSessionCommandService`. |
+| Command | `InviteCollabQuestMemberCommand` | Invitación a una misión colaborativa. | Añadir un participante elegible. | Atendido por `CollabQuestMemberCommandService`. |
+| Command | `AcceptCollabQuestMemberCommand` | Aceptación de una invitación. | Confirmar la participación del usuario. | Atendido por `CollabQuestMemberCommandService`. |
+| Command | `DeclineCollabQuestMemberCommand` | Rechazo de una invitación. | Registrar que el usuario no participará. | Atendido por `CollabQuestMemberCommandService`. |
+| Command | `LeaveCollabQuestMemberCommand` | Solicitud de abandono. | Retirar a un participante aceptado. | Atendido por `CollabQuestMemberCommandService`. |
+| Command | `RemoveCollabQuestMemberCommand` | Solicitud de remoción de un miembro. | Permitir al propietario retirar una invitación o participante. | Atendido por `CollabQuestMemberCommandService`. |
+| Command | `CreateFamilyPlanCommand` | Solicitud de creación de un plan familiar. | Crear el plan y sus ítems. | Atendido por `FamilyPlanCommandService`. |
+| Command | `UpdateFamilyPlanCommand` | Solicitud de modificación del plan. | Reemplazar o reorganizar sus misiones. | Atendido por `FamilyPlanCommandService`. |
+| Command | `ActivateFamilyPlanCommand` | Solicitud de activación del plan. | Pasar el plan de `DRAFT` a `ACTIVE`. | Atendido por `FamilyPlanCommandService`. |
+| Command | `CompleteFamilyPlanCommand` | Solicitud de finalización del plan. | Completar el plan y publicar el hecho de negocio. | Atendido por `FamilyPlanCommandService`. |
+| Command | `DeleteFamilyPlanCommand` | Solicitud de eliminación del plan. | Retirar un plan permitido por las reglas de estado. | Atendido por `FamilyPlanCommandService`. |
+| Command | `FamilyPlanItemCommand` | Datos de una misión del plan. | Representar cada ítem solicitado durante la creación o edición. | Forma parte de los comandos de `FamilyPlan`. |
+
+**Sub-capa Model - Queries**
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Query | `GetQuestByIdQuery` | Consulta de una misión por identificador. | Obtener una misión específica. | Atendida por `QuestQueryService`. |
+| Query | `GetAllQuestsQuery` | Consulta de todas las misiones. | Obtener el catálogo completo. | Atendida por `QuestQueryService`. |
+| Query | `SearchQuestQuery` | Búsqueda de misiones. | Filtrar el catálogo mediante criterios. | Atendida por `QuestQueryService`. |
+| Query | `GetActivityByIdQuery` | Consulta de una actividad. | Obtener una actividad específica. | Atendida por `ActivityQueryService`. |
+| Query | `GetActivitiesByQuestIdQuery` | Consulta de actividades de una misión. | Obtener sus actividades en orden. | Atendida por `ActivityQueryService`. |
+| Query | `GetQuestUserByIdQuery` | Consulta de una asignación. | Obtener una ejecución de misión. | Atendida por `QuestUserQueryService`. |
+| Query | `GetQuestUserByUserIdAndQuestIdQuery` | Consulta de asignación por usuario y misión. | Localizar la ejecución correspondiente. | Atendida por `QuestUserQueryService`. |
+| Query | `GetQuestUsersByUserIdAndStatusQuery` | Consulta de asignaciones por estado. | Listar misiones de un usuario según su situación. | Atendida por `QuestUserQueryService`. |
+| Query | `GetQuestUserVersionStatusQuery` | Consulta de versión diaria. | Determinar si el usuario posee la misión diaria vigente. | Atendida por `QuestUserQueryService`. |
+| Query | `GetActivityUserByIdQuery` | Consulta de una ejecución de actividad. | Obtener su estado y progreso. | Atendida por `ActivityUserQueryService`. |
+| Query | `GetActivityUsersByQuestUserIdQuery` | Consulta de actividades de una asignación. | Listar todas las ejecuciones de actividad. | Atendida por `ActivityUserQueryService`. |
+| Query | `GetMinigameByIdQuery` | Consulta de un minijuego. | Obtener su definición y reglas. | Atendida por `MinigameQueryService`. |
+| Query | `GetAllMinigamesQuery` | Consulta de todos los minijuegos. | Obtener el catálogo de minijuegos. | Atendida por `MinigameQueryService`. |
+| Query | `GetMinigameAttemptsByUserAndMinigameQuery` | Consulta del historial de intentos. | Listar intentos de un usuario en un minijuego. | Atendida por `MinigameAttemptQueryService`. |
+| Query | `GetCollabQuestSessionStateQuery` | Consulta del estado colaborativo. | Obtener sesión, miembros, permisos y contadores. | Atendida por `CollabQuestSessionQueryService`. |
+| Query | `GetFamilyPlanByIdQuery` | Consulta de un plan familiar. | Obtener un plan y sus ítems. | Atendida por `FamilyPlanQueryService`. |
+| Query | `GetFamilyPlansByFamilyIdQuery` | Consulta de planes de una familia. | Listar su historial de planes. | Atendida por `FamilyPlanQueryService`. |
+| Query | `GetActiveFamilyPlanByFamilyIdQuery` | Consulta del plan familiar activo. | Obtener el plan actualmente ejecutado. | Atendida por `FamilyPlanQueryService`. |
+
+**Sub-capa Model - Domain Events**
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Domain Event | `QuestCreatedEvent` | Evento de creación de una misión. | Notificar que la misión fue registrada. | Publicado por `Quest`. |
+| Domain Event | `ActivityCreatedEvent` | Evento de creación de una actividad. | Notificar la incorporación del paso. | Publicado por `Activity`. |
+| Domain Event | `QuestUserCreatedEvent` | Evento de asignación de una misión. | Notificar el inicio de una ejecución. | Publicado por `QuestUser`. |
+| Domain Event | `ActivityUserCreatedEvent` | Evento de creación de una actividad de usuario. | Notificar la creación de su snapshot ejecutable. | Publicado por `ActivityUser`. |
+| Domain Event | `CollabQuestSessionCreatedEvent` | Evento de creación de sesión colaborativa. | Notificar la apertura de una sesión. | Publicado por `CollabQuestSession`. |
+| Domain Event | `CollabQuestMemberCreatedEvent` | Evento de incorporación de un miembro. | Notificar una nueva invitación. | Publicado por `CollabQuestMember`. |
+| Integration Event | `QuestCompletedIntegrationEvent` | Evento de misión completada. | Comunicar usuario, misión, tipo, fecha y recompensa base. | Consumido por `Gamification`. |
+| Integration Event | `MinigameCompletedIntegrationEvent` | Evento de minijuego completado. | Comunicar usuario, misión, intento y puntaje alcanzado. | Consumido por `Gamification`. |
+| Integration Event | `FamilyPlanCompletedIntegrationEvent` | Evento de plan familiar completado. | Comunicar familia, plan y participantes. | Consumido por `Gamification`. |
+
+**Sub-capa Repositories**
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Repository | `QuestRepository` | Repositorio de misiones. | Guardar y consultar misiones activas o históricas sin eliminación física. | Utilizado por servicios de misión. |
+| Repository | `ActivityRepository` | Repositorio de actividades. | Persistir actividades y consultar su orden. | Utilizado por servicios de actividad. |
+| Repository | `QuestUserRepository` | Repositorio de asignaciones. | Consultar progreso por usuario, misión, fecha y estado. | Utilizado por servicios de ejecución. |
+| Repository | `ActivityUserRepository` | Repositorio de actividades asignadas. | Guardar entregas y consultar el progreso de una misión. | Utilizado por `ActivityUserCommandService`. |
+| Repository | `MinigameRepository` | Repositorio de minijuegos. | Mantener el catálogo de juegos. | Utilizado por servicios de minijuego. |
+| Repository | `MinigameAttemptRepository` | Repositorio de intentos. | Mantener intentos e impedir intentos activos duplicados. | Utilizado por servicios de intento. |
+| Repository | `CollabQuestSessionRepository` | Repositorio de sesiones colaborativas. | Persistir y consultar sesiones. | Utilizado por servicios colaborativos. |
+| Repository | `CollabQuestMemberRepository` | Repositorio de participantes. | Mantener invitaciones y membresías. | Utilizado por servicios colaborativos. |
+| Repository | `FamilyPlanRepository` | Repositorio de planes familiares. | Mantener planes por familia y estado. | Utilizado por servicios familiares. |
+| Repository | `FamilyPlanItemRepository` | Repositorio de ítems del plan. | Mantener las misiones incluidas en cada plan. | Utilizado por `FamilyPlanCommandService`. |
+| Message Broker | `QuestEventPublisher` | Interfaz para publicar eventos de Quests. | Definir el envío de eventos de finalización sin depender de una tecnología de mensajería. | Es utilizada por los Event Handlers e implementada en Infrastructure Layer. |
+
 #### 2.6.4.2. Interface Layer
+Esta capa expone los casos de uso mediante una API REST.
+
+**Sub-capa REST - Controllers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Controller | `QuestController` | API de misiones. | Exponer creación, modificación versionada, publicación, archivado y consulta. | Al modificar una misión publicada responde con la nueva versión `DRAFT`. |
+| Controller | `ActivityController` | API de actividades. | Exponer mantenimiento y consulta de actividades. | Invoca servicios de `Activity`. |
+| Controller | `QuestUserController` | API de asignaciones. | Exponer asignación, progreso y finalización. | Invoca servicios de `QuestUser`. |
+| Controller | `ActivityUserController` | API de entregas. | Recibir respuestas de actividades. | Invoca servicios de `ActivityUser`. |
+| Controller | `MinigameController` | API de minijuegos. | Exponer el catálogo de juegos. | Invoca servicios de `Minigame`. |
+| Controller | `MinigameAttemptController` | API de intentos. | Iniciar, finalizar y cancelar intentos. | Invoca servicios de `MinigameAttempt`. |
+| Controller | `CollaborativeQuestController` | API de sesiones colaborativas. | Crear, iniciar y consultar sesiones. | Invoca servicios colaborativos. |
+| Controller | `CollabQuestMemberController` | API de participantes. | Gestionar invitaciones y miembros. | Invoca `CollabQuestMemberCommandService`. |
+| Controller | `FamilyPlanController` | API de planes familiares. | Gestionar y consultar planes familiares. | Invoca servicios de `FamilyPlan`. |
+
+**Sub-capa REST - Resources y Assemblers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Request Resource | `Create*Resource` | Datos de creación recibidos por HTTP. | Validar la estructura de entrada. | Convertido a command por un assembler. |
+| Request Resource | `Update*Resource` | Datos de actualización recibidos por HTTP. | Validar cambios solicitados. | Convertido a command por un assembler. |
+| Request Resource | `SubmitActivityUserResource` | Respuesta de una actividad. | Transportar los datos de la entrega. | Se convierte en `SubmitActivityUserCommand`. |
+| Request Resource | `FinishMinigameAttemptResource` | Resultado de un minijuego. | Transportar puntaje y metadatos. | Se convierte en `FinishMinigameAttemptCommand`. |
+| Response Resource | `QuestResource` | Representación HTTP de una misión. | Exponer información del catálogo. | Ensamblado desde `Quest`. |
+| Response Resource | `QuestUserResource` | Representación HTTP de una asignación. | Exponer estado y progreso. | Ensamblado desde `QuestUser`. |
+| Response Resource | `CollabQuestSessionStateResource` | Estado completo de una sesión. | Exponer miembros, contadores y permisos. | Ensamblado desde el modelo de lectura colaborativo. |
+| Response Resource | `FamilyPlanResource` | Representación de un plan familiar. | Exponer estado e ítems. | Ensamblado desde `FamilyPlanState`. |
+| Assembler | `*CommandFromResourceAssembler` | Traductor de entrada. | Convertir resources REST en commands. | Conecta controllers con Application Layer. |
+| Assembler | `*ResourceFromEntityAssembler` | Traductor de salida. | Convertir modelos del dominio en resources. | Conecta Application Layer con controllers. |
+| Assembler | `ResponseEntityAssembler` | Constructor de respuestas HTTP. | Uniformizar respuestas exitosas. | Utilizado por los controllers. |
+| Assembler | `ErrorResponseAssembler` | Constructor de errores HTTP. | Uniformizar respuestas de error. | Utilizado por los controllers. |
+
 #### 2.6.4.3. Application Layer
+En esta capa se coordinan los casos de uso y la comunicación con otros bounded contexts.
+
+**Sub-capa Command Services**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Command Handler | `QuestCommandService` | Servicio de comandos de misión. | Crear, versionar, publicar y archivar misiones; clona también sus actividades cuando genera una versión. | Utiliza `QuestRepository` y `ActivityRepository`. |
+| Command Handler | `ActivityCommandService` | Servicio de comandos de actividad. | Mantener actividades y su orden. | Utiliza `ActivityRepository` y `QuestRepository`. |
+| Command Handler | `QuestUserCommandService` | Servicio de asignaciones. | Asignar, completar y cancelar ejecuciones sin borrar el historial. | Utiliza repositorios de Quests y publica eventos de finalización. |
+| Command Handler | `ActivityUserCommandService` | Servicio de entregas. | Validar respuestas según el tipo de actividad y recalcular el progreso. | Utiliza `ActivityUserRepository` y `QuestUserRepository`. |
+| Command Handler | `MinigameCommandService` | Servicio de minijuegos. | Crear y eliminar definiciones de minijuego. | Utiliza `MinigameRepository`. |
+| Command Handler | `MinigameAttemptCommandService` | Servicio de intentos. | Iniciar, finalizar y cancelar intentos. | Utiliza reglas del minijuego y publica su finalización. |
+| Command Handler | `CollabQuestSessionCommandService` | Servicio de sesiones colaborativas. | Crear e iniciar sesiones. | Utiliza sesiones, miembros y elegibilidad de usuarios. |
+| Command Handler | `CollabQuestMemberCommandService` | Servicio de participantes. | Gestionar invitaciones y participación. | Consulta relaciones en `Users/Profile`. |
+| Command Handler | `FamilyPlanCommandService` | Servicio de planes familiares. | Crear, editar, activar y completar planes. | Consulta familias en `Users/Profile`. |
+
+**Sub-capa Query Services**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Query Handler | `QuestQueryService` | Servicio de consulta de misiones. | Obtener y buscar el catálogo. | Utiliza `QuestRepository`. |
+| Query Handler | `ActivityQueryService` | Servicio de consulta de actividades. | Obtener actividades individuales o por misión. | Utiliza `ActivityRepository`. |
+| Query Handler | `QuestUserQueryService` | Servicio de consulta de asignaciones. | Consultar misiones y estados de un usuario. | Utiliza `QuestUserRepository`. |
+| Query Handler | `ActivityUserQueryService` | Servicio de consulta de entregas. | Consultar avances de actividades. | Utiliza `ActivityUserRepository`. |
+| Query Handler | `MinigameQueryService` | Servicio de consulta de minijuegos. | Obtener el catálogo de juegos. | Utiliza `MinigameRepository`. |
+| Query Handler | `MinigameAttemptQueryService` | Servicio de consulta de intentos. | Consultar el historial de juego. | Utiliza `MinigameAttemptRepository`. |
+| Query Handler | `CollabQuestSessionQueryService` | Servicio de consulta colaborativa. | Construir el estado completo de una sesión. | Utiliza repositorios colaborativos. |
+| Query Handler | `FamilyPlanQueryService` | Servicio de consulta familiar. | Construir el estado de los planes. | Utiliza repositorios familiares. |
+
+**Sub-capa Event Handlers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Event Handler | `QuestCompletedEventHandler` | Handler de misión completada. | Publicar la finalización de una misión individual. | Informa a `Gamification` qué usuario completó qué versión de misión. |
+| Event Handler | `MinigameCompletedEventHandler` | Handler de minijuego completado. | Publicar el resultado final de un intento. | Informa a `Gamification` el usuario, misión y puntaje obtenido. |
+| Event Handler | `CollaborativeQuestCompletedEventHandler` | Handler de misión colaborativa completada. | Publicar la finalización y sus participantes. | Informa a `Gamification` sin asignar puntos desde Quests. |
+| Event Handler | `FamilyPlanCompletedEventHandler` | Handler de plan familiar completado. | Publicar la finalización del plan familiar. | Informa a `Gamification` la familia, el plan y sus participantes. |
+
 #### 2.6.4.4. Infrastructure Layer
+Esta capa contiene las clases que implementan la persistencia y la comunicación con servicios externos.
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Repository Implementation | `QuestRepositoryImpl` | Implementación del repositorio de misiones. | Persistir y consultar versiones de misiones. | Implementa `QuestRepository`. |
+| Repository Implementation | `ActivityRepositoryImpl` | Implementación del repositorio de actividades. | Persistir actividades y consultar su orden. | Implementa `ActivityRepository`. |
+| Repository Implementation | `QuestUserRepositoryImpl` | Implementación del repositorio de asignaciones. | Persistir el progreso e historial de misiones. | Implementa `QuestUserRepository`. |
+| Repository Implementation | `ActivityUserRepositoryImpl` | Implementación del repositorio de entregas. | Persistir avances de actividades asignadas. | Implementa `ActivityUserRepository`. |
+| Repository Implementation | `MinigameRepositoryImpl` | Implementación del repositorio de minijuegos. | Persistir las definiciones de minijuegos. | Implementa `MinigameRepository`. |
+| Repository Implementation | `MinigameAttemptRepositoryImpl` | Implementación del repositorio de intentos. | Persistir el historial de intentos. | Implementa `MinigameAttemptRepository`. |
+| Repository Implementation | `CollabQuestSessionRepositoryImpl` | Implementación del repositorio de sesiones. | Persistir sesiones colaborativas. | Implementa `CollabQuestSessionRepository`. |
+| Repository Implementation | `CollabQuestMemberRepositoryImpl` | Implementación del repositorio de participantes. | Persistir invitaciones y membresías. | Implementa `CollabQuestMemberRepository`. |
+| Repository Implementation | `FamilyPlanRepositoryImpl` | Implementación del repositorio de planes. | Persistir planes familiares. | Implementa `FamilyPlanRepository`. |
+| Repository Implementation | `FamilyPlanItemRepositoryImpl` | Implementación del repositorio de ítems. | Persistir las misiones incluidas en un plan. | Implementa `FamilyPlanItemRepository`. |
+| External Service Client | `ProfileServiceClient` | Cliente del bounded context Users/Profile. | Consultar usuarios, amistades, familias y roles necesarios para validar un caso de uso. | Es utilizado por los command handlers colaborativos y familiares. |
+| Message Broker Implementation | `QuestEventPublisherImpl` | Implementación del publicador de eventos. | Enviar eventos de finalización al sistema de mensajería. | Es utilizado por los Event Handlers y comunica los hechos a `Gamification`. |
+
+**Relaciones entre bounded contexts**
+
+| Bounded Context | Relación con Quests |
+|---|---|
+| `Users/Profile` | Proporciona los datos de usuarios, amistades, familias y roles requeridos para validar la participación. |
+| `Gamification` | Consume eventos de misión, minijuego y plan completado para asignar puntos, actualizar rankings y evaluar logros. |
+
+Las consultas necesarias se realizan mediante `ProfileServiceClient`, mientras que las finalizaciones se comunican a `Gamification` mediante `QuestEventPublisherImpl`.
+
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
