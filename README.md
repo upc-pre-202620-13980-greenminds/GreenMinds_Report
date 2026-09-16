@@ -3616,6 +3616,18 @@ Después de analizar, separar y consolidar las distintas responsabilidades, se d
 *Figura X. Resultado final de la sesión de Candidate Context Discovery.*
 
 #### 2.5.1.2. Domain Message Flows Modeling
+
+Luego de identificar los bounded contexts candidatos, se realizó una sesión de Flow Modeling con el propósito de representar la colaboración entre las distintas capacidades del dominio. Para ello, se seleccionaron los flujos que generan mayor valor para los usuarios y se identificaron los comandos, eventos y consultas intercambiados entre los bounded contexts.
+
+![Flow1](assets/img/figures/Flow1.jpg)
+*Figura X. Domain Storytelling del flujo de participación en quests y publicación de un logro.*
+![Flow1](assets/img/figures/Flow2.jpg)
+*Figura X. Domain Storytelling del flujo de invitación a una quest colaborativa.*
+![Flow1](assets/img/figures/Flow3.jpg)
+*Figura X. Domain Storytelling del flujo de compra y entrega de productos.*
+![Flow1](assets/img/figures/Flow4.jpg)
+*Figura X. Domain Storytelling del flujo de registro y configuración del perfil.*
+
 #### 2.5.1.3. Bounded Context Canvases
 
 ### 2.5.2. Context Mapping
