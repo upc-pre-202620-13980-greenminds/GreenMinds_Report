@@ -75,8 +75,8 @@ Proyecto <br>
 | 1.0.0    | 06/09/2026     | Katty Philco | docs: agregar Startup Profile <br> docs: añadir antecedentes y problemática  |
 | 1.0.0    | 07/09/2026     | Isabel Aponte   | docs: agregar  competidores <br> docs: agregar estrategias y tacticas <br> docs: agregar segmento objetivo  |
 | 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
-| 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor, Leo Dulanto | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery <br> docs: agregar user stories |
-| 1.0.0    | 16/09/2026     |  Leo Dulanto  | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
+| 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery  |
+| 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
@@ -3726,7 +3726,15 @@ Luego de identificar los bounded contexts candidatos, se realizó una sesión de
 *Figura X. Domain Storytelling del flujo de registro y configuración del perfil.*
 
 #### 2.5.1.3. Bounded Context Canvases
+Después de identificar los candidate bounded contexts, se elaboró un Bounded Context Canvas para cada uno, comenzando por los contextos de mayor importancia para el negocio. El objetivo fue precisar sus límites, responsabilidades, lenguaje, reglas y dependencias antes de tomar decisiones de diseño posteriores.
 
+La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique.
+
+**1. Bounded Context Canvas Quests**
+
+![BoundedContextCanvasQuests](assets/img/figures/CanvasQuest.jpg)
+
+*Figura X. Bounded Context Canvas del contexto Quests.*
 ### 2.5.2. Context Mapping
 
 ### 2.5.3. Software Architecture
