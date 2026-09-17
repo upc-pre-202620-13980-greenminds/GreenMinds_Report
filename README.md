@@ -708,7 +708,7 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 | **Entrevista Nro. 1** |
 |---|
 | <img src="assets/img/figures/imagen0781.png" width="335" hspace="240"> |
-| **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:34<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 48 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
+| **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:34<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 49 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
 
 | **Entrevista Nro. 2** |
 |---|
@@ -738,12 +738,160 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 | **Entrevistado N°3:** Jeicob Ríos <br> **Edad:** 11 años<br>**Ubicación:** Surquillo, Lima<br><br> **Entrevista:** [Video de la entrevista Nro. 3 - Jeicob Ríos](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416107_upc_edu_pe/IQCLeaJ6ym4CT5D_l0aHeQVlAUJV5VnNFUgI3bJUuvErsLI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GgnczS)<br>**Instante del que inicia:** 0:08 <br> **Duración:** 3:00<br><br> **Resumen:** <br><br> El entrevistado se llama Jeicob Ríos, el utiliza principalmente su teléfono celular durante su tiempo libre, ya que no cuenta con tablet y su aplicación predilecta es Roblox. Al evaluar el uso de herramientas digitales frente al papel, manifiesta una clara preferencia por el celular argumentando que realiza sus actividades más rápido al evitar escribir tanto a mano. Esta conducta pone en evidencia un perfil de interacción digital enfocado en la eficiencia y rapidez operativa. <br><br>En cuanto a su conciencia ambiental, señala que en el colegio aprendió a reciclar la mayor cantidad de objetos posible para no dañar los hábitats de los animales ni la capa de ozono. En el ámbito del hogar, contribuye de forma directa mediante el ahorro de agua. Asimismo, su mayor motivación y entretenimiento ecológico reside en el reciclaje creativo, disfrutando la transformación de botellas plásticas en macetas y portalápices. Respecto a sus canales de interacción y estilo de aprendizaje, el entrevistado destaca que su forma preferida de recibir información es escuchando. De igual manera, expresa entusiasmo por aprender sobre el cuidado del planeta mediante juegos o retos interactivos, señalando que dispone de tiempo libre en casa. |
 
 ### 2.2.3. Análisis de entrevistas
+**Segmento: Padres de familia**
+
+**1. Perfil general (edad, ocupación, hijos, residencia):**
+
+* Edad promedio: 50 años (49, 52 y 49).
+* Todos tienen hijos en edad escolar (inicial, primaria y secundaria).
+* Viven en Lima Metropolitana y Barranca.
+     
+**2. Nivel de confianza con tecnología (celulares/aplicaciones)**
+
+**Figura 4**
+
+*Nivel de confianza en la tecnología - Padres*
+
+ <img src="assets/img/figures/image039.png" width="330"> 
+ 
+**3. Actividades familiares durante la semana:**
+
+En relación con las actividades familiares, los padres señalaron que durante la semana revisan clases y tareas con sus hijos, conversan en las tardes y comparten más tiempo durante los fines de semana.
+
+**4. Importancia del medio ambiente en la educación de los hijos:**
+
+Sobre la importancia del medio ambiente en la educación de sus hijos, el 100% de los entrevistados lo considera fundamental, asociándolo con problemas actuales como sequías, contaminación y el exceso de desechos.
+
+**5. Acciones ambientales realizadas en casa**
+
+En cuanto a las acciones ambientales realizadas en casa, todos afirmaron practicar el ahorro de agua y energía. Además, realizan reciclaje y utilizan bolsas reutilizables o deposita correctamente los desechos.
+
+**6. Dificultades al enseñar hábitos sostenibles a los hijos**
+
+**Figura 5**
+
+*Dificultades en las enseñanzas - Padres*
+
+ <img src="assets/img/figures/image040.png" width="330"> 
+ 
+**7. Aplicaciones educativas Ambientales**
+
+Frente al uso de aplicaciones educativas ambientales, todos los padres estarían dispuestos a utilizarlas, siempre que sean prácticas y sencillas. 
+
+**8. Motivación para los hijos**
+
+En cuanto a la motivación de los hijos, los padres mencionaron que responden mejor cuando hay premios y logros visibles, dinámicas familiares o cuando sienten que sus acciones tienen un impacto en la comunidad.
+
+**9. Expectativas de aprendizaje ambiental:**
+
+Con respecto a las expectativas de aprendizaje ambiental, los padres desean que sus hijos asuman responsabilidades tanto en el hogar como en la comunidad, y que desarrollen una conciencia crítica frente al consumo de agua, energía y residuos.
+
+**Segmento: Escolares de primaria:**
+
+**1. Perfil general (nombre, edad, residencia):**
+* Edad promedio: 11 años (11, 12 y 11).
+* Residentes en Lima (Pueblo Libre, La Molina, Surquillo).
+  
+**2. Actividades en tiempo libre:**
+
+Respecto a sus actividades en el tiempo libre, los escolares disfrutan jugar en consola o computadora y pasar tiempo en plataformas digitales para la visualización de vídeos.
+
+**Figura 6**
+
+Uso de aparatos tecnológicos- Escolares
+
+<img src="assets/img/figures/image044.png" width="330"> 
+ 
+**3. Aprendizaje escolar sobre medio ambiente:**
+
+Sobre el aprendizaje escolar en temas ambientales, los niños identificaron prácticas como el ahorro de agua y energía, la separación de basura, la reducción de plásticos y la conciencia frente a la contaminación futura.
+
+**4. Acciones ambientales en casa:**
+
+Dentro de las acciones ambientales en casa practican apagar luces y ahorrar agua, otro practica el reciclaje o la reducción de bolsas plásticas, y también se enfocan en mantener limpio su espacio,
+
+**5. Motivación para hacerlo:**
+
+**Figura 7**
+
+*Motivación de escolares*
+
+<img src="assets/img/figures/image046.png" width="330">
+ 
+**7. Aprender con juegos o retos**
+
+**Figura 8**
+*Juegos educativos - Escolares*
+
+<img src="assets/img/figures/image048.png" width="330"> 
+ 
+**8. Preferencias entre lo digital o papel**
+
+**Figura 9**
+
+*Preferencia en los escolares*
+
+<img src="assets/img/figures/image050.png" width="330"> 
+  
+**9. Forma de aprender favorita**
+
+En cuanto a la forma de aprender, todos mostraron interés en juegos y retos relacionados con el medio ambiente.
+
+**Análisis comparativo**
+
+El análisis de entrevistas evidencia una diferencia clara en el nivel de confianza tecnológica entre padres e hijos. Mientras que los padres presentan un manejo básico o intermedio, lo que implica la necesidad de aplicaciones simples y fáciles de usar, los escolares muestran un dominio más alto de dispositivos y plataformas digitales, lo que refleja una motivación clara hacia el aprendizaje mediante entornos digitales.
+
+En cuanto a la educación ambiental, los padres perciben este aspecto como una responsabilidad tanto familiar como comunitaria, asociándolo a prácticas de ahorro y reciclaje en el hogar. Por su parte, los hijos lo relacionan más directamente con el futuro y con su entorno inmediato, mostrando interés en acciones como el cuidado del agua, la energía y la reducción de plásticos. Sin embargo, ambos segmentos comparten limitaciones que deben considerarse. Los padres enfrentan la falta de constancia de sus hijos al mantener hábitos sostenibles, así como una escasa conciencia comunitaria. 
+
+En el caso de los escolares, algunos presentan una motivación débil al asumir estas prácticas y existe el riesgo de que las aplicaciones o juegos se vuelvan adictivos si no se diseñan adecuadamente. Frente a este panorama, se identifica una oportunidad clara para el desarrollo de una aplicación educativa ambiental con retos sencillos, dinámicos e incentivados que fortalezcan el vínculo entre familia y la conciencia ambiental.
 
 ## 2.3. Needfinding
+
 ### 2.3.1. User Personas
+**Primer Segmento Objetivo (Padres de Familia)**
+
+*Figura 10 (User Persona 1)*  
+<img src="assets/img/figures/image054.png" width="530">
+
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 11 (User Persona 2)*  
+<img src="assets/img/figures/image053.png" width="530">
+
 ### 2.3.2. User Task Matrix
+**Primer Segmento Objetivo (Padres de Familia)**
+
+*Figura 12 (User Task Matrix 1)*  
+<img src="assets/img/figures/imagen083.png" width="530">
+
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 13 (User Task Matrix 2)*  
+<img src="assets/img/figures/imagen082.png" width="530">
+
+
 ### 2.3.3. User Journey Mapping
+**Primer Segmento Objetivo (Padres de Familia)**
+
+*Figura 14 (User Journey Mapping 1)*  
+<img src="assets/img/figures/image059.png" width="530">
+
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 15 (User Journey Mapping 2)*  
+<img src="assets/img/figures/image057.png" width="530">
+
 ### 2.3.4. Empathy Mapping
+**Primer Segmento Objetivo (Padres de Familia)**
+
+*Figura 16 (Empathy Mapping 1)*  
+<img src="assets/img/figures/image063.png" width="530">
+
+**Segundo Segmento Objetivo (Escolares de primaria)**
+
+*Figura 17 (Empathy Mapping 2)*  
+<img src="assets/img/figures/image062.png" width="530">
+
 ### 2.3.5. Big Picture EventStorming
 
 El equipo realizó una sesión colaborativa de Big Picture EventStorming para comprender el dominio desde una perspectiva general. Durante esta actividad se identificaron los eventos más relevantes y se organizaron según su secuencia dentro de los principales procesos del negocio. Esto permitió visualizar el happy path, reconocer escenarios alternativos y detectar posibles problemas u oportunidades en el funcionamiento de la plataforma.
