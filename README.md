@@ -4101,6 +4101,14 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 
 En esta sección se presentan los diagramas de componentes correspondientes al bounded context IAM. Debido a que sus funcionalidades se distribuyen entre la aplicación móvil y la API backend, se incluye un diagrama para cada container. El diagrama de la aplicación Android muestra las pantallas, ViewModels, casos de uso, el repositorio de IAM, el cliente HTTP y el almacenamiento seguro del access token. El diagrama de IAM API presenta los controllers REST, servicios de aplicación, elementos de dominio y adaptadores de infraestructura que intervienen en el registro, la verificación del correo, el inicio de sesión y la recuperación de contraseña. También se representan la autenticación mediante JWT y las integraciones síncronas con Resend y Users.
 
+![C4I](assets/img/figures/ComponentsIAM1.png)
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context IAM, elaborado con Structurizr DSL.*
+
+![C4I](assets/img/figures/ComponentsIAM2.png)
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context IAM, elaborado con Structurizr DSL.*
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 En esta sección se presentan los diagramas que describen la estructura interna de IAM a nivel de código. Se documentan por separado el modelo de dominio y el diseño de persistencia para evitar mezclar las reglas del negocio con detalles técnicos de la base de datos.
