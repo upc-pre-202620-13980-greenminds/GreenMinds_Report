@@ -3978,20 +3978,32 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 *Figura X. Bounded Context Canvas del contexto Community.*
 
-**3. Bounded Context Canvas Monetization**
+**3. Bounded Context Canvas Gamification**
+![BoundedContextCanvasGamification](assets/img/figures/)
+
+*Figura X. Bounded Context Canvas del contexto Gamification.*
+
+**4. Bounded Context Canvas Monetization**
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Monetization.*
-
-**4. Bounded Context Canvas IAM**
-![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
-
-*Figura X. Bounded Context Canvas del contexto Identity and Access.*
 
 **5. Bounded Context Canvas Users**
 ![BCUsers.jpg](assets/img/figures/canvasUsers.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Users.*
+
+**5. Bounded Context Canvas Learning**
+![BCUsers.jpg](assets/img/figures/LearningCanvas.jpg)
+
+*Figura X. Bounded Context Canvas del contexto Learning.*
+
+**7. Bounded Context Canvas IAM**
+![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
+
+*Figura X. Bounded Context Canvas del contexto Identity and Access.*
+
+
 
 ### 2.5.2. Context Mapping
 
