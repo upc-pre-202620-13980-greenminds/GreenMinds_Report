@@ -4129,7 +4129,7 @@ El diagrama de base de datos presenta las estructuras de persistencia necesarias
 
 ### 2.6.2. Bounded Context: Users
 
-El bounded context Users administra la información personal del usuario: su perfil, sus preferencias, sus relaciones de amistad, sus grupos familiares y el rol social que desempeña dentro de EcoMind (estudiante o padre de familia). Es distinto de IAM, que gestiona identidad, credenciales y autenticación: una vez que IAM crea una cuenta, delega en Users la creación y el mantenimiento del perfil asociado a esa cuenta.
+El bounded context Users administra la información personal del usuario: su perfil, sus preferencias, sus relaciones de amistad, sus grupos familiares y el rol social que desempeña dentro de EcoMind (estudiante o padre de familia).
 
 #### 2.6.2.1. Domain Layer
 
@@ -4238,7 +4238,6 @@ Esta capa coordina los casos de uso del perfil, la familia, las amistades y el c
 | Query Handler | `FamilyQueryService` | Consultar familias e integrantes, incluyendo el filtro por usuario. | `FamilyRepository`. |
 | Query Handler | `FriendshipQueryService` | Consultar las amistades aceptadas de un usuario. | `FriendshipRepository`. |
 
-En la documentación disponible se confirma que IAM envía el command `CreateProfile` a Users inmediatamente después de crear una cuenta verificada, y que Quests consulta usuarios, amistades, familias y roles de Users mediante `UsersServiceClient` para validar la participación en misiones colaborativas y planes familiares. Estas dos integraciones son las únicas confirmadas explícitamente en el reporte; el resto de los casos de uso listados se deriva directamente de los Technical Stories y User Stories asignados a Users (EP07 y EP011).
 
 #### 2.6.2.4. Infrastructure Layer
 
@@ -4298,8 +4297,6 @@ El bounded context **Learning** administra los materiales educativos ambientales
 #### 2.6.3.1. Domain Layer
 
 La Domain Layer representa el catálogo de materiales educativos y las interacciones propias de Learning. Contiene las reglas necesarias para publicar contenido válido, administrar favoritos, registrar revisiones y validar descargas sin depender de la interfaz o de la persistencia.
-
-
 
 **Sub-capa Model**
 
