@@ -3945,6 +3945,12 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 ![BoundedContextCanvasQuests](assets/img/figures/CanvasQuest.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Quests.*
+
+
+[![BCMonetization.jpg](https://i.postimg.cc/8PJv1cPN/BCMonetization.jpg)](https://postimg.cc/zVNv7Jgc)
+
+*Figura X. Bounded Context Canvas del contexto Monetization.*
+
 ### 2.5.2. Context Mapping
 
 ### 2.5.3. Software Architecture
