@@ -4210,6 +4210,10 @@ Las consultas necesarias se realizan mediante `ProfileServiceClient`, mientras q
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
+El presente diagrama representa el modelo de base de datos del bounded context **Quests** de EcoMind. Este contexto gestiona la definición y ejecución de retos, actividades, minijuegos, retos colaborativos y planes familiares, además de registrar el progreso de los usuarios. Las relaciones internas se representan mediante claves foráneas, mientras que los identificadores pertenecientes a otros bounded contexts, como usuarios y familias, se conservan como referencias externas para mantener la independencia entre contextos.
+
+![DatabaseQuest](assets/img/figures/databaseQuest.png)
+*Figura X. Diagrama de diseño de la base de datos del bounded context Quests.*
 
 ### 2.6.5. Bounded Context: Community
 #### 2.6.5.1. Domain Layer
