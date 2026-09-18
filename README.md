@@ -4324,12 +4324,42 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 | `Quests` | Proporciona el punto de navegación “Aprende más”. Abrir esa opción lleva a la UI de Learning, pero Quests no administra materiales. |
 | `EcoMind Android Application` | Ejecuta la navegación entre Quests, perfil y Learning; consume Learning API mediante HTTPS/JSON. |
 
-Las solicitudes protegidas utilizan HTTPS/JSON con un JWT emitido previamente por IAM. 
-
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+El siguiente diagrama C4 muestra cómo se relaciona el bounded context de **Learning** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Learning y su base de datos. También representa la validación del token de acceso antes de ejecutar operaciones que requieren un usuario autenticado, como agregar o eliminar materiales favoritos y registrar descargas.
+
+<div align="center">
+  <img src="assets/img/figures/LearningAndroidComponents.png" alt="Diagrama C4 de Learning" width="550">
+</div>
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Learning, elaborado con Structurizr DSL.*
+
+<div align="center">
+  <img src="assets/img/figures/LearningApiComponents.png" alt="Diagrama C4 de Learning" width="700">
+</div>
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context Learning, elaborado con Structurizr DSL.*
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección se presentan los diagramas que describen la estructura interna del bounded context de **Learning**, incluyendo sus principales clases de dominio y el diseño de su base de datos. Para mantener los diagramas claros y fáciles de comprender, los Commands, Queries, Use Cases y adaptadores se explican en las secciones anteriores.
+
+
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases presenta los principales elementos del dominio de Learning y las relaciones entre ellos. Incluye los materiales educativos, sus categorías, favoritos, valoraciones y registros de descarga. También representa las operaciones necesarias para consultar y filtrar materiales, obtener sus detalles, descargarlos y administrar los materiales favoritos de cada usuario.
+
+![Diagrama de clases de Learning](assets/img/figures/ClassLearning.png)
+
+*Figura X. Diagrama de clases de la capa de dominio del bounded context Learning.*
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+El diagrama de base de datos presenta la estructura de persistencia utilizada por el bounded context de Learning. Incluye las tablas `material_categories`, `educational_materials`, `material_favorites`, `material_reviews` y `material_downloads`, así como sus claves y relaciones.
+
+![Diagrama de base de datos de Learning](assets/img/figures/LearningDatabase.png)
+
+*Figura X. Diagrama de diseño de la base de datos del bounded context Learning.*
 
 ### 2.6.4. Bounded Context: Quests
 El bounded context **Quests** administra las misiones ecológicas, sus actividades, las asignaciones a usuarios, los minijuegos, las misiones colaborativas y los planes familiares. También controla el progreso, consulta datos necesarios de **Users** y comunica a **Gamification** cuándo una misión fue completada.
@@ -4832,12 +4862,12 @@ Las solicitudes protegidas llegan con un JWT emitido previamente por IAM. El fil
 El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Monetization con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Monetization, su base de datos y los servicios externos de autenticación y pagos. También muestra la comunicación con Gamification, que informa cuando una racha está en riesgo, para que Monetization verifique si el usuario tiene un protector disponible y comunique el resultado.
 
 <div align="center">
-  <img src="assets/img/figures/c4Mone1.png" alt="Diagrama C4 de Monetization" width="350">
+  <img src="assets/img/figures/ComeponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
 </div>
 
 *Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
 
-![C4](assets/img/figures/MonetizationApiComponents.png)
+![C4](assets/img/figures/ComponentsMonet1.png)
 
 *Figura X. Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
 
