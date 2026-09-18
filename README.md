@@ -908,6 +908,54 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 
 ### 2.3.6. Ubiquitous Language
 
+El siguiente glosario establece los términos compartidos que el equipo y los stakeholders utilizan para describir el dominio de EcoMind. Las definiciones buscan evitar interpretaciones diferentes entre las áreas del producto y se limitan a conceptos propios de la solución, la educación ambiental y la participación de sus usuarios.
+
+| Term | Definition |
+|---|---|
+| **Account (Cuenta)** | Identidad que permite a una persona acceder a EcoMind después de completar el registro y verificar su correo. |
+| **Account Credential (Credencial de cuenta)** | Información utilizada para demostrar que una persona es propietaria de una cuenta, compuesta por su correo y contraseña. |
+| **Achievement (Logro)** | Reconocimiento obtenido por alcanzar una meta específica dentro de EcoMind. |
+| **Activity (Actividad)** | Acción concreta que forma parte de una misión y que el usuario debe realizar para avanzar. |
+| **Avatar (Avatar)** | Representación visual que identifica al usuario dentro de la aplicación. |
+| **Collaborative Quest (Misión colaborativa)** | Misión realizada por varios usuarios que requiere la participación conjunta de sus integrantes. |
+| **Community (Comunidad)** | Espacio formado por usuarios que comparten intereses y participan en iniciativas ambientales comunes. |
+| **Community Event (Evento comunitario)** | Actividad ambiental organizada para convocar la participación de los miembros de una comunidad. |
+| **Community Goal (Meta comunitaria)** | Objetivo ambiental compartido cuyo avance depende de la contribución de los miembros de una comunidad. |
+| **Community Post (Publicación comunitaria)** | Contenido compartido por un miembro para informar, motivar o comunicar una experiencia a su comunidad. |
+| **Cosmetic (Cosmético)** | Artículo visual que permite personalizar la apariencia del avatar sin modificar el progreso del usuario. |
+| **Daily Quest (Misión diaria)** | Misión disponible durante un periodo diario para fomentar la participación frecuente del usuario. |
+| **Educational Material (Material educativo)** | Recurso de aprendizaje ambiental, como un video, una lectura o una infografía, disponible en el catálogo de EcoMind. |
+| **Email Verification (Verificación de correo)** | Confirmación de que la persona que se registra controla la dirección de correo proporcionada. |
+| **Environmental Awareness (Conciencia ambiental)** | Comprensión de los problemas ambientales y disposición para actuar responsablemente frente a ellos. |
+| **Environmental Habit (Hábito ambiental)** | Conducta favorable para el ambiente que una persona incorpora de manera frecuente en su vida cotidiana. |
+| **EcoPoint (Ecopunto)** | Unidad de reconocimiento obtenida al completar acciones ambientales y utilizada para representar el progreso del usuario. |
+| **Family (Familia)** | Grupo privado de usuarios vinculados para participar y dar seguimiento conjunto a actividades ambientales. |
+| **Family Member (Miembro de la familia)** | Usuario que pertenece a una familia y participa en sus misiones o planes compartidos. |
+| **Family Plan (Plan familiar)** | Conjunto organizado de misiones que una familia acuerda realizar durante un periodo determinado. |
+| **Favorite Material (Material favorito)** | Material educativo guardado por un usuario para consultarlo nuevamente con facilidad. |
+| **Friendship (Amistad)** | Vínculo aceptado entre dos usuarios que les permite reconocerse como amigos dentro de EcoMind. |
+| **Gem (Gema)** | Moneda virtual de EcoMind utilizada para adquirir cosméticos, multiplicadores y protectores. |
+| **Gem Package (Paquete de gemas)** | Cantidad predeterminada de gemas que puede adquirirse mediante un pago con dinero real. |
+| **Gem Wallet (Billetera de gemas)** | Registro del saldo de gemas disponible para un usuario. |
+| **Learning Progress (Progreso de aprendizaje)** | Avance de un usuario en la consulta y revisión de materiales educativos. |
+| **Marketplace (Tienda)** | Espacio donde el usuario consulta y adquiere productos virtuales y paquetes de gemas. |
+| **Material Review (Revisión de material)** | Registro que indica que un usuario terminó de consultar un material educativo. |
+| **Minigame (Minijuego)** | Experiencia breve e interactiva que refuerza conocimientos o acciones relacionados con una misión. |
+| **Multiplier (Multiplicador)** | Producto virtual que incrementa temporalmente la recompensa obtenida por una acción válida. |
+| **Password Recovery (Recuperación de contraseña)** | Proceso mediante el cual el propietario de una cuenta establece una nueva contraseña después de confirmar su solicitud. |
+| **Pending Registration (Registro pendiente)** | Solicitud temporal de registro que todavía no se convierte en una cuenta porque el correo no ha sido verificado. |
+| **Profile (Perfil)** | Información visible que representa al usuario, como su nombre, avatar y preferencias. |
+| **Quest (Misión)** | Desafío ambiental compuesto por una o más actividades que el usuario puede realizar para aprender y actuar. |
+| **Quest Assignment (Asignación de misión)** | Asociación de una misión con el usuario o grupo responsable de realizarla. |
+| **Quest Progress (Progreso de misión)** | Estado que refleja cuánto ha avanzado un usuario o grupo en las actividades de una misión. |
+| **Ranking (Clasificación)** | Orden de usuarios según los ecopuntos obtenidos durante un periodo definido. |
+| **Reward (Recompensa)** | Beneficio concedido al usuario después de completar una acción o alcanzar una meta. |
+| **Streak (Racha)** | Cantidad de días consecutivos en los que el usuario cumple la actividad requerida por EcoMind. |
+| **Streak Protector (Protector de racha)** | Producto virtual consumible que permite conservar una racha cuando el usuario no cumple la actividad de un día. |
+| **User (Usuario)** | Persona que utiliza EcoMind para aprender, participar en actividades ambientales e interactuar con otros miembros. |
+| **Virtual Inventory (Inventario virtual)** | Conjunto de cosméticos, multiplicadores y protectores que pertenecen a un usuario. |
+| **Virtual Purchase (Compra virtual)** | Adquisición de un producto de la tienda utilizando gemas. |
+
 ## 2.4. Requirements Specification
 ### 2.4.1. User Stories
 
