@@ -4105,7 +4105,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | Repository | `CollabQuestMemberRepository` | Mantener invitaciones y membresías. | Utilizado por servicios colaborativos. |
 | Repository | `FamilyPlanRepository` | Mantener planes por familia y estado. | Utilizado por servicios familiares. |
 | Repository | `FamilyPlanItemRepository` | Mantener las misiones incluidas en cada plan. | Utilizado por `FamilyPlanCommandService`. |
-| Message Broker | `QuestEventPublisher` | Definir el envío de eventos de finalización sin depender de una tecnología de mensajería. | Es utilizada por los Event Handlers e implementada en Infrastructure Layer. |
+| Application Event Publisher | `QuestEventPublisher` | Definir la publicación interna de eventos de finalización sin acoplar Quests a Gamification. | Es utilizado por los Event Handlers e implementado en Infrastructure Layer. |
 
 #### 2.6.4.2. Interface Layer
 Esta capa expone los casos de uso mediante una API REST.
@@ -4179,7 +4179,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 | Repository Implementations | `CollabQuestSessionRepositoryImpl`, `CollabQuestMemberRepositoryImpl` | Persistir sesiones, invitaciones y participantes. | Implementan los repositories colaborativos. |
 | Repository Implementations | `FamilyPlanRepositoryImpl`, `FamilyPlanItemRepositoryImpl` | Persistir planes familiares y sus misiones. | Implementan los repositories familiares. |
 | External Service Client | `UsersServiceClient` | Consultar usuarios, amistades, familias y roles necesarios para validar un caso de uso. | Es utilizado por los command handlers colaborativos y familiares. |
-| Message Broker Implementation | `QuestEventPublisherImpl` | Enviar eventos de finalización al sistema de mensajería. | Es utilizado por los Event Handlers y comunica los hechos a `Gamification`. |
+| Application Event Publisher Implementation | `SpringQuestEventPublisher` | Publicar los eventos de finalización dentro del backend mediante Spring Application Events. | Es utilizado por los Event Handlers y permite que `Gamification` procese los hechos sin una llamada directa. |
 
 **Relaciones entre bounded contexts**
 
@@ -4188,7 +4188,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 | `Users` | Proporciona los datos de usuarios, amistades, familias y roles requeridos para validar la participación. |
 | `Gamification` | Consume eventos de misión, minijuego y plan completado para asignar puntos, actualizar rankings y evaluar logros. |
 
-Las consultas necesarias se realizan mediante `UsersServiceClient`, mientras que las finalizaciones se comunican a `Gamification` mediante `QuestEventPublisherImpl`.
+Las consultas necesarias se realizan mediante `UsersServiceClient`, mientras que las finalizaciones se comunican internamente a `Gamification` mediante `SpringQuestEventPublisher` y Spring Application Events.
 
 **Mobile Application - Quests Feature**
 
@@ -4207,6 +4207,16 @@ La aplicación móvil consume los casos de uso del backend sin duplicar sus regl
 | Mapper | `QuestMobileMapper` | Convertir DTOs de red en modelos utilizados por la aplicación móvil. | Es utilizado por `QuestsMobileRepositoryImpl`. |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+En esta sección se presentan los diagramas de componentes correspondientes al bounded context Quests. Debido a que sus funcionalidades se distribuyen entre la aplicación móvil y la API backend, se incluye un diagrama para cada container. Estos diagramas muestran los principales componentes de cada container, sus responsabilidades e interacciones, así como la comunicación de Quests con otros bounded contexts y servicios de infraestructura.
+
+![C4Q](assets/img/figures/c4Quest2.png)
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Quests, elaborado con Structurizr DSL.*
+
+![C4Q](assets/img/figures/c4Quest1.png)
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context Quests, elaborado con Structurizr DSL.*
+
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
