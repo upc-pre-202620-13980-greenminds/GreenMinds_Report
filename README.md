@@ -4285,6 +4285,12 @@ El siguiente diagrama presenta las clases del Domain Layer de Users y las relaci
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
+El presente diagrama representa el modelo de base de datos del bounded context Users. Se persiste el perfil del usuario con su racha, ecopoints, balance de gemas y preferencias de notificación; los integrantes de cada grupo familiar junto con su `family_role`; y las relaciones de amistad entre dos usuarios, restringidas para evitar solicitudes dirigidas al propio usuario y relaciones duplicadas, conforme a `FriendshipPolicy`. El identificador `user_id` corresponde al `AccountId` emitido por IAM y se conserva como referencia simple, sin clave foránea entre bounded contexts, para mantener la independencia de Users respecto a IAM.
+
+![DatabaseUsers](assets/img/figures/UsersDatabase.png)
+
+*Figura X. Diagrama de diseño de la base de datos del bounded context Users.*
+
 ### 2.6.3. Bounded Context: Learning
 
 El bounded context **Learning** administra los materiales educativos ambientales de EcoMind. Permite consultar el catálogo, aplicar filtros, revisar el detalle de cada material, reproducir recursos multimedia, guardar favoritos, registrar revisiones y descargar contenido disponible para utilizarlo sin conexión.
