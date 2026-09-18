@@ -4276,6 +4276,13 @@ En esta sección se presentan los diagramas de componentes correspondientes al b
 *Figura X. Diagrama C4 de componentes de la API del bounded context Users, elaborado con Structurizr DSL.*
 
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+El siguiente diagrama presenta las clases del Domain Layer de Users y las relaciones entre ellas. Incluye el perfil del usuario, sus preferencias de notificación, el grupo familiar con sus integrantes y la relación de amistad entre dos usuarios. También se representan los Command Services y Query Services que orquestan cada operación, así como las políticas de dominio (`FriendshipPolicy` y `FamilyMembershipPolicy`) que protegen la consistencia de las amistades y las familias.
+
+![ClassUsers](assets/img/figures/ClassUsers.png)
+
+*Figura X. Diagrama de clases de la capa de dominio del bounded context Users*
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.3. Bounded Context: Learning
