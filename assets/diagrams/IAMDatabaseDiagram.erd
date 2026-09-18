@@ -1,0 +1,817 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "originX": 75.28,
+    "originY": -78.5195,
+    "zoomLevel": 0.75,
+    "show": 431,
+    "database": 4,
+    "databaseName": "EcoMind IAM",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "iam_pending_registrations",
+      "iam_email_verifications",
+      "iam_accounts",
+      "iam_account_credentials",
+      "iam_password_reset_tokens"
+    ],
+    "relationshipIds": [
+      "iam_rel_pending_verification",
+      "iam_rel_account_credential",
+      "iam_rel_account_reset_tokens"
+    ],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "iam_pending_registrations": {
+        "id": "iam_pending_registrations",
+        "name": "pending_registrations",
+        "comment": "",
+        "columnIds": [
+          "pending_id",
+          "pending_email",
+          "pending_password_hash",
+          "pending_expires_at",
+          "pending_created_at"
+        ],
+        "seqColumnIds": [
+          "pending_id",
+          "pending_email",
+          "pending_password_hash",
+          "pending_expires_at",
+          "pending_created_at"
+        ],
+        "ui": {
+          "x": -7.3333,
+          "y": 248.4444,
+          "zIndex": 1,
+          "widthName": 117,
+          "widthComment": 60,
+          "color": "#4CAF50"
+        },
+        "meta": {
+          "updateAt": 1789771729141,
+          "createAt": 1790000000000
+        }
+      },
+      "iam_email_verifications": {
+        "id": "iam_email_verifications",
+        "name": "email_verifications",
+        "comment": "",
+        "columnIds": [
+          "verification_id",
+          "verification_pending_id",
+          "verification_token_hash",
+          "verification_expires_at",
+          "verification_used_at"
+        ],
+        "seqColumnIds": [
+          "verification_id",
+          "verification_pending_id",
+          "verification_token_hash",
+          "verification_expires_at",
+          "verification_used_at",
+          "verification_created_at"
+        ],
+        "ui": {
+          "x": 750.2221,
+          "y": 251.1112,
+          "zIndex": 2,
+          "widthName": 99,
+          "widthComment": 60,
+          "color": "#4CAF50"
+        },
+        "meta": {
+          "updateAt": 1789771731988,
+          "createAt": 1790000000000
+        }
+      },
+      "iam_accounts": {
+        "id": "iam_accounts",
+        "name": "accounts",
+        "comment": "",
+        "columnIds": [
+          "account_id",
+          "account_status"
+        ],
+        "seqColumnIds": [
+          "account_id",
+          "account_status",
+          "account_created_at",
+          "account_updated_at"
+        ],
+        "ui": {
+          "x": 100,
+          "y": 550,
+          "zIndex": 3,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": "#2196F3"
+        },
+        "meta": {
+          "updateAt": 1789771708892,
+          "createAt": 1790000000000
+        }
+      },
+      "iam_account_credentials": {
+        "id": "iam_account_credentials",
+        "name": "account_credentials",
+        "comment": "",
+        "columnIds": [
+          "credential_id",
+          "credential_account_id",
+          "credential_email",
+          "credential_password_hash"
+        ],
+        "seqColumnIds": [
+          "credential_id",
+          "credential_account_id",
+          "credential_email",
+          "credential_password_hash",
+          "credential_updated_at"
+        ],
+        "ui": {
+          "x": 715.3333,
+          "y": 485.3335,
+          "zIndex": 4,
+          "widthName": 106,
+          "widthComment": 60,
+          "color": "#2196F3"
+        },
+        "meta": {
+          "updateAt": 1789771735005,
+          "createAt": 1790000000000
+        }
+      },
+      "iam_password_reset_tokens": {
+        "id": "iam_password_reset_tokens",
+        "name": "password_reset_tokens",
+        "comment": "",
+        "columnIds": [
+          "reset_id",
+          "reset_account_id",
+          "reset_token_hash",
+          "reset_expires_at",
+          "reset_used_at"
+        ],
+        "seqColumnIds": [
+          "reset_id",
+          "reset_account_id",
+          "reset_token_hash",
+          "reset_expires_at",
+          "reset_used_at",
+          "reset_created_at"
+        ],
+        "ui": {
+          "x": 634.0001,
+          "y": 786.6667,
+          "zIndex": 5,
+          "widthName": 123,
+          "widthComment": 60,
+          "color": "#FF9800"
+        },
+        "meta": {
+          "updateAt": 1789771714980,
+          "createAt": 1790000000000
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "pending_id": {
+        "id": "pending_id",
+        "tableId": "iam_pending_registrations",
+        "name": "id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771633311,
+          "createAt": 1790000000000
+        }
+      },
+      "pending_email": {
+        "id": "pending_email",
+        "tableId": "iam_pending_registrations",
+        "name": "email",
+        "comment": "Correo normalizado y único",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 149,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "pending_password_hash": {
+        "id": "pending_password_hash",
+        "tableId": "iam_pending_registrations",
+        "name": "password_hash",
+        "comment": "Nunca almacena la contraseña en texto plano",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 82,
+          "widthComment": 243,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "pending_expires_at": {
+        "id": "pending_expires_at",
+        "tableId": "iam_pending_registrations",
+        "name": "expires_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "pending_created_at": {
+        "id": "pending_created_at",
+        "tableId": "iam_pending_registrations",
+        "name": "created_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "verification_id": {
+        "id": "verification_id",
+        "tableId": "iam_email_verifications",
+        "name": "id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771646384,
+          "createAt": 1790000000000
+        }
+      },
+      "verification_pending_id": {
+        "id": "verification_pending_id",
+        "tableId": "iam_email_verifications",
+        "name": "pending_registration_id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 127,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771633311,
+          "createAt": 1790000000000
+        }
+      },
+      "verification_token_hash": {
+        "id": "verification_token_hash",
+        "tableId": "iam_email_verifications",
+        "name": "token_hash",
+        "comment": "Hash del token de verificación",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 62,
+          "widthComment": 161,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "verification_expires_at": {
+        "id": "verification_expires_at",
+        "tableId": "iam_email_verifications",
+        "name": "expires_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "verification_used_at": {
+        "id": "verification_used_at",
+        "tableId": "iam_email_verifications",
+        "name": "used_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "verification_created_at": {
+        "id": "verification_created_at",
+        "tableId": "iam_email_verifications",
+        "name": "created_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "account_id": {
+        "id": "account_id",
+        "tableId": "iam_accounts",
+        "name": "id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771666081,
+          "createAt": 1790000000000
+        }
+      },
+      "account_status": {
+        "id": "account_status",
+        "tableId": "iam_accounts",
+        "name": "status",
+        "comment": "",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771704006,
+          "createAt": 1790000000000
+        }
+      },
+      "account_created_at": {
+        "id": "account_created_at",
+        "tableId": "iam_accounts",
+        "name": "created_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "account_updated_at": {
+        "id": "account_updated_at",
+        "tableId": "iam_accounts",
+        "name": "updated_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 62,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "credential_id": {
+        "id": "credential_id",
+        "tableId": "iam_account_credentials",
+        "name": "id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771661299,
+          "createAt": 1790000000000
+        }
+      },
+      "credential_account_id": {
+        "id": "credential_account_id",
+        "tableId": "iam_account_credentials",
+        "name": "account_id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771666081,
+          "createAt": 1790000000000
+        }
+      },
+      "credential_email": {
+        "id": "credential_email",
+        "tableId": "iam_account_credentials",
+        "name": "email",
+        "comment": "",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771694871,
+          "createAt": 1790000000000
+        }
+      },
+      "credential_password_hash": {
+        "id": "credential_password_hash",
+        "tableId": "iam_account_credentials",
+        "name": "password_hash",
+        "comment": "",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 82,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771693670,
+          "createAt": 1790000000000
+        }
+      },
+      "credential_updated_at": {
+        "id": "credential_updated_at",
+        "tableId": "iam_account_credentials",
+        "name": "updated_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 62,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "reset_id": {
+        "id": "reset_id",
+        "tableId": "iam_password_reset_tokens",
+        "name": "id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771681058,
+          "createAt": 1790000000000
+        }
+      },
+      "reset_account_id": {
+        "id": "reset_account_id",
+        "tableId": "iam_password_reset_tokens",
+        "name": "account_id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771666081,
+          "createAt": 1790000000000
+        }
+      },
+      "reset_token_hash": {
+        "id": "reset_token_hash",
+        "tableId": "iam_password_reset_tokens",
+        "name": "token_hash",
+        "comment": "",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 62,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1789771697804,
+          "createAt": 1790000000000
+        }
+      },
+      "reset_expires_at": {
+        "id": "reset_expires_at",
+        "tableId": "iam_password_reset_tokens",
+        "name": "expires_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "reset_used_at": {
+        "id": "reset_used_at",
+        "tableId": "iam_password_reset_tokens",
+        "name": "used_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "reset_created_at": {
+        "id": "reset_created_at",
+        "tableId": "iam_password_reset_tokens",
+        "name": "created_at",
+        "comment": "",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      }
+    },
+    "relationshipEntities": {
+      "iam_rel_pending_verification": {
+        "id": "iam_rel_pending_verification",
+        "identification": false,
+        "relationshipType": 2,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "iam_pending_registrations",
+          "columnIds": [
+            "pending_id"
+          ],
+          "x": 583.6667,
+          "y": 336.4444,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "iam_email_verifications",
+          "columnIds": [
+            "verification_pending_id"
+          ],
+          "x": 750.2221,
+          "y": 339.1112,
+          "direction": 1
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "iam_rel_account_credential": {
+        "id": "iam_rel_account_credential",
+        "identification": false,
+        "relationshipType": 2,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "iam_accounts",
+          "columnIds": [
+            "account_id"
+          ],
+          "x": 480,
+          "y": 562,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "iam_account_credentials",
+          "columnIds": [
+            "credential_account_id"
+          ],
+          "x": 715.3333,
+          "y": 561.3335,
+          "direction": 1
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      },
+      "iam_rel_account_reset_tokens": {
+        "id": "iam_rel_account_reset_tokens",
+        "identification": false,
+        "relationshipType": 4,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "iam_accounts",
+          "columnIds": [
+            "account_id"
+          ],
+          "x": 480,
+          "y": 642,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "iam_password_reset_tokens",
+          "columnIds": [
+            "reset_account_id"
+          ],
+          "x": 634.0001,
+          "y": 874.6667,
+          "direction": 1
+        },
+        "meta": {
+          "updateAt": 1790000000000,
+          "createAt": 1790000000000
+        }
+      }
+    },
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  }
+}

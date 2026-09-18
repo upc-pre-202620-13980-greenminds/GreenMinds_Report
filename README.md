@@ -4121,11 +4121,19 @@ En esta sección se presentan los diagramas que describen la estructura interna 
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del Domain Layer representa los aggregates, entities, value objects, domain services y repositories que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación, sin incorporar perfiles, preferencias, amistades, familias ni roles sociales pertenecientes a Users.
+El diagrama de clases del Domain Layer representa los aggregates, entities, value objects, domain services y repositories que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación.
+
+![C4I](assets/img/figures/iamclass.png)
+
+*Figura X. Diagrama de clases del bounded context IAM, elaborado con Structurizr DSL.*
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 El diagrama de base de datos presenta las estructuras de persistencia necesarias para las cuentas, las credenciales, los registros pendientes y los tokens de recuperación. Su diseño conserva únicamente hashes de contraseñas y tokens sensibles, registra sus fechas de expiración y consumo, y garantiza la unicidad del correo normalizado.
+
+![C4I](assets/img/figures/IamDatabase.png)
+
+*Figura X. Diagrama de clases del bounded context IAM, elaborado con Structurizr DSL.*
 
 ### 2.6.2. Bounded Context: Users
 
