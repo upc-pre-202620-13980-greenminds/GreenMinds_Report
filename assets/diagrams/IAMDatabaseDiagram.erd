@@ -247,7 +247,7 @@
         "id": "pending_password_hash",
         "tableId": "iam_pending_registrations",
         "name": "password_hash",
-        "comment": "Nunca almacena la contraseña en texto plano",
+        "comment": "Hash seguro de la contraseña",
         "dataType": "VARCHAR(255)",
         "default": "",
         "options": 8,
