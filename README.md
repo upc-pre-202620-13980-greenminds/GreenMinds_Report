@@ -701,6 +701,7 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 
 **Video de la entrevista** :
 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-toxSRoOd5eQBFJiXAcM9ehiLBiamDJHJehpaV3M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h6jWg7
 
 #### Segmento: Padres de Familia
 <br>
@@ -708,7 +709,7 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 | **Entrevista Nro. 1** |
 |---|
 | <img src="assets/img/figures/imagen0781.png" width="335" hspace="240"> |
-| **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:34<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 49 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
+| **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:52<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 49 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
 
 | **Entrevista Nro. 2** |
 |---|
@@ -725,17 +726,17 @@ Implementación de puntos, medallas, niveles y rankings para motivar a los niño
 | **Entrevista Nro. 1** |
 |---|
 | <img src="assets/img/figures/image036.png" width="330" hspace="230"> |
-| **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 11 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:**  <br> **Duración:** 3:15<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pablo, un estudiante de 11 años. En su tiempo libre le gusta jugar con sus juguetes, salir, utilizar la consola o la PC, y también emplear aplicaciones como Roblox para jugar y Discord para comunicarse.<br><br>En relación con el cuidado del medio ambiente, recuerda que en su colegio le han enseñado sobre el ahorro de agua, no botar botellas y guardar chapas. En su casa procura no usar muchas bolsas de plástico. Lo que más lo motiva es haber visto en la provincia la acumulación de basura y cómo afecta tanto a las personas como a los animales, lo que lo hace reflexionar sobre la importancia de reducir los desechos.<br><br>Sobre la forma de aprender, señala que prefiere actividades digitales, aunque también reconoce el valor de las que son en papel. Le gusta aprender escuchando, viendo videos y leyendo textos cortos. Además, considera que los juegos pueden servir como herramienta de aprendizaje si tienen mecánicas bien diseñadas, aunque algunos pueden resultar adictivos.<br><br>Finalmente, Pablo demuestra que disfruta combinar distintas formas de aprendizaje y entretenimiento, mostrando una postura crítica frente al uso de videojuegos educativos. |
+| **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 11 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 4:53  <br> **Duración:** 3:15<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pablo, un estudiante de 11 años. En su tiempo libre le gusta jugar con sus juguetes, salir, utilizar la consola o la PC, y también emplear aplicaciones como Roblox para jugar y Discord para comunicarse.<br><br>En relación con el cuidado del medio ambiente, recuerda que en su colegio le han enseñado sobre el ahorro de agua, no botar botellas y guardar chapas. En su casa procura no usar muchas bolsas de plástico. Lo que más lo motiva es haber visto en la provincia la acumulación de basura y cómo afecta tanto a las personas como a los animales, lo que lo hace reflexionar sobre la importancia de reducir los desechos.<br><br>Sobre la forma de aprender, señala que prefiere actividades digitales, aunque también reconoce el valor de las que son en papel. Le gusta aprender escuchando, viendo videos y leyendo textos cortos. Además, considera que los juegos pueden servir como herramienta de aprendizaje si tienen mecánicas bien diseñadas, aunque algunos pueden resultar adictivos.<br><br>Finalmente, Pablo demuestra que disfruta combinar distintas formas de aprendizaje y entretenimiento, mostrando una postura crítica frente al uso de videojuegos educativos. |
 
 | **Entrevista Nro. 2** |
 |---|
 | <img src="assets/img/figures/image037.png" width="330" hspace="250"> |
-| **Entrevistado N°2:** Gianfranco de la Cruz <br> **Edad:** 12 años<br>**Ubicación:** La Molina, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** <br> **Duración:** 3:40<br><br> **Resumen:** <br><br>El entrevistado se llama Gianfranco de la Cruz, tiene 12 años y está por culminar la primaria. Le gusta pasar el tiempo usando su celular, ya sea para jugar o ver videos.<br><br>Nos menciona que en su colegio sí le han enseñado de manera regular sobre el cuidado del ambiente, como la implementación de tachos de basura específicos para reciclaje. Sin embargo, fuera del colegio no tiene muy claro qué actividades o acciones puede realizar, aparte de mantener limpias sus zonas de convivencia.<br><br>Por último, menciona que actualmente realiza este tipo de acciones más por ayudar que por motivación propia. Sin embargo, la idea de aprender nuevas formas de apoyo mediante juegos o videos le parecería motivante para esforzarse más. |
+| **Entrevistado N°2:** Gianfranco de la Cruz <br> **Edad:** 12 años<br>**Ubicación:** La Molina, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 7:00 <br> **Duración:** 3:40<br><br> **Resumen:** <br><br>El entrevistado se llama Gianfranco de la Cruz, tiene 12 años y está por culminar la primaria. Le gusta pasar el tiempo usando su celular, ya sea para jugar o ver videos.<br><br>Nos menciona que en su colegio sí le han enseñado de manera regular sobre el cuidado del ambiente, como la implementación de tachos de basura específicos para reciclaje. Sin embargo, fuera del colegio no tiene muy claro qué actividades o acciones puede realizar, aparte de mantener limpias sus zonas de convivencia.<br><br>Por último, menciona que actualmente realiza este tipo de acciones más por ayudar que por motivación propia. Sin embargo, la idea de aprender nuevas formas de apoyo mediante juegos o videos le parecería motivante para esforzarse más. |
 
 | **Entrevista Nro. 3** |
 |---|
 | <img src="assets/img/figures/image038.png" width="330" hspace="250"> |
-| **Entrevistado N°3:** Jeicob Ríos <br> **Edad:** 11 años<br>**Ubicación:** Surquillo, Lima<br><br> **Entrevista:** [Video de la entrevista Nro. 3 - Jeicob Ríos](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416107_upc_edu_pe/IQCLeaJ6ym4CT5D_l0aHeQVlAUJV5VnNFUgI3bJUuvErsLI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GgnczS)<br>**Instante del que inicia:** 0:08 <br> **Duración:** 3:00<br><br> **Resumen:** <br><br> El entrevistado se llama Jeicob Ríos, el utiliza principalmente su teléfono celular durante su tiempo libre, ya que no cuenta con tablet y su aplicación predilecta es Roblox. Al evaluar el uso de herramientas digitales frente al papel, manifiesta una clara preferencia por el celular argumentando que realiza sus actividades más rápido al evitar escribir tanto a mano. Esta conducta pone en evidencia un perfil de interacción digital enfocado en la eficiencia y rapidez operativa. <br><br>En cuanto a su conciencia ambiental, señala que en el colegio aprendió a reciclar la mayor cantidad de objetos posible para no dañar los hábitats de los animales ni la capa de ozono. En el ámbito del hogar, contribuye de forma directa mediante el ahorro de agua. Asimismo, su mayor motivación y entretenimiento ecológico reside en el reciclaje creativo, disfrutando la transformación de botellas plásticas en macetas y portalápices. Respecto a sus canales de interacción y estilo de aprendizaje, el entrevistado destaca que su forma preferida de recibir información es escuchando. De igual manera, expresa entusiasmo por aprender sobre el cuidado del planeta mediante juegos o retos interactivos, señalando que dispone de tiempo libre en casa. |
+| **Entrevistado N°3:** Jeicob Ríos <br> **Edad:** 11 años<br>**Ubicación:** Surquillo, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 10:41 <br> **Duración:** 3:00<br><br> **Resumen:** <br><br> El entrevistado se llama Jeicob Ríos, el utiliza principalmente su teléfono celular durante su tiempo libre, ya que no cuenta con tablet y su aplicación predilecta es Roblox. Al evaluar el uso de herramientas digitales frente al papel, manifiesta una clara preferencia por el celular argumentando que realiza sus actividades más rápido al evitar escribir tanto a mano. Esta conducta pone en evidencia un perfil de interacción digital enfocado en la eficiencia y rapidez operativa. <br><br>En cuanto a su conciencia ambiental, señala que en el colegio aprendió a reciclar la mayor cantidad de objetos posible para no dañar los hábitats de los animales ni la capa de ozono. En el ámbito del hogar, contribuye de forma directa mediante el ahorro de agua. Asimismo, su mayor motivación y entretenimiento ecológico reside en el reciclaje creativo, disfrutando la transformación de botellas plásticas en macetas y portalápices. Respecto a sus canales de interacción y estilo de aprendizaje, el entrevistado destaca que su forma preferida de recibir información es escuchando. De igual manera, expresa entusiasmo por aprender sobre el cuidado del planeta mediante juegos o retos interactivos, señalando que dispone de tiempo libre en casa. |
 
 ### 2.2.3. Análisis de entrevistas
 **Segmento: Padres de familia**
@@ -4225,10 +4226,239 @@ Las consultas necesarias se realizan mediante `ProfileServiceClient`, mientras q
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.7. Bounded Context: Monetization
+
+El bounded context **Monetization** administra la economía virtual y la tienda de EcoMind. Su catálogo está organizado en tres secciones visibles: **avatares y cosméticos**, **multiplicadores y protectores**, y **paquetes de gemas**. Los cosméticos, multiplicadores y protectores se adquieren con gemas; los paquetes de gemas se compran con dinero real mediante tarjeta, Yape o PayPal. El contexto también controla el saldo, los movimientos de gemas, el inventario comercial, las compras y las órdenes de pago.
+
+Los protectores de racha se incorporan sin trasladar la propiedad de la racha a Monetization. **Gamification** conserva la racha y detecta que está en riesgo; Monetization posee el inventario de protectores, consume una unidad disponible y publica la confirmación necesaria para que Gamification mantenga la racha.
+
 #### 2.6.7.1. Domain Layer
+
+**Sub-capa Model**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relaciones |
+|---|---|---|---|---|
+| Aggregate Root | Store | Tienda virtual de EcoMind. | Exponer los catálogos de Cosmetic, Multiplier, StreakProtector y GemPackage. | Compone las cuatro colecciones. |
+| Entity | Cosmetic | Avatar o accesorio visual. | Mantener tipo, slot, precio en gemas y disponibilidad. | Pertenece a Store; es referenciado por UserCosmetic. |
+| Entity | Multiplier | Potenciador temporal de XP. | Mantener factor, duración, precio y disponibilidad. | Pertenece a Store; origina UserMultiplier. |
+| Entity | StreakProtector | Producto consumible que preserva una racha. | Mantener nombre, precio y disponibilidad. | Pertenece a Store; incrementa ProtectorInventory. |
+| Entity | GemPackage | Paquete de gemas pagado con dinero real. | Mantener cantidad de gemas y precio monetario. | Pertenece a Store; es seleccionado por GemOrder. |
+| Aggregate Root | GemWallet | Billetera de gemas del usuario. | Acreditar y debitar sin permitir saldo negativo. | Compone GemMovement. |
+| Entity | GemMovement | Movimiento inmutable de gemas. | Auditar compras, recompensas, créditos y devoluciones. | Pertenece a GemWallet. |
+| Aggregate Root | Purchase | Compra de cosmético, multiplicador o protector. | Conservar ítem, precio histórico, estado y resultado. | Debita GemWallet y concede el beneficio. |
+| Aggregate Root | UserInventory | Inventario de avatares y cosméticos. | Evitar duplicados y controlar equipamiento por slot. | Compone UserCosmetic. |
+| Entity | UserCosmetic | Cosmético obtenido por compra o logro. | Registrar procedencia y estado de equipamiento. | Referencia Cosmetic. |
+| Aggregate Root | UserMultiplier | Activación de un multiplicador adquirido. | Controlar factor, inicio, expiración y estado. | Referencia Multiplier. |
+| Aggregate Root | ProtectorInventory | Inventario consumible de protectores. | Incrementar, comprobar y consumir unidades de forma atómica. | Referencia StreakProtector y un usuario. |
+| Aggregate Root | GemOrder | Orden para comprar gemas. | Controlar método, importe, transición de pago e idempotencia. | Referencia GemPackage. |
+
+**Sub-capa Model - Value Objects y Enumerations**
+
+| Tipo | Nombre | Descripción |
+|---|---|---|
+| Value Object | UserId | Identificador del usuario procedente de IAM. |
+| Value Object | CosmeticId | Identificador de un cosmético. |
+| Value Object | MultiplierId | Identificador de un multiplicador. |
+| Value Object | ProtectorId | Identificador de un protector. |
+| Value Object | GemPackageId | Identificador de un paquete de gemas. |
+| Value Object | GemBalance | Saldo entero no negativo. |
+| Value Object | GemPrice | Precio entero en gemas mayor que cero. |
+| Value Object | Money | Importe positivo y moneda ISO 4217. |
+| Value Object | Duration | Duración positiva del multiplicador. |
+| Value Object | PaymentMethod | Método seleccionado y referencia segura, sin datos financieros sensibles. |
+| Enumeration | CosmeticType | `AVATAR`, `HEAD`, `BODY`, `ACCESSORY`. |
+| Enumeration | PurchasableType | `COSMETIC`, `MULTIPLIER`, `STREAK_PROTECTOR`. |
+| Enumeration | PurchaseStatus| `PENDING`, `COMPLETED`, `REJECTED`. |
+| Enumeration | MultiplierStatus| `ACTIVE`, `EXPIRED`. |
+| Enumeration | AcquisitionSource | `PURCHASE`, `ACHIEVEMENT_REWARD`. |
+| Enumeration | GemMovementType | `PURCHASE_DEBIT`, `GEM_PURCHASE_CREDIT`, `REWARD_CREDIT`, `REFUND_CREDIT`. |
+| Enumeration | PaymentMethodType | `CARD`, `YAPE`, `PAYPAL`. |
+| Enumeration | PaymentStatus | `CREATED`, `PROCESSING`, `APPROVED`, `REJECTED`, `CANCELLED`. |
+
+
+**Sub-capa Model - Commands**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Command | BuyCosmeticCommand | Comprar un avatar o cosmético con gemas. |
+| Command | EquipCosmeticCommand | Equipar un cosmético previamente obtenido. |
+| Command | GrantCosmeticRewardCommand | Registrar un cosmético recibido por logro. |
+| Command | BuyMultiplierCommand | Comprar y activar un multiplicador. |
+| Command | BuyStreakProtectorCommand | Comprar un protector si la racha está activa y existe saldo suficiente. |
+| Command | ConsumeStreakProtectorCommand | Consumir automáticamente una unidad cuando Gamification informa que la racha está en riesgo. |
+| Command | CreateGemOrderCommand | Crear una orden de compra de gemas. |
+| Command | ConfirmGemPaymentCommand| Confirmar idempotentemente un pago aprobado. |
+| Command | CreditRewardGemsCommand | Acreditar gemas obtenidas mediante retos o misiones. |
+
+
+
+**Sub-capa Model - Queries**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Query | GetCosmeticsQuery | Consultar avatares y cosméticos disponibles. |
+| Query | GetMultipliersAndProtectorsQuery | Consultar multiplicadores y protectores disponibles. |
+| Query | GetGemPackagesQuery | Consultar paquetes de gemas. |
+| Query | GetWalletBalanceQuery | Consultar saldo actualizado. |
+| Query | GetCosmeticsQuery | Consultar avatares y cosméticos disponibles en la tienda. |
+| Query | GetActiveMultiplierQuery | Consultar factor y vigencia del multiplicador activo. |
+| Query | GetProtectorInventoryQuery | Consultar unidades de protectores disponibles. |
+| Query | GetPurchaseHistoryQuery | Consultar el historial de compras. |
+
+
+**Sub-capa Model - Domain e Integration Events**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Domain Event | VirtualItemPurchasedEvent | Registrar la compra completada de un cosmético, multiplicador o protector. |
+| Domain Event | CosmeticEquippedEvent | Informar el cambio de apariencia. |
+| Domain Event | MultiplierActivatedEvent | Informar factor y expiración. |
+| Domain Event | StreakProtectorPurchasedEvent | Informar que el inventario de protectores aumentó. |
+| Domain Event | StreakProtectorConsumedEvent | Informar que se consumió una unidad. |
+| Domain Event | GemPaymentApprovedEvent | Representar la aprobación de una orden. |
+| Integration Event | DailyStreakAtRiskIntegrationEvent | Evento recibido desde Gamification al terminar el día sin actividad. |
+| Integration Event | StreakProtectedIntegrationEvent | Confirmar a Gamification que puede conservar la racha. |
+| Integration Event | StreakProtectionUnavailableIntegrationEvent | Informar que no había protectores disponibles. |
+
+
+**Sub-capa Services**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Domain Service | PurchasePolicy | Verificar disponibilidad, saldo, duplicidad y requisitos específicos. |
+| Domain Service | ProtectorPurchasePolicy | Exigir una racha activa y gemas suficientes para adquirir un protector. |
+| Domain Service | StreakProtectionService | Consumir una unidad atómicamente y producir el resultado de protección. |
+| Domain Service | GemCreditService | Acreditar una orden aprobada exactamente una vez. |
+
+
+**Sub-capa Repositories**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Repository | CosmeticRepository| Consultar cosméticos activos y detalle. |
+| Repository | MultiplierRepository | Consultar multiplicadores activos. |
+| Repository | StreakProtectorRepository | Consultar protectores activos. |
+| Repository | GemPackageRepository | Consultar paquetes de gemas activos. |
+| Repository | GemWalletRepository | Recuperar y guardar la billetera con control de versión. |
+| Repository | PurchaseRepository | Guardar compras y consultar historial. |
+| Repository | UserInventoryRepository | Persistir propiedad y equipamiento de cosméticos. |
+| Repository | UserMultiplierRepository | Persistir activaciones de multiplicadores. |
+| Repository | ProtectorInventoryRepository | Persistir y bloquear el inventario durante el consumo. |
+| Repository | GemOrderRepository | Persistir órdenes y verificar idempotencia. |
+| Repository | GemMovementRepository | Persistir el libro de movimientos. |
+| Message Broker | MonetizationEventPublisher | Publicar eventos hacia Gamification y otros contextos. |
+
 #### 2.6.7.2. Interface Layer
+
+Esta capa expone los casos de uso mediante la interfaz móvil y una API REST. 
+
+**Sub-capa REST - Controllers y Consumers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Controller | StoreController | API de catálogos. | Exponer cosméticos, multiplicadores, protectores y paquetes. | Invoca `StoreQueryService`. |
+| Controller | PurchaseController | API de compras con gemas. | Comprar cosméticos, multiplicadores y protectores; consultar historial. | Invoca `PurchaseCommandService` y `PurchaseQueryService`. |
+| Controller | InventoryController | API de inventario. | Consultar inventario y equipar cosméticos. | Invoca servicios de inventario. |
+| Controller | WalletController | API de billetera. | Exponer saldo y movimientos. | Invoca `WalletQueryService`. |
+| Controller | GemOrderController | API de compra de gemas. | Crear órdenes y consultar su estado. | Invoca servicios de `GemOrder`. |
+| Consumer | PaymentWebhookController | Endpoint del proveedor de pago. | Verificar la firma y enviar `ConfirmGemPaymentCommand`. | Utiliza GemOrderCommandService. |
+| Consumer | DailyStreakAtRiskConsumer | Consumidor de eventos de Gamification. | Transformar el evento de riesgo en `ConsumeStreakProtectorCommand`. | Invoca `ProtectorCommandService`. |
+
+**Sub-capa REST - Resources y Assemblers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Request Resource | BuyItemResource | Solicitud de compra con gemas. | Transportar `itemId` y `itemType`; nunca aceptar el precio del cliente. | Convertido a command por un assembler. |
+| Request Resource | EquipCosmeticResource | Solicitud de equipamiento. | Transportar el cosmético obtenido que será equipado. | Convertido a `EquipCosmeticCommand`. |
+| Request Resource | CreateGemOrderResource | Solicitud de compra de gemas. | Transportar paquete y método de pago. | Convertido a `CreateGemOrderCommand`. |
+| Response Resource | StoreCatalogResource | Representación HTTP del catálogo. | Exponer las tres pestañas y sus productos. | Ensamblado desde el modelo de lectura. |
+| Response Resource | WalletResource | Representación de la billetera. | Exponer saldo y fecha de actualización. | Ensamblado desde `GemWallet`. |
+| Response Resource | InventoryResource | Representación del inventario. | Exponer cosméticos, multiplicador y cantidad de protectores. | Ensamblado desde los agregados de inventario. |
+| Response Resource | GemOrderResource | Representación de una orden. | Exponer importe, estado y referencia segura. | Ensamblado desde `GemOrder`. |
+| Assembler | CommandFromResourceAssembler | Traductor de entrada. | Convertir resources REST en commands. | Conecta controllers con Application Layer. |
+| Assembler | ResourceFromEntityAssembler | Traductor de salida. | Convertir entidades o modelos de lectura en resources. | Conecta Application Layer con controllers. |
+| Assembler | ErrorResponseAssembler | Constructor de errores. | Uniformizar respuestas de saldo, pago o regla inválida. | Utilizado por controllers. |
+
+
 #### 2.6.7.3. Application Layer
+
+En esta capa se coordinan los casos de uso, las transacciones y la comunicación con Gamification y los proveedores de pago.
+
+
+**Sub-capa Command Services**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Command Handler | PurchaseCommandService | Servicio de compras con gemas. | Comprar cosméticos, multiplicadores o protectores y confirmar débito más concesión de forma atómica. | Utiliza `PurchasePolicy`, billetera y repositorios de inventario. |
+| Command Handler | InventoryCommandService | Servicio de cosméticos. | Agregar recompensas y equipar únicamente artículos obtenidos. | Utiliza `UserInventoryRepository`. |
+| Command Handler | MultiplierCommandService | Servicio de multiplicadores. | Activar el multiplicador después de una compra exitosa. | Utiliza `UserMultiplierRepository`. |
+| Command Handler | ProtectorCommandService | Servicio de protectores. | Comprar unidades y consumir una unidad de manera automática e idempotente. | Utiliza `ProtectorInventoryRepository` y `GamificationGateway`. |
+| Command Handler | WalletCommandService | Servicio de billetera. | Acreditar recompensas y registrar movimientos. | Utiliza `GemWalletRepository` y `GemMovementRepository`. |
+| Command Handler | GemOrderCommandService | Servicio de órdenes de gemas. | Crear, procesar, aprobar o rechazar órdenes sin doble acreditación. | Utiliza `PaymentGateway` y `GemOrderRepository`. |
+
+**Sub-capa Query Services**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Query Handler | StoreQueryService | Servicio de consulta de catálogos. | Obtener cosméticos, multiplicadores, protectores y paquetes activos. | Utiliza repositorios de catálogo. |
+| Query Handler | PurchaseQueryService | Servicio de historial. | Consultar compras por usuario. | Utiliza `PurchaseRepository`. |
+| Query Handler | InventoryQueryService | Servicio de inventario. | Construir la vista de cosméticos, multiplicador activo y protectores. | Utiliza los tres repositorios de inventario. |
+| Query Handler | WalletQueryService | Servicio de billetera. | Consultar saldo y movimientos. | Utiliza repositorios de billetera. |
+| Query Handler | GemOrderQueryService | Servicio de órdenes. | Consultar el estado de una compra de gemas. | Utiliza `GemOrderRepository`. |
+
+
+**Sub-capa Event Handlers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Event Handler | DailyStreakAtRiskEventHandler | Handler de racha en riesgo. | Procesar el evento una vez, consumir un protector y publicar el resultado. | Recibe de Gamification y utiliza `ProtectorCommandService`. |
+| Event Handler | PaymentApprovedEventHandler | Handler de pago aprobado. | Acreditar gemas exactamente una vez. | Utiliza `WalletCommandService`. |
+| Event Handler | VirtualItemPurchasedEventHandler | Handler de compra virtual. | Conceder cosmético, activar multiplicador o incrementar protector. | Utiliza el inventario correspondiente. |
+| Event Handler | RewardGemsGrantedEventHandler | Handler de recompensa. | Acreditar gemas entregadas por otro contexto. | Utiliza `WalletCommandService`. |
+
+**Use Cases de la aplicación Android**
+
+`GetCosmeticsUseCase`, `GetMultipliersAndProtectorsUseCase`, `GetGemPackagesUseCase`, `BuyCosmeticUseCase`, `EquipCosmeticUseCase`, `BuyMultiplierUseCase`, `BuyStreakProtectorUseCase`, `GetProtectorInventoryUseCase`, `GetWalletBalanceUseCase`, `CreateGemOrderUseCase` y `ConfirmGemPaymentUseCase` constituyen la entrada móvil a los servicios anteriores.
+
 #### 2.6.7.4. Infrastructure Layer
+
+Esta capa contiene las clases que implementan persistencia, caché local, comunicación HTTP, pagos y mensajería.
+
+
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Remote Service | MonetizationApiService | Cliente Retrofit de Monetization. | Consumir catálogos, compras, inventarios, billetera y órdenes. | Utilizado por MonetizationRepositoryImpl. |
+| Mapper / ACL | CosmeticMapper | Traductor de cosméticos. | Convertir Network DTO y Room Entity en Cosmetic. | Impide que modelos externos crucen al dominio. |
+| Mapper / ACL | MultiplierMapper | Traductor de multiplicadores. | Convertir modelos de datos en Multiplier. | Utilizado por el repositorio móvil. |
+| Mapper / ACL | ProtectorMapper | Traductor de protectores. | Convertir modelos de datos en StreakProtector. | Utilizado por el repositorio móvil. |
+| Repository Implementation | MonetizationRepositoryImpl | Implementación móvil del repositorio. | Coordinar fuentes remota y local. | Implementa contratos utilizados por Use Cases. |
+| Repository Implementation | CosmeticRepositoryImpl | Persistencia backend de cosméticos. | Consultar el catálogo de cosméticos. | Implementa CosmeticRepository. |
+| Repository Implementation | MultiplierRepositoryImpl | Persistencia backend de multiplicadores. | Consultar el catálogo de multiplicadores. | Implementa MultiplierRepository. |
+| Repository Implementation | StreakProtectorRepositoryImpl | Persistencia backend de protectores. | Consultar protectores activos. | Implementa StreakProtectorRepository. |
+| Repository Implementation | GemWalletRepositoryImpl | Persistencia de billetera. | Aplicar control optimista y cambios de saldo. | Implementa GemWalletRepository. |
+| Repository Implementation | PurchaseRepositoryImpl | Persistencia de compras. | Mantener historial y precio adquirido. | Implementa PurchaseRepository. |
+| Repository Implementation | ProtectorInventoryRepositoryImpl | Persistencia de protectores del usuario. | Incrementar y consumir unidades de forma atómica. | Implementa ProtectorInventoryRepository. |
+| Repository Implementation | GemOrderRepositoryImpl | Persistencia de órdenes. | Mantener órdenes e idempotencia de pagos. | Implementa GemOrderRepository. |
+| External Service Client | GamificationServiceClient | Cliente de Gamification. | Consultar si el usuario tiene una racha activa. | Utilizado al comprar un protector. |
+| Payment Adapter | CardPaymentGateway | Adaptador de tarjeta. | Crear y verificar pagos de tarjeta. | Implementa PaymentGateway. |
+| Payment Adapter | YapePaymentGateway | Adaptador de Yape. | Crear y verificar pagos mediante Yape. | Implementa PaymentGateway. |
+| Payment Adapter | PayPalPaymentGateway | Adaptador de PayPal. | Crear y verificar pagos de PayPal. | Implementa PaymentGateway. |
+| Message Broker Implementation | GamificationEventConsumer | Consumidor de eventos de racha. | Recibir DailyStreakAtRiskIntegrationEvent. | Activa DailyStreakAtRiskEventHandler. |
+| Message Broker Implementation | MonetizationEventPublisherImpl | Publicador transaccional. | Enviar resultados de protección y compras. | Implementa MonetizationEventPublisher mediante outbox. |
+| Dependency Injection | MonetizationModule | Configuración de dependencias. | Vincular contratos con implementaciones. | Utilizado al iniciar la aplicación. |
+
+**Relaciones entre bounded contexts**
+
+| Bounded Context | Relación con Monetization |
+|---|---|
+| `IAM` | Proporciona autenticación y `UserId`; Monetization no conserva credenciales. |
+| `Users` | Consume el cosmético equipado para representar la apariencia del perfil. |
+| `Quests` | Puede originar recompensas de gemas o cosméticos. |
+| `Gamification` | Es propietario de la racha y la XP; valida la racha activa, informa riesgos y recibe la confirmación de protección. |
+
+Las consultas síncronas se realizan mediante clientes ACL. Los cambios asíncronos se comunican mediante eventos y transactional outbox.
+
+
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.7.6.1. Bounded Context Domain Layer Class Diagrams
