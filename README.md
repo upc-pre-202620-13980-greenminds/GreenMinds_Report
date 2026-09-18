@@ -3828,12 +3828,12 @@ Para establecer el orden de prioridad de las historias de usuario planteadas par
 
 A partir de los resultados obtenidos en el Big Picture EventStorming, se realizó una sesión de EventStorming para profundizar en el modelado del dominio de EcoMind. Los procesos identificados se desarrollaron con mayor detalle mediante la incorporación de eventos, comandos, actores, políticas y otros elementos.
 
-![event_Storming2](assets/img/figures/EventStorming030.jpg)
-![event_Storming](assets/img/figures/EventStorming031.jpg)
-![event_Storming](assets/img/figures/EventStorming032.jpg)
-![event_Storming](assets/img/figures/EventStorming033.jpg)
-![event_Storming](assets/img/figures/EventStorming034.jpg)
-![event_Storming](assets/img/figures/EventStorming035.jpg)
+![event_Storming2](assets/img/figures/EventstormingQuests.jpg)
+![event_Storming](assets/img/figures/EventstormingCommunity.jpg)
+![event_Storming](assets/img/figures/EventstormingGamification.jpg)
+![event_Storming](assets/img/figures/EventstormingMonetization.jpg)
+![event_Storming](assets/img/figures/EventstormingUsers.jpg)
+![event_Storming](assets/img/figures/EventstormingIAM.jpg)
 
 #### 2.5.1.1. Candidate Context Discovery
 
@@ -3947,9 +3947,13 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 *Figura X. Bounded Context Canvas del contexto Quests.*
 
 
-[![BCMonetization.jpg](https://i.postimg.cc/8PJv1cPN/BCMonetization.jpg)](https://postimg.cc/zVNv7Jgc)
+![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Monetization.*
+
+![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
+
+*Figura X. Bounded Context Canvas del contexto Identity and Access.*
 
 ### 2.5.2. Context Mapping
 
