@@ -3946,10 +3946,14 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 *Figura X. Bounded Context Canvas del contexto Quests.*
 
+![BoundedContextCanvasCommunity](assets/img/figures/CanvasCommunity.png)
+
+*Figura X. Bounded Context Canvas del contexto Community.*
 
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Monetization.*
+
 
 ![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
 
@@ -3985,10 +3989,208 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.3. Bounded Context: Learning
+
+El bounded context **Learning** administra los materiales educativos ambientales de EcoMind. Permite consultar el catálogo, aplicar filtros, revisar el detalle de cada material, reproducir recursos multimedia, guardar favoritos, registrar revisiones y descargar contenido disponible para utilizarlo sin conexión.
+
 #### 2.6.3.1. Domain Layer
+
+La Domain Layer representa el catálogo de materiales educativos y las interacciones propias de Learning. Contiene las reglas necesarias para publicar contenido válido, administrar favoritos, registrar revisiones y validar descargas sin depender de la interfaz o de la persistencia.
+
+
+
+**Sub-capa Model**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relaciones |
+|---|---|---|---|---|
+| Aggregate Root | `EducationalMaterial` | Recurso educativo disponible en “Aprende más”. | Mantener título, resumen, tipo, idioma, categoría, URLs, disponibilidad y estado de publicación. | Referencia `MaterialCategory`; origina favoritos, revisiones y descargas. |
+| Entity | `MaterialCategory` | Clasificación temática del contenido. | Organizar materiales por temas ambientales. | Agrupa múltiples `EducationalMaterial`. |
+| Aggregate Root | `UserLearningLibrary` | Colección de aprendizaje de un usuario. | Controlar favoritos y evitar registros duplicados. | Compone `FavoriteMaterial`. |
+| Entity | `FavoriteMaterial` | Relación entre un usuario y un material guardado. | Registrar cuándo se agregó un material a favoritos. | Referencia `EducationalMaterial`. |
+| Aggregate Root | `MaterialReview` | Registro de revisión de un material. | Garantizar una única revisión vigente por usuario y material. | Referencia `EducationalMaterial` y `UserId`. |
+| Entity | `MaterialDownload` | Registro de una descarga solicitada. | Auditar la entrega del recurso y su versión. | Referencia `EducationalMaterial` y `UserId`. |
+
+**Sub-capa Model - Value Objects y Enumerations**
+
+| Tipo | Nombre | Descripción |
+|---|---|---|
+| Value Object | `MaterialId` | Identificador único de un material educativo. |
+| Value Object | `CategoryId` | Identificador de una categoría. |
+| Value Object | `UserId` | Identificador extraído del principal autenticado por la capa de seguridad. |
+| Value Object | `LanguageCode` | Código de idioma soportado, por ejemplo `es-PE`. |
+| Value Object | `ContentUrl` | Dirección validada del contenido o recurso multimedia. |
+| Value Object | `SearchCriteria` | Texto, categoría, tipo e idioma utilizados para filtrar el catálogo. |
+| Enumeration | `MaterialType` | `READING`, `VIDEO`, `INFOGRAPHIC`. |
+| Enumeration | `PublicationStatus` | `DRAFT`, `PUBLISHED`, `ARCHIVED`. |
+| Enumeration | `DownloadStatus` | `REQUESTED`, `COMPLETED`, `FAILED`. |
+
+**Sub-capa Model - Commands**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Command | `CreateEducationalMaterialCommand` | Crear un material educativo válido. |
+| Command | `UpdateEducationalMaterialCommand` | Actualizar la información y recursos de un material. |
+| Command | `ArchiveEducationalMaterialCommand` | Retirar un material sin eliminar su historial. |
+| Command | `AddMaterialToFavoritesCommand` | Agregar un material publicado a la colección del usuario. |
+| Command | `RemoveMaterialFromFavoritesCommand` | Retirar un material de favoritos. |
+| Command | `MarkMaterialReviewedCommand` | Registrar que el usuario revisó el material. |
+| Command | `RegisterMaterialDownloadCommand` | Registrar la solicitud y resultado de una descarga. |
+
+**Sub-capa Model - Queries**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Query | `GetEducationalMaterialsQuery` | Obtener los materiales publicados. |
+| Query | `GetEducationalMaterialByIdQuery` | Consultar el detalle de un material. |
+| Query | `SearchEducationalMaterialsQuery` | Buscar por texto, categoría, tipo e idioma. |
+| Query | `GetFavoriteMaterialsQuery` | Consultar los materiales favoritos del usuario. |
+
+**Sub-capa Model - Domain Events**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Domain Event | `EducationalMaterialPublishedEvent` | Informar que un material está disponible para consulta. |
+| Domain Event | `MaterialAddedToFavoritesEvent` | Registrar que el usuario agregó un favorito. |
+| Domain Event | `MaterialRemovedFromFavoritesEvent` | Registrar que el usuario eliminó un favorito. |
+| Domain Event | `MaterialReviewedEvent` | Informar que el material fue revisado. |
+| Domain Event | `MaterialDownloadedEvent` | Informar que la descarga concluyó correctamente. |
+
+**Sub-capa Services**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Domain Service | `MaterialPublicationPolicy` | Verificar título, contenido, idioma y recurso requerido antes de publicar. |
+| Domain Service | `MaterialSearchService` | Aplicar criterios de búsqueda y ordenamiento del catálogo. |
+| Domain Service | `FavoritePolicy` | Evitar favoritos duplicados y materiales no disponibles. |
+| Domain Service | `DownloadPolicy` | Permitir la descarga solo cuando el material está publicado y es descargable. |
+
+**Sub-capa Repositories**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Repository | `EducationalMaterialRepository` | Guardar materiales y consultar catálogo, detalle y resultados de búsqueda. |
+| Repository | `MaterialCategoryRepository` | Consultar las categorías disponibles. |
+| Repository | `UserLearningLibraryRepository` | Persistir favoritos del usuario. |
+| Repository | `MaterialReviewRepository` | Registrar y consultar materiales revisados. |
+| Repository | `MaterialDownloadRepository` | Registrar las descargas solicitadas. |
+
+
 #### 2.6.3.2. Interface Layer
+
+**Sub-capa REST - Controllers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Security Filter | `JwtAuthenticationFilter` | Filtro previo a los controllers. | Validar firma y expiración del JWT y construir el principal autenticado. | Entrega la solicitud autorizada a los controllers. |
+| Security Context | `AuthenticatedUserProvider` | Acceso al usuario de la solicitud. | Proporcionar el `UserId` validado sin consultar nuevamente a IAM. | Utilizado por controllers y assemblers. |
+| Controller | `EducationalMaterialsController` | API del catálogo educativo. | Listar, obtener, buscar, crear, actualizar y archivar materiales. | Invoca command y query services de materiales. |
+| Controller | `FavoritesController` | API de favoritos. | Agregar, eliminar y consultar favoritos del usuario autenticado. | Invoca `LearningLibraryCommandService` y `LearningQueryService`. |
+| Controller | `MaterialReviewsController` | API de materiales revisados. | Registrar una revisión y consultar su estado. | Invoca `MaterialReviewCommandService`. |
+| Controller | `MaterialDownloadsController` | API de descargas. | Validar la descarga y entregar una URL segura. | Invoca `MaterialDownloadCommandService`. |
+
+**Endpoints principales**
+
+| Método y ruta | Responsabilidad |
+|---|---|
+| `GET /api/v1/educational-materials` | Listar materiales publicados y filtrar por idioma. |
+| `GET /api/v1/educational-materials/{materialId}` | Obtener el detalle de un material. |
+| `GET /api/v1/educational-materials/search` | Buscar materiales según los criterios proporcionados. |
+| `POST /api/v1/educational-materials` | Crear un material educativo. |
+| `PUT /api/v1/educational-materials/{materialId}` | Actualizar un material existente. |
+| `DELETE /api/v1/educational-materials/{materialId}` | Archivar un material cuando corresponda. |
+| `POST /api/v1/educational-materials/{materialId}/favorite` | Marcar o desmarcar un material como favorito. |
+| `POST /api/v1/material-reviews` | Registrar que el usuario revisó un material. |
+
+**Sub-capa REST - Resources y Assemblers**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Request Resource | `CreateEducationalMaterialResource` | Transportar los datos necesarios para crear un material. |
+| Request Resource | `UpdateEducationalMaterialResource` | Transportar los cambios permitidos sobre un material. |
+| Request Resource | `MaterialSearchResource` | Transportar texto, categoría, tipo e idioma. |
+| Request Resource | `FavoriteMaterialResource` | Transportar el material que será agregado o retirado; no acepta `userId`, pues se obtiene del principal autenticado. |
+| Request Resource | `MaterialReviewResource` | Transportar el material revisado por el usuario. |
+| Response Resource | `EducationalMaterialResource` | Exponer los datos y recursos seguros del material. |
+| Response Resource | `LearningCatalogResource` | Exponer listado, filtros y paginación. |
+| Assembler | `EducationalMaterialAssembler` | Convertir entre recursos REST y objetos del dominio. |
+
+
+
 #### 2.6.3.3. Application Layer
+
+La Application Layer coordina los casos de uso y las transacciones de Learning.
+**Sub-capa Command Services**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Command Handler | `EducationalMaterialCommandService` | Crear, actualizar, publicar o archivar materiales. | Utiliza `MaterialPublicationPolicy` y `EducationalMaterialRepository`. |
+| Command Handler | `LearningLibraryCommandService` | Agregar o eliminar favoritos sin duplicados. | Utiliza `FavoritePolicy` y `UserLearningLibraryRepository`. |
+| Command Handler | `MaterialReviewCommandService` | Registrar de forma idempotente que un material fue revisado. | Utiliza `MaterialReviewRepository`. |
+| Command Handler | `MaterialDownloadCommandService` | Validar y registrar descargas. | Utiliza `DownloadPolicy`, almacenamiento y repositorio de descargas. |
+
+**Sub-capa Query Services**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Query Handler | `LearningQueryService` | Listar, buscar y obtener el detalle de materiales publicados. | Utiliza `EducationalMaterialRepository`. |
+| Query Handler | `FavoritesQueryService` | Obtener los favoritos del usuario autenticado. | Utiliza `UserLearningLibraryRepository`. |
+
+**Sub-capa Event Handlers**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Event Handler | `EducationalMaterialPublishedEventHandler` | Invalidar y actualizar la caché del catálogo. |
+| Event Handler | `MaterialDownloadedEventHandler` | Confirmar el registro de una descarga completada. |
+
+
+**Use Cases de la aplicación Android**
+
+`GetEducationalMaterialsUseCase`,
+`SearchEducationalMaterialsUseCase`,
+`GetEducationalMaterialDetailUseCase`,
+`AddMaterialToFavoritesUseCase`,
+`RemoveMaterialFromFavoritesUseCase`,
+`GetFavoriteMaterialsUseCase`,
+`MarkMaterialReviewedUseCase` y
+`DownloadMaterialUseCase`.
+
+Cada Use Case posee una responsabilidad concreta, se ejecuta desde un ViewModel y depende de contratos definidos por Domain o Application.
+
+
 #### 2.6.3.4. Infrastructure Layer
+
+La Infrastructure Layer implementa los contratos técnicos de Learning.
+
+La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene el acceso a la API REST, la persistencia relacional, la caché Room, la descarga local y la reproducción del contenido multimedia.
+
+| Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
+|---|---|---|---|
+| Security Adapter | `JwtAuthenticationFilter` | Validar firma y expiración del JWT antes de ejecutar Learning. | Spring Security / JWT. |
+| Security Adapter | `AuthenticatedPrincipalAdapter` | Proporcionar el `UserId` autenticado a Interface y Application. | No realiza una llamada a IAM por operación. |
+| Local Data Source | `LearningDatabase` | Mantener catálogo, favoritos y descargas disponibles sin conexión. | Room. |
+| Local DAO | `EducationalMaterialDao` | Consultar y reemplazar la caché de materiales. | `LearningDatabase`. |
+| Local DAO | `FavoriteMaterialDao` | Mantener favoritos disponibles localmente. | `LearningDatabase`. |
+| Local DAO | `DownloadedMaterialDao` | Registrar archivos descargados y su ruta local. | `LearningDatabase`. |
+| Repository Implementation | `EducationalMaterialRepositoryImpl` | Combinar datos remotos y caché local. | Implementa `EducationalMaterialRepository`. |
+| Repository Implementation | `UserLearningLibraryRepositoryImpl` | Sincronizar favoritos locales y remotos. | Implementa `UserLearningLibraryRepository`. |
+| Persistence Adapter | `JpaEducationalMaterialRepository` | Persistir materiales en la base relacional. | Implementa el repositorio del backend. |
+| Persistence Adapter | `JpaLearningActivityRepository` | Persistir favoritos, revisiones, descargas y progreso. | Implementa repositorios del usuario. |
+| Content Delivery Adapter | `LearningContentDeliveryAdapter` | Entregar desde Learning API el archivo o la URL registrada para el material. | Utiliza los metadatos del catálogo y no depende de un sistema externo de almacenamiento. |
+| Android Service | `MaterialDownloadManager` | Descargar archivos y reanudar operaciones según conectividad. | WorkManager y almacenamiento privado. |
+| Media Adapter | `VideoPlayerAdapter` | Reproducir videos educativos desde URL o archivo local. | Media3/ExoPlayer. |
+| Mapper | `EducationalMaterialMapper` | Convertir DTO, entidad Room y modelo de dominio. | Anti-Corruption Layer. |
+| Dependency Injection | `LearningModule` | Vincular contratos con implementaciones. | Hilt. |
+
+**Relaciones con otros contextos y sistemas**
+
+| Colaborador | Relación con Learning |
+|---|---|
+| `IAM` | Autentica durante el inicio de sesión y emite el JWT. Luego, la capa de seguridad valida el token y obtiene el `UserId`; Learning no llama a IAM en cada operación ni conserva credenciales. |
+| `Users` | Proporciona en el perfil el acceso visual a la sección de favoritos. Learning sigue siendo propietario y responsable de consultar esos favoritos mediante `userId`. |
+| `Quests` | Proporciona el punto de navegación “Aprende más”. Abrir esa opción lleva a la UI de Learning, pero Quests no administra materiales. |
+| `EcoMind Android Application` | Ejecuta la navegación entre Quests, perfil y Learning; consume Learning API mediante HTTPS/JSON. |
+
+Las solicitudes protegidas utilizan HTTPS/JSON con un JWT emitido previamente por IAM. 
+
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4286,8 +4488,7 @@ Los protectores de racha se incorporan sin trasladar la propiedad de la racha a 
 
 | Tipo | Nombre | Descripción |
 |---|---|---|
-| Value Object | UserId | Identificador del usuario procedente de IAM. |
-| Value Object | CosmeticId | Identificador de un cosmético. |
+| Value Object | UserId | Identificador extraído del principal autenticado por la capa de seguridad. || Value Object | CosmeticId | Identificador de un cosmético. |
 | Value Object | MultiplierId | Identificador de un multiplicador. |
 | Value Object | ProtectorId | Identificador de un protector. |
 | Value Object | GemPackageId | Identificador de un paquete de gemas. |
@@ -4394,14 +4595,16 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 | Controller | GemOrderController | API de compra de gemas. | Crear órdenes y consultar su estado. | Invoca servicios de `GemOrder`. |
 | Consumer | PaymentWebhookController | Endpoint del proveedor de pago. | Verificar la firma y enviar `ConfirmGemPaymentCommand`. | Utiliza GemOrderCommandService. |
 | Consumer | DailyStreakAtRiskConsumer | Consumidor de eventos de Gamification. | Transformar el evento de riesgo en `ConsumeStreakProtectorCommand`. | Invoca `ProtectorCommandService`. |
+| Security Filter | JwtAuthenticationFilter | Filtro previo a los controllers. | Validar firma y expiración del JWT y construir el principal autenticado. | Entrega la solicitud autorizada a los controllers. |
+| Security Context | AuthenticatedUserProvider | Acceso al usuario de la solicitud. | Proporcionar el `UserId` validado sin consultar nuevamente a IAM. | Utilizado por controllers y assemblers. |
 
 **Sub-capa REST - Resources y Assemblers**
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
-| Request Resource | BuyItemResource | Solicitud de compra con gemas. | Transportar `itemId` y `itemType`; nunca aceptar el precio del cliente. | Convertido a command por un assembler. |
+| Request Resource | BuyItemResource | Solicitud de compra con gemas. | Transportar `itemId` y `itemType`; nunca aceptar precio ni `userId` del cliente. | El assembler incorpora el `UserId` del principal autenticado. |
 | Request Resource | EquipCosmeticResource | Solicitud de equipamiento. | Transportar el cosmético obtenido que será equipado. | Convertido a `EquipCosmeticCommand`. |
-| Request Resource | CreateGemOrderResource | Solicitud de compra de gemas. | Transportar paquete y método de pago. | Convertido a `CreateGemOrderCommand`. |
+| Request Resource | CreateGemOrderResource | Solicitud de compra de gemas. | Transportar paquete y método de pago; no acepta `userId`. | El assembler incorpora el `UserId` del principal autenticado. |
 | Response Resource | StoreCatalogResource | Representación HTTP del catálogo. | Exponer las tres pestañas y sus productos. | Ensamblado desde el modelo de lectura. |
 | Response Resource | WalletResource | Representación de la billetera. | Exponer saldo y fecha de actualización. | Ensamblado desde `GemWallet`. |
 | Response Resource | InventoryResource | Representación del inventario. | Exponer cosméticos, multiplicador y cantidad de protectores. | Ensamblado desde los agregados de inventario. |
@@ -4409,7 +4612,6 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 | Assembler | CommandFromResourceAssembler | Traductor de entrada. | Convertir resources REST en commands. | Conecta controllers con Application Layer. |
 | Assembler | ResourceFromEntityAssembler | Traductor de salida. | Convertir entidades o modelos de lectura en resources. | Conecta Application Layer con controllers. |
 | Assembler | ErrorResponseAssembler | Constructor de errores. | Uniformizar respuestas de saldo, pago o regla inválida. | Utilizado por controllers. |
-
 
 #### 2.6.7.3. Application Layer
 
@@ -4483,11 +4685,12 @@ Esta capa contiene las clases que implementan persistencia, caché local, comuni
 
 | Bounded Context | Relación con Monetization |
 |---|---|
-| `IAM` | Proporciona autenticación y `UserId`; Monetization no conserva credenciales. |
+| `IAM` | Autentica durante el inicio de sesión y emite el JWT. Luego, la capa de seguridad valida el token y proporciona el `UserId`; Monetization no llama a IAM en cada operación ni conserva credenciales. |
 | `Users` | Consume el cosmético equipado para representar la apariencia del perfil. |
-| `Gamification` | Es propietario de los puntos, logros y rachas; informa riesgos de racha, recibe la confirmación de protección y solicita la acreditación de gemas concedidas como recompensa. |
+| `Quests` | Puede originar recompensas de gemas o cosméticos. |
+| `Gamification` | Es propietario de la racha y la XP; valida la racha activa, informa riesgos y recibe la confirmación de protección. |
 
-Las consultas síncronas se realizan mediante clientes ACL. Los cambios asíncronos se comunican mediante eventos y transactional outbox.
+Las solicitudes protegidas llegan con un JWT emitido previamente por IAM. El filtro de seguridad valida el token antes de permitir el acceso a los controllers. Las demás consultas síncronas se realizan mediante clientes ACL y los cambios asíncronos mediante eventos y transactional outbox.
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -4499,7 +4702,7 @@ El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Moneti
 
 *Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
 
-![C4](assets/img/figures/c4Mone2.png)
+![C4](assets/img/figures/MonetizationApiComponents.png)
 
 *Figura X. Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
 
