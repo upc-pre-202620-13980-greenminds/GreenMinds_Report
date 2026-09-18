@@ -4129,7 +4129,7 @@ El diagrama de base de datos presenta las estructuras de persistencia necesarias
 
 ### 2.6.2. Bounded Context: Users
 
-El bounded context **Users** administra la información personal del usuario: su perfil, sus preferencias, sus relaciones de amistad, sus grupos familiares y el rol social que desempeña dentro de EcoMind (estudiante o padre de familia). Es distinto de **IAM**, que gestiona identidad, credenciales y autenticación: una vez que IAM crea una cuenta, delega en Users la creación y el mantenimiento del perfil asociado a esa cuenta.
+El bounded context Users administra la información personal del usuario: su perfil, sus preferencias, sus relaciones de amistad, sus grupos familiares y el rol social que desempeña dentro de EcoMind (estudiante o padre de familia). Es distinto de IAM, que gestiona identidad, credenciales y autenticación: una vez que IAM crea una cuenta, delega en Users la creación y el mantenimiento del perfil asociado a esa cuenta.
 
 #### 2.6.2.1. Domain Layer
 
@@ -4264,7 +4264,17 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 | `Quests` | Consulta usuarios, amistades, familias y roles a través de `UsersServiceClient` para validar misiones colaborativas y planes familiares. |
 | `Gamification` / `Monetization` | Según lo documentado, Users consume el cosmético equipado para representar la apariencia del perfil; el reporte no precisa aún si el catálogo y la asignación del cosmético residen en Gamification o en Monetization, por lo que este punto queda pendiente de definición en la Bounded Context Canvas de Users. |
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección se presentan los diagramas de componentes correspondientes al bounded context Users. Debido a que sus funcionalidades se distribuyen entre la aplicación móvil y la API backend, se incluye un diagrama para cada container. El diagrama de la aplicación Android muestra la pantalla de perfil, familia y amistades, los ViewModels, los casos de uso, el repositorio de Users, los mappers de datos y el cliente HTTP que consume la API. El diagrama de Users API presenta los controllers REST de perfil, familia, amistades y cosmético equipado, los servicios de aplicación, el modelo de dominio y los adaptadores de persistencia, además de la recepción del command `CreateProfile` enviado desde IAM y las consultas síncronas realizadas por Quests para validar misiones colaborativas y planes familiares.
+
+![C4II](assets/img/figures/UsersAndroidComponents.png)
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Users, elaborado con Structurizr DSL.*
+
+![C4II](assets/img/figures/UsersApiComponents.png)
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context Users, elaborado con Structurizr DSL.*
+
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
