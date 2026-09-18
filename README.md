@@ -4218,7 +4218,14 @@ En esta sección se presentan los diagramas de componentes correspondientes al b
 *Figura X. Diagrama C4 de componentes de la API del bounded context Quests, elaborado con Structurizr DSL.*
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+Los diagramas permiten identificar sus principales elementos de dominio, las relaciones entre ellos y la manera en que representan las reglas de negocio asociadas con las misiones, su ejecución, los minijuegos, la colaboración y los planes familiares.
+
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests, organizadas según sus principales capacidades. Se incluyen aggregates, entities, value objects y enumeraciones responsables de representar el catálogo de misiones, el progreso de los usuarios, los minijuegos, las misiones colaborativas y los planes familiares.
+
+![ClassQuest](assets/img/figures/ClassDiagramQuest.png)
+*Figura X. Diagrama de clases del bounded context quest, elaborado con plantuml.*
+
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 El presente diagrama representa el modelo de base de datos del bounded context **Quests** de EcoMind. Este contexto gestiona la definición y ejecución de retos, actividades, minijuegos, retos colaborativos y planes familiares, además de registrar el progreso de los usuarios. Las relaciones internas se representan mediante claves foráneas, mientras que los identificadores pertenecientes a otros bounded contexts, como usuarios y familias, se conservan como referencias externas para mantener la independencia entre contextos.
 
