@@ -4495,7 +4495,7 @@ El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Moneti
 
 *Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
 
-![C4](assets/img/figures/c4Mone2.png)
+![C4](assets/img/figures/MonetizationApiComponents.png)
 
 *Figura X. Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
 
