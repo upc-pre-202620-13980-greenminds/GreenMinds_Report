@@ -77,7 +77,7 @@ Proyecto <br>
 | 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
 | 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery  |
 | 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog <br> docs: agregar impact mapping  |
-| 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
+| 1.0.0    | 17/09/2026     | Katty Philco, Isabel Aponte   | docs: agregar registro de entrevistas <br> docs: agregar sección Needfinding <br> docs: agregar Bounded Context: Monetization <br> docs: agregar Bounded Context Software Architecture Component Level and code diagrams  <br>  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 | 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
 
@@ -4458,11 +4458,39 @@ Esta capa contiene las clases que implementan persistencia, caché local, comuni
 
 Las consultas síncronas se realizan mediante clientes ACL. Los cambios asíncronos se comunican mediante eventos y transactional outbox.
 
-
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Monetization con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Monetization, su base de datos y los servicios externos de autenticación y pagos. También muestra la comunicación con Gamification, que informa cuando una racha está en riesgo, para que Monetization verifique si el usuario tiene un protector disponible y comunique el resultado.
+
+<div align="center">
+  <img src="assets/img/figures/c4Mone1.png" alt="Diagrama C4 de Monetization" width="350">
+</div>
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
+
+![C4](assets/img/figures/c4Mone2.png)
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
+
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección se presentan los diagramas que describen la estructura interna del bounded context de Monetization, incluyendo sus principales clases de dominio y el diseño de la base de datos. Para mantener los diagramas claros y fáciles de comprender, los Commands, Queries, Use Cases y adaptadores se explican en las secciones anteriores.
+
 ##### 2.6.7.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases presenta los principales elementos del dominio de Monetization y las relaciones entre ellos. Incluye la tienda, la billetera de gemas, las compras, los inventarios y los distintos productos disponibles, como cosméticos, multiplicadores, protectores y paquetes de gemas. También representa las operaciones necesarias para consultar productos, verificar el saldo, realizar compras y administrar los artículos adquiridos por el usuario.
+
+![ClassDiagram](assets/img/figures/classMone.png)
+
+*Figura X. Diagrama de clases de la capa de dominio del bounded context Monetization.*
+
 ##### 2.6.7.6.2. Bounded Context Database Design Diagram
+
+El diseño de la base de datos organiza por separado los cosméticos, multiplicadores, protectores y paquetes de gemas, ya que cada tipo de producto posee características propias.
+
+![Database](assets/img/figures/databaseMone.png)
+
+*Figura X. Diagrama de diseño de la base de datos del bounded context Monetization.*
 
 # Bibliografía
 
