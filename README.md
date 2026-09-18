@@ -3941,21 +3941,27 @@ Después de identificar los candidate bounded contexts, se elaboró un Bounded C
 La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique.
 
 **1. Bounded Context Canvas Quests**
-
 ![BoundedContextCanvasQuests](assets/img/figures/CanvasQuest.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Quests.*
 
+**2. Bounded Context Canvas Community**
 ![BoundedContextCanvasCommunity](assets/img/figures/CanvasCommunity.png)
 
 *Figura X. Bounded Context Canvas del contexto Community.*
 
+**3. Bounded Context Canvas Monetization**
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Monetization.*
 
-
+**4. Bounded Context Canvas IAM**
 ![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
+
+*Figura X. Bounded Context Canvas del contexto Identity and Access.*
+
+**5. Bounded Context Canvas Users**
+![BCUsers.jpg](assets/img/figures/canvasUsers.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Identity and Access.*
 
