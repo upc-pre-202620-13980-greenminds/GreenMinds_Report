@@ -3963,7 +3963,7 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 **5. Bounded Context Canvas Users**
 ![BCUsers.jpg](assets/img/figures/canvasUsers.jpg)
 
-*Figura X. Bounded Context Canvas del contexto Identity and Access.*
+*Figura X. Bounded Context Canvas del contexto Users.*
 
 ### 2.5.2. Context Mapping
 
@@ -4128,10 +4128,141 @@ El diagrama de clases del Domain Layer representa los aggregates, entities, valu
 El diagrama de base de datos presenta las estructuras de persistencia necesarias para las cuentas, las credenciales, los registros pendientes y los tokens de recuperación. Su diseño conserva únicamente hashes de contraseñas y tokens sensibles, registra sus fechas de expiración y consumo, y garantiza la unicidad del correo normalizado.
 
 ### 2.6.2. Bounded Context: Users
+
+El bounded context **Users** administra la información personal del usuario: su perfil, sus preferencias, sus relaciones de amistad, sus grupos familiares y el rol social que desempeña dentro de EcoMind (estudiante o padre de familia). Es distinto de **IAM**, que gestiona identidad, credenciales y autenticación: una vez que IAM crea una cuenta, delega en Users la creación y el mantenimiento del perfil asociado a esa cuenta.
+
 #### 2.6.2.1. Domain Layer
+
+La Domain Layer representa al usuario como individuo dentro de la plataforma, así como sus vínculos sociales (amistades y familia). Contiene las reglas necesarias para mantener un perfil consistente, evitar relaciones duplicadas y administrar el ciclo de vida de una familia, sin depender de la interfaz ni de la persistencia.
+
+**Sub-capa Model**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relaciones |
+|---|---|---|---|---|
+| Aggregate Root | `UserProfile` | Perfil de un usuario ya autenticado en IAM. | Mantener nombre, rol social, racha, ecopoints, balance de gemas y cosmético equipado. | Se crea a partir del `AccountId` recibido de IAM; referencia `EquippedCosmetic`. |
+| Value Object | `NotificationPreferences` | Preferencias de notificación del usuario. | Registrar qué categorías de notificación están habilitadas o deshabilitadas. | Pertenece a `UserProfile`. |
+| Aggregate Root | `Family` | Grupo familiar creado por un padre. | Administrar la lista de integrantes y su ciclo de vida. | Compone varios `FamilyMember`. |
+| Entity | `FamilyMember` | Vínculo entre un usuario y una familia. | Registrar el `family_role` del integrante dentro del grupo. | Referencia `UserProfile` y pertenece a `Family`. |
+| Aggregate Root | `Friendship` | Relación de amistad entre dos usuarios. | Controlar el estado de la solicitud y evitar duplicados. | Referencia dos `UserProfile` (solicitante y receptor). |
+
+**Sub-capa Model – Value Objects y Enumerations**
+
+| Tipo | Nombre | Descripción |
+|---|---|---|
+| Value Object | `UserId` | Identificador del perfil, equivalente al `AccountId` emitido por IAM. |
+| Value Object | `FamilyId` | Identificador único de un grupo familiar. |
+| Enumeration | `SocialRole` | `STUDENT`, `PARENT`, seleccionado por el usuario durante el registro en IAM y persistido en Users. |
+| Enumeration | `FamilyRole` | Rol de un integrante dentro de la familia (`family_role`); el proyecto confirma su existencia como campo, sin fijar aún el conjunto cerrado de valores en la documentación disponible. |
+| Enumeration | `FriendshipStatus` | Estado de una solicitud de amistad; la documentación confirma el valor de amistad aceptada, sin especificar todavía el resto del ciclo de vida (p. ej. solicitud pendiente o rechazada). |
+
+**Sub-capa Model – Commands**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Command | `CreateProfileCommand` | Crear el perfil correspondiente a una cuenta nueva verificada en IAM. |
+| Command | `UpdateProfileCommand` | Actualizar racha, última fecha de racha, ecopoints y balance de gemas del perfil. |
+| Command | `UpdateNotificationPreferencesCommand` | Habilitar o deshabilitar categorías de notificación del usuario. |
+| Command | `CreateFamilyCommand` | Crear un grupo familiar a partir de un padre. |
+| Command | `AddFamilyMemberCommand` | Agregar un integrante a la familia. |
+| Command | `RemoveFamilyMemberCommand` | Retirar un integrante de la familia. |
+| Command | `SendFriendRequestCommand` | Enviar una solicitud de amistad a otro usuario. |
+| Command | `RespondFriendRequestCommand` | Aceptar o rechazar una solicitud de amistad recibida. |
+| Command | `EquipCosmeticCommand` | Registrar el cosmético seleccionado para representar la apariencia del perfil. |
+
+**Sub-capa Model – Queries**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Query | `GetUserProfileQuery` | Obtener el resumen del perfil de un usuario. |
+| Query | `GetFamilyQuery` | Consultar una familia y sus integrantes. |
+| Query | `GetFamilyMembersByUserQuery` | Consultar las relaciones familiares de un usuario específico. |
+| Query | `GetFriendsByUserQuery` | Consultar las amistades aceptadas de un usuario. |
+| Query | `GetEquippedCosmeticQuery` | Consultar el cosmético actualmente equipado en el perfil. |
+
+**Sub-capa Model – Domain Events**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Domain Event | `ProfileCreatedEvent` | Informar que un perfil fue creado a partir de una cuenta verificada. |
+| Domain Event | `FamilyMemberAddedEvent` | Informar que un integrante fue agregado a una familia. |
+| Domain Event | `FriendRequestAcceptedEvent` | Informar que dos usuarios establecieron una amistad. |
+
+**Sub-capa Services**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Domain Service | `FriendshipPolicy` | Evitar solicitudes de amistad duplicadas o dirigidas al propio usuario. |
+| Domain Service | `FamilyMembershipPolicy` | Evitar que un usuario pertenezca a más de una familia activa a la vez. |
+
+**Sub-capa Repositories**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Repository | `UserProfileRepository` | Persistir y consultar perfiles de usuario. |
+| Repository | `FamilyRepository` | Persistir y consultar familias y sus integrantes. |
+| Repository | `FriendshipRepository` | Persistir y consultar relaciones de amistad. |
+
 #### 2.6.2.2. Interface Layer
+
+**Sub-capa REST – Controllers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Controller | `UserProfileController` | API de perfil. | Exponer `GET /api/v1/user`, `GET /api/v1/user/{id}`, `GET /api/v1/user/{userId}` y `PUT /api/v1/user/{id}`. | Invoca `ProfileCommandService` y `ProfileQueryService`. |
+| Controller | `FamilyController` | API de familia. | Exponer `GET /api/v1/family` y `GET /api/v1/family_user`, incluyendo el filtro `GET /api/v1/family_user?user_id={id}`. | Invoca `FamilyCommandService` y `FamilyQueryService`. |
+| Controller | `FriendController` | API de amistades. | Exponer `GET /api/v1/friend` y `GET /api/v1/friend?user_id={id}`. | Invoca `FriendshipCommandService` y `FriendshipQueryService`. |
+| Controller | `UserCosmeticController` | API del cosmético del perfil. | Exponer `GET /api/v1/user_cosmetic`, `GET /api/v1/user_cosmetic/{userCosmeticId}` y `POST /api/v1/user_cosmetic`. | Invoca `ProfileCosmeticCommandService` y `ProfileQueryService`. |
+
+**Sub-capa REST – Assemblers y Resources**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Assembler | `*CommandFromResourceAssembler` | Convertir los resources de entrada (actualización de perfil, solicitud de amistad, alta familiar) en commands. |
+| Assembler | `*ResourceFromEntityAssembler` | Convertir `UserProfile`, `Family` y `Friendship` en resources de respuesta. |
+| Response Resource | `UserProfileResource` | Exponer nombre, rol social, racha, ecopoints, balance de gemas y cosmético equipado. |
+| Response Resource | `FamilyResource` | Exponer la familia y sus integrantes con su `family_role`. |
+| Response Resource | `FriendResource` | Exponer las relaciones de amistad y su estado. |
+
 #### 2.6.2.3. Application Layer
+
+Esta capa coordina los casos de uso del perfil, la familia, las amistades y el cosmético del perfil, incluyendo la comunicación entrante desde IAM y saliente hacia los demás bounded contexts.
+
+| Tipo | Nombre | Responsabilidad principal | Utiliza |
+|---|---|---|---|
+| Command Handler | `ProfileCommandService` | Crear el perfil al recibir `CreateProfile` desde IAM y actualizar racha, ecopoints y balance de gemas. | `UserProfileRepository`. |
+| Command Handler | `NotificationPreferencesCommandService` | Actualizar las preferencias de notificación del perfil. | `UserProfileRepository`. |
+| Command Handler | `FamilyCommandService` | Crear la familia y agregar o retirar integrantes aplicando `FamilyMembershipPolicy`. | `FamilyRepository`. |
+| Command Handler | `FriendshipCommandService` | Enviar, aceptar o rechazar solicitudes de amistad aplicando `FriendshipPolicy`. | `FriendshipRepository`. |
+| Command Handler | `ProfileCosmeticCommandService` | Registrar el cosmético equipado en el perfil. | `UserProfileRepository`. |
+| Query Handler | `ProfileQueryService` | Obtener el resumen del perfil de un usuario. | `UserProfileRepository`. |
+| Query Handler | `FamilyQueryService` | Consultar familias e integrantes, incluyendo el filtro por usuario. | `FamilyRepository`. |
+| Query Handler | `FriendshipQueryService` | Consultar las amistades aceptadas de un usuario. | `FriendshipRepository`. |
+
+En la documentación disponible se confirma que IAM envía el command `CreateProfile` a Users inmediatamente después de crear una cuenta verificada, y que Quests consulta usuarios, amistades, familias y roles de Users mediante `UsersServiceClient` para validar la participación en misiones colaborativas y planes familiares. Estas dos integraciones son las únicas confirmadas explícitamente en el reporte; el resto de los casos de uso listados se deriva directamente de los Technical Stories y User Stories asignados a Users (EP07 y EP011).
+
 #### 2.6.2.4. Infrastructure Layer
+
+Esta capa implementará la persistencia, el punto de recepción de la integración con IAM y los adaptadores necesarios para consumir la API de Users desde la aplicación Android.
+
+| Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
+|---|---|---|---|
+| Persistence Entity | `UserProfilePersistenceEntity` | Almacenar nombre, rol social, racha, ecopoints y balance de gemas. | Mapeada por JPA. |
+| Persistence Entity | `FamilyPersistenceEntity` | Almacenar la familia y sus integrantes con su `family_role`. | Mapeada por JPA. |
+| Persistence Entity | `FriendshipPersistenceEntity` | Almacenar las relaciones de amistad y su estado. | Mapeada por JPA. |
+| Repository Implementation | `UserProfileRepositoryImpl` | Persistir y consultar perfiles. | Implementa `UserProfileRepository`. |
+| Repository Implementation | `FamilyRepositoryImpl` | Persistir y consultar familias e integrantes. | Implementa `FamilyRepository`. |
+| Repository Implementation | `FriendshipRepositoryImpl` | Persistir y consultar amistades. | Implementa `FriendshipRepository`. |
+| Internal Context Listener | `IamContextListener` | Recibir el command `CreateProfile` enviado desde IAM y crear el perfil correspondiente. | Contraparte de `UsersContextClient`, definido en la Infrastructure Layer de IAM. |
+| Android API Client | `UsersApiService` | Consumir los endpoints de perfil, familia, amistades y cosmético equipado. | HTTPS/JSON desde la aplicación Android. |
+| Dependency Injection | `UsersModule` | Vincular contratos con implementaciones. | Hilt. |
+
+**Colaboradores**
+
+| Colaborador | Relación con Users |
+|---|---|
+| `IAM` | Crea la cuenta y envía el command `CreateProfile` para originar el perfil en Users. |
+| `Quests` | Consulta usuarios, amistades, familias y roles a través de `UsersServiceClient` para validar misiones colaborativas y planes familiares. |
+| `Gamification` / `Monetization` | Según lo documentado, Users consume el cosmético equipado para representar la apariencia del perfil; el reporte no precisa aún si el catálogo y la asignación del cosmético residen en Gamification o en Monetization, por lo que este punto queda pendiente de definición en la Bounded Context Canvas de Users. |
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
