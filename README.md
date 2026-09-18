@@ -3969,16 +3969,151 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 ## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: IAM
+
+El bounded context **IAM (Identity and Access Management)** administra el registro y la verificación de cuentas, las credenciales, la autenticación, los access tokens y la recuperación de contraseña. Los perfiles, preferencias, amistades, familias y roles sociales pertenecen al bounded context **Users**.
+
 #### 2.6.1.1. Domain Layer
+
+Esta capa representa las reglas que protegen la identidad digital y las credenciales. Una cuenta solo se crea después de verificar el correo y comprobar nuevamente su disponibilidad; las contraseñas y los tokens de recuperación se conservan únicamente mediante sus hashes.
+
+**Sub-capa Model**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate Root | `PendingRegistration` | Registro temporal previo a la creación de la cuenta. | Mantener los datos de registro y controlar su vigencia y verificación. | Origina una `Account` después de verificar el correo y reconfirmar su disponibilidad. |
+| Entity | `EmailVerification` | Verificación asociada con un registro pendiente. | Validar el código o token dentro del plazo de 20 minutos e impedir su reutilización. | Pertenece a `PendingRegistration`. |
+| Aggregate Root | `Account` | Identidad digital habilitada para acceder a EcoMind. | Crear y mantener el estado de la cuenta autenticable. | Posee una `AccountCredential` y se identifica mediante `AccountId`. |
+| Entity | `AccountCredential` | Credencial de acceso de una cuenta. | Asociar un correo normalizado con el hash de la contraseña y permitir su actualización segura. | Pertenece a `Account`; utiliza `EmailAddress` y `PasswordHash`. |
+| Aggregate Root | `PasswordResetToken` | Autorización temporal para cambiar una contraseña. | Controlar expiración, consumo único y asociación con la cuenta solicitante. | Se busca mediante su `TokenHash` y, al consumirse, permite actualizar `AccountCredential`. |
+| Value Object | `AccountId` | Identificador estable de una cuenta. | Identificar al usuario autenticado sin exponer credenciales. | Se incluye como subject del `AccessToken` y se comunica a Users. |
+| Value Object | `EmailAddress` | Correo normalizado. | Eliminar espacios laterales, convertir a minúsculas y validar el formato. | Usado por `PendingRegistration` y `AccountCredential`. |
+| Value Object | `PasswordHash` | Representación no reversible de una contraseña. | Evitar que la contraseña en texto plano forme parte del modelo persistido. | Utilizado por `AccountCredential`. |
+| Value Object | `AccessToken` | JWT firmado y temporal. | Representar la identidad autenticada y su expiración. | Se emite después de una autenticación válida. |
+| Value Object | `TokenHash` | Huella de un token sensible. | Permitir la validación sin almacenar el token de recuperación en texto plano. | Utilizado por `PasswordResetToken`. |
+
+**Sub-capa Domain Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `RegistrationPolicy` | Validar los datos del registro, la disponibilidad del correo y la vigencia de la verificación antes de crear la cuenta. | Opera sobre `PendingRegistration`, `EmailAddress` y `AccountRepository`. |
+| `AuthenticationService` | Comprobar correo y contraseña sin revelar cuál credencial fue incorrecta. | Utiliza `AccountCredentialRepository` y `PasswordHasher`. |
+| `PasswordPolicy` | Validar que una contraseña nueva cumpla las reglas de seguridad de IAM. | Se aplica al registro y a la recuperación de contraseña. |
+
+**Sub-capa Repositories y contratos del dominio**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Repository | `PendingRegistrationRepository` | Persistir registros temporales y consultar una verificación vigente. |
+| Repository | `AccountRepository` | Persistir cuentas y comprobar la unicidad del correo normalizado. |
+| Repository | `AccountCredentialRepository` | Consultar y actualizar las credenciales asociadas con una cuenta. |
+| Repository | `PasswordResetTokenRepository` | Persistir, localizar y marcar como consumidos los tokens de recuperación. |
+| Domain Port | `PasswordHasher` | Generar y comparar hashes de contraseñas sin acoplar el dominio a un algoritmo concreto. |
+
 #### 2.6.1.2. Interface Layer
+
+Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints protegidos reciben la identidad establecida por la capa de seguridad después de validar el JWT.
+
+**Sub-capa REST - Controllers**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| REST Controller | `RegistrationController` | Recibir el inicio del registro y la verificación del correo. | Ejecuta `SubmitRegistration` y `VerifyEmail`. |
+| REST Controller | `AuthenticationController` | Atender el inicio de sesión y obtener al usuario autenticado. | Ejecuta `SignIn` y `GetCurrentAuthenticatedUser`; no expone la causa específica de credenciales inválidas. |
+| REST Controller | `PasswordRecoveryController` | Recibir la solicitud y confirmación de recuperación de contraseña. | Ejecuta `RequestPasswordRecovery` y `ConfirmPasswordRecovery` sin revelar si el correo existe. |
+| REST Controller | `SessionController` | Atender el cierre de sesión de la aplicación. | Ejecuta `Logout`; el cliente elimina localmente el access token. |
+
+**Sub-capa REST - Resources y Assemblers**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Request Resource | `SubmitRegistrationResource` | Transportar correo y contraseña para iniciar el registro. | Se convierte en `SubmitRegistrationCommand`. |
+| Request Resource | `VerifyEmailResource` | Transportar la prueba de verificación del correo. | Se convierte en `VerifyEmailCommand`. |
+| Request Resource | `SignInResource` | Transportar las credenciales de inicio de sesión. | Se convierte en `SignInCommand`. |
+| Request Resource | `PasswordRecoveryResource` | Transportar el correo para solicitar la recuperación. | Se convierte en `RequestPasswordRecoveryCommand`. |
+| Request Resource | `ConfirmPasswordRecoveryResource` | Transportar el token temporal y la nueva contraseña. | Se convierte en `ConfirmPasswordRecoveryCommand`. |
+| Response Resource | `AuthenticationResource` | Exponer el access token, su expiración y la identidad autenticada. | Se ensambla a partir del resultado de `SignIn`. |
+| Response Resource | `AuthenticatedUserResource` | Exponer la identidad de la cuenta autenticada. | No contiene perfil, preferencias ni roles sociales. |
+| Assembler | `AuthenticationCommandFromResourceAssembler` | Convertir los resources de entrada en commands. | Conecta los controllers con Application Layer. |
+| Assembler | `AuthenticationResourceAssembler` | Convertir resultados de aplicación en respuestas HTTP seguras. | Evita exponer hashes, tokens internos o detalles de autenticación. |
+
 #### 2.6.1.3. Application Layer
+
+Esta capa coordina los casos de uso, sus transacciones y las comunicaciones salientes hacia el servicio de correo y Users.
+
+**Sub-capa Command Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `RegistrationCommandService` | Iniciar el registro, generar la verificación temporal y crear la cuenta una vez verificado el correo. | Procesa `SubmitRegistration` y `VerifyEmail`; usa repositorios, `EmailService` y `UsersContextGateway`. |
+| `AuthenticationCommandService` | Validar las credenciales y emitir un access token firmado. | Procesa `SignIn`; utiliza `AuthenticationService` y `TokenService`. |
+| `PasswordRecoveryCommandService` | Generar un token de recuperación de un solo uso y actualizar la contraseña tras validarlo. | Procesa `RequestPasswordRecovery` y `ConfirmPasswordRecovery`; usa `EmailService`. |
+| `SessionCommandService` | Coordinar el cierre de sesión solicitado por el cliente. | Procesa `Logout`; informa que el token debe eliminarse localmente y no promete revocación server-side. |
+
+**Sub-capa Query Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `CurrentAuthenticatedUserService` | Obtener el `AccountId` y el correo de la identidad ya autenticada. | Procesa `GetCurrentAuthenticatedUserQuery` a partir de `AuthenticatedUserPrincipal`. |
+
+**Commands y Queries**
+
+| Tipo | Nombre | Propósito |
+|---|---|---|
+| Command | `SubmitRegistrationCommand` | Iniciar un registro pendiente y solicitar el envío de la verificación. |
+| Command | `VerifyEmailCommand` | Verificar el correo, crear la cuenta y solicitar a Users la creación del perfil. |
+| Command | `SignInCommand` | Autenticar credenciales y obtener un access token. |
+| Command | `RequestPasswordRecoveryCommand` | Solicitar una recuperación con una respuesta que no revele si el correo existe. |
+| Command | `ConfirmPasswordRecoveryCommand` | Consumir el token temporal y establecer una nueva contraseña. |
+| Command | `LogoutCommand` | Finalizar la sesión en la aplicación cliente. |
+| Query | `GetCurrentAuthenticatedUserQuery` | Obtener la identidad asociada con el JWT validado. |
+
+**Puertos de salida**
+
+| Nombre | Responsabilidad principal | Destino |
+|---|---|---|
+| `EmailService` | Enviar correos de verificación y de recuperación de contraseña. | Email Service / Resend. |
+| `UsersContextGateway` | Enviar `CreateProfile` después de crear correctamente la cuenta. | Bounded context Users mediante comunicación interna síncrona. |
+| `TokenService` | Emitir y validar access tokens firmados con expiración. | Implementación JWT en Infrastructure Layer. |
+
 #### 2.6.1.4. Infrastructure Layer
+
+Esta capa implementa la persistencia, la seguridad y las integraciones técnicas requeridas por IAM.
+
+| Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
+|---|---|---|---|
+| Persistence Entity | `PendingRegistrationPersistenceEntity` | Almacenar temporalmente el registro, la verificación hasheada y su expiración. | Mapeada por JPA. |
+| Persistence Entity | `AccountCredentialPersistenceEntity` | Almacenar la cuenta, el correo normalizado y el hash de contraseña. | Mapeada por JPA; nunca almacena la contraseña en texto plano. |
+| Persistence Entity | `PasswordResetTokenPersistenceEntity` | Almacenar el hash, la expiración y el estado de consumo del token. | Mapeada por JPA. |
+| Repository Implementation | `PendingRegistrationRepositoryImpl` | Persistir y recuperar registros pendientes vigentes. | Implementa `PendingRegistrationRepository`. |
+| Repository Implementation | `AccountCredentialRepositoryImpl` | Persistir cuentas y credenciales y comprobar la unicidad del correo. | Implementa `AccountRepository` y `AccountCredentialRepository`. |
+| Repository Implementation | `PasswordResetTokenRepositoryImpl` | Persistir y consumir tokens de recuperación de forma segura. | Implementa `PasswordResetTokenRepository`. |
+| Security Adapter | `TokenServiceImpl` | Firmar JWT, validar firma y expiración, y extraer el subject. | Implementa `TokenService`. |
+| Security Filter | `BearerAuthorizationRequestFilter` | Validar el bearer token antes de que la solicitud alcance un recurso protegido. | Spring Security y `TokenService`. |
+| Security Configuration | `WebSecurityConfiguration` | Definir endpoints públicos, protegidos y el orden del filtro JWT. | Spring Security. |
+| Security Principal | `AuthenticatedUserPrincipal` | Representar el `AccountId` autenticado dentro de la solicitud. | Consumido por controllers y `CurrentAuthenticatedUserService`. |
+| Cryptography Adapter | `PasswordHasherImpl` | Generar y comparar hashes resistentes para contraseñas. | Implementa `PasswordHasher`. |
+| Email Adapter | `ResendEmailService` | Enviar correos de verificación y recuperación. | Implementa `EmailService` mediante la API de Resend. |
+| Internal Context Client | `UsersContextClient` | Enviar el command `CreateProfile` después de crear la cuenta. | Implementa `UsersContextGateway`; llamada interna síncrona. |
+| Android API Client | `IamApiService` | Consumir los endpoints de registro, autenticación y recuperación. | HTTPS/JSON desde la aplicación Android. |
+| Android Token Storage | `AccessTokenStore` | Guardar el JWT en almacenamiento seguro, adjuntarlo a solicitudes y eliminarlo al cerrar sesión. | Almacenamiento cifrado e interceptor HTTP de Android. |
+
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección se presentan los diagramas de componentes correspondientes al bounded context IAM. Debido a que sus funcionalidades se distribuyen entre la aplicación móvil y la API backend, se incluye un diagrama para cada container. El diagrama de la aplicación Android muestra las pantallas, ViewModels, casos de uso, el repositorio de IAM, el cliente HTTP y el almacenamiento seguro del access token. El diagrama de IAM API presenta los controllers REST, servicios de aplicación, elementos de dominio y adaptadores de infraestructura que intervienen en el registro, la verificación del correo, el inicio de sesión y la recuperación de contraseña. También se representan la autenticación mediante JWT y las integraciones síncronas con Resend y Users.
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección se presentan los diagramas que describen la estructura interna de IAM a nivel de código. Se documentan por separado el modelo de dominio y el diseño de persistencia para evitar mezclar las reglas del negocio con detalles técnicos de la base de datos.
+
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer representa los aggregates, entities, value objects, domain services y repositories que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación, sin incorporar perfiles, preferencias, amistades, familias ni roles sociales pertenecientes a Users.
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
-### 2.6.2. Bounded Context: Profile
+El diagrama de base de datos presenta las estructuras de persistencia necesarias para las cuentas, las credenciales, los registros pendientes y los tokens de recuperación. Su diseño conserva únicamente hashes de contraseñas y tokens sensibles, registra sus fechas de expiración y consumo, y garantiza la unicidad del correo normalizado.
+
+### 2.6.2. Bounded Context: Users
 #### 2.6.2.1. Domain Layer
 #### 2.6.2.2. Interface Layer
 #### 2.6.2.3. Application Layer
