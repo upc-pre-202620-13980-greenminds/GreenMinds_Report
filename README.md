@@ -3951,6 +3951,10 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 *Figura X. Bounded Context Canvas del contexto Monetization.*
 
+![BoundedContextCanvasCommunity](assets/img/figures/CanvasCommunity.png)
+
+*Figura X. Bounded Context Canvas del contexto Community.*
+
 ### 2.5.2. Context Mapping
 
 ### 2.5.3. Software Architecture
