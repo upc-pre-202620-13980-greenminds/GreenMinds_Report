@@ -4527,7 +4527,7 @@ El siguiente diagrama presenta las clases del Domain Layer de Users y las relaci
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-El presente diagrama representa el modelo de base de datos del bounded context Users. Se persiste el perfil del usuario con su racha, ecopoints, balance de gemas y preferencias de notificación; los integrantes de cada grupo familiar junto con su `family_role`; y las relaciones de amistad entre dos usuarios, restringidas para evitar solicitudes dirigidas al propio usuario y relaciones duplicadas, conforme a `FriendshipPolicy`. El identificador `user_id` corresponde al `AccountId` emitido por IAM y se conserva como referencia simple, sin clave foránea entre bounded contexts, para mantener la independencia de Users respecto a IAM.
+El presente diagrama representa el modelo de base de datos del bounded context Users. La tabla `familia` representa al grupo familiar como raíz independiente, con su nombre y el compromiso declarado al crearse, mientras que `miembros_familia` registra a cada integrante con su `rol_familia` y referencia a la familia mediante clave foránea. Se persiste además el perfil del usuario en `perfiles_usuario` con su racha, ecopuntos, saldo de gemas y preferencias de notificación, y las relaciones de amistad en `amistades`, restringidas mediante una restricción `CHECK` para evitar solicitudes dirigidas al propio usuario y una restricción de unicidad para evitar relaciones duplicadas, conforme a `FriendshipPolicy`. El identificador `usuario_id` corresponde al `AccountId` emitido por IAM y se conserva como referencia simple, sin clave foránea entre bounded contexts, para mantener la independencia de Users respecto a IAM.
 
 ![DatabaseUsers](assets/img/figures/UsersDatabase.png)
 
