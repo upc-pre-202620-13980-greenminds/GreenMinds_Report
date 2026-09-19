@@ -92,13 +92,11 @@ Project Report URL: https://github.com/upc-pre-202620-13980-greenminds/GreenMind
 
 Durante el desarrollo de la entrega AV1, el equipo organizó la elaboración del informe mediante la asignación de responsabilidades por secciones, lo que permitió un trabajo colaborativo y paralelo entre los integrantes. Cada miembro contribuyó en función de su área asignada, abarcando aspectos de experiencia de usuario, análisis de negocio y arquitectura del sistema.
 
-El proceso de desarrollo del informe se realizó de manera incremental, integrando progresivamente los contenidos conforme se avanzaba en el proyecto. Esto se refleja en el Registro de Versiones del Informe, donde se evidencia la evolución del documento desde la estructura inicial hasta la incorporación de elementos como Lean UX, análisis competitivo, user stories, arquitectura de software, wireframes y flujos de interacción.
+El proceso de desarrollo del informe se realizó de manera incremental, integrando progresivamente los contenidos conforme se avanzaba en el proyecto. Esto se refleja en el Registro de Versiones del Informe, donde se evidencia la evolución del documento desde la estructura inicial hasta la incorporación de elementos como Lean UX, análisis competitivo, user stories y arquitectura de software.
 
 Asimismo, todos los integrantes participaron activamente en la elaboración del informe, realizando aportes continuos que permitieron consolidar una documentación coherente y alineada entre sus distintas secciones. Esta colaboración se evidencia en los analíticos de contribución y commits, los cuales reflejan la participación distribuida del equipo.
 
-![projet overview](assets/img/figures/Docs_Overview.png)
-
-![projet overview](assets/img/figures/docs_Contributors.png)
+![projetoverview](assets/img/figures/Docs_Overview.png)
 
 
 # Tabla de contenidos
@@ -266,6 +264,8 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)
 
+<div style="page-break-after: always;"></div>
+
 # ABET - EAC - Student Outcome 7
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -423,11 +423,17 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant | Un portafolio con documentación técnica sólida evidenciará mis competencias en backend y buenas prácticas de arquitectura ante posibles empleadores. |
 | Time-bound | Dentro del primer año posterior a mi egreso. |
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
+Esta sección presenta la identidad de GreenMinds, su propósito como startup y las características del equipo responsable del desarrollo de EcoMind.
+
 ### 1.1.1. Descripción del startup
+
+Esta subsección presenta el nombre, la descripción, la visión y la misión que orientan a GreenMinds y al producto EcoMind.
 
 **Nombre de la startup**
 
@@ -451,6 +457,8 @@ Diseñar soluciones digitales educativas, accesibles y motivadoras que fortalezc
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+La siguiente tabla resume los perfiles, intereses y principales capacidades de los integrantes que conforman el equipo GreenMinds.
+
 **Tabla 13**
 
 *Perfiles de los integrantes de GreenMinds.*
@@ -466,6 +474,8 @@ Diseñar soluciones digitales educativas, accesibles y motivadoras que fortalezc
 <div style="page-break-before: always;"></div>
 
 ## 1.2. Solution Profile
+
+Esta sección describe el problema que motiva el proyecto, el proceso utilizado para comprenderlo y los segmentos de usuarios a los que se dirige la solución EcoMind.
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -532,6 +542,8 @@ Nota. *Adaptado de Conciencia ambiental y actitudes proambientales en estudiante
 
 ### 1.2.2. Lean UX Process
 
+En esta sección se presenta el proceso Lean UX aplicado para organizar el problema, establecer supuestos, formular hipótesis y definir una propuesta inicial de solución.
+
 #### *1.2.2.1. Lean UX Problem Statements*
 
 EcoMind propone una aplicación móvil educativa que promueve la conciencia ambiental en niños mediante retos interactivos y actividades familiares. A través de un diseño centrado en el usuario, inclusivo y gamificado, busca convertir el aprendizaje ecológico en una experiencia divertida y cotidiana. Su objetivo es integrar a padres e hijos en un entorno digital que fomente hábitos sostenibles y fortalezca el compromiso con el cuidado del planeta. 
@@ -541,6 +553,8 @@ Dentro de las escuelas primarias, se quiere que los estudiantes transformen la e
 ¿Como podríamos garantizar esa continuidad y acompañamiento entre escuela, hogar y comunidad, bajo dichas restricciones? 
 
 #### *1.2.2.2. Lean UX Assumptions*
+
+Esta subsección reúne los supuestos iniciales sobre los usuarios, el problema y las condiciones que podrían influir en la adopción de EcoMind.
 
 **Assumptions Worksheet**
 
@@ -655,6 +669,9 @@ En términos de funcionamiento, se espera que la plataforma sea ágil, responsiv
 - Posicionar a EcoMind como una plataforma educativa diferenciada frente a competidores, al integrar gamificación, participación familiar, comunidad y accesibilidad.
 
 #### *1.2.2.3. Lean UX Hypothesis Statements*
+
+Esta subsección formula las hipótesis que relacionan las necesidades de los usuarios con las funcionalidades y resultados esperados de EcoMind.
+
 **Hypothesis Statement 1**
 
 Creemos que la implementación de actividades didácticas y gamificadas captará el interés de los niños para su contribución hacia el medio ambiente. Sabremos que lo hemos logrado, cuando al menos un 30% de los niños/estudiantes completen los mini-retos de forma semanal.
@@ -673,6 +690,8 @@ Creemos que integrar un sistema de ranking motivara a los niños a una participa
 
 
 #### *1.2.2.4. Lean UX Canvas*
+
+Esta subsección sintetiza el problema, los usuarios, la propuesta de valor y los principales elementos que orientan la solución planteada.
 
 Link: https://canva.link/9mzenct40v5ocok
 
@@ -730,8 +749,10 @@ El padre de familia requiere una guía práctica y recursos simplificados (como 
 
 ## 2.1. Competidores
 
+Esta sección identifica las principales soluciones que compiten con EcoMind y analiza sus características para reconocer oportunidades de diferenciación.
+
 #### 1. Defensor de la naturaleza  
-Defensor de la naturaleza es una aplicación móvil educativa y ecológica dirigida a niños, orientada a fomentar la conciencia ambiental de manera lúdica y accesible. Lanzada por Y-Group Games, esta app ofrece una serie de minijuegos interactivos en los que los pequeños limpian jardines, parques y zonas de juego, plantan árboles y flores, clasifican residuos y limpian ríos y estanques contaminados. La experiencia está diseñada especialmente para enseñar a los niños la importancia de proteger la naturaleza y los entornos que los rodea. (Y-Group Games. (s. f.)  
+Defensor de la naturaleza es una aplicación móvil educativa y ecológica dirigida a niños, orientada a fomentar la conciencia ambiental de manera lúdica y accesible. Lanzada por Y-Group Games, esta app ofrece una serie de minijuegos interactivos en los que los pequeños limpian jardines, parques y zonas de juego, plantan árboles y flores, clasifican residuos y limpian ríos y estanques contaminados. La experiencia está diseñada especialmente para enseñar a los niños la importancia de proteger la naturaleza y los entornos que los rodea. (Y-Group Games. (s. f.))  
 
 #### 2. Happy Litle Planet  
 Happy Little Planet es una aplicación educativa diseñada para niños, cuyo objetivo es enseñar hábitos sostenibles y el cuidado del medio ambiente de manera lúdica e interactiva. La app combina juegos educativos y libros con audio, proporcionando experiencias de aprendizaje divertidas y dinámicas que ayudan a los niños a comprender conceptos como reciclaje, ahorro de recursos y respeto por la naturaleza. (Adrilo Rincz, s.f.)   
@@ -740,6 +761,8 @@ Happy Little Planet es una aplicación educativa diseñada para niños, cuyo obj
 Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es enseñar sobre el medio ambiente, la sostenibilidad y el cambio climático mediante experiencias lúdicas e interactivas. La app combina minijuegos, acertijos, cómics y videos, además de recursos para el aula, ofreciendo un aprendizaje dinámico que motiva a los más pequeños a desarrollar conciencia ambiental y hábitos responsables con la naturaleza. (Earth Cubs, s.f.)
 
 ### 2.1.1. Análisis competitivo
+
+El análisis compara a EcoMind con las alternativas seleccionadas según su propuesta de valor, público objetivo, producto, marketing, fortalezas, debilidades, oportunidades y amenazas.
 
 **Tabla 14**
 
@@ -770,7 +793,11 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+Esta sección plantea las estrategias y tácticas que permitirán a EcoMind diferenciarse, fortalecer su propuesta de valor y responder a las principales limitaciones observadas en la competencia.
+
 #### Estrategias
+
+Las estrategias definen las líneas generales que orientarán el posicionamiento y la experiencia ofrecida por EcoMind.
 
 1. **Acceso inclusivo y continuidad**  
    ECOMIND funcionará tanto online como offline, asegurando que los escolares puedan seguir aprendiendo y realizando actividades educativas incluso en zonas con conectividad limitada o desde sus hogares.
@@ -780,13 +807,21 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 #### Tácticas
 
+Las tácticas desarrollan acciones concretas para aplicar las estrategias y aprovechar las oportunidades identificadas en el análisis competitivo.
+
 #### Desarrollo de contenido hiperlocalizado  
+Esta táctica propone adaptar las actividades ambientales al contexto cotidiano de los escolares y sus comunidades.
+
 - Creación de retos, misiones y juegos basados en situaciones reales, con énfasis en acciones concretas de cuidado ambiental que los escolares puedan aplicar en su entorno.
 
 #### Gamificación con incentivos y seguimiento  
+Esta táctica busca reforzar la participación mediante mecanismos de progreso, reconocimiento y seguimiento para los usuarios y sus familias.
+
 - Implementación de puntos, medallas, niveles y rankings para motivar a los niños. Además, los padres podrán acceder a reportes de progreso, reforzando el aprendizaje y fomentando hábitos sostenibles.
 
 #### Aprovechamiento de debilidades de la competencia
+Esta táctica define respuestas concretas frente a las limitaciones observadas en cada competidor analizado.
+
 
 1. **Frente a Defensor de la Naturaleza**  
    Dado que su experiencia es limitada y depende de publicidad para financiar el contenido, ECOMIND ofrecerá contenido más completo y libre de anuncios, garantizando aprendizaje continuo y mayor motivación de los usuarios.
@@ -802,7 +837,11 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
    
 ## 2.2. Entrevistas
 
+Esta sección reúne el diseño, el registro y el análisis de las entrevistas realizadas a los segmentos objetivo para comprender sus necesidades, hábitos y expectativas frente a la educación ambiental.
+
 ### 2.2.1. Diseño de entrevistas
+
+Esta subsección define los públicos entrevistados, los temas abordados y las preguntas utilizadas para recopilar información relevante para el proyecto.
 
 **Escolares de primaria:**
 
@@ -846,6 +885,8 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 
 ### 2.2.2. Registro de entrevistas
+
+En esta sección se documentan las entrevistas realizadas y se organizan sus evidencias, datos principales y resúmenes por segmento objetivo.
 
 **Video de la entrevista** :
 
@@ -911,6 +952,8 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | **Entrevistado N°3:** Jeicob Ríos <br> **Edad:** 11 años<br>**Ubicación:** Surquillo, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 10:41 <br> **Duración:** 3:00<br><br> **Resumen:** <br><br> El entrevistado se llama Jeicob Ríos, el utiliza principalmente su teléfono celular durante su tiempo libre, ya que no cuenta con tablet y su aplicación predilecta es Roblox. Al evaluar el uso de herramientas digitales frente al papel, manifiesta una clara preferencia por el celular argumentando que realiza sus actividades más rápido al evitar escribir tanto a mano. Esta conducta pone en evidencia un perfil de interacción digital enfocado en la eficiencia y rapidez operativa. <br><br>En cuanto a su conciencia ambiental, señala que en el colegio aprendió a reciclar la mayor cantidad de objetos posible para no dañar los hábitats de los animales ni la capa de ozono. En el ámbito del hogar, contribuye de forma directa mediante el ahorro de agua. Asimismo, su mayor motivación y entretenimiento ecológico reside en el reciclaje creativo, disfrutando la transformación de botellas plásticas en macetas y portalápices. Respecto a sus canales de interacción y estilo de aprendizaje, el entrevistado destaca que su forma preferida de recibir información es escuchando. De igual manera, expresa entusiasmo por aprender sobre el cuidado del planeta mediante juegos o retos interactivos, señalando que dispone de tiempo libre en casa. |
 
 ### 2.2.3. Análisis de entrevistas
+Esta subsección interpreta los hallazgos de las entrevistas y relaciona los patrones observados con las necesidades y oportunidades de diseño de EcoMind.
+
 **Segmento: Padres de familia**
 
 **1. Perfil general (edad, ocupación, hijos, residencia):**
@@ -1020,7 +1063,11 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 
 ## 2.3. Needfinding
 
+Esta sección presenta las herramientas utilizadas para comprender a los usuarios, sus actividades, necesidades, emociones y experiencias relacionadas con el problema que EcoMind busca abordar.
+
 ### 2.3.1. User Personas
+Los user personas representan a los principales perfiles de usuarios de EcoMind y sintetizan sus características, motivaciones y necesidades relevantes para el diseño de la solución.
+
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 10 (User Persona 1)*  
@@ -1032,6 +1079,8 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 <img src="assets/img/figures/image053.png" width="530">
 
 ### 2.3.2. User Task Matrix
+La User Task Matrix organiza las tareas principales que realizan los segmentos objetivo y permite relacionarlas con sus objetivos y necesidades dentro de la solución.
+
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 12 (User Task Matrix 1)*  
@@ -1044,6 +1093,8 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 
 
 ### 2.3.3. User Journey Mapping
+El User Journey Mapping muestra las etapas de interacción de cada segmento objetivo, junto con sus acciones, expectativas y posibles dificultades durante la experiencia.
+
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 14 (User Journey Mapping 1)*  
@@ -1055,6 +1106,8 @@ En el caso de los escolares, algunos presentan una motivación débil al asumir 
 <img src="assets/img/figures/image057.png" width="530">
 
 ### 2.3.4. Empathy Mapping
+Los mapas de empatía sintetizan lo que los usuarios piensan, sienten, dicen y hacen, con el fin de reconocer sus motivaciones y principales puntos de frustración.
+
 **Primer Segmento Objetivo (Padres de Familia)**
 
 *Figura 16 (Empathy Mapping 1)*  
@@ -1133,6 +1186,8 @@ El siguiente glosario establece los términos compartidos que el equipo y los st
 | **Virtual Purchase (Compra virtual)** | Adquisición de un producto de la tienda utilizando gemas. |
 
 ## 2.4. Requirements Specification
+Esta sección reúne la especificación de requerimientos de EcoMind mediante historias de usuario, mapas de impacto y el product backlog, estableciendo una base para planificar el desarrollo de la solución.
+
 ### 2.4.1. User Stories
 
 En esta sección se presentan las épicas y user stories definidas para EcoMind, construidas a partir del análisis de la problemática, los segmentos objetivo y las necesidades identificadas durante el proceso de needfinding. Las historias de usuario permiten traducir los requerimientos funcionales y técnicos en unidades de trabajo claras, priorizables y verificables para el equipo de desarrollo.
@@ -1140,6 +1195,8 @@ En esta sección se presentan las épicas y user stories definidas para EcoMind,
 Cada user story describe una necesidad desde la perspectiva del usuario o del equipo técnico, especificando el valor esperado y los criterios de aceptación necesarios para validar su cumplimiento. Estas historias abarcan los principales módulos de la solución, incluyendo retos gamificados, participación familiar, comunidad, ranking, perfil, monetización, autenticación y servicios backend.
 
 ### Épicas
+
+Las épicas agrupan necesidades amplias del producto y sirven como referencia para organizar las historias de usuario por áreas funcionales.
 
 <table align="center">
   <tr>
@@ -1215,6 +1272,8 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 </table>
 
 ### Technical Stories
+
+Las technical stories describen necesidades técnicas necesarias para soportar la calidad, seguridad, integración y evolución de la solución.
 
 <table align="center">
   <tr>
@@ -1706,6 +1765,8 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 </table>
 
 ### User Stories
+
+Las user stories detallan las necesidades de los usuarios y del sistema en unidades que pueden ser priorizadas y validadas durante el desarrollo.
 
 <table align="center">
   <tr>
@@ -4052,6 +4113,8 @@ Para establecer el orden de prioridad de las historias de usuario planteadas par
 | 85 | HU-059 | Cierre de sesión | Como usuario, quiero ejecutar la finalización de mi sesión activa mediante la opción de "Log out, para proteger mi información personal en la plataforma. | 7 |
 
 ## 2.5. Strategic-Level Domain-Driven Design
+Esta sección presenta el modelado estratégico del dominio de EcoMind, incluyendo la identificación de contextos, sus flujos de mensajes, sus relaciones y la arquitectura general de la solución.
+
 ### 2.5.1. EventStorming
 
 A partir de los resultados obtenidos en el Big Picture EventStorming, se realizó una sesión de EventStorming para profundizar en el modelado del dominio de EcoMind. Los procesos identificados se desarrollaron con mayor detalle mediante la incorporación de eventos, comandos, actores, políticas y otros elementos.
@@ -4284,6 +4347,8 @@ Los patrones de relación seleccionados para cada integración son los siguiente
 
 
 ### 2.5.3. Software Architecture
+Esta sección resume la arquitectura de software de EcoMind desde sus niveles de contexto, contenedores y despliegue, mostrando la organización general del sistema y su infraestructura.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
 En esta sección se presenta el Context Diagram de EcoMind, elaborado con C4 Model y Structurizr DSL. El diagrama muestra a EcoMind como un único sistema de software rodeado por los usuarios y los sistemas externos con los que interactúa, sin exponer aún su descomposición interna.
@@ -4321,6 +4386,8 @@ En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe 
 ![DeploymentEcoMind](assets/img/figures/DeploymentEcoMind.png)
 
 ## 2.6. Tactical-Level Domain-Driven Design
+
+Esta sección desarrolla el diseño táctico de los bounded contexts de EcoMind, describiendo sus capas, componentes, clases de dominio, persistencia y principales relaciones técnicas.
 
 ### 2.6.1. Bounded Context: IAM
 
@@ -6017,6 +6084,8 @@ El bounded context **Monetization** administra la economía virtual y la tienda 
 **Gamification** administra la racha y detecta cuándo está en riesgo. **Monetization** gestiona el inventario de protectores, consume una unidad disponible y confirma la protección para que Gamification mantenga la racha.
 
 #### 2.6.7.1. Domain Layer
+
+La Domain Layer define los elementos centrales del negocio de Monetization, incluyendo sus modelos, reglas, eventos y contratos de persistencia.
 
 **Sub-capa Model**
 
