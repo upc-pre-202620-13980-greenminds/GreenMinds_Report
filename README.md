@@ -78,7 +78,7 @@ Proyecto <br>
 | 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery  |
 | 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor, Mauricio Pajes  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog <br> docs: agregar impact mapping  <br> docs: agregar registro de entrevistas |
 | 1.0.0    | 17/09/2026     | Katty Philco, Isabel Aponte | docs: agregar registro de entrevistas <br> docs: agregar sección Needfinding <br> docs: agregar Bounded Context: Monetization <br> docs: agregar Bounded Context Software Architecture Component Level and code diagrams  <br>  |
-| 1.0.0    | 18/09/2026     | Alejandra Astocondor, Isabel Aponte, Leo Dulanto, Katty Philco | docs: agregar diagramas Bounded Context Quest <br> docs: agregar Bounded Context: Learning <br> docs: agregar bounded context canvases community <br> docs: agregar Bounded Context: IAM  <br> docs: agregar Bounded Context: User <br> docs: agregar lenguaje ubicuo <br> docs: agregar Bounded Context: Community <br> docs: agregar Bounded Context: Gamification <br> docs: agregar objetivos SMART  |
+| 1.0.0    | 18/09/2026     | Alejandra Astocondor, Isabel Aponte, Leo Dulanto, Katty Philco, Mauricio Pajes | docs: agregar diagramas Bounded Context Quest <br> docs: agregar Bounded Context: Learning <br> docs: agregar bounded context canvases community <br> docs: agregar Bounded Context: IAM  <br> docs: agregar Bounded Context: User <br> docs: agregar lenguaje ubicuo <br> docs: agregar Bounded Context: Community <br> docs: agregar Bounded Context: Gamification <br> docs: agregar objetivos SMART  |
 
 # Project Report Collaboration Insights
 
@@ -1641,46 +1641,46 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Miniactividad guiada con indicaciones</td>
+    <td colspan="3">Retos guiados con indicaciones</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero completar miniactividades guiadas con indicaciones claras, para aprender de forma entretenida dentro de la aplicación.</td>
+    <td colspan="3">Como estudiante, quiero completar retos guiados con indicaciones claras, para aprender de forma entretenida dentro de la aplicación.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Ver miniactividad<br/>
+      <b>Escenario 1:</b> Ver retos<br/>
       <ul>
         <li><b>Dado que</b> el estudiante se encuentra en el menú principal,</li>
-        <li><b>Cuando</b> elige una miniactividad,</li>
-        <li><b>Entonces</b> la aplicación le muestra un resumen de la miniactividad.</li>
+        <li><b>Cuando</b> elige un reto,</li>
+        <li><b>Entonces</b> la aplicación le muestra un resumen del reto.</li>
       </ul>
-      <b>Escenario 2:</b> Iniciar miniactividad<br/>
+      <b>Escenario 2:</b> Iniciar reto<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante está viendo una miniactividad,</li>
-        <li><b>Cuando</b> elige "iniciar actividad",</li>
-        <li><b>Entonces</b> la aplicación marca la miniactividad como activa,</li>
+        <li><b>Dado que</b> el estudiante está viendo un reto,</li>
+        <li><b>Cuando</b> elige "iniciar reto",</li>
+        <li><b>Entonces</b> la aplicación marca el reto como activo,</li>
         <li><b>Y</b> muestra un mensaje motivador de inicio.</li>
       </ul>
-      <b>Escenario 3:</b> Miniactividad completada correctamente<br/>
+      <b>Escenario 3:</b> Reto completado correctamente<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante inicia una miniactividad y sigue todas las indicaciones mostradas en la pantalla,</li>
+        <li><b>Dado que</b> el estudiante inicia un reto y sigue todas las indicaciones mostradas en la pantalla,</li>
         <li><b>Cuando</b> registra que realizó cada paso correctamente,</li>
         <li><b>Entonces</b> la aplicación aprueba su trabajo,</li>
         <li><b>Y</b> muestra un mensaje motivador al finalizar.</li>
       </ul>
-      <b>Escenario 4:</b> Miniactividad incompleta<br/>
+      <b>Escenario 4:</b> Reto incompleto<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante inicia una miniactividad y omite algunas indicaciones,</li>
-        <li><b>Cuando</b> el estudiante intenta finalizar la miniactividad,</li>
+        <li><b>Dado que</b> el estudiante inicia un reto y omite algunas indicaciones,</li>
+        <li><b>Cuando</b> el estudiante intenta finalizar el reto,</li>
         <li><b>Entonces</b> la aplicación no permite marcar como completado</li>
       </ul>
-      <b>Escenario 5:</b> Eliminar miniactividad<br/>
+      <b>Escenario 5:</b> Eliminar reto<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante se encuentra en la sección de actividades activas y elige una miniactividad,</li>
-        <li><b>Cuando</b> selecciona "eliminar actividad" y confirma su selección,</li>
-        <li><b>Entonces</b> el sistema elimina la miniactividad de las actividades activas del usuario.</li>
+        <li><b>Dado que</b> el estudiante se encuentra en la sección de retos activos y elige un reto,</li>
+        <li><b>Cuando</b> selecciona "eliminar reto" y confirma su selección,</li>
+        <li><b>Entonces</b> el sistema elimina el reto de los retos activos del usuario.</li>
       </ul>
     </td>
   </tr>
@@ -1726,19 +1726,19 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Rachas por completar retos diarios</td>
+    <td colspan="3">Racha diaria por completar retos</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero que mi racha aumente al completar un reto diario, para motivarme a mantener hábitos sostenibles de forma constante.</td>
+    <td colspan="3">Como estudiante, quiero que mi racha aumente por el primer reto completado del día, para motivarme a mantener hábitos sostenibles de forma constante.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Incremento de racha al completar un reto diario<br/>
+      <b>Escenario 1:</b> Incremento de racha al completar un reto<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante tiene un reto diario asignado,</li>
-        <li><b>Cuando</b> completa el reto diario por primera vez en el día,</li>
+        <li><b>Dado que</b> el estudiante se encuentra en la sección "Retos",</li>
+        <li><b>Cuando</b> completa un reto por primera vez en el día,</li>
         <li><b>Entonces</b> la aplicación incrementa su racha en una unidad.</li>
       </ul>
       <b>Escenario 2:</b> Restricción de incremento una vez por día<br/>
@@ -1749,7 +1749,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
       </ul>
       <b>Escenario 3:</b> Visualización de racha actualizada<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante completó un reto diario correctamente,</li>
+        <li><b>Dado que</b> el estudiante completó correctamente al menos un reto en el día,</li>
         <li><b>Cuando</b> regresa al panel principal de retos,</li>
         <li><b>Entonces</b> la aplicación muestra la racha actualizada del usuario.</li>
       </ul>
@@ -3892,7 +3892,7 @@ Para establecer el orden de prioridad de las historias de usuario planteadas par
 | 2 | HU-052 | Consejos de uso para padres | Como padre, quiero visualizar recomendaciones de uso de la aplicación, para familiarizarme de mejor forma a manejarla. | 3 |
 | 3 | HU-053 | Preguntas frecuentes en landing | Como visitante, quiero visualizar una sección de preguntas frecuentes sobre la aplicación en la landing page, para contar con un conocimiento básico de la aplicación. | 2 |
 | 4 | HU-054 | Información de la comunidad en landing | Como visitante, quiero visualizar información de la sección de comunidad en la landing page, para conocer de qué formas puedo interactuar con otras personas dentro de la aplicación. | 3 |
-| 5 | HU-001 | Miniactividad guiada con indicaciones | Como estudiante, quiero completar miniactividades guiadas con indicaciones claras, para aprender de forma entretenida dentro de la aplicación. | 8 |
+| 5 | HU-001 | Retos guiados con indicaciones | Como estudiante, quiero completar retos guiados con indicaciones claras, para aprender de forma entretenida dentro de la aplicación. | 8 |
 | 6 | HU-002 | Reto ambiental diario | Como estudiante, quiero realizar un reto ambiental diario en casa o escuela, para aplicar lo aprendido fuera de la aplicación. | 5 |
 | 7 | HU-004 | Sistema de puntos por aprendizaje | Como estudiante, quiero obtener puntos al completar actividades, para mantener mi motivación dentro de la aplicación. | 5 |
 | 8 | HU-006 | Establecimiento de compromiso | Como estudiante, quiero establecer compromisos individuales, para mantenerme constante. | 3 |
@@ -3918,7 +3918,7 @@ Para establecer el orden de prioridad de las historias de usuario planteadas par
 | 28 | TS-004 | Endpoint de gestión de retos (CRUD) | Como desarrollador backend, quiero implementar la gestión de retos. | 8 |
 | 29 | TS-005 | Endpoint de progreso y puntaje del usuario | Como desarrollador backend, quiero implementar el progreso del usuario. | 5 |
 | 30 | TS-007 | Endpoint de ranking de usuarios y familias | Como desarrollador backend, quiero implementar rankings. | 5 |
-| 31 | HU-003 | Rachas por completar retos diarios | Como estudiante, quiero que mi racha aumente al completar un reto diario, para motivarme a mantener hábitos sostenibles de forma constante. | 5 |
+| 31 | HU-003 | Racha diaria por completar retos | Como estudiante, quiero que mi racha aumente por el primer reto completado del día, para motivarme a mantener hábitos sostenibles de forma constante. | 5 |
 | 32 | TS-009 | Endpoint de resumen y edición de perfil | Como desarrollador backend, quiero implementar resumen y edición de perfil. | 5 |
 | 33 | TS-010 | Endpoint de progreso del perfil | Como desarrollador backend, quiero implementar progreso de usuario. | 5 |
 | 34 | TS-011 | Endpoint de familia y amigos del perfil | Como desarrollador backend, quiero implementar amigos y familia. | 5 |
