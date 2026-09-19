@@ -69,6 +69,10 @@ Proyecto <br>
 
 # Registro de Versiones del Informe
 
+**Tabla 1**
+
+*Registro de versiones del informe.*
+
 | Version | Fecha | Autor | Descripción de modificación |
 | -------- | -------- | -------- | -------- |
 | 1.0.0    | 01/09/2026     | Alejandra Astocondor     | initial commit <br> docs: añadir estructura del proyecto |
@@ -271,11 +275,17 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
+**Tabla 2**
+
+*Acciones y conclusiones del Student Outcome 7.*
+
 | Criterio Específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
 | **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Definí los segmentos objetivo, identifiqué a los competidores clave y realicé entrevistas para conocer las necesidades de los usuarios. También propuse estrategias y tácticas para EcoMind, y desarrollé los bounded contexts Monetization y Learning, definiendo sus responsabilidades, reglas de negocio, comunicaciones y arquitectura. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> Investigué y apliqué conceptos de Lean UX, entrevistas, EventStorming, historias de usuario y Product Backlog para analizar las necesidades de los usuarios y organizar la propuesta de EcoMind. Asimismo, reforcé mis conocimientos sobre Domain-Driven Design y documentación de arquitectura durante el modelado de los bounded contexts Quests e IAM, definiendo sus responsabilidades, componentes, clases y estructuras de datos. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Investigué y apliqué conceptos de User Stories, Product Backlog y Event Storming para identificar necesidades, organizar requisitos y modelar el dominio de EcoMind. Asimismo, desarrollé el Bounded Context Canvas de Community y participé en la definición de su arquitectura, documentando la estructura de las capas Domain, Interface, Application e Infrastructure, junto con los diagramas de componentes, código, clases del dominio y diseño de base de datos. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Aa. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Apliqué Domain-Driven Design táctico y C4 Model con Structurizr DSL y PlantUML para documentar el bounded context Users, actualizando sus conocimientos en arquitectura de software y diagramación como código. | *AV1* <br> El equipo reconoce que el desarrollo de EcoMind exigió adquirir y aplicar conocimientos nuevos en metodologías de diseño estratégico y táctico y en herramientas de documentación como código, evidenciando que la actualización continua de conocimientos es indispensable para estructurar soluciones de software escalables y mantenibles. <br> |
 | **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Reforcé mis conocimientos de Lean UX, Domain-Driven Design y arquitectura de software. Las revisiones realizadas me permitieron corregir errores y reconocer la importancia de investigar, recibir retroalimentación y mantener un aprendizaje constante. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> A partir de la retroalimentación brindada por el docente sobre nuestro EventStorming, reconocí errores en la identificación y organización de algunos elementos del dominio. Esta experiencia me permitió comprender la importancia de revisar continuamente los conceptos aprendidos, aceptar observaciones y aplicarlas para mejorar el modelado de EcoMind. Asimismo, reforzó mi compromiso de continuar profundizando en Domain-Driven Design y arquitectura de software para desarrollar soluciones más claras y coherentes. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Durante el desarrollo del bounded context Community reconocí la necesidad de continuar fortaleciendo mis conocimientos en Domain-Driven Design, arquitectura de software y modelado de dominios. La elaboración de los diagramas y la integración de los requisitos me permitió identificar la importancia de revisar, actualizar y aplicar continuamente nuevos conocimientos para mejorar la estructura y coherencia de una solución de software. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Aa. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Reconocí que el dominio de nuevas herramientas de documentación y metodologías requieren actualización constante, lo que reforzó mi objetivo de especializarse en backend y buenas prácticas de arquitectura. | *AV1* <br>  El equipo reconoce que el desarrollo de un producto con múltiples bounded contexts, cada uno con sus propias decisiones de arquitectura y persistencia, exige mantenerse en aprendizaje constante frente a nuevas herramientas, patrones de integración entre contextos y buenas prácticas de documentación. <br> |
 
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Definí los segmentos objetivo, identifiqué a los competidores clave y realicé entrevistas para conocer las necesidades de los usuarios. También propuse estrategias y tácticas para EcoMind, y desarrollé los bounded contexts Monetization y Learning, definiendo sus responsabilidades, reglas de negocio, comunicaciones y arquitectura. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> Investigué y apliqué conceptos de Lean UX, entrevistas, EventStorming, historias de usuario y Product Backlog para analizar las necesidades de los usuarios y organizar la propuesta de EcoMind. Asimismo, reforcé mis conocimientos sobre Domain-Driven Design y documentación de arquitectura durante el modelado de los bounded contexts Quests e IAM, definiendo sus responsabilidades, componentes, clases y estructuras de datos. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Investigué y apliqué conceptos de User Stories, Product Backlog y Event Storming para identificar necesidades, organizar requisitos y modelar el dominio de EcoMind. Asimismo, desarrollé el Bounded Context Canvas de Community y participé en la definición de su arquitectura, documentando la estructura de las capas Domain, Interface, Application e Infrastructure, junto con los diagramas de componentes, código, clases del dominio y diseño de base de datos. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Documenté entrevistas a padres de familia para conocer sus hábitos ambientales y necesidades. También reforcé mis conocimientos de Domain-Driven Design al desarrollar el diseño del bounded context Gamification, definiendo sus responsabilidades, reglas de negocio y capas, y elaborando sus diagramas de componentes, clases y base de datos. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Aa. | *AV1* <br> El equipo... <br> |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Reforcé mis conocimientos de Lean UX, Domain-Driven Design y arquitectura de software. Las revisiones realizadas me permitieron corregir errores y reconocer la importancia de investigar, recibir retroalimentación y mantener un aprendizaje constante. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> A partir de la retroalimentación brindada por el docente sobre nuestro EventStorming, reconocí errores en la identificación y organización de algunos elementos del dominio. Esta experiencia me permitió comprender la importancia de revisar continuamente los conceptos aprendidos, aceptar observaciones y aplicarlas para mejorar el modelado de EcoMind. Asimismo, reforzó mi compromiso de continuar profundizando en Domain-Driven Design y arquitectura de software para desarrollar soluciones más claras y coherentes. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Durante el desarrollo del bounded context Community reconocí la necesidad de continuar fortaleciendo mis conocimientos en Domain-Driven Design, arquitectura de software y modelado de dominios. La elaboración de los diagramas y la integración de los requisitos me permitió identificar la importancia de revisar, actualizar y aplicar continuamente nuevos conocimientos para mejorar la estructura y coherencia de una solución de software. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> El diseño de Gamification me permitió reconocer la importancia de revisar y reforzar mis conocimientos de arquitectura de software. Las revisiones realizadas me ayudaron a comprender mejor las responsabilidades de cada parte de la solución y la necesidad de mantener un aprendizaje constante para mejorar mis diseños y mi desempeño profesional. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Aa. | *AV1* <br> El equipo ... <br> |
 
 <div style="page-break-before: always;"></div>
 
@@ -287,6 +297,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 *Objetivo 1 — Obtener mi primer empleo como desarrolladora de software*
 
+**Tabla 3**
+
+*Objetivo 1 — Obtener mi primer empleo como desarrolladora de software de Aponte Pablo, Isabel Luisa (u20241e158).*
+
 | Criterio   | Descripción |
 | :--------- | :---------- |
 | Specific   | Obtener un puesto como desarrolladora junior, preferentemente en desarrollo backend o full stack, donde pueda participar en la creación y mantenimiento de aplicaciones de software. |
@@ -296,6 +310,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Time-bound | Alcanzar este objetivo dentro de los seis meses posteriores a mi egreso. |
 
 *Objetivo 2 — Fortalecer mis habilidades de liderazgo técnico en proyectos de software*
+
+**Tabla 4**
+
+*Objetivo 2 — Fortalecer mis habilidades de liderazgo técnico en proyectos de software de Aponte Pablo, Isabel Luisa (u20241e158).*
 
 | Criterio   | Descripción |
 | :--------- | :---------- |
@@ -310,6 +328,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 *Objetivo 1 — Creación de un producto digital propio*
 
+**Tabla 5**
+
+*Objetivo 1 — Creación de un producto digital propio de Astocondor Bazan, Alejandra Isabel (U202410678).*
+
 | Criterio | Descripción |
 | :--- | :--- |
 | Specific | Diseñar, desarrollar y publicar un producto digital propio que resuelva una necesidad concreta de un grupo de usuarios. |
@@ -319,6 +341,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Time-bound | Dentro del primer año posterior a mi egreso. |
 
 *Objetivo 2 — Construcción de un portafolio profesional*
+
+**Tabla 6**
+
+*Objetivo 2 — Construcción de un portafolio profesional de Astocondor Bazan, Alejandra Isabel (U202410678).*
 
 | Criterio | Descripción |
 | :--- | :--- |
@@ -332,6 +358,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 *Objetivo 1 — Especialización en desarrollo backend y servicios web*
 
+**Tabla 7**
+
+*Objetivo 1 — Especialización en desarrollo backend y servicios web de Dulanto Espino, Leo César (U202410254).*
+
 | Criterio | Descripción |
 | :--- | :--- |
 | Specific | Fortalecer mis competencias en desarrollo backend mediante la especialización en Java con Spring Boot, diseño de APIs REST y gestión de bases de datos. |
@@ -341,6 +371,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Time-bound | Alcanzar este objetivo durante el primer año posterior a mi egreso. |
 
 *Objetivo 2 — Desarrollo de habilidades de liderazgo técnico*
+
+**Tabla 8**
+
+*Objetivo 2 — Desarrollo de habilidades de liderazgo técnico de Dulanto Espino, Leo César (U202410254).*
 
 | Criterio | Descripción |
 | :--- | :--- |
@@ -354,6 +388,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 *Objetivo 1 — Especialización en arquitectura de software*
 
+**Tabla 9**
+
+*Objetivo 1 — Especialización en arquitectura de software de Pajés León, Mauricio Luis (u202410093).*
+
 | Criterio | Descripción |
 | :--- | :--- |
 | Specific | Completar una especialización en arquitectura de software y aplicar lo aprendido en el diseño y desarrollo de un proyecto backend. |
@@ -363,6 +401,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Time-bound | Dentro de los nueve meses posteriores a mi egreso. |
 
 *Objetivo 2 — Desarrollo de soluciones con inteligencia artificial aplicada*
+
+**Tabla 10**
+
+*Objetivo 2 — Desarrollo de soluciones con inteligencia artificial aplicada de Pajés León, Mauricio Luis (u202410093).*
 
 | Criterio | Descripción |
 | :--- | :--- |
@@ -378,6 +420,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 *Objetivo 1 — Especialización en backend y buenas prácticas de arquitectura de software*
 
+**Tabla 11**
+
+*Objetivo 1 — [Título del objetivo] de Philco Mota, Katty Yolanda (u202416107).*
+
 | Criterio | Descripción |
 | :--- | :--- |
 | Specific | Profundizar mis conocimientos en desarrollo backend y en buenas prácticas de documentación y arquitectura de software, mediante estudios de maestría o certificaciones especializadas. |
@@ -387,6 +433,10 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Time-bound | Dentro del primer año posterior a mi egreso. |
 
 *Objetivo 2 — Construcción de un portafolio profesional*
+
+**Tabla 12**
+
+*Objetivo 2 — [Título del objetivo] de Philco Mota, Katty Yolanda (u202416107).*
 
 | Criterio | Descripción |
 | :--- | :--- |
@@ -423,6 +473,10 @@ Ser una startup peruana referente en el desarrollo de soluciones de tecnología 
 Diseñar soluciones digitales educativas, accesibles y motivadoras que fortalezcan la conciencia ambiental y faciliten la práctica constante de hábitos sostenibles, integrando tecnología, aprendizaje y participación familiar y comunitaria.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
+**Tabla 13**
+
+*Perfiles de los integrantes de GreenMinds.*
 
 | Foto | Nombre | Descripción |
 | -------- | -------- | -------- |
@@ -708,9 +762,17 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 ### 2.1.1. Análisis competitivo
 
+**Tabla 14**
+
+*Propósito del análisis competitivo.*
+
 |  | Competitive Analysis Landscape |
 |---|---|
 | ¿Por qué llevar a cabo este análisis? | Llevamos a cabo este análisis con la finalidad de conocer a los competidores, identificar sus fortalezas y debilidades, y definir estrategias de diferenciación y posicionamiento para Green Mind. |
+
+**Tabla 15**
+
+*Análisis competitivo de EcoMind.*
 
 |  |  | **Green Mind** | **Defensor de la Naturaleza** | **Happy Little Planet** | **Earth Cubs** |
 |---|---|---|---|---|---|
@@ -813,15 +875,27 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 #### Segmento: Padres de Familia
 <br>
 
+**Tabla 16**
+
+*Entrevista 1 del segmento de padres de familia.*
+
 | **Entrevista Nro. 1** |
 |---|
 | <img src="assets/img/figures/imagen0781.png" width="335" hspace="240"> |
 | **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:52<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 49 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
 
+**Tabla 17**
+
+*Entrevista 2 del segmento de padres de familia.*
+
 | **Entrevista Nro. 2** |
 |---|
 | <img src="assets/img/figures/Entrevista_2_Padres_Familia.png" width="335" hspace="240"> |
 | **Entrevistado N°2:** Manuel Pajes<br> **Edad:** 52 años<br>**Ubicación:** San Miguel, Lima<br><br> **Entrevista:** [Video de la entrevista Nro. 2 - Manuel Pajes](https://upcedupe-my.sharepoint.com/personal/u202410093_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410093%5Fupc%5Fedu%5Fpe%2FDocuments%2FManuel%20Pajes%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2559e663%2Def0a%2D4632%2D94a0%2Dc1d5999434f4)<br>**Instante del que inicia:** 0:03<br> **Duración:** 4:46<br><br> **Resumen:** <br><br>Manuel Pajes tiene 52 años, es padre de tres hijos y es ingeniero electrónico dedicado a actividades comerciales relacionadas con su carrera. Se considera bastante seguro al utilizar celulares y aplicaciones; menciona redes sociales y aplicaciones bancarias, entre otras. Durante la semana, el trabajo, el colegio y los estudios de sus hijos limitan las actividades compartidas. Algunos fines de semana salen a comer y a pasar tiempo en familia, aunque no lo hacen con mucha frecuencia.<br><br>Considera muy importante el cuidado del medio ambiente, pero reconoce que las ocupaciones diarias dificultan dedicarle atención y que su familia no es especialmente proactiva. En casa les piden a los hijos apagar las luces, evitar dejar correr el agua durante mucho tiempo y moderar el uso de la terma. Explica que los hijos suelen olvidar estas indicaciones y que los padres tampoco mantienen un seguimiento constante, por lo que todavía no han consolidado esos hábitos.<br><br>Afirma que utilizaría en familia una aplicación con retos ambientales simples. Le parece útil que tanto los hijos como los adultos reciban recordatorios y aprendan mediante actividades cotidianas de forma lúdica. Para motivarlos, valora los recursos visuales, didácticos y entretenidos que ayuden a tomar conciencia. Espera que sus hijos interioricen el cuidado del medio ambiente hasta practicarlo de manera natural como parte de sus hábitos. |
+
+**Tabla 18**
+
+*Entrevista 3 del segmento de padres de familia.*
 
 | **Entrevista Nro. 3** |
 |---|
@@ -830,15 +904,27 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 
 #### Segmento objetivo: Escolares de Primaria
 
+**Tabla 19**
+
+*Entrevista 1 del segmento de escolares de primaria.*
+
 | **Entrevista Nro. 1** |
 |---|
 | <img src="assets/img/figures/image036.png" width="330" hspace="230"> |
 | **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 11 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 4:53  <br> **Duración:** 3:15<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pablo, un estudiante de 11 años. En su tiempo libre le gusta jugar con sus juguetes, salir, utilizar la consola o la PC, y también emplear aplicaciones como Roblox para jugar y Discord para comunicarse.<br><br>En relación con el cuidado del medio ambiente, recuerda que en su colegio le han enseñado sobre el ahorro de agua, no botar botellas y guardar chapas. En su casa procura no usar muchas bolsas de plástico. Lo que más lo motiva es haber visto en la provincia la acumulación de basura y cómo afecta tanto a las personas como a los animales, lo que lo hace reflexionar sobre la importancia de reducir los desechos.<br><br>Sobre la forma de aprender, señala que prefiere actividades digitales, aunque también reconoce el valor de las que son en papel. Le gusta aprender escuchando, viendo videos y leyendo textos cortos. Además, considera que los juegos pueden servir como herramienta de aprendizaje si tienen mecánicas bien diseñadas, aunque algunos pueden resultar adictivos.<br><br>Finalmente, Pablo demuestra que disfruta combinar distintas formas de aprendizaje y entretenimiento, mostrando una postura crítica frente al uso de videojuegos educativos. |
 
+**Tabla 20**
+
+*Entrevista 2 del segmento de escolares de primaria.*
+
 | **Entrevista Nro. 2** |
 |---|
 | <img src="assets/img/figures/image037.png" width="330" hspace="250"> |
 | **Entrevistado N°2:** Gianfranco de la Cruz <br> **Edad:** 12 años<br>**Ubicación:** La Molina, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 7:00 <br> **Duración:** 3:40<br><br> **Resumen:** <br><br>El entrevistado se llama Gianfranco de la Cruz, tiene 12 años y está por culminar la primaria. Le gusta pasar el tiempo usando su celular, ya sea para jugar o ver videos.<br><br>Nos menciona que en su colegio sí le han enseñado de manera regular sobre el cuidado del ambiente, como la implementación de tachos de basura específicos para reciclaje. Sin embargo, fuera del colegio no tiene muy claro qué actividades o acciones puede realizar, aparte de mantener limpias sus zonas de convivencia.<br><br>Por último, menciona que actualmente realiza este tipo de acciones más por ayudar que por motivación propia. Sin embargo, la idea de aprender nuevas formas de apoyo mediante juegos o videos le parecería motivante para esforzarse más. |
+
+**Tabla 21**
+
+*Entrevista 3 del segmento de escolares de primaria.*
 
 | **Entrevista Nro. 3** |
 |---|
@@ -1016,6 +1102,10 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 ### 2.3.6. Ubiquitous Language
 
 El siguiente glosario establece los términos compartidos que el equipo y los stakeholders utilizan para describir el dominio de EcoMind. Las definiciones buscan evitar interpretaciones diferentes entre las áreas del producto y se limitan a conceptos propios de la solución, la educación ambiental y la participación de sus usuarios.
+
+**Tabla 22**
+
+*Ubiquitous Language de EcoMind.*
 
 | Term | Definition |
 |---|---|
@@ -3890,6 +3980,10 @@ Para establecer el orden de prioridad de las historias de usuario planteadas par
 
 ![Product Backlog](assets/img/figures/Product_Backlog.png)
 
+**Tabla 23**
+
+*Product Backlog de EcoMind.*
+
 | # | ID | Título | Descripción | SP |
 |---|---|---|---|---|
 | 1 | HU-051 | Información descriptiva clara | Como visitante, quiero que la información presentada sobre las funcionalidades disponibles se encuentre de forma sencilla, para que pueda ser entendible. | 3 |
@@ -4013,9 +4107,11 @@ Al comienzo de la sesión se contaba con siete bounded contexts candidatos:
 
 Esta división representaba una primera aproximación a las capacidades del sistema. Sin embargo, al revisar los comandos, eventos, actores y reglas de negocio de cada contexto, se encontraron responsabilidades que debían separarse y otras que podían consolidarse.
 
-![IniCandidate](assets/img/figures/Candidate02.png)
+**Figura 10**
 
-*Figura X. Propuesta inicial de bounded contexts del EventStorm.*
+*Propuesta inicial de bounded contexts del EventStorm.*
+
+![IniCandidate](assets/img/figures/Candidate02.png)
 
 **Separación del contexto Learning**
 
@@ -4023,9 +4119,11 @@ Durante el análisis del bounded context **Retos**, se observó que este concent
 
 Se determinó que los materiales educativos poseen un propósito propio: facilitar el aprendizaje del usuario independientemente de su participación en un reto. Además, su contenido, organización y evolución responden a reglas diferentes de las utilizadas para gestionar retos. Por esta razón, se extrajeron de Retos los eventos y funcionalidades relacionados con la consulta de materiales, creando el bounded context **Learning**.
 
-![SecCandidate](assets/img/figures/Candidate01.png)
+**Figura 11**
 
-*Figura X. Separación de Learning a partir del bounded context Retos.*
+*Separación de Learning a partir del bounded context Retos.*
+
+![SecCandidate](assets/img/figures/Candidate01.png)
 
 **Creación del contexto Achievements**
 
@@ -4063,6 +4161,10 @@ Es importante distinguir **IAM** de **Users**. IAM gestiona la identidad digital
 
 Después de analizar, separar y consolidar las distintas responsabilidades, se definieron siete bounded contexts finales:
 
+**Tabla 24**
+
+*Bounded contexts finales de EcoMind.*
+
 | Bounded context | Descripción |
 |---|---|
 | IAM | Gestionar la identidad, autenticación, autorización y acceso de los usuarios |
@@ -4073,66 +4175,91 @@ Después de analizar, separar y consolidar las distintas responsabilidades, se d
 | Learning | Gestionar los materiales educativos y las experiencias de aprendizaje |
 | Community | Gestionar la interacción y participación entre los miembros de la comunidad |
 
-![EndCandidate](assets/img/figures/Candidate03.png)
+**Figura 12**
 
-*Figura X. Resultado final de la sesión de Candidate Context Discovery.*
+*Resultado final de la sesión de Candidate Context Discovery.*
+
+![EndCandidate](assets/img/figures/Candidate03.png)
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
 Luego de identificar los bounded contexts candidatos, se realizó una sesión de Flow Modeling con el propósito de representar la colaboración entre las distintas capacidades del dominio. Para ello, se seleccionaron los flujos que generan mayor valor para los usuarios y se identificaron los comandos, eventos y consultas intercambiados entre los bounded contexts.
 
-![Flow1](assets/img/figures/Flow1.jpg)
-*Figura X. Domain Storytelling del flujo de participación en quests y publicación de un logro.*
-![Flow1](assets/img/figures/Flow2.jpg)
-*Figura X. Domain Storytelling del flujo de invitación a una quest colaborativa.*
-![Flow1](assets/img/figures/Flow3.jpg)
-*Figura X. Domain Storytelling del flujo de compra y entrega de productos.*
-![Flow1](assets/img/figures/Flow4.jpg)
-*Figura X. Domain Storytelling del flujo de registro y configuración del perfil.*
+**Figura 13**
 
+*Domain Storytelling del flujo de participación en quests y publicación de un logro.*
+
+![Flow1](assets/img/figures/Flow1.jpg)
+**Figura 14**
+
+*Domain Storytelling del flujo de invitación a una quest colaborativa.*
+
+![Flow1](assets/img/figures/Flow2.jpg)
+**Figura 15**
+
+*Domain Storytelling del flujo de compra y entrega de productos.*
+
+![Flow1](assets/img/figures/Flow3.jpg)
+**Figura 16**
+
+*Domain Storytelling del flujo de registro y configuración del perfil.*
+
+![Flow1](assets/img/figures/Flow4.jpg)
 #### 2.5.1.3. Bounded Context Canvases
 Después de identificar los candidate bounded contexts, se elaboró un Bounded Context Canvas para cada uno, comenzando por los contextos de mayor importancia para el negocio. El objetivo fue precisar sus límites, responsabilidades, lenguaje, reglas y dependencias antes de tomar decisiones de diseño posteriores.
 
 La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique.
 
 **1. Bounded Context Canvas Quests**
+**Figura 17**
+
+*Bounded Context Canvas del contexto Quests.*
+
 ![BoundedContextCanvasQuests](assets/img/figures/CanvasQuest.jpg)
 
-*Figura X. Bounded Context Canvas del contexto Quests.*
-
 **2. Bounded Context Canvas Community**
+**Figura 18**
+
+*Bounded Context Canvas del contexto Community.*
+
 ![BoundedContextCanvasCommunity](assets/img/figures/CanvasCommunity.png)
 
-*Figura X. Bounded Context Canvas del contexto Community.*
-
 **3. Bounded Context Canvas Gamification**
-![BoundedContextCanvasGamification](assets/img/figures/CanvasGamification.png)
+**Figura 19**
 
-*Figura X. Bounded Context Canvas del contexto Gamification.*
+*Bounded Context Canvas del contexto Gamification.*
+
+![BoundedContextCanvasGamification](assets/img/figures/CanvasGamification.png)
 
 Fuente editable: [Canvas de Gamification](assets/diagrams/CanvasGamification.svg).
 
 **4. Bounded Context Canvas Monetization**
+**Figura 20**
+
+*Bounded Context Canvas del contexto Monetization.*
+
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
-*Figura X. Bounded Context Canvas del contexto Monetization.*
-
 **5. Bounded Context Canvas Users**
+**Figura 21**
+
+*Bounded Context Canvas del contexto Users.*
+
 ![BCUsers.jpg](assets/img/figures/canvasUsers.jpg)
 
-*Figura X. Bounded Context Canvas del contexto Users.*
-
 **5. Bounded Context Canvas Learning**
+**Figura 22**
+
+*Bounded Context Canvas del contexto Learning.*
+
 ![BCUsers.jpg](assets/img/figures/LearningCanvas.jpg)
 
-*Figura X. Bounded Context Canvas del contexto Learning.*
-
 **7. Bounded Context Canvas IAM**
+**Figura 23**
+
+*Bounded Context Canvas del contexto Identity and Access.*
+
 ![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
-
-*Figura X. Bounded Context Canvas del contexto Identity and Access.*
-
-
 
 ### 2.5.2. Context Mapping
 
@@ -4148,11 +4275,17 @@ De esa discusión surgieron cuatro decisiones:
 - La cuarta fue reducir el shared kernel al mínimo deliberado: únicamente los identificadores `UserId` (equivalente al `AccountId` emitido por IAM) y `FamilyId`, sin que ningún contexto comparta lógica ni estructura además de esos identificadores opacos, bajo el criterio de que un shared kernel grande es un bounded context que no se llegó a dibujar.
 
 
+**Figura 24**
+
+*Context Map de EcoMind.*
+
 ![ContextMapping](assets/img/figures/ContextMapping.png)
 
-*Figura X. Context Map de EcoMind.*
-
 Los patrones de relación seleccionados para cada integración son los siguientes.
+
+**Tabla 25**
+
+*Relaciones del Context Map de EcoMind.*
 
 | Relación | Patrón | Justificación |
 |---|---|---|
@@ -4180,9 +4313,11 @@ En esta sección se presenta el Context Diagram de EcoMind, elaborado con C4 Mod
 
 Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden a la plataforma ya registrados, y el visitante, que llega primero al Landing Page antes de crear una cuenta. EcoMind se comunica con cuatro sistemas externos: el servicio de correo Resend, utilizado para enviar la verificación de cuenta y la recuperación de contraseña; las pasarelas de pago con tarjeta, Yape y PayPal, utilizadas para las compras dentro de Monetization y Leaflet utilizado para mostrar en un mapa los eventos comunitarios cercanos a la ubicación del usuario.
 
-![ContextEcoMind](assets/img/figures/ContextEcoMind.png)
+**Figura 25**
 
-*Figura X. Diagrama C4 de contexto de EcoMind, elaborado con Structurizr DSL.*
+*Diagrama C4 de contexto de EcoMind, elaborado con Structurizr DSL.*
+
+![ContextEcoMind](assets/img/figures/ContextEcoMind.png)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -4191,18 +4326,22 @@ En esta sección se presenta el Container Diagram de EcoMind, el cual muestra lo
 La solución está compuesta por dos productos con los que interactúa el usuario final: la aplicación móvil `EcoMind Android Application`, desarrollada en Kotlin, y el `Landing Page`, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta. La aplicación Android consume de forma directa, mediante HTTPS/JSON y autenticación Bearer JWT, siete APIs REST independientes, cada una correspondiente a un bounded context: `IAM API`, `Users API`, `Learning API`, `Quests API`, `Community API`, `Gamification API` y `Monetization API`.
 
 
-![ContainerEcoMind](assets/img/figures/ContainerEcoMind.png)
+**Figura 26**
 
-*Figura X. Diagrama C4 de contenedores de EcoMind, elaborado con Structurizr DSL.*
+*Diagrama C4 de contenedores de EcoMind, elaborado con Structurizr DSL.*
+
+![ContainerEcoMind](assets/img/figures/ContainerEcoMind.png)
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura física y lógica sobre la que se ejecutan los containers.
 
 
-![DeploymentEcoMind](assets/img/figures/DeploymentEcoMind.png)
+**Figura 27**
 
-*Figura X. Diagrama C4 de despliegue de EcoMind, elaborado con Structurizr DSL.*
+*Diagrama C4 de despliegue de EcoMind, elaborado con Structurizr DSL.*
+
+![DeploymentEcoMind](assets/img/figures/DeploymentEcoMind.png)
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -4215,6 +4354,10 @@ El bounded context **IAM (Identity and Access Management)** administra el regist
 Esta capa representa las reglas que protegen la identidad digital y las credenciales. Una cuenta solo se crea después de verificar el correo y comprobar nuevamente su disponibilidad; las contraseñas y los tokens de recuperación se conservan únicamente mediante sus hashes.
 
 **Sub-capa Model**
+
+**Tabla 26**
+
+*Elementos del modelo de dominio de IAM.*
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
@@ -4231,6 +4374,10 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 
 **Sub-capa Domain Services**
 
+**Tabla 27**
+
+*Servicios de dominio de IAM.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `RegistrationPolicy` | Validar los datos del registro, la disponibilidad del correo y la vigencia de la verificación antes de crear la cuenta. | Opera sobre `PendingRegistration`, `EmailAddress` y `AccountRepository`. |
@@ -4238,6 +4385,10 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 | `PasswordPolicy` | Validar que una contraseña nueva cumpla las reglas de seguridad de IAM. | Se aplica al registro y a la recuperación de contraseña. |
 
 **Sub-capa Repositories y contratos del dominio**
+
+**Tabla 28**
+
+*Repositorios de IAM.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -4253,6 +4404,10 @@ Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints pr
 
 **Sub-capa REST - Controllers**
 
+**Tabla 29**
+
+*Controllers REST de IAM.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | REST Controller | `RegistrationController` | Recibir el inicio del registro y la verificación del correo. | Ejecuta `SubmitRegistration` y `VerifyEmail`. |
@@ -4261,6 +4416,10 @@ Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints pr
 | REST Controller | `SessionController` | Atender el cierre de sesión de la aplicación. | Ejecuta `Logout`; el cliente elimina localmente el access token. |
 
 **Sub-capa REST - Resources y Assemblers**
+
+**Tabla 30**
+
+*Resources y assemblers de IAM.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -4280,6 +4439,10 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Sub-capa Command Services**
 
+**Tabla 31**
+
+*Command services de IAM.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `RegistrationCommandService` | Iniciar el registro, generar la verificación temporal y crear la cuenta una vez verificado el correo. | Procesa `SubmitRegistration` y `VerifyEmail`; usa repositorios, `EmailService` y `UsersContextGateway`. |
@@ -4289,11 +4452,19 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Sub-capa Query Services**
 
+**Tabla 32**
+
+*Query services de IAM.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `CurrentAuthenticatedUserService` | Obtener el `AccountId` y el correo de la identidad ya autenticada. | Procesa `GetCurrentAuthenticatedUserQuery` a partir de `AuthenticatedUserPrincipal`. |
 
 **Commands y Queries**
+
+**Tabla 33**
+
+*Queries de IAM.*
 
 | Tipo | Nombre | Propósito |
 |---|---|---|
@@ -4307,6 +4478,10 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Puertos de salida**
 
+**Tabla 34**
+
+*Puertos de salida de IAM.*
+
 | Nombre | Responsabilidad principal | Destino |
 |---|---|---|
 | `EmailService` | Enviar correos de verificación y de recuperación de contraseña. | Email Service / Resend. |
@@ -4316,6 +4491,10 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 #### 2.6.1.4. Infrastructure Layer
 
 Esta capa implementa la persistencia, la seguridad y las integraciones técnicas requeridas por IAM.
+
+**Tabla 35**
+
+*Componentes de la capa de infraestructura de IAM.*
 
 | Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
 |---|---|---|---|
@@ -4339,13 +4518,17 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 
 Los diagramas presentan los componentes de IAM en la aplicación Android y en la API backend. La vista móvil comprende la interfaz, los ViewModels, los casos de uso, el acceso remoto y el almacenamiento seguro del access token. La vista de la API reúne los controllers, servicios de aplicación, elementos de dominio, persistencia, seguridad JWT e integraciones con Resend y Users.
 
+**Figura 28**
+
+*Diagrama C4 de componentes de la aplicación Android para el bounded context IAM, elaborado con Structurizr DSL.*
+
 ![C4I](assets/img/figures/ComponentsIAM1.png)
 
-*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context IAM, elaborado con Structurizr DSL.*
+**Figura 29**
+
+*Diagrama C4 de componentes de la API del bounded context IAM, elaborado con Structurizr DSL.*
 
 ![C4I](assets/img/figures/ComponentsIAM2.png)
-
-*Figura X. Diagrama C4 de componentes de la API del bounded context IAM, elaborado con Structurizr DSL.*
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -4355,17 +4538,21 @@ Los diagramas de código describen el modelo de dominio y su estructura de persi
 
 El diagrama de clases del Domain Layer representa los aggregates, entities, value objects, domain services y repositories que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación.
 
-![C4I](assets/img/figures/iamclass.png)
+**Figura 30**
 
-*Figura X. Diagrama de clases de la capa de dominio del bounded context IAM, elaborado con PlantUML.*
+*Diagrama de clases de la capa de dominio del bounded context IAM, elaborado con PlantUML.*
+
+![C4I](assets/img/figures/iamclass.png)
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 El diagrama de base de datos presenta las estructuras de persistencia necesarias para las cuentas, las credenciales, los registros pendientes y los tokens de recuperación. Su diseño conserva únicamente hashes de contraseñas y tokens sensibles, registra sus fechas de expiración y consumo, y garantiza la unicidad del correo normalizado.
 
-![C4I](assets/img/figures/IamDatabase.png)
+**Figura 31**
 
-*Figura X. Diagrama de diseño de la base de datos del bounded context IAM, elaborado con ERD Editor.*
+*Diagrama de diseño de la base de datos del bounded context IAM, elaborado con ERD Editor.*
+
+![C4I](assets/img/figures/IamDatabase.png)
 
 ### 2.6.2. Bounded Context: Users
 
@@ -4377,6 +4564,10 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model**
 
+**Tabla 36**
+
+*Elementos del modelo de dominio de Users.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relaciones |
 |---|---|---|---|---|
 | Aggregate Root | `UserProfile` | Perfil de un usuario ya autenticado en IAM. | Mantener nombre, rol social, racha, ecopoints, balance de gemas y cosmético equipado. | Se crea a partir del `AccountId` recibido de IAM; referencia `EquippedCosmetic`. |
@@ -4387,6 +4578,10 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Value Objects y Enumerations**
 
+**Tabla 37**
+
+*Value objects y enumeraciones de Users.*
+
 | Tipo | Nombre | Descripción |
 |---|---|---|
 | Value Object | `UserId` | Identificador del perfil, equivalente al `AccountId` emitido por IAM. |
@@ -4396,6 +4591,10 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 | Enumeration | `FriendshipStatus` | Estado de una solicitud de amistad: `PENDING`, `ACCEPTED` o `REJECTED`. |
 
 **Sub-capa Model – Commands**
+
+**Tabla 38**
+
+*Commands de Users.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -4411,6 +4610,10 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Queries**
 
+**Tabla 39**
+
+*Queries de Users.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Query | `GetUserProfileQuery` | Obtener el resumen del perfil de un usuario. |
@@ -4421,6 +4624,10 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Domain Events**
 
+**Tabla 40**
+
+*Eventos de dominio de Users.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Domain Event | `ProfileCreatedEvent` | Informar que un perfil fue creado a partir de una cuenta verificada. |
@@ -4429,12 +4636,20 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Services**
 
+**Tabla 41**
+
+*Servicios de dominio de Users.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Domain Service | `FriendshipPolicy` | Evitar solicitudes de amistad duplicadas o dirigidas al propio usuario. |
 | Domain Service | `FamilyMembershipPolicy` | Evitar que un usuario pertenezca a más de una familia activa a la vez. |
 
 **Sub-capa Repositories**
+
+**Tabla 42**
+
+*Repositorios de Users.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -4446,6 +4661,10 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa REST – Controllers**
 
+**Tabla 43**
+
+*Controllers REST de Users.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
 | Controller | `UserProfileController` | API de perfil. | Exponer `GET /api/v1/user`, `GET /api/v1/user/{id}`, `GET /api/v1/user/{userId}` y `PUT /api/v1/user/{id}`. | Invoca `ProfileCommandService` y `ProfileQueryService`. |
@@ -4454,6 +4673,10 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 | Controller | `UserCosmeticController` | API del cosmético del perfil. | Exponer `GET /api/v1/user_cosmetic`, `GET /api/v1/user_cosmetic/{userCosmeticId}` y `POST /api/v1/user_cosmetic`. | Invoca `ProfileCosmeticCommandService` y `ProfileQueryService`. |
 
 **Sub-capa REST – Assemblers y Resources**
+
+**Tabla 44**
+
+*Resources y assemblers de Users.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -4466,6 +4689,10 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 #### 2.6.2.3. Application Layer
 
 Esta capa coordina los casos de uso del perfil, la familia, las amistades y el cosmético del perfil, incluyendo la comunicación entrante desde IAM y saliente hacia los demás bounded contexts.
+
+**Tabla 45**
+
+*Componentes de la capa de aplicación de Users.*
 
 | Tipo | Nombre | Responsabilidad principal | Utiliza |
 |---|---|---|---|
@@ -4483,6 +4710,10 @@ Esta capa coordina los casos de uso del perfil, la familia, las amistades y el c
 
 Esta capa implementará la persistencia, el punto de recepción de la integración con IAM y los adaptadores necesarios para consumir la API de Users desde la aplicación Android.
 
+**Tabla 46**
+
+*Componentes de la capa de infraestructura de Users.*
+
 | Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
 |---|---|---|---|
 | Persistence Entity | `UserProfilePersistenceEntity` | Almacenar nombre, rol social, racha, ecopoints y balance de gemas. | Mapeada por JPA. |
@@ -4497,6 +4728,10 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 
 **Colaboradores**
 
+**Tabla 47**
+
+*Colaboraciones de Users.*
+
 | Colaborador | Relación con Users |
 |---|---|
 | `IAM` | Crea la cuenta y envía el command `CreateProfile` para originar el perfil en Users. |
@@ -4507,13 +4742,17 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 
 Los diagramas distribuyen los componentes de Users entre la aplicación Android y la API backend. La vista móvil abarca perfil, familia y amistades; la vista de la API muestra sus controllers, servicios, modelo de dominio, persistencia y colaboraciones con IAM y Quests.
 
+**Figura 32**
+
+*Diagrama C4 de componentes de la aplicación Android para el bounded context Users, elaborado con Structurizr DSL.*
+
 ![C4II](assets/img/figures/UsersAndroidComponents.png)
 
-*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Users, elaborado con Structurizr DSL.*
+**Figura 33**
+
+*Diagrama C4 de componentes de la API del bounded context Users, elaborado con Structurizr DSL.*
 
 ![C4II](assets/img/figures/UsersApiComponents.png)
-
-*Figura X. Diagrama C4 de componentes de la API del bounded context Users, elaborado con Structurizr DSL.*
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -4523,17 +4762,21 @@ Los diagramas de código presentan el modelo de dominio de Users y su estructura
 
 El siguiente diagrama presenta las clases del Domain Layer de Users y las relaciones entre ellas. Incluye el perfil del usuario, sus preferencias de notificación, el grupo familiar con sus integrantes y la relación de amistad entre dos usuarios. También se representan los Command Services y Query Services que orquestan cada operación, así como las políticas de dominio (`FriendshipPolicy` y `FamilyMembershipPolicy`) que protegen la consistencia de las amistades y las familias.
 
-![ClassUsers](assets/img/figures/ClassUsers.png)
+**Figura 34**
 
-*Figura X. Diagrama de clases de la capa de dominio del bounded context Users.*
+*Diagrama de clases de la capa de dominio del bounded context Users.*
+
+![ClassUsers](assets/img/figures/ClassUsers.png)
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 El presente diagrama representa el modelo de base de datos del bounded context Users. La tabla `familia` representa al grupo familiar como raíz independiente, con su nombre y el compromiso declarado al crearse, mientras que `miembros_familia` registra a cada integrante con su `rol_familia` y referencia a la familia mediante clave foránea. Se persiste además el perfil del usuario en `perfiles_usuario` con su racha, ecopuntos, saldo de gemas y preferencias de notificación, y las relaciones de amistad en `amistades`, restringidas mediante una restricción `CHECK` para evitar solicitudes dirigidas al propio usuario y una restricción de unicidad para evitar relaciones duplicadas, conforme a `FriendshipPolicy`. El identificador `usuario_id` corresponde al `AccountId` emitido por IAM y se conserva como referencia simple, sin clave foránea entre bounded contexts, para mantener la independencia de Users respecto a IAM.
 
-![DatabaseUsers](assets/img/figures/UsersDatabase.png)
+**Figura 35**
 
-*Figura X. Diagrama de diseño de la base de datos del bounded context Users.*
+*Diagrama de diseño de la base de datos del bounded context Users.*
+
+![DatabaseUsers](assets/img/figures/UsersDatabase.png)
 
 ### 2.6.3. Bounded Context: Learning
 
@@ -4545,6 +4788,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model**
 
+**Tabla 48**
+
+*Elementos del modelo de dominio de Learning.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relaciones |
 |---|---|---|---|---|
 | Aggregate Root | `EducationalMaterial` | Recurso educativo disponible en “Aprende más”. | Mantener título, resumen, tipo, idioma, categoría, URLs, disponibilidad y estado de publicación. | Referencia `MaterialCategory`; origina favoritos, revisiones y descargas. |
@@ -4555,6 +4802,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 | Entity | `MaterialDownload` | Registro de una descarga solicitada. | Auditar la entrega del recurso y su versión. | Referencia `EducationalMaterial` y `UserId`. |
 
 **Sub-capa Model - Value Objects y Enumerations**
+
+**Tabla 49**
+
+*Value objects y enumeraciones de Learning.*
 
 | Tipo | Nombre | Descripción |
 |---|---|---|
@@ -4570,6 +4821,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Commands**
 
+**Tabla 50**
+
+*Commands de Learning.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Command | `CreateEducationalMaterialCommand` | Crear un material educativo válido. |
@@ -4582,6 +4837,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Queries**
 
+**Tabla 51**
+
+*Queries de Learning.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Query | `GetEducationalMaterialsQuery` | Obtener los materiales publicados. |
@@ -4590,6 +4849,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 | Query | `GetFavoriteMaterialsQuery` | Consultar los materiales favoritos del usuario. |
 
 **Sub-capa Model - Domain Events**
+
+**Tabla 52**
+
+*Eventos de dominio de Learning.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -4601,6 +4864,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Services**
 
+**Tabla 53**
+
+*Servicios de dominio de Learning.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Domain Service | `MaterialPublicationPolicy` | Verificar título, contenido, idioma y recurso requerido antes de publicar. |
@@ -4609,6 +4876,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 | Domain Service | `DownloadPolicy` | Permitir la descarga solo cuando el material está publicado y es descargable. |
 
 **Sub-capa Repositories**
+
+**Tabla 54**
+
+*Repositorios de Learning.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -4623,6 +4894,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa REST - Controllers**
 
+**Tabla 55**
+
+*Controllers REST de Learning.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
 | Security Filter | `JwtAuthenticationFilter` | Filtro previo a los controllers. | Validar firma y expiración del JWT y construir el principal autenticado. | Entrega la solicitud autorizada a los controllers. |
@@ -4633,6 +4908,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 | Controller | `MaterialDownloadsController` | API de descargas. | Validar la descarga y entregar una URL segura. | Invoca `MaterialDownloadCommandService`. |
 
 **Endpoints principales**
+
+**Tabla 56**
+
+*Endpoints principales de Learning.*
 
 | Método y ruta | Responsabilidad |
 |---|---|
@@ -4646,6 +4925,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 | `POST /api/v1/material-reviews` | Registrar que el usuario revisó un material. |
 
 **Sub-capa REST - Resources y Assemblers**
+
+**Tabla 57**
+
+*Resources y assemblers de Learning.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -4665,6 +4948,10 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 La Application Layer coordina los casos de uso y las transacciones de Learning.
 **Sub-capa Command Services**
 
+**Tabla 58**
+
+*Command services de Learning.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Command Handler | `EducationalMaterialCommandService` | Crear, actualizar, publicar o archivar materiales. | Utiliza `MaterialPublicationPolicy` y `EducationalMaterialRepository`. |
@@ -4674,12 +4961,20 @@ La Application Layer coordina los casos de uso y las transacciones de Learning.
 
 **Sub-capa Query Services**
 
+**Tabla 59**
+
+*Query services de Learning.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Query Handler | `LearningQueryService` | Listar, buscar y obtener el detalle de materiales publicados. | Utiliza `EducationalMaterialRepository`. |
 | Query Handler | `FavoritesQueryService` | Obtener los favoritos del usuario autenticado. | Utiliza `UserLearningLibraryRepository`. |
 
 **Sub-capa Event Handlers**
+
+**Tabla 60**
+
+*Event handlers de Learning.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -4705,6 +5000,10 @@ Cada Use Case posee una responsabilidad concreta, se ejecuta desde un ViewModel 
 
 La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene el acceso a la API REST, la persistencia relacional, la caché Room, la descarga local y la reproducción del contenido multimedia.
 
+**Tabla 61**
+
+*Componentes de la capa de infraestructura de Learning.*
+
 | Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
 |---|---|---|---|
 | Security Adapter | `JwtAuthenticationFilter` | Validar firma y expiración del JWT antes de ejecutar Learning. | Spring Security / JWT. |
@@ -4725,6 +5024,10 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 **Relaciones con otros contextos y sistemas**
 
+**Tabla 62**
+
+*Relaciones con otros bounded contexts de Learning.*
+
 | Colaborador | Relación con Learning |
 |---|---|
 | `IAM` | Emite el JWT que la capa de seguridad valida para proporcionar el `UserId` a Learning. |
@@ -4736,17 +5039,21 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 El siguiente diagrama C4 muestra cómo se relaciona el bounded context de **Learning** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Learning y su base de datos. También representa la validación del token de acceso antes de ejecutar operaciones que requieren un usuario autenticado, como agregar o eliminar materiales favoritos y registrar descargas.
 
+**Figura 36**
+
+*Diagrama C4 de componentes de la aplicación Android para el bounded context Learning, elaborado con Structurizr DSL.*
+
 <div align="center">
   <img src="assets/img/figures/LearningAndroidComponents.png" alt="Diagrama C4 de Learning" width="500">
 </div>
 
-*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Learning, elaborado con Structurizr DSL.*
+**Figura 37**
+
+*Diagrama C4 de componentes de la API del bounded context Learning, elaborado con Structurizr DSL.*
 
 <div align="center">
   <img src="assets/img/figures/LearningApiComponents.png" alt="Diagrama C4 de Learning" width="680">
 </div>
-
-*Figura X. Diagrama C4 de componentes de la API del bounded context Learning, elaborado con Structurizr DSL.*
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -4757,17 +5064,21 @@ Los diagramas de código presentan las clases de dominio de **Learning** y el di
 
 El diagrama de clases presenta los principales elementos del dominio de Learning y las relaciones entre ellos. Incluye los materiales educativos, sus categorías, favoritos, valoraciones y registros de descarga. También representa las operaciones necesarias para consultar y filtrar materiales, obtener sus detalles, descargarlos y administrar los materiales favoritos de cada usuario.
 
-![Diagrama de clases de Learning](assets/img/figures/ClassLearning.png)
+**Figura 38**
 
-*Figura X. Diagrama de clases de la capa de dominio del bounded context Learning.*
+*Diagrama de clases de la capa de dominio del bounded context Learning.*
+
+![Diagrama de clases de Learning](assets/img/figures/ClassLearning.png)
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 El diagrama de base de datos presenta la estructura de persistencia utilizada por el bounded context de Learning. Incluye las tablas `material_categories`, `educational_materials`, `material_favorites`, `material_reviews` y `material_downloads`, así como sus claves y relaciones.
 
-![Diagrama de base de datos de Learning](assets/img/figures/LearningDatabase.png)
+**Figura 39**
 
-*Figura X. Diagrama de diseño de la base de datos del bounded context Learning.*
+*Diagrama de diseño de la base de datos del bounded context Learning.*
+
+![Diagrama de base de datos de Learning](assets/img/figures/LearningDatabase.png)
 
 ### 2.6.4. Bounded Context: Quests
 El bounded context **Quests** administra las misiones ecológicas, sus actividades, las asignaciones a usuarios, los minijuegos, las misiones colaborativas y los planes familiares. También controla el progreso, consulta datos necesarios de **Users** y comunica a **Gamification** cuándo una misión fue completada.
@@ -4775,6 +5086,11 @@ El bounded context **Quests** administra las misiones ecológicas, sus actividad
 En esta capa se representa el núcleo del bounded context y sus reglas de negocio.
 
 **Sub-capa Model**
+
+**Tabla 63**
+
+*Elementos del modelo de dominio de Quests.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
 | Aggregate Root | `Quest` | Versión persistente de una misión ecológica. | Mantener sus datos, categoría, tipo, recompensa, versión y estado de publicación sin eliminar el historial. | Se relaciona con `Activity`, `QuestUser`, `Minigame`, `CollabQuestSession`, `FamilyPlanItem` y las demás versiones de la misma misión. |
@@ -4801,6 +5117,11 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | Value Object | `FamilyPlanStatus` | Estado del plan familiar. | Controlar el ciclo de vida del plan. | Es utilizado por `FamilyPlan`. |
 
 **Sub-capa Model - Commands**
+
+**Tabla 64**
+
+*Commands de Quests.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- |
 | `CreateQuestCommand` | Transportar los datos de la nueva misión. | Atendido por `QuestCommandService`. |
@@ -4836,6 +5157,11 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | `FamilyPlanItemCommand` | Representar cada ítem solicitado durante la creación o edición. | Forma parte de los comandos de `FamilyPlan`. |
 
 **Sub-capa Model - Queries**
+
+**Tabla 65**
+
+*Queries de Quests.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- |
 | `GetQuestByIdQuery` | Obtener una misión específica. | Atendida por `QuestQueryService`. |
@@ -4858,6 +5184,11 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | `GetActiveFamilyPlanByFamilyIdQuery` | Obtener el plan actualmente ejecutado. | Atendida por `FamilyPlanQueryService`. |
 
 **Sub-capa Model - Domain Events**
+
+**Tabla 66**
+
+*Eventos de dominio de Quests.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- | --- |
 | Domain Event | `QuestCreatedEvent` | Notificar que la misión fue registrada. | Publicado por `Quest`. |
@@ -4872,6 +5203,11 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | Integration Event | `FamilyPlanCompletedIntegrationEvent` | Comunicar familia, plan y participantes. | Consumido por `Gamification`. |
 
 **Sub-capa Repositories**
+
+**Tabla 67**
+
+*Repositorios de Quests.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- | --- |
 | Repository | `QuestRepository` | Guardar y consultar misiones activas o históricas sin eliminación física. | Utilizado por servicios de misión. |
@@ -4891,6 +5227,10 @@ Esta capa expone los casos de uso mediante una API REST.
 
 **Sub-capa REST - Controllers**
 
+**Tabla 68**
+
+*Controllers REST de Quests.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- | --- |
 | Controller | `QuestController` | Exponer creación, modificación versionada, publicación, archivado y consulta. | Al modificar una misión publicada responde con la nueva versión `DRAFT`. |
@@ -4904,6 +5244,10 @@ Esta capa expone los casos de uso mediante una API REST.
 | Controller | `FamilyPlanController` | Gestionar y consultar planes familiares. | Invoca servicios de `FamilyPlan`. |
 
 **Sub-capa REST - Resources y Assemblers**
+
+**Tabla 69**
+
+*Resources y assemblers de Quests.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- | --- |
@@ -4925,6 +5269,10 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 **Sub-capa Command Services**
 
+**Tabla 70**
+
+*Command services de Quests.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- |
 | `QuestCommandService`, `ActivityCommandService`, `MinigameCommandService` | Crear, versionar, publicar y archivar misiones; mantener sus actividades y minijuegos. | Utilizan los repositorios del catálogo. |
@@ -4933,6 +5281,10 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 | `FamilyPlanCommandService` | Crear, editar, activar y completar planes. | Consulta familias en `Users`. |
 
 **Sub-capa Query Services**
+
+**Tabla 71**
+
+*Query services de Quests.*
 
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- |
@@ -4943,6 +5295,10 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 **Sub-capa Event Handlers**
 
+**Tabla 72**
+
+*Event handlers de Quests.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- |
 | `QuestCompletedEventHandler` | Publicar la finalización de una misión aplicable a los bounded contexts interesados. | Informa a `Gamification` para procesar recompensas y a `Community` para actualizar el progreso de metas comunitarias. |
@@ -4951,6 +5307,10 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 #### 2.6.4.4. Infrastructure Layer
 Esta capa contiene las clases que implementan la persistencia y la comunicación con servicios externos.
+
+**Tabla 73**
+
+*Componentes de la capa de infraestructura de Quests.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- | --- |
@@ -4963,6 +5323,10 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Relaciones entre bounded contexts**
 
+**Tabla 74**
+
+*Relaciones con otros bounded contexts de Quests.*
+
 | Bounded Context | Relación con Quests |
 |---|---|
 | `Users` | Proporciona los datos de usuarios, amistades, familias y roles requeridos para validar la participación. |
@@ -4974,6 +5338,10 @@ Las consultas necesarias se realizan mediante `UsersServiceClient`, mientras que
 **Mobile Application - Quests Feature**
 
 La aplicación móvil presenta los casos de uso coordinados por el backend.
+
+**Tabla 75**
+
+*Componentes de la aplicación móvil de Quests.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -4990,13 +5358,17 @@ La aplicación móvil presenta los casos de uso coordinados por el backend.
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 Los diagramas muestran los componentes de Quests en la aplicación Android y en la API backend, junto con sus interacciones con Users, Gamification y la infraestructura de persistencia.
 
+**Figura 40**
+
+*Diagrama C4 de componentes de la aplicación Android para el bounded context Quests, elaborado con Structurizr DSL.*
+
 ![C4Q](assets/img/figures/c4Quest2.png)
 
-*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Quests, elaborado con Structurizr DSL.*
+**Figura 41**
+
+*Diagrama C4 de componentes de la API del bounded context Quests, elaborado con Structurizr DSL.*
 
 ![C4Q](assets/img/figures/c4Quest1.png)
-
-*Figura X. Diagrama C4 de componentes de la API del bounded context Quests, elaborado con Structurizr DSL.*
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 Los diagramas permiten identificar sus principales elementos de dominio, las relaciones entre ellos y la manera en que representan las reglas de negocio asociadas con las misiones, su ejecución, los minijuegos, la colaboración y los planes familiares.
@@ -5004,15 +5376,19 @@ Los diagramas permiten identificar sus principales elementos de dominio, las rel
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests, organizadas según sus principales capacidades. Se incluyen aggregates, entities, value objects y enumeraciones responsables de representar el catálogo de misiones, el progreso de los usuarios, los minijuegos, las misiones colaborativas y los planes familiares.
 
-![ClassQuest](assets/img/figures/ClassDiagramQuest.png)
-*Figura X. Diagrama de clases de la capa de dominio del bounded context Quests, elaborado con PlantUML.*
+**Figura 42**
 
+*Diagrama de clases de la capa de dominio del bounded context Quests, elaborado con PlantUML.*
+
+![ClassQuest](assets/img/figures/ClassDiagramQuest.png)
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 El presente diagrama representa el modelo de base de datos del bounded context **Quests** de EcoMind. Este contexto gestiona la definición y ejecución de retos, actividades, minijuegos, retos colaborativos y planes familiares, además de registrar el progreso de los usuarios. Las relaciones internas se representan mediante claves foráneas, mientras que los identificadores pertenecientes a otros bounded contexts, como usuarios y familias, se conservan como referencias externas para mantener la independencia entre contextos.
 
-![DatabaseQuest](assets/img/figures/databaseQuest.png)
-*Figura X. Diagrama de diseño de la base de datos del bounded context Quests.*
+**Figura 43**
 
+*Diagrama de diseño de la base de datos del bounded context Quests.*
+
+![DatabaseQuest](assets/img/figures/databaseQuest.png)
 ### 2.6.5. Bounded Context: Community
 
 El bounded context **Community** gestiona la interacción y participación de los usuarios dentro de comunidades locales y comunidades creadas por padres. Cada comunidad cuenta con determinadas secciones como publicaciones, creación y participación de eventos, tanto de forma individual como familiar, y visualización de logros comunitarios; además de poder participar dentro de metas comunitarías de su respectiva comunidad.
@@ -5022,6 +5398,11 @@ El bounded context **Community** gestiona la interacción y participación de lo
 En esta capa se representa el núcleo del bounded context community y sus reglas de negocio.
 
 **Sub-capa Model**
+
+**Tabla 76**
+
+*Elementos del modelo de dominio de Community.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
 | Aggregate Root | `Community` | Comunidad local o creada por un padre para un grupo de usuarios. | Mantener sus datos, estado, administrador y miembros; controlar su creación, edición, abandono y eliminación. | Contiene o referencia publicaciones, eventos, metas comunitarias y miembros; referencia usuarios de `Users`. |
@@ -5045,6 +5426,11 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 | Value Object | `Location` | Ubicación física de un evento. | Representar la información necesaria para mostrar el evento en un mapa. | Es utilizado por `Event` y puede ser consultado mediante `Leaflet`. |
 
 **Sub-capa Model - Commands**
+
+**Tabla 77**
+
+*Commands de Community.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `CreateCommunityCommand` | Crear una comunidad y registrar a su administrador. | Atendido por `CommunityCommandService`. |
@@ -5067,6 +5453,11 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 | `CompleteCommunityGoalCommand` | Finalizar automáticamente una meta cuando se alcanza la cantidad de retos requerida o termina su plazo. | Atendido por `CommunityGoalCommandService` después de evaluar el progreso de la meta. |
 
 **Sub-capa Model - Queries**
+
+**Tabla 78**
+
+*Queries de Community.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `GetCommunityByIdQuery` | Obtener una comunidad específica y sus datos principales. | Atendida por `CommunityQueryService`. |
@@ -5081,6 +5472,11 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 | `GetCommunityGoalProgressQuery` | Consultar el progreso y los participantes de una meta. | Atendida por `CommunityGoalQueryService`. |
 
 **Sub-capa Model - Domain Events**
+
+**Tabla 79**
+
+*Eventos de dominio de Community.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Domain Event | `CommunityCreatedEvent` | Notificar que una comunidad fue creada. | Publicado por `Community`. |
@@ -5097,6 +5493,11 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 | Integration Event | `EventRegistrationCompletedIntegrationEvent` | Comunicar la inscripción completada y sus participantes. | Consumido por el servicio de chat temporal o por otros procesos de Community. |
 
 **Sub-capa Repositories**
+
+**Tabla 80**
+
+*Repositorios de Community.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Repository | `CommunityRepository` | Guardar y consultar comunidades y su estado. | Utilizado por servicios de comunidad. |
@@ -5116,6 +5517,10 @@ Esta capa expone los casos de uso de Community mediante una API REST.
 
 **Sub-capa REST - Controllers**
 
+**Tabla 81**
+
+*Controllers REST de Community.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Controller | `CommunityController` | Exponer la creación, edición, eliminación, búsqueda y consulta de comunidades. | Invoca `CommunityCommandService` y `CommunityQueryService`. |
@@ -5129,6 +5534,10 @@ Esta capa expone los casos de uso de Community mediante una API REST.
 | Controller | `CommunityGoalController` | Exponer la creación, consulta y progreso de metas comunitarias. | Invoca `CommunityGoalCommandService` y `CommunityGoalQueryService`. |
 
 **Sub-capa REST - Resources y Assemblers**
+
+**Tabla 82**
+
+*Resources y assemblers de Community.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -5158,6 +5567,10 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Command Services**
 
+**Tabla 83**
+
+*Command services de Community.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `CommunityCommandService` | Crear, modificar y eliminar comunidades aplicando las reglas de administración y pertenencia. | Utiliza `CommunityRepository` y valida permisos mediante `UsersServiceClient`. |
@@ -5172,6 +5585,10 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Query Services**
 
+**Tabla 84**
+
+*Query services de Community.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `CommunityQueryService` | Buscar comunidades y obtener sus datos principales. | Utiliza `CommunityRepository` |
@@ -5185,6 +5602,10 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Event Handlers**
 
+**Tabla 85**
+
+*Event handlers de Community.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `QuestCompletedIntegrationEventHandler` | Procesar la finalización de un reto recibida desde `Quests` y registrar su contribución en las metas comunitarias aplicables. | Invoca `CommunityGoalCommandService` mediante `RegisterQuestCompletionForCommunityGoalCommand`. |
@@ -5195,6 +5616,10 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 #### 2.6.5.4. Infrastructure Layer
 
 Esta capa contiene las implementaciones de persistencia, los adaptadores de comunicación con otros bounded contexts y los componentes necesarios para integrar Community.
+
+**Tabla 86**
+
+*Componentes de la capa de infraestructura de Community.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -5210,6 +5635,10 @@ Esta capa contiene las implementaciones de persistencia, los adaptadores de comu
 
 **Relaciones entre bounded contexts y servicios externos**
 
+**Tabla 87**
+
+*Relaciones con otros bounded contexts de Community.*
+
 | Bounded Context o servicio | Relación con Community |
 |---|---|
 | `Users` | Proporciona usuarios, familias, roles y datos necesarios para validar administradores, miembros e inscripciones familiares. |
@@ -5222,6 +5651,10 @@ Las consultas de usuarios, familias y roles se realizan mediante `UsersServiceCl
 **Mobile Application - Community Feature**
 
 La aplicación móvil consume los casos de uso del backend sin duplicar sus reglas de negocio.
+
+**Tabla 88**
+
+*Componentes de la aplicación móvil de Community.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -5242,17 +5675,21 @@ La aplicación móvil consume los casos de uso del backend sin duplicar sus regl
 El siguiente conjunto de diagramas C4 muestra cómo se relaciona el bounded context de **Community** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Community y su base de datos. También representa la comunicación con "Users" para validar usuarios, familias y roles; con "Quests", mediante la recepción de eventos de retos completados para actualizar las metas comunitarias; con "Gamification", mediante la publicación de metas comunitarias finalizadas; y con "Leaflet", para consultar y visualizar la ubicación de los eventos.
 
 
+**Figura 44**
+
+*Diagrama C4 de componentes de la aplicación Android para el bounded context Community, elaborado con Structurizr DSL.*
+
 <div align="center">
   <img src="assets/img/figures/c4Community1.png" alt="Diagrama C4 de Community" width="550">
 </div>
 
-*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Community, elaborado con Structurizr DSL.*
+**Figura 45**
+
+*Diagrama C4 de componentes de la API del bounded context Community, elaborado con Structurizr DSL.*
 
 <div align="center">
   <img src="assets/img/figures/c4Community2.png" alt="Diagrama C4 de Community" width="700">
 </div>
-
-*Figura X. Diagrama C4 de componentes de la API del bounded context Community, elaborado con Structurizr DSL.
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -5277,6 +5714,10 @@ El bounded context **Gamification** administra ecopoints, experiencia, recompens
 En esta capa se representa el núcleo del bounded context y sus reglas de negocio.
 
 **Sub-capa Model**
+
+**Tabla 89**
+
+*Elementos del modelo de dominio de Gamification.*
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
@@ -5313,6 +5754,10 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Commands**
 
+**Tabla 90**
+
+*Commands de Gamification.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `GrantQuestRewardCommand` | Otorgar la recompensa de una misión individual completada. | Atendido por `RewardCommandService`. |
@@ -5330,6 +5775,10 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Queries**
 
+**Tabla 91**
+
+*Queries de Gamification.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `GetUserProgressQuery` | Obtener ecopoints, experiencia y racha. | Atendida por `UserProgressQueryService`; permite a Monetization verificar una racha activa. |
@@ -5341,6 +5790,10 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | `GetRankingTypesQuery`, `GetRankingParticipantsQuery` | Consultar clasificaciones disponibles y participantes autorizados. | Atendidas por `RankingQueryService`. |
 
 **Sub-capa Model - Domain e Integration Events**
+
+**Tabla 92**
+
+*Eventos de dominio e integración de Gamification.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -5364,6 +5817,10 @@ El aviso de logro obtenido informa a Community sobre su concesión. La publicaci
 
 **Sub-capa Domain Services**
 
+**Tabla 93**
+
+*Servicios de dominio de Gamification.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Domain Service | `RewardCalculationService` | Calcular ecopoints, experiencia y gemas con la recompensa base y los efectos vigentes. | Utiliza `Reward`, `RewardSource` y `ActiveMultiplier`; recibe el historial necesario de minijuegos. |
@@ -5371,6 +5828,10 @@ El aviso de logro obtenido informa a Community sobre su concesión. La publicaci
 | Domain Service | `StreakService` | Determinar incremento diario único, conservación, riesgo o reinicio de racha. | Utiliza `Streak` y la respuesta de protección; recibe actividades que cumplen la regla del reto diario. |
 
 **Sub-capa Repositories**
+
+**Tabla 94**
+
+*Repositorios de Gamification.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -5387,6 +5848,10 @@ Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados
 
 **Sub-capa REST - Controllers y Consumers**
 
+**Tabla 95**
+
+*Controllers y consumers de Gamification.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Security Filter | `JwtAuthenticationFilter` | Validar el token antes de atender las solicitudes REST. | Utiliza la seguridad compartida del backend, como Learning y Monetization. |
@@ -5401,6 +5866,10 @@ Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados
 | Consumer | `StreakProtectionResultConsumer` | Recibir protección confirmada o inventario no disponible. | Delega en `StreakProtectionResultEventHandler`. |
 
 **Sub-capa REST - Resources y Assemblers**
+
+**Tabla 96**
+
+*Resources y assemblers de Gamification.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -5418,6 +5887,10 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Command Services**
 
+**Tabla 97**
+
+*Command services de Gamification.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `RewardCommandService` | Procesar finalizaciones, reconocer duplicados y registrar recompensa más puntuación atómicamente. | Utiliza `RewardCalculationService`, repositorios, servicios de progreso y `MonetizationServiceClient`. |
@@ -5428,6 +5901,10 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Query Services**
 
+**Tabla 98**
+
+*Query services de Gamification.*
+
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
 | `UserProgressQueryService`, `FamilyScoreQueryService` | Obtener progreso individual y familiar autorizado. | Utilizan sus repositorios y relaciones de `Users`. |
@@ -5436,6 +5913,10 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 | `RankingQueryService` | Obtener tipos, participantes y puntuaciones sin decidir posiciones semanales. | Utiliza `RankingReadRepository`, `UsersServiceClient` y `CommunityServiceClient`. |
 
 **Sub-capa Event Handlers**
+
+**Tabla 99**
+
+*Event handlers de Gamification.*
 
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
@@ -5460,6 +5941,10 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Persistencia e integración del backend**
 
+**Tabla 100**
+
+*Componentes de persistencia e integración de Gamification.*
+
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Repository Implementations | `UserProgressRepositoryImpl`, `FamilyScoreRepositoryImpl` | Persistir puntuaciones, experiencia y racha con control de versión. | Implementan los contratos de progreso mediante Spring Data JPA. |
@@ -5477,6 +5962,10 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Relaciones entre bounded contexts**
 
+**Tabla 101**
+
+*Relaciones con otros bounded contexts de Gamification.*
+
 | Bounded Context | Relación con Gamification |
 |---|---|
 | `Quests` | Valida y comunica las finalizaciones con ejecución, participantes y datos de recompensa. Gamification determina el otorgamiento efectivo. |
@@ -5485,6 +5974,10 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 | `Monetization` | Acredita gemas y cosméticos concedidos, activa multiplicadores y consume protectores. Devuelve el resultado de protección; Gamification actualiza su racha. |
 
 **Mobile Application - Gamification Feature**
+
+**Tabla 102**
+
+*Componentes de la aplicación móvil de Gamification.*
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -5507,13 +6000,17 @@ La aplicación móvil consulta progreso, logros y rankings, y permite compartir 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 En esta sección se presentan los diagramas de componentes del bounded context Gamification para la aplicación Android y la API backend. Muestran sus principales responsabilidades e interacciones, la comunicación con otros bounded contexts y el acceso a la base de datos.
 
+**Figura 46**
+
+*Diagrama C4 de componentes de la aplicación Android para el bounded context Gamification, elaborado con Structurizr DSL.*
+
 ![C4 de componentes Android de Gamification](assets/img/figures/c4GamificationMobile.png)
 
-*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Gamification, elaborado con Structurizr DSL.*
+**Figura 47**
+
+*Diagrama C4 de componentes de la API del bounded context Gamification, elaborado con Structurizr DSL.*
 
 ![C4 de componentes backend de Gamification](assets/img/figures/c4GamificationBackend.png)
-
-*Figura X. Diagrama C4 de componentes de la API del bounded context Gamification, elaborado con Structurizr DSL.*
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 Los diagramas presentan los elementos del dominio de Gamification, sus relaciones y la persistencia del progreso, las recompensas, las rachas y los logros.
@@ -5521,16 +6018,20 @@ Los diagramas presentan los elementos del dominio de Gamification, sus relacione
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra los aggregates, value objects y enumeraciones del Domain Layer de Gamification. Representa el progreso individual y familiar, los otorgamientos de recompensas y logros, y las solicitudes de protección de racha y de compartir logros.
 
-![Clases del modelo de dominio de Gamification](assets/img/figures/ClassDiagramGamification.png)
+**Figura 48**
 
-*Figura X. Diagrama de clases del bounded context Gamification, elaborado con PlantUML.*
+*Diagrama de clases del bounded context Gamification, elaborado con PlantUML.*
+
+![Clases del modelo de dominio de Gamification](assets/img/figures/ClassDiagramGamification.png)
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 El diagrama presenta las tablas de negocio del progreso individual y familiar, las recompensas, los logros y las solicitudes de compartir y proteger rachas. Las concesiones de logros se relacionan con su definición y con el progreso individual o familiar; cada concesión tiene un único destinatario. Los identificadores de usuarios, familias y comunidades de otros contextos se conservan como referencias externas.
 
-![Base de datos de Gamification](assets/img/figures/databaseGamification.png)
+**Figura 49**
 
-*Figura X. Diagrama de diseño de la base de datos del bounded context Gamification.*
+*Diagrama de diseño de la base de datos del bounded context Gamification.*
+
+![Base de datos de Gamification](assets/img/figures/databaseGamification.png)
 
 ### 2.6.7. Bounded Context: Monetization
 
@@ -5541,6 +6042,10 @@ El bounded context **Monetization** administra la economía virtual y la tienda 
 #### 2.6.7.1. Domain Layer
 
 **Sub-capa Model**
+
+**Tabla 103**
+
+*Elementos del modelo de dominio de Monetization.*
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relaciones |
 |---|---|---|---|---|
@@ -5559,6 +6064,10 @@ El bounded context **Monetization** administra la economía virtual y la tienda 
 | Aggregate Root | GemOrder | Orden para comprar gemas. | Controlar método, importe, transición de pago e idempotencia. | Referencia GemPackage. |
 
 **Sub-capa Model - Value Objects y Enumerations**
+
+**Tabla 104**
+
+*Value objects y enumeraciones de Monetization.*
 
 | Tipo | Nombre | Descripción |
 |---|---|---|
@@ -5584,6 +6093,10 @@ El bounded context **Monetization** administra la economía virtual y la tienda 
 
 **Sub-capa Model - Commands**
 
+**Tabla 105**
+
+*Commands de Monetization.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Command | BuyCosmeticCommand | Comprar un avatar o cosmético con gemas. |
@@ -5600,6 +6113,10 @@ El bounded context **Monetization** administra la economía virtual y la tienda 
 
 **Sub-capa Model - Queries**
 
+**Tabla 106**
+
+*Queries de Monetization.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Query | GetCosmeticsQuery | Consultar avatares y cosméticos disponibles. |
@@ -5613,6 +6130,10 @@ El bounded context **Monetization** administra la economía virtual y la tienda 
 
 
 **Sub-capa Model - Domain e Integration Events**
+
+**Tabla 107**
+
+*Eventos de dominio e integración de Monetization.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -5630,6 +6151,10 @@ El bounded context **Monetization** administra la economía virtual y la tienda 
 
 **Sub-capa Services**
 
+**Tabla 108**
+
+*Servicios de dominio de Monetization.*
+
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
 | Domain Service | PurchasePolicy | Verificar disponibilidad, saldo, duplicidad y requisitos específicos. |
@@ -5639,6 +6164,10 @@ El bounded context **Monetization** administra la economía virtual y la tienda 
 
 
 **Sub-capa Repositories**
+
+**Tabla 109**
+
+*Repositorios de Monetization.*
 
 | Tipo | Nombre | Responsabilidad principal |
 |---|---|---|
@@ -5661,6 +6190,10 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 
 **Sub-capa REST - Controllers y Consumers**
 
+**Tabla 110**
+
+*Controllers y consumers de Monetization.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
 | Controller | StoreController | API de catálogos. | Exponer cosméticos, multiplicadores, protectores y paquetes. | Invoca `StoreQueryService`. |
@@ -5674,6 +6207,10 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 | Security Context | AuthenticatedUserProvider | Acceso al usuario de la solicitud. | Proporcionar el `UserId` validado sin consultar nuevamente a IAM. | Utilizado por controllers y assemblers. |
 
 **Sub-capa REST - Resources y Assemblers**
+
+**Tabla 111**
+
+*Resources y assemblers de Monetization.*
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
@@ -5695,6 +6232,10 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Command Services**
 
+**Tabla 112**
+
+*Command services de Monetization.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
 | Command Handler | PurchaseCommandService | Servicio de compras con gemas. | Comprar cosméticos, multiplicadores o protectores y confirmar débito más concesión de forma atómica. | Utiliza `PurchasePolicy`, billetera y repositorios de inventario. |
@@ -5706,6 +6247,10 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Query Services**
 
+**Tabla 113**
+
+*Query services de Monetization.*
+
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
 | Query Handler | StoreQueryService | Servicio de consulta de catálogos. | Obtener cosméticos, multiplicadores, protectores y paquetes activos. | Utiliza repositorios de catálogo. |
@@ -5716,6 +6261,10 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 
 **Sub-capa Event Handlers**
+
+**Tabla 114**
+
+*Event handlers de Monetization.*
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
@@ -5733,6 +6282,10 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 Esta capa contiene las clases que implementan persistencia, caché local, comunicación HTTP, pagos y mensajería.
 
 
+
+**Tabla 115**
+
+*Componentes de la capa de infraestructura de Monetization.*
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
@@ -5758,6 +6311,10 @@ Esta capa contiene las clases que implementan persistencia, caché local, comuni
 
 **Relaciones entre bounded contexts**
 
+**Tabla 116**
+
+*Relaciones con otros bounded contexts de Monetization.*
+
 | Bounded Context | Relación con Monetization |
 |---|---|
 | `IAM` | Emite el JWT que la capa de seguridad valida para proporcionar el `UserId` a Monetization. |
@@ -5771,15 +6328,19 @@ Las solicitudes protegidas llegan con un JWT emitido previamente por IAM. El fil
 
 El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Monetization con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Monetization, su base de datos y los servicios externos de autenticación y pagos. También muestra la comunicación con Gamification, que informa cuando una racha está en riesgo, para que Monetization verifique si el usuario tiene un protector disponible y comunique el resultado.
 
+**Figura 50**
+
+*Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
+
 <div align="center">
   <img src="assets/img/figures/ComeponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
 </div>
 
-*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
+**Figura 51**
+
+*Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
 
 ![C4](assets/img/figures/ComponentsMonet1.png)
-
-*Figura X. Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
 
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -5789,17 +6350,23 @@ Los diagramas de código presentan las clases de dominio de Monetization y el di
 
 El diagrama de clases presenta los principales elementos del dominio de Monetization y las relaciones entre ellos. Incluye la tienda, la billetera de gemas, las compras, los inventarios y los distintos productos disponibles, como cosméticos, multiplicadores, protectores y paquetes de gemas. También representa las operaciones necesarias para consultar productos, verificar el saldo, realizar compras y administrar los artículos adquiridos por el usuario.
 
-![ClassDiagram](assets/img/figures/classMone.png)
+**Figura 52**
 
-*Figura X. Diagrama de clases de la capa de dominio del bounded context Monetization.*
+*Diagrama de clases de la capa de dominio del bounded context Monetization.*
+
+![ClassDiagram](assets/img/figures/classMone.png)
 
 ##### 2.6.7.6.2. Bounded Context Database Design Diagram
 
 El diseño de la base de datos organiza por separado los cosméticos, multiplicadores, protectores y paquetes de gemas, ya que cada tipo de producto posee características propias.
 
+**Figura 53**
+
+*Diagrama de diseño de la base de datos del bounded context Monetization.*
+
 ![Database](assets/img/figures/databaseMone.png)
 
-*Figura X. Diagrama de diseño de la base de datos del bounded context Monetization.*
+# Conclusiones
 
 <div style="page-break-after: always;"></div>
 
@@ -5842,3 +6409,7 @@ Finalmente, se recomienda mantener el mismo nivel de profundidad y documentació
 - Y-Group Games. (s. f.). Defender of the nature. Google Play. https://play.google.com/store/apps/details?id=com.YovoGames.Defender&hl=es_PE 
 
 # Anexos
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43fdfdd1d753d5cf00683a14bdaaca02e4d365b3
