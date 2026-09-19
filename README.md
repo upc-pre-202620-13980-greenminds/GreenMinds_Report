@@ -98,7 +98,7 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 
 ![projetoverview](assets/img/figures/Docs_Overview.png)
 
-![projetOverview](assets/img/figures/docs_Contributors.png)
+![projetOverview](assets/img/figures/Docs_Contributors.png)
 
 
 # Tabla de contenidos
