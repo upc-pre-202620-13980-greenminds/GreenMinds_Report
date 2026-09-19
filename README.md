@@ -96,9 +96,9 @@ El proceso de desarrollo del informe se realizó de manera incremental, integran
 
 Asimismo, todos los integrantes participaron activamente en la elaboración del informe, realizando aportes continuos que permitieron consolidar una documentación coherente y alineada entre sus distintas secciones. Esta colaboración se evidencia en los analíticos de contribución y commits, los cuales reflejan la participación distribuida del equipo.
 
-![projet overview](assets/img/figures/Docs_Overview.png)
+![projetoverview](assets/img/figures/Docs_Overview.png)
 
-![projet overview](assets/img/figures/docs_Contributors.png)
+![projetOverview](assets/img/figures/docs_Contributors.png)
 
 
 # Tabla de contenidos
