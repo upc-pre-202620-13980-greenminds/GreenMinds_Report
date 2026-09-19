@@ -4016,6 +4016,43 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 ### 2.5.2. Context Mapping
 
+Esta sección documenta la elaboración del Context Map, que representa las relaciones estructurales entre los siete bounded contexts. El equipo revisó la información recolectada en los Bounded Context Canvases y, antes de fijar el mapa, evaluó explícitamente varias alternativas mediante las preguntas propias de la técnica: si convenía trasladar algún capability a otro contexto, si convenía fusionar dos contextos que comparten un mismo propósito de negocio, si duplicar una funcionalidad permitiría romper una dependencia innecesaria, y si hacía falta reducir el acoplamiento entre `Quests` y `Gamification` mediante un servicio compartido.
+
+De esa discusión surgieron cuatro decisiones:
+- La primera fue no trasladar el cálculo de racha y ecopoints a `Users` pese a que ambos valores se muestran en el perfil del usuario, porque la racha depende de políticas de motivación que cambian con frecuencia y a un ritmo propio (protectores que la preservan, multiplicadores que alteran la experiencia obtenida, umbrales de recompensa), mientras que `Users` representa la identidad social del usuario, un dominio mucho más estable. Si esas reglas vivieran en `Users`, cada ajuste al sistema de motivación obligaría a tocar el mismo contexto que gestiona perfiles, familias y amistades, mezclando dos razones de cambio que no tienen nada que ver entre sí.
+
+- La segunda fue no fusionar `Gamification` con `Community` a pesar de que ambos giran en torno al reconocimiento de logros. `Gamification` reconoce el desempeño individual y continuo del usuario (rachas, ecopoints, rankings), mientras que `Community` gestiona el reconocimiento social y puntual dentro de un grupo (publicaciones, eventos, metas colectivas). Fusionarlos habría obligado a que una regla tan distinta como "cuántos días consecutivos cuenta una racha" viviera en el mismo lugar que "cuántos participantes se necesitan para cerrar una meta comunitaria".
+
+- La tercera fue que `Quests` no llame de forma síncrona a `Gamification` al completar una misión, sino que publique el hecho mediante eventos (`QuestCompletedIntegrationEvent`, entre otros) y deje que cada interesado reaccione por su cuenta. Completar un reto y ser recompensado por completarlo son dos preocupaciones distintas: si Quests tuviera que esperar la confirmación de Gamification para cerrar una misión, el estudiante podría quedarse sin ver su reto marcado como cumplido solo porque el cálculo de puntos tardó o falló.
+
+- La cuarta fue reducir el shared kernel al mínimo deliberado: únicamente los identificadores `UserId` (equivalente al `AccountId` emitido por IAM) y `FamilyId`, sin que ningún contexto comparta lógica ni estructura además de esos identificadores opacos, bajo el criterio de que un shared kernel grande es un bounded context que no se llegó a dibujar.
+
+
+![ContextMapping](assets/img/figures/ContextMapping.png)
+
+*Figura X. Context Map de EcoMind.*
+
+Los patrones de relación seleccionados para cada integración son los siguientes.
+
+| Relación | Patrón | Justificación |
+|---|---|---|
+| `IAM` → `Users` | Anticorruption Layer | `IamContextListener` traduce el command `CreateProfile` recibido de IAM (con su propio `AccountId`) hacia el agregado `UserProfile`, que tiene una forma completamente distinta (nombre, rol social, racha, ecopoints). Users nunca adopta el modelo interno de `Account`. |
+| `IAM` → `Learning`, `Quests`, `Community`, `Monetization`, `Gamification` | Conformist | Los cinco contextos validan localmente el JWT emitido por IAM y adoptan el `UserId` del claim tal cual, sin traducirlo a un modelo propio ni negociar su forma con IAM. |
+| `Users` → `Quests` | Customer/Supplier | Quests consulta usuarios, amistades, familias y roles mediante `UsersServiceClient` para validar misiones colaborativas y planes familiares; es una consulta síncrona bajo demanda del cliente. |
+| `Users` → `Community` | Customer/Supplier | Community usa el mismo patrón de cliente ACL para validar administradores, miembros e inscripciones familiares a eventos. |
+| `Quests` → `Gamification` | Integración por eventos | Quests publica `QuestCompletedIntegrationEvent`, `MinigameCompletedIntegrationEvent`, `CollaborativeQuestCompletedIntegrationEvent` y `FamilyPlanCompletedIntegrationEvent` mediante `SpringQuestEventPublisher`; Gamification reacciona sin que Quests conozca su existencia. |
+| `Quests` → `Community` | Integración por eventos | Community consume el mismo `QuestCompletedIntegrationEvent` para incrementar el progreso de metas comunitarias aplicables. |
+| `Community` → `Gamification` | Integración por eventos | Community publica `CommunityGoalCompletedIntegrationEvent` mediante `SpringCommunityEventPublisher` cuando una meta comunitaria se completa. |
+| `Gamification` → `Community` | Integración por eventos | Según el Bounded Context Canvas de Gamification, esta informa a Community cuando un usuario obtiene un logro o decide compartirlo, para que se refleje en el feed comunitario. |
+| `Monetization` ↔ `Gamification` | Customer/Supplier + eventos | Monetization consulta síncronamente mediante `GamificationServiceClient` si el usuario tiene una racha activa antes de vender un protector. Gamification notifica de forma asíncrona `DailyStreakAtRiskIntegrationEvent` cuando la racha está en riesgo, y Monetization responde con `StreakProtectedIntegrationEvent` o `StreakProtectionUnavailableIntegrationEvent`. |
+| `Learning` ↔ `Users` | Separate Ways | Users solo ofrece en el perfil un enlace visual hacia la sección de favoritos; Learning sigue siendo dueño exclusivo de consultarlos mediante `userId`. No existe llamada entre ambos backends. |
+| `Learning` ↔ `Quests` | Separate Ways | Quests solo provee el punto de navegación "Aprende más"; no hay llamada de API ni modelo compartido entre ambos contextos. |
+| `Monetization`, `Gamification` → `Users` (en el perfil) | Separate Ways (UI) | El cosmético equipado, el balance de gemas, la racha y los ecopoints que se muestran en el perfil de Users se sincronizan a nivel de aplicación móvil, no mediante una llamada backend documentada entre estos contextos. |
+| `IAM` → `Resend` | Anticorruption Layer | `ResendEmailService` traduce la necesidad de dominio ("enviar verificación") al contrato específico de la API de Resend. |
+| `Monetization` → Tarjeta / Yape / PayPal | Anticorruption Layer | Cada `PaymentGateway` (`CardPaymentGateway`, `YapePaymentGateway`, `PayPalPaymentGateway`) traduce el dominio de pago de Monetization al contrato propio de cada pasarela externa. |
+| `Community` → `Leaflet` | Anticorruption Layer | `LeafletServiceClient` adapta la información geográfica externa al modelo de `Location` propio de Community. |
+
+
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
