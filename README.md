@@ -3996,8 +3996,6 @@ El bounded context **Learning** administra los materiales educativos ambientales
 
 La Domain Layer representa el catálogo de materiales educativos y las interacciones propias de Learning. Contiene las reglas necesarias para publicar contenido válido, administrar favoritos, registrar revisiones y validar descargas sin depender de la interfaz o de la persistencia.
 
-
-
 **Sub-capa Model**
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relaciones |
@@ -4323,7 +4321,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | Domain Event | `ActivityUserCreatedEvent` | Notificar la creación de su registro de ejecución. | Publicado por `ActivityUser`. |
 | Domain Event | `CollabQuestSessionCreatedEvent` | Notificar la apertura de una sesión. | Publicado por `CollabQuestSession`. |
 | Domain Event | `CollabQuestMemberCreatedEvent` | Notificar una nueva invitación. | Publicado por `CollabQuestMember`. |
-| Integration Event | `QuestCompletedIntegrationEvent` | Comunicar usuario, misión, tipo, fecha y recompensa base. | Consumido por `Gamification`. |
+| Integration Event | `QuestCompletedIntegrationEvent` | Comunicar usuario, misión, categoría, tipo, fecha y recompensa base. | Consumido por `Gamification` y `Community`. |
 | Integration Event | `MinigameCompletedIntegrationEvent` | Comunicar usuario, misión, intento y puntaje alcanzado. | Consumido por `Gamification`. |
 | Integration Event | `CollaborativeQuestCompletedIntegrationEvent` | Comunicar la misión, sesión y participantes que la completaron. | Consumido por `Gamification`. |
 | Integration Event | `FamilyPlanCompletedIntegrationEvent` | Comunicar familia, plan y participantes. | Consumido por `Gamification`. |
@@ -4402,7 +4400,8 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 | --- | --- | --- |
-| `QuestCompletedEventHandler`, `MinigameCompletedEventHandler`, `CollaborativeQuestCompletedEventHandler` | Publicar la finalización de misiones individuales, colaborativas y minijuegos. | Informan a `Gamification` el tipo de ejecución y sus participantes. |
+| `QuestCompletedEventHandler` | Publicar la finalización de una misión aplicable a los bounded contexts interesados. | Informa a `Gamification` para procesar recompensas y a `Community` para actualizar el progreso de metas comunitarias. |
+| `MinigameCompletedEventHandler`, `CollaborativeQuestCompletedEventHandler` | Publicar la finalización de minijuegos y misiones colaborativas. | Informan a `Gamification` para procesar recompensas y logros. |
 | `FamilyPlanCompletedEventHandler` | Publicar la finalización del plan familiar. | Informa a `Gamification` la familia, el plan y sus participantes. |
 
 #### 2.6.4.4. Infrastructure Layer
@@ -4415,7 +4414,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 | Repository Implementations | `CollabQuestSessionRepositoryImpl`, `CollabQuestMemberRepositoryImpl` | Persistir sesiones, invitaciones y participantes. | Implementan los repositories colaborativos. |
 | Repository Implementations | `FamilyPlanRepositoryImpl`, `FamilyPlanItemRepositoryImpl` | Persistir planes familiares y sus misiones. | Implementan los repositories familiares. |
 | External Service Client | `UsersServiceClient` | Consultar usuarios, amistades, familias y roles necesarios para validar un caso de uso. | Es utilizado por los command handlers colaborativos y familiares. |
-| Application Event Publisher Implementation | `SpringQuestEventPublisher` | Publicar los eventos de finalización dentro del backend mediante Spring Application Events. | Es utilizado por los Event Handlers y permite que `Gamification` procese los hechos sin una llamada directa. |
+| Application Event Publisher Implementation | `SpringQuestEventPublisher` | Publicar los eventos de finalización dentro del backend mediante Spring Application Events. | Es utilizado por los Event Handlers y permite que `Gamification` y `Community` procese los hechos sin una llamada directa. |
 
 **Relaciones entre bounded contexts**
 
@@ -4423,6 +4422,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 |---|---|
 | `Users` | Proporciona los datos de usuarios, amistades, familias y roles requeridos para validar la participación. |
 | `Gamification` | Consume eventos de misión, minijuego y plan completado para asignar puntos, actualizar rankings y evaluar logros. |
+| `Community` | Consume QuestCompletedIntegrationEvent para actualizar el progreso de las metas comunitarias aplicables. |
 
 Las consultas necesarias se realizan mediante `UsersServiceClient`, mientras que las finalizaciones se comunican internamente a `Gamification` mediante `SpringQuestEventPublisher` y Spring Application Events.
 
@@ -4469,14 +4469,261 @@ El presente diagrama representa el modelo de base de datos del bounded context *
 *Figura X. Diagrama de diseño de la base de datos del bounded context Quests.*
 
 ### 2.6.5. Bounded Context: Community
+
+El bounded context **Community** gestiona la interacción y participación de los usuarios dentro de comunidades locales y comunidades creadas por padres. Cada comunidad cuenta con determinadas secciones como publicaciones, creación y participación de eventos, tanto de forma individual como familiar, y visualización de logros comunitarios; además de poder participar dentro de metas comunitarías de su respectiva comunidad.
+
 #### 2.6.5.1. Domain Layer
+
+En esta capa se representa el núcleo del bounded context community y sus reglas de negocio.
+
+**Sub-capa Model**
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate Root | `Community` | Comunidad local o creada por un padre para un grupo de usuarios. | Mantener sus datos, estado, administrador y miembros; controlar su creación, edición, abandono y eliminación. | Contiene o referencia publicaciones, eventos, metas comunitarias y miembros; referencia usuarios de `Users`. |
+| Aggregate Root | `Post` | Publicación realizada dentro de una comunidad. | Mantener el contenido publicado y controlar su edición, eliminación y estado de visibilidad. | Pertenece a una `Community`, referencia a su autor y puede recibir `PostReaction` |
+| Aggregate Root | `Event` | Actividad publicada dentro de una comunidad. | Gestionar sus datos, ubicación, fechas, propietario y ciclo de vida de publicación, edición y eliminación. | Pertenece a una `Community`, puede generar un `EventChat` y contiene `EventRegistration`. |
+| Aggregate Root | `CommunityGoal` | Meta ambiental propuesta para una comunidad. | Controlar su tópico, plazo, progreso y transición hasta su finalización. | Pertenece a una `Community`, registra actividades de sus participantes y puede informar a `Gamification`. |
+| Entity | `CommunityMember` | Relación entre un usuario y una comunidad. | Representar la incorporación, permanencia y salida de un usuario. | Pertenece a `Community` y referencia a un usuario de `Users`. |
+| Entity | `PostReaction` | Reacción de un usuario a una publicación. | Registrar una reacción válida y evitar reacciones duplicadas del mismo usuario. | Pertenece a `Post` y referencia a un usuario de `Users`. |
+| Entity | `EventReport` | Reporte de un evento considerado inapropiado. | Registrar el motivo y el estado de revisión del reporte. | Pertenece a `Event` y referencia al usuario que reporta. |
+| Entity | `EventRegistration` | Inscripción de un usuario o familia a un evento. | Controlar la inscripción, cancelación y modalidad de participación. | Pertenece a `Event`, referencia a un usuario o familia de `Users` y puede originar un `EventChat`. |
+| Entity | `EventChat` | Chat temporal asociado a un evento. | Permitir la comunicación entre los participantes mientras el evento está vigente. | Pertenece a `Event` y se crea cuando la inscripción requiere un espacio temporal de participantes. |
+| Entity | `CommunityGoalActivity` | Actividad realizada para avanzar una meta comunitaria. | Registrar la contribución de un participante y actualizar el progreso acumulado. | Pertenece a `CommunityGoal` y referencia a un usuario de `Users`. |
+| Value Object | `CommunityType` | Tipo de comunidad. | Diferenciar una comunidad local de una comunidad creada por un padre. | Es utilizado por `Community`. |
+| Value Object | `MemberRole` | Rol de un usuario dentro de una comunidad. | Diferenciar al administrador de los demás miembros. | Es utilizado por `CommunityMember`. |
+| Value Object | `ReactionType` | Tipo de reacción a una publicación. | Representar la reacción seleccionada por el usuario. | Es utilizado por `PostReaction`. |
+| Value Object | `ReportReason` | Motivo de un reporte de evento. | Clasificar la causa por la que se reporta un evento. | Es utilizado por `EventReport`. |
+| Value Object | `EventStatus` | Estado de un evento. | Controlar el ciclo de vida de un evento desde su creación hasta su eliminación. | Es utilizado por `Event`. |
+| Value Object | `RegistrationType` | Modalidad de inscripción. | Diferenciar una inscripción individual de una inscripción familiar. | Es utilizado por `EventRegistration`. |
+| Value Object | `RegistrationStatus` | Estado de una inscripción. | Representar una inscripción completada o cancelada. | Es utilizado por `EventRegistration`. |
+| Value Object | `CommunityGoalStatus` | Estado de una meta comunitaria. | Controlar las transiciones entre publicada, activa y finalizada. | Es utilizado por `CommunityGoal`. |
+| Value Object | `Location` | Ubicación física de un evento. | Representar la información necesaria para mostrar el evento en un mapa. | Es utilizado por `Event` y puede ser consultado mediante `Leaflet`. |
+
+**Sub-capa Model - Commands**
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `CreateCommunityCommand` | Crear una comunidad y registrar a su administrador. | Atendido por `CommunityCommandService`. |
+| `UpdateCommunityCommand` | Modificar los datos de una comunidad. | Atendido por `CommunityCommandService`; requiere permisos de administrador. |
+| `DeleteCommunityCommand` | Eliminar una comunidad según las reglas del negocio. | Atendido por `CommunityCommandService`; requiere permisos de administrador. |
+| `JoinCommunityCommand` | Incorporar un usuario a una comunidad. | Atendido por `CommunityMemberCommandService`. |
+| `LeaveCommunityCommand` | Registrar el abandono de una comunidad. | Atendido por `CommunityMemberCommandService`. |
+| `CreatePostCommand` | Crear una publicación dentro de una comunidad. | Atendido por `PostCommandService`. |
+| `DeletePostCommand` | Retirar una publicación. | Atendido por `PostCommandService`. |
+| `ReactToPostCommand` | Registrar o actualizar la reacción de un usuario. | Atendido por `PostReactionCommandService`. |
+| `ReportEventCommand` | Reportar un evento con un motivo. | Atendido por `EventReportCommandService`. |
+| `CreateEventCommand` | Registrar los datos de un nuevo evento. | Atendido por `EventCommandService`. |
+| `UpdateEventCommand` | Editar un evento publicado por su propietario. | Atendido por `EventCommandService`; valida la propiedad del evento. |
+| `DeleteEventCommand` | Eliminar un evento publicado por su propietario. | Atendido por `EventCommandService`; valida la propiedad del evento. |
+| `RegisterForEventCommand` | Inscribir a un usuario de forma individual o familiar. | Atendido por `EventRegistrationCommandService`. |
+| `CancelEventRegistrationCommand` | Cancelar una inscripción y retirar al usuario del chat temporal. | Atendido por `EventRegistrationCommandService`. |
+| `CreateEventChatCommand` | Crear el chat temporal para los participantes de un evento. | Atendido por `EventChatCommandService`. |
+| `CreateCommunityGoalCommand` | Crear y publicar una meta comunitaria con plazo y rango objetivo. | Atendido por `CommunityGoalCommandService`. |
+| `RegisterQuestCompletionForCommunityGoalCommand` | Registrar la finalización de un reto recibido desde `Quests` y actualizar el progreso de las metas comunitarias aplicables. | Atendido por `CommunityGoalCommandService` a partir de `QuestCompletedIntegrationEvent`; no representa una acción manual del usuario. |
+| `CompleteCommunityGoalCommand` | Finalizar automáticamente una meta cuando se alcanza la cantidad de retos requerida o termina su plazo. | Atendido por `CommunityGoalCommandService` después de evaluar el progreso de la meta. |
+
+**Sub-capa Model - Queries**
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `GetCommunityByIdQuery` | Obtener una comunidad específica y sus datos principales. | Atendida por `CommunityQueryService`. |
+| `SearchCommunitiesQuery` | Buscar comunidades aplicando filtros. | Atendida por `CommunityQueryService` |
+| `GetCommunityMembersQuery` | Listar los miembros de una comunidad. | Atendida por `CommunityMemberQueryService`. |
+| `GetPostsByCommunityIdQuery` | Obtener las publicaciones de una comunidad. | Atendida por `PostQueryService`. |
+| `GetPostByIdQuery` | Obtener una publicación específica y sus reacciones. | Atendida por `PostQueryService`. |
+| `GetEventsByCommunityIdQuery` | Listar los eventos de una comunidad. | Atendida por `EventQueryService`. |
+| `GetEventByIdQuery` | Obtener el detalle de un evento. | Atendida por `EventQueryService`. |
+| `GetEventRegistrationsQuery` | Consultar las inscripciones de un evento. | Atendida por `EventRegistrationQueryService`. |
+| `GetCommunityGoalsQuery` | Listar las metas comunitarias publicadas o finalizadas. | Atendida por `CommunityGoalQueryService`. |
+| `GetCommunityGoalProgressQuery` | Consultar el progreso y los participantes de una meta. | Atendida por `CommunityGoalQueryService`. |
+
+**Sub-capa Model - Domain Events**
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Domain Event | `CommunityCreatedEvent` | Notificar que una comunidad fue creada. | Publicado por `Community`. |
+| Domain Event | `CommunityMemberJoinedEvent` | Notificar la incorporación de un usuario. | Publicado por `CommunityMember`. |
+| Domain Event | `CommunityMemberLeftEvent` | Notificar el abandono de un usuario. | Publicado por `CommunityMember`. |
+| Domain Event | `PostPublishedEvent` | Notificar que una publicación fue creada en una comunidad. | Publicado por `Post`. |
+| Domain Event | `EventReportedEvent` | Notificar que un evento fue reportado. | Publicado por `EventReport`. |
+| Domain Event | `EventPublishedEvent` | Notificar que un evento fue publicado. | Publicado por `Event`. |
+| Domain Event | `EventRegistrationCompletedEvent` | Notificar la finalización de una inscripción individual o familiar. | Publicado por `EventRegistration`. |
+| Domain Event | `EventRegistrationCancelledEvent` | Notificar la cancelación de una inscripción. | Publicado por `EventRegistration`. |
+| Domain Event | `CommunityGoalPublishedEvent` | Notificar que una meta comunitaria está disponible. | Publicado por `CommunityGoal`. |
+| Domain Event | `CommunityGoalCompletedEvent` | Notificar que una meta alcanzó su objetivo o finalizó. | Publicado por `CommunityGoal`. |
+| Integration Event | `CommunityGoalCompletedIntegrationEvent` | Comunicar la meta, la comunidad y los participantes que contribuyeron. | Consumido por `Gamification` para procesar recompensas o logros. |
+| Integration Event | `EventRegistrationCompletedIntegrationEvent` | Comunicar la inscripción completada y sus participantes. | Consumido por el servicio de chat temporal o por otros procesos de Community. |
+
+**Sub-capa Repositories**
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Repository | `CommunityRepository` | Guardar y consultar comunidades y su estado. | Utilizado por servicios de comunidad. |
+| Repository | `CommunityMemberRepository` | Mantener las membresías y roles de los usuarios. | Utilizado por servicios de comunidad y participación. |
+| Repository | `PostRepository` | Persistir publicaciones y consultar su contenido. | Utilizado por `PostCommandService` y `PostQueryService`. |
+| Repository | `PostReactionRepository` | Mantener las reacciones sin duplicar la reacción de un usuario. | Utilizado por `PostReactionCommandService`. |
+| Repository | `EventReportRepository` | Persistir reportes de eventos y su estado de revisión. | Utilizado por `EventReportCommandService`. |
+| Repository | `EventRepository` | Persistir eventos y consultar su ciclo de vida. | Utilizado por servicios de eventos. |
+| Repository | `EventRegistrationRepository` | Mantener inscripciones individuales o familiares y sus estados. | Utilizado por `EventRegistrationCommandService`. |
+| Repository | `EventChatRepository` | Mantener los chats temporales asociados a eventos. | Utilizado por `EventChatCommandService`. |
+| Repository | `CommunityGoalRepository` | Persistir metas, plazos, rangos y estados. | Utilizado por servicios de metas comunitarias. |
+| Repository | `CommunityGoalActivityRepository` | Registrar las contribuciones y calcular el progreso. | Utilizado por `CommunityGoalCommandService`. |
+| Application Event Publisher | `CommunityEventPublisher` | Publicar eventos de finalización y participación sin acoplar Community a otros bounded contexts. | Es utilizado por los Event Handlers e implementado en Infrastructure Layer. |
+
 #### 2.6.5.2. Interface Layer
+Esta capa expone los casos de uso de Community mediante una API REST. 
+
+**Sub-capa REST - Controllers**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Controller | `CommunityController` | Exponer la creación, edición, eliminación, búsqueda y consulta de comunidades. | Invoca `CommunityCommandService` y `CommunityQueryService`. |
+| Controller | `CommunityMemberController` | Exponer la incorporación, abandono y consulta de miembros de una comunidad. | Invoca `CommunityMemberCommandService` y `CommunityMemberQueryService`. |
+| Controller | `PostController` | Exponer la creación, eliminación y consulta de publicaciones. | Invoca `PostCommandService` y `PostQueryService`. |
+| Controller | `PostReactionController` | Registrar o actualizar la reacción de un usuario a una publicación. | Invoca `PostReactionCommandService`. |
+| Controller | `EventController` | Exponer la creación, modificación, eliminación y consulta de eventos. | Invoca `EventCommandService` y `EventQueryService`. |
+| Controller | `EventReportController` | Recibir reportes de eventos y consultar su estado de revisión. | Invoca `EventReportCommandService`. |
+| Controller | `EventRegistrationController` | Exponer la inscripción individual o familiar y la cancelación de inscripciones. | Invoca `EventRegistrationCommandService` y `EventRegistrationQueryService`. |
+| Controller | `EventChatController` | Consultar y gestionar el chat temporal asociado a un evento. | Invoca `EventChatCommandService`. |
+| Controller | `CommunityGoalController` | Exponer la creación, consulta y progreso de metas comunitarias. | Invoca `CommunityGoalCommandService` y `CommunityGoalQueryService`. |
+
+**Sub-capa REST - Resources y Assemblers**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Request Resource | `CreateCommunityResource` | Validar los datos de una nueva comunidad. | Convertido en `CreateCommunityCommand` por un assembler. |
+| Request Resource | `UpdateCommunityResource` | Validar los cambios solicitados para una comunidad. | Convertido en `UpdateCommunityCommand` por un assembler. |
+| Request Resource | `CreatePostResource` | Validar el contenido de una nueva publicación. | Convertido en `CreatePostCommand` por un assembler. |
+| Request Resource | `ReactToPostResource` | Transportar el tipo de reacción seleccionado. | Convertido en `ReactToPostCommand`. |
+| Request Resource | `CreateEventResource` | Validar los datos, fechas y ubicación de un evento. | Convertido en `CreateEventCommand`. |
+| Request Resource | `UpdateEventResource` | Validar los cambios solicitados para un evento. | Convertido en `UpdateEventCommand`. |
+| Request Resource | `ReportEventResource` | Transportar el motivo del reporte de un evento. | Convertido en `ReportEventCommand`. |
+| Request Resource | `RegisterForEventResource` | Transportar la modalidad de inscripción individual o familiar. | Convertido en `RegisterForEventCommand`. |
+| Request Resource | `CreateCommunityGoalResource` | Transportar el plazo, el criterio y la cantidad objetivo de una meta. | Convertido en `CreateCommunityGoalCommand`. |
+| Response Resource | `CommunityResource` | Exponer los datos principales de una comunidad y sus opciones disponibles. | Ensamblado desde `Community`. |
+| Response Resource | `CommunityMemberResource` | Exponer la pertenencia y el rol de un usuario. | Ensamblado desde `CommunityMember`. |
+| Response Resource | `PostResource` | Exponer una publicación, su autor y sus reacciones. | Ensamblado desde `Post`. |
+| Response Resource | `EventResource` | Exponer la información, ubicación y estado de un evento. | Ensamblado desde `Event`. |
+| Response Resource | `EventRegistrationResource` | Exponer la modalidad y estado de una inscripción. | Ensamblado desde `EventRegistration`. |
+| Response Resource | `CommunityGoalResource` | Exponer la meta, su plazo, objetivo y estado. | Ensamblado desde `CommunityGoal`. |
+| Response Resource | `CommunityGoalProgressResource` | Exponer el progreso, las contribuciones y los participantes de una meta. | Ensamblado desde el estado de `CommunityGoal`. |
+| Assembler | `*CommandFromResourceAssembler` | Convertir resources REST en commands del dominio. | Conecta los controllers con Application Layer. |
+| Assembler | `*ResourceFromEntityAssembler` | Convertir entidades o estados del dominio en resources de respuesta. | Conecta Application Layer con los controllers. |
+| Assembler | `ResponseEntityAssembler` | Uniformizar las respuestas exitosas de la API. | Utilizado por los controllers. |
+| Assembler | `ErrorResponseAssembler` | Uniformizar las respuestas de error y validación. | Utilizado por los controllers. |
+
 #### 2.6.5.3. Application Layer
+En esta capa se coordinan los casos de uso de Community, se aplican las reglas del dominio y se gestiona la comunicación con otros bounded contexts.
+
+**Sub-capa Command Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `CommunityCommandService` | Crear, modificar y eliminar comunidades aplicando las reglas de administración y pertenencia. | Utiliza `CommunityRepository` y valida permisos mediante `UsersServiceClient`. |
+| `CommunityMemberCommandService` | Incorporar o retirar usuarios de una comunidad. | Utiliza `CommunityMemberRepository` y consulta usuarios en `Users`. |
+| `PostCommandService` | Crear y eliminar publicaciones dentro de una comunidad. | Utiliza `PostRepository` y valida la pertenencia del autor. |
+| `PostReactionCommandService` | Registrar o actualizar reacciones sin duplicar la reacción de un usuario. | Utiliza `PostReactionRepository`. |
+| `EventCommandService` | Crear, editar y eliminar eventos validando la propiedad del evento. | Utiliza `EventRepository` y consulta comunidades en `CommunityRepository`. |
+| `EventReportCommandService` | Registrar reportes de eventos y gestionar su estado de revisión. | Utiliza `EventReportRepository`. |
+| `EventRegistrationCommandService` | Gestionar inscripciones individuales o familiares y sus cancelaciones. | Utiliza `EventRegistrationRepository`, consulta familias en `Users` y coordina `EventChatCommandService`. |
+| `EventChatCommandService` | Crear y actualizar el chat temporal de los participantes de un evento. | Utiliza `EventChatRepository` y recibe cambios desde `EventRegistrationCommandService`. |
+| `CommunityGoalCommandService` | Crear metas, registrar el progreso derivado de retos completados y finalizar metas alcanzadas o vencidas. | Utiliza `CommunityGoalRepository` y `CommunityGoalActivityRepository`; publica eventos para `Gamification`. |
+
+**Sub-capa Query Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `CommunityQueryService` | Buscar comunidades y obtener sus datos principales. | Utiliza `CommunityRepository` |
+| `CommunityMemberQueryService` | Consultar los miembros, roles y pertenencia de los usuarios. | Utiliza `CommunityMemberRepository`. |
+| `PostQueryService` | Obtener publicaciones y sus reacciones. | Utiliza `PostRepository` y `PostReactionRepository`. |
+| `EventQueryService` | Obtener eventos por comunidad, ubicación o identificador. | Utiliza `EventRepository`. |
+| `EventReportQueryService` | Consultar los reportes de eventos y su estado de revisión. | Utiliza `EventReportRepository`. |
+| `EventRegistrationQueryService` | Consultar las inscripciones individuales o familiares de un evento. | Utiliza `EventRegistrationRepository`. |
+| `EventChatQueryService` | Obtener el estado y los participantes del chat temporal. | Utiliza `EventChatRepository`. |
+| `CommunityGoalQueryService` | Obtener metas publicadas, finalizadas y su progreso. | Utiliza `CommunityGoalRepository` y `CommunityGoalActivityRepository`. |
+
+**Sub-capa Event Handlers**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `QuestCompletedIntegrationEventHandler` | Procesar la finalización de un reto recibida desde `Quests` y registrar su contribución en las metas comunitarias aplicables. | Invoca `CommunityGoalCommandService` mediante `RegisterQuestCompletionForCommunityGoalCommand`. |
+| `CommunityGoalCompletedEventHandler` | Publicar la finalización de una meta comunitaria con sus participantes y contribuciones. | Informa a `Gamification` mediante `CommunityGoalCompletedIntegrationEvent`. |
+| `EventRegistrationCompletedEventHandler` | Crear o actualizar el chat temporal cuando una inscripción de evento se completa. | Invoca `EventChatCommandService`. |
+| `EventRegistrationCancelledEventHandler` | Retirar del chat temporal al usuario o familia cuya inscripción fue cancelada. | Invoca `EventChatCommandService`. |
+
 #### 2.6.5.4. Infrastructure Layer
+
+Esta capa contiene las implementaciones de persistencia, los adaptadores de comunicación con otros bounded contexts y los componentes necesarios para integrar Community.
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Repository Implementations | `CommunityRepositoryImpl`, `CommunityMemberRepositoryImpl` | Persistir comunidades, miembros y roles de participación. | Implementan los repositories de comunidades del Domain Layer. |
+| Repository Implementations | `PostRepositoryImpl`, `PostReactionRepositoryImpl` | Persistir publicaciones y reacciones de los usuarios. | Implementan los repositories de publicaciones e interacciones. |
+| Repository Implementations | `EventRepositoryImpl`, `EventReportRepositoryImpl` | Persistir eventos, sus estados y los reportes asociados. | Implementan los repositories de eventos del Domain Layer. |
+| Repository Implementations | `EventRegistrationRepositoryImpl`, `EventChatRepositoryImpl` | Persistir inscripciones individuales o familiares y chats temporales. | Implementan los repositories de participación en eventos. |
+| Repository Implementations | `CommunityGoalRepositoryImpl`, `CommunityGoalActivityRepositoryImpl` | Persistir metas comunitarias, contribuciones y progreso acumulado. | Implementan los repositories de metas comunitarias. |
+| External Service Client | `UsersServiceClient` | Consultar usuarios, familias, roles y pertenencia necesaria para validar las operaciones de Community. | Es utilizado por los command services de comunidades, membresías e inscripciones. |
+| External Service Client | `LeafletServiceClient` | Consultar o adaptar información geográfica para mostrar la ubicación de eventos en el mapa. | Es utilizado por `EventQueryService` y la aplicación móvil. |
+| Integration Event Consumer | `QuestCompletedIntegrationEventConsumer` | Recibir eventos de retos completados publicados por `Quests`. | Invoca `QuestCompletedIntegrationEventHandler` para actualizar metas comunitarias. |
+| Application Event Publisher Implementation | `SpringCommunityEventPublisher` | Publicar eventos internos de Community y eventos de integración de finalización de metas. | Es utilizado por los Event Handlers y permite comunicar la finalización a `Gamification`. |
+
+**Relaciones entre bounded contexts y servicios externos**
+
+| Bounded Context o servicio | Relación con Community |
+|---|---|
+| `Users` | Proporciona usuarios, familias, roles y datos necesarios para validar administradores, miembros e inscripciones familiares. |
+| `Quests` | Publica `QuestCompletedIntegrationEvent`, que Community consume para incrementar el progreso de las metas comunitarias aplicables. |
+| `Gamification` | Consume `CommunityGoalCompletedIntegrationEvent` para procesar logros, puntos o recompensas derivados de la finalización de una meta comunitaria. |
+| `Leaflet` | Proporciona soporte de mapas para consultar o visualizar la ubicación de los eventos. |
+
+Las consultas de usuarios, familias y roles se realizan mediante `UsersServiceClient`. La finalización de retos se recibe desde `Quests` mediante `QuestCompletedIntegrationEvent`, mientras que Community comunica las metas completadas a `Gamification` mediante `SpringCommunityEventPublisher`. La ubicación de los eventos se integra con `Leaflet` desde las consultas de eventos.
+
+**Mobile Application - Community Feature**
+
+La aplicación móvil consume los casos de uso del backend sin duplicar sus reglas de negocio.
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Use Cases | `GetCommunitiesUseCase`, `SearchCommunitiesUseCase`, `JoinCommunityUseCase` | Buscar comunidades, consultar sus detalles y permitir la incorporación de un usuario. | Utilizan `CommunityMobileRepository`. |
+| Use Cases | `GetCommunityPostsUseCase`, `CreatePostUseCase`, `ReactToPostUseCase` | Consultar publicaciones, crear contenido y registrar reacciones. | Utilizan `CommunityMobileRepository`. |
+| Use Cases | `GetCommunityEventsUseCase`, `CreateEventUseCase`, `RegisterForEventUseCase` | Consultar eventos, crear actividades e inscribirse de forma individual o familiar. | Utilizan `CommunityMobileRepository`. |
+| Use Cases | `CancelEventRegistrationUseCase`, `GetEventChatUseCase` | Cancelar una inscripción y consultar el chat temporal del evento. | Utilizan `CommunityMobileRepository`. |
+| Use Cases | `GetCommunityGoalsUseCase`, `GetCommunityGoalProgressUseCase` | Consultar metas comunitarias y su progreso. | Utilizan `CommunityMobileRepository`. |
+| ViewModel | `CommunityViewModel`, `CommunityDetailViewModel` | Administrar el estado de las pantallas de búsqueda, detalle y pertenencia a comunidades. | Invocan los use cases de comunidades. |
+| ViewModel | `CommunityPostsViewModel`, `CommunityEventsViewModel` | Administrar publicaciones, eventos, inscripciones y chats temporales. | Invocan los use cases de publicaciones y eventos. |
+| ViewModel | `CommunityGoalsViewModel` | Administrar la visualización de metas y su progreso. | Invoca los use cases de metas comunitarias. |
+| Remote Service | `CommunityApiService` | Consumir los endpoints REST del bounded context Community. | Es utilizado por `CommunityMobileRepositoryImpl`. |
+| Repository Implementation | `CommunityMobileRepositoryImpl` | Implementar el acceso móvil a Community. | Implementa `CommunityMobileRepository` y utiliza `CommunityApiService`. |
+| Mapper | `CommunityMobileMapper` | Convertir DTOs de red en modelos utilizados por la aplicación móvil. | Es utilizado por `CommunityMobileRepositoryImpl`. |
+
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+El siguiente conjunto de diagramas C4 muestra cómo se relaciona el bounded context de **Community** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Community y su base de datos. También representa la comunicación con "Users" para validar usuarios, familias y roles; con "Quests", mediante la recepción de eventos de retos completados para actualizar las metas comunitarias; con "Gamification", mediante la publicación de metas comunitarias finalizadas; y con "Leaflet", para consultar y visualizar la ubicación de los eventos.
+
+
+<div align="center">
+  <img src="assets/img/figures/c4Community1.png" alt="Diagrama C4 de Community" width="550">
+</div>
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Community, elaborado con Structurizr DSL.*
+
+<div align="center">
+  <img src="assets/img/figures/c4Community2.png" alt="Diagrama C4 de Community" width="700">
+</div>
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context Community, elaborado con Structurizr DSL.
+
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección elaboramos los diagramas de código que detallan la implementación interna del bounded context Community. Estos diagramas complementan la vista de componentes y muestran la organización de las clases del dominio, sus relaciones, las interfaces de repositorio y las estructuras de persistencia utilizadas para gestionar comunidades, publicaciones, eventos, inscripciones, chats temporales y metas comunitarias.
+
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama incluye aggregates, entities, value objects, enumeraciones, eventos de dominio y contratos de repositorio, junto con sus atributos, métodos, visibilidad, relaciones, direcciones y multiplicidades. También representa el procesamiento de los retos completados recibidos desde "Quests" y la publicación de la finalización de metas comunitarias hacia "Gamification".
+
+![ClassDiagram](assets/img/figures/ClassDiagramCommunity.jpg)
+
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+El diseño de la base de datos organiza por separado las comunidades, sus miembros, publicaciones, reacciones, eventos, inscripciones, reportes, chats temporales y metas comunitarias, ya que cada funcionalidad posee atributos y reglas de negocio propias. Además, mantiene como referencias externas los usuarios, familias y retos pertenecientes a otros bounded contexts.
+
+![Database](assets/img/figures/databaseCommunity.png)
 
 ### 2.6.6. Bounded Context: Gamification
 #### 2.6.6.1. Domain Layer
