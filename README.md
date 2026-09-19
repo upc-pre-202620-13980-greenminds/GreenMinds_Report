@@ -4009,8 +4009,34 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+En esta sección se presenta el Context Diagram de EcoMind, elaborado con C4 Model y Structurizr DSL. El diagrama muestra a EcoMind como un único sistema de software rodeado por los usuarios y los sistemas externos con los que interactúa, sin exponer aún su descomposición interna.
+
+Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden a la plataforma ya registrados, y el visitante, que llega primero al Landing Page antes de crear una cuenta. EcoMind se comunica con cuatro sistemas externos: el servicio de correo Resend, utilizado para enviar la verificación de cuenta y la recuperación de contraseña; las pasarelas de pago con tarjeta, Yape y PayPal, utilizadas para las compras dentro de Monetization; y Google Maps, utilizado para mostrar en un mapa los eventos comunitarios cercanos a la ubicación del usuario.
+
+![ContextEcoMind](assets/img/figures/ContextEcoMind.png)
+
+*Figura X. Diagrama C4 de contexto de EcoMind, elaborado con Structurizr DSL.*
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+En esta sección se presenta el Container Diagram de EcoMind, el cual muestra los elementos de alto nivel de la arquitectura de software, la distribución de responsabilidades entre ellos y las principales decisiones de tecnología.
+
+La solución está compuesta por dos productos con los que interactúa el usuario final: la aplicación móvil `EcoMind Android Application`, desarrollada en Kotlin, y el `Landing Page`, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta. La aplicación Android consume de forma directa, mediante HTTPS/JSON y autenticación Bearer JWT, siete APIs REST independientes, cada una correspondiente a un bounded context: `IAM API`, `Users API`, `Learning API`, `Quests API`, `Community API`, `Gamification API` y `Monetization API`.
+
+
+![ContainerEcoMind](assets/img/figures/ContainerEcoMind.png)
+
+*Figura X. Diagrama C4 de contenedores de EcoMind, elaborado con Structurizr DSL.*
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura física y lógica sobre la que se ejecutan los containers.
+
+
+![DeploymentEcoMind](assets/img/figures/DeploymentEcoMind.png)
+
+*Figura X. Diagrama C4 de despliegue de EcoMind, elaborado con Structurizr DSL.*
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
