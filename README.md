@@ -350,25 +350,25 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Pajés León, Mauricio Luis (u202410093)
 
-*Objetivo 1 — [Título del objetivo]*
+*Objetivo 1 — Especialización en arquitectura de software*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Completar una especialización en arquitectura de software y aplicar lo aprendido en el diseño y desarrollo de un proyecto backend. |
+| Measurable | Finalizar la especialización y desarrollar un proyecto funcional con diagramas de arquitectura y al menos tres decisiones técnicas documentadas y justificadas. |
+| Attainable | Cuento con conocimientos en desarrollo backend, integración de APIs, bases de datos y servicios de AWS, que puedo utilizar como base para profundizar en el diseño de sistemas. |
+| Relevant | Me permitirá fortalecer mi capacidad para diseñar soluciones confiables y mantenibles, así como tomar decisiones técnicas mejor fundamentadas en proyectos profesionales. |
+| Time-bound | Dentro de los nueve meses posteriores a mi egreso. |
 
-*Objetivo 2 — [Título del objetivo]*
+*Objetivo 2 — Desarrollo de soluciones con inteligencia artificial aplicada*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Completar una formación en inteligencia artificial aplicada e integrar un asistente de consulta de documentos en una aplicación, utilizando modelos existentes mediante APIs. |
+| Measurable | Finalizar la formación, implementar un asistente funcional y evaluar sus respuestas con al menos 30 preguntas de prueba, documentando los resultados y realizando dos mejoras a partir de los errores encontrados. |
+| Attainable | Puedo aprovechar mis conocimientos en Python, TypeScript e integración de APIs para desarrollar una primera versión con una colección pequeña de documentos. |
+| Relevant | Me permitirá incorporar y evaluar funcionalidades de inteligencia artificial en productos de software, complementando mi experiencia en backend y ampliando mis competencias profesionales. |
+| Time-bound | Dentro del primer año posterior a mi egreso. |
 
 ## Philco Mota, Katty Yolanda (u202416107)
 
