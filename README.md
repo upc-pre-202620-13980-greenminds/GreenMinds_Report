@@ -231,7 +231,7 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 3.1.4.5. [Mobile Applications Prototyping](#3145-mobile-applications-prototyping)  
 
 **Capítulo IV: Product Implementation & Validation**  
-1. [Product Implementation & Validation](#4-product-implementation-&-validation)  
+4. [Product Implementation & Validation](#4-product-implementation-&-validation)  
 4.1. [Software Configuration Management](#41-software-configuration-management)  
 4.1.1. [Software Development Environment Configuration](#411-software-development-environment-configuration)  
 4.1.2. [Source Code Management](#412-source-code-management)  
@@ -271,10 +271,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
-| Criterio Especifico | Acciones realizadas | Conclusiones |
-| -------- | -------- | -------- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Aa <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Apliqué Domain-Driven Design táctico y C4 Model con Structurizr DSL y PlantUML para documentar el bounded context Users, actualizando sus conocimientos en arquitectura de software y diagramación como código. <br> <br> | *AV1* <br> El equipo reconoce que el desarrollo de EcoMind exigió adquirir y aplicar conocimientos nuevos en metodologías de diseño estratégico y táctico y en herramientas de documentación como código, evidenciando que la actualización continua de conocimientos es indispensable para estructurar soluciones de software escalables y mantenibles. <br> <br>  |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Aa <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Reconocí que el dominio de nuevas herramientas de documentación y metodologías requieren actualización constante, lo que reforzó mi objetivo de especializarse en backend y buenas prácticas de arquitectura. <br> <br>  | *AV1* <br>  El equipo reconoce que el desarrollo de un producto con múltiples bounded contexts, cada uno con sus propias decisiones de arquitectura y persistencia, exige mantenerse en aprendizaje constante frente a nuevas herramientas, patrones de integración entre contextos y buenas prácticas de documentación. <br> |
+| Criterio Específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Definí los segmentos objetivo, identifiqué a los competidores clave y realicé entrevistas para conocer las necesidades de los usuarios. También propuse estrategias y tácticas para EcoMind, y desarrollé los bounded contexts Monetization y Learning, definiendo sus responsabilidades, reglas de negocio, comunicaciones y arquitectura. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> Investigué y apliqué conceptos de Lean UX, entrevistas, EventStorming, historias de usuario y Product Backlog para analizar las necesidades de los usuarios y organizar la propuesta de EcoMind. Asimismo, reforcé mis conocimientos sobre Domain-Driven Design y documentación de arquitectura durante el modelado de los bounded contexts Quests e IAM, definiendo sus responsabilidades, componentes, clases y estructuras de datos. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Investigué y apliqué conceptos de User Stories, Product Backlog y Event Storming para identificar necesidades, organizar requisitos y modelar el dominio de EcoMind. Asimismo, desarrollé el Bounded Context Canvas de Community y participé en la definición de su arquitectura, documentando la estructura de las capas Domain, Interface, Application e Infrastructure, junto con los diagramas de componentes, código, clases del dominio y diseño de base de datos. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Aa. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Apliqué Domain-Driven Design táctico y C4 Model con Structurizr DSL y PlantUML para documentar el bounded context Users, actualizando sus conocimientos en arquitectura de software y diagramación como código. | *AV1* <br> El equipo reconoce que el desarrollo de EcoMind exigió adquirir y aplicar conocimientos nuevos en metodologías de diseño estratégico y táctico y en herramientas de documentación como código, evidenciando que la actualización continua de conocimientos es indispensable para estructurar soluciones de software escalables y mantenibles. <br> |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Reforcé mis conocimientos de Lean UX, Domain-Driven Design y arquitectura de software. Las revisiones realizadas me permitieron corregir errores y reconocer la importancia de investigar, recibir retroalimentación y mantener un aprendizaje constante. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> A partir de la retroalimentación brindada por el docente sobre nuestro EventStorming, reconocí errores en la identificación y organización de algunos elementos del dominio. Esta experiencia me permitió comprender la importancia de revisar continuamente los conceptos aprendidos, aceptar observaciones y aplicarlas para mejorar el modelado de EcoMind. Asimismo, reforzó mi compromiso de continuar profundizando en Domain-Driven Design y arquitectura de software para desarrollar soluciones más claras y coherentes. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Durante el desarrollo del bounded context Community reconocí la necesidad de continuar fortaleciendo mis conocimientos en Domain-Driven Design, arquitectura de software y modelado de dominios. La elaboración de los diagramas y la integración de los requisitos me permitió identificar la importancia de revisar, actualizar y aplicar continuamente nuevos conocimientos para mejorar la estructura y coherencia de una solución de software. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Aa. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Reconocí que el dominio de nuevas herramientas de documentación y metodologías requieren actualización constante, lo que reforzó mi objetivo de especializarse en backend y buenas prácticas de arquitectura. | *AV1* <br>  El equipo reconoce que el desarrollo de un producto con múltiples bounded contexts, cada uno con sus propias decisiones de arquitectura y persistencia, exige mantenerse en aprendizaje constante frente a nuevas herramientas, patrones de integración entre contextos y buenas prácticas de documentación. <br> |
 
 <div style="page-break-before: always;"></div>
 
@@ -284,25 +284,26 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Aponte Pablo, Isabel Luisa (u20241e158)
 
-*Objetivo 1 — [Título del objetivo]*
+*Objetivo 1 — Obtener mi primer empleo como desarrolladora de software*
 
-| Criterio | Descripción |
-| :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Criterio   | Descripción |
+| :--------- | :---------- |
+| Specific   | Obtener un puesto como desarrolladora junior, preferentemente en desarrollo backend o full stack, donde pueda participar en la creación y mantenimiento de aplicaciones de software. |
+| Measurable | Postular a un mínimo de diez oportunidades laborales por mes, participar en al menos cinco procesos de selección y conseguir una oferta de trabajo relacionada con el desarrollo de software. |
+| Attainable | Cuento con conocimientos de programación, bases de datos, arquitectura de software, APIs y desarrollo de aplicaciones adquiridos durante la carrera. También puedo reforzarlos mediante proyectos personales y preparación para entrevistas técnicas. |
+| Relevant   | Conseguir experiencia laboral me permitirá aplicar mis conocimientos, desarrollar soluciones reales, aprender prácticas profesionales y construir una trayectoria en ingeniería de software. |
+| Time-bound | Alcanzar este objetivo dentro de los seis meses posteriores a mi egreso. |
 
-*Objetivo 2 — [Título del objetivo]*
+*Objetivo 2 — Fortalecer mis habilidades de liderazgo técnico en proyectos de software*
 
-| Criterio | Descripción |
-| :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Criterio   | Descripción |
+| :--------- | :---------- |
+| Specific   | Desarrollar habilidades de liderazgo técnico asumiendo la responsabilidad de orientar al equipo, proponer decisiones de arquitectura, organizar el trabajo técnico y supervisar la calidad de un proyecto de software. |
+| Measurable | Liderar técnicamente al menos un proyecto con tres o más integrantes, realizar revisiones de código, documentar las principales decisiones de arquitectura y lograr que se complete al menos el 80 % de los objetivos técnicos planificados. |
+| Attainable | Cuento con conocimientos de programación, bases de datos, arquitectura de software y trabajo colaborativo, los cuales puedo fortalecer mediante la experiencia profesional, cursos y participación activa en proyectos. |
+| Relevant   | El liderazgo técnico me permitirá contribuir en decisiones importantes, apoyar el crecimiento del equipo y prepararme para asumir en el futuro un puesto como líder técnico o *Tech Lead*. |
+| Time-bound | Alcanzar este objetivo dentro de los tres primeros años posteriores a mi egreso. |
+
 
 ## Astocondor Bazan, Alejandra Isabel (U202410678)
 
@@ -328,47 +329,47 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Dulanto Espino, Leo César (U202410254)
 
-*Objetivo 1 — [Título del objetivo]*
+*Objetivo 1 — Especialización en desarrollo backend y servicios web*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Fortalecer mis competencias en desarrollo backend mediante la especialización en Java con Spring Boot, diseño de APIs REST y gestión de bases de datos. |
+| Measurable | Completar al menos dos cursos especializados y desarrollar un proyecto backend funcional que incluya una API REST, autenticación y conexión con una base de datos. |
+| Attainable | Cuento con conocimientos previos en Java, Python, fundamentos de desarrollo web y bases de datos, adquiridos durante mi formación académica. |
+| Relevant | Esta especialización me permitirá mejorar mis oportunidades laborales y participar en el desarrollo de soluciones de software escalables y confiables. |
+| Time-bound | Alcanzar este objetivo durante el primer año posterior a mi egreso. |
 
-*Objetivo 2 — [Título del objetivo]*
+*Objetivo 2 — Desarrollo de habilidades de liderazgo técnico*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Fortalecer mis habilidades de liderazgo y gestión de equipos mediante la participación activa en proyectos colaborativos de desarrollo de software. |
+| Measurable | Coordinar al menos dos proyectos tecnológicos, organizando tareas, realizando reuniones de seguimiento y documentando los resultados obtenidos. |
+| Attainable | Durante mi formación académica he participado en la elaboración de distintos proyectos, aquiriendo habilidades tanto comunicativas, como tambien para el desarrollo y conociemiento de un proyecto |
+| Relevant | Mejorar mi liderazgo me permitirá asumir mayores responsabilidades y contribuir de manera más efectiva en equipos profesionales de software. |
+| Time-bound | Desarrollar este objetivo durante los dos primeros años posteriores a mi egreso. |
 
 ## Pajés León, Mauricio Luis (u202410093)
 
-*Objetivo 1 — [Título del objetivo]*
+*Objetivo 1 — Especialización en arquitectura de software*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Completar una especialización en arquitectura de software y aplicar lo aprendido en el diseño y desarrollo de un proyecto backend. |
+| Measurable | Finalizar la especialización y desarrollar un proyecto funcional con diagramas de arquitectura y al menos tres decisiones técnicas documentadas y justificadas. |
+| Attainable | Cuento con conocimientos en desarrollo backend, integración de APIs, bases de datos y servicios de AWS, que puedo utilizar como base para profundizar en el diseño de sistemas. |
+| Relevant | Me permitirá fortalecer mi capacidad para diseñar soluciones confiables y mantenibles, así como tomar decisiones técnicas mejor fundamentadas en proyectos profesionales. |
+| Time-bound | Dentro de los nueve meses posteriores a mi egreso. |
 
-*Objetivo 2 — [Título del objetivo]*
+*Objetivo 2 — Desarrollo de soluciones con inteligencia artificial aplicada*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Completar una formación en inteligencia artificial aplicada e integrar un asistente de consulta de documentos en una aplicación, utilizando modelos existentes mediante APIs. |
+| Measurable | Finalizar la formación, implementar un asistente funcional y evaluar sus respuestas con al menos 30 preguntas de prueba, documentando los resultados y realizando dos mejoras a partir de los errores encontrados. |
+| Attainable | Puedo aprovechar mis conocimientos en Python, TypeScript e integración de APIs para desarrollar una primera versión con una colección pequeña de documentos. |
+| Relevant | Me permitirá incorporar y evaluar funcionalidades de inteligencia artificial en productos de software, complementando mi experiencia en backend y ampliando mis competencias profesionales. |
+| Time-bound | Dentro del primer año posterior a mi egreso. |
 
 ## Philco Mota, Katty Yolanda (u202416107)
 
@@ -5283,13 +5284,13 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | Aggregate Root | `RewardTransaction` | Registro inmutable de recompensa. | Conservar origen, beneficiario, cantidades y fecha; impedir premios repetidos por la misma ejecución. | Contiene `Reward`, `RewardSource` y `RewardBeneficiary`; referencia a `UserProgress` o `FamilyScore`. |
 | Aggregate Root | `Achievement` | Definición de un logro o medalla. | Mantener código, nombre, descripción, alcance y criterio de obtención. | Contiene `AchievementCriterion`; puede referenciar un cosmético de Monetization como premio individual. |
 | Aggregate Root | `AchievementAward` | Logro concedido a un beneficiario. | Registrar la obtención una sola vez por logro y beneficiario; validar un único destinatario compatible con su alcance. | Referencia a `Achievement` y a `UserProgress`, `FamilyScore` o una comunidad externa, según el alcance del logro. |
-| Aggregate Root | `AchievementShareRequest` | Solicitud voluntaria de compartir un logro individual. | Mantener la solicitud pendiente hasta recibir la publicación creada y reconocer confirmaciones repetidas. | Referencia a `AchievementAward`, al solicitante, a la comunidad destino y a la publicación externa; no almacena el post. |
+| Aggregate Root | `AchievementShareRequest` | Solicitud voluntaria de compartir un logro individual. | Mantener la solicitud pendiente hasta recibir la publicación creada y reconocer confirmaciones repetidas. | Referencia a `AchievementAward`, al solicitante, a la comunidad destino y a la publicación creada por Community. |
 | Aggregate Root | `StreakProtectionRequest` | Solicitud de protección de una fecha sin actividad. | Identificar usuario, día y resultado de la protección sin consumir inventario. | Referencia a `UserProgress`; se resuelve con la confirmación de Monetization. |
 | Value Object | `Reward` | Cantidades de una recompensa. | Representar ecopoints, experiencia y gemas no negativos. | Se incorpora a `RewardTransaction`; las gemas se acreditan en Monetization. |
 | Value Object | `RewardSource` | Origen verificable del premio. | Identificar el tipo de hecho y su ejecución canónica. | Permite reconocer reintentos aunque llegue un nuevo identificador de mensaje. |
 | Value Object | `RewardBeneficiary` | Destinatario individual o familiar. | Identificar el destinatario y su tipo. | Las recompensas comunitarias se distribuyen a los participantes comunicados por Community. |
 | Value Object | `Streak` | Constancia del usuario. | Registrar el avance diario sin duplicados y gestionar protección, reinicio y récord. | Parte de `UserProgress`; una fecha protegida conserva la racha sin simular una actividad completada. |
-| Value Object | `ActiveMultiplier` | Factor y vigencia consultados a Monetization. | Determinar si el multiplicador corresponde al instante de la recompensa. | Utilizado por `RewardCalculationService`; no constituye un inventario local. |
+| Value Object | `ActiveMultiplier` | Factor y vigencia consultados a Monetization. | Determinar si el multiplicador corresponde al instante de la recompensa. | Es utilizado por `RewardCalculationService` para calcular la recompensa. |
 | Value Object | `AchievementCriterion` | Condición de obtención. | Representar la métrica y el objetivo configurados para un logro. | Evaluado por `AchievementEvaluationService`, sin fijar umbrales no definidos en el catálogo. |
 | Value Object | `RankingPeriod` | Intervalo de clasificación. | Delimitar inicio y fin de las transacciones a consultar. | Utilizado por consultas y por el cálculo semanal en Android. |
 | Enumeration | `RewardSourceType` | Tipo de origen. | Distinguir `QUEST`, `MINIGAME`, `COLLABORATIVE_QUEST`, `FAMILY_PLAN`, `COMMUNITY_GOAL` y `COMMUNITY_EVENT`. | Utilizado por `RewardSource`. |
@@ -5348,17 +5349,17 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | Domain Event | `AchievementUnlockedEvent` | Comunicar la concesión del logro. | Permite entregar el cosmético asociado cuando corresponde. |
 | Domain Event | `DailyStreakAtRiskEvent` | Comunicar la solicitud de protección creada. | Contiene solicitud, usuario y fecha del cierre. |
 | Domain Event | `AchievementShareRequestedEvent` | Comunicar una solicitud de publicación registrada. | Generado después de comprobar titularidad y membresía; identifica `AchievementShareRequest`. |
-| Domain Event | `AchievementSharedEvent` | Comunicar que la publicación del logro fue confirmada. | Generado al pasar la solicitud a `PUBLISHED`; no concede otro logro ni recompensa. |
-| Integration Event | `AchievementUnlockedIntegrationEvent` | Comunicar «Logro obtenido por usuario» a Community sin solicitar su publicación. | Contrato propuesto; referencia la concesión y su titular. |
+| Domain Event | `AchievementSharedEvent` | Comunicar que la publicación del logro fue confirmada. | Generado cuando la solicitud pasa al estado `PUBLISHED`. |
+| Integration Event | `AchievementUnlockedIntegrationEvent` | Comunicar «Logro obtenido por usuario» a Community. | Referencia la concesión y su titular. |
 | Integration Event | `RewardGrantedIntegrationEvent` | Informar a Monetization las gemas concedidas al usuario. | Conserva el identificador del otorgamiento para evitar doble acreditación. |
 | Integration Event | `DailyStreakAtRiskIntegrationEvent` | Solicitar a Monetization la protección del día en riesgo. | Contrato consumido por `DailyStreakAtRiskConsumer` en 2.6.7. |
 | Integration Event | `StreakProtectedIntegrationEvent`, `StreakProtectionUnavailableIntegrationEvent` | Recibir el resultado del consumo del protector. | Emitidos por Monetization; resuelven `StreakProtectionRequest`. |
-| Integration Event | `AchievementShareRequestedIntegrationEvent` | Comunicar a Community la publicación solicitada. | Transporta `requestId`, `awardId`, `requestedBy` y `communityId`; contrato propuesto para Community. |
-| Integration Event | `PublicationCreatedIntegrationEvent` | Recibir de Community la confirmación de publicación del logro. | Contrato propuesto; correlaciona la solicitud con el `publicationId` creado por Community. |
+| Integration Event | `AchievementShareRequestedIntegrationEvent` | Comunicar a Community la solicitud de publicación de un logro. | Transporta `requestId`, `awardId`, `requestedBy` y `communityId`. |
+| Integration Event | `PublicationCreatedIntegrationEvent` | Recibir de Community la confirmación de publicación del logro. | Relaciona la solicitud con el `publicationId` creado por Community. |
 
-Quests comunica la finalización de misiones, minijuegos, sesiones colaborativas y planes familiares. Community comunica las metas completadas mediante `CommunityGoalCompletedIntegrationEvent`. El contrato de participación completada en eventos queda pendiente; la inscripción por sí sola no concede una recompensa.
+Quests comunica la finalización de misiones, minijuegos, sesiones colaborativas y planes familiares. Community comunica las metas completadas mediante `CommunityGoalCompletedIntegrationEvent`.
 
-El aviso de logro obtenido informa a Community de su concesión. La publicación requiere una solicitud voluntaria del titular y una confirmación de Community. Los contratos de publicación y el procesamiento de los avisos de compra de Monetization están pendientes de definición.
+El aviso de logro obtenido informa a Community sobre su concesión. La publicación se realiza cuando el titular la solicita y Community confirma su creación.
 
 **Sub-capa Domain Services**
 
@@ -5377,7 +5378,7 @@ El aviso de logro obtenido informa a Community de su concesión. La publicación
 | Repository | `AchievementRepository`, `AchievementAwardRepository` | Consultar definiciones y persistir concesiones únicas. | Utilizados por servicios de logros. |
 | Repository | `AchievementShareRequestRepository` | Persistir solicitudes y confirmar una publicación por solicitud. | Utilizado por los servicios de logros; mantiene la correlación sin copiar contenido de Community. |
 | Repository | `StreakProtectionRequestRepository` | Guardar y consultar solicitudes por usuario, día y estado. | Utilizado por servicios de cierre y protección. |
-| Read Repository | `RankingReadRepository` | Consultar tipos y puntuaciones de participantes permitidos. | Utilizado por `RankingQueryService`; no almacena posiciones semanales. |
+| Read Repository | `RankingReadRepository` | Consultar los tipos y las puntuaciones de los participantes. | Utilizado por `RankingQueryService` para calcular las posiciones del periodo consultado. |
 | Application Event Publisher | `GamificationEventPublisher` | Definir la publicación de recompensas, riesgo de racha, logros concedidos, concesiones cosméticas y solicitudes de compartir. | Implementado en Infrastructure Layer. |
 
 #### 2.6.6.2. Interface Layer
@@ -5403,7 +5404,7 @@ Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
 | Request Resource | `ShareAchievementResource` | Transportar `requestId`, logro concedido y comunidad seleccionada. | Se convierte en `ShareAchievementCommand`; el solicitante se obtiene de la identidad autenticada. |
-| Response Resource | `AchievementShareResource` | Exponer solicitud, estado y referencia de publicación cuando existe. | Ensamblado desde `AchievementShareRequest`; la aceptación inicial no indica que ya se publicó. |
+| Response Resource | `AchievementShareResource` | Exponer la solicitud, su estado y la referencia de publicación cuando existe. | Ensamblado desde `AchievementShareRequest`. |
 | Response Resource | `UserProgressResource`, `FamilyScoreResource` | Exponer puntuación, experiencia y racha según el caso. | Ensamblados desde los agregados de progreso. |
 | Response Resource | `RewardTransactionResource` | Exponer origen, cantidades finales, beneficiario y fecha. | Ensamblado desde `RewardTransaction`. |
 | Response Resource | `AchievementResource` | Exponer definición y datos de obtención. | Ensamblado desde `Achievement` y `AchievementAward`. |
@@ -5447,7 +5448,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 | `RewardGrantedEventHandler`, `DailyStreakAtRiskEventHandler` | Comunicar gemas concedidas y solicitudes de protección. | Utilizan `GamificationEventPublisher`. |
 | `AchievementUnlockedEventHandler` | Comunicar la concesión a Community y solicitar el cosmético individual cuando está definido. | Utiliza `GamificationEventPublisher` con `awardId`; informar el logro no publica un post. La entrega opcional usa `MonetizationServiceClient`. |
 | `AchievementShareRequestedEventHandler` | Comunicar la publicación solicitada por el titular. | Utiliza `GamificationEventPublisher`; Community crea la publicación. |
-| `PublicationCreatedEventHandler` | Confirmar `PublicationCreatedIntegrationEvent` con las referencias originales de la solicitud. | Invoca `ConfirmAchievementPublicationCommand`; un mensaje ajeno o contradictorio no cambia el estado. |
+| `PublicationCreatedEventHandler` | Confirmar `PublicationCreatedIntegrationEvent` con las referencias originales de la solicitud. | Invoca `ConfirmAchievementPublicationCommand` después de validar la correspondencia del mensaje. |
 
 Las finalizaciones de Quests se procesan mediante Spring Application Events en la transacción del backend. La recompensa, los puntos y la actividad diaria se confirman conjuntamente. Las comunicaciones posteriores se registran para reintento.
 
@@ -5469,7 +5470,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 | External Service Client | `UsersServiceClient` | Consultar participantes, nombres visibles, amistades, familias y roles. | Adapta los contratos de Users sin consultar sus tablas directamente. |
 | External Service Client | `CommunityServiceClient` | Consultar comunidad local, membresías y permisos de publicación. | Utilizado por servicios de logros y ranking. |
 | External Service Client | `QuestServiceClient` | Consultar recompensa base, datos de ejecución e historial de intentos. | Completa los datos requeridos por el procesamiento de finalizaciones. |
-| External Service Client | `MonetizationServiceClient` | Consultar factor y vigencia del multiplicador y solicitar un cosmético por logro. | Adapta `GetActiveMultiplierQuery` y `GrantCosmeticRewardCommand`; no mantiene saldo ni inventario. |
+| External Service Client | `MonetizationServiceClient` | Consultar el factor y la vigencia del multiplicador y solicitar un cosmético por logro. | Adapta `GetActiveMultiplierQuery` y `GrantCosmeticRewardCommand`. |
 | Application Event Publisher Implementation | `SpringGamificationEventPublisher` | Publicar hechos internos y registrar comunicaciones pendientes. | Implementa `GamificationEventPublisher`; usa Spring Application Events. |
 | Messaging Adapter | `GamificationOutboxPublisher` | Entregar y reintentar mensajes confirmados hacia Monetization y Community. | Lee `gamification_outbox`; los receptores deduplican por otorgamiento, logro o solicitud. |
 
@@ -5478,17 +5479,9 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 | Bounded Context | Relación con Gamification |
 |---|---|
 | `Quests` | Valida y comunica las finalizaciones con ejecución, participantes y datos de recompensa. Gamification determina el otorgamiento efectivo. |
-| `Users` | Proporciona perfiles, amistades, familias y roles. La lectura del resumen de progreso para el perfil se propone mediante las consultas de Gamification; no constituye otro otorgamiento de puntos. |
 | `Community` | Comunica participación y datos de cumplimiento, proporciona membresías y recibe el aviso de logro obtenido y las solicitudes voluntarias de publicación. Conserva el feed, las publicaciones y sus consultas; la confirmación correlacionada hacia Gamification se propone mediante `PublicationCreatedIntegrationEvent`. |
+| `Users` | Proporciona perfiles, amistades, familias y roles, y consulta en Gamification el resumen de progreso mostrado en el perfil. |
 | `Monetization` | Acredita gemas y cosméticos concedidos, activa multiplicadores y consume protectores. Devuelve el resultado de protección; Gamification actualiza su racha. |
-
-Las consultas utilizan los clientes de los contextos propietarios. Los eventos internos se comunican mediante Spring Application Events y el outbox conserva los mensajes pendientes de entrega.
-
-Quedan pendientes los acuerdos de propiedad del progreso con Users, los contratos de participación completada en eventos y publicación de Community y el procesamiento de los avisos de compra de Monetization.
-
-**Definiciones de negocio pendientes**
-
-Quedan por definir la fórmula y el periodo del bono semanal (HU-005), el evento que autoriza los puntos por referido (HU-039) y los criterios de concesión de logros familiares (HU-021).
 
 **Mobile Application - Gamification Feature**
 
@@ -5496,10 +5489,10 @@ Quedan por definir la fórmula y el periodo del bono semanal (HU-005), el evento
 |---|---|---|---|
 | Use Cases | `GetUserProgressUseCase`, `GetFamilyScoreUseCase`, `GetRewardHistoryUseCase` | Consultar progreso e historial. | Utilizan `GamificationMobileRepository`. |
 | Use Cases | `GetAchievementsUseCase`, `ShareAchievementUseCase`, `GetAchievementShareStatusUseCase` | Consultar y filtrar logros, solicitar una publicación y recuperar su estado. | Utilizan `GamificationMobileRepository`; compartir se invoca únicamente al confirmar el diálogo. |
-| Use Case | `GetSharedCommunityAchievementsUseCase` | Consultar y filtrar logros personales publicados en una comunidad, conforme a HU-038. | Utiliza `CommunityAchievementsGateway`; no sustituye esa lectura por `GetCommunityAchievementsQuery`. |
+| Use Case | `GetSharedCommunityAchievementsUseCase` | Consultar y filtrar logros personales publicados en una comunidad. | Utiliza `CommunityAchievementsGateway`; no sustituye esa lectura por `GetCommunityAchievementsQuery`. |
 | Use Cases | `GetRankingUseCase`, `CalculateWeeklyRankingUseCase` | Obtener participantes y sumar transacciones del periodo para ordenar el ranking semanal. | Implementan TS-007; no asignan puntos ni modifican el historial. |
 | ViewModel | `ProgressViewModel`, `AchievementsViewModel`, `RankingViewModel` | Gestionar carga, contenido, filtros y errores; distinguir diálogo de compartir, solicitud pendiente y publicación confirmada. | Invocan use cases y exponen StateFlow; cerrar el diálogo o elegir «No compartir» solo cambia el estado de presentación. |
-| Feature Gateway | `CommunityAchievementsGateway` | Adaptar la consulta de publicaciones compartidas a la pantalla de logros de comunidad. | Reutiliza el cliente de Community; devuelve publicaciones autorizadas y referencias de logros, sin duplicar su persistencia en Gamification. |
+| Feature Gateway | `CommunityAchievementsGateway` | Adaptar la consulta de publicaciones compartidas a la pantalla de logros de comunidad. | Reutiliza el cliente de Community y devuelve las publicaciones autorizadas con sus referencias de logros. |
 | Presentation Model | `AchievementShareDraft` | Conservar `requestId`, `awardId` y `communityId` de la selección mientras se reintenta un envío fallido. | Gestionado por `AchievementsViewModel` con `SavedStateHandle`; no es un aggregate ni una publicación confirmada. |
 | Repository Interface | `GamificationMobileRepository` | Definir las consultas y solicitudes que necesita Android. | Utilizado por los use cases e implementado en la capa de datos móvil. |
 | Remote Service | `GamificationApiService` | Consumir REST mediante Retrofit y HTTPS. | Utilizado por `GamificationMobileRepositoryImpl`. |
@@ -5542,7 +5535,7 @@ El diagrama presenta las tablas de negocio del progreso individual y familiar, l
 
 El bounded context **Monetization** administra la economía virtual y la tienda de EcoMind. Su catálogo está organizado en tres secciones visibles: **avatares y cosméticos**, **multiplicadores y protectores**, y **paquetes de gemas**. Los cosméticos, multiplicadores y protectores se adquieren con gemas; los paquetes de gemas se compran con dinero real mediante tarjeta, Yape o PayPal. El contexto también controla el saldo, los movimientos de gemas, el inventario comercial, las compras y las órdenes de pago.
 
-Los protectores de racha se incorporan sin trasladar la propiedad de la racha a Monetization. **Gamification** conserva la racha y detecta que está en riesgo; Monetization posee el inventario de protectores, consume una unidad disponible y publica la confirmación necesaria para que Gamification mantenga la racha.
+**Gamification** administra la racha y detecta cuándo está en riesgo. **Monetization** gestiona el inventario de protectores, consume una unidad disponible y confirma la protección para que Gamification mantenga la racha.
 
 #### 2.6.7.1. Domain Layer
 
