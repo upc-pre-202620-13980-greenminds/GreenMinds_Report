@@ -284,25 +284,26 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Aponte Pablo, Isabel Luisa (u20241e158)
 
-*Objetivo 1 — [Título del objetivo]*
+*Objetivo 1 — Obtener mi primer empleo como desarrolladora de software*
 
-| Criterio | Descripción |
-| :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Criterio   | Descripción |
+| :--------- | :---------- |
+| Specific   | Obtener un puesto como desarrolladora junior, preferentemente en desarrollo backend o full stack, donde pueda participar en la creación y mantenimiento de aplicaciones de software. |
+| Measurable | Postular a un mínimo de diez oportunidades laborales por mes, participar en al menos cinco procesos de selección y conseguir una oferta de trabajo relacionada con el desarrollo de software. |
+| Attainable | Cuento con conocimientos de programación, bases de datos, arquitectura de software, APIs y desarrollo de aplicaciones adquiridos durante la carrera. También puedo reforzarlos mediante proyectos personales y preparación para entrevistas técnicas. |
+| Relevant   | Conseguir experiencia laboral me permitirá aplicar mis conocimientos, desarrollar soluciones reales, aprender prácticas profesionales y construir una trayectoria en ingeniería de software. |
+| Time-bound | Alcanzar este objetivo dentro de los seis meses posteriores a mi egreso. |
 
-*Objetivo 2 — [Título del objetivo]*
+*Objetivo 2 — Fortalecer mis habilidades de liderazgo técnico en proyectos de software*
 
-| Criterio | Descripción |
-| :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Criterio   | Descripción |
+| :--------- | :---------- |
+| Specific   | Desarrollar habilidades de liderazgo técnico asumiendo la responsabilidad de orientar al equipo, proponer decisiones de arquitectura, organizar el trabajo técnico y supervisar la calidad de un proyecto de software. |
+| Measurable | Liderar técnicamente al menos un proyecto con tres o más integrantes, realizar revisiones de código, documentar las principales decisiones de arquitectura y lograr que se complete al menos el 80 % de los objetivos técnicos planificados. |
+| Attainable | Cuento con conocimientos de programación, bases de datos, arquitectura de software y trabajo colaborativo, los cuales puedo fortalecer mediante la experiencia profesional, cursos y participación activa en proyectos. |
+| Relevant   | El liderazgo técnico me permitirá contribuir en decisiones importantes, apoyar el crecimiento del equipo y prepararme para asumir en el futuro un puesto como líder técnico o *Tech Lead*. |
+| Time-bound | Alcanzar este objetivo dentro de los tres primeros años posteriores a mi egreso. |
+
 
 ## Astocondor Bazan, Alejandra Isabel (U202410678)
 
