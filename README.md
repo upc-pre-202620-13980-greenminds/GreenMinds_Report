@@ -274,9 +274,121 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Aa <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Aa. <br> <br> | *AV1* <br> El equipo... <br> <br>  |
 | **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Aa <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Aa. <br> <br>  | *AV1* <br> El equipo ... <br> |
 
-# Objetivos Smart
+<div style="page-break-before: always;"></div>
 
-<div style="page-break-before: always;">
+# Objetivos SMART
+
+Cada integrante formula dos objetivos SMART orientados a su desarrollo profesional después de concluir la carrera. Cada objetivo especifica el resultado esperado, la forma de medirlo, su viabilidad, su relevancia profesional y el plazo para alcanzarlo.
+
+## Aponte Pablo, Isabel Luisa (u20241e158)
+
+*Objetivo 1 — [Título del objetivo]*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific |  |
+| Measurable |  |
+| Attainable |  |
+| Relevant |  |
+| Time-bound |  |
+
+*Objetivo 2 — [Título del objetivo]*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific |  |
+| Measurable |  |
+| Attainable |  |
+| Relevant |  |
+| Time-bound |  |
+
+## Astocondor Bazan, Alejandra Isabel (U202410678)
+
+*Objetivo 1 — Creación de un producto digital propio*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific | Diseñar, desarrollar y publicar un producto digital propio que resuelva una necesidad concreta de un grupo de usuarios. |
+| Measurable | Publicar una primera versión funcional del producto y validarla con al menos 20 usuarios, recopilando sus comentarios mediante encuestas o entrevistas. |
+| Attainable | Cuento con conocimientos de programación, diseño digital y desarrollo de soluciones tecnológicas adquiridos durante la carrera, por lo que puedo construir una primera versión de alcance reducido. |
+| Relevant | Me permitirá aplicar mis conocimientos en un proyecto completo, fortalecer mi capacidad para tomar decisiones de producto y demostrar iniciativa profesional. |
+| Time-bound | Dentro del primer año posterior a mi egreso. |
+
+*Objetivo 2 — Construcción de un portafolio profesional*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific | Crear un portafolio profesional en línea que reúna proyectos de desarrollo de software y diseño digital representativos de mis habilidades. |
+| Measurable | Publicar al menos tres proyectos completos, cada uno con una descripción del problema, la solución desarrollada, las tecnologías utilizadas y evidencias visuales de su funcionamiento. |
+| Attainable | Puedo seleccionar y mejorar proyectos realizados durante la carrera e incorporar el producto digital propio como uno de los trabajos principales del portafolio. |
+| Relevant | El portafolio permitirá presentar de manera clara mis capacidades técnicas y creativas al postular a oportunidades laborales o proyectos profesionales. |
+| Time-bound | Dentro de los seis meses posteriores a mi egreso. |
+
+## Dulanto Espino, Leo César (U202410254)
+
+*Objetivo 1 — [Título del objetivo]*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific |  |
+| Measurable |  |
+| Attainable |  |
+| Relevant |  |
+| Time-bound |  |
+
+*Objetivo 2 — [Título del objetivo]*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific |  |
+| Measurable |  |
+| Attainable |  |
+| Relevant |  |
+| Time-bound |  |
+
+## Pajés León, Mauricio Luis (u202410093)
+
+*Objetivo 1 — [Título del objetivo]*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific |  |
+| Measurable |  |
+| Attainable |  |
+| Relevant |  |
+| Time-bound |  |
+
+*Objetivo 2 — [Título del objetivo]*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific |  |
+| Measurable |  |
+| Attainable |  |
+| Relevant |  |
+| Time-bound |  |
+
+## Philco Mota, Katty Yolanda (u202416107)
+
+*Objetivo 1 — [Título del objetivo]*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific |  |
+| Measurable |  |
+| Attainable |  |
+| Relevant |  |
+| Time-bound |  |
+
+*Objetivo 2 — [Título del objetivo]*
+
+| Criterio | Descripción |
+| :--- | :--- |
+| Specific |  |
+| Measurable |  |
+| Attainable |  |
+| Relevant |  |
+| Time-bound |  |
 
 # Capítulo I: Introducción
 
