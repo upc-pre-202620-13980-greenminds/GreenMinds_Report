@@ -622,16 +622,25 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 #### Tácticas
 
 #### Desarrollo de contenido hiperlocalizado  
-Creación de retos, misiones y juegos basados en situaciones reales, con énfasis en acciones concretas de cuidado ambiental que los escolares puedan aplicar en su entorno.
+- Creación de retos, misiones y juegos basados en situaciones reales, con énfasis en acciones concretas de cuidado ambiental que los escolares puedan aplicar en su entorno.
 
 #### Gamificación con incentivos y seguimiento  
-Implementación de puntos, medallas, niveles y rankings para motivar a los niños. Además, los padres podrán acceder a reportes de progreso, reforzando el aprendizaje y fomentando hábitos sostenibles.
+- Implementación de puntos, medallas, niveles y rankings para motivar a los niños. Además, los padres podrán acceder a reportes de progreso, reforzando el aprendizaje y fomentando hábitos sostenibles.
 
 #### Aprovechamiento de debilidades de la competencia
 
 1. **Frente a Defensor de la Naturaleza**  
    Dado que su experiencia es limitada y depende de publicidad para financiar el contenido, ECOMIND ofrecerá contenido más completo y libre de anuncios, garantizando aprendizaje continuo y mayor motivación de los usuarios.
 
+
+2. **Frente a Happy Little Planet**  
+   En comparación con Happy Little Planet, que se enfoca en niños pequeños y tiene poca interactividad social, ECOMIND ampliará su rango de edades y permitirá dinámicas de gamificación con seguimiento de logro 
+
+3. **Frente a Earth Cubs**
+   
+   Ya que ofrece contenidos generales sobre sostenibilidad, EcoMind se centrará exclusivamente la educación ambiental para escolares , combinando gamificación y dinámicas prácticas que enseñan reciclaje, ahorro de agua, eficiencia
+   energética y cuidado del entorno, tanto online como offline, involucrando también a familias y comunidades.
+   
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
@@ -4571,13 +4580,13 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 El siguiente diagrama C4 muestra cómo se relaciona el bounded context de **Learning** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Learning y su base de datos. También representa la validación del token de acceso antes de ejecutar operaciones que requieren un usuario autenticado, como agregar o eliminar materiales favoritos y registrar descargas.
 
 <div align="center">
-  <img src="assets/img/figures/LearningAndroidComponents.png" alt="Diagrama C4 de Learning" width="550">
+  <img src="assets/img/figures/LearningAndroidComponents.png" alt="Diagrama C4 de Learning" width="500">
 </div>
 
 *Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Learning, elaborado con Structurizr DSL.*
 
 <div align="center">
-  <img src="assets/img/figures/LearningApiComponents.png" alt="Diagrama C4 de Learning" width="700">
+  <img src="assets/img/figures/LearningApiComponents.png" alt="Diagrama C4 de Learning" width="680">
 </div>
 
 *Figura X. Diagrama C4 de componentes de la API del bounded context Learning, elaborado con Structurizr DSL.*
