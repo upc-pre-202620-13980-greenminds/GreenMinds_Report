@@ -273,8 +273,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 | -------- | -------- | -------- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Aa <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Aa. <br> <br> | *AV1* <br> El equipo... <br> <br>  |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Aa <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Aa. <br> <br>  | *AV1* <br> El equipo ... <br> |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Aa <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Apliqué Domain-Driven Design táctico y C4 Model con Structurizr DSL y PlantUML para documentar el bounded context Users, actualizando sus conocimientos en arquitectura de software y diagramación como código. <br> <br> | *AV1* <br> El equipo reconoce que el desarrollo de EcoMind exigió adquirir y aplicar conocimientos nuevos en metodologías de diseño estratégico y táctico y en herramientas de documentación como código, evidenciando que la actualización continua de conocimientos es indispensable para estructurar soluciones de software escalables y mantenibles. <br> <br>  |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Aa <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Reconocí que el dominio de nuevas herramientas de documentación y metodologías requieren actualización constante, lo que reforzó mi objetivo de especializarse en backend y buenas prácticas de arquitectura. <br> <br>  | *AV1* <br>  El equipo reconoce que el desarrollo de un producto con múltiples bounded contexts, cada uno con sus propias decisiones de arquitectura y persistencia, exige mantenerse en aprendizaje constante frente a nuevas herramientas, patrones de integración entre contextos y buenas prácticas de documentación. <br> |
 
 <div style="page-break-before: always;"></div>
 
@@ -372,25 +372,27 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Philco Mota, Katty Yolanda (u202416107)
 
-*Objetivo 1 — [Título del objetivo]*
+## Philco Mota, Katty Yolanda (u202416107)
+
+*Objetivo 1 — Especialización en backend y buenas prácticas de arquitectura de software*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Profundizar mis conocimientos en desarrollo backend y en buenas prácticas de documentación y arquitectura de software, mediante estudios de maestría o certificaciones especializadas. |
+| Measurable | Postular e iniciar una maestría para completar al menos dos certificaciones especializadas en desarrollo backend y arquitectura de software (por ejemplo, Spring Boot, AWS, o cursos enfocados en DDD y C4 Model). |
+| Attainable | Cuento con base en programación, estructuras de datos y algoritmos, además de la experiencia práctica adquirida en este proyecto (EcoMind), donde apliqué Domain-Driven Design, Event Storming, Bounded Context Canvas y C4 Model en la documentación de arquitectura del bounded context Users, lo que me da una base sólida para profundizar formalmente estos temas. |
+| Relevant | Consolidar estas competencias fortalecerá mi perfil como ingeniera backend orientada a buenas prácticas de arquitectura, aumentando mi empleabilidad y mi capacidad de participar en decisiones técnicas de diseño de software. |
+| Time-bound | Dentro del primer año posterior a mi egreso. |
 
-*Objetivo 2 — [Título del objetivo]*
+*Objetivo 2 — Construcción de un portafolio profesional*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Construir un portafolio profesional en línea que documente proyectos de desarrollo backend y de arquitectura de software, incluyendo EcoMind y otros proyectos desarrollados durante la carrera. |
+| Measurable | Publicar al menos tres proyectos en el portafolio, cada uno con documentación de su arquitectura (diagramas C4, modelos de dominio, diagramas de base de datos) y una descripción del problema que resuelven. |
+| Attainable | Ya cuento con el trabajo de documentación de arquitectura realizado en EcoMind (diagramas C4, diagramas de clases y de base de datos del bounded context Users) y con otros proyectos desarrollados durante la carrera que puedo adaptar y ampliar para el portafolio. |
+| Relevant | Un portafolio con documentación técnica sólida evidenciará mis competencias en backend y buenas prácticas de arquitectura ante posibles empleadores. |
+| Time-bound | Dentro del primer año posterior a mi egreso. |
 
 # Capítulo I: Introducción
 
