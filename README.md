@@ -92,13 +92,11 @@ Project Report URL: https://github.com/upc-pre-202620-13980-greenminds/GreenMind
 
 Durante el desarrollo de la entrega AV1, el equipo organizó la elaboración del informe mediante la asignación de responsabilidades por secciones, lo que permitió un trabajo colaborativo y paralelo entre los integrantes. Cada miembro contribuyó en función de su área asignada, abarcando aspectos de experiencia de usuario, análisis de negocio y arquitectura del sistema.
 
-El proceso de desarrollo del informe se realizó de manera incremental, integrando progresivamente los contenidos conforme se avanzaba en el proyecto. Esto se refleja en el Registro de Versiones del Informe, donde se evidencia la evolución del documento desde la estructura inicial hasta la incorporación de elementos como Lean UX, análisis competitivo, user stories, arquitectura de software, wireframes y flujos de interacción.
+El proceso de desarrollo del informe se realizó de manera incremental, integrando progresivamente los contenidos conforme se avanzaba en el proyecto. Esto se refleja en el Registro de Versiones del Informe, donde se evidencia la evolución del documento desde la estructura inicial hasta la incorporación de elementos como Lean UX, análisis competitivo, user stories y arquitectura de software.
 
 Asimismo, todos los integrantes participaron activamente en la elaboración del informe, realizando aportes continuos que permitieron consolidar una documentación coherente y alineada entre sus distintas secciones. Esta colaboración se evidencia en los analíticos de contribución y commits, los cuales reflejan la participación distribuida del equipo.
 
 ![projetoverview](assets/img/figures/Docs_Overview.png)
-
-![projetOverview](assets/img/figures/Docs_Contributors.png)
 
 
 # Tabla de contenidos
@@ -266,6 +264,8 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)
 
+<div style="page-break-after: always;"></div>
+
 # ABET - EAC - Student Outcome 7
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -422,6 +422,8 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Attainable | Ya cuento con el trabajo de documentación de arquitectura realizado en EcoMind (diagramas C4, diagramas de clases y de base de datos del bounded context Users) y con otros proyectos desarrollados durante la carrera que puedo adaptar y ampliar para el portafolio. |
 | Relevant | Un portafolio con documentación técnica sólida evidenciará mis competencias en backend y buenas prácticas de arquitectura ante posibles empleadores. |
 | Time-bound | Dentro del primer año posterior a mi egreso. |
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
