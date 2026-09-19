@@ -5807,6 +5807,28 @@ El diseño de la base de datos organiza por separado los cosméticos, multiplica
 
 *Figura X. Diagrama de diseño de la base de datos del bounded context Monetization.*
 
+<div style="page-break-after: always;"></div>
+
+# Conclusiones
+
+## Conclusiones y Recomendaciones
+
+**Conclusiones**
+
+Partimos de una primera división del dominio en siete módulos, y al profundizar en cada uno identificamos responsabilidades que en realidad correspondían a ámbitos distintos, así como otras que compartían un mismo propósito y podían agruparse. Ese proceso de revisión fue clave para llegar a bounded contexts mejor delimitados.
+
+Documentar la arquitectura con el mismo nivel de detalle que exige el curso nos permitió hacer explícitas decisiones que antes se manejaban de forma implícita entre el equipo, como la responsabilidad de mantener actualizada cierta información compartida entre bounded contexts.
+
+Al revisar con calma las relaciones entre los distintos módulos, confirmamos que las decisiones de integración que fuimos tomando a lo largo del proyecto son coherentes entre sí, lo que nos da mayor confianza en la solidez del diseño alcanzado hasta este punto.
+
+**Recomendaciones**
+
+Se recomienda que el equipo revise en conjunto los puntos de integración que quedaron señalados como pendientes durante la documentación, en particular la responsabilidad de mantener sincronizada la información del perfil que depende de otros bounded contexts.
+
+Se recomienda además confirmar con el docente qué herramientas de diagramación están autorizadas para el curso, de modo que el equipo pueda estandarizar su uso antes de la siguiente entrega.
+
+Finalmente, se recomienda mantener el mismo nivel de profundidad y documentación en los siguientes entregables, siguiendo el estándar ya alcanzado en las secciones completadas, para asegurar consistencia en el informe final.
+
 # Bibliografía
 
 - Adrilo, R (s.f.). Happy Little Planet App. Adrilo Rincz. https://www.adrilorincz.com/happy-little-planet-app  
@@ -5825,3 +5847,4 @@ El diseño de la base de datos organiza por separado los cosméticos, multiplica
 
 - Y-Group Games. (s. f.). Defender of the nature. Google Play. https://play.google.com/store/apps/details?id=com.YovoGames.Defender&hl=es_PE 
 
+# Anexos
