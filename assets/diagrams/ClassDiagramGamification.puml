@@ -1,0 +1,186 @@
+@startuml
+top to bottom direction
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor #F1F1F1
+skinparam classBorderColor #777777
+skinparam packageStyle rectangle
+skinparam defaultFontName Arial
+skinparam linetype ortho
+skinparam nodesep 45
+skinparam ranksep 55
+hide empty members
+title Gamification Bounded Context - Domain Layer Class Diagram
+
+package "Progress and Streaks" {
+class UserProgress <<Aggregate Root>> {
+ -id: UUID
+ -userId: UUID
+ -totalEcopoints: Long
+ -totalExperience: Long
+ -streak: Streak
+ -version: Long
+ +applyReward(reward: Reward): void
+ +recordDailyActivity(day: LocalDate): void
+ +preserveStreak(day: LocalDate): void
+ +resetStreak(day: LocalDate): void
+}
+class Streak <<Value Object>> {
+ -currentLength: Integer
+ -longestLength: Integer
+ -lastActivityDate: LocalDate
+ -lastProtectedDate: LocalDate
+ +canRecordActivity(day: LocalDate): Boolean
+ +recordActivity(day: LocalDate): Streak
+ +protect(day: LocalDate): Streak
+ +reset(day: LocalDate): Streak
+ +isAtRisk(day: LocalDate): Boolean
+}
+class FamilyScore <<Aggregate Root>> {
+ -id: UUID
+ -familyId: UUID
+ -totalEcopoints: Long
+ -version: Long
+ +applyReward(reward: Reward): void
+}
+class StreakProtectionRequest <<Aggregate Root>> {
+ -id: UUID
+ -userProgressId: UUID
+ -streakDate: LocalDate
+ -status: StreakProtectionStatus
+ -createdAt: Instant
+ -resolvedAt: Instant
+ +protect(): void
+ +markUnavailable(): void
+ +isPending(): Boolean
+}
+enum StreakProtectionStatus {
+ PENDING
+ PROTECTED
+ UNAVAILABLE
+}
+UserProgress "1" *-- "1" Streak : contains
+StreakProtectionRequest "0..*" --> "1" UserProgress : protects
+StreakProtectionRequest --> StreakProtectionStatus : has state
+}
+package "Rewards" {
+class RewardTransaction <<Aggregate Root>> {
+ -id: UUID
+ -source: RewardSource
+ -beneficiary: RewardBeneficiary
+ -baseReward: Reward
+ -grantedReward: Reward
+ -multiplierId: UUID
+ -appliedFactor: Decimal
+ -grantedAt: Instant
+ +sameGrant(source: RewardSource, beneficiary: RewardBeneficiary): Boolean
+ +hasGemReward(): Boolean
+}
+class Reward <<Value Object>> {
+ -ecopoints: Long
+ -experience: Long
+ -gems: Integer
+ +isValid(): Boolean
+ +multiplyExperience(factor: Decimal): Reward
+}
+class RewardSource <<Value Object>> {
+ -type: RewardSourceType
+ -executionId: UUID
+ +sameExecution(other: RewardSource): Boolean
+}
+class RewardBeneficiary <<Value Object>> {
+ -type: BeneficiaryType
+ -id: UUID
+ +isUser(): Boolean
+}
+class ActiveMultiplier <<Value Object>> {
+ -id: UUID
+ -factor: Decimal
+ -startsAt: Instant
+ -expiresAt: Instant
+ +appliesAt(time: Instant): Boolean
+}
+enum RewardSourceType {
+ QUEST
+ MINIGAME
+ COLLABORATIVE_QUEST
+ FAMILY_PLAN
+ COMMUNITY_GOAL
+ COMMUNITY_EVENT
+}
+enum BeneficiaryType {
+ USER
+ FAMILY
+}
+RewardTransaction "1" *-- "2" Reward : base and granted
+RewardTransaction "1" *-- "1" RewardSource : identifies origin
+RewardTransaction "1" *-- "1" RewardBeneficiary : identifies recipient
+RewardSource --> RewardSourceType : has type
+RewardBeneficiary --> BeneficiaryType : has type
+RewardTransaction ..> ActiveMultiplier : applied multiplier
+RewardTransaction "0..*" --> "0..1" UserProgress : credits user
+RewardTransaction "0..*" --> "0..1" FamilyScore : credits family
+}
+package "Achievements" {
+class Achievement <<Aggregate Root>> {
+ -id: UUID
+ -code: String
+ -name: String
+ -description: String
+ -scope: AchievementScope
+ -criterion: AchievementCriterion
+ -cosmeticId: UUID
+ -active: Boolean
+ +isEligible(progress: Map<String,Long>): Boolean
+ +hasCosmeticReward(): Boolean
+}
+class AchievementCriterion <<Value Object>> {
+ -metric: String
+ -target: Long
+ +isSatisfiedBy(value: Long): Boolean
+}
+class AchievementAward <<Aggregate Root>> {
+ -id: UUID
+ -achievementId: UUID
+ -userProgressId: UUID
+ -familyScoreId: UUID
+ -communityId: UUID
+ -sourceEventId: UUID
+ -awardedAt: Instant
+ +hasValidBeneficiary(scope: AchievementScope): Boolean
+ +isIndividual(): Boolean
+ +belongsToProgress(userProgressId: UUID): Boolean
+}
+class AchievementShareRequest <<Aggregate Root>> {
+ -id: UUID
+ -awardId: UUID
+ -requestedBy: UUID
+ -communityId: UUID
+ -status: AchievementShareStatus
+ -publicationId: UUID
+ -requestedAt: Instant
+ -confirmedAt: Instant
+ -version: Long
+ +confirmPublication(publicationId: UUID, confirmedAt: Instant): void
+ +matches(awardId: UUID, requestedBy: UUID, communityId: UUID): Boolean
+ +isPending(): Boolean
+}
+enum AchievementShareStatus {
+ PENDING
+ PUBLISHED
+}
+enum AchievementScope {
+ INDIVIDUAL
+ FAMILY
+ COMMUNITY
+}
+Achievement "1" *-- "1" AchievementCriterion : defines
+AchievementAward "0..*" --> "1" Achievement : grants
+AchievementAward "0..*" --> "0..1" UserProgress : recognizes user
+AchievementAward "0..*" --> "0..1" FamilyScore : recognizes family
+AchievementShareRequest "0..*" -up-> "1" AchievementAward : requests sharing
+AchievementShareRequest --> AchievementShareStatus : has state
+Achievement --> AchievementScope : has scope
+}
+@enduml
