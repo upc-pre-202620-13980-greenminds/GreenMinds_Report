@@ -78,10 +78,7 @@ Proyecto <br>
 | 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery  |
 | 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog <br> docs: agregar impact mapping  |
 | 1.0.0    | 17/09/2026     | Katty Philco, Isabel Aponte   | docs: agregar registro de entrevistas <br> docs: agregar sección Needfinding <br> docs: agregar Bounded Context: Monetization <br> docs: agregar Bounded Context Software Architecture Component Level and code diagrams  <br>  |
-| 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
-| 1.0.0    | 00/09/2026     |    | docs: agregar  <br> docs: agregar  <br> docs: agregar  |
-
-# Projet Report Collaboration Insights
+# Project Report Collaboration Insights
 
 Project Report URL: https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report.git 
 
@@ -155,7 +152,7 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 2.6.1.6. [Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)  
 2.6.1.6.1. [Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)  
 2.6.1.6.2. [Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)  
-2.6.2. [Bounded Context: Profile](#262-bounded-context-profile)  
+2.6.2. [Bounded Context: Users](#262-bounded-context-users)  
 2.6.2.1. [Domain Layer](#2621-domain-layer)  
 2.6.2.2. [Interface Layer](#2622-interface-layer)  
 2.6.2.3. [Application Layer](#2623-application-layer)  
@@ -268,7 +265,7 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 **ABET – EAC - Student Outcome 7**
 
-**Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias deaprendizaje apropiadas.
+**Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
@@ -293,36 +290,19 @@ GreenMinds
 
 **Descripción**
 
-ECOMIND es una plataforma interactiva que busca fortalecer la conciencia ambiental en escolares a través de la gamificación y dinámicas educativas como retos y juegos prácticos. Su propuesta no solo transmite conocimientos sobre reciclaje, ahorro de agua, eficiencia energética y cuidado del entorno, sino que también busca transformar hábitos cotidianos al involucrar tanto a los estudiantes como a sus familias y comunidades. A diferencia de otras herramientas, funciona en modalidad online y offline, lo que hace accesible en contextos con limitaciones de conectividad y garantiza su alcance en zonas urbanas y rurales.
+**Descripción de la startup**
+
+GreenMinds es una startup peruana de tecnología educativa dedicada al diseño de soluciones digitales que promueven la educación ambiental y la adopción de hábitos sostenibles en escolares, familias y comunidades. El equipo integra conocimientos de ingeniería de software, diseño de experiencias digitales y análisis de necesidades de usuario para desarrollar propuestas educativas accesibles y motivadoras. Como parte de su labor, GreenMinds crea y gestiona EcoMind, su producto digital orientado a convertir el aprendizaje ambiental en acciones cotidianas.
 
 
 **Visión**
 
-Posicionarnos en el corto y mediano plazo como la plataforma educativa de referencia en conciencia ambiental para escolares en el Perú, ampliando gradualmente nuestro alcance hacia otras comunidades y paises de la región. Aspiramos a contribuir en la construcción de una generación más consciente, capaz de integrar hábitos sostenibles en su vida cotidiana y de inspirar cambios positivos en su entorno.
+Ser una startup peruana referente en el desarrollo de soluciones de tecnología educativa para la formación ambiental, reconocida por impulsar hábitos sostenibles y generar un impacto positivo en escolares, familias y comunidades de Latinoamérica.
 
 
 **Misión**
 
-Brindar a los escolares una educación ambiental innovadora, accesible y dinámica que convierta el aprendizaje en una experiencia significativa. A través de la gamificación, buscamos que los niños no solo adquieran conocimientos, sino que desarrollen actitudes responsables y prácticas sostenibles que puedan replicar en su vida diaria y en sus entornos familiares y comunitarios.
-
-
-**Propuesta de Valor**
-
-GreenMinds convierte la educación ambiental en una experiencia práctica y motivadora mediante gamificación. Los estudiantes no solo aprenden, sino que aplican hábitos sostenibles en su vida diaria a través de retos interactivos.
-
-La plataforma es accesible online y offline, lo que permite su uso en distintos contextos, incluyendo zonas con baja conectividad. Además, involucra a la familia y comunidad, generando un impacto real más allá del aula.
-
-**Características principales**
-
-GreenMinds ofrece un sistema de retos gamificados que motiva a los estudiantes a participar activamente en actividades relacionadas con el reciclaje, el ahorro de agua y la eficiencia energética. Estas actividades están organizadas en retos progresivos que fomentan el aprendizaje mediante la acción.
-
-La plataforma incorpora un sistema de logros y recompensas que incentiva la constancia y el compromiso, permitiendo a los usuarios acumular puntos, desbloquear reconocimientos y visualizar su progreso. Este enfoque refuerza la motivación y convierte el aprendizaje en una experiencia entretenida.
-
-Asimismo, promueve la participación familiar, integrando actividades que pueden realizarse en casa y fortaleciendo el aprendizaje en el entorno cotidiano del estudiante. A esto se suma la creación de comunidades educativas, donde los usuarios pueden interactuar, colaborar y participar en rankings o retos grupales.
-
-GreenMinds también permite el seguimiento del progreso individual, mostrando avances, rachas y niveles de compromiso, lo que ayuda a los estudiantes a tomar conciencia de su impacto. Además, incluye contenido educativo interactivo como videos, lecturas e infografías que complementan los retos prácticos.
-
-Finalmente, la plataforma ofrece opciones de personalización, como la creación de avatares y perfiles, lo que incrementa la conexión del usuario con la experiencia y refuerza su motivación.
+Diseñar soluciones digitales educativas, accesibles y motivadoras que fortalezcan la conciencia ambiental y faciliten la práctica constante de hábitos sostenibles, integrando tecnología, aprendizaje y participación familiar y comunitaria.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -907,6 +887,54 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 ![event_Storming](assets/img/figures/EventStorming021.jpg)
 
 ### 2.3.6. Ubiquitous Language
+
+El siguiente glosario establece los términos compartidos que el equipo y los stakeholders utilizan para describir el dominio de EcoMind. Las definiciones buscan evitar interpretaciones diferentes entre las áreas del producto y se limitan a conceptos propios de la solución, la educación ambiental y la participación de sus usuarios.
+
+| Term | Definition |
+|---|---|
+| **Account (Cuenta)** | Identidad que permite a una persona acceder a EcoMind después de completar el registro y verificar su correo. |
+| **Account Credential (Credencial de cuenta)** | Información utilizada para demostrar que una persona es propietaria de una cuenta, compuesta por su correo y contraseña. |
+| **Achievement (Logro)** | Reconocimiento obtenido por alcanzar una meta específica dentro de EcoMind. |
+| **Activity (Actividad)** | Acción concreta que forma parte de una misión y que el usuario debe realizar para avanzar. |
+| **Avatar (Avatar)** | Representación visual que identifica al usuario dentro de la aplicación. |
+| **Collaborative Quest (Misión colaborativa)** | Misión realizada por varios usuarios que requiere la participación conjunta de sus integrantes. |
+| **Community (Comunidad)** | Espacio formado por usuarios que comparten intereses y participan en iniciativas ambientales comunes. |
+| **Community Event (Evento comunitario)** | Actividad ambiental organizada para convocar la participación de los miembros de una comunidad. |
+| **Community Goal (Meta comunitaria)** | Objetivo ambiental compartido cuyo avance depende de la contribución de los miembros de una comunidad. |
+| **Community Post (Publicación comunitaria)** | Contenido compartido por un miembro para informar, motivar o comunicar una experiencia a su comunidad. |
+| **Cosmetic (Cosmético)** | Artículo visual que permite personalizar la apariencia del avatar sin modificar el progreso del usuario. |
+| **Daily Quest (Misión diaria)** | Misión disponible durante un periodo diario para fomentar la participación frecuente del usuario. |
+| **Educational Material (Material educativo)** | Recurso de aprendizaje ambiental, como un video, una lectura o una infografía, disponible en el catálogo de EcoMind. |
+| **Email Verification (Verificación de correo)** | Confirmación de que la persona que se registra controla la dirección de correo proporcionada. |
+| **Environmental Awareness (Conciencia ambiental)** | Comprensión de los problemas ambientales y disposición para actuar responsablemente frente a ellos. |
+| **Environmental Habit (Hábito ambiental)** | Conducta favorable para el ambiente que una persona incorpora de manera frecuente en su vida cotidiana. |
+| **EcoPoint (Ecopunto)** | Unidad de reconocimiento obtenida al completar acciones ambientales y utilizada para representar el progreso del usuario. |
+| **Family (Familia)** | Grupo privado de usuarios vinculados para participar y dar seguimiento conjunto a actividades ambientales. |
+| **Family Member (Miembro de la familia)** | Usuario que pertenece a una familia y participa en sus misiones o planes compartidos. |
+| **Family Plan (Plan familiar)** | Conjunto organizado de misiones que una familia acuerda realizar durante un periodo determinado. |
+| **Favorite Material (Material favorito)** | Material educativo guardado por un usuario para consultarlo nuevamente con facilidad. |
+| **Friendship (Amistad)** | Vínculo aceptado entre dos usuarios que les permite reconocerse como amigos dentro de EcoMind. |
+| **Gem (Gema)** | Moneda virtual de EcoMind utilizada para adquirir cosméticos, multiplicadores y protectores. |
+| **Gem Package (Paquete de gemas)** | Cantidad predeterminada de gemas que puede adquirirse mediante un pago con dinero real. |
+| **Gem Wallet (Billetera de gemas)** | Registro del saldo de gemas disponible para un usuario. |
+| **Learning Progress (Progreso de aprendizaje)** | Avance de un usuario en la consulta y revisión de materiales educativos. |
+| **Marketplace (Tienda)** | Espacio donde el usuario consulta y adquiere productos virtuales y paquetes de gemas. |
+| **Material Review (Revisión de material)** | Registro que indica que un usuario terminó de consultar un material educativo. |
+| **Minigame (Minijuego)** | Experiencia breve e interactiva que refuerza conocimientos o acciones relacionados con una misión. |
+| **Multiplier (Multiplicador)** | Producto virtual que incrementa temporalmente la recompensa obtenida por una acción válida. |
+| **Password Recovery (Recuperación de contraseña)** | Proceso mediante el cual el propietario de una cuenta establece una nueva contraseña después de confirmar su solicitud. |
+| **Pending Registration (Registro pendiente)** | Solicitud temporal de registro que todavía no se convierte en una cuenta porque el correo no ha sido verificado. |
+| **Profile (Perfil)** | Información visible que representa al usuario, como su nombre, avatar y preferencias. |
+| **Quest (Misión)** | Desafío ambiental compuesto por una o más actividades que el usuario puede realizar para aprender y actuar. |
+| **Quest Assignment (Asignación de misión)** | Asociación de una misión con el usuario o grupo responsable de realizarla. |
+| **Quest Progress (Progreso de misión)** | Estado que refleja cuánto ha avanzado un usuario o grupo en las actividades de una misión. |
+| **Ranking (Clasificación)** | Orden de usuarios según los ecopuntos obtenidos durante un periodo definido. |
+| **Reward (Recompensa)** | Beneficio concedido al usuario después de completar una acción o alcanzar una meta. |
+| **Streak (Racha)** | Cantidad de días consecutivos en los que el usuario cumple la actividad requerida por EcoMind. |
+| **Streak Protector (Protector de racha)** | Producto virtual consumible que permite conservar una racha cuando el usuario no cumple la actividad de un día. |
+| **User (Usuario)** | Persona que utiliza EcoMind para aprender, participar en actividades ambientales e interactuar con otros miembros. |
+| **Virtual Inventory (Inventario virtual)** | Conjunto de cosméticos, multiplicadores y protectores que pertenecen a un usuario. |
+| **Virtual Purchase (Compra virtual)** | Adquisición de un producto de la tienda utilizando gemas. |
 
 ## 2.4. Requirements Specification
 ### 2.4.1. User Stories
@@ -3941,52 +3969,405 @@ Después de identificar los candidate bounded contexts, se elaboró un Bounded C
 La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique.
 
 **1. Bounded Context Canvas Quests**
-
 ![BoundedContextCanvasQuests](assets/img/figures/CanvasQuest.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Quests.*
 
+**2. Bounded Context Canvas Community**
 ![BoundedContextCanvasCommunity](assets/img/figures/CanvasCommunity.png)
 
 *Figura X. Bounded Context Canvas del contexto Community.*
 
+**3. Bounded Context Canvas Gamification**
+![BoundedContextCanvasGamification](assets/img/figures/)
+
+*Figura X. Bounded Context Canvas del contexto Gamification.*
+
+**4. Bounded Context Canvas Monetization**
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Monetization.*
 
+**5. Bounded Context Canvas Users**
+![BCUsers.jpg](assets/img/figures/canvasUsers.jpg)
 
+*Figura X. Bounded Context Canvas del contexto Users.*
+
+**5. Bounded Context Canvas Learning**
+![BCUsers.jpg](assets/img/figures/LearningCanvas.jpg)
+
+*Figura X. Bounded Context Canvas del contexto Learning.*
+
+**7. Bounded Context Canvas IAM**
 ![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
 
 *Figura X. Bounded Context Canvas del contexto Identity and Access.*
+
+
 
 ### 2.5.2. Context Mapping
 
 ### 2.5.3. Software Architecture
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+En esta sección se presenta el Context Diagram de EcoMind, elaborado con C4 Model y Structurizr DSL. El diagrama muestra a EcoMind como un único sistema de software rodeado por los usuarios y los sistemas externos con los que interactúa, sin exponer aún su descomposición interna.
+
+Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden a la plataforma ya registrados, y el visitante, que llega primero al Landing Page antes de crear una cuenta. EcoMind se comunica con cuatro sistemas externos: el servicio de correo Resend, utilizado para enviar la verificación de cuenta y la recuperación de contraseña; las pasarelas de pago con tarjeta, Yape y PayPal, utilizadas para las compras dentro de Monetization; y Google Maps, utilizado para mostrar en un mapa los eventos comunitarios cercanos a la ubicación del usuario.
+
+![ContextEcoMind](assets/img/figures/ContextEcoMind.png)
+
+*Figura X. Diagrama C4 de contexto de EcoMind, elaborado con Structurizr DSL.*
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+En esta sección se presenta el Container Diagram de EcoMind, el cual muestra los elementos de alto nivel de la arquitectura de software, la distribución de responsabilidades entre ellos y las principales decisiones de tecnología.
+
+La solución está compuesta por dos productos con los que interactúa el usuario final: la aplicación móvil `EcoMind Android Application`, desarrollada en Kotlin, y el `Landing Page`, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta. La aplicación Android consume de forma directa, mediante HTTPS/JSON y autenticación Bearer JWT, siete APIs REST independientes, cada una correspondiente a un bounded context: `IAM API`, `Users API`, `Learning API`, `Quests API`, `Community API`, `Gamification API` y `Monetization API`.
+
+
+![ContainerEcoMind](assets/img/figures/ContainerEcoMind.png)
+
+*Figura X. Diagrama C4 de contenedores de EcoMind, elaborado con Structurizr DSL.*
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura física y lógica sobre la que se ejecutan los containers.
+
+
+![DeploymentEcoMind](assets/img/figures/DeploymentEcoMind.png)
+
+*Figura X. Diagrama C4 de despliegue de EcoMind, elaborado con Structurizr DSL.*
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: IAM
+
+El bounded context **IAM (Identity and Access Management)** administra el registro y la verificación de cuentas, las credenciales, la autenticación, los access tokens y la recuperación de contraseña. **Users** gestiona la información personal y las relaciones sociales asociadas con cada cuenta.
+
 #### 2.6.1.1. Domain Layer
+
+Esta capa representa las reglas que protegen la identidad digital y las credenciales. Una cuenta solo se crea después de verificar el correo y comprobar nuevamente su disponibilidad; las contraseñas y los tokens de recuperación se conservan únicamente mediante sus hashes.
+
+**Sub-capa Model**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate Root | `PendingRegistration` | Registro temporal previo a la creación de la cuenta. | Mantener los datos de registro y controlar su vigencia y verificación. | Origina una `Account` después de verificar el correo y reconfirmar su disponibilidad. |
+| Entity | `EmailVerification` | Verificación asociada con un registro pendiente. | Validar el código o token dentro del plazo de 20 minutos e impedir su reutilización. | Pertenece a `PendingRegistration`. |
+| Aggregate Root | `Account` | Identidad digital habilitada para acceder a EcoMind. | Crear y mantener el estado de la cuenta autenticable. | Posee una `AccountCredential` y se identifica mediante `AccountId`. |
+| Entity | `AccountCredential` | Credencial de acceso de una cuenta. | Asociar un correo normalizado con el hash de la contraseña y permitir su actualización segura. | Pertenece a `Account`; utiliza `EmailAddress` y `PasswordHash`. |
+| Aggregate Root | `PasswordResetToken` | Autorización temporal para cambiar una contraseña. | Controlar expiración, consumo único y asociación con la cuenta solicitante. | Se busca mediante su `TokenHash` y, al consumirse, permite actualizar `AccountCredential`. |
+| Value Object | `AccountId` | Identificador estable de una cuenta. | Identificar al usuario autenticado sin exponer credenciales. | Se incluye como subject del `AccessToken` y se comunica a Users. |
+| Value Object | `EmailAddress` | Correo normalizado. | Eliminar espacios laterales, convertir a minúsculas y validar el formato. | Usado por `PendingRegistration` y `AccountCredential`. |
+| Value Object | `PasswordHash` | Representación no reversible de una contraseña. | Evitar que la contraseña en texto plano forme parte del modelo persistido. | Utilizado por `AccountCredential`. |
+| Value Object | `AccessToken` | JWT firmado y temporal. | Representar la identidad autenticada y su expiración. | Se emite después de una autenticación válida. |
+| Value Object | `TokenHash` | Huella de un token sensible. | Permitir la validación sin almacenar el token de recuperación en texto plano. | Utilizado por `PasswordResetToken`. |
+
+**Sub-capa Domain Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `RegistrationPolicy` | Validar los datos del registro, la disponibilidad del correo y la vigencia de la verificación antes de crear la cuenta. | Opera sobre `PendingRegistration`, `EmailAddress` y `AccountRepository`. |
+| `AuthenticationService` | Comprobar correo y contraseña sin revelar cuál credencial fue incorrecta. | Utiliza `AccountCredentialRepository` y `PasswordHasher`. |
+| `PasswordPolicy` | Validar que una contraseña nueva cumpla las reglas de seguridad de IAM. | Se aplica al registro y a la recuperación de contraseña. |
+
+**Sub-capa Repositories y contratos del dominio**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Repository | `PendingRegistrationRepository` | Persistir registros temporales y consultar una verificación vigente. |
+| Repository | `AccountRepository` | Persistir cuentas y comprobar la unicidad del correo normalizado. |
+| Repository | `AccountCredentialRepository` | Consultar y actualizar las credenciales asociadas con una cuenta. |
+| Repository | `PasswordResetTokenRepository` | Persistir, localizar y marcar como consumidos los tokens de recuperación. |
+| Domain Port | `PasswordHasher` | Definir la generación y comparación de hashes de contraseñas. |
+
 #### 2.6.1.2. Interface Layer
+
+Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints protegidos reciben la identidad establecida por la capa de seguridad después de validar el JWT.
+
+**Sub-capa REST - Controllers**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| REST Controller | `RegistrationController` | Recibir el inicio del registro y la verificación del correo. | Ejecuta `SubmitRegistration` y `VerifyEmail`. |
+| REST Controller | `AuthenticationController` | Atender el inicio de sesión y obtener al usuario autenticado. | Ejecuta `SignIn` y `GetCurrentAuthenticatedUser` con un error uniforme para credenciales inválidas. |
+| REST Controller | `PasswordRecoveryController` | Recibir la solicitud y confirmación de recuperación de contraseña. | Ejecuta `RequestPasswordRecovery` y `ConfirmPasswordRecovery` sin revelar si el correo existe. |
+| REST Controller | `SessionController` | Atender el cierre de sesión de la aplicación. | Ejecuta `Logout`; el cliente elimina localmente el access token. |
+
+**Sub-capa REST - Resources y Assemblers**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Request Resource | `SubmitRegistrationResource` | Transportar correo y contraseña para iniciar el registro. | Se convierte en `SubmitRegistrationCommand`. |
+| Request Resource | `VerifyEmailResource` | Transportar la prueba de verificación del correo. | Se convierte en `VerifyEmailCommand`. |
+| Request Resource | `SignInResource` | Transportar las credenciales de inicio de sesión. | Se convierte en `SignInCommand`. |
+| Request Resource | `PasswordRecoveryResource` | Transportar el correo para solicitar la recuperación. | Se convierte en `RequestPasswordRecoveryCommand`. |
+| Request Resource | `ConfirmPasswordRecoveryResource` | Transportar el token temporal y la nueva contraseña. | Se convierte en `ConfirmPasswordRecoveryCommand`. |
+| Response Resource | `AuthenticationResource` | Exponer el access token, su expiración y la identidad autenticada. | Se ensambla a partir del resultado de `SignIn`. |
+| Response Resource | `AuthenticatedUserResource` | Exponer la identidad de la cuenta autenticada. | Presenta el `AccountId` y el correo de la cuenta. |
+| Assembler | `AuthenticationCommandFromResourceAssembler` | Convertir los resources de entrada en commands. | Conecta los controllers con Application Layer. |
+| Assembler | `AuthenticationResourceAssembler` | Convertir resultados de aplicación en respuestas HTTP seguras. | Evita exponer hashes, tokens internos o detalles de autenticación. |
+
 #### 2.6.1.3. Application Layer
+
+Esta capa coordina los casos de uso, sus transacciones y las comunicaciones salientes hacia el servicio de correo y Users.
+
+**Sub-capa Command Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `RegistrationCommandService` | Iniciar el registro, generar la verificación temporal y crear la cuenta una vez verificado el correo. | Procesa `SubmitRegistration` y `VerifyEmail`; usa repositorios, `EmailService` y `UsersContextGateway`. |
+| `AuthenticationCommandService` | Validar las credenciales y emitir un access token firmado. | Procesa `SignIn`; utiliza `AuthenticationService` y `TokenService`. |
+| `PasswordRecoveryCommandService` | Generar un token de recuperación de un solo uso y actualizar la contraseña tras validarlo. | Procesa `RequestPasswordRecovery` y `ConfirmPasswordRecovery`; usa `EmailService`. |
+| `SessionCommandService` | Coordinar el cierre de sesión solicitado por el cliente. | Procesa `Logout` y la eliminación local del access token. |
+
+**Sub-capa Query Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `CurrentAuthenticatedUserService` | Obtener el `AccountId` y el correo de la identidad ya autenticada. | Procesa `GetCurrentAuthenticatedUserQuery` a partir de `AuthenticatedUserPrincipal`. |
+
+**Commands y Queries**
+
+| Tipo | Nombre | Propósito |
+|---|---|---|
+| Command | `SubmitRegistrationCommand` | Iniciar un registro pendiente y solicitar el envío de la verificación. |
+| Command | `VerifyEmailCommand` | Verificar el correo, crear la cuenta y solicitar a Users la creación del perfil. |
+| Command | `SignInCommand` | Autenticar credenciales y obtener un access token. |
+| Command | `RequestPasswordRecoveryCommand` | Solicitar la recuperación y producir una respuesta uniforme para cualquier correo. |
+| Command | `ConfirmPasswordRecoveryCommand` | Consumir el token temporal y establecer una nueva contraseña. |
+| Command | `LogoutCommand` | Finalizar la sesión en la aplicación cliente. |
+| Query | `GetCurrentAuthenticatedUserQuery` | Obtener la identidad asociada con el JWT validado. |
+
+**Puertos de salida**
+
+| Nombre | Responsabilidad principal | Destino |
+|---|---|---|
+| `EmailService` | Enviar correos de verificación y de recuperación de contraseña. | Email Service / Resend. |
+| `UsersContextGateway` | Enviar `CreateProfile` después de crear correctamente la cuenta. | Bounded context Users mediante comunicación interna síncrona. |
+| `TokenService` | Emitir y validar access tokens firmados con expiración. | Implementación JWT en Infrastructure Layer. |
+
 #### 2.6.1.4. Infrastructure Layer
+
+Esta capa implementa la persistencia, la seguridad y las integraciones técnicas requeridas por IAM.
+
+| Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
+|---|---|---|---|
+| Persistence Entity | `PendingRegistrationPersistenceEntity` | Almacenar temporalmente el registro, la verificación hasheada y su expiración. | Mapeada por JPA. |
+| Persistence Entity | `AccountCredentialPersistenceEntity` | Almacenar la cuenta, el correo normalizado y el hash de contraseña. | Mapeada por JPA; nunca almacena la contraseña en texto plano. |
+| Persistence Entity | `PasswordResetTokenPersistenceEntity` | Almacenar el hash, la expiración y el estado de consumo del token. | Mapeada por JPA. |
+| Repository Implementation | `PendingRegistrationRepositoryImpl` | Persistir y recuperar registros pendientes vigentes. | Implementa `PendingRegistrationRepository`. |
+| Repository Implementation | `AccountCredentialRepositoryImpl` | Persistir cuentas y credenciales y comprobar la unicidad del correo. | Implementa `AccountRepository` y `AccountCredentialRepository`. |
+| Repository Implementation | `PasswordResetTokenRepositoryImpl` | Persistir y consumir tokens de recuperación de forma segura. | Implementa `PasswordResetTokenRepository`. |
+| Security Adapter | `TokenServiceImpl` | Firmar JWT, validar firma y expiración, y extraer el subject. | Implementa `TokenService`. |
+| Security Filter | `BearerAuthorizationRequestFilter` | Validar el bearer token antes de que la solicitud alcance un recurso protegido. | Spring Security y `TokenService`. |
+| Security Configuration | `WebSecurityConfiguration` | Definir endpoints públicos, protegidos y el orden del filtro JWT. | Spring Security. |
+| Security Principal | `AuthenticatedUserPrincipal` | Representar el `AccountId` autenticado dentro de la solicitud. | Consumido por controllers y `CurrentAuthenticatedUserService`. |
+| Cryptography Adapter | `PasswordHasherImpl` | Generar y comparar hashes resistentes para contraseñas. | Implementa `PasswordHasher`. |
+| Email Adapter | `ResendEmailService` | Enviar correos de verificación y recuperación. | Implementa `EmailService` mediante la API de Resend. |
+| Internal Context Client | `UsersContextClient` | Enviar el command `CreateProfile` después de crear la cuenta. | Implementa `UsersContextGateway`; llamada interna síncrona. |
+| Android API Client | `IamApiService` | Consumir los endpoints de registro, autenticación y recuperación. | HTTPS/JSON desde la aplicación Android. |
+| Android Token Storage | `AccessTokenStore` | Guardar el JWT en almacenamiento seguro, adjuntarlo a solicitudes y eliminarlo al cerrar sesión. | Almacenamiento cifrado e interceptor HTTP de Android. |
+
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Los diagramas presentan los componentes de IAM en la aplicación Android y en la API backend. La vista móvil comprende la interfaz, los ViewModels, los casos de uso, el acceso remoto y el almacenamiento seguro del access token. La vista de la API reúne los controllers, servicios de aplicación, elementos de dominio, persistencia, seguridad JWT e integraciones con Resend y Users.
+
+![C4I](assets/img/figures/ComponentsIAM1.png)
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context IAM, elaborado con Structurizr DSL.*
+
+![C4I](assets/img/figures/ComponentsIAM2.png)
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context IAM, elaborado con Structurizr DSL.*
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+Los diagramas de código describen el modelo de dominio y su estructura de persistencia.
+
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer representa los aggregates, entities, value objects, domain services y repositories que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación.
+
+![C4I](assets/img/figures/iamclass.png)
+
+*Figura X. Diagrama de clases de la capa de dominio del bounded context IAM, elaborado con PlantUML.*
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
-### 2.6.2. Bounded Context: Profile
+El diagrama de base de datos presenta las estructuras de persistencia necesarias para las cuentas, las credenciales, los registros pendientes y los tokens de recuperación. Su diseño conserva únicamente hashes de contraseñas y tokens sensibles, registra sus fechas de expiración y consumo, y garantiza la unicidad del correo normalizado.
+
+![C4I](assets/img/figures/IamDatabase.png)
+
+*Figura X. Diagrama de diseño de la base de datos del bounded context IAM, elaborado con ERD Editor.*
+
+### 2.6.2. Bounded Context: Users
+
+El bounded context Users administra la información personal del usuario: su perfil, sus preferencias, sus relaciones de amistad, sus grupos familiares y el rol social que desempeña dentro de EcoMind (estudiante o padre de familia).
+
 #### 2.6.2.1. Domain Layer
+
+La Domain Layer representa al usuario como individuo dentro de la plataforma, así como sus vínculos sociales (amistades y familia). Contiene las reglas necesarias para mantener un perfil consistente, evitar relaciones duplicadas y administrar el ciclo de vida de una familia, sin depender de la interfaz ni de la persistencia.
+
+**Sub-capa Model**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relaciones |
+|---|---|---|---|---|
+| Aggregate Root | `UserProfile` | Perfil de un usuario ya autenticado en IAM. | Mantener nombre, rol social, racha, ecopoints, balance de gemas y cosmético equipado. | Se crea a partir del `AccountId` recibido de IAM; referencia `EquippedCosmetic`. |
+| Value Object | `NotificationPreferences` | Preferencias de notificación del usuario. | Registrar qué categorías de notificación están habilitadas o deshabilitadas. | Pertenece a `UserProfile`. |
+| Aggregate Root | `Family` | Grupo familiar creado por un padre. | Administrar la lista de integrantes y su ciclo de vida. | Compone varios `FamilyMember`. |
+| Entity | `FamilyMember` | Vínculo entre un usuario y una familia. | Registrar el `family_role` del integrante dentro del grupo. | Referencia `UserProfile` y pertenece a `Family`. |
+| Aggregate Root | `Friendship` | Relación de amistad entre dos usuarios. | Controlar el estado de la solicitud y evitar duplicados. | Referencia dos `UserProfile` (solicitante y receptor). |
+
+**Sub-capa Model – Value Objects y Enumerations**
+
+| Tipo | Nombre | Descripción |
+|---|---|---|
+| Value Object | `UserId` | Identificador del perfil, equivalente al `AccountId` emitido por IAM. |
+| Value Object | `FamilyId` | Identificador único de un grupo familiar. |
+| Enumeration | `SocialRole` | `STUDENT`, `PARENT`, seleccionado por el usuario durante el registro en IAM y persistido en Users. |
+| Enumeration | `FamilyRole` | Responsabilidad que desempeña un integrante dentro del grupo familiar. |
+| Enumeration | `FriendshipStatus` | Estado de una solicitud de amistad: `PENDING`, `ACCEPTED` o `REJECTED`. |
+
+**Sub-capa Model – Commands**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Command | `CreateProfileCommand` | Crear el perfil correspondiente a una cuenta nueva verificada en IAM. |
+| Command | `UpdateProfileCommand` | Actualizar racha, última fecha de racha, ecopoints y balance de gemas del perfil. |
+| Command | `UpdateNotificationPreferencesCommand` | Habilitar o deshabilitar categorías de notificación del usuario. |
+| Command | `CreateFamilyCommand` | Crear un grupo familiar a partir de un padre. |
+| Command | `AddFamilyMemberCommand` | Agregar un integrante a la familia. |
+| Command | `RemoveFamilyMemberCommand` | Retirar un integrante de la familia. |
+| Command | `SendFriendRequestCommand` | Enviar una solicitud de amistad a otro usuario. |
+| Command | `RespondFriendRequestCommand` | Aceptar o rechazar una solicitud de amistad recibida. |
+| Command | `EquipCosmeticCommand` | Registrar el cosmético seleccionado para representar la apariencia del perfil. |
+
+**Sub-capa Model – Queries**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Query | `GetUserProfileQuery` | Obtener el resumen del perfil de un usuario. |
+| Query | `GetFamilyQuery` | Consultar una familia y sus integrantes. |
+| Query | `GetFamilyMembersByUserQuery` | Consultar las relaciones familiares de un usuario específico. |
+| Query | `GetFriendsByUserQuery` | Consultar las amistades aceptadas de un usuario. |
+| Query | `GetEquippedCosmeticQuery` | Consultar el cosmético actualmente equipado en el perfil. |
+
+**Sub-capa Model – Domain Events**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Domain Event | `ProfileCreatedEvent` | Informar que un perfil fue creado a partir de una cuenta verificada. |
+| Domain Event | `FamilyMemberAddedEvent` | Informar que un integrante fue agregado a una familia. |
+| Domain Event | `FriendRequestAcceptedEvent` | Informar que dos usuarios establecieron una amistad. |
+
+**Sub-capa Services**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Domain Service | `FriendshipPolicy` | Evitar solicitudes de amistad duplicadas o dirigidas al propio usuario. |
+| Domain Service | `FamilyMembershipPolicy` | Evitar que un usuario pertenezca a más de una familia activa a la vez. |
+
+**Sub-capa Repositories**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Repository | `UserProfileRepository` | Persistir y consultar perfiles de usuario. |
+| Repository | `FamilyRepository` | Persistir y consultar familias y sus integrantes. |
+| Repository | `FriendshipRepository` | Persistir y consultar relaciones de amistad. |
+
 #### 2.6.2.2. Interface Layer
+
+**Sub-capa REST – Controllers**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Controller | `UserProfileController` | API de perfil. | Exponer `GET /api/v1/user`, `GET /api/v1/user/{id}`, `GET /api/v1/user/{userId}` y `PUT /api/v1/user/{id}`. | Invoca `ProfileCommandService` y `ProfileQueryService`. |
+| Controller | `FamilyController` | API de familia. | Exponer `GET /api/v1/family` y `GET /api/v1/family_user`, incluyendo el filtro `GET /api/v1/family_user?user_id={id}`. | Invoca `FamilyCommandService` y `FamilyQueryService`. |
+| Controller | `FriendController` | API de amistades. | Exponer `GET /api/v1/friend` y `GET /api/v1/friend?user_id={id}`. | Invoca `FriendshipCommandService` y `FriendshipQueryService`. |
+| Controller | `UserCosmeticController` | API del cosmético del perfil. | Exponer `GET /api/v1/user_cosmetic`, `GET /api/v1/user_cosmetic/{userCosmeticId}` y `POST /api/v1/user_cosmetic`. | Invoca `ProfileCosmeticCommandService` y `ProfileQueryService`. |
+
+**Sub-capa REST – Assemblers y Resources**
+
+| Tipo | Nombre | Responsabilidad principal |
+|---|---|---|
+| Assembler | `*CommandFromResourceAssembler` | Convertir los resources de entrada (actualización de perfil, solicitud de amistad, alta familiar) en commands. |
+| Assembler | `*ResourceFromEntityAssembler` | Convertir `UserProfile`, `Family` y `Friendship` en resources de respuesta. |
+| Response Resource | `UserProfileResource` | Exponer nombre, rol social, racha, ecopoints, balance de gemas y cosmético equipado. |
+| Response Resource | `FamilyResource` | Exponer la familia y sus integrantes con su `family_role`. |
+| Response Resource | `FriendResource` | Exponer las relaciones de amistad y su estado. |
+
 #### 2.6.2.3. Application Layer
+
+Esta capa coordina los casos de uso del perfil, la familia, las amistades y el cosmético del perfil, incluyendo la comunicación entrante desde IAM y saliente hacia los demás bounded contexts.
+
+| Tipo | Nombre | Responsabilidad principal | Utiliza |
+|---|---|---|---|
+| Command Handler | `ProfileCommandService` | Crear el perfil al recibir `CreateProfile` desde IAM y actualizar racha, ecopoints y balance de gemas. | `UserProfileRepository`. |
+| Command Handler | `NotificationPreferencesCommandService` | Actualizar las preferencias de notificación del perfil. | `UserProfileRepository`. |
+| Command Handler | `FamilyCommandService` | Crear la familia y agregar o retirar integrantes aplicando `FamilyMembershipPolicy`. | `FamilyRepository`. |
+| Command Handler | `FriendshipCommandService` | Enviar, aceptar o rechazar solicitudes de amistad aplicando `FriendshipPolicy`. | `FriendshipRepository`. |
+| Command Handler | `ProfileCosmeticCommandService` | Registrar el cosmético equipado en el perfil. | `UserProfileRepository`. |
+| Query Handler | `ProfileQueryService` | Obtener el resumen del perfil de un usuario. | `UserProfileRepository`. |
+| Query Handler | `FamilyQueryService` | Consultar familias e integrantes, incluyendo el filtro por usuario. | `FamilyRepository`. |
+| Query Handler | `FriendshipQueryService` | Consultar las amistades aceptadas de un usuario. | `FriendshipRepository`. |
+
+
 #### 2.6.2.4. Infrastructure Layer
+
+Esta capa implementará la persistencia, el punto de recepción de la integración con IAM y los adaptadores necesarios para consumir la API de Users desde la aplicación Android.
+
+| Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
+|---|---|---|---|
+| Persistence Entity | `UserProfilePersistenceEntity` | Almacenar nombre, rol social, racha, ecopoints y balance de gemas. | Mapeada por JPA. |
+| Persistence Entity | `FamilyPersistenceEntity` | Almacenar la familia y sus integrantes con su `family_role`. | Mapeada por JPA. |
+| Persistence Entity | `FriendshipPersistenceEntity` | Almacenar las relaciones de amistad y su estado. | Mapeada por JPA. |
+| Repository Implementation | `UserProfileRepositoryImpl` | Persistir y consultar perfiles. | Implementa `UserProfileRepository`. |
+| Repository Implementation | `FamilyRepositoryImpl` | Persistir y consultar familias e integrantes. | Implementa `FamilyRepository`. |
+| Repository Implementation | `FriendshipRepositoryImpl` | Persistir y consultar amistades. | Implementa `FriendshipRepository`. |
+| Internal Context Listener | `IamContextListener` | Recibir el command `CreateProfile` enviado desde IAM y crear el perfil correspondiente. | Contraparte de `UsersContextClient`, definido en la Infrastructure Layer de IAM. |
+| Android API Client | `UsersApiService` | Consumir los endpoints de perfil, familia, amistades y cosmético equipado. | HTTPS/JSON desde la aplicación Android. |
+| Dependency Injection | `UsersModule` | Vincular contratos con implementaciones. | Hilt. |
+
+**Colaboradores**
+
+| Colaborador | Relación con Users |
+|---|---|
+| `IAM` | Crea la cuenta y envía el command `CreateProfile` para originar el perfil en Users. |
+| `Quests` | Consulta usuarios, amistades, familias y roles a través de `UsersServiceClient` para validar misiones colaborativas y planes familiares. |
+| `Gamification` | Proporciona los ecopuntos y la racha que se muestran en el perfil. |
+| `Monetization` | Proporciona el cosmético equipado y el balance de gemas que se muestran en el perfil. |
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Los diagramas distribuyen los componentes de Users entre la aplicación Android y la API backend. La vista móvil abarca perfil, familia y amistades; la vista de la API muestra sus controllers, servicios, modelo de dominio, persistencia y colaboraciones con IAM y Quests.
+
+![C4II](assets/img/figures/UsersAndroidComponents.png)
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Users, elaborado con Structurizr DSL.*
+
+![C4II](assets/img/figures/UsersApiComponents.png)
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context Users, elaborado con Structurizr DSL.*
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+Los diagramas de código presentan el modelo de dominio de Users y su estructura de persistencia.
+
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+El siguiente diagrama presenta las clases del Domain Layer de Users y las relaciones entre ellas. Incluye el perfil del usuario, sus preferencias de notificación, el grupo familiar con sus integrantes y la relación de amistad entre dos usuarios. También se representan los Command Services y Query Services que orquestan cada operación, así como las políticas de dominio (`FriendshipPolicy` y `FamilyMembershipPolicy`) que protegen la consistencia de las amistades y las familias.
+
+![ClassUsers](assets/img/figures/ClassUsers.png)
+
+*Figura X. Diagrama de clases de la capa de dominio del bounded context Users.*
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+El presente diagrama representa el modelo de base de datos del bounded context Users. Se persiste el perfil del usuario con su racha, ecopoints, balance de gemas y preferencias de notificación; los integrantes de cada grupo familiar junto con su `family_role`; y las relaciones de amistad entre dos usuarios, restringidas para evitar solicitudes dirigidas al propio usuario y relaciones duplicadas, conforme a `FriendshipPolicy`. El identificador `user_id` corresponde al `AccountId` emitido por IAM y se conserva como referencia simple, sin clave foránea entre bounded contexts, para mantener la independencia de Users respecto a IAM.
+
+![DatabaseUsers](assets/img/figures/UsersDatabase.png)
+
+*Figura X. Diagrama de diseño de la base de datos del bounded context Users.*
 
 ### 2.6.3. Bounded Context: Learning
 
@@ -4105,7 +4486,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 | Request Resource | `CreateEducationalMaterialResource` | Transportar los datos necesarios para crear un material. |
 | Request Resource | `UpdateEducationalMaterialResource` | Transportar los cambios permitidos sobre un material. |
 | Request Resource | `MaterialSearchResource` | Transportar texto, categoría, tipo e idioma. |
-| Request Resource | `FavoriteMaterialResource` | Transportar el material que será agregado o retirado; no acepta `userId`, pues se obtiene del principal autenticado. |
+| Request Resource | `FavoriteMaterialResource` | Transportar el material que será agregado o retirado y asociarlo con el `UserId` autenticado. |
 | Request Resource | `MaterialReviewResource` | Transportar el material revisado por el usuario. |
 | Response Resource | `EducationalMaterialResource` | Exponer los datos y recursos seguros del material. |
 | Response Resource | `LearningCatalogResource` | Exponer listado, filtros y paginación. |
@@ -4156,14 +4537,12 @@ Cada Use Case posee una responsabilidad concreta, se ejecuta desde un ViewModel 
 
 #### 2.6.3.4. Infrastructure Layer
 
-La Infrastructure Layer implementa los contratos técnicos de Learning.
-
 La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene el acceso a la API REST, la persistencia relacional, la caché Room, la descarga local y la reproducción del contenido multimedia.
 
 | Tipo | Nombre | Responsabilidad principal | Implementa o utiliza |
 |---|---|---|---|
 | Security Adapter | `JwtAuthenticationFilter` | Validar firma y expiración del JWT antes de ejecutar Learning. | Spring Security / JWT. |
-| Security Adapter | `AuthenticatedPrincipalAdapter` | Proporcionar el `UserId` autenticado a Interface y Application. | No realiza una llamada a IAM por operación. |
+| Security Adapter | `AuthenticatedPrincipalAdapter` | Proporcionar el `UserId` autenticado a Interface y Application. | Utiliza la identidad establecida por el filtro de seguridad. |
 | Local Data Source | `LearningDatabase` | Mantener catálogo, favoritos y descargas disponibles sin conexión. | Room. |
 | Local DAO | `EducationalMaterialDao` | Consultar y reemplazar la caché de materiales. | `LearningDatabase`. |
 | Local DAO | `FavoriteMaterialDao` | Mantener favoritos disponibles localmente. | `LearningDatabase`. |
@@ -4172,7 +4551,7 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 | Repository Implementation | `UserLearningLibraryRepositoryImpl` | Sincronizar favoritos locales y remotos. | Implementa `UserLearningLibraryRepository`. |
 | Persistence Adapter | `JpaEducationalMaterialRepository` | Persistir materiales en la base relacional. | Implementa el repositorio del backend. |
 | Persistence Adapter | `JpaLearningActivityRepository` | Persistir favoritos, revisiones, descargas y progreso. | Implementa repositorios del usuario. |
-| Content Delivery Adapter | `LearningContentDeliveryAdapter` | Entregar desde Learning API el archivo o la URL registrada para el material. | Utiliza los metadatos del catálogo y no depende de un sistema externo de almacenamiento. |
+| Content Delivery Adapter | `LearningContentDeliveryAdapter` | Entregar desde Learning API el archivo o la URL registrada para el material. | Utiliza los metadatos registrados en el catálogo. |
 | Android Service | `MaterialDownloadManager` | Descargar archivos y reanudar operaciones según conectividad. | WorkManager y almacenamiento privado. |
 | Media Adapter | `VideoPlayerAdapter` | Reproducir videos educativos desde URL o archivo local. | Media3/ExoPlayer. |
 | Mapper | `EducationalMaterialMapper` | Convertir DTO, entidad Room y modelo de dominio. | Anti-Corruption Layer. |
@@ -4182,9 +4561,9 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 | Colaborador | Relación con Learning |
 |---|---|
-| `IAM` | Autentica durante el inicio de sesión y emite el JWT. Luego, la capa de seguridad valida el token y obtiene el `UserId`; Learning no llama a IAM en cada operación ni conserva credenciales. |
+| `IAM` | Emite el JWT que la capa de seguridad valida para proporcionar el `UserId` a Learning. |
 | `Users` | Proporciona en el perfil el acceso visual a la sección de favoritos. Learning sigue siendo propietario y responsable de consultar esos favoritos mediante `userId`. |
-| `Quests` | Proporciona el punto de navegación “Aprende más”. Abrir esa opción lleva a la UI de Learning, pero Quests no administra materiales. |
+| `Quests` | Proporciona el punto de navegación “Aprende más”, que conduce al catálogo administrado por Learning. |
 | `EcoMind Android Application` | Ejecuta la navegación entre Quests, perfil y Learning; consume Learning API mediante HTTPS/JSON. |
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
@@ -4205,7 +4584,7 @@ El siguiente diagrama C4 muestra cómo se relaciona el bounded context de **Lear
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
-En esta sección se presentan los diagramas que describen la estructura interna del bounded context de **Learning**, incluyendo sus principales clases de dominio y el diseño de su base de datos. Para mantener los diagramas claros y fáciles de comprender, los Commands, Queries, Use Cases y adaptadores se explican en las secciones anteriores.
+Los diagramas de código presentan las clases de dominio de **Learning** y el diseño de su base de datos. Los Commands, Queries, Use Cases y adaptadores se encuentran descritos en las capas anteriores.
 
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4339,7 +4718,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 | Repository | `CollabQuestMemberRepository` | Mantener invitaciones y membresías. | Utilizado por servicios colaborativos. |
 | Repository | `FamilyPlanRepository` | Mantener planes por familia y estado. | Utilizado por servicios familiares. |
 | Repository | `FamilyPlanItemRepository` | Mantener las misiones incluidas en cada plan. | Utilizado por `FamilyPlanCommandService`. |
-| Application Event Publisher | `QuestEventPublisher` | Definir la publicación interna de eventos de finalización sin acoplar Quests a Gamification. | Es utilizado por los Event Handlers e implementado en Infrastructure Layer. |
+| Application Event Publisher | `QuestEventPublisher` | Definir la publicación interna de eventos de finalización dirigidos a Gamification. | Es utilizado por los Event Handlers e implementado en Infrastructure Layer. |
 
 #### 2.6.4.2. Interface Layer
 Esta capa expone los casos de uso mediante una API REST.
@@ -4428,7 +4807,7 @@ Las consultas necesarias se realizan mediante `UsersServiceClient`, mientras que
 
 **Mobile Application - Quests Feature**
 
-La aplicación móvil consume los casos de uso del backend sin duplicar sus reglas de negocio.
+La aplicación móvil presenta los casos de uso coordinados por el backend.
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
@@ -4443,7 +4822,7 @@ La aplicación móvil consume los casos de uso del backend sin duplicar sus regl
 | Mapper | `QuestMobileMapper` | Convertir DTOs de red en modelos utilizados por la aplicación móvil. | Es utilizado por `QuestsMobileRepositoryImpl`. |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-En esta sección se presentan los diagramas de componentes correspondientes al bounded context Quests. Debido a que sus funcionalidades se distribuyen entre la aplicación móvil y la API backend, se incluye un diagrama para cada container. Estos diagramas muestran los principales componentes de cada container, sus responsabilidades e interacciones, así como la comunicación de Quests con otros bounded contexts y servicios de infraestructura.
+Los diagramas muestran los componentes de Quests en la aplicación Android y en la API backend, junto con sus interacciones con Users, Gamification y la infraestructura de persistencia.
 
 ![C4Q](assets/img/figures/c4Quest2.png)
 
@@ -4460,7 +4839,7 @@ Los diagramas permiten identificar sus principales elementos de dominio, las rel
 El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests, organizadas según sus principales capacidades. Se incluyen aggregates, entities, value objects y enumeraciones responsables de representar el catálogo de misiones, el progreso de los usuarios, los minijuegos, las misiones colaborativas y los planes familiares.
 
 ![ClassQuest](assets/img/figures/ClassDiagramQuest.png)
-*Figura X. Diagrama de clases del bounded context quest, elaborado con plantuml.*
+*Figura X. Diagrama de clases de la capa de dominio del bounded context Quests, elaborado con PlantUML.*
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 El presente diagrama representa el modelo de base de datos del bounded context **Quests** de EcoMind. Este contexto gestiona la definición y ejecución de retos, actividades, minijuegos, retos colaborativos y planes familiares, además de registrar el progreso de los usuarios. Las relaciones internas se representan mediante claves foráneas, mientras que los identificadores pertenecientes a otros bounded contexts, como usuarios y familias, se conservan como referencias externas para mantener la independencia entre contextos.
@@ -4765,7 +5144,8 @@ Los protectores de racha se incorporan sin trasladar la propiedad de la racha a 
 
 | Tipo | Nombre | Descripción |
 |---|---|---|
-| Value Object | UserId | Identificador extraído del principal autenticado por la capa de seguridad. || Value Object | CosmeticId | Identificador de un cosmético. |
+| Value Object | UserId | Identificador extraído del principal autenticado por la capa de seguridad. |
+| Value Object | CosmeticId | Identificador de un cosmético. |
 | Value Object | MultiplierId | Identificador de un multiplicador. |
 | Value Object | ProtectorId | Identificador de un protector. |
 | Value Object | GemPackageId | Identificador de un paquete de gemas. |
@@ -4881,7 +5261,7 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 |---|---|---|---|---|
 | Request Resource | BuyItemResource | Solicitud de compra con gemas. | Transportar `itemId` y `itemType`; nunca aceptar precio ni `userId` del cliente. | El assembler incorpora el `UserId` del principal autenticado. |
 | Request Resource | EquipCosmeticResource | Solicitud de equipamiento. | Transportar el cosmético obtenido que será equipado. | Convertido a `EquipCosmeticCommand`. |
-| Request Resource | CreateGemOrderResource | Solicitud de compra de gemas. | Transportar paquete y método de pago; no acepta `userId`. | El assembler incorpora el `UserId` del principal autenticado. |
+| Request Resource | CreateGemOrderResource | Solicitud de compra de gemas. | Transportar el paquete y el método de pago. | El assembler incorpora el `UserId` autenticado. |
 | Response Resource | StoreCatalogResource | Representación HTTP del catálogo. | Exponer las tres pestañas y sus productos. | Ensamblado desde el modelo de lectura. |
 | Response Resource | WalletResource | Representación de la billetera. | Exponer saldo y fecha de actualización. | Ensamblado desde `GemWallet`. |
 | Response Resource | InventoryResource | Representación del inventario. | Exponer cosméticos, multiplicador y cantidad de protectores. | Ensamblado desde los agregados de inventario. |
@@ -4962,7 +5342,7 @@ Esta capa contiene las clases que implementan persistencia, caché local, comuni
 
 | Bounded Context | Relación con Monetization |
 |---|---|
-| `IAM` | Autentica durante el inicio de sesión y emite el JWT. Luego, la capa de seguridad valida el token y proporciona el `UserId`; Monetization no llama a IAM en cada operación ni conserva credenciales. |
+| `IAM` | Emite el JWT que la capa de seguridad valida para proporcionar el `UserId` a Monetization. |
 | `Users` | Consume el cosmético equipado para representar la apariencia del perfil. |
 | `Quests` | Puede originar recompensas de gemas o cosméticos. |
 | `Gamification` | Es propietario de la racha y la XP; valida la racha activa, informa riesgos y recibe la confirmación de protección. |
@@ -4985,7 +5365,7 @@ El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Moneti
 
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
 
-En esta sección se presentan los diagramas que describen la estructura interna del bounded context de Monetization, incluyendo sus principales clases de dominio y el diseño de la base de datos. Para mantener los diagramas claros y fáciles de comprender, los Commands, Queries, Use Cases y adaptadores se explican en las secciones anteriores.
+Los diagramas de código presentan las clases de dominio de Monetization y el diseño de su base de datos; las capas anteriores documentan sus elementos de aplicación e infraestructura.
 
 ##### 2.6.7.6.1. Bounded Context Domain Layer Class Diagrams
 
