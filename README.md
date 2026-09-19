@@ -4210,8 +4210,6 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 ![BoundedContextCanvasGamification](assets/img/figures/CanvasGamification.png)
 
-Fuente editable: [Canvas de Gamification](assets/diagrams/CanvasGamification.svg).
-
 **4. Bounded Context Canvas Monetization**
 **Figura 20**
 
