@@ -271,10 +271,11 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
-| Criterio Especifico | Acciones realizadas | Conclusiones |
-| -------- | -------- | -------- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> Investigué y apliqué conceptos de Lean UX, entrevistas, EventStorming, historias de usuario y Product Backlog para analizar las necesidades de los usuarios y organizar la propuesta de EcoMind. Asimismo, reforcé mis conocimientos sobre Domain-Driven Design y documentación de arquitectura durante el modelado de los bounded contexts Quests e IAM, definiendo sus responsabilidades, componentes, clases y estructuras de datos. <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Aa. <br> <br> | *AV1* <br> El equipo... <br> <br>  |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | Aponte Pablo, Isabel Luisa <br>*AV1* <br> Aa. <br> <br> <br><br> Astocondor Bazan, Alejandra Isabel <br> *AV1* <br> A partir de la retroalimentación brindada por el docente sobre nuestro EventStorming, reconocí errores en la identificación y organización de algunos elementos del dominio. Esta experiencia me permitió comprender la importancia de revisar continuamente los conceptos aprendidos, aceptar observaciones y aplicarlas para mejorar el modelado de EcoMind. Asimismo, reforzó mi compromiso de continuar profundizando en Domain-Driven Design y arquitectura de software para desarrollar soluciones más claras y coherentes. <br> <br> <br> Dulanto Espino, Leo César <br> *AV1* <br> Aa. <br> <br>  <br> Pajes Leon, Mauricio Luis <br> *AV1* <br> Aa. <br> <br> <br> Philco Mota, Katty Yolanda <br> *AV1* <br> Aa. <br> <br>  | *AV1* <br> El equipo ... <br> |
+| Criterio Específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Definí los segmentos objetivo, identifiqué a los competidores clave y realicé entrevistas para conocer las necesidades de los usuarios. También propuse estrategias y tácticas para EcoMind, y desarrollé los bounded contexts Monetization y Learning, definiendo sus responsabilidades, reglas de negocio, comunicaciones y arquitectura. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> Investigué y apliqué conceptos de Lean UX, entrevistas, EventStorming, historias de usuario y Product Backlog para analizar las necesidades de los usuarios y organizar la propuesta de EcoMind. Asimismo, reforcé mis conocimientos sobre Domain-Driven Design y documentación de arquitectura durante el modelado de los bounded contexts Quests e IAM, definiendo sus responsabilidades, componentes, clases y estructuras de datos. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Aa. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Aa. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Aa. | |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Reforcé mis conocimientos de Lean UX, Domain-Driven Design y arquitectura de software. Las revisiones realizadas me permitieron corregir errores y reconocer la importancia de investigar, recibir retroalimentación y mantener un aprendizaje constante. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> A partir de la retroalimentación brindada por el docente sobre nuestro EventStorming, reconocí errores en la identificación y organización de algunos elementos del dominio. Esta experiencia me permitió comprender la importancia de revisar continuamente los conceptos aprendidos, aceptar observaciones y aplicarlas para mejorar el modelado de EcoMind. Asimismo, reforzó mi compromiso de continuar profundizando en Domain-Driven Design y arquitectura de software para desarrollar soluciones más claras y coherentes. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Aa. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Aa. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Aa. | |
+
 
 <div style="page-break-before: always;"></div>
 
@@ -329,25 +330,25 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Dulanto Espino, Leo César (U202410254)
 
-*Objetivo 1 — [Título del objetivo]*
+*Objetivo 1 — Especialización en desarrollo backend y servicios web*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Fortalecer mis competencias en desarrollo backend mediante la especialización en Java con Spring Boot, diseño de APIs REST y gestión de bases de datos. |
+| Measurable | Completar al menos dos cursos especializados y desarrollar un proyecto backend funcional que incluya una API REST, autenticación y conexión con una base de datos. |
+| Attainable | Cuento con conocimientos previos en Java, Python, fundamentos de desarrollo web y bases de datos, adquiridos durante mi formación académica. |
+| Relevant | Esta especialización me permitirá mejorar mis oportunidades laborales y participar en el desarrollo de soluciones de software escalables y confiables. |
+| Time-bound | Alcanzar este objetivo durante el primer año posterior a mi egreso. |
 
-*Objetivo 2 — [Título del objetivo]*
+*Objetivo 2 — Desarrollo de habilidades de liderazgo técnico*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Fortalecer mis habilidades de liderazgo y gestión de equipos mediante la participación activa en proyectos colaborativos de desarrollo de software. |
+| Measurable | Coordinar al menos dos proyectos tecnológicos, organizando tareas, realizando reuniones de seguimiento y documentando los resultados obtenidos. |
+| Attainable | Durante mi formación académica he participado en la elaboración de distintos proyectos, aquiriendo habilidades tanto comunicativas, como tambien para el desarrollo y conociemiento de un proyecto |
+| Relevant | Mejorar mi liderazgo me permitirá asumir mayores responsabilidades y contribuir de manera más efectiva en equipos profesionales de software. |
+| Time-bound | Desarrollar este objetivo durante los dos primeros años posteriores a mi egreso. |
 
 ## Pajés León, Mauricio Luis (u202410093)
 
