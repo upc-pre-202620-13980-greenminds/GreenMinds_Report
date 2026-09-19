@@ -329,25 +329,25 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Dulanto Espino, Leo César (U202410254)
 
-*Objetivo 1 — [Título del objetivo]*
+*Objetivo 1 — Especialización en desarrollo backend y servicios web*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Fortalecer mis competencias en desarrollo backend mediante la especialización en Java con Spring Boot, diseño de APIs REST y gestión de bases de datos. |
+| Measurable | Completar al menos dos cursos especializados y desarrollar un proyecto backend funcional que incluya una API REST, autenticación y conexión con una base de datos. |
+| Attainable | Cuento con conocimientos previos en Java, Python, fundamentos de desarrollo web y bases de datos, adquiridos durante mi formación académica. |
+| Relevant | Esta especialización me permitirá mejorar mis oportunidades laborales y participar en el desarrollo de soluciones de software escalables y confiables. |
+| Time-bound | Alcanzar este objetivo durante el primer año posterior a mi egreso. |
 
-*Objetivo 2 — [Título del objetivo]*
+*Objetivo 2 — Desarrollo de habilidades de liderazgo técnico*
 
 | Criterio | Descripción |
 | :--- | :--- |
-| Specific |  |
-| Measurable |  |
-| Attainable |  |
-| Relevant |  |
-| Time-bound |  |
+| Specific | Fortalecer mis habilidades de liderazgo y gestión de equipos mediante la participación activa en proyectos colaborativos de desarrollo de software. |
+| Measurable | Coordinar al menos dos proyectos tecnológicos, organizando tareas, realizando reuniones de seguimiento y documentando los resultados obtenidos. |
+| Attainable | Durante mi formación académica he participado en la elaboración de distintos proyectos, aquiriendo habilidades tanto comunicativas, como tambien para el desarrollo y conociemiento de un proyecto |
+| Relevant | Mejorar mi liderazgo me permitirá asumir mayores responsabilidades y contribuir de manera más efectiva en equipos profesionales de software. |
+| Time-bound | Desarrollar este objetivo durante los dos primeros años posteriores a mi egreso. |
 
 ## Pajés León, Mauricio Luis (u202410093)
 
