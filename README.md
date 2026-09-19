@@ -3988,9 +3988,11 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 *Figura X. Bounded Context Canvas del contexto Community.*
 
 **3. Bounded Context Canvas Gamification**
-![BoundedContextCanvasGamification](assets/img/figures/)
+![BoundedContextCanvasGamification](assets/img/figures/CanvasGamification.png)
 
 *Figura X. Bounded Context Canvas del contexto Gamification.*
+
+Fuente editable: [Canvas de Gamification](assets/diagrams/CanvasGamification.svg).
 
 **4. Bounded Context Canvas Monetization**
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
