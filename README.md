@@ -293,8 +293,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Aponte Pablo, Isabel Luisa (u20241e158)
 
-*Objetivo 1 — Obtener mi primer empleo como desarrolladora de software*
-
 **Tabla 3**
 
 *Objetivo 1 — Obtener mi primer empleo como desarrolladora de software de Aponte Pablo, Isabel Luisa (u20241e158).*
@@ -306,8 +304,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Attainable | Cuento con conocimientos de programación, bases de datos, arquitectura de software, APIs y desarrollo de aplicaciones adquiridos durante la carrera. También puedo reforzarlos mediante proyectos personales y preparación para entrevistas técnicas. |
 | Relevant   | Conseguir experiencia laboral me permitirá aplicar mis conocimientos, desarrollar soluciones reales, aprender prácticas profesionales y construir una trayectoria en ingeniería de software. |
 | Time-bound | Alcanzar este objetivo dentro de los seis meses posteriores a mi egreso. |
-
-*Objetivo 2 — Fortalecer mis habilidades de liderazgo técnico en proyectos de software*
 
 **Tabla 4**
 
@@ -324,8 +320,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Astocondor Bazan, Alejandra Isabel (U202410678)
 
-*Objetivo 1 — Creación de un producto digital propio*
-
 **Tabla 5**
 
 *Objetivo 1 — Creación de un producto digital propio de Astocondor Bazan, Alejandra Isabel (U202410678).*
@@ -337,8 +331,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Attainable | Cuento con conocimientos de programación, diseño digital y desarrollo de soluciones tecnológicas adquiridos durante la carrera, por lo que puedo construir una primera versión de alcance reducido. |
 | Relevant | Me permitirá aplicar mis conocimientos en un proyecto completo, fortalecer mi capacidad para tomar decisiones de producto y demostrar iniciativa profesional. |
 | Time-bound | Dentro del primer año posterior a mi egreso. |
-
-*Objetivo 2 — Construcción de un portafolio profesional*
 
 **Tabla 6**
 
@@ -354,8 +346,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Dulanto Espino, Leo César (U202410254)
 
-*Objetivo 1 — Especialización en desarrollo backend y servicios web*
-
 **Tabla 7**
 
 *Objetivo 1 — Especialización en desarrollo backend y servicios web de Dulanto Espino, Leo César (U202410254).*
@@ -367,8 +357,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Attainable | Cuento con conocimientos previos en Java, Python, fundamentos de desarrollo web y bases de datos, adquiridos durante mi formación académica. |
 | Relevant | Esta especialización me permitirá mejorar mis oportunidades laborales y participar en el desarrollo de soluciones de software escalables y confiables. |
 | Time-bound | Alcanzar este objetivo durante el primer año posterior a mi egreso. |
-
-*Objetivo 2 — Desarrollo de habilidades de liderazgo técnico*
 
 **Tabla 8**
 
@@ -384,8 +372,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Pajés León, Mauricio Luis (u202410093)
 
-*Objetivo 1 — Especialización en arquitectura de software*
-
 **Tabla 9**
 
 *Objetivo 1 — Especialización en arquitectura de software de Pajés León, Mauricio Luis (u202410093).*
@@ -398,7 +384,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant | Me permitirá fortalecer mi capacidad para diseñar soluciones confiables y mantenibles, así como tomar decisiones técnicas mejor fundamentadas en proyectos profesionales. |
 | Time-bound | Dentro de los nueve meses posteriores a mi egreso. |
 
-*Objetivo 2 — Desarrollo de soluciones con inteligencia artificial aplicada*
 
 **Tabla 10**
 
@@ -414,10 +399,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Philco Mota, Katty Yolanda (u202416107)
 
-## Philco Mota, Katty Yolanda (u202416107)
-
-*Objetivo 1 — Especialización en backend y buenas prácticas de arquitectura de software*
-
 **Tabla 11**
 
 *Objetivo 1 — [Título del objetivo] de Philco Mota, Katty Yolanda (u202416107).*
@@ -429,8 +410,6 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Attainable | Cuento con base en programación, estructuras de datos y algoritmos, además de la experiencia práctica adquirida en este proyecto (EcoMind), donde apliqué Domain-Driven Design, Event Storming, Bounded Context Canvas y C4 Model en la documentación de arquitectura del bounded context Users, lo que me da una base sólida para profundizar formalmente estos temas. |
 | Relevant | Consolidar estas competencias fortalecerá mi perfil como ingeniera backend orientada a buenas prácticas de arquitectura, aumentando mi empleabilidad y mi capacidad de participar en decisiones técnicas de diseño de software. |
 | Time-bound | Dentro del primer año posterior a mi egreso. |
-
-*Objetivo 2 — Construcción de un portafolio profesional*
 
 **Tabla 12**
 
@@ -483,6 +462,9 @@ Diseñar soluciones digitales educativas, accesibles y motivadoras que fortalezc
 | <img src="assets/img/team-photos/leo-photo.jpg" width="150"> | Dulanto Espino, Leo César (U202410254) | Estudiante de Ingeniería de Software, con conocimientos en C++, Python y fundamentos de desarrollo web y Java. Me gusta crear soluciones creativas a problemas y apoyar activamente al equipo en los proyectos. |
 | <img src="assets/img/team-photos/mauricio-photo.jpg" width="150"> | Pajés León, Mauricio Luis (u202410093) | Mi nombre es Mauricio Luis Pajés León y estudio Ingeniería de Software en la UPC. Me enfoco en el desarrollo Backend, principalmente con TypeScript y Node.js, integración de APIs, bases de datos y procesamiento de eventos en AWS. También manejo C++, Python, Java con Spring Boot, .NET y Angular, y tengo conocimientos en patrones de software y bases de datos SQL y NoSQL. Me interesa seguir aprendiendo nuevas tecnologías, desarrollar soluciones confiables y trabajar en equipo. |
 | <img src="assets/img/team-photos/katty-photo.png" width="150"> | Philco Mota, Katty Yolanda (u202416107) | Soy una persona responsable y comprometida con mi crecimiento académico. Cuento con conocimientos en programación, especialmente en C++, así como en estructuras de datos, algoritmos y desarrollo de soluciones tecnológicas orientadas a proyectos reales. |
+
+<div style="page-break-before: always;"></div>
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -702,8 +684,6 @@ Link: https://canva.link/9mzenct40v5ocok
 
 ## 1.3. Segmentos objetivo
 
-<div style="page-break-before: always;">
-
 Los segmentos objetivo comprenden a los usuarios finales a los que nuestra solución busca atender. Para el caso de nuestra plataforma, se han determinado los siguientes perfiles prioritarios:
 
 #### Segmento objetivo #1: Estudiantes de Primaria
@@ -744,6 +724,7 @@ Respecto a los padres de familia, las investigaciones destacan que su involucram
 **Necesidad:**
 El padre de familia requiere una guía práctica y recursos simplificados (como guías o FAQs) para acompañar a sus hijos en el desarrollo de hábitos sostenibles. Necesita reportes de impacto y progreso que le den la seguridad de que sus hijos están aprendiendo de forma verificable, reforzando la conexión entre la escuela y el hogar.
 
+<div style="page-break-before: always;"></div>
 
 # Capítulo II: Requirements Development and Software Solution Design
 
@@ -6364,8 +6345,6 @@ El diseño de la base de datos organiza por separado los cosméticos, multiplica
 
 ![Database](assets/img/figures/databaseMone.png)
 
-# Conclusiones
-
 <div style="page-break-after: always;"></div>
 
 # Conclusiones
@@ -6407,7 +6386,3 @@ Finalmente, se recomienda mantener el mismo nivel de profundidad y documentació
 - Y-Group Games. (s. f.). Defender of the nature. Google Play. https://play.google.com/store/apps/details?id=com.YovoGames.Defender&hl=es_PE 
 
 # Anexos
-<<<<<<< HEAD
-=======
-
->>>>>>> 43fdfdd1d753d5cf00683a14bdaaca02e4d365b3
