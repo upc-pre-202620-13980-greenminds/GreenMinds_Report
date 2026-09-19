@@ -4021,7 +4021,7 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 En esta sección se presenta el Context Diagram de EcoMind, elaborado con C4 Model y Structurizr DSL. El diagrama muestra a EcoMind como un único sistema de software rodeado por los usuarios y los sistemas externos con los que interactúa, sin exponer aún su descomposición interna.
 
-Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden a la plataforma ya registrados, y el visitante, que llega primero al Landing Page antes de crear una cuenta. EcoMind se comunica con cuatro sistemas externos: el servicio de correo Resend, utilizado para enviar la verificación de cuenta y la recuperación de contraseña; las pasarelas de pago con tarjeta, Yape y PayPal, utilizadas para las compras dentro de Monetization; y Google Maps, utilizado para mostrar en un mapa los eventos comunitarios cercanos a la ubicación del usuario.
+Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden a la plataforma ya registrados, y el visitante, que llega primero al Landing Page antes de crear una cuenta. EcoMind se comunica con cuatro sistemas externos: el servicio de correo Resend, utilizado para enviar la verificación de cuenta y la recuperación de contraseña; las pasarelas de pago con tarjeta, Yape y PayPal, utilizadas para las compras dentro de Monetization y Leaflet utilizado para mostrar en un mapa los eventos comunitarios cercanos a la ubicación del usuario.
 
 ![ContextEcoMind](assets/img/figures/ContextEcoMind.png)
 
