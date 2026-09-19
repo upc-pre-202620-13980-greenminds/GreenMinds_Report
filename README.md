@@ -76,8 +76,10 @@ Proyecto <br>
 | 1.0.0    | 07/09/2026     | Isabel Aponte   | docs: agregar  competidores <br> docs: agregar estrategias y tacticas <br> docs: agregar segmento objetivo  |
 | 1.0.0    | 09/09/2026     | Alejandra Astocondor   | docs: agregar lean UX Process |
 | 1.0.0    | 15/09/2026     |  Isabel Aponte, Alejandra Astocondor  | docs: agregar diseño de entrevistas  <br> docs: agregar registro de entrevistas <br> docs: agregar Big Picture EventStorming y EventStorming <br> docs: agregar Candidate Context Discovery  |
-| 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog <br> docs: agregar impact mapping  |
-| 1.0.0    | 17/09/2026     | Katty Philco, Isabel Aponte   | docs: agregar registro de entrevistas <br> docs: agregar sección Needfinding <br> docs: agregar Bounded Context: Monetization <br> docs: agregar Bounded Context Software Architecture Component Level and code diagrams  <br>  |
+| 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor, Mauricio Pajes  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog <br> docs: agregar impact mapping  <br> docs: agregar registro de entrevistas |
+| 1.0.0    | 17/09/2026     | Katty Philco, Isabel Aponte | docs: agregar registro de entrevistas <br> docs: agregar sección Needfinding <br> docs: agregar Bounded Context: Monetization <br> docs: agregar Bounded Context Software Architecture Component Level and code diagrams  <br>  |
+| 1.0.0    | 18/09/2026     | Alejandra Astocondor, Isabel Aponte, Leo Dulanto, Katty Philco | docs: agregar diagramas Bounded Context Quest <br> docs: agregar Bounded Context: Learning <br> docs: agregar bounded context canvases community <br> docs: agregar Bounded Context: IAM  <br> docs: agregar Bounded Context: User <br> docs: agregar lenguaje ubicuo <br> docs: agregar Bounded Context: Community <br> docs: agregar Bounded Context: Gamification <br> docs: agregar objetivos SMART  |
+
 # Project Report Collaboration Insights
 
 Project Report URL: https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report.git 
