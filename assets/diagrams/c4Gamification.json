@@ -1,0 +1,880 @@
+{
+  "configuration": {},
+  "description": "Gamification components aligned with Quests and Monetization.",
+  "documentation": {},
+  "id": 0,
+  "model": {
+    "people": [
+      {
+        "description": "Consulta progreso, logros y rankings; solicita compartir un logro.",
+        "id": "1",
+        "name": "EcoMind User",
+        "properties": {
+          "structurizr.dsl.identifier": "user"
+        },
+        "relationships": [
+          {
+            "description": "Uses",
+            "destinationId": "4",
+            "id": "26",
+            "sourceId": "1",
+            "tags": "Relationship"
+          }
+        ],
+        "tags": "Element,Person"
+      }
+    ],
+    "softwareSystems": [
+      {
+        "containers": [
+          {
+            "components": [
+              {
+                "description": "Displays rankings, achievement filters, celebration and optional sharing.",
+                "documentation": {},
+                "id": "4",
+                "name": "Gamification UI",
+                "properties": {
+                  "structurizr.dsl.identifier": "ui"
+                },
+                "relationships": [
+                  {
+                    "description": "Sends actions and observes state",
+                    "destinationId": "5",
+                    "id": "27",
+                    "sourceId": "4",
+                    "tags": "Relationship"
+                  }
+                ],
+                "tags": "Element,Component",
+                "technology": "Jetpack Compose"
+              },
+              {
+                "description": "Manages filters, sharing choice, retryable draft and publication state.",
+                "documentation": {},
+                "id": "5",
+                "name": "Gamification ViewModels",
+                "properties": {
+                  "structurizr.dsl.identifier": "vm"
+                },
+                "relationships": [
+                  {
+                    "description": "Invokes",
+                    "destinationId": "6",
+                    "id": "28",
+                    "sourceId": "5",
+                    "tags": "Relationship"
+                  }
+                ],
+                "tags": "Element,Component",
+                "technology": "ViewModel / StateFlow"
+              },
+              {
+                "description": "Queries rankings and awards; reads shared community posts; requests voluntary sharing.",
+                "documentation": {},
+                "id": "6",
+                "name": "Gamification Use Cases",
+                "properties": {
+                  "structurizr.dsl.identifier": "useCases"
+                },
+                "relationships": [
+                  {
+                    "description": "Calculates weekly positions",
+                    "destinationId": "7",
+                    "id": "29",
+                    "sourceId": "6",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Uses repository contract",
+                    "destinationId": "8",
+                    "id": "30",
+                    "sourceId": "6",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Queries shared achievements",
+                    "destinationId": "11",
+                    "id": "31",
+                    "sourceId": "6",
+                    "tags": "Relationship",
+                    "technology": "Kotlin call"
+                  }
+                ],
+                "tags": "Element,Component",
+                "technology": "Kotlin"
+              },
+              {
+                "description": "Filters period transactions and calculates weekly positions (TS-007).",
+                "documentation": {},
+                "id": "7",
+                "name": "Weekly Ranking Calculator",
+                "properties": {
+                  "structurizr.dsl.identifier": "weeklyRanking"
+                },
+                "tags": "Element,Component",
+                "technology": "Kotlin"
+              },
+              {
+                "description": "Coordinates remote queries and maps results.",
+                "documentation": {},
+                "id": "8",
+                "name": "Gamification Repository Implementation",
+                "properties": {
+                  "structurizr.dsl.identifier": "mobileRepo"
+                },
+                "relationships": [
+                  {
+                    "description": "Maps data",
+                    "destinationId": "9",
+                    "id": "33",
+                    "sourceId": "8",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Queries or requests sharing",
+                    "destinationId": "10",
+                    "id": "34",
+                    "sourceId": "8",
+                    "tags": "Relationship"
+                  }
+                ],
+                "tags": "Element,Component",
+                "technology": "Kotlin"
+              },
+              {
+                "description": "Transforms network DTOs into mobile models.",
+                "documentation": {},
+                "id": "9",
+                "name": "Gamification Data Mappers",
+                "properties": {
+                  "structurizr.dsl.identifier": "mappers"
+                },
+                "tags": "Element,Component",
+                "technology": "Kotlin"
+              },
+              {
+                "description": "Consumes Gamification REST resources.",
+                "documentation": {},
+                "id": "10",
+                "name": "Gamification Remote Data Source",
+                "properties": {
+                  "structurizr.dsl.identifier": "remote"
+                },
+                "relationships": [
+                  {
+                    "description": "Uses Gamification API",
+                    "destinationId": "12",
+                    "id": "35",
+                    "sourceId": "10",
+                    "tags": "Relationship",
+                    "technology": "HTTPS / JSON"
+                  }
+                ],
+                "tags": "Element,Component",
+                "technology": "Retrofit / HTTPS"
+              },
+              {
+                "description": "Reads and filters shared achievement posts owned by Community (HU-038).",
+                "documentation": {},
+                "id": "11",
+                "name": "Community Feature Gateway",
+                "properties": {
+                  "structurizr.dsl.identifier": "communityGateway"
+                },
+                "relationships": [
+                  {
+                    "description": "Uses Community publications API",
+                    "destinationId": "12",
+                    "id": "32",
+                    "sourceId": "11",
+                    "tags": "Relationship",
+                    "technology": "HTTPS / JSON"
+                  }
+                ],
+                "tags": "Element,Component",
+                "technology": "Kotlin / Community API"
+              }
+            ],
+            "description": "Consulta el progreso y los reconocimientos del usuario.",
+            "documentation": {},
+            "id": "3",
+            "name": "EcoMind Android Application",
+            "properties": {
+              "structurizr.dsl.identifier": "mobileApp"
+            },
+            "relationships": [
+              {
+                "description": "Uses",
+                "destinationId": "13",
+                "id": "36",
+                "sourceId": "3",
+                "tags": "Relationship",
+                "technology": "HTTPS / JSON"
+              },
+              {
+                "description": "Reads shared achievement posts",
+                "destinationId": "23",
+                "id": "37",
+                "sourceId": "3",
+                "tags": "Relationship,IntegrationDetail",
+                "technology": "HTTPS / JSON"
+              }
+            ],
+            "tags": "Element,Container",
+            "technology": "Kotlin / Android"
+          },
+          {
+            "components": [
+              {
+                "description": "Expone progreso, logros, rankings y solicitudes de compartir.",
+                "documentation": {},
+                "group": "Gamification",
+                "id": "13",
+                "name": "REST Controllers",
+                "properties": {
+                  "structurizr.dsl.identifier": "rest"
+                },
+                "relationships": [
+                  {
+                    "description": "Dispatches commands and queries",
+                    "destinationId": "15",
+                    "id": "38",
+                    "sourceId": "13",
+                    "tags": "Relationship"
+                  }
+                ],
+                "tags": "Element,Component,Interface",
+                "technology": "Spring REST"
+              },
+              {
+                "description": "Procesa finalizaciones, participación y respuestas de integración.",
+                "documentation": {},
+                "group": "Gamification",
+                "id": "14",
+                "name": "Event Handlers",
+                "properties": {
+                  "structurizr.dsl.identifier": "consumers"
+                },
+                "relationships": [
+                  {
+                    "description": "Invokes commands",
+                    "destinationId": "15",
+                    "id": "42",
+                    "sourceId": "14",
+                    "tags": "Relationship"
+                  }
+                ],
+                "tags": "Element,Component,Interface",
+                "technology": "Spring Event Listeners / Adapters"
+              },
+              {
+                "description": "Coordina recompensas, rachas, logros y solicitudes de compartir.",
+                "documentation": {},
+                "group": "Gamification",
+                "id": "15",
+                "name": "Application Services",
+                "properties": {
+                  "structurizr.dsl.identifier": "services"
+                },
+                "relationships": [
+                  {
+                    "description": "Uses domain rules",
+                    "destinationId": "17",
+                    "id": "44",
+                    "sourceId": "15",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Loads and persists",
+                    "destinationId": "18",
+                    "id": "45",
+                    "sourceId": "15",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Uses context contracts",
+                    "destinationId": "19",
+                    "id": "46",
+                    "sourceId": "15",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Publishes integration events",
+                    "destinationId": "20",
+                    "id": "47",
+                    "sourceId": "15",
+                    "tags": "Relationship"
+                  }
+                ],
+                "tags": "Element,Component,Application",
+                "technology": "Spring Services"
+              },
+              {
+                "description": "Evalúa el cierre diario de las rachas activas.",
+                "documentation": {},
+                "group": "Gamification",
+                "id": "16",
+                "name": "Daily Streak Lifecycle Service",
+                "properties": {
+                  "structurizr.dsl.identifier": "daily"
+                },
+                "relationships": [
+                  {
+                    "description": "Evaluates daily streaks",
+                    "destinationId": "15",
+                    "id": "43",
+                    "sourceId": "16",
+                    "tags": "Relationship"
+                  }
+                ],
+                "tags": "Element,Component,Application",
+                "technology": "Spring Scheduler"
+              },
+              {
+                "description": "Define progreso, recompensas, logros, rachas y sus reglas.",
+                "documentation": {},
+                "group": "Gamification",
+                "id": "17",
+                "name": "Domain Model",
+                "properties": {
+                  "structurizr.dsl.identifier": "domain"
+                },
+                "tags": "Element,Component,Domain",
+                "technology": "Java / DDD"
+              },
+              {
+                "description": "Implementa los repositorios de progreso, recompensas, logros y solicitudes.",
+                "documentation": {},
+                "group": "Gamification",
+                "id": "18",
+                "name": "Persistence Adapters",
+                "properties": {
+                  "structurizr.dsl.identifier": "persistence"
+                },
+                "relationships": [
+                  {
+                    "description": "Reads and writes",
+                    "destinationId": "25",
+                    "id": "55",
+                    "sourceId": "18",
+                    "tags": "Relationship",
+                    "technology": "JPA / JDBC"
+                  }
+                ],
+                "tags": "Element,Component,Infrastructure",
+                "technology": "Spring Data JPA"
+              },
+              {
+                "description": "Adapta consultas y operaciones de los contextos colaboradores.",
+                "documentation": {},
+                "group": "Gamification",
+                "id": "19",
+                "name": "Context Service Clients",
+                "properties": {
+                  "structurizr.dsl.identifier": "clients"
+                },
+                "relationships": [
+                  {
+                    "description": "Queries users, friendships and families",
+                    "destinationId": "22",
+                    "id": "48",
+                    "sourceId": "19",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Queries base rewards and attempts",
+                    "destinationId": "21",
+                    "id": "49",
+                    "sourceId": "19",
+                    "tags": "Relationship,IntegrationDetail"
+                  },
+                  {
+                    "description": "Checks membership and sharing access",
+                    "destinationId": "23",
+                    "id": "50",
+                    "sourceId": "19",
+                    "tags": "Relationship,IntegrationDetail"
+                  },
+                  {
+                    "description": "Queries active XP factor; grants cosmetic reward",
+                    "destinationId": "24",
+                    "id": "51",
+                    "sourceId": "19",
+                    "tags": "Relationship,IntegrationDetail"
+                  }
+                ],
+                "tags": "Element,Component,Infrastructure",
+                "technology": "Java / ACL"
+              },
+              {
+                "description": "Entrega recompensas, avisos de logro y solicitudes de protección y publicación.",
+                "documentation": {},
+                "group": "Gamification",
+                "id": "20",
+                "name": "Event Publisher",
+                "properties": {
+                  "structurizr.dsl.identifier": "publisher"
+                },
+                "relationships": [
+                  {
+                    "description": "Sends rewards and protection requests",
+                    "destinationId": "24",
+                    "id": "52",
+                    "sourceId": "20",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Delivers queued cosmetic grant",
+                    "destinationId": "19",
+                    "id": "53",
+                    "sourceId": "20",
+                    "tags": "Relationship,IntegrationDetail"
+                  },
+                  {
+                    "description": "Sends award notices and sharing requests",
+                    "destinationId": "23",
+                    "id": "54",
+                    "sourceId": "20",
+                    "tags": "Relationship"
+                  },
+                  {
+                    "description": "Persists pending messages",
+                    "destinationId": "25",
+                    "id": "56",
+                    "sourceId": "20",
+                    "tags": "Relationship,IntegrationDetail",
+                    "technology": "JPA / JDBC"
+                  }
+                ],
+                "tags": "Element,Component,Infrastructure",
+                "technology": "Spring Events / Transactional Outbox"
+              },
+              {
+                "description": "Valida misiones y comunica sus finalizaciones.",
+                "documentation": {},
+                "id": "21",
+                "name": "Quests Bounded Context",
+                "properties": {
+                  "structurizr.dsl.identifier": "quests"
+                },
+                "relationships": [
+                  {
+                    "description": "Publishes completion events",
+                    "destinationId": "14",
+                    "id": "39",
+                    "sourceId": "21",
+                    "tags": "Relationship",
+                    "technology": "Spring Application Events"
+                  }
+                ],
+                "tags": "Element,Component,BoundedContext",
+                "technology": "Java / Spring Boot"
+              },
+              {
+                "description": "Administra perfiles, amistades, familias y roles.",
+                "documentation": {},
+                "id": "22",
+                "name": "Users Bounded Context",
+                "properties": {
+                  "structurizr.dsl.identifier": "users"
+                },
+                "tags": "Element,Component,BoundedContext",
+                "technology": "Java / Spring Boot"
+              },
+              {
+                "description": "Administra comunidades, participación y publicaciones.",
+                "documentation": {},
+                "id": "23",
+                "name": "Community Bounded Context",
+                "properties": {
+                  "structurizr.dsl.identifier": "community"
+                },
+                "relationships": [
+                  {
+                    "description": "Reports participation; proposed correlated publication reply",
+                    "destinationId": "14",
+                    "id": "40",
+                    "sourceId": "23",
+                    "tags": "Relationship,IntegrationDetail"
+                  }
+                ],
+                "tags": "Element,Component,BoundedContext",
+                "technology": "Java / Spring Boot"
+              },
+              {
+                "description": "Administra gemas, cosméticos, multiplicadores y protectores.",
+                "documentation": {},
+                "id": "24",
+                "name": "Monetization Bounded Context",
+                "properties": {
+                  "structurizr.dsl.identifier": "monetization"
+                },
+                "relationships": [
+                  {
+                    "description": "Confirms protection or unavailability",
+                    "destinationId": "14",
+                    "id": "41",
+                    "sourceId": "24",
+                    "tags": "Relationship,IntegrationDetail"
+                  }
+                ],
+                "tags": "Element,Component,BoundedContext",
+                "technology": "Java / Spring Boot"
+              }
+            ],
+            "description": "Backend que contiene los bounded contexts de EcoMind.",
+            "documentation": {},
+            "id": "12",
+            "name": "EcoMind API",
+            "properties": {
+              "structurizr.dsl.identifier": "backend"
+            },
+            "tags": "Element,Container",
+            "technology": "Java / Spring Boot"
+          },
+          {
+            "description": "Almacena progreso, recompensas, logros, solicitudes y outbox.",
+            "documentation": {},
+            "id": "25",
+            "name": "Gamification Database",
+            "properties": {
+              "structurizr.dsl.identifier": "database"
+            },
+            "tags": "Element,Container,Database",
+            "technology": "MySQL / Logical schema"
+          }
+        ],
+        "description": "Plataforma de educación y participación ambiental.",
+        "documentation": {},
+        "id": "2",
+        "name": "EcoMind",
+        "properties": {
+          "structurizr.dsl.identifier": "ecoMind"
+        },
+        "tags": "Element,Software System"
+      }
+    ]
+  },
+  "name": "EcoMind - Gamification Component Diagrams",
+  "properties": {
+    "structurizr.inspection.error": "28",
+    "structurizr.dsl": "d29ya3NwYWNlICJFY29NaW5kIC0gR2FtaWZpY2F0aW9uIENvbXBvbmVudCBEaWFncmFtcyIgIkdhbWlmaWNhdGlvbiBjb21wb25lbnRzIGFsaWduZWQgd2l0aCBRdWVzdHMgYW5kIE1vbmV0aXphdGlvbi4iIHsKICAgICFpbXBsaWVkUmVsYXRpb25zaGlwcyBmYWxzZQogICAgbW9kZWwgewogICAgICAgIHVzZXIgPSBwZXJzb24gIkVjb01pbmQgVXNlciIgIkNvbnN1bHRhIHByb2dyZXNvLCBsb2dyb3MgeSByYW5raW5nczsgc29saWNpdGEgY29tcGFydGlyIHVuIGxvZ3JvLiIKICAgICAgICBlY29NaW5kID0gc29mdHdhcmVTeXN0ZW0gIkVjb01pbmQiICJQbGF0YWZvcm1hIGRlIGVkdWNhY2nDs24geSBwYXJ0aWNpcGFjacOzbiBhbWJpZW50YWwuIiB7CiAgICAgICAgICAgIG1vYmlsZUFwcCA9IGNvbnRhaW5lciAiRWNvTWluZCBBbmRyb2lkIEFwcGxpY2F0aW9uIiAiQ29uc3VsdGEgZWwgcHJvZ3Jlc28geSBsb3MgcmVjb25vY2ltaWVudG9zIGRlbCB1c3VhcmlvLiIgIktvdGxpbiAvIEFuZHJvaWQiIHsKICAgICAgICAgICAgICAgIHVpID0gY29tcG9uZW50ICJHYW1pZmljYXRpb24gVUkiICJEaXNwbGF5cyByYW5raW5ncywgYWNoaWV2ZW1lbnQgZmlsdGVycywgY2VsZWJyYXRpb24gYW5kIG9wdGlvbmFsIHNoYXJpbmcuIiAiSmV0cGFjayBDb21wb3NlIgogICAgICAgICAgICAgICAgdm0gPSBjb21wb25lbnQgIkdhbWlmaWNhdGlvbiBWaWV3TW9kZWxzIiAiTWFuYWdlcyBmaWx0ZXJzLCBzaGFyaW5nIGNob2ljZSwgcmV0cnlhYmxlIGRyYWZ0IGFuZCBwdWJsaWNhdGlvbiBzdGF0ZS4iICJWaWV3TW9kZWwgLyBTdGF0ZUZsb3ciCiAgICAgICAgICAgICAgICB1c2VDYXNlcyA9IGNvbXBvbmVudCAiR2FtaWZpY2F0aW9uIFVzZSBDYXNlcyIgIlF1ZXJpZXMgcmFua2luZ3MgYW5kIGF3YXJkczsgcmVhZHMgc2hhcmVkIGNvbW11bml0eSBwb3N0czsgcmVxdWVzdHMgdm9sdW50YXJ5IHNoYXJpbmcuIiAiS290bGluIgogICAgICAgICAgICAgICAgd2Vla2x5UmFua2luZyA9IGNvbXBvbmVudCAiV2Vla2x5IFJhbmtpbmcgQ2FsY3VsYXRvciIgIkZpbHRlcnMgcGVyaW9kIHRyYW5zYWN0aW9ucyBhbmQgY2FsY3VsYXRlcyB3ZWVrbHkgcG9zaXRpb25zIChUUy0wMDcpLiIgIktvdGxpbiIKICAgICAgICAgICAgICAgIG1vYmlsZVJlcG8gPSBjb21wb25lbnQgIkdhbWlmaWNhdGlvbiBSZXBvc2l0b3J5IEltcGxlbWVudGF0aW9uIiAiQ29vcmRpbmF0ZXMgcmVtb3RlIHF1ZXJpZXMgYW5kIG1hcHMgcmVzdWx0cy4iICJLb3RsaW4iCiAgICAgICAgICAgICAgICBtYXBwZXJzID0gY29tcG9uZW50ICJHYW1pZmljYXRpb24gRGF0YSBNYXBwZXJzIiAiVHJhbnNmb3JtcyBuZXR3b3JrIERUT3MgaW50byBtb2JpbGUgbW9kZWxzLiIgIktvdGxpbiIKICAgICAgICAgICAgICAgIHJlbW90ZSA9IGNvbXBvbmVudCAiR2FtaWZpY2F0aW9uIFJlbW90ZSBEYXRhIFNvdXJjZSIgIkNvbnN1bWVzIEdhbWlmaWNhdGlvbiBSRVNUIHJlc291cmNlcy4iICJSZXRyb2ZpdCAvIEhUVFBTIgogICAgICAgICAgICAgICAgY29tbXVuaXR5R2F0ZXdheSA9IGNvbXBvbmVudCAiQ29tbXVuaXR5IEZlYXR1cmUgR2F0ZXdheSIgIlJlYWRzIGFuZCBmaWx0ZXJzIHNoYXJlZCBhY2hpZXZlbWVudCBwb3N0cyBvd25lZCBieSBDb21tdW5pdHkgKEhVLTAzOCkuIiAiS290bGluIC8gQ29tbXVuaXR5IEFQSSIKICAgICAgICAgICAgfQogICAgICAgICAgICBiYWNrZW5kID0gY29udGFpbmVyICJFY29NaW5kIEFQSSIgIkJhY2tlbmQgcXVlIGNvbnRpZW5lIGxvcyBib3VuZGVkIGNvbnRleHRzIGRlIEVjb01pbmQuIiAiSmF2YSAvIFNwcmluZyBCb290IiB7CiAgICAgICAgICAgICAgICBncm91cCAiR2FtaWZpY2F0aW9uIiB7CiAgICAgICAgICAgICAgICAgICAgcmVzdCA9IGNvbXBvbmVudCAiUkVTVCBDb250cm9sbGVycyIgIkV4cG9uZSBwcm9ncmVzbywgbG9ncm9zLCByYW5raW5ncyB5IHNvbGljaXR1ZGVzIGRlIGNvbXBhcnRpci4iICJTcHJpbmcgUkVTVCIgIkludGVyZmFjZSIKICAgICAgICAgICAgICAgICAgICBjb25zdW1lcnMgPSBjb21wb25lbnQgIkV2ZW50IEhhbmRsZXJzIiAiUHJvY2VzYSBmaW5hbGl6YWNpb25lcywgcGFydGljaXBhY2nDs24geSByZXNwdWVzdGFzIGRlIGludGVncmFjacOzbi4iICJTcHJpbmcgRXZlbnQgTGlzdGVuZXJzIC8gQWRhcHRlcnMiICJJbnRlcmZhY2UiCiAgICAgICAgICAgICAgICAgICAgc2VydmljZXMgPSBjb21wb25lbnQgIkFwcGxpY2F0aW9uIFNlcnZpY2VzIiAiQ29vcmRpbmEgcmVjb21wZW5zYXMsIHJhY2hhcywgbG9ncm9zIHkgc29saWNpdHVkZXMgZGUgY29tcGFydGlyLiIgIlNwcmluZyBTZXJ2aWNlcyIgIkFwcGxpY2F0aW9uIgogICAgICAgICAgICAgICAgICAgIGRhaWx5ID0gY29tcG9uZW50ICJEYWlseSBTdHJlYWsgTGlmZWN5Y2xlIFNlcnZpY2UiICJFdmFsw7phIGVsIGNpZXJyZSBkaWFyaW8gZGUgbGFzIHJhY2hhcyBhY3RpdmFzLiIgIlNwcmluZyBTY2hlZHVsZXIiICJBcHBsaWNhdGlvbiIKICAgICAgICAgICAgICAgICAgICBkb21haW4gPSBjb21wb25lbnQgIkRvbWFpbiBNb2RlbCIgIkRlZmluZSBwcm9ncmVzbywgcmVjb21wZW5zYXMsIGxvZ3JvcywgcmFjaGFzIHkgc3VzIHJlZ2xhcy4iICJKYXZhIC8gREREIiAiRG9tYWluIgogICAgICAgICAgICAgICAgICAgIHBlcnNpc3RlbmNlID0gY29tcG9uZW50ICJQZXJzaXN0ZW5jZSBBZGFwdGVycyIgIkltcGxlbWVudGEgbG9zIHJlcG9zaXRvcmlvcyBkZSBwcm9ncmVzbywgcmVjb21wZW5zYXMsIGxvZ3JvcyB5IHNvbGljaXR1ZGVzLiIgIlNwcmluZyBEYXRhIEpQQSIgIkluZnJhc3RydWN0dXJlIgogICAgICAgICAgICAgICAgICAgIGNsaWVudHMgPSBjb21wb25lbnQgIkNvbnRleHQgU2VydmljZSBDbGllbnRzIiAiQWRhcHRhIGNvbnN1bHRhcyB5IG9wZXJhY2lvbmVzIGRlIGxvcyBjb250ZXh0b3MgY29sYWJvcmFkb3Jlcy4iICJKYXZhIC8gQUNMIiAiSW5mcmFzdHJ1Y3R1cmUiCiAgICAgICAgICAgICAgICAgICAgcHVibGlzaGVyID0gY29tcG9uZW50ICJFdmVudCBQdWJsaXNoZXIiICJFbnRyZWdhIHJlY29tcGVuc2FzLCBhdmlzb3MgZGUgbG9ncm8geSBzb2xpY2l0dWRlcyBkZSBwcm90ZWNjacOzbiB5IHB1YmxpY2FjacOzbi4iICJTcHJpbmcgRXZlbnRzIC8gVHJhbnNhY3Rpb25hbCBPdXRib3giICJJbmZyYXN0cnVjdHVyZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHF1ZXN0cyA9IGNvbXBvbmVudCAiUXVlc3RzIEJvdW5kZWQgQ29udGV4dCIgIlZhbGlkYSBtaXNpb25lcyB5IGNvbXVuaWNhIHN1cyBmaW5hbGl6YWNpb25lcy4iICJKYXZhIC8gU3ByaW5nIEJvb3QiICJCb3VuZGVkQ29udGV4dCIKICAgICAgICAgICAgICAgIHVzZXJzID0gY29tcG9uZW50ICJVc2VycyBCb3VuZGVkIENvbnRleHQiICJBZG1pbmlzdHJhIHBlcmZpbGVzLCBhbWlzdGFkZXMsIGZhbWlsaWFzIHkgcm9sZXMuIiAiSmF2YSAvIFNwcmluZyBCb290IiAiQm91bmRlZENvbnRleHQiCiAgICAgICAgICAgICAgICBjb21tdW5pdHkgPSBjb21wb25lbnQgIkNvbW11bml0eSBCb3VuZGVkIENvbnRleHQiICJBZG1pbmlzdHJhIGNvbXVuaWRhZGVzLCBwYXJ0aWNpcGFjacOzbiB5IHB1YmxpY2FjaW9uZXMuIiAiSmF2YSAvIFNwcmluZyBCb290IiAiQm91bmRlZENvbnRleHQiCiAgICAgICAgICAgICAgICBtb25ldGl6YXRpb24gPSBjb21wb25lbnQgIk1vbmV0aXphdGlvbiBCb3VuZGVkIENvbnRleHQiICJBZG1pbmlzdHJhIGdlbWFzLCBjb3Ntw6l0aWNvcywgbXVsdGlwbGljYWRvcmVzIHkgcHJvdGVjdG9yZXMuIiAiSmF2YSAvIFNwcmluZyBCb290IiAiQm91bmRlZENvbnRleHQiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGF0YWJhc2UgPSBjb250YWluZXIgIkdhbWlmaWNhdGlvbiBEYXRhYmFzZSIgIkFsbWFjZW5hIHByb2dyZXNvLCByZWNvbXBlbnNhcywgbG9ncm9zLCBzb2xpY2l0dWRlcyB5IG91dGJveC4iICJNeVNRTCAvIExvZ2ljYWwgc2NoZW1hIiAiRGF0YWJhc2UiCiAgICAgICAgfQogICAgICAgIHVzZXIgLT4gdWkgIlVzZXMiCiAgICAgICAgdWkgLT4gdm0gIlNlbmRzIGFjdGlvbnMgYW5kIG9ic2VydmVzIHN0YXRlIgogICAgICAgIHZtIC0+IHVzZUNhc2VzICJJbnZva2VzIgogICAgICAgIHVzZUNhc2VzIC0+IHdlZWtseVJhbmtpbmcgIkNhbGN1bGF0ZXMgd2Vla2x5IHBvc2l0aW9ucyIKICAgICAgICB1c2VDYXNlcyAtPiBtb2JpbGVSZXBvICJVc2VzIHJlcG9zaXRvcnkgY29udHJhY3QiCiAgICAgICAgdXNlQ2FzZXMgLT4gY29tbXVuaXR5R2F0ZXdheSAiUXVlcmllcyBzaGFyZWQgYWNoaWV2ZW1lbnRzIiAiS290bGluIGNhbGwiCiAgICAgICAgY29tbXVuaXR5R2F0ZXdheSAtPiBiYWNrZW5kICJVc2VzIENvbW11bml0eSBwdWJsaWNhdGlvbnMgQVBJIiAiSFRUUFMgLyBKU09OIgogICAgICAgIG1vYmlsZVJlcG8gLT4gbWFwcGVycyAiTWFwcyBkYXRhIgogICAgICAgIG1vYmlsZVJlcG8gLT4gcmVtb3RlICJRdWVyaWVzIG9yIHJlcXVlc3RzIHNoYXJpbmciCiAgICAgICAgcmVtb3RlIC0+IGJhY2tlbmQgIlVzZXMgR2FtaWZpY2F0aW9uIEFQSSIgIkhUVFBTIC8gSlNPTiIKICAgICAgICBtb2JpbGVBcHAgLT4gcmVzdCAiVXNlcyIgIkhUVFBTIC8gSlNPTiIKICAgICAgICBtb2JpbGVBcHAgLT4gY29tbXVuaXR5ICJSZWFkcyBzaGFyZWQgYWNoaWV2ZW1lbnQgcG9zdHMiICJIVFRQUyAvIEpTT04iIHsKICAgICAgICAgICAgdGFncyAiSW50ZWdyYXRpb25EZXRhaWwiCiAgICAgICAgfQogICAgICAgIHJlc3QgLT4gc2VydmljZXMgIkRpc3BhdGNoZXMgY29tbWFuZHMgYW5kIHF1ZXJpZXMiCiAgICAgICAgcXVlc3RzIC0+IGNvbnN1bWVycyAiUHVibGlzaGVzIGNvbXBsZXRpb24gZXZlbnRzIiAiU3ByaW5nIEFwcGxpY2F0aW9uIEV2ZW50cyIKICAgICAgICBjb21tdW5pdHkgLT4gY29uc3VtZXJzICJSZXBvcnRzIHBhcnRpY2lwYXRpb247IHByb3Bvc2VkIGNvcnJlbGF0ZWQgcHVibGljYXRpb24gcmVwbHkiIHsKICAgICAgICAgICAgdGFncyAiSW50ZWdyYXRpb25EZXRhaWwiCiAgICAgICAgfQogICAgICAgIG1vbmV0aXphdGlvbiAtPiBjb25zdW1lcnMgIkNvbmZpcm1zIHByb3RlY3Rpb24gb3IgdW5hdmFpbGFiaWxpdHkiIHsKICAgICAgICAgICAgdGFncyAiSW50ZWdyYXRpb25EZXRhaWwiCiAgICAgICAgfQogICAgICAgIGNvbnN1bWVycyAtPiBzZXJ2aWNlcyAiSW52b2tlcyBjb21tYW5kcyIKICAgICAgICBkYWlseSAtPiBzZXJ2aWNlcyAiRXZhbHVhdGVzIGRhaWx5IHN0cmVha3MiCiAgICAgICAgc2VydmljZXMgLT4gZG9tYWluICJVc2VzIGRvbWFpbiBydWxlcyIKICAgICAgICBzZXJ2aWNlcyAtPiBwZXJzaXN0ZW5jZSAiTG9hZHMgYW5kIHBlcnNpc3RzIgogICAgICAgIHNlcnZpY2VzIC0+IGNsaWVudHMgIlVzZXMgY29udGV4dCBjb250cmFjdHMiCiAgICAgICAgc2VydmljZXMgLT4gcHVibGlzaGVyICJQdWJsaXNoZXMgaW50ZWdyYXRpb24gZXZlbnRzIgogICAgICAgIGNsaWVudHMgLT4gdXNlcnMgIlF1ZXJpZXMgdXNlcnMsIGZyaWVuZHNoaXBzIGFuZCBmYW1pbGllcyIKICAgICAgICBjbGllbnRzIC0+IHF1ZXN0cyAiUXVlcmllcyBiYXNlIHJld2FyZHMgYW5kIGF0dGVtcHRzIiB7CiAgICAgICAgICAgIHRhZ3MgIkludGVncmF0aW9uRGV0YWlsIgogICAgICAgIH0KICAgICAgICBjbGllbnRzIC0+IGNvbW11bml0eSAiQ2hlY2tzIG1lbWJlcnNoaXAgYW5kIHNoYXJpbmcgYWNjZXNzIiB7CiAgICAgICAgICAgIHRhZ3MgIkludGVncmF0aW9uRGV0YWlsIgogICAgICAgIH0KICAgICAgICBjbGllbnRzIC0+IG1vbmV0aXphdGlvbiAiUXVlcmllcyBhY3RpdmUgWFAgZmFjdG9yOyBncmFudHMgY29zbWV0aWMgcmV3YXJkIiB7CiAgICAgICAgICAgIHRhZ3MgIkludGVncmF0aW9uRGV0YWlsIgogICAgICAgIH0KICAgICAgICBwdWJsaXNoZXIgLT4gbW9uZXRpemF0aW9uICJTZW5kcyByZXdhcmRzIGFuZCBwcm90ZWN0aW9uIHJlcXVlc3RzIgogICAgICAgIHB1Ymxpc2hlciAtPiBjbGllbnRzICJEZWxpdmVycyBxdWV1ZWQgY29zbWV0aWMgZ3JhbnQiIHsKICAgICAgICAgICAgdGFncyAiSW50ZWdyYXRpb25EZXRhaWwiCiAgICAgICAgfQogICAgICAgIHB1Ymxpc2hlciAtPiBjb21tdW5pdHkgIlNlbmRzIGF3YXJkIG5vdGljZXMgYW5kIHNoYXJpbmcgcmVxdWVzdHMiCiAgICAgICAgcGVyc2lzdGVuY2UgLT4gZGF0YWJhc2UgIlJlYWRzIGFuZCB3cml0ZXMiICJKUEEgLyBKREJDIgogICAgICAgIHB1Ymxpc2hlciAtPiBkYXRhYmFzZSAiUGVyc2lzdHMgcGVuZGluZyBtZXNzYWdlcyIgIkpQQSAvIEpEQkMiIHsKICAgICAgICAgICAgdGFncyAiSW50ZWdyYXRpb25EZXRhaWwiCiAgICAgICAgfQogICAgfQogICAgdmlld3MgewogICAgICAgIGNvbXBvbmVudCBtb2JpbGVBcHAgIkdhbWlmaWNhdGlvbk1vYmlsZUNvbXBvbmVudERpYWdyYW0iICJHYW1pZmljYXRpb24gLSBBbmRyb2lkIGNvbXBvbmVudHMiIHsKICAgICAgICAgICAgaW5jbHVkZSB1c2VyIHVpIHZtIHVzZUNhc2VzIHdlZWtseVJhbmtpbmcgbW9iaWxlUmVwbyBtYXBwZXJzIHJlbW90ZSBjb21tdW5pdHlHYXRld2F5IGJhY2tlbmQKICAgICAgICAgICAgYXV0b0xheW91dCBscgogICAgICAgIH0KICAgICAgICBjb21wb25lbnQgYmFja2VuZCAiR2FtaWZpY2F0aW9uQmFja2VuZENvbXBvbmVudERpYWdyYW0iICJHYW1pZmljYXRpb24gLSBCYWNrZW5kIGNvbXBvbmVudCBvdmVydmlldyIgewogICAgICAgICAgICBpbmNsdWRlIG1vYmlsZUFwcCByZXN0IGNvbnN1bWVycyBzZXJ2aWNlcyBkYWlseSBkb21haW4gcGVyc2lzdGVuY2UgY2xpZW50cyBwdWJsaXNoZXIgcXVlc3RzIHVzZXJzIGNvbW11bml0eSBtb25ldGl6YXRpb24gZGF0YWJhc2UKICAgICAgICAgICAgLy8gVGhlIG92ZXJ2aWV3IHNob3dzIHRoZSBtYWluIGRlcGVuZGVuY2llcy4gQWxsIGV4Y2hhbmdlcyByZW1haW4gaW4gdGhlIG1vZGVsLgogICAgICAgICAgICBleGNsdWRlICJyZWxhdGlvbnNoaXAudGFnPT1JbnRlZ3JhdGlvbkRldGFpbCIKICAgICAgICAgICAgYXV0b0xheW91dCB0YgogICAgICAgIH0KICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJFbGVtZW50IiB7CiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgc2hhcGUgcGVyc29uCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmZmZmZmCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiSW50ZXJmYWNlIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM3ZmIzZTYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJBcHBsaWNhdGlvbiIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjN2ZiM2U2CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRG9tYWluIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM3ZmIzZTYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJJbmZyYXN0cnVjdHVyZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjN2ZiM2U2CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQm91bmRlZENvbnRleHQiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzFmNzBiZgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkdyb3VwIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjNDM4ZGQ1CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0=",
+    "structurizr.inspection.info": "0",
+    "structurizr.inspection.ignore": "0",
+    "structurizr.inspection.warning": "0"
+  },
+  "views": {
+    "componentViews": [
+      {
+        "automaticLayout": {
+          "applied": false,
+          "edgeSeparation": 0,
+          "implementation": "Graphviz",
+          "nodeSeparation": 300,
+          "rankDirection": "LeftRight",
+          "rankSeparation": 300,
+          "vertices": false
+        },
+        "containerId": "3",
+        "description": "Gamification - Android components",
+        "elements": [
+          {
+            "id": "1",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "4",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "5",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "6",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "7",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "8",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "9",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "10",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "11",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "12",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "externalContainerBoundariesVisible": false,
+        "key": "GamificationMobileComponentDiagram",
+        "name": "Component View: EcoMind - EcoMind Android Application",
+        "order": 1,
+        "relationships": [
+          {
+            "id": "26"
+          },
+          {
+            "id": "27"
+          },
+          {
+            "id": "28"
+          },
+          {
+            "id": "29"
+          },
+          {
+            "id": "30"
+          },
+          {
+            "id": "31"
+          },
+          {
+            "id": "32"
+          },
+          {
+            "id": "33"
+          },
+          {
+            "id": "34"
+          },
+          {
+            "id": "35"
+          }
+        ]
+      },
+      {
+        "containerId": "12",
+        "description": "Gamification - Backend component overview",
+        "elements": [
+          {
+            "id": "3",
+            "x": 2200,
+            "y": 100
+          },
+          {
+            "id": "13",
+            "x": 2200,
+            "y": 650
+          },
+          {
+            "id": "14",
+            "x": 800,
+            "y": 1200
+          },
+          {
+            "id": "15",
+            "x": 2200,
+            "y": 1750
+          },
+          {
+            "id": "16",
+            "x": 3200,
+            "y": 650
+          },
+          {
+            "id": "17",
+            "x": 2400,
+            "y": 2400
+          },
+          {
+            "id": "18",
+            "x": 3200,
+            "y": 2400
+          },
+          {
+            "id": "19",
+            "x": 1600,
+            "y": 2400
+          },
+          {
+            "id": "20",
+            "x": 800,
+            "y": 2400
+          },
+          {
+            "id": "21",
+            "x": 250,
+            "y": 650
+          },
+          {
+            "id": "22",
+            "x": 2500,
+            "y": 3100
+          },
+          {
+            "id": "23",
+            "x": 800,
+            "y": 3100
+          },
+          {
+            "id": "24",
+            "x": 1600,
+            "y": 3100
+          },
+          {
+            "id": "25",
+            "x": 3200,
+            "y": 3850
+          }
+        ],
+        "externalContainerBoundariesVisible": false,
+        "key": "GamificationBackendComponentDiagram",
+        "name": "Component View: EcoMind - EcoMind API",
+        "order": 2,
+        "relationships": [
+          {
+            "id": "36",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "38",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "39",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "42",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "43",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "44",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "45",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "46",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "47",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "48",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "52",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "54",
+            "routing": "Direct",
+            "position": 50
+          },
+          {
+            "id": "55",
+            "routing": "Direct",
+            "position": 50
+          }
+        ],
+        "dimensions": {
+          "width": 4250,
+          "height": 4650
+        }
+      }
+    ],
+    "configuration": {
+      "branding": {},
+      "styles": {
+        "elements": [
+          {
+            "background": "#7fb3e6",
+            "tag": "Application"
+          },
+          {
+            "background": "#1f70bf",
+            "color": "#ffffff",
+            "tag": "BoundedContext"
+          },
+          {
+            "background": "#ffffff",
+            "color": "#000000",
+            "tag": "Component"
+          },
+          {
+            "background": "#438dd5",
+            "color": "#ffffff",
+            "tag": "Container"
+          },
+          {
+            "shape": "Cylinder",
+            "tag": "Database"
+          },
+          {
+            "background": "#7fb3e6",
+            "tag": "Domain"
+          },
+          {
+            "fontSize": 22,
+            "tag": "Element"
+          },
+          {
+            "color": "#438dd5",
+            "tag": "Group"
+          },
+          {
+            "background": "#7fb3e6",
+            "tag": "Infrastructure"
+          },
+          {
+            "background": "#7fb3e6",
+            "tag": "Interface"
+          },
+          {
+            "background": "#08427b",
+            "color": "#ffffff",
+            "shape": "Person",
+            "tag": "Person"
+          }
+        ]
+      },
+      "terminology": {}
+    }
+  }
+}

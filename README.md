@@ -5116,14 +5116,274 @@ El diseño de la base de datos organiza por separado las comunidades, sus miembr
 ![Database](assets/img/figures/databaseCommunity.png)
 
 ### 2.6.6. Bounded Context: Gamification
+El bounded context **Gamification** administra ecopoints, experiencia, recompensas, rachas, logros y datos de rankings. Recibe finalizaciones validadas de **Quests** e hitos de **Community**, consulta participantes y relaciones de **Users** y colabora con **Monetization** para acreditar gemas, aplicar multiplicadores y proteger rachas.
+
 #### 2.6.6.1. Domain Layer
+En esta capa se representa el núcleo del bounded context y sus reglas de negocio.
+
+**Sub-capa Model**
+
+| Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate Root | `UserProgress` | Progreso de gamificación de un usuario. | Mantener ecopoints, experiencia y racha a partir de hechos válidos. | Referencia a `Users`; contiene `Streak` y recibe las recompensas de `RewardTransaction`. |
+| Aggregate Root | `FamilyScore` | Puntuación de una familia. | Acumular únicamente las recompensas atribuidas a la familia. | Referencia a una familia de `Users`; se consulta en el ranking familiar. |
+| Aggregate Root | `RewardTransaction` | Registro inmutable de recompensa. | Conservar origen, beneficiario, cantidades y fecha; impedir premios repetidos por la misma ejecución. | Contiene `Reward`, `RewardSource` y `RewardBeneficiary`; referencia a `UserProgress` o `FamilyScore`. |
+| Aggregate Root | `Achievement` | Definición de un logro o medalla. | Mantener código, nombre, descripción, alcance y criterio de obtención. | Contiene `AchievementCriterion`; puede referenciar un cosmético de Monetization como premio individual. |
+| Aggregate Root | `AchievementAward` | Logro concedido a un beneficiario. | Registrar la obtención una sola vez por logro y beneficiario; validar un único destinatario compatible con su alcance. | Referencia a `Achievement` y a `UserProgress`, `FamilyScore` o una comunidad externa, según el alcance del logro. |
+| Aggregate Root | `AchievementShareRequest` | Solicitud voluntaria de compartir un logro individual. | Mantener la solicitud pendiente hasta recibir la publicación creada y reconocer confirmaciones repetidas. | Referencia a `AchievementAward`, al solicitante, a la comunidad destino y a la publicación externa; no almacena el post. |
+| Aggregate Root | `StreakProtectionRequest` | Solicitud de protección de una fecha sin actividad. | Identificar usuario, día y resultado de la protección sin consumir inventario. | Referencia a `UserProgress`; se resuelve con la confirmación de Monetization. |
+| Value Object | `Reward` | Cantidades de una recompensa. | Representar ecopoints, experiencia y gemas no negativos. | Se incorpora a `RewardTransaction`; las gemas se acreditan en Monetization. |
+| Value Object | `RewardSource` | Origen verificable del premio. | Identificar el tipo de hecho y su ejecución canónica. | Permite reconocer reintentos aunque llegue un nuevo identificador de mensaje. |
+| Value Object | `RewardBeneficiary` | Destinatario individual o familiar. | Identificar el destinatario y su tipo. | Las recompensas comunitarias se distribuyen a los participantes comunicados por Community. |
+| Value Object | `Streak` | Constancia del usuario. | Registrar el avance diario sin duplicados y gestionar protección, reinicio y récord. | Parte de `UserProgress`; una fecha protegida conserva la racha sin simular una actividad completada. |
+| Value Object | `ActiveMultiplier` | Factor y vigencia consultados a Monetization. | Determinar si el multiplicador corresponde al instante de la recompensa. | Utilizado por `RewardCalculationService`; no constituye un inventario local. |
+| Value Object | `AchievementCriterion` | Condición de obtención. | Representar la métrica y el objetivo configurados para un logro. | Evaluado por `AchievementEvaluationService`, sin fijar umbrales no definidos en el catálogo. |
+| Value Object | `RankingPeriod` | Intervalo de clasificación. | Delimitar inicio y fin de las transacciones a consultar. | Utilizado por consultas y por el cálculo semanal en Android. |
+| Enumeration | `RewardSourceType` | Tipo de origen. | Distinguir `QUEST`, `MINIGAME`, `COLLABORATIVE_QUEST`, `FAMILY_PLAN`, `COMMUNITY_GOAL` y `COMMUNITY_EVENT`. | Utilizado por `RewardSource`. |
+| Enumeration | `BeneficiaryType` | Tipo de destinatario. | Distinguir `USER` y `FAMILY`. | Utilizado por `RewardBeneficiary`. |
+| Enumeration | `AchievementScope` | Alcance del logro. | Distinguir `INDIVIDUAL`, `FAMILY` y `COMMUNITY`. | Utilizado por `Achievement`. |
+| Enumeration | `AchievementShareStatus` | Estado de publicación de un logro. | Distinguir `PENDING` y `PUBLISHED`. | Utilizado por `AchievementShareRequest`; enviar el mensaje no confirma la creación del post. |
+| Enumeration | `RankingType` | Ámbito de clasificación. | Distinguir `LOCAL`, `GLOBAL`, `FRIENDS` y `FAMILIES`. | Determina los participantes autorizados de una consulta. |
+| Enumeration | `StreakProtectionStatus` | Resultado de protección. | Distinguir `PENDING`, `PROTECTED` y `UNAVAILABLE`. | Utilizado por `StreakProtectionRequest`; un fallo técnico mantiene la solicitud pendiente. |
+| Read Model | `Ranking` | Datos de una clasificación. | Agrupar tipo, periodo y participantes. | Contiene `RankingEntry`; las posiciones semanales se calculan en el cliente según TS-007. |
+| Read Model | `RankingEntry` | Datos de un participante. | Exponer identificador, nombre visible y puntuación registrada. | Combina progreso de Gamification y datos permitidos de Users. |
+
+`RewardTransaction` registra una recompensa por origen, ejecución y beneficiario. El otorgamiento y la actualización de puntos se realizan en la misma transacción; una ejecución individual o colaborativa no puede premiarse dos veces al mismo beneficiario.
+
+`Streak` aumenta una vez al día con el primer reto diario válido. Los demás retos conservan sus recompensas. La protección de una fecha requiere confirmación de Monetization; un fallo de comunicación mantiene la solicitud pendiente.
+
+`Achievement` define el criterio y `AchievementAward` registra su cumplimiento. Las metas comunitarias pueden conceder insignias individuales a los participantes elegibles. Compartir un logro conserva su titular y alcance.
+
+`RewardCalculationService` aplica el multiplicador de experiencia vigente y la reducción configurada por repetición de minijuegos en una ventana de tres horas. Los rankings consultan las puntuaciones del periodo sin conceder recompensas.
+
+**Sub-capa Model - Commands**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `GrantQuestRewardCommand` | Otorgar la recompensa de una misión individual completada. | Atendido por `RewardCommandService`. |
+| `GrantMinigameRewardCommand` | Otorgar la recompensa de un intento considerando repeticiones. | Atendido por `RewardCommandService`. |
+| `GrantCollaborativeQuestRewardCommand` | Recompensar a los participantes validados de una sesión. | Atendido por `RewardCommandService`. |
+| `GrantFamilyPlanRewardCommand` | Evaluar el reconocimiento del plan y su recompensa adicional, si existe. | Atendido por `RewardCommandService`. |
+| `GrantCommunityRewardCommand` | Otorgar la recompensa configurada de una meta cumplida o una participación en evento completada y validada por Community. | Atendido por `RewardCommandService`. |
+| `UpdateUserScoreCommand`, `UpdateFamilyScoreCommand` | Aplicar las cantidades del otorgamiento al destinatario correcto. | Coordinados por `RewardCommandService` en la misma transacción del premio. |
+| `UpdateUserStreakCommand` | Registrar una actividad elegible sin incrementar dos veces en el mismo día. | Atendido por `UserProgressCommandService`. |
+| `RequestStreakProtectionCommand` | Registrar el día en riesgo y solicitar consumo del protector. | Atendido por `StreakProtectionCommandService`. |
+| `ResolveStreakProtectionCommand` | Aplicar el resultado confirmado por Monetization. | Atendido por `StreakProtectionCommandService`. |
+| `AwardAchievementCommand` | Registrar un logro cuyo criterio se cumple. | Atendido por `AchievementCommandService`. |
+| `ShareAchievementCommand` | Registrar la solicitud voluntaria con un `requestId` estable para sus reintentos. | Atendido por `AchievementCommandService`; Community conserva la publicación. |
+| `ConfirmAchievementPublicationCommand` | Confirmar la publicación que corresponde a una solicitud pendiente. | Atendido por `AchievementCommandService`; valida la correlación con Community. |
+
+**Sub-capa Model - Queries**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `GetUserProgressQuery` | Obtener ecopoints, experiencia y racha. | Atendida por `UserProgressQueryService`; permite a Monetization verificar una racha activa. |
+| `GetFamilyScoreQuery` | Obtener la puntuación familiar. | Atendida por `FamilyScoreQueryService`. |
+| `GetRewardTransactionsQuery` | Obtener otorgamientos del beneficiario y periodo solicitados. | Atendida por `RewardQueryService`; aporta las transacciones de TS-007. |
+| `GetAchievementByIdQuery`, `SearchAchievementsQuery` | Consultar definiciones y filtrar el catálogo. | Atendidas por `AchievementQueryService`. |
+| `GetUserAchievementsQuery`, `GetFamilyAchievementsQuery`, `GetCommunityAchievementsQuery` | Obtener y filtrar las concesiones del usuario, familia o comunidad beneficiaria. | Atendidas por `AchievementQueryService`; el alcance `COMMUNITY` identifica logros colectivos. |
+| `GetAchievementShareStatusQuery` | Consultar si la solicitud propia sigue pendiente o ya tiene una publicación. | Atendida por `AchievementQueryService`; solo el solicitante accede al resultado. |
+| `GetRankingTypesQuery`, `GetRankingParticipantsQuery` | Consultar clasificaciones disponibles y participantes autorizados. | Atendidas por `RankingQueryService`. |
+
+**Sub-capa Model - Domain e Integration Events**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Domain Event | `RewardGrantedEvent` | Comunicar la recompensa registrada y su beneficiario. | Generado al registrar `RewardTransaction`. |
+| Domain Event | `UserScoreUpdatedEvent`, `FamilyScoreUpdatedEvent` | Comunicar la puntuación actualizada. | Generados por los agregados de progreso. |
+| Domain Event | `UserStreakUpdatedEvent` | Comunicar un cambio de racha. | Generado al modificar `Streak`. |
+| Domain Event | `AchievementUnlockedEvent` | Comunicar la concesión del logro. | Permite entregar el cosmético asociado cuando corresponde. |
+| Domain Event | `DailyStreakAtRiskEvent` | Comunicar la solicitud de protección creada. | Contiene solicitud, usuario y fecha del cierre. |
+| Domain Event | `AchievementShareRequestedEvent` | Comunicar una solicitud de publicación registrada. | Generado después de comprobar titularidad y membresía; identifica `AchievementShareRequest`. |
+| Domain Event | `AchievementSharedEvent` | Comunicar que la publicación del logro fue confirmada. | Generado al pasar la solicitud a `PUBLISHED`; no concede otro logro ni recompensa. |
+| Integration Event | `AchievementUnlockedIntegrationEvent` | Comunicar «Logro obtenido por usuario» a Community sin solicitar su publicación. | Contrato propuesto; referencia la concesión y su titular. |
+| Integration Event | `RewardGrantedIntegrationEvent` | Informar a Monetization las gemas concedidas al usuario. | Conserva el identificador del otorgamiento para evitar doble acreditación. |
+| Integration Event | `DailyStreakAtRiskIntegrationEvent` | Solicitar a Monetization la protección del día en riesgo. | Contrato consumido por `DailyStreakAtRiskConsumer` en 2.6.7. |
+| Integration Event | `StreakProtectedIntegrationEvent`, `StreakProtectionUnavailableIntegrationEvent` | Recibir el resultado del consumo del protector. | Emitidos por Monetization; resuelven `StreakProtectionRequest`. |
+| Integration Event | `AchievementShareRequestedIntegrationEvent` | Comunicar a Community la publicación solicitada. | Transporta `requestId`, `awardId`, `requestedBy` y `communityId`; contrato propuesto para Community. |
+| Integration Event | `PublicationCreatedIntegrationEvent` | Recibir de Community la confirmación de publicación del logro. | Contrato propuesto; correlaciona la solicitud con el `publicationId` creado por Community. |
+
+Quests comunica la finalización de misiones, minijuegos, sesiones colaborativas y planes familiares. Community comunica las metas completadas mediante `CommunityGoalCompletedIntegrationEvent`. El contrato de participación completada en eventos queda pendiente; la inscripción por sí sola no concede una recompensa.
+
+El aviso de logro obtenido informa a Community de su concesión. La publicación requiere una solicitud voluntaria del titular y una confirmación de Community. Los contratos de publicación y el procesamiento de los avisos de compra de Monetization están pendientes de definición.
+
+**Sub-capa Domain Services**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Domain Service | `RewardCalculationService` | Calcular ecopoints, experiencia y gemas con la recompensa base y los efectos vigentes. | Utiliza `Reward`, `RewardSource` y `ActiveMultiplier`; recibe el historial necesario de minijuegos. |
+| Domain Service | `AchievementEvaluationService` | Evaluar criterios individuales, familiares o comunitarios. | Utiliza `AchievementCriterion` y progreso validado. |
+| Domain Service | `StreakService` | Determinar incremento diario único, conservación, riesgo o reinicio de racha. | Utiliza `Streak` y la respuesta de protección; recibe actividades que cumplen la regla del reto diario. |
+
+**Sub-capa Repositories**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Repository | `UserProgressRepository`, `FamilyScoreRepository` | Guardar y consultar el progreso con control de versión. | Utilizados por servicios de progreso, puntuación y recompensas. |
+| Repository | `RewardTransactionRepository` | Consultar historial y otorgamientos previos por origen y beneficiario. | Utilizado por servicios de recompensas. |
+| Repository | `AchievementRepository`, `AchievementAwardRepository` | Consultar definiciones y persistir concesiones únicas. | Utilizados por servicios de logros. |
+| Repository | `AchievementShareRequestRepository` | Persistir solicitudes y confirmar una publicación por solicitud. | Utilizado por los servicios de logros; mantiene la correlación sin copiar contenido de Community. |
+| Repository | `StreakProtectionRequestRepository` | Guardar y consultar solicitudes por usuario, día y estado. | Utilizado por servicios de cierre y protección. |
+| Read Repository | `RankingReadRepository` | Consultar tipos y puntuaciones de participantes permitidos. | Utilizado por `RankingQueryService`; no almacena posiciones semanales. |
+| Application Event Publisher | `GamificationEventPublisher` | Definir la publicación de recompensas, riesgo de racha, logros concedidos, concesiones cosméticas y solicitudes de compartir. | Implementado en Infrastructure Layer. |
+
 #### 2.6.6.2. Interface Layer
+Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados por otros bounded contexts.
+
+**Sub-capa REST - Controllers y Consumers**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Security Filter | `JwtAuthenticationFilter` | Validar el token antes de atender las solicitudes REST. | Utiliza la seguridad compartida del backend, como Learning y Monetization. |
+| Security Context | `AuthenticatedUserProvider` | Obtener la identidad y roles del principal autenticado. | Los controllers y servicios verifican titularidad, relación familiar y membresía según la operación; el cliente no determina al solicitante. |
+| Controller | `UserProgressController`, `FamilyScoreController` | Exponer progreso individual y puntuación familiar. | Invocan sus Query Services y validan el alcance del usuario autenticado. |
+| Controller | `RewardController` | Exponer historial de recompensas por beneficiario y periodo. | Invoca `RewardQueryService`. |
+| Controller | `AchievementController` | Consultar logros, solicitar compartir uno obtenido y consultar el estado de la solicitud. | Invoca servicios de consulta y comandos de logros. |
+| Controller | `RankingController` | Exponer tipos de ranking y datos de participantes. | Invoca `RankingQueryService`; Android calcula el ranking semanal. |
+| Consumer | `QuestCompletionConsumer` | Recibir finalizaciones de misiones, minijuegos, sesiones colaborativas y planes. | Delega en los handlers de los cuatro eventos de Quests. |
+| Consumer | `CommunityProgressConsumer` | Recibir `CommunityGoalCompletedIntegrationEvent` con la meta, comunidad y participantes. | Delega en `CommunityProgressEventHandler`. |
+| Consumer | `AchievementPublicationConsumer` | Recibir publicaciones creadas por Community para solicitudes de logros. | Delega en `PublicationCreatedEventHandler`; no procesa publicaciones ajenas a este flujo. |
+| Consumer | `StreakProtectionResultConsumer` | Recibir protección confirmada o inventario no disponible. | Delega en `StreakProtectionResultEventHandler`. |
+
+**Sub-capa REST - Resources y Assemblers**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Request Resource | `ShareAchievementResource` | Transportar `requestId`, logro concedido y comunidad seleccionada. | Se convierte en `ShareAchievementCommand`; el solicitante se obtiene de la identidad autenticada. |
+| Response Resource | `AchievementShareResource` | Exponer solicitud, estado y referencia de publicación cuando existe. | Ensamblado desde `AchievementShareRequest`; la aceptación inicial no indica que ya se publicó. |
+| Response Resource | `UserProgressResource`, `FamilyScoreResource` | Exponer puntuación, experiencia y racha según el caso. | Ensamblados desde los agregados de progreso. |
+| Response Resource | `RewardTransactionResource` | Exponer origen, cantidades finales, beneficiario y fecha. | Ensamblado desde `RewardTransaction`. |
+| Response Resource | `AchievementResource` | Exponer definición y datos de obtención. | Ensamblado desde `Achievement` y `AchievementAward`. |
+| Response Resource | `RankingResource` | Exponer tipo, periodo y datos autorizados de participantes. | Ensamblado desde `Ranking` y `RankingEntry`. |
+| Assembler | `*CommandFromResourceAssembler`, `*ResourceFromEntityAssembler` | Convertir entradas REST en commands y resultados en resources. | Conectan controllers con Application Layer. |
+| Assembler | `ResponseEntityAssembler`, `ErrorResponseAssembler` | Uniformizar respuestas HTTP exitosas y errores. | Utilizados por los controllers. |
+
 #### 2.6.6.3. Application Layer
+En esta capa se coordinan los casos de uso, las transacciones y la comunicación con otros bounded contexts.
+
+**Sub-capa Command Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `RewardCommandService` | Procesar finalizaciones, reconocer duplicados y registrar recompensa más puntuación atómicamente. | Utiliza `RewardCalculationService`, repositorios, servicios de progreso y `MonetizationServiceClient`. |
+| `UserProgressCommandService`, `FamilyScoreCommandService` | Aplicar puntuaciones; actualizar la racha individual solo ante el reto diario elegible. | Utilizan sus repositorios y `StreakService`; distinguen la ejecución premiada de la fecha ya contabilizada. |
+| `AchievementCommandService` | Conceder logros, registrar solicitudes de compartir y confirmar publicaciones correlacionadas. | Utiliza evaluación, repositorios, `UsersServiceClient` y `CommunityServiceClient`. |
+| `StreakProtectionCommandService` | Crear y resolver solicitudes correlacionadas por usuario y fecha. | Utiliza solicitudes, progreso, `StreakService` y `GamificationEventPublisher`. |
+| `DailyStreakLifecycleService` | Evaluar cada día cerrado y solicitar protección si falta la actividad requerida. | Utiliza `StreakProtectionCommandService`; respeta el calendario diario de Quests. |
+
+**Sub-capa Query Services**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `UserProgressQueryService`, `FamilyScoreQueryService` | Obtener progreso individual y familiar autorizado. | Utilizan sus repositorios y relaciones de `Users`. |
+| `RewardQueryService` | Consultar el historial dentro del periodo y alcance permitidos. | Utiliza `RewardTransactionRepository`. |
+| `AchievementQueryService` | Consultar y filtrar definiciones y concesiones por alcance; recuperar el estado de solicitudes propias. | Utiliza repositorios de logros y solicitudes; verifica acceso en Users o Community, manteniendo el alcance al filtrar. |
+| `RankingQueryService` | Obtener tipos, participantes y puntuaciones sin decidir posiciones semanales. | Utiliza `RankingReadRepository`, `UsersServiceClient` y `CommunityServiceClient`. |
+
+**Sub-capa Event Handlers**
+
+| Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|
+| `QuestCompletedEventHandler` | Procesar `QuestCompletedIntegrationEvent` con misión, usuario, ejecución y recompensa base. | Invoca `RewardCommandService`. |
+| `MinigameCompletedEventHandler` | Procesar `MinigameCompletedIntegrationEvent` con intento y puntaje. | Obtiene recompensa base e historial mediante `QuestServiceClient` cuando el evento no los incluye. |
+| `CollaborativeQuestCompletedEventHandler` | Procesar `CollaborativeQuestCompletedIntegrationEvent` con sesión y participantes. | Invoca `RewardCommandService`; distingue otorgamientos individuales y familiares. |
+| `FamilyPlanCompletedEventHandler` | Procesar `FamilyPlanCompletedIntegrationEvent` con familia, plan y participantes. | Evalúa el reconocimiento sin repetir las recompensas de las quests. |
+| `CommunityProgressEventHandler` | Procesar `CommunityGoalCompletedIntegrationEvent` y evaluar la meta cumplida y sus participantes. | Invoca `AchievementCommandService` para el reconocimiento colectivo y las insignias personales de HU-040; solo solicita recompensas ante cumplimiento validado y premio configurado. |
+| `UserScoreUpdatedEventHandler`, `FamilyScoreUpdatedEventHandler` | Evaluar los criterios de logros afectados por la puntuación confirmada. | Invocan `AchievementCommandService`; conceden únicamente logros todavía no obtenidos. |
+| `StreakProtectionResultEventHandler` | Resolver protección confirmada o no disponible. | Invoca `StreakProtectionCommandService`; ignora respuestas ya aplicadas. |
+| `RewardGrantedEventHandler`, `DailyStreakAtRiskEventHandler` | Comunicar gemas concedidas y solicitudes de protección. | Utilizan `GamificationEventPublisher`. |
+| `AchievementUnlockedEventHandler` | Comunicar la concesión a Community y solicitar el cosmético individual cuando está definido. | Utiliza `GamificationEventPublisher` con `awardId`; informar el logro no publica un post. La entrega opcional usa `MonetizationServiceClient`. |
+| `AchievementShareRequestedEventHandler` | Comunicar la publicación solicitada por el titular. | Utiliza `GamificationEventPublisher`; Community crea la publicación. |
+| `PublicationCreatedEventHandler` | Confirmar `PublicationCreatedIntegrationEvent` con las referencias originales de la solicitud. | Invoca `ConfirmAchievementPublicationCommand`; un mensaje ajeno o contradictorio no cambia el estado. |
+
+Las finalizaciones de Quests se procesan mediante Spring Application Events en la transacción del backend. La recompensa, los puntos y la actividad diaria se confirman conjuntamente. Las comunicaciones posteriores se registran para reintento.
+
+La solicitud de compartir y su mensaje se guardan atómicamente. El mismo `requestId` permite reintentar sin duplicar la solicitud. El estado cambia a `PUBLISHED` cuando Community confirma la publicación correspondiente.
+
 #### 2.6.6.4. Infrastructure Layer
+Esta capa contiene las clases que implementan la persistencia y la comunicación con otros bounded contexts.
+
+**Persistencia e integración del backend**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Repository Implementations | `UserProgressRepositoryImpl`, `FamilyScoreRepositoryImpl` | Persistir puntuaciones, experiencia y racha con control de versión. | Implementan los contratos de progreso mediante Spring Data JPA. |
+| Repository Implementation | `RewardTransactionRepositoryImpl` | Persistir historial y garantizar unicidad por origen, ejecución y beneficiario. | Implementa `RewardTransactionRepository`. |
+| Repository Implementations | `AchievementRepositoryImpl`, `AchievementAwardRepositoryImpl` | Persistir definiciones y concesiones únicas por logro y beneficiario. | Implementan los contratos de logros. |
+| Repository Implementation | `AchievementShareRequestRepositoryImpl` | Persistir solicitudes y aplicar confirmaciones con control de versión. | Implementa `AchievementShareRequestRepository`; conserva solo la referencia de publicación externa. |
+| Repository Implementation | `StreakProtectionRequestRepositoryImpl` | Persistir un cierre por usuario y día; actualizar su resultado una sola vez. | Implementa `StreakProtectionRequestRepository`. |
+| Read Repository Implementation | `RankingReadRepositoryImpl` | Consultar puntuaciones registradas y tipos de ranking. | Implementa `RankingReadRepository`; no duplica el historial en una tabla de posiciones. |
+| External Service Client | `UsersServiceClient` | Consultar participantes, nombres visibles, amistades, familias y roles. | Adapta los contratos de Users sin consultar sus tablas directamente. |
+| External Service Client | `CommunityServiceClient` | Consultar comunidad local, membresías y permisos de publicación. | Utilizado por servicios de logros y ranking. |
+| External Service Client | `QuestServiceClient` | Consultar recompensa base, datos de ejecución e historial de intentos. | Completa los datos requeridos por el procesamiento de finalizaciones. |
+| External Service Client | `MonetizationServiceClient` | Consultar factor y vigencia del multiplicador y solicitar un cosmético por logro. | Adapta `GetActiveMultiplierQuery` y `GrantCosmeticRewardCommand`; no mantiene saldo ni inventario. |
+| Application Event Publisher Implementation | `SpringGamificationEventPublisher` | Publicar hechos internos y registrar comunicaciones pendientes. | Implementa `GamificationEventPublisher`; usa Spring Application Events. |
+| Messaging Adapter | `GamificationOutboxPublisher` | Entregar y reintentar mensajes confirmados hacia Monetization y Community. | Lee `gamification_outbox`; los receptores deduplican por otorgamiento, logro o solicitud. |
+
+**Relaciones entre bounded contexts**
+
+| Bounded Context | Relación con Gamification |
+|---|---|
+| `Quests` | Valida y comunica las finalizaciones con ejecución, participantes y datos de recompensa. Gamification determina el otorgamiento efectivo. |
+| `Users` | Proporciona perfiles, amistades, familias y roles. La lectura del resumen de progreso para el perfil se propone mediante las consultas de Gamification; no constituye otro otorgamiento de puntos. |
+| `Community` | Comunica participación y datos de cumplimiento, proporciona membresías y recibe el aviso de logro obtenido y las solicitudes voluntarias de publicación. Conserva el feed, las publicaciones y sus consultas; la confirmación correlacionada hacia Gamification se propone mediante `PublicationCreatedIntegrationEvent`. |
+| `Monetization` | Acredita gemas y cosméticos concedidos, activa multiplicadores y consume protectores. Devuelve el resultado de protección; Gamification actualiza su racha. |
+
+Las consultas utilizan los clientes de los contextos propietarios. Los eventos internos se comunican mediante Spring Application Events y el outbox conserva los mensajes pendientes de entrega.
+
+Quedan pendientes los acuerdos de propiedad del progreso con Users, los contratos de participación completada en eventos y publicación de Community y el procesamiento de los avisos de compra de Monetization.
+
+**Definiciones de negocio pendientes**
+
+Quedan por definir la fórmula y el periodo del bono semanal (HU-005), el evento que autoriza los puntos por referido (HU-039) y los criterios de concesión de logros familiares (HU-021).
+
+**Mobile Application - Gamification Feature**
+
+| Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
+|---|---|---|---|
+| Use Cases | `GetUserProgressUseCase`, `GetFamilyScoreUseCase`, `GetRewardHistoryUseCase` | Consultar progreso e historial. | Utilizan `GamificationMobileRepository`. |
+| Use Cases | `GetAchievementsUseCase`, `ShareAchievementUseCase`, `GetAchievementShareStatusUseCase` | Consultar y filtrar logros, solicitar una publicación y recuperar su estado. | Utilizan `GamificationMobileRepository`; compartir se invoca únicamente al confirmar el diálogo. |
+| Use Case | `GetSharedCommunityAchievementsUseCase` | Consultar y filtrar logros personales publicados en una comunidad, conforme a HU-038. | Utiliza `CommunityAchievementsGateway`; no sustituye esa lectura por `GetCommunityAchievementsQuery`. |
+| Use Cases | `GetRankingUseCase`, `CalculateWeeklyRankingUseCase` | Obtener participantes y sumar transacciones del periodo para ordenar el ranking semanal. | Implementan TS-007; no asignan puntos ni modifican el historial. |
+| ViewModel | `ProgressViewModel`, `AchievementsViewModel`, `RankingViewModel` | Gestionar carga, contenido, filtros y errores; distinguir diálogo de compartir, solicitud pendiente y publicación confirmada. | Invocan use cases y exponen StateFlow; cerrar el diálogo o elegir «No compartir» solo cambia el estado de presentación. |
+| Feature Gateway | `CommunityAchievementsGateway` | Adaptar la consulta de publicaciones compartidas a la pantalla de logros de comunidad. | Reutiliza el cliente de Community; devuelve publicaciones autorizadas y referencias de logros, sin duplicar su persistencia en Gamification. |
+| Presentation Model | `AchievementShareDraft` | Conservar `requestId`, `awardId` y `communityId` de la selección mientras se reintenta un envío fallido. | Gestionado por `AchievementsViewModel` con `SavedStateHandle`; no es un aggregate ni una publicación confirmada. |
+| Repository Interface | `GamificationMobileRepository` | Definir las consultas y solicitudes que necesita Android. | Utilizado por los use cases e implementado en la capa de datos móvil. |
+| Remote Service | `GamificationApiService` | Consumir REST mediante Retrofit y HTTPS. | Utilizado por `GamificationMobileRepositoryImpl`. |
+| Repository Implementation | `GamificationMobileRepositoryImpl` | Coordinar las llamadas remotas y mapear resultados. | Implementa `GamificationMobileRepository`. |
+| Mapper | `GamificationMobileMapper` | Convertir DTOs de red en modelos móviles. | Utilizado por el repositorio móvil; no replica reglas de asignación de premios. |
+
+La aplicación móvil consulta progreso, logros y rankings, y permite compartir un logro. Los ViewModels gestionan la selección, los filtros y el estado de las solicitudes.
+
+`AchievementsViewModel` conserva la solicitud para reintentar un envío fallido. `CommunityAchievementsGateway` consulta las publicaciones compartidas, mientras que `CalculateWeeklyRankingUseCase` calcula las posiciones semanales con las transacciones autorizadas.
+
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+En esta sección se presentan los diagramas de componentes del bounded context Gamification para la aplicación Android y la API backend. Muestran sus principales responsabilidades e interacciones, la comunicación con otros bounded contexts y el acceso a la base de datos.
+
+![C4 de componentes Android de Gamification](assets/img/figures/c4GamificationMobile.png)
+
+*Figura X. Diagrama C4 de componentes de la aplicación Android para el bounded context Gamification, elaborado con Structurizr DSL.*
+
+![C4 de componentes backend de Gamification](assets/img/figures/c4GamificationBackend.png)
+
+*Figura X. Diagrama C4 de componentes de la API del bounded context Gamification, elaborado con Structurizr DSL.*
+
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+Los diagramas presentan los elementos del dominio de Gamification, sus relaciones y la persistencia del progreso, las recompensas, las rachas y los logros.
+
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+El siguiente diagrama muestra los aggregates, value objects y enumeraciones del Domain Layer de Gamification. Representa el progreso individual y familiar, los otorgamientos de recompensas y logros, y las solicitudes de protección de racha y de compartir logros.
+
+![Clases del modelo de dominio de Gamification](assets/img/figures/ClassDiagramGamification.png)
+
+*Figura X. Diagrama de clases del bounded context Gamification, elaborado con PlantUML.*
+
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
+El diagrama presenta las tablas de negocio del progreso individual y familiar, las recompensas, los logros y las solicitudes de compartir y proteger rachas. Las concesiones de logros se relacionan con su definición y con el progreso individual o familiar; cada concesión tiene un único destinatario. Los identificadores de usuarios, familias y comunidades de otros contextos se conservan como referencias externas.
+
+![Base de datos de Gamification](assets/img/figures/databaseGamification.png)
+
+*Figura X. Diagrama de diseño de la base de datos del bounded context Gamification.*
 
 ### 2.6.7. Bounded Context: Monetization
 
