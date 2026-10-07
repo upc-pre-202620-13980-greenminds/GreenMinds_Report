@@ -6418,21 +6418,345 @@ El diseño de la base de datos organiza por separado los cosméticos, multiplica
 
 ## 3.1. Product design
 
+Esta sección presenta las decisiones de diseño que definen la experiencia de EcoMind. Comprende los lineamientos visuales del producto y la arquitectura de información utilizada para organizar, identificar, buscar y recorrer el contenido de la landing page y la aplicación móvil.
+
 ### 3.1.1. Style Guidelines
+
+Esta sección establece los lineamientos visuales y comunicacionales que mantienen una identidad consistente en los productos digitales de EcoMind.
 
 #### 3.1.1.1. General Style Guidelines
 
+EcoMind adopta un sistema de diseño coherente, accesible y emocionalmente conectado con su audiencia principal: niños de 9 a 12 años y sus padres. El diseño visual busca transmitir energía positiva, cercanía con la naturaleza y facilidad de uso.
+
+**Identidad de marca**
+
+El nombre EcoMind combina los conceptos de ecología y mentalidad consciente. El logotipo emplea formas orgánicas (hojas, círculos) que evocan la naturaleza y el crecimiento. La marca usa un tono amigable, motivador y positivo tanto en el texto como en los elementos visuales.
+
+**Paleta de colores**
+
+La paleta está basada en tonos naturales que transmiten frescura, vitalidad y cuidado ambiental, complementados por colores de acento para gamificación:
+
+| Color | Hex | Uso |
+|---|---|---|
+| Verde primario | #4CAF50 | Elementos principales, botones CTA, iconos de retos |
+| Verde oscuro | #2E7D32 | Títulos, énfasis, navegación |
+| Amarillo acento | #FFC107 | Puntos, insignias, recompensas |
+| Azul agua | #29B6F6 | Fondos secundarios, sección de agua |
+| Blanco | #FFFFFF | Fondos de tarjetas, texto sobre fondos oscuros |
+| Gris claro | #F5F5F5 | Fondos de pantalla principal |
+| Gris texto | #424242 | Texto de cuerpo |
+
+**Tipografía**
+
+- **Títulos y encabezados:** Nunito Bold – redondeada, amigable y legible para niños.
+- **Texto de cuerpo:** Nunito Regular – consistente con la tipografía de títulos, facilita la lectura.
+- **Tamaños mínimos:** 14px para cuerpo, 18px para subtítulos, 24px para títulos principales.
+
+**Tono de comunicación**
+
+- Lenguaje simple, positivo y motivador.
+- Uso de segunda persona ("Tú puedes hacerlo", "¡Misión completada!").
+- Evitar tecnicismos; cuando se usen términos ambientales, se acompañan de una explicación breve.
+- Emojis y personajes animados para reforzar mensajes clave.
+
+**Iconografía**
+
+Los iconos siguen un estilo outline redondeado, coherente con la identidad orgánica de la marca. Se utiliza la librería de iconos Material Design adaptada con el color verde primario de EcoMind.
+
+ 
+   
+ *Figura X ( General Style Guidelines )* 
+![Foto](assets/img/figures/style.png)
+
 ### 3.1.2. Information Architecture
+
+Esta sección describe cómo se estructura y presenta la información de EcoMind para facilitar su comprensión y acceso. Incluye los sistemas de organización, etiquetado, búsqueda y navegación, así como los elementos de posicionamiento utilizados en la landing page y las tiendas de aplicaciones.
 
 #### 3.1.2.1. Organization Systems
 
+EcoMind organiza su contenido bajo dos sistemas complementarios:
+
+**Organización jerárquica** (principal): La información se estructura de lo general a lo específico. Se agrupan las secciones más relevantes (Retos, Progreso, Familia, Comunidad, Usuario, Tienda y Ranking) mediante un icono distintivo en la parte inferior, y cada sección navega hacia su contenido al profundizar en ella.
+
+**Organización por categorías temáticas**: Los retos y contenidos educativos se agrupan según los ejes ambientales de la plataforma:
+- ♻️ Reciclaje y residuos
+- 💧 Ahorro de agua
+- ⚡ Eficiencia energética
+
+**Organización cronológica**: El historial de actividades, el progreso del usuario y las notificaciones se presentan en orden cronológico inverso (más reciente primero).
+
+**Roles y vistas diferenciadas**: La arquitectura distingue entre la vista del estudiante (enfocada en retos, puntos y comunidad) y la vista del padre (enfocada en progreso, retos familiares y reportes).
+
 #### 3.1.2.2. Labelling Systems
+
+El sistema de etiquetado de EcoMind está diseñado para una interfaz móvil y se basa principalmente en recursos iconográficos. En lugar de mostrar etiquetas textuales de manera permanente, la aplicación emplea símbolos reconocibles, colores y posiciones constantes para comunicar la función de cada elemento sin sobrecargar la pantalla.
+
+Este sistema se aplica especialmente en las barras superior e inferior, las cuales se mantienen visibles en las distintas secciones de la aplicación. La repetición de los mismos iconos en una ubicación estable permite que el usuario aprenda progresivamente su significado y navegue con mayor facilidad.
+
+**Elementos de la barra superior**
+
+La barra superior presenta información relacionada con el estado general del usuario y el acceso a funciones complementarias.
+
+| Recurso visual | Significado |
+|---|---|
+| Logotipo de EcoMind | Identidad de la aplicación |
+| Diamante acompañado de una cantidad | Moneda virtual disponible |
+| Brote acompañado de una cantidad | Días consecutivos de racha |
+| Campana | Notificaciones |
+| Engranaje | Configuración |
+
+Los valores de los diamantes y de la racha se muestran junto a sus respectivos iconos, lo que permite comunicar esta información de manera compacta y comprensible.
+
+**Elementos de la barra inferior**
+
+La barra inferior funciona como el principal medio de navegación entre las secciones de la aplicación. Cada sección se representa exclusivamente mediante un icono.
+
+| Recurso visual | Sección representada |
+|---|---|
+| Tienda | Tienda |
+| Trofeo | Logros |
+| Control de videojuego | Retos |
+| Gráfico ascendente | Progreso |
+| Grupo de personas | Comunidad |
+| Usuario | Perfil |
+
+La sección activa se diferencia mediante un color más intenso. De esta manera, el usuario puede reconocer su ubicación actual sin necesidad de incorporar texto debajo de cada icono. La combinación de símbolos convencionales, colores diferenciados y una distribución constante permite mantener una interfaz sencilla y adecuada para dispositivos móviles.
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 
+EcoMind cuenta con una landing page pública y una aplicación móvil. Por ello, se aplican estrategias de posicionamiento diferenciadas: SEO para optimizar la visibilidad de la landing page en motores de búsqueda y ASO para favorecer el descubrimiento de la aplicación en las tiendas digitales.
+
+**Landing Page**
+
+La landing page comunica la propuesta de valor de EcoMind y orienta a los usuarios hacia la descarga de la aplicación móvil. Para esta página se establecen las siguientes etiquetas:
+
+| Elemento | Valor asignado |
+|---|---|
+| Title | EcoMind |
+| Description | EcoMind es una aplicación educativa que ayuda a niños y familias a desarrollar hábitos sostenibles mediante retos, juegos y actividades ambientales. |
+| Keywords | educación ambiental, retos ecológicos, hábitos sostenibles, aplicación para niños, reciclaje, gamificación educativa, EcoMind |
+| Author | GreenMinds |
+| Robots | index, follow |
+| Canonical URL | https://ecomind.greenminds.pe/ |
+
+La implementación de las etiquetas en la landing page se plantea de la siguiente manera:
+
+```html
+<!-- SEO básico -->
+<title>EcoMind – Retos ecológicos para niños y familias</title>
+<meta
+  name="description"
+  content="EcoMind es una aplicación educativa que ayuda a niños y familias a desarrollar hábitos sostenibles mediante retos, juegos y actividades ambientales."
+>
+<meta
+  name="keywords"
+  content="educación ambiental, retos ecológicos, hábitos sostenibles, aplicación para niños, reciclaje, gamificación educativa, EcoMind"
+>
+<meta name="author" content="GreenMinds">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta
+  property="og:title"
+  content="EcoMind – Retos ecológicos para niños y familias"
+>
+<meta
+  property="og:description"
+  content="Aprende a cuidar el planeta mediante retos, juegos y actividades ambientales para realizar en familia."
+>
+<meta
+  property="og:image"
+  content="https://ecomind.greenminds.pe/assets/og-image.png"
+>
+<meta
+  property="og:url"
+  content="https://ecomind.greenminds.pe/"
+>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EcoMind">
+<meta property="og:locale" content="es_PE">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta
+  name="twitter:title"
+  content="EcoMind – Aprende a cuidar el planeta"
+>
+<meta
+  name="twitter:description"
+  content="Retos, juegos y actividades ambientales para desarrollar hábitos sostenibles desde la infancia."
+>
+<meta
+  name="twitter:image"
+  content="https://ecomind.greenminds.pe/assets/twitter-card.png"
+>
+
+<!-- URL canónica -->
+<link rel="canonical" href="https://ecomind.greenminds.pe/">
+```
+
+**Aplicación móvil**
+
+La aplicación móvil utiliza elementos ASO relacionados con la educación ambiental, los retos ecológicos y la formación de hábitos sostenibles. Estos elementos permiten comunicar su propósito y mejorar su visibilidad dentro de las tiendas de aplicaciones.
+
+**App Store**
+
+| Elemento ASO | Valor asignado |
+|---|---|
+| App Title | EcoMind |
+| App Subtitle | Aprende y cuida el planeta |
+| App Keywords | educación ambiental, retos ecológicos, hábitos sostenibles, reciclaje, niños, familia, juegos |
+| App Description | EcoMind es una aplicación educativa que convierte el aprendizaje ambiental en una experiencia interactiva para niños y familias. Mediante retos ecológicos, juegos y actividades prácticas, los usuarios pueden aprender sobre reciclaje, ahorro de agua, uso responsable de la energía y otros hábitos sostenibles. La aplicación permite registrar el progreso, mantener una racha de actividad, obtener logros y recompensas, participar en actividades familiares e interactuar con la comunidad. EcoMind busca conectar el aprendizaje con acciones cotidianas que contribuyan al cuidado del planeta. |
+| Developer | GreenMinds |
+| Primary Category | Education |
+| Secondary Category | Games |
+
+**Google Play**
+
+| Elemento ASO | Valor asignado |
+|---|---|
+| App Name | EcoMind |
+| Short Description | Aprende hábitos sostenibles con retos, juegos y actividades en familia. |
+| Full Description | EcoMind es una aplicación educativa diseñada para que niños y familias aprendan a cuidar el planeta de una manera práctica y entretenida. Los usuarios pueden completar retos ecológicos y juegos relacionados con el reciclaje, el ahorro de agua, el uso responsable de la energía y otros hábitos sostenibles. Cada actividad contribuye al progreso del usuario y permite obtener logros, recompensas y diamantes dentro de la aplicación. EcoMind también incorpora rachas de actividad, seguimiento del progreso y espacios de participación familiar y comunitaria. De esta manera, el aprendizaje ambiental se transforma en acciones que pueden practicarse en la escuela, el hogar y la comunidad. |
+| Developer | GreenMinds |
+| Category | Education |
+
 #### 3.1.2.4. Searching Systems
 
+EcoMind incorpora sistemas de búsqueda y filtrado en las secciones que concentran una mayor cantidad de información. Estos mecanismos permiten localizar retos, recursos educativos, contactos y comunidades sin necesidad de recorrer manualmente todos los elementos disponibles.
+
+Las interfaces de búsqueda mantienen una estructura visual consistente: un campo identificado mediante el icono de una lupa, controles de filtrado desplegables y resultados que incluyen únicamente la información necesaria para reconocer cada elemento y ejecutar una acción.
+
+**Búsqueda de retos**
+
+La sección de retos incluye una barra de búsqueda que permite localizar actividades mediante palabras relacionadas con su nombre o contenido. También presenta un panel de filtros organizado mediante controles desplegables.
+
+| Filtro | Opciones o criterio |
+|---|---|
+| Categoría | Tema ambiental al que pertenece el reto |
+| Tipo de reto | Colaborativo, minijuego, selección de opciones o respuesta escrita |
+| Edad recomendada | Rango de edad al que está dirigido |
+| Tiempo estimado | Duración aproximada de la actividad |
+
+Después de seleccionar los criterios, el usuario confirma la búsqueda mediante el botón **Apply**. Los resultados se muestran como tarjetas que contienen el título, una descripción breve, la categoría, la duración, la cantidad de puntos ecológicos y el tipo de reto. Cada tarjeta incorpora las acciones **View Quest** y **Add**, que permiten consultar sus detalles o añadirlo al plan de actividades.
+
+**Búsqueda de recursos educativos**
+
+La sección de aprendizaje dispone de una barra de búsqueda y filtros orientados a encontrar materiales educativos adecuados para las necesidades del usuario.
+
+| Filtro | Opciones o criterio |
+|---|---|
+| Favoritos | Muestra los recursos marcados como favoritos |
+| Vistos recientemente | Muestra los recursos consultados recientemente |
+| Categoría temática | Tema ambiental relacionado con el contenido |
+| Tipo de recurso | Video, texto, infografía o audio |
+| Edad recomendada | Rango de edad al que está dirigido |
+| Tiempo estimado | Duración aproximada del recurso |
+
+Los resultados se presentan mediante una cuadrícula de tarjetas. Cada tarjeta muestra una imagen referencial, el título del recurso, su formato, la categoría temática, una descripción breve y el tiempo estimado. También incluye controles para descargar el contenido o añadirlo a favoritos.
+
+**Búsqueda de contactos**
+
+La búsqueda de contactos se utiliza durante las acciones que requieren seleccionar a otros usuarios. El campo de búsqueda permite localizar contactos por su nombre.
+
+Los resultados se presentan en una lista que incluye el avatar, el nombre del contacto y su estado de selección. La acción **Select** permite añadirlo, mientras que el estado **Selected** confirma visualmente que ya fue elegido. La interfaz también muestra la cantidad total de contactos seleccionados.
+
+**Búsqueda de comunidades**
+
+La sección de comunidades permite alternar entre la comunidad local del usuario y la exploración de otras comunidades. En la vista **More Communities**, la barra de búsqueda facilita la localización de comunidades por nombre.
+
+Los resultados se organizan como una lista vertical. Cada elemento contiene el icono y el nombre de la comunidad, junto con el botón **Join**, que permite solicitar o efectuar la incorporación. La sección también incluye la opción **Create Communities** para iniciar una nueva comunidad.
+
+**Presentación de los resultados**
+
+La presentación de los resultados se adapta al tipo de contenido consultado. Los retos y recursos educativos utilizan tarjetas porque requieren mostrar información descriptiva y etiquetas adicionales. Los contactos y las comunidades se presentan como listas, ya que la identificación y selección de cada elemento constituyen las acciones principales.
+
+Los filtros se organizan en paneles desplegables para reducir la cantidad de información visible simultáneamente. Asimismo, las etiquetas de categoría, tipo, duración y recompensa permiten evaluar los resultados sin necesidad de abrir cada elemento.
+
 #### 3.1.2.5. Navigation Systems
+
+EcoMind utiliza sistemas de navegación diferentes para la landing page y la aplicación móvil. La landing page emplea una navegación lineal orientada a presentar el producto, mientras que la aplicación utiliza una navegación persistente que facilita el acceso a sus funciones principales.
+
+**Navegación de la Landing Page**
+
+La landing page utiliza una barra de navegación superior con accesos hacia sus principales secciones informativas. Al seleccionar una opción, el usuario es dirigido al bloque correspondiente dentro de la misma página.
+
+Los accesos principales permiten recorrer las siguientes secciones:
+
+- Presentación de EcoMind.
+- Funcionalidades principales.
+- Guía para padres.
+- Comunidad.
+- Preguntas frecuentes.
+- Equipo de desarrollo.
+
+El contenido se organiza mediante desplazamiento vertical, permitiendo que el visitante conozca progresivamente la propuesta de valor, las características de la aplicación y sus beneficios. Los botones de llamada a la acción, como **Únete ahora**, conducen al usuario hacia el proceso de registro o acceso al producto.
+
+En dispositivos móviles, la barra de navegación de la landing page se presenta mediante un menú desplegable para evitar ocupar demasiado espacio. Los accesos mantienen el mismo orden y conducen a las mismas secciones de la versión de escritorio.
+
+**Navegación principal de la aplicación móvil**
+
+La aplicación móvil utiliza una barra de navegación inferior persistente. Esta barra permite cambiar directamente entre las principales áreas de EcoMind sin regresar a una pantalla inicial.
+
+| Icono | Sección |
+|---|---|
+| Tienda | Tienda |
+| Trofeo | Logros |
+| Control de videojuego | Retos |
+| Gráfico ascendente | Progreso |
+| Grupo de personas | Comunidad |
+| Usuario | Perfil |
+
+La sección activa se diferencia mediante un color más intenso. Este indicador permite que el usuario reconozca en todo momento el área de la aplicación en la que se encuentra.
+
+**Navegación superior de la aplicación móvil**
+
+La barra superior se mantiene visible en las pantallas principales y reúne información general del usuario y accesos complementarios.
+
+| Elemento | Función |
+|---|---|
+| Logotipo de EcoMind | Identificar la aplicación |
+| Diamantes | Mostrar el saldo de moneda virtual |
+| Brote | Mostrar la racha de actividad |
+| Campana | Acceder a las notificaciones |
+| Engranaje | Acceder a la configuración |
+
+Los indicadores de diamantes y racha comunican el estado del usuario, mientras que los iconos de notificaciones y configuración permiten acceder a funciones secundarias sin ocupar espacio en la navegación inferior.
+
+**Navegación mediante pestañas**
+
+Algunas secciones dividen su contenido mediante pestañas. Este recurso permite alternar entre vistas relacionadas sin abandonar la sección actual.
+
+En la gestión de retos, el usuario puede cambiar entre **Add Quests** y **Manage Plan** para explorar actividades o administrar su planificación. En la sección de comunidad, puede alternar entre **Local Community** y **More Communities** para consultar su comunidad actual o descubrir otras comunidades.
+
+La pestaña seleccionada se diferencia mediante color o subrayado, proporcionando una referencia visual de la vista activa.
+
+**Navegación dentro de las pantallas**
+
+Las pantallas secundarias utilizan una flecha de retroceso ubicada en la parte superior para regresar al nivel anterior. Este recurso se emplea en procesos como la selección de contactos, la consulta de detalles y otras tareas que requieren avanzar temporalmente hacia una pantalla específica.
+
+Los filtros se organizan en paneles desplegables que pueden expandirse o contraerse. De esta manera, el usuario puede consultar únicamente las opciones que necesita y mantener visible el contenido principal.
+
+**Navegación contextual**
+
+Las tarjetas y elementos de las listas incorporan acciones relacionadas directamente con su contenido. Entre ellas se encuentran:
+
+- Consultar los detalles de un reto.
+- Añadir un reto al plan.
+- Iniciar una actividad.
+- Guardar o descargar un recurso educativo.
+- Añadir un recurso a favoritos.
+- Seleccionar un contacto.
+- Unirse a una comunidad.
+- Crear una comunidad.
+
+La ubicación de estas acciones dentro de cada tarjeta o elemento reduce la cantidad de pasos necesarios para completar una tarea.
+
+**Recorrido del contenido**
+
+El contenido de la aplicación se presenta principalmente mediante desplazamiento vertical. Los retos y recursos educativos se organizan en tarjetas, mientras que los contactos y las comunidades se muestran mediante listas. Esta estructura permite revisar el contenido de manera progresiva y mantiene un comportamiento consistente entre las diferentes secciones.
+
+La combinación de la barra inferior, la barra superior, las pestañas, los controles de retroceso y las acciones contextuales permite que los usuarios recorran EcoMind de forma directa y predecible.
 
 ### 3.1.3. Landing Page UI Design
 
@@ -6458,11 +6782,285 @@ El diseño de la base de datos organiza por separado los cosméticos, multiplica
 
 ## 4.1. Software Configuration Management
 
+Esta sección describe las herramientas, prácticas y convenciones utilizadas para administrar el desarrollo de EcoMind. Incluye la configuración del entorno de trabajo, la gestión del código fuente y los lineamientos aplicados al código de la landing page, la aplicación móvil y los servicios backend.
+
 ### 4.1.1. Software Development Environment Configuration
+
+
+Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestionar el proyecto, documentar los requisitos, diseñar la experiencia de usuario, implementar la landing page, desarrollar la aplicación móvil y los servicios backend, ejecutar pruebas y desplegar los componentes de la solución.
+
+**Project Management**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| WhatsApp | SaaS / Aplicación | Facilitar la comunicación del equipo, coordinar reuniones, resolver dudas y compartir avisos relacionados con el proyecto. | [https://www.whatsapp.com/](https://www.whatsapp.com/) |
+| Trello | SaaS | Organizar el Product Backlog y los Sprint Backlogs mediante tableros, listas y tarjetas. También permite asignar responsables y dar seguimiento al estado de las tareas. | [https://trello.com/](https://trello.com/) |
+
+**Requirements Management**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Trello | SaaS | Registrar, priorizar y dar seguimiento a las épicas, historias de usuario, tareas técnicas y criterios de aceptación definidos para EcoMind. | [https://trello.com/](https://trello.com/) |
+| GitHub | SaaS | Mantener el historial de cambios del reporte y de los artefactos asociados a los requisitos, permitiendo la revisión colaborativa mediante commits y pull requests. | [https://github.com/](https://github.com/) |
+| Markdown | Lenguaje de marcado | Documentar las historias de usuario, requisitos, decisiones del proyecto y demás contenidos del reporte en un formato legible y compatible con GitHub. | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
+
+**Product UX/UI Design**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Figma | SaaS / Aplicación | Diseñar los wireframes, mock-ups y prototipos interactivos de la landing page y de la aplicación móvil. También permite mantener los componentes visuales y colaborar en tiempo real. | [https://www.figma.com/](https://www.figma.com/) |
+| Lucidchart | SaaS | Elaborar los user flows y representar gráficamente los recorridos y decisiones de los usuarios dentro de EcoMind. | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+
+**Software Development**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| IntelliJ IDEA | Aplicación de escritorio | Desarrollar y depurar las APIs REST del backend implementadas con Java y Spring Boot. Sus herramientas permiten administrar dependencias, ejecutar servicios y trabajar con proyectos backend desde un mismo entorno. | [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/) |
+| Visual Studio Code | Aplicación de escritorio | Implementar y mantener la landing page de EcoMind mediante tecnologías web. También proporciona integración con Git y extensiones para facilitar el desarrollo. | [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) |
+| Live Preview | Extensión de Visual Studio Code | Visualizar en el navegador los cambios realizados en la landing page durante el desarrollo de su estructura y estilos. | [https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) |
+| Android Studio | Aplicación de escritorio | Desarrollar la aplicación móvil nativa de EcoMind con Kotlin. Permite diseñar interfaces, administrar dependencias, depurar el código y ejecutar la aplicación en dispositivos físicos o virtuales. | [https://developer.android.com/studio](https://developer.android.com/studio) |
+| Git | Sistema de control de versiones | Registrar los cambios realizados en el código y la documentación, crear ramas de trabajo y combinar los aportes de los integrantes del equipo. | [https://git-scm.com/downloads](https://git-scm.com/downloads) |
+| GitHub | SaaS | Alojar los repositorios de la landing page, la aplicación Android, los servicios backend y el reporte del proyecto. También facilita la colaboración y revisión de cambios. | [https://github.com/](https://github.com/) |
+| MySQL Workbench | Aplicación de escritorio | Diseñar, consultar y administrar las bases de datos MySQL utilizadas por los servicios backend de EcoMind. | [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/) |
+
+**Software Testing**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Google Chrome | Aplicación de escritorio | Ejecutar pruebas funcionales, visuales y de compatibilidad sobre la landing page, además de inspeccionar su comportamiento mediante las herramientas para desarrolladores. | [https://www.google.com/chrome/](https://www.google.com/chrome/) |
+| Postman | SaaS / Aplicación | Probar los endpoints de las APIs REST, enviar solicitudes HTTP y verificar códigos de estado, encabezados y cuerpos de respuesta. | [https://www.postman.com/downloads/](https://www.postman.com/downloads/) |
+| Android Emulator | Herramienta de Android Studio | Probar la aplicación móvil en diferentes versiones y configuraciones de Android sin depender exclusivamente de dispositivos físicos. | [https://developer.android.com/studio/run/emulator](https://developer.android.com/studio/run/emulator) |
+
+**Software Deployment**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Netlify | SaaS | Alojar y publicar la landing page estática de EcoMind, distribuyendo sus recursos web mediante una red de entrega de contenido. | [https://www.netlify.com/](https://www.netlify.com/) |
+| Microsoft Azure App Service | PaaS | Desplegar y ejecutar las APIs REST desarrolladas con Spring Boot, proporcionando un entorno administrado para los servicios backend. | [https://azure.microsoft.com/products/app-service](https://azure.microsoft.com/products/app-service) |
+| Azure Database for MySQL | DBaaS | Alojar las bases de datos MySQL utilizadas por los diferentes servicios de EcoMind en un entorno administrado en la nube. | [https://azure.microsoft.com/products/mysql](https://azure.microsoft.com/products/mysql) |
+| Google Play Console | SaaS | Gestionar las versiones, pruebas y publicación de la aplicación Android en Google Play. | [https://play.google.com/console/about/](https://play.google.com/console/about/) |
+
+**Software Documentation**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Markdown | Lenguaje de marcado | Redactar y estructurar el reporte del proyecto, los archivos README y la documentación técnica almacenada en los repositorios. | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
+| GitHub | SaaS | Almacenar, versionar y publicar la documentación del proyecto junto con sus imágenes, diagramas y demás recursos. | [https://github.com/](https://github.com/) |
+| Structurizr | SaaS / Lenguaje de modelado | Elaborar los diagramas del modelo C4 para representar el contexto, los contenedores, los componentes y el despliegue de la solución. | [https://structurizr.com/](https://structurizr.com/) |
+| PlantUML | Herramienta de diagramación | Crear diagramas de clases y otros modelos técnicos mediante descripciones textuales que pueden mantenerse bajo control de versiones. | [https://plantuml.com/](https://plantuml.com/) |
 
 ### 4.1.2. Source Code Management
 
+El proyecto se gestionará mediante Git como sistema de control de versiones, utilizando el modelo de ramas GitFlow, propuesto por Vincent Driessen (2010), como workflow principal. Este modelo permite mantener una estructura ordenada para el desarrollo, integración, pruebas, liberación y mantenimiento de los productos de software de EcoMind.
+
+**Repositorios de GitHub por producto**
+
+| Producto | Repositorio |
+|----------|-------------|
+| Landing Page |  |
+| Android Application |  |
+| Backend | https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend |
+| Project Report | https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report |
+
+**Estructura de ramas**
+
+**Ramas principales:**
+
+- `main`: versión estable, validada y lista para producción o publicación.
+- `develop`: rama de integración donde se consolidan las funcionalidades antes de preparar una versión oficial.
+
+**Feature branches:**
+
+Cada nueva funcionalidad, mejora o módulo se desarrolla en una rama independiente creada desde `develop`. La convención utilizada será:
+
+`feature/<bounded-context>-<descripcion-corta>`
+
+**Release branches:**
+
+Las ramas de release se crean desde `develop` cuando el incremento del producto está listo para estabilización. En estas ramas solo se permiten ajustes menores, correcciones de integración, actualización de documentación y preparación de versión. La convención utilizada será:
+
+`release/v<major>.<minor>.<patch>`
+
+Ejemplo: `release/v1.2.0`
+
+Al finalizar, la rama release se fusiona hacia `main` y también hacia `develop` para conservar los cambios de estabilización.
+
+**Hotfix branches:**
+
+Las ramas hotfix se crean desde `main` para corregir errores críticos detectados en producción o en una versión publicada. La convención utilizada será:
+
+`hotfix/v<major>.<minor>.<patch>-<descripcion-corta>`
+
+Ejemplo: `hotfix/v1.2.1-fix-login`
+
+Una vez corregido el problema, la rama hotfix se fusiona hacia `main` y `develop`, asegurando que la corrección quede disponible tanto en producción como en la línea activa de desarrollo.
+
+**Semantic Versioning:**
+
+Se usará Semantic Versioning 2.0.0, utilizando el formato `MAJOR.MINOR.PATCH`:
+
+- `MAJOR`: cambios incompatibles o reestructuraciones mayores.
+- `MINOR`: nuevas funcionalidades compatibles.
+- `PATCH`: correcciones de errores o ajustes menores.
+
+**Conventional Commits:**
+
+Para los mensajes de commit se utilizará el estándar Conventional Commits, asegurando claridad y trazabilidad en el historial del proyecto.
+
+Formato:
+
+`<tipo>(<scope>): <mensaje en presente>`
+
+Tipos principales:
+
+- `feat`: nueva funcionalidad.
+- `fix`: corrección de error.
+- `docs`: cambios en documentación.
+- `style`: cambios de formato sin alterar lógica.
+- `refactor`: reestructuración del código sin cambiar comportamiento.
+- `test`: creación o actualización de pruebas.
+- `chore`: tareas menores o de mantenimiento.
+
 ### 4.1.3. Source Code Style Guide & Conventions
+
+Para todos los productos de EcoMind se utilizará nomenclatura en inglés y convenciones consistentes entre la landing page, la aplicación móvil, los servicios backend y la documentación técnica. El objetivo es mantener un código legible, mantenible y alineado con estándares reconocidos.
+
+La landing page utiliza HTML, CSS y JavaScript; los servicios backend se desarrollan con Java y Spring Boot; y la aplicación móvil Android se implementa con Kotlin.
+
+**Convenciones generales de coding**
+
+- Utilizar nombres descriptivos y en inglés para archivos, variables, funciones, clases, interfaces, componentes, servicios y paquetes.
+- Evitar abreviaturas ambiguas y nombres genéricos como `data`, `info`, `object` o `temp` cuando no expresen claramente el propósito del elemento.
+- Mantener cada función o método orientado a una única responsabilidad.
+- Evitar la duplicación de código mediante funciones, clases, componentes o servicios reutilizables.
+- Aplicar una indentación consistente de acuerdo con las convenciones del lenguaje utilizado.
+- Eliminar código sin uso, importaciones innecesarias y bloques comentados antes de integrar los cambios.
+- Agregar comentarios únicamente cuando sea necesario explicar una regla de negocio, una decisión técnica o un comportamiento que no resulte evidente.
+- Mantener una separación clara entre las capas de dominio, aplicación, infraestructura e interfaces.
+- No incluir credenciales, tokens, contraseñas ni claves de servicios externos directamente en el código fuente.
+- Utilizar variables de entorno o archivos de configuración excluidos del repositorio para almacenar información sensible.
+- Mantener los mensajes de commits breves, descriptivos y redactados en inglés.
+
+**Lenguaje HTML**
+
+Para el desarrollo de la landing page se seguirán el HTML Standard y Google HTML/CSS Style Guide.
+
+- Los nombres de archivos se escribirán en minúsculas y se separarán mediante guiones, siguiendo la convención `kebab-case`.
+- Las etiquetas y los atributos HTML se escribirán en minúsculas.
+- Los valores de los atributos se colocarán entre comillas dobles.
+- Las etiquetas estarán correctamente anidadas y utilizarán una indentación consistente.
+- Se utilizarán elementos semánticos como `header`, `nav`, `main`, `section`, `article` y `footer`.
+- Cada página deberá incluir un atributo `lang` en el elemento `html`.
+- Las imágenes deberán incluir el atributo `alt` con una descripción adecuada.
+- Los elementos interactivos deberán utilizar etiquetas acordes con su función, como `button` para acciones y `a` para enlaces.
+- Se evitará el uso de estilos y scripts inline.
+- Los identificadores deberán ser únicos dentro de cada documento.
+- La estructura del contenido deberá mantener una jerarquía coherente de encabezados.
+
+**Lenguaje CSS**
+
+Para los estilos de la landing page se seguirá Google HTML/CSS Style Guide.
+
+- Los nombres de clases se escribirán en minúsculas y se separarán mediante guiones, siguiendo la convención `kebab-case`.
+- Los nombres de las clases deberán describir el propósito del elemento y no únicamente su apariencia.
+- Se evitarán selectores excesivamente específicos.
+- Los estilos se organizarán desde reglas generales hacia reglas específicas.
+- Se reutilizarán variables CSS para colores, tipografías, espacios y otros valores compartidos.
+- Los valores iguales a cero no incluirán unidades.
+- Se evitará el uso de `!important`, excepto cuando exista una justificación técnica.
+- Se mantendrá una separación entre la estructura HTML y la presentación visual.
+- Se utilizarán media queries para adaptar la interfaz a dispositivos móviles y de escritorio.
+- Se agruparán las declaraciones relacionadas para facilitar su lectura.
+
+
+**Lenguaje JavaScript**
+
+Para la lógica interactiva de la landing page se seguirán MDN JavaScript Guide y Google JavaScript Style Guide.
+
+- Las variables y funciones se escribirán en `camelCase`.
+- Las clases se escribirán en `PascalCase`.
+- Las constantes globales se escribirán en `UPPER_SNAKE_CASE`.
+- Se utilizarán `const` y `let` en lugar de `var`.
+- Se priorizará el uso de `const` cuando una referencia no necesite ser reasignada.
+- Se utilizará comparación estricta mediante `===` y `!==`.
+- Las funciones deberán tener nombres que describan claramente la acción que realizan.
+- Las operaciones asíncronas se manejarán mediante `async` y `await` cuando corresponda.
+- Los errores deberán gestionarse mediante bloques `try...catch` o mecanismos equivalentes.
+- La lógica reutilizable se separará en funciones o módulos.
+- Se evitará modificar directamente variables globales.
+- Los eventos deberán registrarse desde JavaScript en lugar de utilizar atributos HTML inline.
+
+**Lenguaje Java**
+
+Los servicios backend de EcoMind se desarrollarán con Java y Spring Boot. Para su implementación se seguirán Google Java Style Guide y Spring Boot Reference Documentation.
+
+- Las clases, interfaces, enumeraciones y anotaciones se escribirán en `PascalCase`.
+- Los métodos, atributos, parámetros y variables locales se escribirán en `camelCase`.
+- Las constantes se escribirán en `UPPER_SNAKE_CASE`.
+- Los paquetes se escribirán completamente en minúsculas.
+- Los nombres de las clases de dominio serán sustantivos en singular.
+- Los métodos deberán utilizar verbos que expresen claramente la acción realizada.
+- Cada archivo deberá contener una clase pública principal con el mismo nombre del archivo.
+- Se utilizarán tipos específicos y se evitará el uso innecesario de valores nulos.
+- Las dependencias se recibirán mediante inyección por constructor.
+- Se evitará incluir reglas de negocio dentro de los controladores REST.
+- Las excepciones deberán representar situaciones concretas del dominio o de la aplicación.
+- Las colecciones y objetos retornados no deberán exponer estructuras internas modificables cuando esto pueda afectar el estado del dominio.
+
+**Convenciones de Spring Boot**
+
+- Los controladores REST terminarán en `Controller`.
+- Los servicios de comandos o consultas terminarán en `CommandService` o `QueryService`, según su responsabilidad.
+- Los repositorios del dominio terminarán en `Repository`.
+- Las implementaciones técnicas de repositorios terminarán en `RepositoryImpl`.
+- Los adaptadores externos terminarán en `Client`, `Adapter` o `Gateway`, según su función.
+- Los recursos utilizados por la API terminarán en `Resource`.
+- Los objetos de transferencia de datos terminarán en `Dto` cuando corresponda.
+- Los ensambladores encargados de transformar objetos terminarán en `Assembler`.
+- Los eventos del dominio terminarán en `Event`.
+- Los manejadores de eventos terminarán en `EventHandler`.
+- Las clases de configuración terminarán en `Configuration`.
+- Las rutas REST utilizarán sustantivos en plural, minúsculas y separados mediante guiones cuando contengan más de una palabra.
+- Los nombres de propiedades JSON se escribirán en `camelCase`.
+- Los códigos de estado HTTP deberán representar correctamente el resultado de cada operación.
+- La validación de los datos de entrada se realizará antes de ejecutar la lógica de aplicación.
+
+
+**Lenguaje Kotlin**
+
+La aplicación móvil Android se desarrollará con Kotlin. Para su implementación se seguirán Kotlin Coding Conventions y Android Kotlin Style Guide.
+
+- Las clases, interfaces, objetos y enumeraciones se escribirán en `PascalCase`.
+- Las funciones, propiedades, parámetros y variables locales se escribirán en `camelCase`.
+- Las constantes se escribirán en `UPPER_SNAKE_CASE`.
+- Los paquetes se escribirán completamente en minúsculas.
+- Los nombres de los archivos deberán coincidir con la clase principal que contienen.
+- Se utilizarán nombres descriptivos y en inglés.
+- Se priorizarán las propiedades inmutables declaradas con `val`.
+- Se utilizará `var` únicamente cuando el valor de una propiedad deba cambiar.
+- Se evitará el operador de aserción no nula `!!`.
+- Se utilizarán tipos anulables únicamente cuando la ausencia de un valor forme parte del modelo.
+- Se utilizarán `data class` para representar estructuras cuyo propósito principal sea almacenar información.
+- Se utilizarán corrutinas para las operaciones asíncronas.
+- Las operaciones que puedan bloquear la interfaz no deberán ejecutarse en el hilo principal.
+- Los estados de carga, éxito y error deberán representarse explícitamente.
+- Se evitarán funciones extensas y clases con múltiples responsabilidades.
+
+**Convenciones de la aplicación Android**
+
+- Las clases encargadas del estado de las pantallas terminarán en `ViewModel`.
+- Los casos de uso terminarán en `UseCase`.
+- Las interfaces de acceso a datos terminarán en `Repository`.
+- Las implementaciones de acceso a datos terminarán en `RepositoryImpl`.
+- Las fuentes de datos terminarán en `LocalDataSource` o `RemoteDataSource`.
+- Los objetos provenientes de servicios externos terminarán en `Dto`.
+- Los mapeadores de datos terminarán en `Mapper`.
+- Las clases relacionadas con bases de datos locales terminarán en `Database`, `Dao` o `Entity`, según su responsabilidad.
+- Los nombres de los recursos de Android se escribirán en `snake_case`.
+- Los textos visibles para el usuario se almacenarán en archivos de recursos y no directamente en el código.
+- Los colores, dimensiones e imágenes reutilizables se administrarán mediante los recursos correspondientes.
+- La lógica de negocio no se implementará directamente dentro de las pantallas.
+- La navegación y el estado de la interfaz se mantendrán separados del acceso a datos.
 
 ### 4.1.4. Software Deployment Configuration
 
@@ -6490,7 +7088,102 @@ El diseño de la base de datos organiza por separado los cosméticos, multiplica
 
 ## 4.3. Validation Interviews
 
+Esta sección presenta el proceso definido para validar la landing page y la aplicación móvil con representantes de los segmentos objetivo. Comprende el diseño de las entrevistas, las tareas asignadas y las preguntas utilizadas para evaluar la comprensión, facilidad de uso y utilidad de la solución.
+
 ### 4.3.1. Diseño de Entrevistas
+
+Al inicio de cada sesión se le explica al participante que el objetivo es probar la aplicación, no sus conocimientos, por lo que puede interactuar con total libertad. Se le pide que mientras navega vaya comentando en voz alta lo que piensa o lo que le genera dudas. La sesión se divide en tres momentos: exploración del Landing Page, ejecución de tareas en la aplicación y cuestionario final.
+
+**Datos de registro del participante**
+
+- Nombre completo
+- Edad
+- Distrito de residencia
+
+**Segmento objetivo 1: Estudiantes de Primaria**
+
+**User Flows a validar :**
+
+- User Flow 1 – Miniactividades y retos. Seleccionar una categoría desde el panel principal, elegir una miniactividad, completarla paso a paso, recibir los eco-points y completar el reto diario para verificar la racha en el perfil.
+- User Flow 2 – Desafío entre compañeros. Elegir una actividad grupal, invitar amigos desde la lista, verificar participantes e iniciar la actividad en conjunto.
+- User Flow 3 – Ranking educativo y comunitario. Consultar la posición propia en el ranking general y revisar el ranking semanal de la comunidad.
+- User Flow 4 – Comunidad y eventos. Revisar el feed de publicaciones, explorar eventos cercanos en el mapa, inscribirse en uno y consultar los logros compartidos y la meta comunitaria.
+- User Flow 5 – Tienda y personalización. Explorar cosméticos, multiplicadores de XP y paquetes de gemas, comprar un cosmético con gemas, equiparlo en el avatar y adquirir un multiplicador.
+
+**Tareas asignadas:**
+
+- Navegar el Landing Page, revisar las preguntas frecuentes y entrar a la aplicación.
+- Elegir una categoría de reto, completar una miniactividad y luego completar el reto diario.
+- Ir al perfil, revisar resumen con puntos, racha y medallas, crear un compromiso ambiental, revisar progreso y explorar favoritos.
+- Invitar a un amigo a un desafío grupal e iniciar la actividad.
+- Buscar su posición en el ranking.
+- En comunidad, buscar un evento en el mapa, ver el detalle e inscribirse.
+- En la tienda, comprar un cosmético con gemas, equiparlo y adquirir un multiplicador de XP.
+
+**Preguntas de validación:**
+
+1. ¿El Landing Page te ayudó a entender de qué va EcoMind? ¿Qué parte te llamó más la atención?
+
+2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer?
+
+3. ¿Te gustó ver que tu racha subió al completar el reto diario? ¿Eso te haría volver mañana?
+
+4. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental?
+
+5. ¿Cómo te pareció lo de invitar un amigo al desafío grupal? ¿Fue fácil o te trabaste en algún paso?
+
+6. Al ver los eventos en el mapa, ¿te quedó claro de qué trataba cada evento y cómo unirte?
+
+7. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
+
+8. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
+
+9. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
+
+10. ¿Usarías EcoMind seguido? ¿Qué te haría volver a abrirla cada día?
+
+11. Si pudieras cambiarle una sola cosa a la app, ¿cuál sería?
+
+**Segmento objetivo 2: Padres de Familia**
+
+**User Flows a validar:**
+
+- User Flow 1 – Familia y progreso. Acceder a la pestaña de familia en el perfil, revisar los integrantes, entrar al perfil del hijo y consultar su racha, puntos, medallas, actividades completadas.
+
+- User Flow 2 – Actividad familiar en comunidad. Explorar eventos cercanos en el mapa con GPS, inscribir al grupo familiar eligiendo participación familiar, y consultar logros compartidos.
+
+- User Flow 3 – Tienda. Recorrer las categorías de cosméticos, multiplicadores de XP y paquetes de gemas para conocer el sistema de economía virtual.
+
+**Tareas asignadas:**
+
+- Explorar el Landing Page, leer los consejos para padres y preguntas frecuentes, y acceder a la aplicación.
+- Acceder a la pestaña de familia en el perfil, revisar los integrantes y entrar al perfil de su hijo para ver su progreso y logros.
+- Revisar el resumen del perfil (racha, puntos, medallas) y la pestaña de progreso con actividades completadas y pendientes.
+- En comunidad, buscar un evento en el mapa, ver los detalles e inscribir al grupo familiar. Después cancelar la inscripción.
+- Revisar los logros en ranking.
+- Recorrer la tienda: cosméticos, multiplicadores y gemas.
+
+**Preguntas de validación:**
+
+1. Después de ver el Landing Page, ¿le quedó claro cómo EcoMind puede ayudar a su familia? ¿Los consejos para padres le sirvieron?
+
+2. En la pestaña de familia, ¿pudo encontrar a los integrantes y ver el perfil de su hijo sin dificultad? ¿La información le pareció suficiente?
+
+3. Al revisar las actividades completadas y pendientes, ¿siente que puede hacerle seguimiento real al aprendizaje de su hijo?
+
+4. ¿Cómo fue inscribir a la familia en un evento del mapa? ¿El modal con la opción individual/familiar le resultó claro?
+
+5. Al consultar el ranking, ¿pudo identificar fácilmente su posición? ¿Considera que el ranking es un buen mecanismo de motivación?
+
+6. La tienda y las gemas, los multipliers , ¿le generan confianza o le preocupa algo sobre las compras en la app?
+
+7. ¿Siente que la aplicación está pensada también para los padres o la percibe solo para los niños?
+
+8. ¿Algo de la interfaz le generó confusión o le pareció innecesario?
+
+9. Del 1 al 5, ¿qué tan probable es que use EcoMind con su familia de forma regular? ¿Por qué?
+
+10. ¿Qué le cambiaría a la aplicación para que se adapte mejor a su dinámica familiar?
 
 ### 4.3.2.Registro de Entrevistas
 
