@@ -6768,6 +6768,139 @@ La combinación de la barra inferior, la barra superior, las pestañas, los cont
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
+Los wireframes de la aplicación móvil EcoMind representan una primera aproximación a la estructura, distribución y navegación de su interfaz. Para su elaboración se priorizó la claridad de la información, la consistencia visual y el acceso directo a las funciones principales: autenticación, perfil, retos, aprendizaje, ranking, comunidad, tienda y configuración.
+La aplicación emplea una barra de navegación inferior que permite cambiar rápidamente entre los módulos principales. Asimismo, las pantallas presentan encabezados, tarjetas, botones, formularios y listas con una organización uniforme. Esta estructura reduce la carga cognitiva y permite que tanto los menores como sus padres comprendan fácilmente las acciones disponibles.
+
+**Figura X**
+
+*Wireframe de inicio de sesión.*
+
+<div align="center"><img src="assets/img/figures/Sign in.jpeg" alt="Wireframe de inicio de sesión" width="250"></div>
+
+Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y ofrece acceso al registro de una cuenta nueva.
+
+**Figura X**
+
+*Wireframe de registro.*
+
+<div align="center"><img src="assets/img/figures/Sign upWireframe.jpeg" alt="Wireframe de registro" width="250"></div>
+
+Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los términos y acceder posteriormente a la aplicación.
+
+**Figura X**
+
+*Wireframe de selección de retos.*
+
+<div align="center"><img src="assets/img/figures/QuestWireframe.jpeg" alt="Wireframe de selección de retos" width="250"></div>
+
+Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones visuales de fácil reconocimiento.
+
+**Figura X**
+
+*Wireframe del detalle de un reto.*
+
+<div align="center"><img src="assets/img/figures/Quest2Wireframe.jpeg" alt="Wireframe del detalle de un reto" width="250"></div>
+
+El detalle del reto muestra sus objetivos, recompensas, progreso y la acción principal para completar la actividad.
+
+**Figura X**
+
+*Wireframe de perfil.*
+
+<div align="center"><img src="assets/img/figures/ProfileWireframe.jpeg" alt="Wireframe de perfil" width="250"></div>
+
+El perfil centraliza los datos del usuario, sus estadísticas, progreso, compromisos y opciones de administración.
+
+**Figura X**
+
+*Wireframe de comunidad.*
+
+<div align="center">
+  <a href="https://postimg.cc/t7rrDKVV">
+    <img src="https://i.postimg.cc/9F2vXVm1/Comunidad-Wireframe.jpg" alt="Wireframe de comunidad" width="250">
+  </a>
+</div>
+
+La pantalla permite consultar publicaciones, eventos y actividades compartidas por la comunidad.
+
+**Figura X**
+
+*Wireframe de tienda.*
+
+<div align="center"><img src="assets/img/figures/StoreWireframe.jpeg" alt="Wireframe de tienda" width="250"></div>
+
+La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acción de compra.
+
+
+
+*Wireframe de aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/LearningWireframe.jpeg" alt="Wireframe de aprendizaje" width="250"></div>
+
+La sección presenta recursos educativos mediante tarjetas, categorías, búsqueda y opciones para descargar o guardar contenido.
+
+**Figura X**
+
+*Wireframe de ranking.*
+
+<div align="center"><img src="assets/img/figures/RankingWireframe1.jpeg" alt="Wireframe de ranking" width="250"></div>
+
+La pantalla muestra la clasificación de los usuarios y destaca la posición personal según la categoría seleccionada.
+
+**Figura X**
+
+*Wireframe de ajustes.*
+
+<div align="center"><img src="assets/img/figures/AjustesWireframe.jpeg" alt="Wireframe de ajustes" width="250"></div>
+
+La sección reúne las opciones de cuenta, preferencias y configuración en bloques simples y fáciles de identificar.
+
+
+**Figura X**
+
+*Wireframes de inicio y retos.*
+
+<div align="center"><img src="assets/img/figures/Inicio%20yQuest.jpeg" alt="Wireframes de inicio y retos" width="800"></div>
+
+El conjunto presenta el acceso inicial y las distintas etapas para explorar, iniciar y completar retos ambientales.
+
+**Figura X**
+
+*Wireframes de tienda y aprendizaje.*
+
+<div align="center">
+  <a href="https://postimg.cc/5XGy32fj">
+    <img src="https://i.postimg.cc/yN6R7D5h/Storeand-Learning.jpg" alt="Wireframes de tienda y aprendizaje" width="700">
+  </a>
+</div>
+
+El conjunto muestra la consulta y compra de productos, junto con la búsqueda y visualización de recursos educativos.
+
+**Figura X**
+
+*Wireframes de perfil.*
+
+<div align="center"><img src="assets/img/figures/ProfileBC.jpeg" alt="Wireframes de perfil y administración de cuentas" width="750"></div>
+
+El conjunto presenta la consulta y edición del perfil, las estadísticas, los logros y las diversas acciones que puedes hacer en perfil.
+
+
+**Figura X**
+
+*Wireframes de comunidad.*
+
+<div align="center"><img src="assets/img/figures/Comunidad.jpeg" alt="Wireframes de comunidad" width="750"></div>
+
+El conjunto presenta publicaciones, eventos, grupos, logros, búsquedas y mensajes disponibles en la comunidad.
+
+**Figura X**
+
+*Wireframes de ranking, notificaciones y ajustes.*
+
+<div align="center"><img src="assets/img/figures/RankingNotAjus.jpeg" alt="Wireframes de ranking, notificaciones y ajustes" width="750"></div>
+
+El conjunto reúne la clasificación de usuarios, el centro de notificaciones y las opciones generales de configuración.
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 #### 3.1.4.3. Mobile Applications Mock-ups
