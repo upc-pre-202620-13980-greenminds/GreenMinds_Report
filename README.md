@@ -4413,7 +4413,7 @@ Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden
 
 En esta sección se presenta el Container Diagram de EcoMind, el cual muestra los elementos de alto nivel de la arquitectura de software, la distribución de responsabilidades entre ellos y las principales decisiones de tecnología.
 
-La solución está compuesta por dos productos con los que interactúa el usuario final: la aplicación móvil `EcoMind Android Application`, desarrollada en Kotlin, y el `Landing Page`, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta. La aplicación Android consume una única Backend API desarrollada en Java y Spring Boot, que organiza la lógica del dominio en los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization.
+La solución está compuesta por cuatro contenedores. La aplicación móvil EcoMind Android Application, desarrollada en Kotlin, y el Landing Page, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta, son los productos con los que interactúa el usuario final. El Backend API, desarrollado en Java con Spring Boot, es un único contenedor que expone el servicio RESTful y organiza la lógica del dominio en los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization, que corresponden a los bounded contexts definidos en la sección 2.5.1 y se despliegan como una sola unidad. Los datos de todos los módulos se almacenan en EcoMind Database, una base de datos PostgreSQL a la que el Backend API accede mediante JDBC. La aplicación Android consume el Backend API por HTTPS con mensajes JSON y token Bearer JWT, y el Backend API se comunica con Resend para el envío de correos y con las pasarelas de pago con tarjeta, Yape y PayPal.
 
 **Figura 26**
 
@@ -4423,8 +4423,11 @@ La solución está compuesta por dos productos con los que interactúa el usuari
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura física y lógica sobre la que se ejecutan los containers.
+En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura sobre la que se ejecutan los containers definidos en la sección 2.5.3.2. El diagrama muestra un único entorno de producción con cuatro nodos de despliegue.
 
+La aplicación EcoMind Android Application se ejecuta en el dispositivo Android del usuario y consume el Backend API mediante HTTPS. El Landing Page, al ser un sitio web estático, se publica en GitHub Pages. El Backend API se despliega en Render como un solo servicio web, de modo que los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization se ejecutan juntos como una única unidad de despliegue. Los datos de todos los módulos se almacenan en EcoMind Database, una base de datos PostgreSQL a la que el Backend API accede mediante JDBC.
+
+En el diagrama se representan solo los containers propios de EcoMind. Los servicios externos de correo y de pago ya se describen en el diagrama de contenedores y no forman parte de la infraestructura desplegada por el equipo.
 
 **Figura 27**
 
