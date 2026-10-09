@@ -84,6 +84,8 @@ Proyecto <br>
 | 1.0.0    | 17/09/2026     | Katty Philco, Isabel Aponte | docs: agregar registro de entrevistas <br> docs: agregar sección Needfinding <br> docs: agregar Bounded Context: Monetization <br> docs: agregar Bounded Context Software Architecture Component Level and code diagrams  <br>  |
 | 1.0.0    | 18/09/2026     | Alejandra Astocondor, Isabel Aponte, Leo Dulanto, Katty Philco, Mauricio Pajes | docs: agregar diagramas Bounded Context Quest <br> docs: agregar Bounded Context: Learning <br> docs: agregar bounded context canvases community <br> docs: agregar Bounded Context: IAM  <br> docs: agregar Bounded Context: User <br> docs: agregar lenguaje ubicuo <br> docs: agregar Bounded Context: Community <br> docs: agregar Bounded Context: Gamification <br> docs: agregar objetivos SMART  |
 
+<div style="page-break-before: always;"></div>
+
 # Project Report Collaboration Insights
 
 Project Report URL: https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report.git 
@@ -98,6 +100,8 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 
 ![projetoverview](assets/img/figures/Docs_Overview.png)
 
+
+<div style="page-break-before: always;"></div>
 
 # Tabla de contenidos
 
@@ -1130,6 +1134,10 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 
 ![event_Storming2](assets/img/figures/EventStorming020.jpg)
 ![event_Storming](assets/img/figures/EventStorming021.jpg)
+
+Los eventos se declararon como hechos ya ocurridos dentro del dominio, redactados en participio pasado y con el sustantivo que identifica lo que sucedió (por ejemplo, cuenta registrada, reto completado o compra confirmada). Cada evento se escribió en una nota independiente y se ubicó en el área del negocio a la que pertenece, con el fin de que el vocabulario coincida con el de la Ubiquitous Language de la sección 2.3.6.
+
+En el Paso 1, las notas quedaron agrupadas en seis áreas: retos y misiones, logros y ranking, tienda, perfil, familia y amistades, comunidad y aprendizaje, y cuenta y sesión. En el Paso 2, cada grupo se ordenó en una línea de tiempo, de manera que se distinguen el flujo principal y las ramas alternativas.
 
 ### 2.3.6. Ubiquitous Language
 
@@ -4225,23 +4233,42 @@ Después de analizar, separar y consolidar las distintas responsabilidades, se d
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
-Luego de identificar los bounded contexts candidatos, se realizó una sesión de Flow Modeling con el propósito de representar la colaboración entre las distintas capacidades del dominio. Para ello, se seleccionaron los flujos que generan mayor valor para los usuarios y se identificaron los comandos, eventos y consultas intercambiados entre los bounded contexts.
+Luego de identificar los bounded contexts candidatos, se realizó una sesión de Flow Modeling con el propósito de representar la colaboración entre las distintas capacidades del dominio. Para ello se aplicó la técnica de Domain Storytelling sobre los flujos que generan mayor valor para los usuarios. En cada diagrama, el usuario y los bounded contexts participantes aparecen como actores, y los mensajes que intercambian (comandos, eventos y consultas) se numeran según el orden en que ocurren. Se modelaron cuatro escenarios: completar una quest y compartir un logro, invitar usuarios a una quest colaborativa, comprar y recibir un producto, y registrar la cuenta y configurar el perfil.
+
+**Escenario 1: completar una quest y compartir un logro**
+
+Este escenario describe el recorrido en el que un usuario cumple una quest y decide compartir el logro obtenido. Participan el Usuario y los bounded contexts Quests, Gamification y Community. El usuario envía el comando Completar Quest (1) a Quests, que valida la quest (2) y publica el evento Quest Completada (3) dirigido a Gamification. Gamification asigna las recompensas (4) y comunica al usuario el evento Logro desbloqueado (5). Después, el usuario envía el comando Compartir logro (6) a Gamification, que informa a Community mediante el evento Publicación de logro solicitada (7). Community crea la publicación (8) y notifica al usuario el evento Publicación creada (9). Quests solo publica el hecho de que la quest fue completada y Community interviene únicamente cuando el usuario decide compartir el logro.
 
 **Figura 13**
 
 *Domain Storytelling del flujo de participación en quests y publicación de un logro.*
 
 ![Flow1](assets/img/figures/Flow1.jpg)
+
+**Escenario 2: invitar usuarios a una quest colaborativa**
+
+En este escenario un usuario anfitrión invita a un usuario amigo a participar en una quest colaborativa. Intervienen Quests y Users. El anfitrión envía el comando Invitar usuario (1) a Quests, que valida con Users la relación con el invitado (2), crea la invitación (3) y comunica al amigo el evento Invitación creada (4). Cuando el amigo envía el comando Aceptar invitación (5), Quests vuelve a validar la relación con Users (6), incorpora al participante (7) y registra el evento Participante incorporado (8). La relación con el invitado se verifica tanto al enviar la invitación como al aceptarla, y Quests consulta a Users como cliente, según el patrón Customer/Supplier definido en la sección 2.5.2.
+
 **Figura 14**
 
 *Domain Storytelling del flujo de invitación a una quest colaborativa.*
 
 ![Flow1](assets/img/figures/Flow2.jpg)
+
+**Escenario 3: compra y entrega de productos**
+
+El tercer escenario representa la compra de productos dentro de la aplicación. Participan el Usuario, Monetization, la API de pago elegido y, según el tipo de producto, Gamification y Users. El usuario envía el comando Comprar producto (1) y Monetization procesa la compra (2). Si el producto son gemas, Monetization solicita el pago (2A) a la API de pago elegido y recibe el evento Pago procesado (3A). Si el producto es un potenciador o un protector de racha, Monetization emite el evento Potenciador comprado (3B) hacia Gamification. Si es un avatar o un sombrero, emite el evento Avatar comprado (3C) hacia Users. Finalmente, Monetization entrega el producto (4) y comunica al usuario el evento Producto entregado (5).
+
 **Figura 15**
 
 *Domain Storytelling del flujo de compra y entrega de productos.*
 
 ![Flow1](assets/img/figures/Flow3.jpg)
+
+**Escenario 4: registro y configuración del usuario**
+
+Este escenario cubre el inicio del ciclo de vida del usuario en la plataforma. Participan el Usuario, IAM y Users. El usuario envía el comando Registrar cuenta (1) a IAM, que crea la cuenta y registra el evento Cuenta creada (2). Luego IAM envía a Users el comando Crear perfil (3) y Users registra el evento Perfil creado (5). Posteriormente, el usuario puede enviar el comando Editar Perfil (6) a Users, que registra el evento Perfil editado (7). La cuenta y el perfil permanecen en contextos distintos: IAM solo solicita la creación del perfil y Users administra su contenido, como se describe en la relación entre ambos contextos en la sección 2.5.2.
+
 **Figura 16**
 
 *Domain Storytelling del flujo de registro y configuración del perfil.*
@@ -6908,6 +6935,8 @@ El conjunto reúne la clasificación de usuarios, el centro de notificaciones y 
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+<div style="page-break-before: always;"></div>
+
 # Capítulo IV: Product Implementation & Validation
 
 # 4. Product Implementation & Validation
@@ -7321,6 +7350,8 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 ### 4.3.3. Evaluaciones según heurísticas
 
+<div style="page-break-before: always;"></div>
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
@@ -7339,6 +7370,8 @@ Se recomienda revisar periódicamente que los nombres, relaciones y responsabili
 
 También se recomienda validar las integraciones entre bounded contexts durante la implementación y actualizar la documentación cuando cambien las reglas del dominio.
 
+<div style="page-break-before: always;"></div>
+
 # Bibliografía
 
 - Adrilo, R (s.f.). Happy Little Planet App. Adrilo Rincz. https://www.adrilorincz.com/happy-little-planet-app  
@@ -7356,5 +7389,7 @@ También se recomienda validar las integraciones entre bounded contexts durante 
 - Reyes, R. (2018). El fenómeno del consumismo y sus desafíos para la mejora del medio ambiente. Documentos de Trabajo Areandina, 1. https://revia.areandina.edu.co/index.php/DT/article/view/1265
 
 - Y-Group Games. (s. f.). Defender of the nature. Google Play. https://play.google.com/store/apps/details?id=com.YovoGames.Defender&hl=es_PE 
+
+<div style="page-break-before: always;"></div>
 
 # Anexos
