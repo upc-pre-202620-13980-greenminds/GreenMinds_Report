@@ -4279,7 +4279,7 @@ Después de identificar los candidate bounded contexts, se elaboró un Bounded C
 
 La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique. En cada canvas se registraron el propósito del contexto, su clasificación estratégica, los mensajes que recibe y envía a sus colaboradores, el lenguaje ubicuo, las decisiones de negocio, los supuestos, las métricas de verificación y las preguntas abiertas.
 
-**1. Bounded Context Canvas Quests**
+**1. Bounded Context Canvas de Quests**
 
 El canvas de Quests lo define como un contexto core, con modelo de negocio de engagement y evolución custom built. Su propósito es permitir que los usuarios participen de manera individual o colaborativa en misiones orientadas al cuidado del medio ambiente, y gestionar las misiones, sus actividades, participantes, progreso y validación. Recibe de anfitriones, invitados y padres los comandos para iniciar, completar y progresar una quest, crear y administrar sesiones colaborativas, aceptar o rechazar invitaciones y gestionar planes familiares, además de las consultas de progreso y detalle. De Users recibe el evento Relación entre usuarios eliminada. Hacia Gamification y Community envía los eventos Quest completada, Quest colaborativa completada y Plan familiar completada, y hacia Users envía la consulta Validar relación. Entre sus decisiones de negocio se encuentran que las quests colaborativas requieren entre 2 y 5 participantes, que solo el anfitrión puede iniciarlas, que los participantes deben tener una relación de amistad o parentesco con el anfitrión y que una quest solo se completa si su progreso alcanza el 100 %.
 
@@ -4289,7 +4289,7 @@ El canvas de Quests lo define como un contexto core, con modelo de negocio de en
 
 ![BoundedContextCanvasQuests](assets/img/figures/CanvasQuest.jpg)
 
-**2. Bounded Context Canvas Community**
+**2. Bounded Context Canvas de Community**
 
 Community se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios interactúen dentro de comunidades en las que comparten logros, eventos y metas comunitarias, y gestiona comunidades, publicaciones, eventos y metas. Recibe de administradores y padres los comandos de inscripción a comunidades, eventos y metas, la reacción a publicaciones, y la creación, edición y eliminación de comunidades, eventos y metas. También recibe de Quests el evento Reto completado y de Gamification el evento Logro obtenido por usuario, y atiende consultas como buscar comunidades, listar eventos y logros, y mostrar eventos en el mapa mediante la API de Leaflet. Hacia Gamification envía el evento Participación comunitaria registrada y hacia Users la consulta Consultar familia usuario. Sus reglas indican, por ejemplo, que solo los padres pueden crear una comunidad, que un usuario puede inscribirse como máximo a tres metas comunitarias a la vez y que un niño no puede inscribirse a un evento por su cuenta.
 
@@ -4299,7 +4299,7 @@ Community se clasifica como contexto supporting, con modelo de engagement y evol
 
 ![BoundedContextCanvasCommunity](assets/img/figures/CanvasCommunity.png)
 
-**3. Bounded Context Canvas Gamification**
+**3. Bounded Context Canvas de Gamification**
 
 Gamification se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es reconocer la participación y la constancia de los usuarios mediante ecopoints, experiencia, recompensas, rachas y logros, y proporcionar los datos para consultar rankings y compartir logros de forma voluntaria. Recibe de niños y padres los comandos de consulta de rankings (local, global, de amigos y de familias), de filtrado de logros y de compartir o no compartir un logro. De Quests recibe los eventos de quest, quest colaborativa y plan familiar completados, de Monetization los eventos Multiplicador comprado, Protector adquirido y Racha protegida, y de Community el evento Participación comunitaria registrada. Envía los eventos Logro obtenido por usuario, Recompensa brindada al usuario, Logro vinculado al usuario, Nuevo puntaje registrado y Posiciones de ranking actualizadas, y hacia Monetization el evento Racha en riesgo. Entre sus reglas, las recompensas se otorgan una sola vez por ejecución y beneficiario, el primer reto diario válido incrementa la racha una vez por día, los multiplicadores solo aumentan la experiencia y compartir un logro es voluntario.
 
@@ -4309,7 +4309,7 @@ Gamification se clasifica como contexto supporting, con modelo de engagement y e
 
 ![BoundedContextCanvasGamification](assets/img/figures/CanvasGamification.png)
 
-**4. Bounded Context Canvas Monetization**
+**4. Bounded Context Canvas de Monetization**
 
 Monetization se clasifica como contexto supporting, con modelos de engagement y de monetización, y evolución custom built. Su propósito es permitir el acceso a la tienda para consultar y adquirir cosméticos, avatares, multiplicadores y protectores utilizando gemas, así como comprar paquetes de gemas con distintos métodos de pago, consultar el saldo y administrar los productos obtenidos. Recibe de niños y padres los comandos de navegación y compra en la tienda, la selección del método de pago (tarjeta de crédito o débito, Yape o PayPal) y los datos necesarios para pagar. De Gamification recibe el evento Racha en riesgo y del proveedor de pago los eventos Pago aprobado, Pago pendiente y Pago rechazado. Envía a Gamification los eventos Multiplicador comprado, Protector adquirido y Racha protegida, a Users los eventos Avatar comprado, Cosmético comprado y Cosmético equipado, al proveedor de pago los comandos Crear pago, Procesar pago y Cancelar pago, y al usuario los eventos Compra completada, Compra rechazada y Gemas acreditadas. Sus reglas establecen, entre otras, que una compra solo se completa si el usuario tiene suficientes gemas, que los protectores solo pueden adquirirse con una racha activa y que las gemas se agregan a la billetera únicamente tras la confirmación del proveedor de pago.
 
@@ -4319,7 +4319,7 @@ Monetization se clasifica como contexto supporting, con modelos de engagement y 
 
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
-**5. Bounded Context Canvas Users**
+**5. Bounded Context Canvas de Users**
 
 Users se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios administren su información personal, perfil, familia y amistades, y configuren sus preferencias de idioma, tema y notificaciones. Recibe de niños y padres los comandos para visualizar, editar y compartir el perfil, establecer un compromiso, administrar amistades y cambiar los ajustes de cuenta y preferencias. Del padre recibe los comandos para crear una familia, agregar o eliminar integrantes, actualizar roles y editar el nombre de la familia, y de Quests recibe la consulta Validar relación. Envía a Quests el evento Relación entre usuarios eliminada, a Monetization la consulta Consultar cosmético equipado y a los usuarios los eventos Perfil actualizado, Solicitud de amistad enviada, Compromiso actualizado, Idioma actualizado, Tema actualizado y Familia registrada, entre otros. Sus reglas indican que un usuario puede tener hasta 100 amigos, que solo los mayores de 18 años pueden crear un grupo familiar, que una familia tiene un máximo de 5 miembros y que, al eliminar a un amigo, este es expulsado de las quests colaborativas en las que participaban juntos.
 
@@ -4329,7 +4329,7 @@ Users se clasifica como contexto supporting, con modelo de engagement y evoluci�
 
 ![BCUsers.jpg](assets/img/figures/canvasUsers.jpg)
 
-**5. Bounded Context Canvas Learning**
+**6. Bounded Context Canvas de Learning**
 
 Learning se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que niños y padres accedan a materiales educativos sobre el medio ambiente, utilicen filtros de búsqueda, guarden contenidos como favoritos y descarguen materiales para consultarlos sin conexión. Recibe de los usuarios los comandos para abrir la pestaña “Aprende más”, seleccionar filtros y materiales, solicitar y gestionar descargas, y agregar o eliminar favoritos, además de las consultas de catálogo, detalle y favoritos. Responde con los resultados de esas consultas y con los eventos Material descargado, Favorito agregado y Favorito eliminado. El canvas no registra colaboradores de otros bounded contexts. Entre sus reglas, se permite el acceso sin conexión a los materiales descargados, se evita duplicar favoritos y solo se muestran los materiales publicados y activos.
 
@@ -4337,9 +4337,9 @@ Learning se clasifica como contexto supporting, con modelo de engagement y evolu
 
 *Bounded Context Canvas del contexto Learning.*
 
-![BCUsers.jpg](assets/img/figures/LearningCanvas.jpg)
+![BCLearning.jpg](assets/img/figures/LearningCanvas.jpg)
 
-**7. Bounded Context Canvas IAM**
+**7. Bounded Context Canvas de IAM**
 
 IAM (Identity and Access) se clasifica como contexto supporting y generic, con modelo de negocio de compliance y evolución custom built, y su rol de dominio es gateway context. Su propósito es gestionar la identidad digital y el acceso seguro a EcoMind, registrando credenciales, autenticando usuarios, emitiendo y validando tokens de acceso y recuperando contraseñas. Recibe de los usuarios los comandos Registrarse, Iniciar sesión, Verificar email, Cerrar sesión y los de recuperación de contraseña, además de la consulta Obtener usuario actual. Envía a un servicio de correo los comandos Enviar correo de verificación y Enviar correo de recuperación de cuenta, y a Users el comando Crear perfil. Sus reglas establecen que una cuenta solo puede tener un correo asociado, que la cuenta no se crea hasta verificar el correo y que las verificaciones expiran a los 20 minutos.
 
@@ -4347,7 +4347,7 @@ IAM (Identity and Access) se clasifica como contexto supporting y generic, con m
 
 *Bounded Context Canvas del contexto Identity and Access.*
 
-![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
+![BCIAM.jpg](assets/img/figures/canvasIAM.jpg)
 
 ### 2.5.2. Context Mapping
 
