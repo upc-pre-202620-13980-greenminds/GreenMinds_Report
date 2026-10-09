@@ -4365,8 +4365,7 @@ Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden
 
 En esta sección se presenta el Container Diagram de EcoMind, el cual muestra los elementos de alto nivel de la arquitectura de software, la distribución de responsabilidades entre ellos y las principales decisiones de tecnología.
 
-La solución está compuesta por dos productos con los que interactúa el usuario final: la aplicación móvil `EcoMind Android Application`, desarrollada en Kotlin, y el `Landing Page`, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta. La aplicación Android consume de forma directa, mediante HTTPS/JSON y autenticación Bearer JWT, siete APIs REST independientes, cada una correspondiente a un bounded context: `IAM API`, `Users API`, `Learning API`, `Quests API`, `Community API`, `Gamification API` y `Monetization API`.
-
+La solución está compuesta por dos productos con los que interactúa el usuario final: la aplicación móvil `EcoMind Android Application`, desarrollada en Kotlin, y el `Landing Page`, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta. La aplicación Android consume una única Backend API desarrollada en Java y Spring Boot, que organiza la lógica del dominio en los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization.
 
 **Figura 26**
 
