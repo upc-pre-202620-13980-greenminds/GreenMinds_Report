@@ -7477,36 +7477,28 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 **Tareas asignadas:**
 
 - Navegar el Landing Page, revisar las preguntas frecuentes y entrar a la aplicación.
-- Elegir una categoría de reto, completar una miniactividad y luego completar el reto diario.
+- Elegir una categoría de reto y completar una miniactividad.
 - Ir al perfil, revisar resumen con puntos, racha y medallas, crear un compromiso ambiental, revisar progreso y explorar favoritos.
-- Invitar a un amigo a un desafío grupal e iniciar la actividad.
 - Buscar su posición en el ranking.
-- En comunidad, buscar un evento en el mapa, ver el detalle e inscribirse.
-- En la tienda, comprar un cosmético con gemas, equiparlo y adquirir un multiplicador de XP.
+- En la tienda, comprar un cosmético con gemas y equiparlo.
 
 **Preguntas de validación:**
 
 1. ¿El Landing Page te ayudó a entender de qué va EcoMind? ¿Qué parte te llamó más la atención?
 
-2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer?
+2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer
 
-3. ¿Te gustó ver que tu racha subió al completar el reto diario? ¿Eso te haría volver mañana?
+3. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental
 
-4. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental?
+4. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
 
-5. ¿Cómo te pareció lo de invitar un amigo al desafío grupal? ¿Fue fácil o te trabaste en algún paso?
+5. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
 
-6. Al ver los eventos en el mapa, ¿te quedó claro de qué trataba cada evento y cómo unirte?
+6. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
 
-7. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
+7.  ¿Usarías EcoMind seguido? ¿Qué te haría volver a abrirla cada día?
 
-8. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
-
-9. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
-
-10. ¿Usarías EcoMind seguido? ¿Qué te haría volver a abrirla cada día?
-
-11. Si pudieras cambiarle una sola cosa a la app, ¿cuál sería?
+8.  Si pudieras cambiarle una sola cosa a la app, ¿cuál sería?
 
 **Segmento objetivo 2: Padres de Familia**
 
