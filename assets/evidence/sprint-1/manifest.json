@@ -24,7 +24,8 @@
     "assets/evidence/sprint-1/services-catalog.md": "06107bc614c862024ab66f6485f2a25d826c263f06ea89fddbf0cbe933e1a759",
     "assets/img/figures/sprint-1/backend-main-pipeline.png": "c79b32084a0e629ea5bf8bcc3cd6c87cc8f9e610b8455f1a004939932850f19f",
     "assets/img/figures/sprint-1/backend-intellij-tests.png": "66b9186e7cbba50d50b65df6aa06a9faa12b18099c7fde81e936bfadf1a5877e",
-    "assets/img/figures/sprint-1/android-studio-environment.png": "a928792953c9f388ae32b99679d2f3dedbc90f68377114fa381b147a0e56f06b"
+    "assets/img/figures/sprint-1/android-studio-environment.png": "a928792953c9f388ae32b99679d2f3dedbc90f68377114fa381b147a0e56f06b",
+    "assets/img/figures/sprint-1/backend-intellij-environment.png": "507d87ca05978e3e33b2aeb418197f6bda809c0e79b048581baac7a0e8dae6ce"
   },
   "backendTestRevision": "a6d1491f722c8ee88cbd84337aa1c995e14be44c",
   "backendCiRun": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300",
@@ -35,5 +36,12 @@
     "displayedExecutions": 588,
     "source": "user-provided IntelliJ IDEA screenshot"
   },
-  "androidStudioRevision": "5e26fe6ed67c9aa034c78c4c97badec589a88dad"
+  "androidStudioRevision": "5e26fe6ed67c9aa034c78c4c97badec589a88dad",
+  "backendDevelopmentIdeEvidence": {
+    "image": "assets/img/figures/sprint-1/backend-intellij-environment.png",
+    "source": "user-provided IntelliJ IDEA screenshot",
+    "visibleBranch": "develop",
+    "visibleFile": "GamificationContextFacade.java",
+    "receivedAt": "2026-10-10"
+  }
 }

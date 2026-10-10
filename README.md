@@ -8581,6 +8581,16 @@ El proyecto Android se trabaja en Android Studio. Su estructura organiza los bou
 
 *Nota. Captura de Android Studio.*
 
+El Backend API se desarrolla en IntelliJ IDEA. La Figura 55 muestra el proyecto `EcoMind_Backend` en la rama `develop`, con las capas `application`, `domain`, `infrastructure` e `interfaces` del bounded context Gamification. En el editor, `GamificationContextFacade` expone la consulta `getUserProgress`, que delega en `GamificationQueryService` y devuelve un registro `Progress` con el identificador del usuario, sus ecopoints, la racha actual, la racha más larga y la fecha de última actividad.
+
+**Figura 55**
+
+*Proyecto EcoMind Backend en IntelliJ IDEA*
+
+<img src="assets/img/figures/sprint-1/backend-intellij-environment.png" alt="Proyecto EcoMind_Backend abierto en IntelliJ IDEA en la rama develop, con las capas de Gamification y la clase GamificationContextFacade" width="100%">
+
+*Nota. Captura de IntelliJ IDEA proporcionada por Mauricio Pajes. Se observa la estructura del backend y el código de consulta del progreso de Gamification.*
+
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
 
 Las pruebas de los servicios se ejecutaron en `main`, commit [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c) con JUnit, Spring Boot Test, MockMvc y Cucumber. Las pruebas de Android corresponden al commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad).
@@ -8601,9 +8611,9 @@ Cucumber ejecutó 73 escenarios de aceptación dentro de un total de 515 pruebas
 
 Las pruebas instrumentadas incluyen el inicio de sesión por Retrofit, la consulta de retos, navegación, filtros, progreso y logros.
 
-La Figura 56 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
+La Figura 57 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
 
-**Figura 55**
+**Figura 56**
 
 *Ejecución de la suite del backend en IntelliJ IDEA*
 
@@ -8647,7 +8657,7 @@ El workflow ejecuta las pruebas con H2 y PostgreSQL 17, verifica la cobertura co
 
 La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300) de `main` completó satisfactoriamente las pruebas y la construcción de la imagen.
 
-**Figura 56**
+**Figura 57**
 
 *Verificaciones del backend y construcción de la imagen en GitHub Actions*
 
@@ -8659,7 +8669,7 @@ La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/E
 
 La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Backend API mediante HTTP y autenticación JWT. El backend utilizó una base de datos PostgreSQL local y cuentas de prueba. La landing page se verificó desde su dirección pública.
 
-**Figura 57**
+**Figura 58**
 
 *Landing page de EcoMind en ejecución*
 
@@ -8671,7 +8681,7 @@ La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Ba
 
 El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta su descripción, duración y ecopoints.
 
-**Figura 58**
+**Figura 59**
 
 *Inicio de sesión y detalle de un reto*
 
@@ -8684,7 +8694,7 @@ El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta s
 
 Al completar la actividad, el usuario obtiene el resultado del reto y puede consultar su progreso. En la ejecución se registraron 10 ecopoints y el logro «First green step».
 
-**Figura 59**
+**Figura 60**
 
 *Finalización del reto y consulta de progreso*
 
@@ -8695,7 +8705,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 *Nota. Elaboración propia.*
 
-**Figura 60**
+**Figura 61**
 
 *Medalla obtenida y ranking global semanal*
 
@@ -8708,7 +8718,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 La navegación también permite consultar el grupo familiar y el catálogo de cosméticos.
 
-**Figura 61**
+**Figura 62**
 
 *Grupo familiar y tienda de cosméticos*
 
@@ -8775,7 +8785,7 @@ Los endpoints protegidos reciben `Authorization: Bearer <token>`. La consulta de
 
 Las respuestas ilustradas corresponden a la ejecución registrada del commit `11556d0`. La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un identificador inexistente se documenta con `404 Not Found`. El [contrato OpenAPI](assets/evidence/sprint-1/openapi.json) y las [respuestas de ejecución](assets/evidence/sprint-1/api-responses.json) acompañan las capturas.
 
-**Figura 62**
+**Figura 63**
 
 *Documentación de los endpoints de Gamification en Swagger UI*
 
@@ -8785,7 +8795,7 @@ Las respuestas ilustradas corresponden a la ejecución registrada del commit `11
 
 *Nota. Elaboración propia.*
 
-**Figura 63**
+**Figura 64**
 
 *Respuesta HTTP 200 del detalle de un reto*
 
