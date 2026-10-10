@@ -7426,7 +7426,7 @@ El recorrido de Community permite consultar la meta comunitaria y alternar entre
 
 *User Flow de notificaciones y ajustes.*
 
-<div align="center"><img src="https://i.postimg.cc/tg25bMhB/User-Profie.jpg" alt="User Flow de perfil, familia y seguimiento del progreso" width="900"></div>
+<div align="center"><img src="assets/img/figures/NotiAjusteUser.jpeg" alt="User Flow de" width="900"></div>
 
 *Nota. Elaboración propia.*
 
