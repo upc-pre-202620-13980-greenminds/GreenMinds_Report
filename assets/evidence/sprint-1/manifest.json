@@ -7,7 +7,6 @@
     "assets/evidence/sprint-1/test-results.json": "b186a10e32dcf5418d397ed07d3720533b617d60bb25ef604937d30d65594ee1",
     "assets/evidence/sprint-1/api-responses.json": "274114bba580f7e7e719342f5b2d35492903d3d58354eb4e34a21a4e741a49b2",
     "assets/evidence/sprint-1/commits.json": "727d13f5bc02012d8a5ebe6801feb9148ed02b9d440c0f3a3e59498e1eef0804",
-    "assets/evidence/sprint-1/android-sprint1-demo.mp4": "177363eb91b8e9735998d990a874d6ff78fdb024df830a042b51c353f8136f3a",
     "assets/evidence/sprint-1/openapi.json": "64931a436fedf96b79da7f89b785978faf859ba5fa6aeeb44a06ea7009f8ef6f",
     "assets/evidence/sprint-1/backend-tests.txt": "461b6bd460caafcf519f9ed99ea525d4d276484302761b638a5a6e7b9ad111d2",
     "assets/img/figures/sprint-1/landing-home.png": "02f7086307ef47ed226ffbaaf629919ac87db75ccf483c0076972d82e75b020b",
@@ -43,5 +42,9 @@
     "visibleBranch": "develop",
     "visibleFile": "GamificationContextFacade.java",
     "receivedAt": "2026-10-10"
+  },
+  "executionVideo": {
+    "url": "https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410093_upc_edu_pe/IQBVA-AU-FA9TLx1V8zV1IPRAYv5FncU0FDrAn9In9ViiO8?e=ozx3X8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D",
+    "source": "user-provided recording"
   }
 }
