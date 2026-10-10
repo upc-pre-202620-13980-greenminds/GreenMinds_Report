@@ -7469,10 +7469,9 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 **User Flows a validar :**
 
 - User Flow 1 – Miniactividades y retos. Seleccionar una categoría desde el panel principal, elegir una miniactividad, completarla paso a paso, recibir los eco-points y completar el reto diario para verificar la racha en el perfil.
-- User Flow 2 – Desafío entre compañeros. Elegir una actividad grupal, invitar amigos desde la lista, verificar participantes e iniciar la actividad en conjunto.
-- User Flow 3 – Ranking educativo y comunitario. Consultar la posición propia en el ranking general y revisar el ranking semanal de la comunidad.
-- User Flow 4 – Comunidad y eventos. Revisar el feed de publicaciones, explorar eventos cercanos en el mapa, inscribirse en uno y consultar los logros compartidos y la meta comunitaria.
-- User Flow 5 – Tienda y personalización. Explorar cosméticos, multiplicadores de XP y paquetes de gemas, comprar un cosmético con gemas, equiparlo en el avatar y adquirir un multiplicador.
+- User Flow 2 – Ranking educativo y comunitario. Consultar la posición propia en el ranking general y revisar el ranking semanal de la comunidad.
+- User Flow 3 – Comunidad y eventos. Revisar el feed de publicaciones, explorar eventos cercanos en el mapa, consultar los logros compartidos y la meta comunitaria.
+- User Flow 4 – Tienda y personalización. Explorar cosméticos, multiplicadores de XP y paquetes de gemas.
 
 **Tareas asignadas:**
 
@@ -7506,16 +7505,14 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 - User Flow 1 – Familia y progreso. Acceder a la pestaña de familia en el perfil, revisar los integrantes, entrar al perfil del hijo y consultar su racha, puntos, medallas, actividades completadas.
 
-- User Flow 2 – Actividad familiar en comunidad. Explorar eventos cercanos en el mapa con GPS, inscribir al grupo familiar eligiendo participación familiar, y consultar logros compartidos.
-
-- User Flow 3 – Tienda. Recorrer las categorías de cosméticos, multiplicadores de XP y paquetes de gemas para conocer el sistema de economía virtual.
+- User Flow 2 – Tienda. Recorrer las categorías de cosméticos, multiplicadores de XP y paquetes de gemas para conocer el sistema de economía virtual.
 
 **Tareas asignadas:**
 
 - Explorar el Landing Page, leer los consejos para padres y preguntas frecuentes, y acceder a la aplicación.
-- Acceder a la pestaña de familia en el perfil, revisar los integrantes y entrar al perfil de su hijo para ver su progreso y logros.
+- Acceder a la pestaña de familia en el perfil, revisar los integrantes.
 - Revisar el resumen del perfil (racha, puntos, medallas) y la pestaña de progreso con actividades completadas y pendientes.
-- En comunidad, buscar un evento en el mapa, ver los detalles e inscribir al grupo familiar. Después cancelar la inscripción.
+- En comunidad, buscar un evento en el mapa, ver los detalles.
 - Revisar los logros en ranking.
 - Recorrer la tienda: cosméticos, multiplicadores y gemas.
 
