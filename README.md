@@ -102,6 +102,10 @@ El proceso de desarrollo del informe se realizó de manera incremental, integran
 
 Asimismo, todos los integrantes participaron activamente en la elaboración del informe, realizando aportes continuos que permitieron consolidar una documentación coherente y alineada entre sus distintas secciones. Esta colaboración se evidencia en los analíticos de contribución y commits, los cuales reflejan la participación distribuida del equipo.
 
+**Figura 1**
+
+*Contribuciones del equipo al informe.*
+
 ![projetoverview](assets/img/figures/Docs_Overview.png)
 
 
@@ -531,7 +535,7 @@ La falta de conciencia ambiental es el resultado de un proceso en el que los apr
 
 En el Perú, la gestión de residuos sólidos evidencia serias limitaciones. Aunque la valorización de residuos municipales pasó de 17 189 toneladas en 2014 a 148 559 toneladas en 2022, este volumen representa apenas el 1,8 % del total generado a nivel nacional (Ministerio del Ambiente, 2024), lo que refleja un bajo nivel de aprovechamiento de materiales reciclables.
 
-**Figura 1**
+**Figura 2**
 *Porcentaje de residuos sólidos municipales valorizados con respecto a lo generado según departamento*
 
 <img src="assets/img/figures/image021.png" width="500">
@@ -540,7 +544,7 @@ Nota.*Adaptado de Anuario estadístico del sector Ambiente 2023, por el Minister
 
 Un estudio realizado en Madre de Dios mostró que el 35,4 % de los estudiantes tenía un nivel moderado de conciencia ambiental, el 28,7 % un nivel alto y solo el 7,2 % alcanzó un nivel muy alto, mientras que un 5,5 % se ubicó en un nivel muy bajo. Respecto a las actitudes proambientales, el 43,7 % presentó niveles parcialmente adecuados y apenas un 3,3 % logró niveles muy adecuados (Estrada, et al. 2022). 
 
-**Figura 2**
+**Figura 3**
 
 *Resultados descriptivos de conciencia ambiental y las actitudes proambientales de los estudiantes de la Institución Educativa Almirante Miguel Grau Seminario de Madre de Dios, Perú.*
 
@@ -703,7 +707,7 @@ Esta subsección sintetiza el problema, los usuarios, la propuesta de valor y lo
 
 Link: https://canva.link/9mzenct40v5ocok
 
-**Figura 3**
+**Figura 4**
 
 *Lean Product Canvas*
 
@@ -972,7 +976,7 @@ Esta subsección interpreta los hallazgos de las entrevistas y relaciona los pat
      
 **2. Nivel de confianza con tecnología (celulares/aplicaciones)**
 
-**Figura 4**
+**Figura 5**
 
 *Nivel de confianza en la tecnología - Padres*
 
@@ -992,7 +996,7 @@ En cuanto a las acciones ambientales realizadas en casa, todos afirmaron practic
 
 **6. Dificultades al enseñar hábitos sostenibles a los hijos**
 
-**Figura 5**
+**Figura 6**
 
 *Dificultades en las enseñanzas - Padres*
 
@@ -1020,7 +1024,7 @@ Con respecto a las expectativas de aprendizaje ambiental, los padres desean que 
 
 Respecto a sus actividades en el tiempo libre, los escolares disfrutan jugar en consola o computadora y pasar tiempo en plataformas digitales para la visualización de vídeos.
 
-**Figura 6**
+**Figura 7**
 
 Uso de aparatos tecnológicos- Escolares
 
@@ -1036,7 +1040,7 @@ Dentro de las acciones ambientales en casa practican apagar luces y ahorrar agua
 
 **5. Motivación para hacerlo:**
 
-**Figura 7**
+**Figura 8**
 
 *Motivación de escolares*
 
@@ -1044,14 +1048,14 @@ Dentro de las acciones ambientales en casa practican apagar luces y ahorrar agua
  
 **7. Aprender con juegos o retos**
 
-**Figura 8**
+**Figura 9**
 *Juegos educativos - Escolares*
 
 <img src="assets/img/figures/image048.png" width="330"> 
  
 **8. Preferencias entre lo digital o papel**
 
-**Figura 9**
+**Figura 10**
 
 *Preferencia en los escolares*
 
@@ -1078,12 +1082,12 @@ Los user personas representan a los principales perfiles de usuarios de EcoMind 
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 10 (User Persona 1)*  
+*Figura 11 (User Persona 1)*
 <img src="assets/img/figures/image054.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 11 (User Persona 2)*  
+*Figura 12 (User Persona 2)*
 <img src="assets/img/figures/image053.png" width="530">
 
 ### 2.3.2. User Task Matrix
@@ -1091,12 +1095,12 @@ La User Task Matrix organiza las tareas principales que realizan los segmentos o
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 12 (User Task Matrix 1)*  
+*Figura 13 (User Task Matrix 1)*
 <img src="assets/img/figures/imagen083.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 13 (User Task Matrix 2)*  
+*Figura 14 (User Task Matrix 2)*
 <img src="assets/img/figures/imagen082.png" width="530">
 
 
@@ -1105,12 +1109,12 @@ El User Journey Mapping muestra las etapas de interacción de cada segmento obje
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 14 (User Journey Mapping 1)*  
+*Figura 15 (User Journey Mapping 1)*
 <img src="assets/img/figures/image059.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 15 (User Journey Mapping 2)*  
+*Figura 16 (User Journey Mapping 2)*
 <img src="assets/img/figures/image057.png" width="530">
 
 ### 2.3.4. Empathy Mapping
@@ -1118,12 +1122,12 @@ Los mapas de empatía sintetizan lo que los usuarios piensan, sienten, dicen y h
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 16 (Empathy Mapping 1)*  
+*Figura 17 (Empathy Mapping 1)*
 <img src="assets/img/figures/image063.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 17 (Empathy Mapping 2)*  
+*Figura 18 (Empathy Mapping 2)*
 <img src="assets/img/figures/image062.png" width="530">
 
 ### 2.3.5. Big Picture EventStorming
@@ -1132,11 +1136,23 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 
 **Paso 1: Identificación de eventos.** Se identificaron y organizaron los eventos más importantes que ocurren durante la interacción de los usuarios con la plataforma.
 
+**Figura 19**
+
+*Identificación de eventos en el Big Picture EventStorming.*
+
 ![event_Storming](assets/img/figures/EventStorming01.jpg)
 
 **Paso 2: Organización de los eventos.** Los eventos de dominio identificados se organizaron cronológicamente, comenzando por el happy path, que representa el flujo exitoso principal. Luego, se añadieron escenarios alternativos para mostrar posibles errores, decisiones diferentes y ramificaciones dentro de los procesos de GreenMinds.
 
+**Figura 20**
+
+*Organización de eventos en el Big Picture EventStorming.*
+
 ![event_Storming2](assets/img/figures/EventStorming020.jpg)
+**Figura 21**
+
+*Continuación de la organización de eventos.*
+
 ![event_Storming](assets/img/figures/EventStorming021.jpg)
 
 Los eventos se declararon como hechos ya ocurridos dentro del dominio, redactados en participio pasado y con el sustantivo que identifica lo que sucedió (por ejemplo, cuenta registrada, reto completado o compra confirmada). Cada evento se escribió en una nota independiente y se ubicó en el área del negocio a la que pertenece, con el fin de que el vocabulario coincida con el de la Ubiquitous Language de la sección 2.3.6.
@@ -4010,6 +4026,10 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 
 <div align="center">
  
+**Figura 22**
+
+*Impact Mapping del segmento de padres de familia.*
+
 ![Impact_Map_Padre](assets/img/figures/Impact-map-car.jpg)
 
 
@@ -4021,6 +4041,10 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 
 <div align="center">
 
+**Figura 23**
+
+*Impact Mapping del segmento de niños de primaria.*
+
 ![Impact_Map_Niño](assets/img/figures/Impact-map-val.jpg)
 
 </div>
@@ -4029,6 +4053,10 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 ### 2.4.3. Product Backlog
 
 Para establecer el orden de prioridad de las historias de usuario planteadas para el desarrollo de la aplicación, realizamos su respectivo product backlog, con el cual podemos ver tanto el orden adecuado, como su estimación de tiempo para su desarrollo, con lo cual, con lo cual podremos administrar bien las fases de desarrollo de la aplicación. Para ello nos ayudamos de la herramienta de Trello: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
+
+**Figura 24**
+
+*Product Backlog de EcoMind.*
 
 ![Product Backlog](assets/img/figures/Product_Backlog.png)
 
@@ -4131,11 +4159,35 @@ Esta sección presenta el modelado estratégico del dominio de EcoMind, incluyen
 
 A partir de los resultados obtenidos en el Big Picture EventStorming, se realizó una sesión de EventStorming para profundizar en el modelado del dominio de EcoMind. Los procesos identificados se desarrollaron con mayor detalle mediante la incorporación de eventos, comandos, actores, políticas y otros elementos.
 
+**Figura 25**
+
+*EventStorming del contexto Quests.*
+
 ![event_Storming2](assets/img/figures/EventstormingQuests.jpg)
+**Figura 26**
+
+*EventStorming del contexto Community.*
+
 ![event_Storming](assets/img/figures/EventstormingCommunity.jpg)
+**Figura 27**
+
+*EventStorming del contexto Gamification.*
+
 ![event_Storming](assets/img/figures/EventstormingGamification.jpg)
+**Figura 28**
+
+*EventStorming del contexto Monetization.*
+
 ![event_Storming](assets/img/figures/EventstormingMonetization.jpg)
+**Figura 29**
+
+*EventStorming del contexto Users.*
+
 ![event_Storming](assets/img/figures/EventstormingUsers.jpg)
+**Figura 30**
+
+*EventStorming del contexto IAM.*
+
 ![event_Storming](assets/img/figures/EventstormingIAM.jpg)
 
 #### 2.5.1.1. Candidate Context Discovery
@@ -4161,7 +4213,7 @@ Al comienzo de la sesión se contaba con siete bounded contexts candidatos:
 
 Esta división representaba una primera aproximación a las capacidades del sistema. Sin embargo, al revisar los comandos, eventos, actores y reglas de negocio de cada contexto, se encontraron responsabilidades que debían separarse y otras que podían consolidarse.
 
-**Figura 10**
+**Figura 31**
 
 *Propuesta inicial de bounded contexts del EventStorm.*
 
@@ -4173,7 +4225,7 @@ Durante el análisis del bounded context **Retos**, se observó que este concent
 
 Se determinó que los materiales educativos poseen un propósito propio: facilitar el aprendizaje del usuario independientemente de su participación en un reto. Además, su contenido, organización y evolución responden a reglas diferentes de las utilizadas para gestionar retos. Por esta razón, se extrajeron de Retos los eventos y funcionalidades relacionados con la consulta de materiales, creando el bounded context **Learning**.
 
-**Figura 11**
+**Figura 32**
 
 *Separación de Learning a partir del bounded context Retos.*
 
@@ -4229,7 +4281,7 @@ Después de analizar, separar y consolidar las distintas responsabilidades, se d
 | Learning | Gestionar los materiales educativos y las experiencias de aprendizaje |
 | Community | Gestionar la interacción y participación entre los miembros de la comunidad |
 
-**Figura 12**
+**Figura 33**
 
 *Resultado final de la sesión de Candidate Context Discovery.*
 
@@ -4243,7 +4295,7 @@ Luego de identificar los bounded contexts candidatos, se realizó una sesión de
 
 Este escenario describe el recorrido en el que un usuario cumple una quest y decide compartir el logro obtenido. Participan el Usuario y los bounded contexts Quests, Gamification y Community. El usuario envía el comando Completar Quest (1) a Quests, que valida la quest (2) y publica el evento Quest Completada (3) dirigido a Gamification. Gamification asigna las recompensas (4) y comunica al usuario el evento Logro desbloqueado (5). Después, el usuario envía el comando Compartir logro (6) a Gamification, que informa a Community mediante el evento Publicación de logro solicitada (7). Community crea la publicación (8) y notifica al usuario el evento Publicación creada (9). Quests solo publica el hecho de que la quest fue completada y Community interviene únicamente cuando el usuario decide compartir el logro.
 
-**Figura 13**
+**Figura 34**
 
 *Domain Storytelling del flujo de participación en quests y publicación de un logro.*
 
@@ -4253,7 +4305,7 @@ Este escenario describe el recorrido en el que un usuario cumple una quest y dec
 
 En este escenario un usuario anfitrión invita a un usuario amigo a participar en una quest colaborativa. Intervienen Quests y Users. El anfitrión envía el comando Invitar usuario (1) a Quests, que valida con Users la relación con el invitado (2), crea la invitación (3) y comunica al amigo el evento Invitación creada (4). Cuando el amigo envía el comando Aceptar invitación (5), Quests vuelve a validar la relación con Users (6), incorpora al participante (7) y registra el evento Participante incorporado (8). La relación con el invitado se verifica tanto al enviar la invitación como al aceptarla, y Quests consulta a Users como cliente, según el patrón Customer/Supplier definido en la sección 2.5.2.
 
-**Figura 14**
+**Figura 35**
 
 *Domain Storytelling del flujo de invitación a una quest colaborativa.*
 
@@ -4263,7 +4315,7 @@ En este escenario un usuario anfitrión invita a un usuario amigo a participar e
 
 El tercer escenario representa la compra de productos dentro de la aplicación. Participan el Usuario, Monetization, la API de pago elegido y, según el tipo de producto, Gamification y Users. El usuario envía el comando Comprar producto (1) y Monetization procesa la compra (2). Si el producto son gemas, Monetization solicita el pago (2A) a la API de pago elegido y recibe el evento Pago procesado (3A). Si el producto es un potenciador o un protector de racha, Monetization emite el evento Potenciador comprado (3B) hacia Gamification. Si es un avatar o un sombrero, emite el evento Avatar comprado (3C) hacia Users. Finalmente, Monetization entrega el producto (4) y comunica al usuario el evento Producto entregado (5).
 
-**Figura 15**
+**Figura 36**
 
 *Domain Storytelling del flujo de compra y entrega de productos.*
 
@@ -4273,7 +4325,7 @@ El tercer escenario representa la compra de productos dentro de la aplicación. 
 
 Este escenario cubre el inicio del ciclo de vida del usuario en la plataforma. Participan el Usuario, IAM y Users. El usuario envía el comando Registrar cuenta (1) a IAM, que crea la cuenta y registra el evento Cuenta creada (2). Luego IAM envía a Users el comando Crear perfil (3) y Users registra el evento Perfil creado (5). Posteriormente, el usuario puede enviar el comando Editar Perfil (6) a Users, que registra el evento Perfil editado (7). La cuenta y el perfil permanecen en contextos distintos: IAM solo solicita la creación del perfil y Users administra su contenido, como se describe en la relación entre ambos contextos en la sección 2.5.2.
 
-**Figura 16**
+**Figura 37**
 
 *Domain Storytelling del flujo de registro y configuración del perfil.*
 
@@ -4287,7 +4339,7 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 El canvas de Quests lo define como un contexto core, con modelo de negocio de engagement y evolución custom built. Su propósito es permitir que los usuarios participen de manera individual o colaborativa en misiones orientadas al cuidado del medio ambiente, y gestionar las misiones, sus actividades, participantes, progreso y validación. Recibe de anfitriones, invitados y padres los comandos para iniciar, completar y progresar una quest, crear y administrar sesiones colaborativas, aceptar o rechazar invitaciones y gestionar planes familiares, además de las consultas de progreso y detalle. De Users recibe el evento Relación entre usuarios eliminada. Hacia Gamification y Community envía los eventos Quest completada, Quest colaborativa completada y Plan familiar completada, y hacia Users envía la consulta Validar relación. Entre sus decisiones de negocio se encuentran que las quests colaborativas requieren entre 2 y 5 participantes, que solo el anfitrión puede iniciarlas, que los participantes deben tener una relación de amistad o parentesco con el anfitrión y que una quest solo se completa si su progreso alcanza el 100 %.
 
-**Figura 17**
+**Figura 38**
 
 *Bounded Context Canvas del contexto Quests.*
 
@@ -4297,7 +4349,7 @@ El canvas de Quests lo define como un contexto core, con modelo de negocio de en
 
 Community se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios interactúen dentro de comunidades en las que comparten logros, eventos y metas comunitarias, y gestiona comunidades, publicaciones, eventos y metas. Recibe de administradores y padres los comandos de inscripción a comunidades, eventos y metas, la reacción a publicaciones, y la creación, edición y eliminación de comunidades, eventos y metas. También recibe de Quests el evento Reto completado y de Gamification el evento Logro obtenido por usuario, y atiende consultas como buscar comunidades, listar eventos y logros, y mostrar eventos en el mapa mediante la API de Leaflet. Hacia Gamification envía el evento Participación comunitaria registrada y hacia Users la consulta Consultar familia usuario. Sus reglas indican, por ejemplo, que solo los padres pueden crear una comunidad, que un usuario puede inscribirse como máximo a tres metas comunitarias a la vez y que un niño no puede inscribirse a un evento por su cuenta.
 
-**Figura 18**
+**Figura 39**
 
 *Bounded Context Canvas del contexto Community.*
 
@@ -4307,7 +4359,7 @@ Community se clasifica como contexto supporting, con modelo de engagement y evol
 
 Gamification se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es reconocer la participación y la constancia de los usuarios mediante ecopoints, experiencia, recompensas, rachas y logros, y proporcionar los datos para consultar rankings y compartir logros de forma voluntaria. Recibe de niños y padres los comandos de consulta de rankings (local, global, de amigos y de familias), de filtrado de logros y de compartir o no compartir un logro. De Quests recibe los eventos de quest, quest colaborativa y plan familiar completados, de Monetization los eventos Multiplicador comprado, Protector adquirido y Racha protegida, y de Community el evento Participación comunitaria registrada. Envía los eventos Logro obtenido por usuario, Recompensa brindada al usuario, Logro vinculado al usuario, Nuevo puntaje registrado y Posiciones de ranking actualizadas, y hacia Monetization el evento Racha en riesgo. Entre sus reglas, las recompensas se otorgan una sola vez por ejecución y beneficiario, el primer reto diario válido incrementa la racha una vez por día, los multiplicadores solo aumentan la experiencia y compartir un logro es voluntario.
 
-**Figura 19**
+**Figura 40**
 
 *Bounded Context Canvas del contexto Gamification.*
 
@@ -4317,7 +4369,7 @@ Gamification se clasifica como contexto supporting, con modelo de engagement y e
 
 Monetization se clasifica como contexto supporting, con modelos de engagement y de monetización, y evolución custom built. Su propósito es permitir el acceso a la tienda para consultar y adquirir cosméticos, avatares, multiplicadores y protectores utilizando gemas, así como comprar paquetes de gemas con distintos métodos de pago, consultar el saldo y administrar los productos obtenidos. Recibe de niños y padres los comandos de navegación y compra en la tienda, la selección del método de pago (tarjeta de crédito o débito, Yape o PayPal) y los datos necesarios para pagar. De Gamification recibe el evento Racha en riesgo y del proveedor de pago los eventos Pago aprobado, Pago pendiente y Pago rechazado. Envía a Gamification los eventos Multiplicador comprado, Protector adquirido y Racha protegida, a Users los eventos Avatar comprado, Cosmético comprado y Cosmético equipado, al proveedor de pago los comandos Crear pago, Procesar pago y Cancelar pago, y al usuario los eventos Compra completada, Compra rechazada y Gemas acreditadas. Sus reglas establecen, entre otras, que una compra solo se completa si el usuario tiene suficientes gemas, que los protectores solo pueden adquirirse con una racha activa y que las gemas se agregan a la billetera únicamente tras la confirmación del proveedor de pago.
 
-**Figura 20**
+**Figura 41**
 
 *Bounded Context Canvas del contexto Monetization.*
 
@@ -4327,7 +4379,7 @@ Monetization se clasifica como contexto supporting, con modelos de engagement y 
 
 Users se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios administren su información personal, perfil, familia y amistades, y configuren sus preferencias de idioma, tema y notificaciones. Recibe de niños y padres los comandos para visualizar, editar y compartir el perfil, establecer un compromiso, administrar amistades y cambiar los ajustes de cuenta y preferencias. Del padre recibe los comandos para crear una familia, agregar o eliminar integrantes, actualizar roles y editar el nombre de la familia, y de Quests recibe la consulta Validar relación. Envía a Quests el evento Relación entre usuarios eliminada, a Monetization la consulta Consultar cosmético equipado y a los usuarios los eventos Perfil actualizado, Solicitud de amistad enviada, Compromiso actualizado, Idioma actualizado, Tema actualizado y Familia registrada, entre otros. Sus reglas indican que un usuario puede tener hasta 100 amigos, que solo los mayores de 18 años pueden crear un grupo familiar, que una familia tiene un máximo de 5 miembros y que, al eliminar a un amigo, este es expulsado de las quests colaborativas en las que participaban juntos.
 
-**Figura 21**
+**Figura 42**
 
 *Bounded Context Canvas del contexto Users.*
 
@@ -4337,7 +4389,7 @@ Users se clasifica como contexto supporting, con modelo de engagement y evoluci�
 
 Learning se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que niños y padres accedan a materiales educativos sobre el medio ambiente, utilicen filtros de búsqueda, guarden contenidos como favoritos y descarguen materiales para consultarlos sin conexión. Recibe de los usuarios los comandos para abrir la pestaña “Aprende más”, seleccionar filtros y materiales, solicitar y gestionar descargas, y agregar o eliminar favoritos, además de las consultas de catálogo, detalle y favoritos. Responde con los resultados de esas consultas y con los eventos Material descargado, Favorito agregado y Favorito eliminado. El canvas no registra colaboradores de otros bounded contexts. Entre sus reglas, se permite el acceso sin conexión a los materiales descargados, se evita duplicar favoritos y solo se muestran los materiales publicados y activos.
 
-**Figura 22**
+**Figura 43**
 
 *Bounded Context Canvas del contexto Learning.*
 
@@ -4347,7 +4399,7 @@ Learning se clasifica como contexto supporting, con modelo de engagement y evolu
 
 IAM (Identity and Access) se clasifica como contexto supporting y generic, con modelo de negocio de compliance y evolución custom built, y su rol de dominio es gateway context. Su propósito es gestionar la identidad digital y el acceso seguro a EcoMind, registrando credenciales, autenticando usuarios, emitiendo y validando tokens de acceso y recuperando contraseñas. Recibe de los usuarios los comandos Registrarse, Iniciar sesión, Verificar email, Cerrar sesión y los de recuperación de contraseña, además de la consulta Obtener usuario actual. Envía a un servicio de correo los comandos Enviar correo de verificación y Enviar correo de recuperación de cuenta, y a Users el comando Crear perfil. Sus reglas establecen que una cuenta solo puede tener un correo asociado, que la cuenta no se crea hasta verificar el correo y que las verificaciones expiran a los 20 minutos.
 
-**Figura 23**
+**Figura 44**
 
 *Bounded Context Canvas del contexto Identity and Access.*
 
@@ -4367,7 +4419,7 @@ De esa discusión surgieron cuatro decisiones:
 - La cuarta fue reducir el shared kernel al mínimo deliberado: únicamente los identificadores `UserId` (equivalente al `AccountId` emitido por IAM) y `FamilyId`, sin que ningún contexto comparta lógica ni estructura además de esos identificadores opacos, bajo el criterio de que un shared kernel grande es un bounded context que no se llegó a dibujar.
 
 
-**Figura 24**
+**Figura 45**
 
 *Context Map de EcoMind.*
 
@@ -4407,7 +4459,7 @@ En esta sección se presenta el Context Diagram de EcoMind, elaborado con C4 Mod
 
 Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden a la plataforma ya registrados, y el visitante, que llega primero al Landing Page antes de crear una cuenta. EcoMind se comunica con cuatro sistemas externos: el servicio de correo Resend, utilizado para enviar la verificación de cuenta y la recuperación de contraseña; las pasarelas de pago con tarjeta, Yape y PayPal, utilizadas para las compras dentro de Monetization y Leaflet utilizado para mostrar en un mapa los eventos comunitarios cercanos a la ubicación del usuario.
 
-**Figura 25**
+**Figura 46**
 
 *Diagrama C4 de contexto de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4419,7 +4471,7 @@ En esta sección se presenta el Container Diagram de EcoMind, el cual muestra lo
 
 La solución está compuesta por cuatro contenedores. La aplicación móvil EcoMind Android Application, desarrollada en Kotlin, y el Landing Page, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta, son los productos con los que interactúa el usuario final. El Backend API, desarrollado en Java con Spring Boot, es un único contenedor que expone el servicio RESTful y organiza la lógica del dominio en los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization, que corresponden a los bounded contexts definidos en la sección 2.5.1 y se despliegan como una sola unidad. Los datos de todos los módulos se almacenan en EcoMind Database, una base de datos PostgreSQL a la que el Backend API accede mediante JDBC. La aplicación Android consume el Backend API por HTTPS con mensajes JSON y token Bearer JWT, y el Backend API se comunica con Resend para el envío de correos y con las pasarelas de pago con tarjeta, Yape y PayPal.
 
-**Figura 26**
+**Figura 47**
 
 *Diagrama C4 de contenedores de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4433,7 +4485,7 @@ La aplicación EcoMind Android Application se ejecuta en el dispositivo Android 
 
 En el diagrama se representan solo los containers propios de EcoMind. Los servicios externos de correo y de pago ya se describen en el diagrama de contenedores y no forman parte de la infraestructura desplegada por el equipo.
 
-**Figura 27**
+**Figura 48**
 
 *Diagrama C4 de despliegue de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4614,17 +4666,17 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 28 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Secure Token Storage, que guarda el access token de forma protegida y lo elimina al cerrar sesión.
+Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 49 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Secure Token Storage, que guarda el access token de forma protegida y lo elimina al cerrar sesión.
 
-La Figura 29 muestra el módulo IAM dentro del Backend API. Las solicitudes protegidas atraviesan primero el Bearer Authorization Filter del grupo Shared, que valida el access token mediante los Token & Password Services y reenvía la solicitud autenticada a los controllers. Las operaciones de registro, verificación, inicio de sesión y recuperación de contraseña son rutas públicas y llegan directamente a los IAM REST Controllers. Estos despachan commands y queries a los IAM Application Services, que aplican las reglas del IAM Domain Model, emiten los tokens y aplican el hash a las contraseñas, y persisten los datos mediante los IAM Persistence Adapters en EcoMind Database. Los servicios de aplicación también solicitan al Email Service Adapter el envío de correos de verificación y recuperación mediante Resend, y al Users Context Client la creación del perfil, que el IAM Context Listener de Users recibe como el command CreateProfile.
+La Figura 50 muestra el módulo IAM dentro del Backend API. Las solicitudes protegidas atraviesan primero el Bearer Authorization Filter del grupo Shared, que valida el access token mediante los Token & Password Services y reenvía la solicitud autenticada a los controllers. Las operaciones de registro, verificación, inicio de sesión y recuperación de contraseña son rutas públicas y llegan directamente a los IAM REST Controllers. Estos despachan commands y queries a los IAM Application Services, que aplican las reglas del IAM Domain Model, emiten los tokens y aplican el hash a las contraseñas, y persisten los datos mediante los IAM Persistence Adapters en EcoMind Database. Los servicios de aplicación también solicitan al Email Service Adapter el envío de correos de verificación y recuperación mediante Resend, y al Users Context Client la creación del perfil, que el IAM Context Listener de Users recibe como el command CreateProfile.
 
-**Figura 28**
+**Figura 49**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context IAM, elaborado con Structurizr DSL.*
 
 ![C4I](assets/img/figures/ComponentsIAM1.png)
 
-**Figura 29**
+**Figura 50**
 
 *Diagrama C4 de componentes de la API del bounded context IAM, elaborado con Structurizr DSL.*
 
@@ -4638,7 +4690,7 @@ Los diagramas de código describen el modelo de dominio y su estructura de persi
 
 El diagrama de clases del Domain Layer representa los aggregates, entities, value objects, domain services y repositories que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación.
 
-**Figura 30**
+**Figura 51**
 
 *Diagrama de clases de la capa de dominio del bounded context IAM, elaborado con PlantUML.*
 
@@ -4648,7 +4700,7 @@ El diagrama de clases del Domain Layer representa los aggregates, entities, valu
 
 El diagrama de base de datos presenta las estructuras de persistencia necesarias para las cuentas, las credenciales, los registros pendientes y los tokens de recuperación. Su diseño conserva únicamente hashes de contraseñas y tokens sensibles, registra sus fechas de expiración y consumo, y garantiza la unicidad del correo normalizado.
 
-**Figura 31**
+**Figura 52**
 
 *Diagrama de diseño de la base de datos del bounded context IAM, elaborado con ERD Editor.*
 
@@ -4840,17 +4892,17 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 | `Monetization` | Proporciona el cosmético equipado y el balance de gemas que se muestran en el perfil. |
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los componentes de Users se distribuyen entre la aplicación Android y el módulo Users del Backend API. La Figura 32 corresponde a la vista móvil: Users UI muestra las pantallas de perfil, familia, amistades y cosméticos, y los Users ViewModels exponen estados inmutables a partir de las intenciones de la interfaz. Los Users Use Cases coordinan las operaciones y trabajan con los contratos del Users Repository Implementation, que usa los Users Data Mappers para transformar los DTO de red en modelos de dominio. Los datos remotos se obtienen mediante el Users Remote Data Source, que consume la API de Users con el Bearer JWT.
+Los componentes de Users se distribuyen entre la aplicación Android y el módulo Users del Backend API. La Figura 53 corresponde a la vista móvil: Users UI muestra las pantallas de perfil, familia, amistades y cosméticos, y los Users ViewModels exponen estados inmutables a partir de las intenciones de la interfaz. Los Users Use Cases coordinan las operaciones y trabajan con los contratos del Users Repository Implementation, que usa los Users Data Mappers para transformar los DTO de red en modelos de dominio. Los datos remotos se obtienen mediante el Users Remote Data Source, que consume la API de Users con el Bearer JWT.
 
-La Figura 33 muestra el módulo Users dentro del Backend API. Tras el Bearer Authorization Filter, los Users REST Controllers reciben las solicitudes y las convierten en commands y queries mediante los Users Assemblers & Resources. Los Users Application Services aplican las reglas del Users Domain Model y persisten perfiles, familias y amistades con los Users Persistence Adapters. El IAM Context Listener recibe el command CreateProfile enviado por IAM, y los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade. Los demás módulos acceden a los datos de Users mediante el Users Context Facade: Quests con su Users Service Client, Community con su Community Actor Gateway y Gamification con sus Context Service Clients.
+La Figura 54 muestra el módulo Users dentro del Backend API. Tras el Bearer Authorization Filter, los Users REST Controllers reciben las solicitudes y las convierten en commands y queries mediante los Users Assemblers & Resources. Los Users Application Services aplican las reglas del Users Domain Model y persisten perfiles, familias y amistades con los Users Persistence Adapters. El IAM Context Listener recibe el command CreateProfile enviado por IAM, y los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade. Los demás módulos acceden a los datos de Users mediante el Users Context Facade: Quests con su Users Service Client, Community con su Community Actor Gateway y Gamification con sus Context Service Clients.
 
-**Figura 32**
+**Figura 53**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Users, elaborado con Structurizr DSL.*
 
 ![C4II](assets/img/figures/UsersAndroidComponents.png)
 
-**Figura 33**
+**Figura 54**
 
 *Diagrama C4 de componentes de la API del bounded context Users, elaborado con Structurizr DSL.*
 
@@ -4864,7 +4916,7 @@ Los diagramas de código presentan el modelo de dominio de Users y su estructura
 
 El siguiente diagrama presenta las clases del Domain Layer de Users y las relaciones entre ellas. Incluye el perfil del usuario, sus preferencias de notificación, el grupo familiar con sus integrantes y la relación de amistad entre dos usuarios. También se representan los Command Services y Query Services que orquestan cada operación, así como las políticas de dominio (`FriendshipPolicy` y `FamilyMembershipPolicy`) que protegen la consistencia de las amistades y las familias.
 
-**Figura 34**
+**Figura 55**
 
 *Diagrama de clases de la capa de dominio del bounded context Users.*
 
@@ -4874,7 +4926,7 @@ El siguiente diagrama presenta las clases del Domain Layer de Users y las relaci
 
 El presente diagrama representa el modelo de base de datos del bounded context Users. La tabla `familia` representa al grupo familiar como raíz independiente, con su nombre y el compromiso declarado al crearse, mientras que `miembros_familia` registra a cada integrante con su `rol_familia` y referencia a la familia mediante clave foránea. Se persiste además el perfil del usuario en `perfiles_usuario` con su racha, ecopuntos, saldo de gemas y preferencias de notificación, y las relaciones de amistad en `amistades`, restringidas mediante una restricción `CHECK` para evitar solicitudes dirigidas al propio usuario y una restricción de unicidad para evitar relaciones duplicadas, conforme a `FriendshipPolicy`. El identificador `usuario_id` corresponde al `AccountId` emitido por IAM y se conserva como referencia simple, sin clave foránea entre bounded contexts, para mantener la independencia de Users respecto a IAM.
 
-**Figura 35**
+**Figura 56**
 
 *Diagrama de diseño de la base de datos del bounded context Users.*
 
@@ -5139,11 +5191,11 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Learning muestran la aplicación Android y el módulo Learning del Backend API. La Figura 36 presenta la vista móvil. Learning UI se alcanza desde la navegación de Quests, mediante la opción “Aprende más”, y desde el perfil de Users, para consultar los favoritos. La interfaz muestra el catálogo, el detalle, los favoritos y las descargas, y se comunica con los Learning ViewModels, que invocan los Learning Use Cases. Estos coordinan el catálogo, la búsqueda, los favoritos, las reseñas y las descargas mediante el Learning Repository Implementation. El repositorio solicita las descargas sin conexión al Material Download Manager, basado en WorkManager, y transforma los datos con los Learning Data Mappers hacia el Learning Remote Data Source, que consume los endpoints de Learning con el Bearer JWT, y hacia el Learning Cache, implementado con Room, que guarda el catálogo, los favoritos y los metadatos de descargas.
+Los diagramas de Learning muestran la aplicación Android y el módulo Learning del Backend API. La Figura 57 presenta la vista móvil. Learning UI se alcanza desde la navegación de Quests, mediante la opción “Aprende más”, y desde el perfil de Users, para consultar los favoritos. La interfaz muestra el catálogo, el detalle, los favoritos y las descargas, y se comunica con los Learning ViewModels, que invocan los Learning Use Cases. Estos coordinan el catálogo, la búsqueda, los favoritos, las reseñas y las descargas mediante el Learning Repository Implementation. El repositorio solicita las descargas sin conexión al Material Download Manager, basado en WorkManager, y transforma los datos con los Learning Data Mappers hacia el Learning Remote Data Source, que consume los endpoints de Learning con el Bearer JWT, y hacia el Learning Cache, implementado con Room, que guarda el catálogo, los favoritos y los metadatos de descargas.
 
-La Figura 37 muestra el módulo Learning dentro del Backend API. El Bearer Authorization Filter valida el token de acceso antes de reenviar la solicitud a los Learning REST Controllers, que reciben el identificador del usuario autenticado y exponen los endpoints de materiales, favoritos, reseñas y descargas. Estos despachan commands y queries a los Learning Application Services, que aplican las reglas del Learning Domain Model y persisten los datos mediante los Learning Persistence Adapters en EcoMind Database. Cuando se solicita un material disponible, los servicios recurren al Material Content Delivery, que consulta los metadatos y la referencia del archivo registrado y devuelve el archivo o el enlace correspondiente.
+La Figura 58 muestra el módulo Learning dentro del Backend API. El Bearer Authorization Filter valida el token de acceso antes de reenviar la solicitud a los Learning REST Controllers, que reciben el identificador del usuario autenticado y exponen los endpoints de materiales, favoritos, reseñas y descargas. Estos despachan commands y queries a los Learning Application Services, que aplican las reglas del Learning Domain Model y persisten los datos mediante los Learning Persistence Adapters en EcoMind Database. Cuando se solicita un material disponible, los servicios recurren al Material Content Delivery, que consulta los metadatos y la referencia del archivo registrado y devuelve el archivo o el enlace correspondiente.
 
-**Figura 36**
+**Figura 57**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Learning, elaborado con Structurizr DSL.*
 
@@ -5151,7 +5203,7 @@ La Figura 37 muestra el módulo Learning dentro del Backend API. El Bearer Autho
   <img src="assets/img/figures/LearningAndroidComponents.png" alt="Diagrama C4 de Learning" width="500">
 </div>
 
-**Figura 37**
+**Figura 58**
 
 *Diagrama C4 de componentes de la API del bounded context Learning, elaborado con Structurizr DSL.*
 
@@ -5168,7 +5220,7 @@ Los diagramas de código presentan las clases de dominio de **Learning** y el di
 
 El diagrama de clases presenta los principales elementos del dominio de Learning y las relaciones entre ellos. Incluye los materiales educativos, sus categorías, favoritos, valoraciones y registros de descarga. También representa las operaciones necesarias para consultar y filtrar materiales, obtener sus detalles, descargarlos y administrar los materiales favoritos de cada usuario.
 
-**Figura 38**
+**Figura 59**
 
 *Diagrama de clases de la capa de dominio del bounded context Learning.*
 
@@ -5178,7 +5230,7 @@ El diagrama de clases presenta los principales elementos del dominio de Learning
 
 El diagrama de base de datos presenta la estructura de persistencia utilizada por el bounded context de Learning. Incluye las tablas `material_categories`, `educational_materials`, `material_favorites`, `material_reviews` y `material_downloads`, así como sus claves y relaciones.
 
-**Figura 39**
+**Figura 60**
 
 *Diagrama de diseño de la base de datos del bounded context Learning.*
 
@@ -5461,17 +5513,17 @@ La aplicación móvil presenta los casos de uso coordinados por el backend.
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Quests presentan la aplicación Android y el módulo Quests del Backend API. En la Figura 40, Quests UI muestra el catálogo, el detalle, el progreso, los minijuegos y las misiones colaborativas. Sus acciones llegan a los Quests ViewModels y de ahí a los Quests Use Cases, que coordinan el descubrimiento, la inscripción, el progreso y la finalización de misiones. El Quests Repository Implementation usa los Quest Data Mappers para transformar los datos y combina el Quests Remote Data Source, que consume los endpoints REST, con el Quests Local Cache, implementado con Room, que conserva las misiones activas y el progreso necesarios para el uso móvil.
+Los diagramas de Quests presentan la aplicación Android y el módulo Quests del Backend API. En la Figura 61, Quests UI muestra el catálogo, el detalle, el progreso, los minijuegos y las misiones colaborativas. Sus acciones llegan a los Quests ViewModels y de ahí a los Quests Use Cases, que coordinan el descubrimiento, la inscripción, el progreso y la finalización de misiones. El Quests Repository Implementation usa los Quest Data Mappers para transformar los datos y combina el Quests Remote Data Source, que consume los endpoints REST, con el Quests Local Cache, implementado con Room, que conserva las misiones activas y el progreso necesarios para el uso móvil.
 
-La Figura 41 muestra el módulo Quests dentro del Backend API. Los Quests REST Controllers reciben las solicitudes ya autenticadas por el Bearer Authorization Filter y despachan commands y queries a los Quests Application Services. Estos aplican las reglas del Quests Domain Model, persisten los datos con los Quests Persistence Adapters y validan usuarios, amistades y familias mediante el Users Service Client, que consulta el Users Context Facade. El Daily Quest Lifecycle Service genera las misiones diarias y expira las ejecuciones anteriores. Cuando una misión, un minijuego, una sesión colaborativa o un plan familiar finaliza, los Quests Event Handlers procesan el resultado y el Quest Event Publisher publica el evento de integración, que recibe el Gamification Event Handlers. Gamification, a su vez, consulta las recompensas base y los intentos mediante el Quests Context Facade.
+La Figura 62 muestra el módulo Quests dentro del Backend API. Los Quests REST Controllers reciben las solicitudes ya autenticadas por el Bearer Authorization Filter y despachan commands y queries a los Quests Application Services. Estos aplican las reglas del Quests Domain Model, persisten los datos con los Quests Persistence Adapters y validan usuarios, amistades y familias mediante el Users Service Client, que consulta el Users Context Facade. El Daily Quest Lifecycle Service genera las misiones diarias y expira las ejecuciones anteriores. Cuando una misión, un minijuego, una sesión colaborativa o un plan familiar finaliza, los Quests Event Handlers procesan el resultado y el Quest Event Publisher publica el evento de integración, que recibe el Gamification Event Handlers. Gamification, a su vez, consulta las recompensas base y los intentos mediante el Quests Context Facade.
 
-**Figura 40**
+**Figura 61**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Quests, elaborado con Structurizr DSL.*
 
 ![C4Q](assets/img/figures/c4Quest2.png)
 
-**Figura 41**
+**Figura 62**
 
 *Diagrama C4 de componentes de la API del bounded context Quests, elaborado con Structurizr DSL.*
 
@@ -5483,7 +5535,7 @@ Los diagramas permiten identificar sus principales elementos de dominio, las rel
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests, organizadas según sus principales capacidades. Se incluyen aggregates, entities, value objects y enumeraciones responsables de representar el catálogo de misiones, el progreso de los usuarios, los minijuegos, las misiones colaborativas y los planes familiares.
 
-**Figura 42**
+**Figura 63**
 
 *Diagrama de clases de la capa de dominio del bounded context Quests, elaborado con PlantUML.*
 
@@ -5491,7 +5543,7 @@ El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 El presente diagrama representa el modelo de base de datos del bounded context **Quests** de EcoMind. Este contexto gestiona la definición y ejecución de retos, actividades, minijuegos, retos colaborativos y planes familiares, además de registrar el progreso de los usuarios. Las relaciones internas se representan mediante claves foráneas, mientras que los identificadores pertenecientes a otros bounded contexts, como usuarios y familias, se conservan como referencias externas para mantener la independencia entre contextos.
 
-**Figura 43**
+**Figura 64**
 
 *Diagrama de diseño de la base de datos del bounded context Quests.*
 
@@ -5779,11 +5831,11 @@ La aplicación móvil consume los casos de uso del backend sin duplicar sus regl
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Community se dividen en la aplicación Android y el módulo Community del Backend API. La Figura 44 muestra la vista móvil. Community UI presenta las comunidades, las publicaciones, los eventos, las inscripciones, los chats y las metas comunitarias, y entrega las acciones a los Community ViewModels. Estos invocan los Community Use Cases, que coordinan la búsqueda y la participación. El Community Repository Implementation transforma los datos con los Community Data Mappers y los obtiene del Community Remote Data Source, que consume los endpoints REST de Community, o del Community Local Cache, implementado con Room, que almacena comunidades, publicaciones, eventos y progreso de metas.
+Los diagramas de Community se dividen en la aplicación Android y el módulo Community del Backend API. La Figura 65 muestra la vista móvil. Community UI presenta las comunidades, las publicaciones, los eventos, las inscripciones, los chats y las metas comunitarias, y entrega las acciones a los Community ViewModels. Estos invocan los Community Use Cases, que coordinan la búsqueda y la participación. El Community Repository Implementation transforma los datos con los Community Data Mappers y los obtiene del Community Remote Data Source, que consume los endpoints REST de Community, o del Community Local Cache, implementado con Room, que almacena comunidades, publicaciones, eventos y progreso de metas.
 
-La Figura 45 muestra el módulo Community dentro del Backend API. Los Community REST Controllers reciben las solicitudes autenticadas y las despachan a los Community Application Services, que coordinan los permisos, las inscripciones, la publicación de logros y el progreso de metas, aplican el Community Domain Model y persisten los datos con los Community Persistence Adapters. Para validar usuarios, familias y roles, los servicios usan el Community Actor Gateway, que consulta el Users Context Facade. El Community Event Publisher publica los eventos de meta comunitaria completada, evento completado y publicación creada, que recibe el Gamification Event Handlers. Gamification utiliza el Community Context Facade para verificar la membresía y el acceso para compartir, y para entregar los avisos de logro que se publican en las comunidades.
+La Figura 66 muestra el módulo Community dentro del Backend API. Los Community REST Controllers reciben las solicitudes autenticadas y las despachan a los Community Application Services, que coordinan los permisos, las inscripciones, la publicación de logros y el progreso de metas, aplican el Community Domain Model y persisten los datos con los Community Persistence Adapters. Para validar usuarios, familias y roles, los servicios usan el Community Actor Gateway, que consulta el Users Context Facade. El Community Event Publisher publica los eventos de meta comunitaria completada, evento completado y publicación creada, que recibe el Gamification Event Handlers. Gamification utiliza el Community Context Facade para verificar la membresía y el acceso para compartir, y para entregar los avisos de logro que se publican en las comunidades.
 
-**Figura 44**
+**Figura 65**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Community, elaborado con Structurizr DSL.*
 
@@ -5791,7 +5843,7 @@ La Figura 45 muestra el módulo Community dentro del Backend API. Los Community 
   <img src="assets/img/figures/c4Community1.png" alt="Diagrama C4 de Community" width="550">
 </div>
 
-**Figura 45**
+**Figura 66**
 
 *Diagrama C4 de componentes de la API del bounded context Community, elaborado con Structurizr DSL.*
 
@@ -5807,11 +5859,19 @@ En esta sección elaboramos los diagramas de código que detallan la implementac
 
 El diagrama incluye aggregates, entities, value objects, enumeraciones, eventos de dominio y contratos de repositorio, junto con sus atributos, métodos, visibilidad, relaciones, direcciones y multiplicidades. También representa el procesamiento de los retos completados recibidos desde "Quests" y la publicación de la finalización de metas comunitarias hacia "Gamification".
 
+**Figura 67**
+
+*Diagrama de clases del contexto Community.*
+
 ![ClassDiagram](assets/img/figures/ClassDiagramCommunity.jpg)
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 El diseño de la base de datos organiza por separado las comunidades, sus miembros, publicaciones, reacciones, eventos, inscripciones, reportes, chats temporales y metas comunitarias, ya que cada funcionalidad posee atributos y reglas de negocio propias. Además, mantiene como referencias externas los usuarios, familias y retos pertenecientes a otros bounded contexts.
+
+**Figura 68**
+
+*Diagrama de base de datos del contexto Community.*
 
 ![Database](assets/img/figures/databaseCommunity.png)
 
@@ -6107,17 +6167,17 @@ La aplicación móvil consulta progreso, logros y rankings, y permite compartir 
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 46, Gamification UI presenta los rankings, los filtros de logros, la celebración y la opción de compartir. Los Gamification ViewModels administran los filtros, la decisión de compartir, el borrador reintentable y el estado de publicación, y los Gamification Use Cases consultan rankings y logros y solicitan el compartir voluntario. El Weekly Ranking Calculator filtra las transacciones del periodo y calcula las posiciones semanales. El Gamification Repository Implementation mapea los resultados con los Gamification Data Mappers y consulta el Gamification Remote Data Source, que consume los recursos REST de Gamification. Para leer las publicaciones de logros compartidos, que pertenecen a Community, los casos de uso emplean el Community Feature Gateway, que accede a la API de publicaciones de Community.
+Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 69, Gamification UI presenta los rankings, los filtros de logros, la celebración y la opción de compartir. Los Gamification ViewModels administran los filtros, la decisión de compartir, el borrador reintentable y el estado de publicación, y los Gamification Use Cases consultan rankings y logros y solicitan el compartir voluntario. El Weekly Ranking Calculator filtra las transacciones del periodo y calcula las posiciones semanales. El Gamification Repository Implementation mapea los resultados con los Gamification Data Mappers y consulta el Gamification Remote Data Source, que consume los recursos REST de Gamification. Para leer las publicaciones de logros compartidos, que pertenecen a Community, los casos de uso emplean el Community Feature Gateway, que accede a la API de publicaciones de Community.
 
-La Figura 47 muestra el módulo Gamification dentro del Backend API. Los Gamification REST Controllers exponen progreso, logros, rankings y solicitudes de compartir, y despachan commands y queries a los Gamification Application Services. Estos aplican el Gamification Domain Model y persisten los datos con los Gamification Persistence Adapters. Los Gamification Event Handlers reciben los eventos publicados por el Quest Event Publisher, el Community Event Publisher y el Monetization Event Publisher, y el Daily Streak Lifecycle Service evalúa el cierre diario de las rachas activas. Los Context Service Clients consultan los facades de Users, Quests, Community y Monetization. El Gamification Event Publisher entrega las recompensas, los avisos de logro y las solicitudes de protección y publicación a Community y Monetization, y guarda los mensajes pendientes en EcoMind Database mediante un Transactional Outbox. Los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade.
+La Figura 70 muestra el módulo Gamification dentro del Backend API. Los Gamification REST Controllers exponen progreso, logros, rankings y solicitudes de compartir, y despachan commands y queries a los Gamification Application Services. Estos aplican el Gamification Domain Model y persisten los datos con los Gamification Persistence Adapters. Los Gamification Event Handlers reciben los eventos publicados por el Quest Event Publisher, el Community Event Publisher y el Monetization Event Publisher, y el Daily Streak Lifecycle Service evalúa el cierre diario de las rachas activas. Los Context Service Clients consultan los facades de Users, Quests, Community y Monetization. El Gamification Event Publisher entrega las recompensas, los avisos de logro y las solicitudes de protección y publicación a Community y Monetization, y guarda los mensajes pendientes en EcoMind Database mediante un Transactional Outbox. Los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade.
 
-**Figura 46**
+**Figura 69**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Gamification, elaborado con Structurizr DSL.*
 
 ![C4 de componentes Android de Gamification](assets/img/figures/c4GamificationMobile.png)
 
-**Figura 47**
+**Figura 70**
 
 *Diagrama C4 de componentes de la API del bounded context Gamification, elaborado con Structurizr DSL.*
 
@@ -6129,7 +6189,7 @@ Los diagramas presentan los elementos del dominio de Gamification, sus relacione
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra los aggregates, value objects y enumeraciones del Domain Layer de Gamification. Representa el progreso individual y familiar, los otorgamientos de recompensas y logros, y las solicitudes de protección de racha y de compartir logros.
 
-**Figura 48**
+**Figura 71**
 
 *Diagrama de clases del bounded context Gamification, elaborado con PlantUML.*
 
@@ -6138,7 +6198,7 @@ El siguiente diagrama muestra los aggregates, value objects y enumeraciones del 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 El diagrama presenta las tablas de negocio del progreso individual y familiar, las recompensas, los logros y las solicitudes de compartir y proteger rachas. Las concesiones de logros se relacionan con su definición y con el progreso individual o familiar; cada concesión tiene un único destinatario. Los identificadores de usuarios, familias y comunidades de otros contextos se conservan como referencias externas.
 
-**Figura 49**
+**Figura 72**
 
 *Diagrama de diseño de la base de datos del bounded context Gamification.*
 
@@ -6439,11 +6499,11 @@ Las solicitudes protegidas llegan con un JWT emitido previamente por IAM. El fil
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Monetization presentan la aplicación Android y el módulo Monetization del Backend API. En la Figura 50, Store UI muestra los cosméticos, los multiplicadores, los protectores, los paquetes de gemas y el saldo de la billetera. Los Monetization ViewModels reciben las intenciones de la interfaz y exponen estados inmutables, y los Monetization Use Cases coordinan el catálogo, las compras, el inventario y el pago. El Monetization Repository Implementation usa los Monetization Data Mappers para transformar los datos del Monetization Remote Data Source, que consume los endpoints de Monetization con el Bearer JWT, y del Catalog Cache, implementado con Room, que guarda una copia de solo lectura de los catálogos y de la billetera para el uso sin conexión.
+Los diagramas de Monetization presentan la aplicación Android y el módulo Monetization del Backend API. En la Figura 73, Store UI muestra los cosméticos, los multiplicadores, los protectores, los paquetes de gemas y el saldo de la billetera. Los Monetization ViewModels reciben las intenciones de la interfaz y exponen estados inmutables, y los Monetization Use Cases coordinan el catálogo, las compras, el inventario y el pago. El Monetization Repository Implementation usa los Monetization Data Mappers para transformar los datos del Monetization Remote Data Source, que consume los endpoints de Monetization con el Bearer JWT, y del Catalog Cache, implementado con Room, que guarda una copia de solo lectura de los catálogos y de la billetera para el uso sin conexión.
 
-La Figura 51 muestra el módulo Monetization dentro del Backend API. Los Monetization REST Controllers exponen los endpoints de tienda, cosméticos, multiplicadores, protectores de racha, inventario, billetera y compras de gemas, y los despachan a los Monetization Application Services. Estos aplican el Monetization Domain Model, persisten los datos con los Monetization Persistence Adapters y consultan o actualizan el saldo de gemas del perfil mediante el User Gem Balance Gateway, que opera sobre los Users Persistence Adapters. Los Payment Adapters integran los proveedores de pago: Culqi, para pagos con tarjeta y Yape, y PayPal. Gamification consulta el multiplicador de experiencia activo y solicita el abono de gemas, la entrega de cosméticos y la protección de racha mediante el Monetization Context Facade, y recibe el resultado a través del Monetization Event Publisher, que publica los eventos StreakProtected o StreakProtectionUnavailable.
+La Figura 74 muestra el módulo Monetization dentro del Backend API. Los Monetization REST Controllers exponen los endpoints de tienda, cosméticos, multiplicadores, protectores de racha, inventario, billetera y compras de gemas, y los despachan a los Monetization Application Services. Estos aplican el Monetization Domain Model, persisten los datos con los Monetization Persistence Adapters y consultan o actualizan el saldo de gemas del perfil mediante el User Gem Balance Gateway, que opera sobre los Users Persistence Adapters. Los Payment Adapters integran los proveedores de pago: Culqi, para pagos con tarjeta y Yape, y PayPal. Gamification consulta el multiplicador de experiencia activo y solicita el abono de gemas, la entrega de cosméticos y la protección de racha mediante el Monetization Context Facade, y recibe el resultado a través del Monetization Event Publisher, que publica los eventos StreakProtected o StreakProtectionUnavailable.
 
-**Figura 50**
+**Figura 73**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
 
@@ -6451,7 +6511,7 @@ La Figura 51 muestra el módulo Monetization dentro del Backend API. Los Monetiz
   <img src="assets/img/figures/ComponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
 </div>
 
-**Figura 51**
+**Figura 74**
 
 *Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
 
@@ -6465,7 +6525,7 @@ Los diagramas de código presentan las clases de dominio de Monetization y el di
 
 El diagrama de clases presenta los principales elementos del dominio de Monetization y las relaciones entre ellos. Incluye la tienda, la billetera de gemas, las compras, los inventarios y los distintos productos disponibles, como cosméticos, multiplicadores, protectores y paquetes de gemas. También representa las operaciones necesarias para consultar productos, verificar el saldo, realizar compras y administrar los artículos adquiridos por el usuario.
 
-**Figura 52**
+**Figura 75**
 
 *Diagrama de clases de la capa de dominio del bounded context Monetization.*
 
@@ -6475,7 +6535,7 @@ El diagrama de clases presenta los principales elementos del dominio de Monetiza
 
 El diseño de la base de datos organiza por separado los cosméticos, multiplicadores, protectores y paquetes de gemas, ya que cada tipo de producto posee características propias.
 
-**Figura 53**
+**Figura 76**
 
 *Diagrama de diseño de la base de datos del bounded context Monetization.*
 
@@ -6534,7 +6594,7 @@ Los iconos siguen un estilo outline redondeado, coherente con la identidad orgá
 
  
    
- *Figura 54 ( General Style Guidelines )* 
+ *Figura 77 ( General Style Guidelines )*
 ![Foto](assets/img/figures/style.png)
 
 ### 3.1.2. Information Architecture
@@ -6834,7 +6894,7 @@ La combinación de la barra inferior, la barra superior, las pestañas, los cont
 
 Los wireframes de la Landing Page de EcoMind representan la estructura inicial de las pantallas antes de incorporar colores, imágenes finales y elementos gráficos de marca. Su propósito fue organizar la jerarquía de la información, definir la ubicación de los componentes y validar que el recorrido del visitante fuera claro. En todas las vistas se mantiene una barra de navegación superior con acceso a las preguntas frecuentes, la guía para padres, la comunidad, el selector de idioma y la descarga de la aplicación.
 
-**Figura 55**
+**Figura 78**
 
 *Wireframe de la página de inicio de la Landing Page.*
 
@@ -6842,7 +6902,7 @@ Los wireframes de la Landing Page de EcoMind representan la estructura inicial d
 
 La página de inicio introduce la propuesta de valor de EcoMind y organiza el acceso a sus beneficios principales, la información de la startup y las llamadas a la acción dirigidas a nuevos usuarios.
 
-**Figura 56**
+**Figura 79**
 
 *Wireframe de preguntas frecuentes.*
 
@@ -6850,7 +6910,7 @@ La página de inicio introduce la propuesta de valor de EcoMind y organiza el ac
 
 La sección de preguntas frecuentes utiliza componentes desplegables para presentar respuestas sobre la conexión a Internet, la administración de la cuenta, las actividades, los puntos, las recompensas y la participación familiar sin saturar la pantalla.
 
-**Figura 57**
+**Figura 80**
 
 *Wireframe de la guía para padres.*
 
@@ -6858,7 +6918,7 @@ La sección de preguntas frecuentes utiliza componentes desplegables para presen
 
 La guía para padres reúne información sobre el acompañamiento familiar, los recursos educativos y recomendaciones para incorporar hábitos sostenibles en el hogar. Su estructura combina contenido informativo, tarjetas y una sección destacada de consejos.
 
-**Figura 58**
+**Figura 81**
 
 *Wireframe de la comunidad de EcoMind.*
 
@@ -6870,7 +6930,7 @@ La sección de comunidad presenta indicadores generales, beneficios de la partic
 
 Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante la identidad gráfica de EcoMind. Se incorporan el logotipo, la paleta de verdes, fotografías, ilustraciones, iconos y una jerarquía tipográfica consistente. Estos elementos refuerzan el enfoque ambiental del producto y permiten visualizar con mayor precisión la experiencia final del visitante en una interfaz web.
 
-**Figura 59**
+**Figura 82**
 
 *Mock-up de la página de inicio de la Landing Page.*
 
@@ -6878,7 +6938,7 @@ Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante 
 
 El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar de manera inmediata la propuesta de EcoMind. Las secciones posteriores explican sus beneficios, misión, visión e identidad como startup educativa.
 
-**Figura 60**
+**Figura 83**
 
 *Mock-up de preguntas frecuentes.*
 
@@ -6886,7 +6946,7 @@ El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar
 
 La versión visual de preguntas frecuentes mantiene el formato desplegable e incorpora los colores y componentes definitivos. La separación entre preguntas favorece la lectura y permite que el visitante ubique rápidamente la información que necesita.
 
-**Figura 61**
+**Figura 84**
 
 *Mock-up de la guía para padres.*
 
@@ -6894,7 +6954,7 @@ La versión visual de preguntas frecuentes mantiene el formato desplegable e inc
 
 La guía para padres combina contenido educativo con fotografías e iconos para explicar los beneficios del acompañamiento familiar. Además, diferencia los recursos disponibles y presenta recomendaciones prácticas para reforzar hábitos sostenibles en casa.
 
-**Figura 62**
+**Figura 85**
 
 *Mock-up de la comunidad de EcoMind.*
 
@@ -6909,7 +6969,7 @@ El mock-up de comunidad utiliza indicadores, testimonios, ilustraciones y un map
 Los wireframes de la aplicación móvil EcoMind representan una primera aproximación a la estructura, distribución y navegación de su interfaz. Para su elaboración se priorizó la claridad de la información, la consistencia visual y el acceso directo a las funciones principales: autenticación, perfil, retos, aprendizaje, ranking, comunidad, tienda y configuración.
 La aplicación emplea una barra de navegación inferior que permite cambiar rápidamente entre los módulos principales. Asimismo, las pantallas presentan encabezados, tarjetas, botones, formularios y listas con una organización uniforme. Esta estructura reduce la carga cognitiva y permite que tanto los menores como sus padres comprendan fácilmente las acciones disponibles.
 
-**Figura 63**
+**Figura 86**
 
 *Wireframe de inicio de sesión.*
 
@@ -6919,7 +6979,7 @@ La aplicación emplea una barra de navegación inferior que permite cambiar ráp
 
 Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y ofrece acceso al registro de una cuenta nueva.
 
-**Figura 64**
+**Figura 87**
 
 *Wireframe de registro.*
 
@@ -6929,7 +6989,7 @@ Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y
 
 Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los términos y acceder posteriormente a la aplicación.
 
-**Figura 65**
+**Figura 88**
 
 *Wireframe de selección de retos.*
 
@@ -6939,7 +6999,7 @@ Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los t
 
 Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones visuales de fácil reconocimiento.
 
-**Figura 66**
+**Figura 89**
 
 *Wireframe del detalle de un reto.*
 
@@ -6949,7 +7009,7 @@ Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones
 
 El detalle del reto muestra sus objetivos, recompensas, progreso y la acción principal para completar la actividad.
 
-**Figura 67**
+**Figura 90**
 
 *Wireframe de perfil.*
 
@@ -6959,7 +7019,7 @@ El detalle del reto muestra sus objetivos, recompensas, progreso y la acción pr
 
 El perfil centraliza los datos del usuario, sus estadísticas, progreso, compromisos y opciones de administración.
 
-**Figura 68**
+**Figura 91**
 
 *Wireframe de comunidad.*
 
@@ -6973,7 +7033,7 @@ El perfil centraliza los datos del usuario, sus estadísticas, progreso, comprom
 
 La pantalla permite consultar publicaciones, eventos y actividades compartidas por la comunidad.
 
-**Figura 69**
+**Figura 92**
 
 *Wireframe de tienda.*
 
@@ -6985,13 +7045,15 @@ La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acc
 
 
 
+**Figura 93**
+
 *Wireframe de aprendizaje.*
 
 <div align="center"><img src="assets/img/figures/LearningWireframe.jpeg" alt="Wireframe de aprendizaje" width="250"></div>
 
 La sección presenta recursos educativos mediante tarjetas, categorías, búsqueda y opciones para descargar o guardar contenido.
 
-**Figura 70**
+**Figura 94**
 
 *Wireframe de ranking.*
 
@@ -7001,7 +7063,7 @@ La sección presenta recursos educativos mediante tarjetas, categorías, búsque
 
 La pantalla muestra la clasificación de los usuarios y destaca la posición personal según la categoría seleccionada.
 
-**Figura 71**
+**Figura 95**
 
 *Wireframe de ajustes.*
 
@@ -7012,7 +7074,7 @@ La pantalla muestra la clasificación de los usuarios y destaca la posición per
 La sección reúne las opciones de cuenta, preferencias y configuración en bloques simples y fáciles de identificar.
 
 
-**Figura 72**
+**Figura 96**
 
 *Wireframes de inicio y retos.*
 
@@ -7022,7 +7084,7 @@ La sección reúne las opciones de cuenta, preferencias y configuración en bloq
 
 El conjunto presenta el acceso inicial y las distintas etapas para explorar, iniciar y completar retos ambientales.
 
-**Figura 73**
+**Figura 97**
 
 *Wireframes de tienda y aprendizaje.*
 
@@ -7032,7 +7094,7 @@ El conjunto presenta el acceso inicial y las distintas etapas para explorar, ini
 
 El conjunto muestra la consulta y compra de productos, junto con la búsqueda y visualización de recursos educativos.
 
-**Figura 74**
+**Figura 98**
 
 *Wireframes de perfil.*
 
@@ -7043,7 +7105,7 @@ El conjunto muestra la consulta y compra de productos, junto con la búsqueda y 
 El conjunto presenta la consulta y edición del perfil, las estadísticas, los logros y las diversas acciones que puedes hacer en perfil.
 
 
-**Figura 75**
+**Figura 99**
 
 *Wireframes de comunidad.*
 
@@ -7053,7 +7115,7 @@ El conjunto presenta la consulta y edición del perfil, las estadísticas, los l
 
 El conjunto presenta publicaciones, eventos, grupos, logros, búsquedas y mensajes disponibles en la comunidad.
 
-**Figura 76**
+**Figura 100**
 
 *Wireframes de ranking, notificaciones y ajustes.*
 
@@ -7067,7 +7129,7 @@ El conjunto reúne la clasificación de usuarios, el centro de notificaciones y 
 
 Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelidad con las acciones que realiza el usuario. Las flechas representan las transiciones entre vistas y permiten comprobar la continuidad de tareas como registrarse, iniciar un reto, consultar el progreso, comprar productos, revisar el ranking, participar en la comunidad y administrar el perfil. La organización por bounded context facilita reconocer la responsabilidad funcional de cada recorrido.
 
-**Figura 77**
+**Figura 101**
 
 *Wireflow general de la aplicación móvil EcoMind.*
 
@@ -7077,7 +7139,7 @@ Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelida
 
 El wireflow general integra los recorridos principales de IAM, Quests, Learning, Monetization, Gamification, Community y Users. Este diagrama permite observar cómo la pantalla principal y la barra de navegación inferior conectan los diferentes módulos de la aplicación.
 
-**Figura 78**
+**Figura 102**
 
 *Wireflow de IAM, notificaciones y ajustes.*
 
@@ -7087,7 +7149,7 @@ El wireflow general integra los recorridos principales de IAM, Quests, Learning,
 
 El flujo de IAM comprende la presentación inicial, el registro, la confirmación del correo y el inicio de sesión hasta llegar al menú principal. Los flujos de notificaciones y ajustes permiten revisar avisos, modificar preferencias, seleccionar el idioma y acceder a las opciones de ayuda y soporte.
 
-**Figura 79**
+**Figura 103**
 
 *Wireflow de retos y progreso.*
 
@@ -7097,7 +7159,7 @@ El flujo de IAM comprende la presentación inicial, el registro, la confirmació
 
 Este flujo muestra la selección de una categoría, la búsqueda y filtrado de retos, la consulta del detalle y la ejecución de actividades. También representa el inicio, seguimiento y finalización del reto, junto con el acceso al progreso y la posibilidad de invitar amigos a una actividad colaborativa.
 
-**Figura 80**
+**Figura 104**
 
 *Wireflow de monetización, gamificación y aprendizaje.*
 
@@ -7107,7 +7169,7 @@ Este flujo muestra la selección de una categoría, la búsqueda y filtrado de r
 
 En Monetization se representan la compra y gestión de cosméticos, el inventario, los multiplicadores, los protectores de racha y los paquetes de gemas. Gamification presenta la navegación entre los diferentes rankings, mientras que Learning permite buscar, filtrar y consultar recursos educativos.
 
-**Figura 81**
+**Figura 105**
 
 *Wireflow de comunidad.*
 
@@ -7117,7 +7179,7 @@ En Monetization se representan la compra y gestión de cosméticos, el inventari
 
 El flujo de Community conecta las vistas de premios, eventos y noticias. Además, representa las acciones para crear un evento, consultar sus detalles, unirse de manera individual o familiar y acceder posteriormente al espacio de comunicación del evento.
 
-**Figura 82**
+**Figura 106**
 
 *Wireflow de perfil, amigos y familia.*
 
@@ -7133,7 +7195,7 @@ El wireflow de perfil comprende la consulta de estadísticas, compromisos, favor
 
 Los mock-ups de la aplicación móvil EcoMind representan la propuesta visual de alta fidelidad elaborada a partir de los wireframes. En estas pantallas se aplican la paleta de colores, las tipografías, los iconos, las ilustraciones y los componentes definitivos. La interfaz conserva una barra superior con los indicadores del usuario y una barra de navegación inferior que facilita el acceso a los módulos principales.
 
-**Figura 83**
+**Figura 107**
 
 *Mock-up de inicio de sesión.*
 
@@ -7143,7 +7205,7 @@ Los mock-ups de la aplicación móvil EcoMind representan la propuesta visual de
 
 La pantalla permite que el usuario ingrese sus credenciales y acceda a la aplicación. También ofrece una ruta directa al registro para quienes todavía no poseen una cuenta.
 
-**Figura 84**
+**Figura 108**
 
 *Mock-up de registro.*
 
@@ -7153,7 +7215,7 @@ La pantalla permite que el usuario ingrese sus credenciales y acceda a la aplica
 
 El registro reúne los datos necesarios para crear una cuenta, aceptar los términos y continuar con la verificación del correo electrónico.
 
-**Figura 85**
+**Figura 109**
 
 *Mock-up del menú principal de retos.*
 
@@ -7163,7 +7225,7 @@ El registro reúne los datos necesarios para crear una cuenta, aceptar los térm
 
 El menú principal presenta las categorías de actividades mediante botones visuales diferenciados por color. Desde esta pantalla se puede explorar el contenido ambiental o ingresar al módulo de aprendizaje.
 
-**Figura 86**
+**Figura 110**
 
 *Mock-up de ejecución de un reto.*
 
@@ -7173,7 +7235,7 @@ El menú principal presenta las categorías de actividades mediante botones visu
 
 La pantalla del reto muestra su categoría, duración, recompensa y tipo. Las actividades se marcan conforme son realizadas y la barra de progreso comunica el avance antes de finalizar el reto.
 
-**Figura 87**
+**Figura 111**
 
 *Mock-up del perfil del usuario.*
 
@@ -7183,7 +7245,7 @@ La pantalla del reto muestra su categoría, duración, recompensa y tipo. Las ac
 
 El perfil centraliza la identidad del usuario, su racha, EcoPoints, gemas, compromiso ambiental, medallas y accesos a las secciones de amigos y familia.
 
-**Figura 88**
+**Figura 112**
 
 *Mock-up de comunidad.*
 
@@ -7193,7 +7255,7 @@ El perfil centraliza la identidad del usuario, su racha, EcoPoints, gemas, compr
 
 La pantalla de comunidad presenta la meta compartida, su progreso y las pestañas de premios, eventos y noticias. También permite buscar, crear y unirse a eventos ambientales.
 
-**Figura 89**
+**Figura 113**
 
 *Mock-up de tienda.*
 
@@ -7203,7 +7265,7 @@ La pantalla de comunidad presenta la meta compartida, su progreso y las pestaña
 
 La tienda organiza avatares y cosméticos, multiplicadores, protectores y paquetes de gemas. Los estados visuales permiten distinguir los productos disponibles, adquiridos y equipados.
 
-**Figura 90**
+**Figura 114**
 
 *Mock-up de aprendizaje.*
 
@@ -7213,7 +7275,7 @@ La tienda organiza avatares y cosméticos, multiplicadores, protectores y paquet
 
 El módulo de aprendizaje presenta recursos educativos en tarjetas con su imagen, tipo, categoría, descripción y duración, además de acciones para descargar o guardar el contenido.
 
-**Figura 91**
+**Figura 115**
 
 *Mock-up de ranking.*
 
@@ -7223,7 +7285,7 @@ El módulo de aprendizaje presenta recursos educativos en tarjetas con su imagen
 
 El ranking muestra la posición del usuario y permite comparar EcoPoints en ámbitos local, global, de amigos y de familias, utilizando periodos diarios, semanales, mensuales o históricos.
 
-**Figura 92**
+**Figura 116**
 
 *Mock-up de ajustes.*
 
@@ -7235,7 +7297,7 @@ La pantalla de ajustes agrupa la información de la cuenta, las preferencias de 
 
 Los siguientes conjuntos reúnen las variantes y estados complementarios de cada módulo, como pantallas vacías, errores de carga, confirmaciones, filtros, formularios y acciones secundarias.
 
-**Figura 93**
+**Figura 117**
 
 *Conjunto de mock-ups de retos.*
 
@@ -7245,7 +7307,7 @@ Los siguientes conjuntos reúnen las variantes y estados complementarios de cada
 
 El conjunto incluye autenticación, categorías, búsqueda, filtros, planificación, progreso y ejecución de retos individuales y colaborativos.
 
-**Figura 94**
+**Figura 118**
 
 *Conjunto de mock-ups de tienda y aprendizaje.*
 
@@ -7255,6 +7317,8 @@ El conjunto incluye autenticación, categorías, búsqueda, filtros, planificaci
 
 Estas pantallas muestran las variantes de compra, inventario, multiplicadores, paquetes de gemas, búsqueda de recursos, aplicación de filtros y consulta del detalle educativo.
 
+**Figura 119**
+
 *Conjunto de mock-ups de comunidad.*
 
 <div align="center"><img src="assets/img/figures/ComuniMocks.jpeg" alt="Conjunto de mock-ups de comunidad" width="850"></div>
@@ -7263,7 +7327,7 @@ Estas pantallas muestran las variantes de compra, inventario, multiplicadores, p
 
 El conjunto presenta las distintas vistas de premios, eventos y noticias, además de los procesos para crear comunidades y eventos, seleccionar participantes y confirmar la inscripción.
 
-**Figura 95**
+**Figura 120**
 
 *Conjunto de mock-ups de perfil.*
 
@@ -7273,7 +7337,7 @@ El conjunto presenta las distintas vistas de premios, eventos y noticias, ademá
 
 Estas pantallas desarrollan la edición del perfil, los compromisos, favoritos, amistades, invitaciones, creación y administración familiar, progreso de integrantes e informes semanales.
 
-**Figura 96**
+**Figura 121**
 
 *Conjunto de mock-ups de ranking, notificaciones y ajustes.*
 
@@ -7288,7 +7352,7 @@ El conjunto reúne las variantes del ranking, los estados de la bandeja de notif
 
 Los User Flow Diagrams muestran los recorridos previstos para que los usuarios alcancen objetivos específicos dentro de EcoMind. A diferencia de los wireflows, estos diagramas utilizan los mock-ups de alta fidelidad y destacan mediante flechas las acciones y transiciones entre pantallas.
 
-**Figura 96**
+**Figura 122**
 
 *User Flow de autenticación e identidad.*
 
@@ -7298,7 +7362,7 @@ Los User Flow Diagrams muestran los recorridos previstos para que los usuarios a
 
 El flujo de IAM contempla dos recorridos. Un usuario con una cuenta existente ingresa sus credenciales, y accede al menú principal. Un usuario nuevo selecciona la opción de registro, completa sus datos, acepta los términos y continúa con la verificación de la cuenta.
 
-**Figura 97**
+**Figura 123**
 
 *User Flow de retos.*
 
@@ -7308,7 +7372,7 @@ El flujo de IAM contempla dos recorridos. Un usuario con una cuenta existente in
 
 El flujo de Quests comienza en el panel principal con la selección de una categoría. El estudiante puede revisar su progreso o buscar una miniactividad mediante filtros. Al abrirla, consulta sus instrucciones y recompensas, inicia el reto, completa cada paso y confirma su finalización para recibir EcoPoints. Si el reto es colaborativo, selecciona la opción de invitar amigos, revisa la lista de participantes, administra el grupo e inicia la actividad en conjunto. Este diagrama cubre los flujos de validación “Miniactividades y retos” y “Desafío entre compañeros”.
 
-**Figura 98**
+**Figura 124**
 
 *User Flow de perfil, familia y seguimiento del progreso.*
 
@@ -7318,7 +7382,7 @@ El flujo de Quests comienza en el panel principal con la selección de una categ
 
 Después de completar un reto, el estudiante accede a su perfil para comprobar la actualización de la racha, los EcoPoints, las medallas y el progreso de sus actividades. También puede registrar un compromiso ambiental y consultar sus favoritos. En el recorrido para padres, el usuario abre la pestaña **Family**, revisa los integrantes, selecciona el perfil del hijo y consulta sus actividades completadas y pendientes. Este recorrido corresponde al flujo de validación “Familia y progreso”.
 
-**Figura 99**
+**Figura 125**
 
 *User Flow de aprendizaje.*
 
@@ -7328,7 +7392,7 @@ Después de completar un reto, el estudiante accede a su perfil para comprobar l
 
 El usuario accede a Learning desde el menú principal, revisa los recursos disponibles y abre el contenido seleccionado. Como recorrido alternativo, puede utilizar los filtros para limitar los resultados según el tipo, la categoría y otros criterios de búsqueda.
 
-**Figura 100**
+**Figura 126**
 
 *User Flow de tienda y monetización.*
 
@@ -7338,7 +7402,7 @@ El usuario accede a Learning desde el menú principal, revisa los recursos dispo
 
 Desde la tienda, el usuario selecciona la categoría de cosméticos, abre un producto y confirma la compra con gemas. Luego accede a **My Inventory** para equiparlo y comprobar el cambio en su avatar. El recorrido también permite revisar la descripción y duración de los multiplicadores o protectores antes de adquirirlos. En la sección de gemas, el usuario elige un paquete, selecciona el método de pago, revisa el resumen y confirma la operación. Para los estudiantes se valida la compra y personalización; para los padres se valida principalmente la comprensión y confianza que genera la economía virtual.
 
-**Figura 101**
+**Figura 127**
 
 *User Flow de ranking y gamificación.*
 
@@ -7348,7 +7412,7 @@ Desde la tienda, el usuario selecciona la categoría de cosméticos, abre un pro
 
 El flujo inicia en la barra de navegación inferior y conduce al ranking. Primero, el usuario identifica su posición resaltada; después puede cambiar entre las clasificaciones local, global, de amigos y de familias. Los filtros diario, semanal, mensual y acumulado permiten comparar los EcoPoints en distintos periodos. Para la validación se priorizan la posición propia, el ranking general y la clasificación semanal de la comunidad.
 
-**Figura 102**
+**Figura 128**
 
 *User Flow de comunidad.*
 
@@ -7358,7 +7422,7 @@ El flujo inicia en la barra de navegación inferior y conduce al ranking. Primer
 
 El recorrido de Community permite consultar la meta comunitaria y alternar entre premios, eventos y noticias. Desde la sección de eventos, el usuario puede buscar una actividad, revisar sus detalles y ubicación, crear un evento o solicitar una inscripción. La confirmación debe diferenciar claramente la participación individual de la familiar. Una vez inscrito, el usuario puede revisar el evento en **My events**, cancelarlo cuando sea necesario y acceder al espacio de comunicación. Este diagrama cubre “Comunidad y eventos” para estudiantes y “Actividad familiar en comunidad” para padres.
 
-**Figura 103**
+**Figura 129**
 
 *User Flow de notificaciones y ajustes.*
 
@@ -7821,7 +7885,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Padres de Familia
 <br>
 
-**Tabla xx**
+**Tabla 117**
  
 *Entrevista de validación 1 del segmento de padres de familia.*
  
@@ -7831,7 +7895,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 | **Entrevistada N°1:** Yolanda Nely Mota Granados<br>**Edad:** 52 años<br>**Ubicación:** Surquillo, Lima<br>**Entrevistadora:** Katty Philco<br>**Fecha de la entrevista:** 09/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Yolanda Nely Mota Granados](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416107_upc_edu_pe/IQD6MW-bHvTgTLIvTWB1yt1yAdBEq5G0st9w9zk0MEyuoXs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BSMdpw)<br>**Instante del que inicia:** 00:58<br>**Duración:** 05:48<br><br>**Resumen:**<br><br>La entrevistada es Yolanda Nely Mota Granados, una madre de familia de 52 años que vive en Surquillo. Tras explorar el Landing Page, comprendió con claridad que EcoMind busca enseñar a los niños y a la familia a adoptar hábitos de cuidado del medio ambiente.<br><br>Al usar la aplicación, identificó sin dificultad la información familiar y el perfil de su hijo, y valoró positivamente la variedad de contenidos, retos, reuniones y comunidades. Indicó que el seguimiento al aprendizaje de su hija necesita mejoras para ser más efectivo. En comunidad logró crear comunidades, pero no comprendió el flujo para inscribir a su familia en los eventos del mapa.<br><br>Respecto a la gamificación, encontró con facilidad su posición en el ranking y señaló que ver los puestos la motiva a seguir participando. Le pareció atractiva la dinámica de la tienda y las gemas, aunque manifestó desconfianza ante el uso de tarjetas de crédito o pagos de dinero dentro de la plataforma.<br><br>Consideró que la aplicación es relevante tanto para los padres como para los niños, pero sintió confusión al navegar para encontrar secciones específicas. Por ello sugirió simplificar la interfaz para que los adultos aprendan a usarla más rápido. Propuso además incluir una función de comunicación familiar que permita enviarse recordatorios directos sobre acciones sostenibles en el hogar, como apagar las luces o cerrar los caños.<br><br>Calificó con 5 sobre 5 la probabilidad de usar EcoMind con regularidad junto a su familia, por su interés en promover la conservación ambiental y por el ahorro práctico de recursos en su hogar. |
 
  
-**Tabla xx**
+**Tabla 118**
  
 *Entrevista de validación 2 del segmento de padres de familia.*
  
@@ -7843,7 +7907,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Niños de primaria
 <br>
 
-**Tabla xx**
+**Tabla 119**
  
 *Entrevista de validación 1 del segmento de niños de primaria.*
  
@@ -7919,6 +7983,10 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
 
+**Figura 130**
+
+*Visibilidad del progreso al completar actividades.*
+
 ![Problema_1](assets/img/figures/problema1.png)
 
 **Recomendación:**
@@ -7934,6 +8002,10 @@ Implementar animaciones, barras de progreso o indicadores visuales que muestren 
 **Problema:**
 
 Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
+
+**Figura 131**
+
+*Información disponible sobre eventos comunitarios.*
 
 ![Problema_2](assets/img/figures/problema2.png)
 
@@ -7951,6 +8023,10 @@ Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde s
 
 Las actividades disponibles dentro de la aplicación se presentan principalmente como formularios o cuestionarios, sin comunicar con suficiente claridad qué acción debe realizar el usuario para cumplir el reto. Esta presentación dificulta relacionar la actividad con un desafío ambiental concreto y comprender su objetivo, más allá de responder preguntas.
 
+**Figura 132**
+
+*Presentación de las actividades y retos.*
+
 ![Problema_3](assets/img/figures/problema3.png)
 
 **Recomendación:**
@@ -7967,6 +8043,10 @@ Presentar cada reto con un objetivo ambiental concreto, instrucciones en lenguaj
 
 En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. Aunque incluyen una etiqueta de rol, el usuario debe leer cada tarjeta para distinguir a los padres de los hijos, lo que dificulta reconocer rápidamente los roles al revisar el grupo familiar.
 
+**Figura 133**
+
+*Tarjetas de integrantes de la familia.*
+
 ![Problema_4](assets/img/figures/problema4.png)
 
 **Recomendación:**
@@ -7980,7 +8060,11 @@ Incorporar un distintivo visual consistente para cada rol familiar, como un íco
 
 **Problema:**
 
-Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. El hallazgo se limita a la información mostrada en el perfil; el flujo de equipamiento de avatares y cosméticos queda fuera del alcance de esta evaluación.
+Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. La evaluación considera la visualización del perfil, sin revisar el proceso de equipamiento de accesorios.
+
+**Figura 134**
+
+*Visualización del avatar en el perfil.*
 
 ![Problema_5](assets/img/figures/Problema5.png)
 
