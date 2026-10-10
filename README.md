@@ -7299,7 +7299,24 @@ Backend - Render:
 
 ### 4.2.1. Sprint 1
 
+En esta sección se presenta el trabajo planificado para el primer Sprint de EcoMind y las evidencias de su desarrollo.
+
 #### 4.2.1.1. Sprint Planning 1
+
+Aquí se documentan los acuerdos de planificación del Sprint 1, incluyendo su objetivo y la estimación del trabajo.
+
+| **Sprint #** |  1 |
+|------|--------|
+| **Date** | 2026-03-10 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual (Google Meet / Zoom) |
+| **Prepared By** | Alejandra Isabel Astocondor Bazan |
+| **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Mauricio Luis Pajes Leon, Katty Yolanda Philco Mota |
+| **Sprint n - 1 Review Summary** | - |
+| **Sprint n - 1 Retrospective Summary** | - |
+| **Sprint n Goal** | Our focus is on delivering the core EcoMind experience for families, including clear information about the app, environmental challenges, progress tracking, gamification, and community events. We believe this will help children and their families understand, participate in, and track environmental activities together. This will be confirmed when a family can explore the landing page, access the main challenge and progress features, and participate in a community event through the implemented application flows. |
+| **Sprint n Velocity** | Designamos aceptar hasta 160 SP |
+| **Sum of Story Points** | 152 SP |
 
 #### 4.2.1.2. Aspect Leaders and Collaborators
 
