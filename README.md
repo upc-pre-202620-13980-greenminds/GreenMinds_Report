@@ -7737,7 +7737,6 @@ En esta sección se describe la configuración del despliegue de EcoMind, incluy
 
 Base de datos - Aiven:
 
-
 1. Seleccionar opción crear servicio
 2. Asegurarse de elegir postgreSQL
 3. Seleccionar configuración básica del plan, y nombre del servicio
@@ -8531,7 +8530,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td>Implementar cálculo o registro de Animaciones de logro</td>
       <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
       <td>3</td>
-      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
   </tbody>
@@ -8546,6 +8545,170 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 #### 4.2.1.7. Services Documentation Evidence for Sprint Review
 
 #### 4.2.1.8. Software Deployment Evidence for Sprint Review
+
+Para el sprint 1 se realizaron 2 despligues, el de la landing page y el del backend, para cada uno seguimos unos pasos específicos.
+
+**Landing page**
+
+El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de GitHub que permite publicar sitios web estáticos directamente desde el repositorio de código fuente, sin necesidad de configurar servidores adicionales. 
+
+**Procedimiento planificado:** 
+
+1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio.
+
+**Figura X**
+
+*Verificación que el repositorio este actualizado*
+
+![Repository_updated](assets/img/figures/Repository_updated.png)
+
+2. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages. 
+
+**Figura X**
+
+*Acceso a configuración "Pages"*
+
+![Settings_Pages](assets/img/figures/Settings_Pages.png)
+
+3. En la sección Source, seleccionar la rama main y la carpeta raíz.
+
+**Figura X**
+
+*Selección de rama a desplegar*
+
+![Main_branch](assets/img/figures/Main_branch.png)
+
+4. Guardar la configuración para que GitHub Pages genere automáticamente la página pública. 
+
+**Figura X**
+
+*Verificación de estado del despliegue*
+
+![Landing_Deployed](assets/img/figures/Landing_Deployed.png)
+
+5. Una vez desplegado, el sitio estará disponible. 
+
+**Figura X**
+
+*Verificación del landing page desplegado*
+
+![Verify_landing](assets/img/figures/Verify_landing.png)
+
+Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
+
+**Figura X**
+
+*Versionamiento de despliegues de la landing page*
+
+![Deployments_evidence](assets/img/figures/Deployments_evidence.png)
+
+**Backend**
+
+Para su despliegue se hace en dos partes, primero hostear una base de datos y con ello ya podriamos realizar el despliegue de nuestro backend desarrollado, usamos las herramientas Aiven y Render para su despliegue respectivamente.
+
+Base de datos:
+
+1. Acceder a aiven (Crear cuenta en caso no disponga de una)
+
+**Figura X**
+
+*Acceso a pestaña home de aiven*
+
+![Aiven_home](assets/img/figures/Aiven_home.png)
+
+2. Seleccionar opción "Create service"
+
+**Figura X**
+
+*Pestaña de creación de servicio en aiven*
+
+![Aiven_create_service](assets/img/figures/Aiven_create_service.png)
+
+3. Realizar la configuración de plan y nombre a usar
+
+**Figura X**
+
+*Pestaña de configuración de servicio en aiven*
+
+![Aiven_service_configuration](assets/img/figures/Aiven_service_configuration.png)
+
+4. Guardar configuración y esperar que se termine el despliegue
+
+**Figura X**
+
+*Base de datos desplegada*
+
+![Aiven_db_deployed](assets/img/figures/Aiven_db_deployed.png)
+
+Backend:
+
+1. Acceder a render (Crear cuenta en caso no disponga de una)
+
+**Figura X**
+
+*Acceder a Render*
+
+![Render_access](assets/img/figures/Render_access.png)
+
+2. Crear un proyecto
+
+**Figura X**
+
+*Crear proyecto en Render*
+
+![Render_new_project](assets/img/figures/Render_new_project.png)
+
+3. Seleccionar opción "Create new service"
+
+**Figura X**
+
+*Comenzar creación de servicio en Render*
+
+![Render_create_service](assets/img/figures/Render_create_service.png)
+
+4. Seleccionar opción "Web Services"
+
+**Figura X**
+
+*Comenzar creación de web service en Render*
+
+![Render_create_web_service](assets/img/figures/Render_create_web_service.png)
+
+5. Seleccionar repositorio de github que se va a desplegar
+
+**Figura X**
+
+*Seleccionar repositorio para despliegue del backend en Render*
+
+![Render_select_repository](assets/img/figures/Render_select_repository.png)
+
+6. Realizar configuración del web service, que incluya nombre, lenguaje, rama a desplegar, región, plan y variables de entorno
+
+**Figura X**
+
+*Configurar web service en Render*
+
+![Render_service_configuration](assets/img/figures/Render_service_configuration.png)
+
+7. Guardar y esperar que se termine el despliegue
+
+**Figura X**
+
+*Backend desplegado*
+
+![Render_deployed](assets/img/figures/Render_deployed.png)
+
+
+8. Verificación del despliegue del backend
+
+**Figura X**
+
+*Verificar despliegue del backend*
+
+![Render_verify_backend](assets/img/figures/Render_verify_backend.png)
+
+Las solicitudes realizadas en el swagger (Backend) se veran reflejadas en la base de datos que se desplego en aiven.
+
 
 #### 4.2.1.9. Team Collaboration Insights during Sprint
 
