@@ -7006,11 +7006,7 @@ El conjunto presenta el acceso inicial y las distintas etapas para explorar, ini
 
 *Wireframes de tienda y aprendizaje.*
 
-<div align="center">
-  <a href="https://postimg.cc/5XGy32fj">
-    <img src="https://i.postimg.cc/yN6R7D5h/Storeand-Learning.jpg" alt="Wireframes de tienda y aprendizaje" width="700">
-  </a>
-</div>
+<div align="center"><img src="assets/img/figures/WireLearningMonet.jpeg" alt="Detalle de los wireflows de tienda y aprendizaje" width="850"></div>
 
 El conjunto muestra la consulta y compra de productos, junto con la búsqueda y visualización de recursos educativos.
 
@@ -7035,11 +7031,62 @@ El conjunto presenta publicaciones, eventos, grupos, logros, búsquedas y mensaj
 
 *Wireframes de ranking, notificaciones y ajustes.*
 
-<div align="center"><img src="assets/img/figures/RankingNotAjus.jpeg" alt="Wireframes de ranking, notificaciones y ajustes" width="750"></div>
+<div align="center"><img src="assets/img/figures/AjustNotifiRanWire.jpeg" alt="Detalle de los wireframe de ranking, notificaciones y ajustes" width="850"></div>
 
 El conjunto reúne la clasificación de usuarios, el centro de notificaciones y las opciones generales de configuración.
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelidad con las acciones que realiza el usuario. Las flechas representan las transiciones entre vistas y permiten comprobar la continuidad de tareas como registrarse, iniciar un reto, consultar el progreso, comprar productos, revisar el ranking, participar en la comunidad y administrar el perfil. La organización por bounded context facilita reconocer la responsabilidad funcional de cada recorrido.
+
+**Figura X**
+
+*Wireflow general de la aplicación móvil EcoMind.*
+
+<div align="center"><img src="assets/img/figures/WireFAll.jpeg" alt="Wireflow general de la aplicación móvil EcoMind" width="900"></div>
+
+El wireflow general integra los recorridos principales de IAM, Quests, Learning, Monetization, Gamification, Community y Users. Este diagrama permite observar cómo la pantalla principal y la barra de navegación inferior conectan los diferentes módulos de la aplicación.
+
+**Figura X**
+
+*Wireflow de IAM, notificaciones y ajustes.*
+
+<div align="center"><img src="assets/img/figures/NotiSet.jpeg" alt="Wireflow de IAM, notificaciones y ajustes" width="850"></div>
+
+El flujo de IAM comprende la presentación inicial, el registro, la confirmación del correo y el inicio de sesión hasta llegar al menú principal. Los flujos de notificaciones y ajustes permiten revisar avisos, modificar preferencias, seleccionar el idioma y acceder a las opciones de ayuda y soporte.
+
+**Figura X**
+
+*Wireflow de retos y progreso.*
+
+<div align="center"><img src="assets/img/figures/QuestWireF.jpeg" alt="Wireflow de retos y progreso" width="850"></div>
+
+Este flujo muestra la selección de una categoría, la búsqueda y filtrado de retos, la consulta del detalle y la ejecución de actividades. También representa el inicio, seguimiento y finalización del reto, junto con el acceso al progreso y la posibilidad de invitar amigos a una actividad colaborativa.
+
+**Figura X**
+
+*Wireflow de monetización, gamificación y aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/MonetGamLearWore.jpeg" alt="Wireflow de monetización, gamificación y aprendizaje" width="850"></div>
+
+En Monetization se representan la compra y gestión de cosméticos, el inventario, los multiplicadores, los protectores de racha y los paquetes de gemas. Gamification presenta la navegación entre los diferentes rankings, mientras que Learning permite buscar, filtrar y consultar recursos educativos.
+
+**Figura X**
+
+*Wireflow de comunidad.*
+
+<div align="center"><img src="assets/img/figures/CommnunityWire.jpeg" alt="Wireflow de comunidad" width="850"></div>
+
+El flujo de Community conecta las vistas de premios, eventos y noticias. Además, representa las acciones para crear un evento, consultar sus detalles, unirse de manera individual o familiar y acceder posteriormente al espacio de comunicación del evento.
+
+**Figura X**
+
+*Wireflow de perfil, amigos y familia.*
+
+<div align="center"><img src="assets/img/figures/ProfileWire.jpeg" alt="Wireflow de perfil, amigos y familia" width="850"></div>
+
+El wireflow de perfil comprende la consulta de estadísticas, compromisos, favoritos y opciones para compartir. Desde esta sección también se accede a la gestión de amistades, la creación de una familia y la revisión del progreso de sus integrantes.
+
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
