@@ -6534,7 +6534,7 @@ Los iconos siguen un estilo outline redondeado, coherente con la identidad orgá
 
  
    
- *Figura X ( General Style Guidelines )* 
+ *Figura 54 ( General Style Guidelines )* 
 ![Foto](assets/img/figures/style.png)
 
 ### 3.1.2. Information Architecture
@@ -6834,7 +6834,7 @@ La combinación de la barra inferior, la barra superior, las pestañas, los cont
 
 Los wireframes de la Landing Page de EcoMind representan la estructura inicial de las pantallas antes de incorporar colores, imágenes finales y elementos gráficos de marca. Su propósito fue organizar la jerarquía de la información, definir la ubicación de los componentes y validar que el recorrido del visitante fuera claro. En todas las vistas se mantiene una barra de navegación superior con acceso a las preguntas frecuentes, la guía para padres, la comunidad, el selector de idioma y la descarga de la aplicación.
 
-**Figura X**
+**Figura 55**
 
 *Wireframe de la página de inicio de la Landing Page.*
 
@@ -6842,7 +6842,7 @@ Los wireframes de la Landing Page de EcoMind representan la estructura inicial d
 
 La página de inicio introduce la propuesta de valor de EcoMind y organiza el acceso a sus beneficios principales, la información de la startup y las llamadas a la acción dirigidas a nuevos usuarios.
 
-**Figura X**
+**Figura 56**
 
 *Wireframe de preguntas frecuentes.*
 
@@ -6850,7 +6850,7 @@ La página de inicio introduce la propuesta de valor de EcoMind y organiza el ac
 
 La sección de preguntas frecuentes utiliza componentes desplegables para presentar respuestas sobre la conexión a Internet, la administración de la cuenta, las actividades, los puntos, las recompensas y la participación familiar sin saturar la pantalla.
 
-**Figura X**
+**Figura 57**
 
 *Wireframe de la guía para padres.*
 
@@ -6858,7 +6858,7 @@ La sección de preguntas frecuentes utiliza componentes desplegables para presen
 
 La guía para padres reúne información sobre el acompañamiento familiar, los recursos educativos y recomendaciones para incorporar hábitos sostenibles en el hogar. Su estructura combina contenido informativo, tarjetas y una sección destacada de consejos.
 
-**Figura X**
+**Figura 58**
 
 *Wireframe de la comunidad de EcoMind.*
 
@@ -6870,7 +6870,7 @@ La sección de comunidad presenta indicadores generales, beneficios de la partic
 
 Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante la identidad gráfica de EcoMind. Se incorporan el logotipo, la paleta de verdes, fotografías, ilustraciones, iconos y una jerarquía tipográfica consistente. Estos elementos refuerzan el enfoque ambiental del producto y permiten visualizar con mayor precisión la experiencia final del visitante en una interfaz web.
 
-**Figura X**
+**Figura 59**
 
 *Mock-up de la página de inicio de la Landing Page.*
 
@@ -6878,7 +6878,7 @@ Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante 
 
 El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar de manera inmediata la propuesta de EcoMind. Las secciones posteriores explican sus beneficios, misión, visión e identidad como startup educativa.
 
-**Figura X**
+**Figura 60**
 
 *Mock-up de preguntas frecuentes.*
 
@@ -6886,7 +6886,7 @@ El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar
 
 La versión visual de preguntas frecuentes mantiene el formato desplegable e incorpora los colores y componentes definitivos. La separación entre preguntas favorece la lectura y permite que el visitante ubique rápidamente la información que necesita.
 
-**Figura X**
+**Figura 61**
 
 *Mock-up de la guía para padres.*
 
@@ -6894,7 +6894,7 @@ La versión visual de preguntas frecuentes mantiene el formato desplegable e inc
 
 La guía para padres combina contenido educativo con fotografías e iconos para explicar los beneficios del acompañamiento familiar. Además, diferencia los recursos disponibles y presenta recomendaciones prácticas para reforzar hábitos sostenibles en casa.
 
-**Figura X**
+**Figura 62**
 
 *Mock-up de la comunidad de EcoMind.*
 
@@ -6909,47 +6909,57 @@ El mock-up de comunidad utiliza indicadores, testimonios, ilustraciones y un map
 Los wireframes de la aplicación móvil EcoMind representan una primera aproximación a la estructura, distribución y navegación de su interfaz. Para su elaboración se priorizó la claridad de la información, la consistencia visual y el acceso directo a las funciones principales: autenticación, perfil, retos, aprendizaje, ranking, comunidad, tienda y configuración.
 La aplicación emplea una barra de navegación inferior que permite cambiar rápidamente entre los módulos principales. Asimismo, las pantallas presentan encabezados, tarjetas, botones, formularios y listas con una organización uniforme. Esta estructura reduce la carga cognitiva y permite que tanto los menores como sus padres comprendan fácilmente las acciones disponibles.
 
-**Figura X**
+**Figura 63**
 
 *Wireframe de inicio de sesión.*
 
 <div align="center"><img src="assets/img/figures/Sign in.jpeg" alt="Wireframe de inicio de sesión" width="250"></div>
 
+*Nota. Elaboración propia.*
+
 Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y ofrece acceso al registro de una cuenta nueva.
 
-**Figura X**
+**Figura 64**
 
 *Wireframe de registro.*
 
 <div align="center"><img src="assets/img/figures/Sign upWireframe.jpeg" alt="Wireframe de registro" width="250"></div>
 
+*Nota. Elaboración propia.*
+
 Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los términos y acceder posteriormente a la aplicación.
 
-**Figura X**
+**Figura 65**
 
 *Wireframe de selección de retos.*
 
 <div align="center"><img src="assets/img/figures/QuestWireframe.jpeg" alt="Wireframe de selección de retos" width="250"></div>
 
+*Nota. Elaboración propia.*
+
 Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones visuales de fácil reconocimiento.
 
-**Figura X**
+**Figura 66**
 
 *Wireframe del detalle de un reto.*
 
 <div align="center"><img src="assets/img/figures/Quest2Wireframe.jpeg" alt="Wireframe del detalle de un reto" width="250"></div>
 
+*Nota. Elaboración propia.*
+
 El detalle del reto muestra sus objetivos, recompensas, progreso y la acción principal para completar la actividad.
 
-**Figura X**
+**Figura 67**
 
 *Wireframe de perfil.*
 
 <div align="center"><img src="assets/img/figures/ProfileWireframe.jpeg" alt="Wireframe de perfil" width="250"></div>
 
+*Nota. Elaboración propia.*
+
 El perfil centraliza los datos del usuario, sus estadísticas, progreso, compromisos y opciones de administración.
 
-**Figura X**
+**Figura 68**
 
 *Wireframe de comunidad.*
 
@@ -6959,13 +6969,17 @@ El perfil centraliza los datos del usuario, sus estadísticas, progreso, comprom
   </a>
 </div>
 
+*Nota. Elaboración propia.*
+
 La pantalla permite consultar publicaciones, eventos y actividades compartidas por la comunidad.
 
-**Figura X**
+**Figura 69**
 
 *Wireframe de tienda.*
 
 <div align="center"><img src="assets/img/figures/StoreWireframe.jpeg" alt="Wireframe de tienda" width="250"></div>
+
+*Nota. Elaboración propia.*
 
 La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acción de compra.
 
@@ -6977,61 +6991,75 @@ La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acc
 
 La sección presenta recursos educativos mediante tarjetas, categorías, búsqueda y opciones para descargar o guardar contenido.
 
-**Figura X**
+**Figura 70**
 
 *Wireframe de ranking.*
 
 <div align="center"><img src="assets/img/figures/RankingWireframe1.jpeg" alt="Wireframe de ranking" width="250"></div>
 
+*Nota. Elaboración propia.*
+
 La pantalla muestra la clasificación de los usuarios y destaca la posición personal según la categoría seleccionada.
 
-**Figura X**
+**Figura 71**
 
 *Wireframe de ajustes.*
 
 <div align="center"><img src="assets/img/figures/AjustesWireframe.jpeg" alt="Wireframe de ajustes" width="250"></div>
 
+*Nota. Elaboración propia.*
+
 La sección reúne las opciones de cuenta, preferencias y configuración en bloques simples y fáciles de identificar.
 
 
-**Figura X**
+**Figura 72**
 
 *Wireframes de inicio y retos.*
 
-<div align="center"><img src="assets/img/figures/Inicio%20yQuest.jpeg" alt="Wireframes de inicio y retos" width="800"></div>
+<div align="center"><img src="assets/img/figures/InicioQuestWires.jpeg" alt="Wireframes de inicio y retos" width="800"></div>
+
+*Nota. Elaboración propia.*
 
 El conjunto presenta el acceso inicial y las distintas etapas para explorar, iniciar y completar retos ambientales.
 
-**Figura X**
+**Figura 73**
 
 *Wireframes de tienda y aprendizaje.*
 
 <div align="center"><img src="assets/img/figures/WireLearningMonet.jpeg" alt="Detalle de los wireflows de tienda y aprendizaje" width="850"></div>
 
+*Nota. Elaboración propia.*
+
 El conjunto muestra la consulta y compra de productos, junto con la búsqueda y visualización de recursos educativos.
 
-**Figura X**
+**Figura 74**
 
 *Wireframes de perfil.*
 
 <div align="center"><img src="assets/img/figures/ProfileBC.jpeg" alt="Wireframes de perfil y administración de cuentas" width="750"></div>
 
+*Nota. Elaboración propia.*
+
 El conjunto presenta la consulta y edición del perfil, las estadísticas, los logros y las diversas acciones que puedes hacer en perfil.
 
 
-**Figura X**
+**Figura 75**
 
 *Wireframes de comunidad.*
 
 <div align="center"><img src="assets/img/figures/Comunidad.jpeg" alt="Wireframes de comunidad" width="750"></div>
 
+*Nota. Elaboración propia.*
+
 El conjunto presenta publicaciones, eventos, grupos, logros, búsquedas y mensajes disponibles en la comunidad.
 
-**Figura X**
+**Figura 76**
 
 *Wireframes de ranking, notificaciones y ajustes.*
 
 <div align="center"><img src="assets/img/figures/AjustNotifiRanWire.jpeg" alt="Detalle de los wireframe de ranking, notificaciones y ajustes" width="850"></div>
+
+*Nota. Elaboración propia.*
 
 El conjunto reúne la clasificación de usuarios, el centro de notificaciones y las opciones generales de configuración.
 
@@ -7039,58 +7067,306 @@ El conjunto reúne la clasificación de usuarios, el centro de notificaciones y 
 
 Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelidad con las acciones que realiza el usuario. Las flechas representan las transiciones entre vistas y permiten comprobar la continuidad de tareas como registrarse, iniciar un reto, consultar el progreso, comprar productos, revisar el ranking, participar en la comunidad y administrar el perfil. La organización por bounded context facilita reconocer la responsabilidad funcional de cada recorrido.
 
-**Figura X**
+**Figura 77**
 
 *Wireflow general de la aplicación móvil EcoMind.*
 
 <div align="center"><img src="assets/img/figures/WireFAll.jpeg" alt="Wireflow general de la aplicación móvil EcoMind" width="900"></div>
 
+*Nota. Elaboración propia.*
+
 El wireflow general integra los recorridos principales de IAM, Quests, Learning, Monetization, Gamification, Community y Users. Este diagrama permite observar cómo la pantalla principal y la barra de navegación inferior conectan los diferentes módulos de la aplicación.
 
-**Figura X**
+**Figura 78**
 
 *Wireflow de IAM, notificaciones y ajustes.*
 
 <div align="center"><img src="assets/img/figures/NotiSet.jpeg" alt="Wireflow de IAM, notificaciones y ajustes" width="850"></div>
 
+*Nota. Elaboración propia.*
+
 El flujo de IAM comprende la presentación inicial, el registro, la confirmación del correo y el inicio de sesión hasta llegar al menú principal. Los flujos de notificaciones y ajustes permiten revisar avisos, modificar preferencias, seleccionar el idioma y acceder a las opciones de ayuda y soporte.
 
-**Figura X**
+**Figura 79**
 
 *Wireflow de retos y progreso.*
 
 <div align="center"><img src="assets/img/figures/QuestWireF.jpeg" alt="Wireflow de retos y progreso" width="850"></div>
 
+*Nota. Elaboración propia.*
+
 Este flujo muestra la selección de una categoría, la búsqueda y filtrado de retos, la consulta del detalle y la ejecución de actividades. También representa el inicio, seguimiento y finalización del reto, junto con el acceso al progreso y la posibilidad de invitar amigos a una actividad colaborativa.
 
-**Figura X**
+**Figura 80**
 
 *Wireflow de monetización, gamificación y aprendizaje.*
 
 <div align="center"><img src="assets/img/figures/MonetGamLearWore.jpeg" alt="Wireflow de monetización, gamificación y aprendizaje" width="850"></div>
 
+*Nota. Elaboración propia.*
+
 En Monetization se representan la compra y gestión de cosméticos, el inventario, los multiplicadores, los protectores de racha y los paquetes de gemas. Gamification presenta la navegación entre los diferentes rankings, mientras que Learning permite buscar, filtrar y consultar recursos educativos.
 
-**Figura X**
+**Figura 81**
 
 *Wireflow de comunidad.*
 
 <div align="center"><img src="assets/img/figures/CommnunityWire.jpeg" alt="Wireflow de comunidad" width="850"></div>
 
+*Nota. Elaboración propia.*
+
 El flujo de Community conecta las vistas de premios, eventos y noticias. Además, representa las acciones para crear un evento, consultar sus detalles, unirse de manera individual o familiar y acceder posteriormente al espacio de comunicación del evento.
 
-**Figura X**
+**Figura 82**
 
 *Wireflow de perfil, amigos y familia.*
 
 <div align="center"><img src="assets/img/figures/ProfileWire.jpeg" alt="Wireflow de perfil, amigos y familia" width="850"></div>
 
+*Nota. Elaboración propia.*
+
 El wireflow de perfil comprende la consulta de estadísticas, compromisos, favoritos y opciones para compartir. Desde esta sección también se accede a la gestión de amistades, la creación de una familia y la revisión del progreso de sus integrantes.
+
 
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
+Los mock-ups de la aplicación móvil EcoMind representan la propuesta visual de alta fidelidad elaborada a partir de los wireframes. En estas pantallas se aplican la paleta de colores, las tipografías, los iconos, las ilustraciones y los componentes definitivos. La interfaz conserva una barra superior con los indicadores del usuario y una barra de navegación inferior que facilita el acceso a los módulos principales.
+
+**Figura 83**
+
+*Mock-up de inicio de sesión.*
+
+<div align="center"><img src="assets/img/figures/SignInMock.jpeg" alt="Mock-up de inicio de sesión" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla permite que el usuario ingrese sus credenciales y acceda a la aplicación. También ofrece una ruta directa al registro para quienes todavía no poseen una cuenta.
+
+**Figura 84**
+
+*Mock-up de registro.*
+
+<div align="center"><img src="assets/img/figures/SignUPMock.jpeg" alt="Mock-up de registro" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El registro reúne los datos necesarios para crear una cuenta, aceptar los términos y continuar con la verificación del correo electrónico.
+
+**Figura 85**
+
+*Mock-up del menú principal de retos.*
+
+<div align="center"><img src="assets/img/figures/QuestMock.jpeg" alt="Mock-up del menú principal de retos" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El menú principal presenta las categorías de actividades mediante botones visuales diferenciados por color. Desde esta pantalla se puede explorar el contenido ambiental o ingresar al módulo de aprendizaje.
+
+**Figura 86**
+
+*Mock-up de ejecución de un reto.*
+
+<div align="center"><img src="assets/img/figures/Quest2Mock.jpeg" alt="Mock-up de ejecución de un reto" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla del reto muestra su categoría, duración, recompensa y tipo. Las actividades se marcan conforme son realizadas y la barra de progreso comunica el avance antes de finalizar el reto.
+
+**Figura 87**
+
+*Mock-up del perfil del usuario.*
+
+<div align="center"><img src="assets/img/figures/ProfieMock.jpeg" alt="Mock-up del perfil del usuario" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El perfil centraliza la identidad del usuario, su racha, EcoPoints, gemas, compromiso ambiental, medallas y accesos a las secciones de amigos y familia.
+
+**Figura 88**
+
+*Mock-up de comunidad.*
+
+<div align="center"><img src="assets/img/figures/ComuniMock.jpeg" alt="Mock-up de comunidad" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla de comunidad presenta la meta compartida, su progreso y las pestañas de premios, eventos y noticias. También permite buscar, crear y unirse a eventos ambientales.
+
+**Figura 89**
+
+*Mock-up de tienda.*
+
+<div align="center"><img src="assets/img/figures/StoreMock.jpeg" alt="Mock-up de tienda" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La tienda organiza avatares y cosméticos, multiplicadores, protectores y paquetes de gemas. Los estados visuales permiten distinguir los productos disponibles, adquiridos y equipados.
+
+**Figura 90**
+
+*Mock-up de aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/LaerningMock.jpeg" alt="Mock-up de aprendizaje" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El módulo de aprendizaje presenta recursos educativos en tarjetas con su imagen, tipo, categoría, descripción y duración, además de acciones para descargar o guardar el contenido.
+
+**Figura 91**
+
+*Mock-up de ranking.*
+
+<div align="center"><img src="assets/img/figures/RankingMock.jpeg" alt="Mock-up de ranking" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El ranking muestra la posición del usuario y permite comparar EcoPoints en ámbitos local, global, de amigos y de familias, utilizando periodos diarios, semanales, mensuales o históricos.
+
+**Figura 92**
+
+*Mock-up de ajustes.*
+
+<div align="center"><img src="assets/img/figures/SettingsMock.jpeg" alt="Mock-up de ajustes" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla de ajustes agrupa la información de la cuenta, las preferencias de notificación, el idioma, el tema, la ayuda y el cierre de sesión.
+
+Los siguientes conjuntos reúnen las variantes y estados complementarios de cada módulo, como pantallas vacías, errores de carga, confirmaciones, filtros, formularios y acciones secundarias.
+
+**Figura 93**
+
+*Conjunto de mock-ups de retos.*
+
+<div align="center"><img src="assets/img/figures/questMocks.jpeg" alt="Conjunto de mock-ups de retos" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto incluye autenticación, categorías, búsqueda, filtros, planificación, progreso y ejecución de retos individuales y colaborativos.
+
+**Figura 94**
+
+*Conjunto de mock-ups de tienda y aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/storeLearMocks.jpeg" alt="Conjunto de mock-ups de tienda y aprendizaje" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+Estas pantallas muestran las variantes de compra, inventario, multiplicadores, paquetes de gemas, búsqueda de recursos, aplicación de filtros y consulta del detalle educativo.
+
+*Conjunto de mock-ups de comunidad.*
+
+<div align="center"><img src="assets/img/figures/ComuniMocks.jpeg" alt="Conjunto de mock-ups de comunidad" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto presenta las distintas vistas de premios, eventos y noticias, además de los procesos para crear comunidades y eventos, seleccionar participantes y confirmar la inscripción.
+
+**Figura 95**
+
+*Conjunto de mock-ups de perfil.*
+
+<div align="center"><img src="assets/img/figures/ProfileMocks.jpeg" alt="Conjunto de mock-ups de perfil" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+Estas pantallas desarrollan la edición del perfil, los compromisos, favoritos, amistades, invitaciones, creación y administración familiar, progreso de integrantes e informes semanales.
+
+**Figura 96**
+
+*Conjunto de mock-ups de ranking, notificaciones y ajustes.*
+
+<div align="center"><img src="assets/img/figures/AjNotiRanMocks.jpeg" alt="User Flow de notificaciones y ajustes" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto reúne las variantes del ranking, los estados de la bandeja de notificaciones y las opciones de cuenta, preferencias, idioma, tema, preguntas frecuentes y soporte.
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+
+Los User Flow Diagrams muestran los recorridos previstos para que los usuarios alcancen objetivos específicos dentro de EcoMind. A diferencia de los wireflows, estos diagramas utilizan los mock-ups de alta fidelidad y destacan mediante flechas las acciones y transiciones entre pantallas.
+
+**Figura 96**
+
+*User Flow de autenticación e identidad.*
+
+<div align="center"><img src="assets/img/figures/IAMUser.jpeg" alt="User Flow de autenticación e identidad" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El flujo de IAM contempla dos recorridos. Un usuario con una cuenta existente ingresa sus credenciales, y accede al menú principal. Un usuario nuevo selecciona la opción de registro, completa sus datos, acepta los términos y continúa con la verificación de la cuenta.
+
+**Figura 97**
+
+*User Flow de retos.*
+
+<div align="center"><img src="assets/img/figures/QuestUser.jpeg" alt="User Flow de retos" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+El flujo de Quests comienza en el panel principal con la selección de una categoría. El estudiante puede revisar su progreso o buscar una miniactividad mediante filtros. Al abrirla, consulta sus instrucciones y recompensas, inicia el reto, completa cada paso y confirma su finalización para recibir EcoPoints. Si el reto es colaborativo, selecciona la opción de invitar amigos, revisa la lista de participantes, administra el grupo e inicia la actividad en conjunto. Este diagrama cubre los flujos de validación “Miniactividades y retos” y “Desafío entre compañeros”.
+
+**Figura 98**
+
+*User Flow de perfil, familia y seguimiento del progreso.*
+
+<div align="center"><img src="https://i.postimg.cc/tg25bMhB/User-Profie.jpg" alt="User Flow de perfil, familia y seguimiento del progreso" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+Después de completar un reto, el estudiante accede a su perfil para comprobar la actualización de la racha, los EcoPoints, las medallas y el progreso de sus actividades. También puede registrar un compromiso ambiental y consultar sus favoritos. En el recorrido para padres, el usuario abre la pestaña **Family**, revisa los integrantes, selecciona el perfil del hijo y consulta sus actividades completadas y pendientes. Este recorrido corresponde al flujo de validación “Familia y progreso”.
+
+**Figura 99**
+
+*User Flow de aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/LearnignUser.jpeg" alt="User Flow de aprendizaje" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El usuario accede a Learning desde el menú principal, revisa los recursos disponibles y abre el contenido seleccionado. Como recorrido alternativo, puede utilizar los filtros para limitar los resultados según el tipo, la categoría y otros criterios de búsqueda.
+
+**Figura 100**
+
+*User Flow de tienda y monetización.*
+
+<div align="center"><img src="assets/img/figures/StoreUser.jpeg" alt="User Flow de tienda y monetización" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+Desde la tienda, el usuario selecciona la categoría de cosméticos, abre un producto y confirma la compra con gemas. Luego accede a **My Inventory** para equiparlo y comprobar el cambio en su avatar. El recorrido también permite revisar la descripción y duración de los multiplicadores o protectores antes de adquirirlos. En la sección de gemas, el usuario elige un paquete, selecciona el método de pago, revisa el resumen y confirma la operación. Para los estudiantes se valida la compra y personalización; para los padres se valida principalmente la comprensión y confianza que genera la economía virtual.
+
+**Figura 101**
+
+*User Flow de ranking y gamificación.*
+
+<div align="center"><img src="assets/img/figures/GamiRankingUser.jpeg" alt="User Flow de ranking y gamificación" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El flujo inicia en la barra de navegación inferior y conduce al ranking. Primero, el usuario identifica su posición resaltada; después puede cambiar entre las clasificaciones local, global, de amigos y de familias. Los filtros diario, semanal, mensual y acumulado permiten comparar los EcoPoints en distintos periodos. Para la validación se priorizan la posición propia, el ranking general y la clasificación semanal de la comunidad.
+
+**Figura 102**
+
+*User Flow de comunidad.*
+
+<div align="center"><img src="assets/img/figures/ComunidadUser.jpeg" alt="User Flow de comunidad" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+El recorrido de Community permite consultar la meta comunitaria y alternar entre premios, eventos y noticias. Desde la sección de eventos, el usuario puede buscar una actividad, revisar sus detalles y ubicación, crear un evento o solicitar una inscripción. La confirmación debe diferenciar claramente la participación individual de la familiar. Una vez inscrito, el usuario puede revisar el evento en **My events**, cancelarlo cuando sea necesario y acceder al espacio de comunicación. Este diagrama cubre “Comunidad y eventos” para estudiantes y “Actividad familiar en comunidad” para padres.
+
+**Figura 103**
+
+*User Flow de notificaciones y ajustes.*
+
+<div align="center"><img src="https://i.postimg.cc/tg25bMhB/User-Profie.jpg" alt="User Flow de perfil, familia y seguimiento del progreso" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+El usuario puede revisar sus notificaciones y marcar los avisos como leídos. Desde ajustes puede administrar la información de la cuenta, configurar las notificaciones, cambiar el idioma y acceder a ayuda, soporte y preguntas frecuentes.
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
@@ -7176,8 +7452,8 @@ El proyecto se gestionará mediante Git como sistema de control de versiones, ut
 
 | Producto | Repositorio |
 |----------|-------------|
-| Landing Page |  |
-| Android Application |  |
+| Landing Page | https://upc-pre-202620-13980-greenminds.github.io/EcoMind_LandingPage/#landing |
+| Android Application | https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android |
 | Backend | https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend |
 | Project Report | https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report |
 
@@ -8213,44 +8489,35 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 **User Flows a validar :**
 
 - User Flow 1 – Miniactividades y retos. Seleccionar una categoría desde el panel principal, elegir una miniactividad, completarla paso a paso, recibir los eco-points y completar el reto diario para verificar la racha en el perfil.
-- User Flow 2 – Desafío entre compañeros. Elegir una actividad grupal, invitar amigos desde la lista, verificar participantes e iniciar la actividad en conjunto.
-- User Flow 3 – Ranking educativo y comunitario. Consultar la posición propia en el ranking general y revisar el ranking semanal de la comunidad.
-- User Flow 4 – Comunidad y eventos. Revisar el feed de publicaciones, explorar eventos cercanos en el mapa, inscribirse en uno y consultar los logros compartidos y la meta comunitaria.
-- User Flow 5 – Tienda y personalización. Explorar cosméticos, multiplicadores de XP y paquetes de gemas, comprar un cosmético con gemas, equiparlo en el avatar y adquirir un multiplicador.
+- User Flow 2 – Ranking educativo y comunitario. Consultar la posición propia en el ranking general y revisar el ranking semanal de la comunidad.
+- User Flow 3 – Comunidad y eventos. Revisar el feed de publicaciones, explorar eventos cercanos en el mapa, consultar los logros compartidos y la meta comunitaria.
+- User Flow 4 – Tienda y personalización. Explorar cosméticos, multiplicadores de XP y paquetes de gemas.
 
 **Tareas asignadas:**
 
 - Navegar el Landing Page, revisar las preguntas frecuentes y entrar a la aplicación.
-- Elegir una categoría de reto, completar una miniactividad y luego completar el reto diario.
+- Elegir una categoría de reto y completar una miniactividad.
 - Ir al perfil, revisar resumen con puntos, racha y medallas, crear un compromiso ambiental, revisar progreso y explorar favoritos.
-- Invitar a un amigo a un desafío grupal e iniciar la actividad.
 - Buscar su posición en el ranking.
-- En comunidad, buscar un evento en el mapa, ver el detalle e inscribirse.
-- En la tienda, comprar un cosmético con gemas, equiparlo y adquirir un multiplicador de XP.
+- En la tienda, comprar un cosmético con gemas y equiparlo.
 
 **Preguntas de validación:**
 
 1. ¿El Landing Page te ayudó a entender de qué va EcoMind? ¿Qué parte te llamó más la atención?
 
-2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer?
+2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer
 
-3. ¿Te gustó ver que tu racha subió al completar el reto diario? ¿Eso te haría volver mañana?
+3. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental
 
-4. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental?
+4. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
 
-5. ¿Cómo te pareció lo de invitar un amigo al desafío grupal? ¿Fue fácil o te trabaste en algún paso?
+5. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
 
-6. Al ver los eventos en el mapa, ¿te quedó claro de qué trataba cada evento y cómo unirte?
+6. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
 
-7. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
+7.  ¿Usarías EcoMind seguido? ¿Qué te haría volver a abrirla cada día?
 
-8. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
-
-9. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
-
-10. ¿Usarías EcoMind seguido? ¿Qué te haría volver a abrirla cada día?
-
-11. Si pudieras cambiarle una sola cosa a la app, ¿cuál sería?
+8.  Si pudieras cambiarle una sola cosa a la app, ¿cuál sería?
 
 **Segmento objetivo 2: Padres de Familia**
 
@@ -8258,16 +8525,14 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 - User Flow 1 – Familia y progreso. Acceder a la pestaña de familia en el perfil, revisar los integrantes, entrar al perfil del hijo y consultar su racha, puntos, medallas, actividades completadas.
 
-- User Flow 2 – Actividad familiar en comunidad. Explorar eventos cercanos en el mapa con GPS, inscribir al grupo familiar eligiendo participación familiar, y consultar logros compartidos.
-
-- User Flow 3 – Tienda. Recorrer las categorías de cosméticos, multiplicadores de XP y paquetes de gemas para conocer el sistema de economía virtual.
+- User Flow 2 – Tienda. Recorrer las categorías de cosméticos, multiplicadores de XP y paquetes de gemas para conocer el sistema de economía virtual.
 
 **Tareas asignadas:**
 
 - Explorar el Landing Page, leer los consejos para padres y preguntas frecuentes, y acceder a la aplicación.
-- Acceder a la pestaña de familia en el perfil, revisar los integrantes y entrar al perfil de su hijo para ver su progreso y logros.
+- Acceder a la pestaña de familia en el perfil, revisar los integrantes.
 - Revisar el resumen del perfil (racha, puntos, medallas) y la pestaña de progreso con actividades completadas y pendientes.
-- En comunidad, buscar un evento en el mapa, ver los detalles e inscribir al grupo familiar. Después cancelar la inscripción.
+- En comunidad, buscar un evento en el mapa, ver los detalles.
 - Revisar los logros en ranking.
 - Recorrer la tienda: cosméticos, multiplicadores y gemas.
 
@@ -8336,9 +8601,9 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### UX Heuristics & Principles Evaluation <br> Usability – Inclusive Design – Information Architecture
 
 CARRERA : Ingeniería de Software <br>
-CURSO :  <br>
-SECCIÓN :  <br>
-PROFESORES : Todos <br>
+CURSO :  Aplicaciones para Dispositivos Móviles<br>
+SECCIÓN : 13980 <br>
+PROFESOR : Jorge Luis Mayta Guillermo <br>
 AUDITOR : GreenMinds <br>
 SITE o APP A EVALUAR: EcoMind <br>
 
@@ -8347,20 +8612,22 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 1. Explorar la Landing Page y comprender el propósito de EcoMind.
 2. Completar una miniactividad o reto diario.
-3. Revisar la actualización de puntos y rachas tras completar una actividad.
-4. Navegar entre las diferentes secciones del perfil.
-5. Consultar el compromiso ambiental y el progreso personal.
-6. Invitar a un amigo a un desafío grupal.
-7. Explorar los eventos disponibles en la sección de comunidad.
-8. Unirse a un evento comunitario desde el mapa.
-9. Consultar la posición personal dentro del ranking.
-10. Explorar la tienda de recompensas.
-11. Personalizar el avatar mediante la compra de artículos.
-12. Comprender el funcionamiento del multiplicador de experiencia (XP).
+3. Navegar entre las diferentes secciones del perfil.
+4. Consultar el compromiso ambiental y el progreso personal.
+5. Explorar los eventos disponibles en la sección de comunidad.
+6. Consultar la posición personal dentro del ranking.
+7.  Explorar la tienda de recompensas.
+8.  Comprender el funcionamiento del multiplicador de experiencia (XP).
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 1. Revisión de contenido de aprendizaje
-2. Ajustes
+2. Desarrollo de retos colaborativos
+3. Equipamiento de avatares y cosmeticos
+4. Inscribirse a eventos
+5. Ver otros perfiles
+6. Buscar mas comunidades
+7. Notificaciones
+8. Ajustes
    
    
 **ESCALA DE SEVERIDAD:**
@@ -8380,11 +8647,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 |-----|-----------|-----|---------|
 |1 |El progreso obtenido al completar actividades no se visualiza de manera clara|2|Visibilidad del estado del sistema|
 |2 |La información de los eventos comunitarios es limitada|1|Reconocimiento antes que recuerdo|
-|3 |La opción para invitar amigos tiene poca visibilidad|1|Visibilidad del estado del sistema|
-|4 |Los retos carecen de elementos interactivos que refuercen la experiencia de gamificación|2|Diseño estético y minimalista|
-|5 |Las tarjetas de miembros de familia no permiten diferenciar roles visualmente|2|Usabilidad|
-|6 |El sistema de retroalimentación no es lo suficientemente simple o claro|2|Visibilidad del estado del sistema|
-|7 |La personalización del perfil puede sentirse limitada para usuarios escolares|1|Flexibilidad y eficiencia de uso|
+|3 |Los retos se presentan como cuestionarios y no comunican claramente la dinámica de un desafío|2|Correspondencia entre el sistema y el mundo real|
+|4 |Las tarjetas de miembros de familia no permiten diferenciar roles visualmente|2|Reconocimiento antes que recuerdo|
+|5 |El perfil no permite distinguir claramente la apariencia actual del avatar|1|Visibilidad del estado del sistema|
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -8420,81 +8685,52 @@ Los eventos mostrados en la sección de comunidad presentan información resumid
 
 Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde se muestre información ampliada como descripción, objetivos, ubicación, fecha y requisitos de participación.
 
-**PROBLEMA #3: La opción para invitar amigos tiene poca visibilidad**
 
-**Severidad:** 1 <br>
-**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+**PROBLEMA #3: Los retos se presentan como cuestionarios y no comunican claramente la dinámica de un desafío**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Correspondencia entre el sistema y el mundo real
 
 **Problema:**
 
-La funcionalidad para invitar amigos a desafíos grupales no destaca visualmente dentro de la interfaz. Debido a ello, los usuarios pueden centrarse en las acciones principales de la pantalla e ignorar esta opción, reduciendo el uso de las funciones colaborativas de la aplicación.
+Las actividades disponibles dentro de la aplicación se presentan principalmente como formularios o cuestionarios, sin comunicar con suficiente claridad qué acción debe realizar el usuario para cumplir el reto. Esta presentación dificulta relacionar la actividad con un desafío ambiental concreto y comprender su objetivo, más allá de responder preguntas.
 
 ![Problema_3](assets/img/figures/problema3.png)
 
 **Recomendación:**
 
-Agregar un botón o mensaje de confirmación que indique claramente que el reto puede iniciarse sin invitar a otros usuarios. Esto brindará mayor claridad sobre las opciones disponibles y reducirá posibles dudas durante el flujo de participación en desafíos colaborativos.
-
-**PROBLEMA #4: Los retos carecen de elementos interactivos que refuercen la experiencia de gamificación**
-
-**Severidad:** 2 <br>
-**Heurística violada:** Usabilidad - Diseño estético y minimalista
-
-**Problema:**
-
-Las actividades disponibles dentro de la aplicación se perciben principalmente como formularios o cuestionarios. Esto reduce la sensación de participación activa y puede afectar el interés de los usuarios a largo plazo, ya que la experiencia no transmite completamente la dinámica de un reto o desafío gamificado.
-
-![Problema_4](assets/img/figures/problema4.png)
-
-**Recomendación:**
-
-Incorporar mecánicas más interactivas dentro de los retos, como desafíos prácticos, validaciones visuales, objetivos progresivos o actividades dinámicas que permitan diferenciar claramente los retos de un formulario convencional.
+Presentar cada reto con un objetivo ambiental concreto, instrucciones en lenguaje familiar y pasos que indiquen qué acción debe realizar el usuario y cómo completar la actividad. Complementar estas indicaciones con ejemplos o ilustraciones que relacionen el reto con situaciones cotidianas, diferenciando las preguntas de conocimiento de las acciones prácticas.
 
 
-**PROBLEMA #5: Las tarjetas de miembros de familia no permiten diferenciar roles visualmente**
+**PROBLEMA #4: Las tarjetas de miembros de familia no permiten diferenciar roles visualmente**
 
 **Severidad:** 2 <br>
 **Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
 
 **Problema:**
 
-En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura.
+En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. Aunque incluyen una etiqueta de rol, el usuario debe leer cada tarjeta para distinguir a los padres de los hijos, lo que dificulta reconocer rápidamente los roles al revisar el grupo familiar.
 
-![Problema_5]()
-
-**Recomendación:**
-
-Asignar colores de borde o fondo diferenciados a cada rol familiar (por ejemplo, verde para padres y amarillo para hijos) dentro de las tarjetas, para que el usuario pueda identificar rápidamente a cada miembro sin necesidad de leer la etiqueta del rol.
-
-**Problema #6: El sistema de retroalimentación no es lo suficientemente simple o claro**
-
-**Severidad:** 2 <br>
-**Heurística violada:** Visibilidad del estado del sistema
-
-**Problema:**
-
-El participante sugiere “mejorar la simplicidad del proceso para facilitar la participación”. Esto apunta a que la respuesta del sistema después de realizar una acción podría no ser suficientemente clara, directa o motivadora. En una app gamificada, el usuario necesita entender rápidamente qué hizo bien, qué ganó y qué sigue.
-
-![Problema_6](assets/img/figures/Problema_6.png)
+![Problema_4](assets/img/figures/problema4.png)
 
 **Recomendación:**
 
-Mostrar feedback inmediato y simple después de cada acción: mensajes breves, estados visuales y siguiente acción recomendada.
+Incorporar un distintivo visual consistente para cada rol familiar, como un ícono acompañado de una etiqueta visible de «Padre/madre» o «Hijo/a». Se pueden utilizar colores como apoyo, manteniendo el texto y los íconos para que la identificación del rol no dependa únicamente del color.
 
-**Problema #7: La personalización del perfil puede sentirse limitada para usuarios escolares**
+**PROBLEMA #5: El perfil no permite distinguir claramente la apariencia actual del avatar**
 
 **Severidad:** 1 <br>
-**Heurística violada:** Flexibilidad y eficiencia de uso
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
 
 **Problema:**
 
-El participante sugiere agregar más opciones de personalización para hacer la experiencia más atractiva. Para escolares, la personalización del avatar/perfil no es solo estética: también refuerza identidad, pertenencia y motivación dentro de la plataforma.
+Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. El hallazgo se limita a la información mostrada en el perfil; el flujo de equipamiento de avatares y cosméticos queda fuera del alcance de esta evaluación.
 
-![Problema_7](assets/img/figures/Problema_7.png)
+![Problema_5](assets/img/figures/Problema5.png)
 
 **Recomendación:**
 
-Agregar más opciones de avatar, accesorios, fondos, insignias visibles o recompensas cosméticas desbloqueables según progreso.
+Mostrar en el perfil una representación coherente con la apariencia actual del avatar. Mientras la visualización de accesorios no esté disponible, incluir una indicación clara de esa limitación para evitar que el usuario interprete la falta de cambios como un error o como la pérdida de su selección.
 
 <div style="page-break-before: always;"></div>
 
