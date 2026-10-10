@@ -8601,7 +8601,7 @@ Cucumber ejecutó 73 escenarios de aceptación dentro de un total de 515 pruebas
 
 Las pruebas instrumentadas incluyen el inicio de sesión por Retrofit, la consulta de retos, navegación, filtros, progreso y logros.
 
-La Figura 63 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
+La Figura 56 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
 
 **Figura 55**
 
@@ -8643,11 +8643,23 @@ Scenario: Sign in with a wrong password
   And I do not receive an access token
 ```
 
+El workflow ejecuta las pruebas con H2 y PostgreSQL 17, verifica la cobertura con JaCoCo y construye la imagen Docker.
+
+La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300) de `main` completó satisfactoriamente las pruebas y la construcción de la imagen.
+
+**Figura 56**
+
+*Verificaciones del backend y construcción de la imagen en GitHub Actions*
+
+<img src="assets/img/figures/sprint-1/backend-main-pipeline.png" alt="Pipeline aprobado con pruebas H2, PostgreSQL y construcción Docker" width="100%">
+
+*Nota. Captura de GitHub Actions.*
+
 #### 4.2.1.6. Execution Evidence for Sprint Review
 
 La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Backend API mediante HTTP y autenticación JWT. El backend utilizó una base de datos PostgreSQL local y cuentas de prueba. La landing page se verificó desde su dirección pública.
 
-**Figura 56**
+**Figura 57**
 
 *Landing page de EcoMind en ejecución*
 
@@ -8659,7 +8671,7 @@ La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Ba
 
 El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta su descripción, duración y ecopoints.
 
-**Figura 57**
+**Figura 58**
 
 *Inicio de sesión y detalle de un reto*
 
@@ -8672,7 +8684,7 @@ El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta s
 
 Al completar la actividad, el usuario obtiene el resultado del reto y puede consultar su progreso. En la ejecución se registraron 10 ecopoints y el logro «First green step».
 
-**Figura 58**
+**Figura 59**
 
 *Finalización del reto y consulta de progreso*
 
@@ -8683,7 +8695,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 *Nota. Elaboración propia.*
 
-**Figura 59**
+**Figura 60**
 
 *Medalla obtenida y ranking global semanal*
 
@@ -8696,7 +8708,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 La navegación también permite consultar el grupo familiar y el catálogo de cosméticos.
 
-**Figura 60**
+**Figura 61**
 
 *Grupo familiar y tienda de cosméticos*
 
@@ -8709,11 +8721,24 @@ La navegación también permite consultar el grupo familiar y el catálogo de co
 
 **Video de ejecución:** [recorrido de la aplicación Android — 1 min 36 s](assets/evidence/sprint-1/android-sprint1-demo.mp4).
 
+La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL en el puerto `8092`. Swagger UI estuvo disponible en `http://localhost:8092/swagger-ui/index.html`. La aplicación Android se instaló en el emulador con el APK debug y consumió `http://10.0.2.2:8092/api/v1/`.
+
+**Tabla 120**
+
+*Artefactos de ejecución*
+
+| Componente | Revisión | Artefacto o dirección |
+|---|---|---|
+| Landing page | `81810b0` | GitHub Pages: `EcoMind_LandingPage` |
+| Backend API | `11556d0` | Spring Boot y PostgreSQL; API local en el puerto `8092` |
+| Android | `5e26fe6` | `app/build/outputs/apk/debug/app-debug.apk` instalado en emulador API 37 |
+| Android release | `5e26fe6` | `app/build/outputs/apk/release/app-release-unsigned.apk` generado por Gradle |
+
 #### 4.2.1.7. Services Documentation Evidence for Sprint Review
 
 El Backend API documenta sus servicios con OpenAPI 3.1 y Swagger UI. Los contratos están agrupados por bounded context y especifican métodos HTTP, parámetros, cuerpos JSON y códigos de respuesta. El contrato corresponde al código [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635), integrado en `main` [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c). El [catálogo de servicios](assets/evidence/sprint-1/services-catalog.md) detalla 140 operaciones en 113 rutas, con parámetros, esquemas de solicitud y respuesta, códigos HTTP y ejemplos de invocación. La instancia documentada expone Swagger UI en `http://localhost:8093/swagger-ui/index.html` y el contrato en `http://localhost:8093/v3/api-docs`.
 
-**Tabla 120**
+**Tabla 121**
 
 *Servicios REST de los flujos implementados*
 
@@ -8750,7 +8775,7 @@ Los endpoints protegidos reciben `Authorization: Bearer <token>`. La consulta de
 
 Las respuestas ilustradas corresponden a la ejecución registrada del commit `11556d0`. La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un identificador inexistente se documenta con `404 Not Found`. El [contrato OpenAPI](assets/evidence/sprint-1/openapi.json) y las [respuestas de ejecución](assets/evidence/sprint-1/api-responses.json) acompañan las capturas.
 
-**Figura 61**
+**Figura 62**
 
 *Documentación de los endpoints de Gamification en Swagger UI*
 
@@ -8760,7 +8785,7 @@ Las respuestas ilustradas corresponden a la ejecución registrada del commit `11
 
 *Nota. Elaboración propia.*
 
-**Figura 62**
+**Figura 63**
 
 *Respuesta HTTP 200 del detalle de un reto*
 
@@ -8772,64 +8797,7 @@ Las respuestas ilustradas corresponden a la ejecución registrada del commit `11
 
 #### 4.2.1.8. Software Deployment Evidence for Sprint Review
 
-La landing page se publica mediante GitHub Actions. El workflow `Deploy static site to Pages` obtiene el contenido de `main`, prepara GitHub Pages y publica el directorio `public`. La dirección de acceso es [EcoMind Landing Page](https://upc-pre-202620-13980-greenminds.github.io/EcoMind_LandingPage/).
-
-El workflow [Backend CI and CD](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/a6d1491f722c8ee88cbd84337aa1c995e14be44c/.github/workflows/backend.yml) ejecuta pruebas con H2 y PostgreSQL 17, genera reportes Surefire, Cucumber y JaCoCo, conserva el JAR y construye la imagen Docker. Las validaciones se ejecutan en pull requests a `develop` y `main`. La entrega continua está condicionada a un cambio en `main`, verificaciones satisfactorias y la habilitación de la variable de despliegue. La integración se encuentra en el [pull request #17](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/17).
-
-La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300) de `main` completó satisfactoriamente las pruebas y la construcción de la imagen.
-
-**Figura 63**
-
-*Verificaciones del backend y construcción de la imagen en GitHub Actions*
-
-<img src="assets/img/figures/sprint-1/backend-main-pipeline.png" alt="Pipeline aprobado con pruebas H2, PostgreSQL y construcción Docker" width="100%">
-
-*Nota. Captura de GitHub Actions.*
-
-La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL en el puerto `8092`. Swagger UI estuvo disponible en `http://localhost:8092/swagger-ui/index.html`. La aplicación Android se instaló en el emulador con el APK debug y consumió `http://10.0.2.2:8092/api/v1/`.
-
-**Tabla 121**
-
-*Artefactos de ejecución*
-
-| Componente | Revisión | Artefacto o dirección |
-|---|---|---|
-| Landing page | `81810b0` | GitHub Pages: `EcoMind_LandingPage` |
-| Backend API | `11556d0` | Spring Boot y PostgreSQL; API local en el puerto `8092` |
-| Android | `5e26fe6` | `app/build/outputs/apk/debug/app-debug.apk` instalado en emulador API 37 |
-| Android release | `5e26fe6` | `app/build/outputs/apk/release/app-release-unsigned.apk` generado por Gradle |
-
 #### 4.2.1.9. Team Collaboration Insights during Sprint
-
-El historial de GitHub muestra la distribución del trabajo entre interfaz, servicios, pruebas y documentación. La Tabla 122 presenta los commits no merge registrados entre el 27 de septiembre y el 10 de octubre de 2026 en las revisiones indicadas.
-
-**Tabla 122**
-
-*Contribuciones registradas por repositorio*
-
-| Integrante | Landing `main` | Backend `develop` | Android `develop` | Informe `develop` |
-|---|---:|---:|---:|---:|
-| Alejandra Astocondor | 1 | 9 | 8 | 3 |
-| Isabel Aponte | 0 | 11 | 5 | 5 |
-| Katty Philco | 0 | 19 | 25 | 11 |
-| Leo Dulanto | 8 | 18 | 2 | 4 |
-| Mauricio Pajes | 0 | 18 | 0 | 0 |
-
-*Nota. Se agruparon los nombres de autor que corresponden a un mismo integrante. El número de commits describe el historial registrado, no las horas dedicadas ni la complejidad de los cambios.*
-
-Katty desarrolló la base de navegación, autenticación y perfiles. Alejandra incorporó la consulta y ejecución de retos. Isabel integró el catálogo y las compras de la tienda. Leo implementó servicios de Community, sus pantallas y la publicación de la landing. Mauricio desarrolló las recompensas, logros y ranking del backend; en Android, su trabajo comprende cinco commits propios de `feature/gamification`, además de la incorporación de `develop`.
-
-El [pull request #3](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/3) reúne la integración de Gamification con la autenticación y los flujos de Android. La revisión por ramas permite relacionar el cambio propuesto con su base de integración.
-
-**Figura 64**
-
-*Pull request de integración de Gamification en Android*
-
-<div align="center">
-<img src="assets/img/figures/sprint-1/android-pr.png" alt="Pull request de integración de Gamification en Android" width="100%">
-</div>
-
-*Nota. Elaboración propia.*
 
 ## 4.3. Validation Interviews
 
