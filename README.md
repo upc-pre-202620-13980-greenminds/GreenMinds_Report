@@ -7176,8 +7176,8 @@ El proyecto se gestionará mediante Git como sistema de control de versiones, ut
 
 | Producto | Repositorio |
 |----------|-------------|
-| Landing Page |  |
-| Android Application |  |
+| Landing Page | https://upc-pre-202620-13980-greenminds.github.io/EcoMind_LandingPage/#landing |
+| Android Application | https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android |
 | Backend | https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend |
 | Project Report | https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report |
 
