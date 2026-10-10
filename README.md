@@ -9014,6 +9014,23 @@ Las solicitudes realizadas en el swagger (Backend) se veran reflejadas en la bas
 
 #### 4.2.1.9. Team Collaboration Insights during Sprint
 
+En esta sección se muestra los aportes de cada integrante en los repositorios respectivos de según el sprint, se muestra referente a la landing page, app android y backend
+
+**Sprint 1 - Landing page**
+
+![sprint1_Landing_page_evidence1](assets/img/figures/sprint1_Landing_page_evidence1.png)
+![sprint1_Landing_page_evidence2](assets/img/figures/sprint1_Landing_page_evidence2.png)
+
+**Sprint 1 - App Android**
+
+![sprint1_android_evidence1](assets/img/figures/sprint1_android_evidence1.png)
+![sprint1_android_evidence2](assets/img/figures/sprint1_android_evidence2.png)
+
+**Sprint 1 - Backend**
+
+![sprint1_backend_evidence1](assets/img/figures/sprint1_backend_evidence1.png)
+![sprint1_backend_evidence2](assets/img/figures/sprint1_backend_evidence2.png)
+
 ## 4.3. Validation Interviews
 
 Esta sección presenta el proceso definido para validar la landing page y la aplicación móvil con representantes de los segmentos objetivo. Comprende el diseño de las entrevistas, las tareas asignadas y las preguntas utilizadas para evaluar la comprensión, facilidad de uso y utilidad de la solución.
