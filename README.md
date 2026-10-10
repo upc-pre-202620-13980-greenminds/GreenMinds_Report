@@ -7473,7 +7473,7 @@ La ejecución de Android corresponde a `feature/gamification`, commit [5e26fe6](
 
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
 
-Las pruebas de los servicios se ejecutaron sobre el commit [e3df2c0](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/e3df2c060050f194c5e9bda55420c604d131e171) con JUnit, Spring Boot Test, MockMvc y Cucumber. Las pruebas de Android corresponden al commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad).
+Las pruebas de los servicios se ejecutaron sobre el commit [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635) con JUnit, Spring Boot Test, MockMvc y Cucumber. Las pruebas de Android corresponden al commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad).
 
 **Tabla 118**
 
@@ -7481,13 +7481,13 @@ Las pruebas de los servicios se ejecutaron sobre el commit [e3df2c0](https://git
 
 | Componente | Ejecución | Resultado | Entorno |
 |---|---|---|---|
-| Backend API | `bash ./mvnw clean verify` | 355 ejecuciones; 0 fallos, 0 errores y 0 omitidas | JDK 21; H2 en modo de compatibilidad PostgreSQL |
-| Backend API | `bash ./mvnw clean verify` | 355 ejecuciones; 0 fallos, 0 errores y 0 omitidas | JDK 21; PostgreSQL 17.9 |
+| Backend API | `bash ./mvnw clean verify` | 515 ejecuciones; 0 fallos, 0 errores y 0 omitidas | JDK 21; H2 en modo de compatibilidad PostgreSQL |
+| Backend API | `bash ./mvnw clean verify` | 515 ejecuciones; 0 fallos, 0 errores y 0 omitidas | JDK 21; PostgreSQL 17.9 |
 | Android | `bash ./gradlew testDebugUnitTest` | 49 pruebas; 0 fallos, 0 errores y 0 omitidas | JDK 21 y Gradle |
 | Android | `bash ./gradlew connectedDebugAndroidTest` | 14 pruebas; 0 fallos, 0 errores y 0 omitidas | Emulador Android API 37; Backend API local |
 | Android | `bash ./gradlew assembleDebug assembleRelease` | Compilación satisfactoria de ambos APK | Android SDK 37 |
 
-Cucumber ejecutó 67 escenarios de aceptación dentro de un total de 355 pruebas. JaCoCo registró 69,84 % de cobertura de líneas y 52,81 % de ramas.
+Cucumber ejecutó 73 escenarios de aceptación dentro de un total de 515 pruebas. JaCoCo registró 86,76 % de cobertura de líneas y 69,12 % de ramas. La verificación exige un mínimo de 85 % de líneas y 65 % de ramas.
 
 Las pruebas instrumentadas incluyen el inicio de sesión por Retrofit, la consulta de retos, navegación, filtros, progreso y logros.
 
@@ -7672,15 +7672,15 @@ La landing page se publica mediante GitHub Actions. El workflow `Deploy static s
 
 *Nota. Elaboración propia.*
 
-El workflow [Backend CI and CD](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/661032b0bc6a72c679a33a0e188f782c9905bf38/.github/workflows/backend.yml) ejecuta pruebas con H2 y PostgreSQL 17, genera reportes Surefire, Cucumber y JaCoCo, conserva el JAR y construye la imagen Docker. Las validaciones se ejecutan en pull requests a `develop` y `main`. La entrega continua está condicionada a un cambio en `main`, verificaciones satisfactorias y la habilitación de la variable de despliegue. La configuración se encuentra en el [pull request #17](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/17).
+El workflow [Backend CI and CD](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/22644744806f6c2ce7eaa936942990f54e471635/.github/workflows/backend.yml) ejecuta pruebas con H2 y PostgreSQL 17, genera reportes Surefire, Cucumber y JaCoCo, conserva el JAR y construye la imagen Docker. Las validaciones se ejecutan en pull requests a `develop` y `main`. La entrega continua está condicionada a un cambio en `main`, verificaciones satisfactorias y la habilitación de la variable de despliegue. La integración se encuentra en el [pull request #17](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/17).
 
-La [ejecución 38062452677](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38062452677) completó satisfactoriamente las pruebas y la construcción de la imagen.
+La [ejecución 38066670760](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38066670760) completó satisfactoriamente las pruebas y la construcción de la imagen.
 
 **Figura 63**
 
 *Verificaciones del backend y construcción de la imagen en GitHub Actions*
 
-<img src="assets/img/figures/sprint-1/backend-ci-summary.jpg" alt="Pipeline aprobado con pruebas H2, PostgreSQL y construcción Docker" width="100%">
+<img src="assets/img/figures/sprint-1/backend-ci-current.png" alt="Pipeline aprobado con pruebas H2, PostgreSQL y construcción Docker" width="100%">
 
 *Nota. Captura de GitHub Actions.*
 

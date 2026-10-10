@@ -4,12 +4,12 @@
   "backendRevision": "11556d061f12d4bdc0fd10c5ecb20bc9a72e17c1",
   "landingRevision": "81810b0ad3d83827a6b3b2cb0c53338ac092d82a",
   "files": {
-    "assets/evidence/sprint-1/test-results.json": "f16a2d8eab6380a6c50b1a2da147a31c323379ec7fbcf822255da01ab3a69f1a",
+    "assets/evidence/sprint-1/test-results.json": "0361f64ef81f5f52f6034a9ab077e192313fd7c686c6a1616d98ecac3b53e957",
     "assets/evidence/sprint-1/api-responses.json": "274114bba580f7e7e719342f5b2d35492903d3d58354eb4e34a21a4e741a49b2",
     "assets/evidence/sprint-1/commits.json": "3c29f429507235625a79cf4ffac5ca15b7ef3791f2e314c9311dbfa2a9cd4a9c",
     "assets/evidence/sprint-1/android-sprint1-demo.mp4": "177363eb91b8e9735998d990a874d6ff78fdb024df830a042b51c353f8136f3a",
     "assets/evidence/sprint-1/openapi.json": "86255ef4ecd4782125356061a67a57a8914aa06f9820a46ed620bfb10bf2c6d5",
-    "assets/evidence/sprint-1/backend-tests.txt": "fd784851bf5f3058e644544d844ce46cb90c5352be07592239e8878531de96d9",
+    "assets/evidence/sprint-1/backend-tests.txt": "07206c76372474446f15bf41e304b2b49dc313695b9070b1f7910fff1bbae2cf",
     "assets/img/figures/sprint-1/landing-home.png": "02f7086307ef47ed226ffbaaf629919ac87db75ccf483c0076972d82e75b020b",
     "assets/img/figures/sprint-1/android-pr.png": "2a0ce3bfc0078b519d0d7ad2151d1745c0c9cfc37c973a9d1d8b3edce00cd47f",
     "assets/img/figures/sprint-1/android-store.png": "851044fb041b863cddb4535d4e6e20628e4a4ebd0bd24e3324b4cc98db84a70a",
@@ -25,8 +25,9 @@
     "assets/img/figures/sprint-1/android-quest-detail.png": "51f49fb3600f7cbcd8186a4928efaff9e3fe92b97d945f857a99b48f22516df0",
     "assets/img/figures/sprint-1/backend-ci-summary.jpg": "6b312f603b75a297cf4b3dddc473505891bcb46a02e3db4f1e77e5c753c834a6",
     "assets/img/figures/sprint-1/backend-ci-artifacts.jpg": "3bb619893f85e07981f2387ad2e1c0076c8cec2fa8b472ad29de16145e540dbc",
-    "assets/img/figures/sprint-1/backend-tests-postgresql.png": "c7604158e6e73eb187973642831b1b80cf33035df26146a8074db5e980e3868a"
+    "assets/img/figures/sprint-1/backend-tests-postgresql.png": "c7604158e6e73eb187973642831b1b80cf33035df26146a8074db5e980e3868a",
+    "assets/img/figures/sprint-1/backend-ci-current.png": "d080737266525c25b18b04c2e6d0f2bf13d0ff36f6eb2bc5b18553ef1411b71b"
   },
-  "backendTestRevision": "661032b0bc6a72c679a33a0e188f782c9905bf38",
-  "backendCiRun": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38062452677"
+  "backendTestRevision": "22644744806f6c2ce7eaa936942990f54e471635",
+  "backendCiRun": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38066670760"
 }
