@@ -7267,6 +7267,34 @@ La aplicación móvil Android se desarrollará con Kotlin. Para su implementaci�
 
 ### 4.1.4. Software Deployment Configuration
 
+En esta sección se describe la configuración del despliegue de EcoMind, incluyendo los pasos necesarios para publicar la landing page en GitHub Pages y el backend en Render, así como la configuración de sus servicios asociados.
+
+**Landing page - Github pages**
+
+1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio.
+2. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages.
+3. En la sección Source, seleccionar la rama main y la carpeta raíz.
+4. Guardar la configuración para que GitHub Pages genere automáticamente la página pública.
+5. Una vez desplegado, el sitio estará disponible. Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
+
+**Backend**
+
+Base de datos - Aiven:
+
+
+1. Seleccionar opción crear servicio
+2. Asegurarse de elegir postgreSQL
+3. Seleccionar configuración básica del plan, y nombre del servicio
+4. Guardar y crear servicio. Se conectará con el backend desplegado, el cual añadirá entidades a las tablas según los endpoints lo soliciten.
+
+Backend - Render:
+
+1. Seleccionar opción crear servicio y dentro de ella seleccionar servicio web
+2. Elegir el repositorio donde se esta desarrollando el backend
+3. Configurar nombre, lenguaje, rama, plan y variables de entorno previo a la creación del servicio
+4. Guardar configuración y crear servicio, esperar su despliegue, cuando haya cambios es la rama main, render permite actualización ya sea de forma automática o manual.
+
+
 ## 4.2. Landing Page & Mobile Application Implementation
 
 ### 4.2.1. Sprint 1
@@ -7412,7 +7440,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 | **Entrevista de validación Nro. 2** |
 |---|
 | <img src="assets/img/figures/margarita_entrevista.png" width="335" hspace="240"> |
-| **Entrevistada N°1:** Victoria Margarita Espino Huatay<br>**Edad:** 48 años<br>**Ubicación:** Cercado de Lima, Lima<br>**Entrevistador:** Leo Dulanto<br>**Fecha de la entrevista:** 10/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 2 - Victoria Margarita Espino Huatay](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410254_upc_edu_pe/IQD0kFFOgNODQa14YqtgVdmPAZ0GXb8UzuJj3Hlg_Mcuvzo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lx5lM9)<br>**Instante del que inicia:** 00:00<br>**Duración:** 05:48<br><br>**Resumen:**<br><br>La participante Margarita Espino, residente del Cercado de Lima, consideró que la aplicación promueve el trabajo en equipo, la competencia sana y la participación de toda la familia. Le pareció intuitivo y gráfico el seguimiento del progreso y las actividades, y valoró que los eventos permitan inscripciones individuales o familiares. También señaló que el ranking podría motivar a los niños a participar en actividades ambientales y alejarse un poco de los videojuegos. Calificó con 5 de 5 su probabilidad de usar la aplicación con su familia y dijo que estaría dispuesta a realizar compras dentro de ella. Como principal mejora, recomendó añadir etiquetas o indicaciones a algunos botones e íconos para que los nuevos usuarios comprendan su función; en general, considera que la aplicación está bien orientada y no cambiaría su enfoque. |
+| **Entrevistada N°2:** Victoria Margarita Espino Huatay<br>**Edad:** 48 años<br>**Ubicación:** Cercado de Lima, Lima<br>**Entrevistador:** Leo Dulanto<br>**Fecha de la entrevista:** 10/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 2 - Victoria Margarita Espino Huatay](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410254_upc_edu_pe/IQC9SgS6nYfDTp7hD7eLSh_MAc0A8W4XPyXCXk_WpS7A6EA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CaeIDB)<br>**Instante del que inicia:** 00:00<br>**Duración:** 07:13<br><br>**Resumen:**<br><br>La participante Margarita Espino, residente del Cercado de Lima, consideró que la aplicación promueve el trabajo en equipo, la competencia sana y la participación de toda la familia. Le pareció intuitivo y gráfico el seguimiento del progreso y las actividades, y valoró que los eventos permitan inscripciones individuales o familiares. También señaló que el ranking podría motivar a los niños a participar en actividades ambientales y alejarse un poco de los videojuegos. Calificó con 5 de 5 su probabilidad de usar la aplicación con su familia y dijo que estaría dispuesta a realizar compras dentro de ella. Como principal mejora, recomendó añadir etiquetas o indicaciones a algunos botones e íconos para que los nuevos usuarios comprendan su función; en general, considera que la aplicación está bien orientada y no cambiaría su enfoque. |
 
 
 ### 4.3.3. Evaluaciones según heurísticas
