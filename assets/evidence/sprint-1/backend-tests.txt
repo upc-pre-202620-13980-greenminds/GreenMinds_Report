@@ -1,11 +1,16 @@
 EcoMind Backend — Maven Surefire
-Revision: 11556d061f12d4bdc0fd10c5ecb20bc9a72e17c1
+Revision: e3df2c060050f194c5e9bda55420c604d131e171
 Date: 2026-10-10
-Command: ./mvnw test
-Runtime: JDK 21; H2 (PostgreSQL compatibility mode)
+Command: bash ./mvnw -B -ntp -Dsurefire.runOrder=random clean verify
+Random seeds: H2=20261010; PostgreSQL=20261011
 
+Runtime: JDK 21; H2 (PostgreSQL compatibility mode)
 pe.greenminds.ecomind.EcomindApplicationTests: tests=1, failures=0, errors=0, skipped=0
-pe.greenminds.ecomind.bdd.RunCucumberTest: tests=34, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.bdd.RunCucumberTest: tests=66, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.community.application.internal.commandservices.CommunityCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.community.application.internal.commandservices.CommunityGoalCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.community.application.internal.commandservices.EventRegistrationCommandServiceImplTests: tests=13, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.community.application.internal.commandservices.PostCommandServiceImplTests: tests=7, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.gamification.AchievementTests: tests=8, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.gamification.CommunityGamificationIntegrationTests: tests=11, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.gamification.FamilyGamificationTests: tests=8, failures=0, errors=0, skipped=0
@@ -31,16 +36,70 @@ pe.greenminds.ecomind.monetization.infrastructure.persistence.jpa.adapters.Store
 pe.greenminds.ecomind.monetization.interfaces.rest.GemWalletControllerTests: tests=3, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.monetization.interfaces.rest.MonetizationPurchaseIntegrationTests: tests=5, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.monetization.interfaces.rest.StoreControllerTests: tests=2, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.application.internal.commandservices.ActivityCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.application.internal.commandservices.CollabQuestSessionCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.application.internal.commandservices.FamilyPlanCommandServiceImplTests: tests=10, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.quests.application.internal.commandservices.MinigameAttemptCommandServiceImplTests: tests=2, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.quests.application.internal.outboundservices.acl.UsersServiceClientTests: tests=3, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.quests.domain.model.aggregates.MinigameAttemptTests: tests=5, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.quests.domain.model.aggregates.QuestTests: tests=5, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.quests.domain.model.aggregates.QuestUserTests: tests=3, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.shared.interfaces.rest.GlobalExceptionHandlerTests: tests=6, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.shared.interfaces.rest.ProtectedEndpointsIntegrationTests: tests=13, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.users.application.internal.commandservices.FamilyCommandServiceImplTests: tests=10, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.users.application.internal.commandservices.FriendshipCommandServiceImplTests: tests=10, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.users.application.internal.commandservices.ProfileCommandServiceImplTests: tests=5, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.users.interfaces.acl.UsersContextFacadeTests: tests=17, failures=0, errors=0, skipped=0
+Reported executions (including Cucumber container): 355
+Total test cases: tests=354, failures=0, errors=0, skipped=0
+BUILD SUCCESS
 
-Tests run: 247, Failures: 0, Errors: 0, Skipped: 0
+Runtime: JDK 21; PostgreSQL 17.9
+pe.greenminds.ecomind.EcomindApplicationTests: tests=1, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.bdd.RunCucumberTest: tests=66, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.community.application.internal.commandservices.CommunityCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.community.application.internal.commandservices.CommunityGoalCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.community.application.internal.commandservices.EventRegistrationCommandServiceImplTests: tests=13, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.community.application.internal.commandservices.PostCommandServiceImplTests: tests=7, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.AchievementTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.CommunityGamificationIntegrationTests: tests=11, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.FamilyGamificationTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.GamificationReportIntegrationTests: tests=36, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.IntegrationContractTests: tests=2, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.RankingTests: tests=6, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.application.internal.commandservices.RewardCommandServiceIntegrationTests: tests=4, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.domain.model.aggregates.UserProgressTests: tests=3, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.gamification.interfaces.rest.GamificationControllerTests: tests=2, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.iam.application.internal.commandservices.AuthenticationCommandServiceImplTests: tests=4, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.iam.application.internal.commandservices.PasswordRecoveryCommandServiceImplTests: tests=6, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.iam.application.internal.commandservices.RegistrationCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.MonetizationContextFacadeIntegrationTests: tests=1, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.application.internal.commandservices.GemWalletCommandServiceImplTests: tests=3, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.application.internal.queryservices.StoreQueryServiceImplTests: tests=1, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.domain.model.aggregates.GemWalletTests: tests=3, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.domain.model.entities.CosmeticTests: tests=7, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.domain.model.entities.GemPackageTests: tests=6, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.domain.model.entities.MultiplierTests: tests=7, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.domain.model.entities.StreakProtectorTests: tests=4, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.infrastructure.persistence.jpa.adapters.CosmeticRepositoryImplTests: tests=3, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.infrastructure.persistence.jpa.adapters.StoreCatalogRepositoryImplTests: tests=3, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.interfaces.rest.GemWalletControllerTests: tests=3, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.interfaces.rest.MonetizationPurchaseIntegrationTests: tests=5, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.monetization.interfaces.rest.StoreControllerTests: tests=2, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.application.internal.commandservices.ActivityCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.application.internal.commandservices.CollabQuestSessionCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.application.internal.commandservices.FamilyPlanCommandServiceImplTests: tests=10, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.application.internal.commandservices.MinigameAttemptCommandServiceImplTests: tests=2, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.application.internal.outboundservices.acl.UsersServiceClientTests: tests=3, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.domain.model.aggregates.MinigameAttemptTests: tests=5, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.domain.model.aggregates.QuestTests: tests=5, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.quests.domain.model.aggregates.QuestUserTests: tests=3, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.shared.interfaces.rest.GlobalExceptionHandlerTests: tests=6, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.shared.interfaces.rest.ProtectedEndpointsIntegrationTests: tests=13, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.users.application.internal.commandservices.FamilyCommandServiceImplTests: tests=10, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.users.application.internal.commandservices.FriendshipCommandServiceImplTests: tests=10, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.users.application.internal.commandservices.ProfileCommandServiceImplTests: tests=5, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.users.interfaces.acl.UsersContextFacadeTests: tests=17, failures=0, errors=0, skipped=0
+Reported executions (including Cucumber container): 355
+Total test cases: tests=354, failures=0, errors=0, skipped=0
 BUILD SUCCESS
