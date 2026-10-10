@@ -1,0 +1,50 @@
+{
+  "capturedAt": "2026-10-10",
+  "androidRevision": "5e26fe6ed67c9aa034c78c4c97badec589a88dad",
+  "backendRevision": "11556d061f12d4bdc0fd10c5ecb20bc9a72e17c1",
+  "landingRevision": "81810b0ad3d83827a6b3b2cb0c53338ac092d82a",
+  "files": {
+    "assets/evidence/sprint-1/test-results.json": "b186a10e32dcf5418d397ed07d3720533b617d60bb25ef604937d30d65594ee1",
+    "assets/evidence/sprint-1/api-responses.json": "274114bba580f7e7e719342f5b2d35492903d3d58354eb4e34a21a4e741a49b2",
+    "assets/evidence/sprint-1/commits.json": "727d13f5bc02012d8a5ebe6801feb9148ed02b9d440c0f3a3e59498e1eef0804",
+    "assets/evidence/sprint-1/openapi.json": "64931a436fedf96b79da7f89b785978faf859ba5fa6aeeb44a06ea7009f8ef6f",
+    "assets/evidence/sprint-1/backend-tests.txt": "461b6bd460caafcf519f9ed99ea525d4d276484302761b638a5a6e7b9ad111d2",
+    "assets/img/figures/sprint-1/landing-home.png": "02f7086307ef47ed226ffbaaf629919ac87db75ccf483c0076972d82e75b020b",
+    "assets/img/figures/sprint-1/android-store.png": "851044fb041b863cddb4535d4e6e20628e4a4ebd0bd24e3324b4cc98db84a70a",
+    "assets/img/figures/sprint-1/android-sign-in.png": "d901ff6713c01bb89e0d53eae793035d6a728682843f76a6f1c7157288ed5908",
+    "assets/img/figures/sprint-1/swagger-gamification.png": "128dfe40b4d135cc6d5261b8435a6fd4da5e9dad00c70b9726ce61f617b16538",
+    "assets/img/figures/sprint-1/swagger-quest-response.png": "cdf7f0a4d9594d19eb70fc5d0cd4db1dd74e0e93011ee21e1b910a2946d1b7aa",
+    "assets/img/figures/sprint-1/android-progress.png": "b171ab49782c01938c84299dc1f8b28e5da543e994fa8d6e0b910014c345f697",
+    "assets/img/figures/sprint-1/android-achievement-earned.png": "365f6c0b04a5a527f6d57d267e2eaa0752f0f5c19c703aac5ad71626e5b900c1",
+    "assets/img/figures/sprint-1/android-quest-completed.png": "4b7cb8b74cf1abe4f31c0672cac483695d2c19dcfa1532f647b979fa6a2cbeb3",
+    "assets/img/figures/sprint-1/android-family.png": "90cd14e4c43d20ec9281a576150c703a16bf899b253be64f97790ccfc6dec896",
+    "assets/img/figures/sprint-1/android-ranking-global.png": "c356936e2a9e81afa77f9327530928e787d758151d0d9edaed95234a2df53490",
+    "assets/img/figures/sprint-1/android-quest-detail.png": "51f49fb3600f7cbcd8186a4928efaff9e3fe92b97d945f857a99b48f22516df0",
+    "assets/evidence/sprint-1/services-catalog.md": "06107bc614c862024ab66f6485f2a25d826c263f06ea89fddbf0cbe933e1a759",
+    "assets/img/figures/sprint-1/backend-main-pipeline.png": "c79b32084a0e629ea5bf8bcc3cd6c87cc8f9e610b8455f1a004939932850f19f",
+    "assets/img/figures/sprint-1/backend-intellij-tests.png": "66b9186e7cbba50d50b65df6aa06a9faa12b18099c7fde81e936bfadf1a5877e",
+    "assets/img/figures/sprint-1/android-studio-environment.png": "a928792953c9f388ae32b99679d2f3dedbc90f68377114fa381b147a0e56f06b",
+    "assets/img/figures/sprint-1/backend-intellij-environment.png": "507d87ca05978e3e33b2aeb418197f6bda809c0e79b048581baac7a0e8dae6ce"
+  },
+  "backendTestRevision": "a6d1491f722c8ee88cbd84337aa1c995e14be44c",
+  "backendCiRun": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300",
+  "openapiCodeRevision": "22644744806f6c2ce7eaa936942990f54e471635",
+  "openapiCapturedFrom": "http://localhost:8093/v3/api-docs",
+  "backendIdeEvidence": {
+    "image": "assets/img/figures/sprint-1/backend-intellij-tests.png",
+    "displayedExecutions": 588,
+    "source": "user-provided IntelliJ IDEA screenshot"
+  },
+  "androidStudioRevision": "5e26fe6ed67c9aa034c78c4c97badec589a88dad",
+  "backendDevelopmentIdeEvidence": {
+    "image": "assets/img/figures/sprint-1/backend-intellij-environment.png",
+    "source": "user-provided IntelliJ IDEA screenshot",
+    "visibleBranch": "develop",
+    "visibleFile": "GamificationContextFacade.java",
+    "receivedAt": "2026-10-10"
+  },
+  "executionVideo": {
+    "url": "https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410093_upc_edu_pe/IQBVA-AU-FA9TLx1V8zV1IPRAYv5FncU0FDrAn9In9ViiO8?e=ozx3X8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D",
+    "source": "user-provided recording"
+  }
+}

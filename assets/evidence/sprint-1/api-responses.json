@@ -1,0 +1,97 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/v1/quests/1",
+    "status": 200,
+    "body": {
+      "id": 1,
+      "versionGroupId": 1,
+      "versionNumber": 1,
+      "publicationStatus": "PUBLISHED",
+      "minigameId": null,
+      "title": "Save energy at home",
+      "description": "Turn off unused lights and reduce electricity consumption.",
+      "category": "ENERGY",
+      "type": "ACTIVITIES",
+      "gemReward": 2,
+      "ecopoints": 10,
+      "age": 8,
+      "time": 2,
+      "theme": "CHECKBOX",
+      "assignedDate": "2026-10-10",
+      "image": null
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/gamification/me/progress",
+    "status": 200,
+    "body": {
+      "userId": 101,
+      "totalEcopoints": 10,
+      "currentStreak": 0,
+      "longestStreak": 0,
+      "lastActivityDate": null,
+      "lastProtectedDate": null
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/gamification/me/achievements",
+    "status": 200,
+    "body": [
+      {
+        "id": "0ec985b2-abb3-4f73-9b17-e0c1fd0b2954",
+        "achievementId": "00000000-0000-0000-0000-000000000101",
+        "scope": "INDIVIDUAL",
+        "beneficiaryId": 101,
+        "sourceEventId": "59cd7dd3-54a1-3990-b886-ebbe26af29f4",
+        "awardedAt": "2026-10-10T14:24:45.270498Z",
+        "communityId": null
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/gamification/me/rewards",
+    "status": 200,
+    "body": [
+      {
+        "id": "3a9bdde9-9762-4164-b4f4-347181d586a3",
+        "sourceType": "QUEST",
+        "sourceExecutionId": "59cd7dd3-54a1-3990-b886-ebbe26af29f4",
+        "beneficiaryId": 101,
+        "ecopoints": 10,
+        "gems": 2,
+        "occurredAt": "2026-10-10T14:24:45.270498Z"
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/gamification/rankings/GLOBAL/participants?period=WEEKLY&limit=20&offset=0",
+    "status": 200,
+    "body": {
+      "items": [
+        {
+          "beneficiaryId": 101,
+          "displayName": "Lucia Torres",
+          "totalEcopoints": 10
+        },
+        {
+          "beneficiaryId": 102,
+          "displayName": "Mateo Rojas",
+          "totalEcopoints": 0
+        },
+        {
+          "beneficiaryId": 103,
+          "displayName": "Sofia Vera",
+          "totalEcopoints": 0
+        }
+      ],
+      "page": 0,
+      "size": 20,
+      "hasNext": false
+    }
+  }
+]

@@ -61,7 +61,7 @@ Proyecto <br>
 
 **Período 202620**
 
-**Setiembre 2026**
+**Octubre 2026**
 
 </div>
 
@@ -83,6 +83,12 @@ Proyecto <br>
 | 1.0.0    | 16/09/2026     |  Leo Dulanto, Alejandra Astocondor, Mauricio Pajes  | docs: agregar user stories  <br> docs: agregar message flow <br> docs: agregar product backlog <br> docs: agregar impact mapping  <br> docs: agregar registro de entrevistas |
 | 1.0.0    | 17/09/2026     | Katty Philco, Isabel Aponte | docs: agregar registro de entrevistas <br> docs: agregar sección Needfinding <br> docs: agregar Bounded Context: Monetization <br> docs: agregar Bounded Context Software Architecture Component Level and code diagrams  <br>  |
 | 1.0.0    | 18/09/2026     | Alejandra Astocondor, Isabel Aponte, Leo Dulanto, Katty Philco, Mauricio Pajes | docs: agregar diagramas Bounded Context Quest <br> docs: agregar Bounded Context: Learning <br> docs: agregar bounded context canvases community <br> docs: agregar Bounded Context: IAM  <br> docs: agregar Bounded Context: User <br> docs: agregar lenguaje ubicuo <br> docs: agregar Bounded Context: Community <br> docs: agregar Bounded Context: Gamification <br> docs: agregar objetivos SMART  |
+| 2.0.0    | 27/09/2026     | Leo Dulanto   | docs: agregar estructura de los capítulos III y IV |
+| 2.0.0    | 07/10/2026     | Alejandra Astocondor, Isabel Aponte   | docs: actualizar las secciones de UI/UX Design y de Software Configuration Management <br> docs: agregar Mobile Applications Wireframes |
+| 2.0.0    | 09/10/2026     | Alejandra Astocondor, Katty Philco   | docs: actualizar diagrama de contenedores y diagrama de base de datos de Quests <br> docs: actualizar Big Picture EventStorming <br> docs: agregar descripción de escenarios en Domain Message Flows <br> docs: agregar descripción de los Bounded Context Canvases <br> docs: corregir títulos de los Bounded Context Canvases <br> docs: actualizar diagramas de contenedores y de despliegue para un único Backend <br> docs: actualizar diagramas de componentes para un único Backend API <br> docs: reescribir descripciones de los diagramas de componentes <br> docs: actualizar la tabla de herramientas con Render y PostgreSQL |
+| 2.0.0    | 10/10/2026     | Katty Philco, Leo Dulanto, Mauricio Pajes, Isabel Aponte, Alejandra Astocondor   | docs: agregar registro de entrevistas de validación <br> docs: actualizar Student Outcome <br> docs: actualizar conclusiones y recomendaciones <br> docs: agregar Software Deployment Configuration <br> docs: agregar Landing Page & Mobile Application Implementation, Sprint 1 <br> docs: agregar Mobile Applications Wireflow Diagrams <br> docs: agregar Mobile Applications Mock-ups <br> docs: agregar Mobile Applications User Flow Diagrams <br> docs: agregar evaluaciones según heurísticas <br> docs: agregar video de prototipo |
+
+<div style="page-break-before: always;"></div>
 
 # Project Report Collaboration Insights
 
@@ -96,8 +102,26 @@ El proceso de desarrollo del informe se realizó de manera incremental, integran
 
 Asimismo, todos los integrantes participaron activamente en la elaboración del informe, realizando aportes continuos que permitieron consolidar una documentación coherente y alineada entre sus distintas secciones. Esta colaboración se evidencia en los analíticos de contribución y commits, los cuales reflejan la participación distribuida del equipo.
 
+**Figura 1**
+
+*Contribuciones del equipo al informe.*
+
 ![projetoverview](assets/img/figures/Docs_Overview.png)
 
+*TB1*
+
+Durante el desarrollo de la entrega TB1, el equipo organizó la actualización del informe mediante la asignación de responsabilidades por secciones. Cada integrante contribuyó en la documentación del diseño de la aplicación móvil, la configuración del despliegue, el desarrollo del Sprint 1 y la validación de EcoMind con los usuarios de los segmentos objetivo.
+
+La elaboración del informe se realizó de manera incremental, incorporando los wireframes, mock-ups, wireflows y user flow diagrams conforme avanzaba la implementación. También se actualizaron los diagramas de arquitectura, el Student Outcome y las conclusiones y recomendaciones, y se añadieron las entrevistas de validación y las evaluaciones según heurísticas. Estos aportes se registraron en el control de versiones para mantener un seguimiento de los cambios realizados durante la entrega.
+
+Asimismo, los integrantes revisaron y complementaron las secciones del informe para que los diseños, la documentación técnica y los resultados de validación correspondieran con el producto desarrollado. Los analíticos de contribución y el historial de commits permiten observar los aportes de cada miembro y la participación del equipo en la preparación de la entrega TB1.
+
+*Contribuciones del equipo al informe durante TB1.*
+
+![projetoverview2](assets/img/figures/Docs_Overview2.png)
+
+
+<div style="page-break-before: always;"></div>
 
 # Tabla de contenidos
 
@@ -281,8 +305,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Definí los segmentos objetivo, identifiqué a los competidores clave y realicé entrevistas para conocer las necesidades de los usuarios. También propuse estrategias y tácticas para EcoMind, y desarrollé los bounded contexts Monetization y Learning, definiendo sus responsabilidades, reglas de negocio, comunicaciones y arquitectura. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> Investigué y apliqué conceptos de Lean UX, entrevistas, EventStorming, historias de usuario y Product Backlog para analizar las necesidades de los usuarios y organizar la propuesta de EcoMind. Asimismo, reforcé mis conocimientos sobre Domain-Driven Design y documentación de arquitectura durante el modelado de los bounded contexts Quests e IAM, definiendo sus responsabilidades, componentes, clases y estructuras de datos. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Investigué y apliqué conceptos de User Stories, Product Backlog y Event Storming para identificar necesidades, organizar requisitos y modelar el dominio de EcoMind. Asimismo, desarrollé el Bounded Context Canvas de Community y participé en la definición de su arquitectura, documentando la estructura de las capas Domain, Interface, Application e Infrastructure, junto con los diagramas de componentes, código, clases del dominio y diseño de base de datos. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Documenté entrevistas a padres de familia para conocer sus hábitos ambientales y necesidades. También reforcé mis conocimientos de Domain-Driven Design al desarrollar el diseño del bounded context Gamification, definiendo sus responsabilidades, reglas de negocio y capas, y elaborando sus diagramas de componentes, clases y base de datos. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Apliqué Domain-Driven Design táctico y C4 Model con Structurizr DSL y PlantUML para documentar el bounded context Users, actualizando sus conocimientos en arquitectura de software y diagramación como código. | *AV1* <br> El equipo reconoce que el desarrollo de EcoMind exigió adquirir y aplicar conocimientos nuevos en metodologías de diseño estratégico y táctico y en herramientas de documentación como código, evidenciando que la actualización continua de conocimientos es indispensable para estructurar soluciones de software escalables y mantenibles. <br> |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Reforcé mis conocimientos de Lean UX, Domain-Driven Design y arquitectura de software. Las revisiones realizadas me permitieron corregir errores y reconocer la importancia de investigar, recibir retroalimentación y mantener un aprendizaje constante. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> A partir de la retroalimentación brindada por el docente sobre nuestro EventStorming, reconocí errores en la identificación y organización de algunos elementos del dominio. Esta experiencia me permitió comprender la importancia de revisar continuamente los conceptos aprendidos, aceptar observaciones y aplicarlas para mejorar el modelado de EcoMind. Asimismo, reforzó mi compromiso de continuar profundizando en Domain-Driven Design y arquitectura de software para desarrollar soluciones más claras y coherentes. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Durante el desarrollo del bounded context Community reconocí la necesidad de continuar fortaleciendo mis conocimientos en Domain-Driven Design, arquitectura de software y modelado de dominios. La elaboración de los diagramas y la integración de los requisitos me permitió identificar la importancia de revisar, actualizar y aplicar continuamente nuevos conocimientos para mejorar la estructura y coherencia de una solución de software. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> El diseño de Gamification me permitió reconocer la importancia de revisar y reforzar mis conocimientos de arquitectura de software. Las revisiones realizadas me ayudaron a comprender mejor las responsabilidades de cada parte de la solución y la necesidad de mantener un aprendizaje constante para mejorar mis diseños y mi desempeño profesional. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Reconocí que el dominio de nuevas herramientas de documentación y metodologías requieren actualización constante, lo que reforzó mi objetivo de especializarse en backend y buenas prácticas de arquitectura. | *AV1* <br>  El equipo reconoce que el desarrollo de un producto con múltiples bounded contexts, cada uno con sus propias decisiones de arquitectura y persistencia, exige mantenerse en aprendizaje constante frente a nuevas herramientas, patrones de integración entre contextos y buenas prácticas de documentación. <br> |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y, en especial, para su proyecto en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Definí los segmentos objetivo, identifiqué a los competidores clave y realicé entrevistas para conocer las necesidades de los usuarios. También propuse estrategias y tácticas para EcoMind, y desarrollé los bounded contexts Monetization y Learning, definiendo sus responsabilidades, reglas de negocio, comunicaciones y arquitectura. <br><br> *TB1* <br> Participé en el desarrollo del Backend, de la aplicación Android y del informe. Elaboré los User Flow Diagrams de la aplicación móvil, lo que me llevó a profundizar en cómo representar el recorrido del usuario entre pantallas y decisiones, y a mantener esos flujos coherentes con las funcionalidades implementadas. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> Investigué y apliqué conceptos de Lean UX, entrevistas, EventStorming, historias de usuario y Product Backlog para analizar las necesidades de los usuarios y organizar la propuesta de EcoMind. Asimismo, reforcé mis conocimientos sobre Domain-Driven Design y documentación de arquitectura durante el modelado de los bounded contexts Quests e IAM, definiendo sus responsabilidades, componentes, clases y estructuras de datos. <br><br> *TB1* <br> Participé en el desarrollo del Backend, de la aplicación Android y del informe. Elaboré los prototipos de la aplicación móvil, aplicando conceptos de diseño de interfaces para representar las pantallas y los flujos principales de EcoMind antes de su implementación. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Investigué y apliqué conceptos de User Stories, Product Backlog y Event Storming para identificar necesidades, organizar requisitos y modelar el dominio de EcoMind. Asimismo, desarrollé el Bounded Context Canvas de Community y participé en la definición de su arquitectura, documentando la estructura de las capas Domain, Interface, Application e Infrastructure, junto con los diagramas de componentes, código, clases del dominio y diseño de base de datos. <br><br> *TB1* <br> Participé en el desarrollo del Backend, de la aplicación Android y del informe. Me encargué del despliegue del Backend, para lo cual investigué y apliqué el despliegue del servicio en Render con una base de datos PostgreSQL y la configuración de variables de entorno. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> Documenté entrevistas a padres de familia para conocer sus hábitos ambientales y necesidades. También reforcé mis conocimientos de Domain-Driven Design al desarrollar el diseño del bounded context Gamification, definiendo sus responsabilidades, reglas de negocio y capas, y elaborando sus diagramas de componentes, clases y base de datos. <br><br> *TB1* <br> Participé en el desarrollo del Backend, de la aplicación Android y del informe. Estuve a cargo del Sprint 1, donde apliqué los conceptos de Scrum para planificar y organizar el trabajo del equipo en la implementación de EcoMind. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Apliqué Domain-Driven Design táctico y C4 Model con Structurizr DSL y PlantUML para documentar el bounded context Users, actualizando sus conocimientos en arquitectura de software y diagramación como código. <br><br> *TB1* <br> Participé en el desarrollo del Backend, de la aplicación Android y del informe. Actualicé los diagramas C4 con Structurizr DSL, ajustándolos para representar el Backend como un único contenedor y generando las vistas de componentes de cada módulo, lo que reforzó mi dominio de la documentación de arquitectura como código. | *AV1* <br> El equipo reconoce que el desarrollo de EcoMind exigió adquirir y aplicar conocimientos nuevos en metodologías de diseño estratégico y táctico y en herramientas de documentación como código, evidenciando que la actualización continua de conocimientos es indispensable para estructurar soluciones de software escalables y mantenibles. <br><br> *TB1* <br> El equipo reconoce que pasar del diseño a la implementación requirió incorporar conocimientos nuevos en desarrollo del Backend y de la aplicación Android, despliegue en un proveedor cloud, diseño de flujos y prototipos de interfaz, y planificación mediante Scrum, y que mantener los diagramas y el informe alineados con el producto construido exige actualizar los conocimientos de forma continua. <br> |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aponte Pablo, Isabel Luisa** <br>*AV1* <br> Reforcé mis conocimientos de Lean UX, Domain-Driven Design y arquitectura de software. Las revisiones realizadas me permitieron corregir errores y reconocer la importancia de investigar, recibir retroalimentación y mantener un aprendizaje constante. <br><br> *TB1* <br> Al elaborar los User Flow Diagrams comprobé que los flujos deben revisarse y ajustarse a medida que la aplicación avanza. Esto me hizo reconocer que el aprendizaje continuo y la revisión conjunta con el equipo son necesarios para que el diseño se mantenga coherente con lo implementado. <br><br> **Astocondor Bazan, Alejandra Isabel** <br>*AV1* <br> A partir de la retroalimentación brindada por el docente sobre nuestro EventStorming, reconocí errores en la identificación y organización de algunos elementos del dominio. Esta experiencia me permitió comprender la importancia de revisar continuamente los conceptos aprendidos, aceptar observaciones y aplicarlas para mejorar el modelado de EcoMind. Asimismo, reforzó mi compromiso de continuar profundizando en Domain-Driven Design y arquitectura de software para desarrollar soluciones más claras y coherentes. <br><br> *TB1* <br> Al elaborar los prototipos reconocí que el diseño de interfaces requiere probar y mejorar las propuestas de forma repetida. Esta experiencia reforzó mi compromiso de seguir profundizando en diseño de la experiencia de usuario y de incorporar las observaciones recibidas. <br><br> **Dulanto Espino, Leo César** <br>*AV1* <br> Durante el desarrollo del bounded context Community reconocí la necesidad de continuar fortaleciendo mis conocimientos en Domain-Driven Design, arquitectura de software y modelado de dominios. La elaboración de los diagramas y la integración de los requisitos me permitió identificar la importancia de revisar, actualizar y aplicar continuamente nuevos conocimientos para mejorar la estructura y coherencia de una solución de software. <br><br> *TB1* <br> El despliegue del Backend me hizo reconocer que las herramientas y servicios cloud cambian con frecuencia y que resolver los problemas de configuración exige investigar y aprender de forma constante. Esto reforzó mi interés en seguir actualizando mis conocimientos de despliegue y de infraestructura. <br><br> **Pajes Leon, Mauricio Luis** <br>*AV1* <br> El diseño de Gamification me permitió reconocer la importancia de revisar y reforzar mis conocimientos de arquitectura de software. Las revisiones realizadas me ayudaron a comprender mejor las responsabilidades de cada parte de la solución y la necesidad de mantener un aprendizaje constante para mejorar mis diseños y mi desempeño profesional. <br><br> *TB1* <br> Planificar el Sprint 1 me permitió reconocer que organizar el trabajo de un equipo requiere revisar y ajustar lo planificado según el avance real. Esta experiencia me mostró la necesidad de seguir aprendiendo sobre Scrum y la gestión de proyectos de software. <br><br> **Philco Mota, Katty Yolanda** <br>*AV1* <br> Reconocí que el dominio de nuevas herramientas de documentación y metodologías requieren actualización constante, lo que reforzó mi objetivo de especializarse en backend y buenas prácticas de arquitectura. <br><br> *TB1* <br> Al actualizar los diagramas C4 tras las observaciones del docente, reconocí que la documentación de arquitectura debe corregirse y mantenerse junto con el producto. Esto reforzó mi objetivo de especializarme en backend y en buenas prácticas de arquitectura de software. | *AV1* <br> El equipo reconoce que el desarrollo de un producto con múltiples bounded contexts, cada uno con sus propias decisiones de arquitectura y persistencia, exige mantenerse en aprendizaje constante frente a nuevas herramientas, patrones de integración entre contextos y buenas prácticas de documentación. <br><br> *TB1* <br> El equipo reconoce que las observaciones del docente, la implementación del Backend y de la aplicación Android y el despliegue del servicio mostraron que la documentación y el producto deben revisarse y corregirse de forma continua, por lo que el aprendizaje permanente es parte del trabajo de un equipo de desarrollo. <br> |
 
 
 <div style="page-break-before: always;"></div>
@@ -523,7 +547,7 @@ La falta de conciencia ambiental es el resultado de un proceso en el que los apr
 
 En el Perú, la gestión de residuos sólidos evidencia serias limitaciones. Aunque la valorización de residuos municipales pasó de 17 189 toneladas en 2014 a 148 559 toneladas en 2022, este volumen representa apenas el 1,8 % del total generado a nivel nacional (Ministerio del Ambiente, 2024), lo que refleja un bajo nivel de aprovechamiento de materiales reciclables.
 
-**Figura 1**
+**Figura 2**
 *Porcentaje de residuos sólidos municipales valorizados con respecto a lo generado según departamento*
 
 <img src="assets/img/figures/image021.png" width="500">
@@ -532,7 +556,7 @@ Nota.*Adaptado de Anuario estadístico del sector Ambiente 2023, por el Minister
 
 Un estudio realizado en Madre de Dios mostró que el 35,4 % de los estudiantes tenía un nivel moderado de conciencia ambiental, el 28,7 % un nivel alto y solo el 7,2 % alcanzó un nivel muy alto, mientras que un 5,5 % se ubicó en un nivel muy bajo. Respecto a las actitudes proambientales, el 43,7 % presentó niveles parcialmente adecuados y apenas un 3,3 % logró niveles muy adecuados (Estrada, et al. 2022). 
 
-**Figura 2**
+**Figura 3**
 
 *Resultados descriptivos de conciencia ambiental y las actitudes proambientales de los estudiantes de la Institución Educativa Almirante Miguel Grau Seminario de Madre de Dios, Perú.*
 
@@ -695,7 +719,7 @@ Esta subsección sintetiza el problema, los usuarios, la propuesta de valor y lo
 
 Link: https://canva.link/9mzenct40v5ocok
 
-**Figura 3**
+**Figura 4**
 
 *Lean Product Canvas*
 
@@ -964,7 +988,7 @@ Esta subsección interpreta los hallazgos de las entrevistas y relaciona los pat
      
 **2. Nivel de confianza con tecnología (celulares/aplicaciones)**
 
-**Figura 4**
+**Figura 5**
 
 *Nivel de confianza en la tecnología - Padres*
 
@@ -984,7 +1008,7 @@ En cuanto a las acciones ambientales realizadas en casa, todos afirmaron practic
 
 **6. Dificultades al enseñar hábitos sostenibles a los hijos**
 
-**Figura 5**
+**Figura 6**
 
 *Dificultades en las enseñanzas - Padres*
 
@@ -1012,7 +1036,7 @@ Con respecto a las expectativas de aprendizaje ambiental, los padres desean que 
 
 Respecto a sus actividades en el tiempo libre, los escolares disfrutan jugar en consola o computadora y pasar tiempo en plataformas digitales para la visualización de vídeos.
 
-**Figura 6**
+**Figura 7**
 
 Uso de aparatos tecnológicos- Escolares
 
@@ -1028,7 +1052,7 @@ Dentro de las acciones ambientales en casa practican apagar luces y ahorrar agua
 
 **5. Motivación para hacerlo:**
 
-**Figura 7**
+**Figura 8**
 
 *Motivación de escolares*
 
@@ -1036,14 +1060,14 @@ Dentro de las acciones ambientales en casa practican apagar luces y ahorrar agua
  
 **7. Aprender con juegos o retos**
 
-**Figura 8**
+**Figura 9**
 *Juegos educativos - Escolares*
 
 <img src="assets/img/figures/image048.png" width="330"> 
  
 **8. Preferencias entre lo digital o papel**
 
-**Figura 9**
+**Figura 10**
 
 *Preferencia en los escolares*
 
@@ -1070,12 +1094,12 @@ Los user personas representan a los principales perfiles de usuarios de EcoMind 
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 10 (User Persona 1)*  
+*Figura 11 (User Persona 1)*
 <img src="assets/img/figures/image054.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 11 (User Persona 2)*  
+*Figura 12 (User Persona 2)*
 <img src="assets/img/figures/image053.png" width="530">
 
 ### 2.3.2. User Task Matrix
@@ -1083,12 +1107,12 @@ La User Task Matrix organiza las tareas principales que realizan los segmentos o
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 12 (User Task Matrix 1)*  
+*Figura 13 (User Task Matrix 1)*
 <img src="assets/img/figures/imagen083.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 13 (User Task Matrix 2)*  
+*Figura 14 (User Task Matrix 2)*
 <img src="assets/img/figures/imagen082.png" width="530">
 
 
@@ -1097,12 +1121,12 @@ El User Journey Mapping muestra las etapas de interacción de cada segmento obje
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 14 (User Journey Mapping 1)*  
+*Figura 15 (User Journey Mapping 1)*
 <img src="assets/img/figures/image059.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 15 (User Journey Mapping 2)*  
+*Figura 16 (User Journey Mapping 2)*
 <img src="assets/img/figures/image057.png" width="530">
 
 ### 2.3.4. Empathy Mapping
@@ -1110,12 +1134,12 @@ Los mapas de empatía sintetizan lo que los usuarios piensan, sienten, dicen y h
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 16 (Empathy Mapping 1)*  
+*Figura 17 (Empathy Mapping 1)*
 <img src="assets/img/figures/image063.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 17 (Empathy Mapping 2)*  
+*Figura 18 (Empathy Mapping 2)*
 <img src="assets/img/figures/image062.png" width="530">
 
 ### 2.3.5. Big Picture EventStorming
@@ -1124,12 +1148,28 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 
 **Paso 1: Identificación de eventos.** Se identificaron y organizaron los eventos más importantes que ocurren durante la interacción de los usuarios con la plataforma.
 
+**Figura 19**
+
+*Identificación de eventos en el Big Picture EventStorming.*
+
 ![event_Storming](assets/img/figures/EventStorming01.jpg)
 
 **Paso 2: Organización de los eventos.** Los eventos de dominio identificados se organizaron cronológicamente, comenzando por el happy path, que representa el flujo exitoso principal. Luego, se añadieron escenarios alternativos para mostrar posibles errores, decisiones diferentes y ramificaciones dentro de los procesos de GreenMinds.
 
+**Figura 20**
+
+*Organización de eventos en el Big Picture EventStorming.*
+
 ![event_Storming2](assets/img/figures/EventStorming020.jpg)
+**Figura 21**
+
+*Continuación de la organización de eventos.*
+
 ![event_Storming](assets/img/figures/EventStorming021.jpg)
+
+Los eventos se declararon como hechos ya ocurridos dentro del dominio, redactados en participio pasado y con el sustantivo que identifica lo que sucedió (por ejemplo, cuenta registrada, reto completado o compra confirmada). Cada evento se escribió en una nota independiente y se ubicó en el área del negocio a la que pertenece, con el fin de que el vocabulario coincida con el de la Ubiquitous Language de la sección 2.3.6.
+
+En el Paso 1, las notas quedaron agrupadas en seis áreas: retos y misiones, logros y ranking, tienda, perfil, familia y amistades, comunidad y aprendizaje, y cuenta y sesión. En el Paso 2, cada grupo se ordenó en una línea de tiempo, de manera que se distinguen el flujo principal y las ramas alternativas.
 
 ### 2.3.6. Ubiquitous Language
 
@@ -1186,11 +1226,11 @@ El siguiente glosario establece los términos compartidos que el equipo y los st
 | **Virtual Purchase (Compra virtual)** | Adquisición de un producto de la tienda utilizando gemas. |
 
 ## 2.4. Requirements Specification
-Esta sección reúne la especificación de requerimientos de EcoMind mediante historias de usuario, mapas de impacto y el product backlog, estableciendo una base para planificar el desarrollo de la solución.
+Esta sección reúne la especificación de requisitos de EcoMind mediante historias de usuario, mapas de impacto y el product backlog, estableciendo una base para planificar el desarrollo de la solución.
 
 ### 2.4.1. User Stories
 
-En esta sección se presentan las épicas y user stories definidas para EcoMind, construidas a partir del análisis de la problemática, los segmentos objetivo y las necesidades identificadas durante el proceso de needfinding. Las historias de usuario permiten traducir los requerimientos funcionales y técnicos en unidades de trabajo claras, priorizables y verificables para el equipo de desarrollo.
+En esta sección se presentan las épicas y user stories definidas para EcoMind, construidas a partir del análisis de la problemática, los segmentos objetivo y las necesidades identificadas durante el proceso de needfinding. Las historias de usuario permiten traducir los requisitos funcionales y técnicos en unidades de trabajo claras, priorizables y verificables para el equipo de desarrollo.
 
 Cada user story describe una necesidad desde la perspectiva del usuario o del equipo técnico, especificando el valor esperado y los criterios de aceptación necesarios para validar su cumplimiento. Estas historias abarcan los principales módulos de la solución, incluyendo retos gamificados, participación familiar, comunidad, ranking, perfil, monetización, autenticación y servicios backend.
 
@@ -3998,6 +4038,10 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 
 <div align="center">
  
+**Figura 22**
+
+*Impact Mapping del segmento de padres de familia.*
+
 ![Impact_Map_Padre](assets/img/figures/Impact-map-car.jpg)
 
 
@@ -4009,6 +4053,10 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 
 <div align="center">
 
+**Figura 23**
+
+*Impact Mapping del segmento de niños de primaria.*
+
 ![Impact_Map_Niño](assets/img/figures/Impact-map-val.jpg)
 
 </div>
@@ -4017,6 +4065,10 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 ### 2.4.3. Product Backlog
 
 Para establecer el orden de prioridad de las historias de usuario planteadas para el desarrollo de la aplicación, realizamos su respectivo product backlog, con el cual podemos ver tanto el orden adecuado, como su estimación de tiempo para su desarrollo, con lo cual, con lo cual podremos administrar bien las fases de desarrollo de la aplicación. Para ello nos ayudamos de la herramienta de Trello: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
+
+**Figura 24**
+
+*Product Backlog de EcoMind.*
 
 ![Product Backlog](assets/img/figures/Product_Backlog.png)
 
@@ -4119,11 +4171,35 @@ Esta sección presenta el modelado estratégico del dominio de EcoMind, incluyen
 
 A partir de los resultados obtenidos en el Big Picture EventStorming, se realizó una sesión de EventStorming para profundizar en el modelado del dominio de EcoMind. Los procesos identificados se desarrollaron con mayor detalle mediante la incorporación de eventos, comandos, actores, políticas y otros elementos.
 
+**Figura 25**
+
+*EventStorming del contexto Quests.*
+
 ![event_Storming2](assets/img/figures/EventstormingQuests.jpg)
+**Figura 26**
+
+*EventStorming del contexto Community.*
+
 ![event_Storming](assets/img/figures/EventstormingCommunity.jpg)
+**Figura 27**
+
+*EventStorming del contexto Gamification.*
+
 ![event_Storming](assets/img/figures/EventstormingGamification.jpg)
+**Figura 28**
+
+*EventStorming del contexto Monetization.*
+
 ![event_Storming](assets/img/figures/EventstormingMonetization.jpg)
+**Figura 29**
+
+*EventStorming del contexto Users.*
+
 ![event_Storming](assets/img/figures/EventstormingUsers.jpg)
+**Figura 30**
+
+*EventStorming del contexto IAM.*
+
 ![event_Storming](assets/img/figures/EventstormingIAM.jpg)
 
 #### 2.5.1.1. Candidate Context Discovery
@@ -4149,7 +4225,7 @@ Al comienzo de la sesión se contaba con siete bounded contexts candidatos:
 
 Esta división representaba una primera aproximación a las capacidades del sistema. Sin embargo, al revisar los comandos, eventos, actores y reglas de negocio de cada contexto, se encontraron responsabilidades que debían separarse y otras que podían consolidarse.
 
-**Figura 10**
+**Figura 31**
 
 *Propuesta inicial de bounded contexts del EventStorm.*
 
@@ -4161,7 +4237,7 @@ Durante el análisis del bounded context **Retos**, se observó que este concent
 
 Se determinó que los materiales educativos poseen un propósito propio: facilitar el aprendizaje del usuario independientemente de su participación en un reto. Además, su contenido, organización y evolución responden a reglas diferentes de las utilizadas para gestionar retos. Por esta razón, se extrajeron de Retos los eventos y funcionalidades relacionados con la consulta de materiales, creando el bounded context **Learning**.
 
-**Figura 11**
+**Figura 32**
 
 *Separación de Learning a partir del bounded context Retos.*
 
@@ -4217,7 +4293,7 @@ Después de analizar, separar y consolidar las distintas responsabilidades, se d
 | Learning | Gestionar los materiales educativos y las experiencias de aprendizaje |
 | Community | Gestionar la interacción y participación entre los miembros de la comunidad |
 
-**Figura 12**
+**Figura 33**
 
 *Resultado final de la sesión de Candidate Context Discovery.*
 
@@ -4225,24 +4301,43 @@ Después de analizar, separar y consolidar las distintas responsabilidades, se d
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
-Luego de identificar los bounded contexts candidatos, se realizó una sesión de Flow Modeling con el propósito de representar la colaboración entre las distintas capacidades del dominio. Para ello, se seleccionaron los flujos que generan mayor valor para los usuarios y se identificaron los comandos, eventos y consultas intercambiados entre los bounded contexts.
+Luego de identificar los bounded contexts candidatos, se realizó una sesión de Flow Modeling con el propósito de representar la colaboración entre las distintas capacidades del dominio. Para ello se aplicó la técnica de Domain Storytelling sobre los flujos que generan mayor valor para los usuarios. En cada diagrama, el usuario y los bounded contexts participantes aparecen como actores, y los mensajes que intercambian (comandos, eventos y consultas) se numeran según el orden en que ocurren. Se modelaron cuatro escenarios: completar una quest y compartir un logro, invitar usuarios a una quest colaborativa, comprar y recibir un producto, y registrar la cuenta y configurar el perfil.
 
-**Figura 13**
+**Escenario 1: completar una quest y compartir un logro**
+
+Este escenario describe el recorrido en el que un usuario cumple una quest y decide compartir el logro obtenido. Participan el Usuario y los bounded contexts Quests, Gamification y Community. El usuario envía el comando Completar Quest (1) a Quests, que valida la quest (2) y publica el evento Quest Completada (3) dirigido a Gamification. Gamification asigna las recompensas (4) y comunica al usuario el evento Logro desbloqueado (5). Después, el usuario envía el comando Compartir logro (6) a Gamification, que informa a Community mediante el evento Publicación de logro solicitada (7). Community crea la publicación (8) y notifica al usuario el evento Publicación creada (9). Quests solo publica el hecho de que la quest fue completada y Community interviene únicamente cuando el usuario decide compartir el logro.
+
+**Figura 34**
 
 *Domain Storytelling del flujo de participación en quests y publicación de un logro.*
 
 ![Flow1](assets/img/figures/Flow1.jpg)
-**Figura 14**
+
+**Escenario 2: invitar usuarios a una quest colaborativa**
+
+En este escenario un usuario anfitrión invita a un usuario amigo a participar en una quest colaborativa. Intervienen Quests y Users. El anfitrión envía el comando Invitar usuario (1) a Quests, que valida con Users la relación con el invitado (2), crea la invitación (3) y comunica al amigo el evento Invitación creada (4). Cuando el amigo envía el comando Aceptar invitación (5), Quests vuelve a validar la relación con Users (6), incorpora al participante (7) y registra el evento Participante incorporado (8). La relación con el invitado se verifica tanto al enviar la invitación como al aceptarla, y Quests consulta a Users como cliente, según el patrón Customer/Supplier definido en la sección 2.5.2.
+
+**Figura 35**
 
 *Domain Storytelling del flujo de invitación a una quest colaborativa.*
 
 ![Flow1](assets/img/figures/Flow2.jpg)
-**Figura 15**
+
+**Escenario 3: compra y entrega de productos**
+
+El tercer escenario representa la compra de productos dentro de la aplicación. Participan el Usuario, Monetization, la API de pago elegido y, según el tipo de producto, Gamification y Users. El usuario envía el comando Comprar producto (1) y Monetization procesa la compra (2). Si el producto son gemas, Monetization solicita el pago (2A) a la API de pago elegido y recibe el evento Pago procesado (3A). Si el producto es un potenciador o un protector de racha, Monetization emite el evento Potenciador comprado (3B) hacia Gamification. Si es un avatar o un sombrero, emite el evento Avatar comprado (3C) hacia Users. Finalmente, Monetization entrega el producto (4) y comunica al usuario el evento Producto entregado (5).
+
+**Figura 36**
 
 *Domain Storytelling del flujo de compra y entrega de productos.*
 
 ![Flow1](assets/img/figures/Flow3.jpg)
-**Figura 16**
+
+**Escenario 4: registro y configuración del usuario**
+
+Este escenario cubre el inicio del ciclo de vida del usuario en la plataforma. Participan el Usuario, IAM y Users. El usuario envía el comando Registrar cuenta (1) a IAM, que crea la cuenta y registra el evento Cuenta creada (2). Luego IAM envía a Users el comando Crear perfil (3) y Users registra el evento Perfil creado (5). Posteriormente, el usuario puede enviar el comando Editar Perfil (6) a Users, que registra el evento Perfil editado (7). La cuenta y el perfil permanecen en contextos distintos: IAM solo solicita la creación del perfil y Users administra su contenido, como se describe en la relación entre ambos contextos en la sección 2.5.2.
+
+**Figura 37**
 
 *Domain Storytelling del flujo de registro y configuración del perfil.*
 
@@ -4250,56 +4345,77 @@ Luego de identificar los bounded contexts candidatos, se realizó una sesión de
 #### 2.5.1.3. Bounded Context Canvases
 Después de identificar los candidate bounded contexts, se elaboró un Bounded Context Canvas para cada uno, comenzando por los contextos de mayor importancia para el negocio. El objetivo fue precisar sus límites, responsabilidades, lenguaje, reglas y dependencias antes de tomar decisiones de diseño posteriores.
 
-La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique.
+La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique. En cada canvas se registraron el propósito del contexto, su clasificación estratégica, los mensajes que recibe y envía a sus colaboradores, el lenguaje ubicuo, las decisiones de negocio, los supuestos, las métricas de verificación y las preguntas abiertas.
 
-**1. Bounded Context Canvas Quests**
-**Figura 17**
+**1. Bounded Context Canvas de Quests**
+
+El canvas de Quests lo define como un contexto core, con modelo de negocio de engagement y evolución custom built. Su propósito es permitir que los usuarios participen de manera individual o colaborativa en misiones orientadas al cuidado del medio ambiente, y gestionar las misiones, sus actividades, participantes, progreso y validación. Recibe de anfitriones, invitados y padres los comandos para iniciar, completar y progresar una quest, crear y administrar sesiones colaborativas, aceptar o rechazar invitaciones y gestionar planes familiares, además de las consultas de progreso y detalle. De Users recibe el evento Relación entre usuarios eliminada. Hacia Gamification y Community envía los eventos Quest completada, Quest colaborativa completada y Plan familiar completada, y hacia Users envía la consulta Validar relación. Entre sus decisiones de negocio se encuentran que las quests colaborativas requieren entre 2 y 5 participantes, que solo el anfitrión puede iniciarlas, que los participantes deben tener una relación de amistad o parentesco con el anfitrión y que una quest solo se completa si su progreso alcanza el 100 %.
+
+**Figura 38**
 
 *Bounded Context Canvas del contexto Quests.*
 
 ![BoundedContextCanvasQuests](assets/img/figures/CanvasQuest.jpg)
 
-**2. Bounded Context Canvas Community**
-**Figura 18**
+**2. Bounded Context Canvas de Community**
+
+Community se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios interactúen dentro de comunidades en las que comparten logros, eventos y metas comunitarias, y gestiona comunidades, publicaciones, eventos y metas. Recibe de administradores y padres los comandos de inscripción a comunidades, eventos y metas, la reacción a publicaciones, y la creación, edición y eliminación de comunidades, eventos y metas. También recibe de Quests el evento Reto completado y de Gamification el evento Logro obtenido por usuario, y atiende consultas como buscar comunidades, listar eventos y logros, y mostrar eventos en el mapa mediante la API de Leaflet. Hacia Gamification envía el evento Participación comunitaria registrada y hacia Users la consulta Consultar familia usuario. Sus reglas indican, por ejemplo, que solo los padres pueden crear una comunidad, que un usuario puede inscribirse como máximo a tres metas comunitarias a la vez y que un niño no puede inscribirse a un evento por su cuenta.
+
+**Figura 39**
 
 *Bounded Context Canvas del contexto Community.*
 
 ![BoundedContextCanvasCommunity](assets/img/figures/CanvasCommunity.png)
 
-**3. Bounded Context Canvas Gamification**
-**Figura 19**
+**3. Bounded Context Canvas de Gamification**
+
+Gamification se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es reconocer la participación y la constancia de los usuarios mediante ecopoints, experiencia, recompensas, rachas y logros, y proporcionar los datos para consultar rankings y compartir logros de forma voluntaria. Recibe de niños y padres los comandos de consulta de rankings (local, global, de amigos y de familias), de filtrado de logros y de compartir o no compartir un logro. De Quests recibe los eventos de quest, quest colaborativa y plan familiar completados, de Monetization los eventos Multiplicador comprado, Protector adquirido y Racha protegida, y de Community el evento Participación comunitaria registrada. Envía los eventos Logro obtenido por usuario, Recompensa brindada al usuario, Logro vinculado al usuario, Nuevo puntaje registrado y Posiciones de ranking actualizadas, y hacia Monetization el evento Racha en riesgo. Entre sus reglas, las recompensas se otorgan una sola vez por ejecución y beneficiario, el primer reto diario válido incrementa la racha una vez por día, los multiplicadores solo aumentan la experiencia y compartir un logro es voluntario.
+
+**Figura 40**
 
 *Bounded Context Canvas del contexto Gamification.*
 
 ![BoundedContextCanvasGamification](assets/img/figures/CanvasGamification.png)
 
-**4. Bounded Context Canvas Monetization**
-**Figura 20**
+**4. Bounded Context Canvas de Monetization**
+
+Monetization se clasifica como contexto supporting, con modelos de engagement y de monetización, y evolución custom built. Su propósito es permitir el acceso a la tienda para consultar y adquirir cosméticos, avatares, multiplicadores y protectores utilizando gemas, así como comprar paquetes de gemas con distintos métodos de pago, consultar el saldo y administrar los productos obtenidos. Recibe de niños y padres los comandos de navegación y compra en la tienda, la selección del método de pago (tarjeta de crédito o débito, Yape o PayPal) y los datos necesarios para pagar. De Gamification recibe el evento Racha en riesgo y del proveedor de pago los eventos Pago aprobado, Pago pendiente y Pago rechazado. Envía a Gamification los eventos Multiplicador comprado, Protector adquirido y Racha protegida, a Users los eventos Avatar comprado, Cosmético comprado y Cosmético equipado, al proveedor de pago los comandos Crear pago, Procesar pago y Cancelar pago, y al usuario los eventos Compra completada, Compra rechazada y Gemas acreditadas. Sus reglas establecen, entre otras, que una compra solo se completa si el usuario tiene suficientes gemas, que los protectores solo pueden adquirirse con una racha activa y que las gemas se agregan a la billetera únicamente tras la confirmación del proveedor de pago.
+
+**Figura 41**
 
 *Bounded Context Canvas del contexto Monetization.*
 
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
-**5. Bounded Context Canvas Users**
-**Figura 21**
+**5. Bounded Context Canvas de Users**
+
+Users se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios administren su información personal, perfil, familia y amistades, y configuren sus preferencias de idioma, tema y notificaciones. Recibe de niños y padres los comandos para visualizar, editar y compartir el perfil, establecer un compromiso, administrar amistades y cambiar los ajustes de cuenta y preferencias. Del padre recibe los comandos para crear una familia, agregar o eliminar integrantes, actualizar roles y editar el nombre de la familia, y de Quests recibe la consulta Validar relación. Envía a Quests el evento Relación entre usuarios eliminada, a Monetization la consulta Consultar cosmético equipado y a los usuarios los eventos Perfil actualizado, Solicitud de amistad enviada, Compromiso actualizado, Idioma actualizado, Tema actualizado y Familia registrada, entre otros. Sus reglas indican que un usuario puede tener hasta 100 amigos, que solo los mayores de 18 años pueden crear un grupo familiar, que una familia tiene un máximo de 5 miembros y que, al eliminar a un amigo, este es expulsado de las quests colaborativas en las que participaban juntos.
+
+**Figura 42**
 
 *Bounded Context Canvas del contexto Users.*
 
 ![BCUsers.jpg](assets/img/figures/canvasUsers.jpg)
 
-**5. Bounded Context Canvas Learning**
-**Figura 22**
+**6. Bounded Context Canvas de Learning**
+
+Learning se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que niños y padres accedan a materiales educativos sobre el medio ambiente, utilicen filtros de búsqueda, guarden contenidos como favoritos y descarguen materiales para consultarlos sin conexión. Recibe de los usuarios los comandos para abrir la pestaña “Aprende más”, seleccionar filtros y materiales, solicitar y gestionar descargas, y agregar o eliminar favoritos, además de las consultas de catálogo, detalle y favoritos. Responde con los resultados de esas consultas y con los eventos Material descargado, Favorito agregado y Favorito eliminado. El canvas no registra colaboradores de otros bounded contexts. Entre sus reglas, se permite el acceso sin conexión a los materiales descargados, se evita duplicar favoritos y solo se muestran los materiales publicados y activos.
+
+**Figura 43**
 
 *Bounded Context Canvas del contexto Learning.*
 
-![BCUsers.jpg](assets/img/figures/LearningCanvas.jpg)
+![BCLearning.jpg](assets/img/figures/LearningCanvas.jpg)
 
-**7. Bounded Context Canvas IAM**
-**Figura 23**
+**7. Bounded Context Canvas de IAM**
+
+IAM (Identity and Access) se clasifica como contexto supporting y generic, con modelo de negocio de compliance y evolución custom built, y su rol de dominio es gateway context. Su propósito es gestionar la identidad digital y el acceso seguro a EcoMind, registrando credenciales, autenticando usuarios, emitiendo y validando tokens de acceso y recuperando contraseñas. Recibe de los usuarios los comandos Registrarse, Iniciar sesión, Verificar email, Cerrar sesión y los de recuperación de contraseña, además de la consulta Obtener usuario actual. Envía a un servicio de correo los comandos Enviar correo de verificación y Enviar correo de recuperación de cuenta, y a Users el comando Crear perfil. Sus reglas establecen que una cuenta solo puede tener un correo asociado, que la cuenta no se crea hasta verificar el correo y que las verificaciones expiran a los 20 minutos.
+
+**Figura 44**
 
 *Bounded Context Canvas del contexto Identity and Access.*
 
-![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
+![BCIAM.jpg](assets/img/figures/canvasIAM.jpg)
 
 ### 2.5.2. Context Mapping
 
@@ -4315,7 +4431,7 @@ De esa discusión surgieron cuatro decisiones:
 - La cuarta fue reducir el shared kernel al mínimo deliberado: únicamente los identificadores `UserId` (equivalente al `AccountId` emitido por IAM) y `FamilyId`, sin que ningún contexto comparta lógica ni estructura además de esos identificadores opacos, bajo el criterio de que un shared kernel grande es un bounded context que no se llegó a dibujar.
 
 
-**Figura 24**
+**Figura 45**
 
 *Context Map de EcoMind.*
 
@@ -4355,7 +4471,7 @@ En esta sección se presenta el Context Diagram de EcoMind, elaborado con C4 Mod
 
 Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden a la plataforma ya registrados, y el visitante, que llega primero al Landing Page antes de crear una cuenta. EcoMind se comunica con cuatro sistemas externos: el servicio de correo Resend, utilizado para enviar la verificación de cuenta y la recuperación de contraseña; las pasarelas de pago con tarjeta, Yape y PayPal, utilizadas para las compras dentro de Monetization y Leaflet utilizado para mostrar en un mapa los eventos comunitarios cercanos a la ubicación del usuario.
 
-**Figura 25**
+**Figura 46**
 
 *Diagrama C4 de contexto de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4365,10 +4481,9 @@ Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden
 
 En esta sección se presenta el Container Diagram de EcoMind, el cual muestra los elementos de alto nivel de la arquitectura de software, la distribución de responsabilidades entre ellos y las principales decisiones de tecnología.
 
-La solución está compuesta por dos productos con los que interactúa el usuario final: la aplicación móvil `EcoMind Android Application`, desarrollada en Kotlin, y el `Landing Page`, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta. La aplicación Android consume de forma directa, mediante HTTPS/JSON y autenticación Bearer JWT, siete APIs REST independientes, cada una correspondiente a un bounded context: `IAM API`, `Users API`, `Learning API`, `Quests API`, `Community API`, `Gamification API` y `Monetization API`.
+La solución está compuesta por cuatro contenedores. La aplicación móvil EcoMind Android Application, desarrollada en Kotlin, y el Landing Page, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta, son los productos con los que interactúa el usuario final. El Backend API, desarrollado en Java con Spring Boot, es un único contenedor que expone el servicio RESTful y organiza la lógica del dominio en los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization, que corresponden a los bounded contexts definidos en la sección 2.5.1 y se despliegan como una sola unidad. Los datos de todos los módulos se almacenan en EcoMind Database, una base de datos PostgreSQL a la que el Backend API accede mediante JDBC. La aplicación Android consume el Backend API por HTTPS con mensajes JSON y token Bearer JWT, y el Backend API se comunica con Resend para el envío de correos y con las pasarelas de pago con tarjeta, Yape y PayPal.
 
-
-**Figura 26**
+**Figura 47**
 
 *Diagrama C4 de contenedores de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4376,10 +4491,13 @@ La solución está compuesta por dos productos con los que interactúa el usuari
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura física y lógica sobre la que se ejecutan los containers.
+En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura sobre la que se ejecutan los containers definidos en la sección 2.5.3.2. El diagrama muestra un único entorno de producción con cuatro nodos de despliegue.
 
+La aplicación EcoMind Android Application se ejecuta en el dispositivo Android del usuario y consume el Backend API mediante HTTPS. El Landing Page, al ser un sitio web estático, se publica en GitHub Pages. El Backend API se despliega en Render como un solo servicio web, de modo que los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization se ejecutan juntos como una única unidad de despliegue. Los datos de todos los módulos se almacenan en EcoMind Database, una base de datos PostgreSQL a la que el Backend API accede mediante JDBC.
 
-**Figura 27**
+En el diagrama se representan solo los containers propios de EcoMind. Los servicios externos de correo y de pago ya se describen en el diagrama de contenedores y no forman parte de la infraestructura desplegada por el equipo.
+
+**Figura 48**
 
 *Diagrama C4 de despliegue de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4560,15 +4678,17 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas presentan los componentes de IAM en la aplicación Android y en la API backend. La vista móvil comprende la interfaz, los ViewModels, los casos de uso, el acceso remoto y el almacenamiento seguro del access token. La vista de la API reúne los controllers, servicios de aplicación, elementos de dominio, persistencia, seguridad JWT e integraciones con Resend y Users.
+Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 49 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Secure Token Storage, que guarda el access token de forma protegida y lo elimina al cerrar sesión.
 
-**Figura 28**
+La Figura 50 muestra el módulo IAM dentro del Backend API. Las solicitudes protegidas atraviesan primero el Bearer Authorization Filter del grupo Shared, que valida el access token mediante los Token & Password Services y reenvía la solicitud autenticada a los controllers. Las operaciones de registro, verificación, inicio de sesión y recuperación de contraseña son rutas públicas y llegan directamente a los IAM REST Controllers. Estos despachan commands y queries a los IAM Application Services, que aplican las reglas del IAM Domain Model, emiten los tokens y aplican el hash a las contraseñas, y persisten los datos mediante los IAM Persistence Adapters en EcoMind Database. Los servicios de aplicación también solicitan al Email Service Adapter el envío de correos de verificación y recuperación mediante Resend, y al Users Context Client la creación del perfil, que el IAM Context Listener de Users recibe como el command CreateProfile.
+
+**Figura 49**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context IAM, elaborado con Structurizr DSL.*
 
 ![C4I](assets/img/figures/ComponentsIAM1.png)
 
-**Figura 29**
+**Figura 50**
 
 *Diagrama C4 de componentes de la API del bounded context IAM, elaborado con Structurizr DSL.*
 
@@ -4582,7 +4702,7 @@ Los diagramas de código describen el modelo de dominio y su estructura de persi
 
 El diagrama de clases del Domain Layer representa los aggregates, entities, value objects, domain services y repositories que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación.
 
-**Figura 30**
+**Figura 51**
 
 *Diagrama de clases de la capa de dominio del bounded context IAM, elaborado con PlantUML.*
 
@@ -4592,7 +4712,7 @@ El diagrama de clases del Domain Layer representa los aggregates, entities, valu
 
 El diagrama de base de datos presenta las estructuras de persistencia necesarias para las cuentas, las credenciales, los registros pendientes y los tokens de recuperación. Su diseño conserva únicamente hashes de contraseñas y tokens sensibles, registra sus fechas de expiración y consumo, y garantiza la unicidad del correo normalizado.
 
-**Figura 31**
+**Figura 52**
 
 *Diagrama de diseño de la base de datos del bounded context IAM, elaborado con ERD Editor.*
 
@@ -4784,15 +4904,17 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 | `Monetization` | Proporciona el cosmético equipado y el balance de gemas que se muestran en el perfil. |
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas distribuyen los componentes de Users entre la aplicación Android y la API backend. La vista móvil abarca perfil, familia y amistades; la vista de la API muestra sus controllers, servicios, modelo de dominio, persistencia y colaboraciones con IAM y Quests.
+Los componentes de Users se distribuyen entre la aplicación Android y el módulo Users del Backend API. La Figura 53 corresponde a la vista móvil: Users UI muestra las pantallas de perfil, familia, amistades y cosméticos, y los Users ViewModels exponen estados inmutables a partir de las intenciones de la interfaz. Los Users Use Cases coordinan las operaciones y trabajan con los contratos del Users Repository Implementation, que usa los Users Data Mappers para transformar los DTO de red en modelos de dominio. Los datos remotos se obtienen mediante el Users Remote Data Source, que consume la API de Users con el Bearer JWT.
 
-**Figura 32**
+La Figura 54 muestra el módulo Users dentro del Backend API. Tras el Bearer Authorization Filter, los Users REST Controllers reciben las solicitudes y las convierten en commands y queries mediante los Users Assemblers & Resources. Los Users Application Services aplican las reglas del Users Domain Model y persisten perfiles, familias y amistades con los Users Persistence Adapters. El IAM Context Listener recibe el command CreateProfile enviado por IAM, y los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade. Los demás módulos acceden a los datos de Users mediante el Users Context Facade: Quests con su Users Service Client, Community con su Community Actor Gateway y Gamification con sus Context Service Clients.
+
+**Figura 53**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Users, elaborado con Structurizr DSL.*
 
 ![C4II](assets/img/figures/UsersAndroidComponents.png)
 
-**Figura 33**
+**Figura 54**
 
 *Diagrama C4 de componentes de la API del bounded context Users, elaborado con Structurizr DSL.*
 
@@ -4806,7 +4928,7 @@ Los diagramas de código presentan el modelo de dominio de Users y su estructura
 
 El siguiente diagrama presenta las clases del Domain Layer de Users y las relaciones entre ellas. Incluye el perfil del usuario, sus preferencias de notificación, el grupo familiar con sus integrantes y la relación de amistad entre dos usuarios. También se representan los Command Services y Query Services que orquestan cada operación, así como las políticas de dominio (`FriendshipPolicy` y `FamilyMembershipPolicy`) que protegen la consistencia de las amistades y las familias.
 
-**Figura 34**
+**Figura 55**
 
 *Diagrama de clases de la capa de dominio del bounded context Users.*
 
@@ -4816,7 +4938,7 @@ El siguiente diagrama presenta las clases del Domain Layer de Users y las relaci
 
 El presente diagrama representa el modelo de base de datos del bounded context Users. La tabla `familia` representa al grupo familiar como raíz independiente, con su nombre y el compromiso declarado al crearse, mientras que `miembros_familia` registra a cada integrante con su `rol_familia` y referencia a la familia mediante clave foránea. Se persiste además el perfil del usuario en `perfiles_usuario` con su racha, ecopuntos, saldo de gemas y preferencias de notificación, y las relaciones de amistad en `amistades`, restringidas mediante una restricción `CHECK` para evitar solicitudes dirigidas al propio usuario y una restricción de unicidad para evitar relaciones duplicadas, conforme a `FriendshipPolicy`. El identificador `usuario_id` corresponde al `AccountId` emitido por IAM y se conserva como referencia simple, sin clave foránea entre bounded contexts, para mantener la independencia de Users respecto a IAM.
 
-**Figura 35**
+**Figura 56**
 
 *Diagrama de diseño de la base de datos del bounded context Users.*
 
@@ -5081,9 +5203,11 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente diagrama C4 muestra cómo se relaciona el bounded context de **Learning** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Learning y su base de datos. También representa la validación del token de acceso antes de ejecutar operaciones que requieren un usuario autenticado, como agregar o eliminar materiales favoritos y registrar descargas.
+Los diagramas de Learning muestran la aplicación Android y el módulo Learning del Backend API. La Figura 57 presenta la vista móvil. Learning UI se alcanza desde la navegación de Quests, mediante la opción “Aprende más”, y desde el perfil de Users, para consultar los favoritos. La interfaz muestra el catálogo, el detalle, los favoritos y las descargas, y se comunica con los Learning ViewModels, que invocan los Learning Use Cases. Estos coordinan el catálogo, la búsqueda, los favoritos, las reseñas y las descargas mediante el Learning Repository Implementation. El repositorio solicita las descargas sin conexión al Material Download Manager, basado en WorkManager, y transforma los datos con los Learning Data Mappers hacia el Learning Remote Data Source, que consume los endpoints de Learning con el Bearer JWT, y hacia el Learning Cache, implementado con Room, que guarda el catálogo, los favoritos y los metadatos de descargas.
 
-**Figura 36**
+La Figura 58 muestra el módulo Learning dentro del Backend API. El Bearer Authorization Filter valida el token de acceso antes de reenviar la solicitud a los Learning REST Controllers, que reciben el identificador del usuario autenticado y exponen los endpoints de materiales, favoritos, reseñas y descargas. Estos despachan commands y queries a los Learning Application Services, que aplican las reglas del Learning Domain Model y persisten los datos mediante los Learning Persistence Adapters en EcoMind Database. Cuando se solicita un material disponible, los servicios recurren al Material Content Delivery, que consulta los metadatos y la referencia del archivo registrado y devuelve el archivo o el enlace correspondiente.
+
+**Figura 57**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Learning, elaborado con Structurizr DSL.*
 
@@ -5091,7 +5215,7 @@ El siguiente diagrama C4 muestra cómo se relaciona el bounded context de **Lear
   <img src="assets/img/figures/LearningAndroidComponents.png" alt="Diagrama C4 de Learning" width="500">
 </div>
 
-**Figura 37**
+**Figura 58**
 
 *Diagrama C4 de componentes de la API del bounded context Learning, elaborado con Structurizr DSL.*
 
@@ -5108,7 +5232,7 @@ Los diagramas de código presentan las clases de dominio de **Learning** y el di
 
 El diagrama de clases presenta los principales elementos del dominio de Learning y las relaciones entre ellos. Incluye los materiales educativos, sus categorías, favoritos, valoraciones y registros de descarga. También representa las operaciones necesarias para consultar y filtrar materiales, obtener sus detalles, descargarlos y administrar los materiales favoritos de cada usuario.
 
-**Figura 38**
+**Figura 59**
 
 *Diagrama de clases de la capa de dominio del bounded context Learning.*
 
@@ -5118,7 +5242,7 @@ El diagrama de clases presenta los principales elementos del dominio de Learning
 
 El diagrama de base de datos presenta la estructura de persistencia utilizada por el bounded context de Learning. Incluye las tablas `material_categories`, `educational_materials`, `material_favorites`, `material_reviews` y `material_downloads`, así como sus claves y relaciones.
 
-**Figura 39**
+**Figura 60**
 
 *Diagrama de diseño de la base de datos del bounded context Learning.*
 
@@ -5400,15 +5524,18 @@ La aplicación móvil presenta los casos de uso coordinados por el backend.
 | Mapper | `QuestMobileMapper` | Convertir DTOs de red en modelos utilizados por la aplicación móvil. | Es utilizado por `QuestsMobileRepositoryImpl`. |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-Los diagramas muestran los componentes de Quests en la aplicación Android y en la API backend, junto con sus interacciones con Users, Gamification y la infraestructura de persistencia.
 
-**Figura 40**
+Los diagramas de Quests presentan la aplicación Android y el módulo Quests del Backend API. En la Figura 61, Quests UI muestra el catálogo, el detalle, el progreso, los minijuegos y las misiones colaborativas. Sus acciones llegan a los Quests ViewModels y de ahí a los Quests Use Cases, que coordinan el descubrimiento, la inscripción, el progreso y la finalización de misiones. El Quests Repository Implementation usa los Quest Data Mappers para transformar los datos y combina el Quests Remote Data Source, que consume los endpoints REST, con el Quests Local Cache, implementado con Room, que conserva las misiones activas y el progreso necesarios para el uso móvil.
+
+La Figura 62 muestra el módulo Quests dentro del Backend API. Los Quests REST Controllers reciben las solicitudes ya autenticadas por el Bearer Authorization Filter y despachan commands y queries a los Quests Application Services. Estos aplican las reglas del Quests Domain Model, persisten los datos con los Quests Persistence Adapters y validan usuarios, amistades y familias mediante el Users Service Client, que consulta el Users Context Facade. El Daily Quest Lifecycle Service genera las misiones diarias y expira las ejecuciones anteriores. Cuando una misión, un minijuego, una sesión colaborativa o un plan familiar finaliza, los Quests Event Handlers procesan el resultado y el Quest Event Publisher publica el evento de integración, que recibe el Gamification Event Handlers. Gamification, a su vez, consulta las recompensas base y los intentos mediante el Quests Context Facade.
+
+**Figura 61**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Quests, elaborado con Structurizr DSL.*
 
 ![C4Q](assets/img/figures/c4Quest2.png)
 
-**Figura 41**
+**Figura 62**
 
 *Diagrama C4 de componentes de la API del bounded context Quests, elaborado con Structurizr DSL.*
 
@@ -5420,7 +5547,7 @@ Los diagramas permiten identificar sus principales elementos de dominio, las rel
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests, organizadas según sus principales capacidades. Se incluyen aggregates, entities, value objects y enumeraciones responsables de representar el catálogo de misiones, el progreso de los usuarios, los minijuegos, las misiones colaborativas y los planes familiares.
 
-**Figura 42**
+**Figura 63**
 
 *Diagrama de clases de la capa de dominio del bounded context Quests, elaborado con PlantUML.*
 
@@ -5428,7 +5555,7 @@ El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 El presente diagrama representa el modelo de base de datos del bounded context **Quests** de EcoMind. Este contexto gestiona la definición y ejecución de retos, actividades, minijuegos, retos colaborativos y planes familiares, además de registrar el progreso de los usuarios. Las relaciones internas se representan mediante claves foráneas, mientras que los identificadores pertenecientes a otros bounded contexts, como usuarios y familias, se conservan como referencias externas para mantener la independencia entre contextos.
 
-**Figura 43**
+**Figura 64**
 
 *Diagrama de diseño de la base de datos del bounded context Quests.*
 
@@ -5716,10 +5843,11 @@ La aplicación móvil consume los casos de uso del backend sin duplicar sus regl
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente conjunto de diagramas C4 muestra cómo se relaciona el bounded context de **Community** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Community y su base de datos. También representa la comunicación con "Users" para validar usuarios, familias y roles; con "Quests", mediante la recepción de eventos de retos completados para actualizar las metas comunitarias; con "Gamification", mediante la publicación de metas comunitarias finalizadas; y con "Leaflet", para consultar y visualizar la ubicación de los eventos.
+Los diagramas de Community se dividen en la aplicación Android y el módulo Community del Backend API. La Figura 65 muestra la vista móvil. Community UI presenta las comunidades, las publicaciones, los eventos, las inscripciones, los chats y las metas comunitarias, y entrega las acciones a los Community ViewModels. Estos invocan los Community Use Cases, que coordinan la búsqueda y la participación. El Community Repository Implementation transforma los datos con los Community Data Mappers y los obtiene del Community Remote Data Source, que consume los endpoints REST de Community, o del Community Local Cache, implementado con Room, que almacena comunidades, publicaciones, eventos y progreso de metas.
 
+La Figura 66 muestra el módulo Community dentro del Backend API. Los Community REST Controllers reciben las solicitudes autenticadas y las despachan a los Community Application Services, que coordinan los permisos, las inscripciones, la publicación de logros y el progreso de metas, aplican el Community Domain Model y persisten los datos con los Community Persistence Adapters. Para validar usuarios, familias y roles, los servicios usan el Community Actor Gateway, que consulta el Users Context Facade. El Community Event Publisher publica los eventos de meta comunitaria completada, evento completado y publicación creada, que recibe el Gamification Event Handlers. Gamification utiliza el Community Context Facade para verificar la membresía y el acceso para compartir, y para entregar los avisos de logro que se publican en las comunidades.
 
-**Figura 44**
+**Figura 65**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Community, elaborado con Structurizr DSL.*
 
@@ -5727,7 +5855,7 @@ El siguiente conjunto de diagramas C4 muestra cómo se relaciona el bounded cont
   <img src="assets/img/figures/c4Community1.png" alt="Diagrama C4 de Community" width="550">
 </div>
 
-**Figura 45**
+**Figura 66**
 
 *Diagrama C4 de componentes de la API del bounded context Community, elaborado con Structurizr DSL.*
 
@@ -5743,11 +5871,19 @@ En esta sección elaboramos los diagramas de código que detallan la implementac
 
 El diagrama incluye aggregates, entities, value objects, enumeraciones, eventos de dominio y contratos de repositorio, junto con sus atributos, métodos, visibilidad, relaciones, direcciones y multiplicidades. También representa el procesamiento de los retos completados recibidos desde "Quests" y la publicación de la finalización de metas comunitarias hacia "Gamification".
 
+**Figura 67**
+
+*Diagrama de clases del contexto Community.*
+
 ![ClassDiagram](assets/img/figures/ClassDiagramCommunity.jpg)
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 El diseño de la base de datos organiza por separado las comunidades, sus miembros, publicaciones, reacciones, eventos, inscripciones, reportes, chats temporales y metas comunitarias, ya que cada funcionalidad posee atributos y reglas de negocio propias. Además, mantiene como referencias externas los usuarios, familias y retos pertenecientes a otros bounded contexts.
+
+**Figura 68**
+
+*Diagrama de base de datos del contexto Community.*
 
 ![Database](assets/img/figures/databaseCommunity.png)
 
@@ -6042,15 +6178,18 @@ La aplicación móvil consulta progreso, logros y rankings, y permite compartir 
 `AchievementsViewModel` conserva la solicitud para reintentar un envío fallido. `CommunityAchievementsGateway` consulta las publicaciones compartidas, mientras que `CalculateWeeklyRankingUseCase` calcula las posiciones semanales con las transacciones autorizadas.
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
-En esta sección se presentan los diagramas de componentes del bounded context Gamification para la aplicación Android y la API backend. Muestran sus principales responsabilidades e interacciones, la comunicación con otros bounded contexts y el acceso a la base de datos.
 
-**Figura 46**
+Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 69, Gamification UI presenta los rankings, los filtros de logros, la celebración y la opción de compartir. Los Gamification ViewModels administran los filtros, la decisión de compartir, el borrador reintentable y el estado de publicación, y los Gamification Use Cases consultan rankings y logros y solicitan el compartir voluntario. El Weekly Ranking Calculator filtra las transacciones del periodo y calcula las posiciones semanales. El Gamification Repository Implementation mapea los resultados con los Gamification Data Mappers y consulta el Gamification Remote Data Source, que consume los recursos REST de Gamification. Para leer las publicaciones de logros compartidos, que pertenecen a Community, los casos de uso emplean el Community Feature Gateway, que accede a la API de publicaciones de Community.
+
+La Figura 70 muestra el módulo Gamification dentro del Backend API. Los Gamification REST Controllers exponen progreso, logros, rankings y solicitudes de compartir, y despachan commands y queries a los Gamification Application Services. Estos aplican el Gamification Domain Model y persisten los datos con los Gamification Persistence Adapters. Los Gamification Event Handlers reciben los eventos publicados por el Quest Event Publisher, el Community Event Publisher y el Monetization Event Publisher, y el Daily Streak Lifecycle Service evalúa el cierre diario de las rachas activas. Los Context Service Clients consultan los facades de Users, Quests, Community y Monetization. El Gamification Event Publisher entrega las recompensas, los avisos de logro y las solicitudes de protección y publicación a Community y Monetization, y guarda los mensajes pendientes en EcoMind Database mediante un Transactional Outbox. Los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade.
+
+**Figura 69**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Gamification, elaborado con Structurizr DSL.*
 
 ![C4 de componentes Android de Gamification](assets/img/figures/c4GamificationMobile.png)
 
-**Figura 47**
+**Figura 70**
 
 *Diagrama C4 de componentes de la API del bounded context Gamification, elaborado con Structurizr DSL.*
 
@@ -6062,7 +6201,7 @@ Los diagramas presentan los elementos del dominio de Gamification, sus relacione
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra los aggregates, value objects y enumeraciones del Domain Layer de Gamification. Representa el progreso individual y familiar, los otorgamientos de recompensas y logros, y las solicitudes de protección de racha y de compartir logros.
 
-**Figura 48**
+**Figura 71**
 
 *Diagrama de clases del bounded context Gamification, elaborado con PlantUML.*
 
@@ -6071,7 +6210,7 @@ El siguiente diagrama muestra los aggregates, value objects y enumeraciones del 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 El diagrama presenta las tablas de negocio del progreso individual y familiar, las recompensas, los logros y las solicitudes de compartir y proteger rachas. Las concesiones de logros se relacionan con su definición y con el progreso individual o familiar; cada concesión tiene un único destinatario. Los identificadores de usuarios, familias y comunidades de otros contextos se conservan como referencias externas.
 
-**Figura 49**
+**Figura 72**
 
 *Diagrama de diseño de la base de datos del bounded context Gamification.*
 
@@ -6372,17 +6511,19 @@ Las solicitudes protegidas llegan con un JWT emitido previamente por IAM. El fil
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Monetization con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Monetization, su base de datos y los servicios externos de autenticación y pagos. También muestra la comunicación con Gamification, que informa cuando una racha está en riesgo, para que Monetization verifique si el usuario tiene un protector disponible y comunique el resultado.
+Los diagramas de Monetization presentan la aplicación Android y el módulo Monetization del Backend API. En la Figura 73, Store UI muestra los cosméticos, los multiplicadores, los protectores, los paquetes de gemas y el saldo de la billetera. Los Monetization ViewModels reciben las intenciones de la interfaz y exponen estados inmutables, y los Monetization Use Cases coordinan el catálogo, las compras, el inventario y el pago. El Monetization Repository Implementation usa los Monetization Data Mappers para transformar los datos del Monetization Remote Data Source, que consume los endpoints de Monetization con el Bearer JWT, y del Catalog Cache, implementado con Room, que guarda una copia de solo lectura de los catálogos y de la billetera para el uso sin conexión.
 
-**Figura 50**
+La Figura 74 muestra el módulo Monetization dentro del Backend API. Los Monetization REST Controllers exponen los endpoints de tienda, cosméticos, multiplicadores, protectores de racha, inventario, billetera y compras de gemas, y los despachan a los Monetization Application Services. Estos aplican el Monetization Domain Model, persisten los datos con los Monetization Persistence Adapters y consultan o actualizan el saldo de gemas del perfil mediante el User Gem Balance Gateway, que opera sobre los Users Persistence Adapters. Los Payment Adapters integran los proveedores de pago: Culqi, para pagos con tarjeta y Yape, y PayPal. Gamification consulta el multiplicador de experiencia activo y solicita el abono de gemas, la entrega de cosméticos y la protección de racha mediante el Monetization Context Facade, y recibe el resultado a través del Monetization Event Publisher, que publica los eventos StreakProtected o StreakProtectionUnavailable.
+
+**Figura 73**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
 
 <div align="center">
-  <img src="assets/img/figures/ComeponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
+  <img src="assets/img/figures/ComponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
 </div>
 
-**Figura 51**
+**Figura 74**
 
 *Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
 
@@ -6396,7 +6537,7 @@ Los diagramas de código presentan las clases de dominio de Monetization y el di
 
 El diagrama de clases presenta los principales elementos del dominio de Monetization y las relaciones entre ellos. Incluye la tienda, la billetera de gemas, las compras, los inventarios y los distintos productos disponibles, como cosméticos, multiplicadores, protectores y paquetes de gemas. También representa las operaciones necesarias para consultar productos, verificar el saldo, realizar compras y administrar los artículos adquiridos por el usuario.
 
-**Figura 52**
+**Figura 75**
 
 *Diagrama de clases de la capa de dominio del bounded context Monetization.*
 
@@ -6406,13 +6547,2756 @@ El diagrama de clases presenta los principales elementos del dominio de Monetiza
 
 El diseño de la base de datos organiza por separado los cosméticos, multiplicadores, protectores y paquetes de gemas, ya que cada tipo de producto posee características propias.
 
-**Figura 53**
+**Figura 76**
 
 *Diagrama de diseño de la base de datos del bounded context Monetization.*
 
 ![Database](assets/img/figures/databaseMone.png)
 
 <div style="page-break-after: always;"></div>
+
+# Capítulo III: Solution UI/UX Design
+
+## 3.1. Product design
+
+Esta sección presenta las decisiones de diseño que definen la experiencia de EcoMind. Comprende los lineamientos visuales del producto y la arquitectura de información utilizada para organizar, identificar, buscar y recorrer el contenido de la landing page y la aplicación móvil.
+
+### 3.1.1. Style Guidelines
+
+Esta sección establece los lineamientos visuales y comunicacionales que mantienen una identidad consistente en los productos digitales de EcoMind.
+
+#### 3.1.1.1. General Style Guidelines
+
+EcoMind adopta un sistema de diseño coherente, accesible y emocionalmente conectado con su audiencia principal: niños de 9 a 12 años y sus padres. El diseño visual busca transmitir energía positiva, cercanía con la naturaleza y facilidad de uso.
+
+**Identidad de marca**
+
+El nombre EcoMind combina los conceptos de ecología y mentalidad consciente. El logotipo emplea formas orgánicas (hojas, círculos) que evocan la naturaleza y el crecimiento. La marca usa un tono amigable, motivador y positivo tanto en el texto como en los elementos visuales.
+
+**Paleta de colores**
+
+La paleta está basada en tonos naturales que transmiten frescura, vitalidad y cuidado ambiental, complementados por colores de acento para gamificación:
+
+| Color | Hex | Uso |
+|---|---|---|
+| Verde primario | #4CAF50 | Elementos principales, botones CTA, iconos de retos |
+| Verde oscuro | #2E7D32 | Títulos, énfasis, navegación |
+| Amarillo acento | #FFC107 | Puntos, insignias, recompensas |
+| Azul agua | #29B6F6 | Fondos secundarios, sección de agua |
+| Blanco | #FFFFFF | Fondos de tarjetas, texto sobre fondos oscuros |
+| Gris claro | #F5F5F5 | Fondos de pantalla principal |
+| Gris texto | #424242 | Texto de cuerpo |
+
+**Tipografía**
+
+- **Títulos y encabezados:** Nunito Bold – redondeada, amigable y legible para niños.
+- **Texto de cuerpo:** Nunito Regular – consistente con la tipografía de títulos, facilita la lectura.
+- **Tamaños mínimos:** 14px para cuerpo, 18px para subtítulos, 24px para títulos principales.
+
+**Tono de comunicación**
+
+- Lenguaje simple, positivo y motivador.
+- Uso de segunda persona ("Tú puedes hacerlo", "¡Misión completada!").
+- Evitar tecnicismos; cuando se usen términos ambientales, se acompañan de una explicación breve.
+- Emojis y personajes animados para reforzar mensajes clave.
+
+**Iconografía**
+
+Los iconos siguen un estilo outline redondeado, coherente con la identidad orgánica de la marca. Se utiliza la biblioteca de iconos Material Design adaptada con el color verde primario de EcoMind.
+
+ 
+   
+ *Figura 77 ( General Style Guidelines )*
+![Foto](assets/img/figures/style.png)
+
+### 3.1.2. Information Architecture
+
+Esta sección describe cómo se estructura y presenta la información de EcoMind para facilitar su comprensión y acceso. Incluye los sistemas de organización, etiquetado, búsqueda y navegación, así como los elementos de posicionamiento utilizados en la landing page y las tiendas de aplicaciones.
+
+#### 3.1.2.1. Organization Systems
+
+EcoMind organiza su contenido bajo dos sistemas complementarios:
+
+**Organización jerárquica** (principal): La información se estructura de lo general a lo específico. Se agrupan las secciones más relevantes (Retos, Progreso, Familia, Comunidad, Usuario, Tienda y Ranking) mediante un icono distintivo en la parte inferior, y cada sección navega hacia su contenido al profundizar en ella.
+
+**Organización por categorías temáticas**: Los retos y contenidos educativos se agrupan según los ejes ambientales de la plataforma:
+- Reciclaje y residuos
+- Ahorro de agua
+- Eficiencia energética
+
+**Organización cronológica**: El historial de actividades, el progreso del usuario y las notificaciones se presentan en orden cronológico inverso (más reciente primero).
+
+**Roles y vistas diferenciadas**: La arquitectura distingue entre la vista del estudiante (enfocada en retos, puntos y comunidad) y la vista del padre (enfocada en progreso, retos familiares y reportes).
+
+#### 3.1.2.2. Labelling Systems
+
+El sistema de etiquetado de EcoMind está diseñado para una interfaz móvil y se basa principalmente en recursos iconográficos. En lugar de mostrar etiquetas textuales de manera permanente, la aplicación emplea símbolos reconocibles, colores y posiciones constantes para comunicar la función de cada elemento sin sobrecargar la pantalla.
+
+Este sistema se aplica especialmente en las barras superior e inferior, las cuales se mantienen visibles en las distintas secciones de la aplicación. La repetición de los mismos iconos en una ubicación estable permite que el usuario aprenda progresivamente su significado y navegue con mayor facilidad.
+
+**Elementos de la barra superior**
+
+La barra superior presenta información relacionada con el estado general del usuario y el acceso a funciones complementarias.
+
+| Recurso visual | Significado |
+|---|---|
+| Logotipo de EcoMind | Identidad de la aplicación |
+| Diamante acompañado de una cantidad | Moneda virtual disponible |
+| Brote acompañado de una cantidad | Días consecutivos de racha |
+| Campana | Notificaciones |
+| Engranaje | Configuración |
+
+Los valores de los diamantes y de la racha se muestran junto a sus respectivos iconos, lo que permite comunicar esta información de manera compacta y comprensible.
+
+**Elementos de la barra inferior**
+
+La barra inferior funciona como el principal medio de navegación entre las secciones de la aplicación. Cada sección se representa exclusivamente mediante un icono.
+
+| Recurso visual | Sección representada |
+|---|---|
+| Tienda | Tienda |
+| Trofeo | Logros |
+| Control de videojuego | Retos |
+| Gráfico ascendente | Progreso |
+| Grupo de personas | Comunidad |
+| Usuario | Perfil |
+
+La sección activa se diferencia mediante un color más intenso. De esta manera, el usuario puede reconocer su ubicación actual sin necesidad de incorporar texto debajo de cada icono. La combinación de símbolos convencionales, colores diferenciados y una distribución constante permite mantener una interfaz sencilla y adecuada para dispositivos móviles.
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+EcoMind cuenta con una landing page pública y una aplicación móvil. Por ello, se aplican estrategias de posicionamiento diferenciadas: SEO para optimizar la visibilidad de la landing page en motores de búsqueda y ASO para favorecer el descubrimiento de la aplicación en las tiendas digitales.
+
+**Landing Page**
+
+La landing page comunica la propuesta de valor de EcoMind y orienta a los usuarios hacia la descarga de la aplicación móvil. Para esta página se establecen las siguientes etiquetas:
+
+| Elemento | Valor asignado |
+|---|---|
+| Title | EcoMind |
+| Description | EcoMind es una aplicación educativa que ayuda a niños y familias a desarrollar hábitos sostenibles mediante retos, juegos y actividades ambientales. |
+| Keywords | educación ambiental, retos ecológicos, hábitos sostenibles, aplicación para niños, reciclaje, gamificación educativa, EcoMind |
+| Author | GreenMinds |
+| Robots | index, follow |
+| Canonical URL | https://ecomind.greenminds.pe/ |
+
+La implementación de las etiquetas en la landing page se plantea de la siguiente manera:
+
+```html
+<!-- SEO básico -->
+<title>EcoMind – Retos ecológicos para niños y familias</title>
+<meta
+  name="description"
+  content="EcoMind es una aplicación educativa que ayuda a niños y familias a desarrollar hábitos sostenibles mediante retos, juegos y actividades ambientales."
+>
+<meta
+  name="keywords"
+  content="educación ambiental, retos ecológicos, hábitos sostenibles, aplicación para niños, reciclaje, gamificación educativa, EcoMind"
+>
+<meta name="author" content="GreenMinds">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta
+  property="og:title"
+  content="EcoMind – Retos ecológicos para niños y familias"
+>
+<meta
+  property="og:description"
+  content="Aprende a cuidar el planeta mediante retos, juegos y actividades ambientales para realizar en familia."
+>
+<meta
+  property="og:image"
+  content="https://ecomind.greenminds.pe/assets/og-image.png"
+>
+<meta
+  property="og:url"
+  content="https://ecomind.greenminds.pe/"
+>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EcoMind">
+<meta property="og:locale" content="es_PE">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta
+  name="twitter:title"
+  content="EcoMind – Aprende a cuidar el planeta"
+>
+<meta
+  name="twitter:description"
+  content="Retos, juegos y actividades ambientales para desarrollar hábitos sostenibles desde la infancia."
+>
+<meta
+  name="twitter:image"
+  content="https://ecomind.greenminds.pe/assets/twitter-card.png"
+>
+
+<!-- URL canónica -->
+<link rel="canonical" href="https://ecomind.greenminds.pe/">
+```
+
+**Aplicación móvil**
+
+La aplicación móvil utiliza elementos ASO relacionados con la educación ambiental, los retos ecológicos y la formación de hábitos sostenibles. Estos elementos permiten comunicar su propósito y mejorar su visibilidad dentro de las tiendas de aplicaciones.
+
+**App Store**
+
+| Elemento ASO | Valor asignado |
+|---|---|
+| App Title | EcoMind |
+| App Subtitle | Aprende y cuida el planeta |
+| App Keywords | educación ambiental, retos ecológicos, hábitos sostenibles, reciclaje, niños, familia, juegos |
+| App Description | EcoMind es una aplicación educativa que convierte el aprendizaje ambiental en una experiencia interactiva para niños y familias. Mediante retos ecológicos, juegos y actividades prácticas, los usuarios pueden aprender sobre reciclaje, ahorro de agua, uso responsable de la energía y otros hábitos sostenibles. La aplicación permite registrar el progreso, mantener una racha de actividad, obtener logros y recompensas, participar en actividades familiares e interactuar con la comunidad. EcoMind busca conectar el aprendizaje con acciones cotidianas que contribuyan al cuidado del planeta. |
+| Developer | GreenMinds |
+| Primary Category | Education |
+| Secondary Category | Games |
+
+**Google Play**
+
+| Elemento ASO | Valor asignado |
+|---|---|
+| App Name | EcoMind |
+| Short Description | Aprende hábitos sostenibles con retos, juegos y actividades en familia. |
+| Full Description | EcoMind es una aplicación educativa diseñada para que niños y familias aprendan a cuidar el planeta de una manera práctica y entretenida. Los usuarios pueden completar retos ecológicos y juegos relacionados con el reciclaje, el ahorro de agua, el uso responsable de la energía y otros hábitos sostenibles. Cada actividad contribuye al progreso del usuario y permite obtener logros, recompensas y diamantes dentro de la aplicación. EcoMind también incorpora rachas de actividad, seguimiento del progreso y espacios de participación familiar y comunitaria. De esta manera, el aprendizaje ambiental se transforma en acciones que pueden practicarse en la escuela, el hogar y la comunidad. |
+| Developer | GreenMinds |
+| Category | Education |
+
+#### 3.1.2.4. Searching Systems
+
+EcoMind incorpora sistemas de búsqueda y filtrado en las secciones que concentran una mayor cantidad de información. Estos mecanismos permiten localizar retos, recursos educativos, contactos y comunidades sin necesidad de recorrer manualmente todos los elementos disponibles.
+
+Las interfaces de búsqueda mantienen una estructura visual consistente: un campo identificado mediante el icono de una lupa, controles de filtrado desplegables y resultados que incluyen únicamente la información necesaria para reconocer cada elemento y ejecutar una acción.
+
+**Búsqueda de retos**
+
+La sección de retos incluye una barra de búsqueda que permite localizar actividades mediante palabras relacionadas con su nombre o contenido. También presenta un panel de filtros organizado mediante controles desplegables.
+
+| Filtro | Opciones o criterio |
+|---|---|
+| Categoría | Tema ambiental al que pertenece el reto |
+| Tipo de reto | Colaborativo, minijuego, selección de opciones o respuesta escrita |
+| Edad recomendada | Rango de edad al que está dirigido |
+| Tiempo estimado | Duración aproximada de la actividad |
+
+Después de seleccionar los criterios, el usuario confirma la búsqueda mediante el botón **Apply**. Los resultados se muestran como tarjetas que contienen el título, una descripción breve, la categoría, la duración, la cantidad de puntos ecológicos y el tipo de reto. Cada tarjeta incorpora las acciones **View Quest** y **Add**, que permiten consultar sus detalles o añadirlo al plan de actividades.
+
+**Búsqueda de recursos educativos**
+
+La sección de aprendizaje dispone de una barra de búsqueda y filtros orientados a encontrar materiales educativos adecuados para las necesidades del usuario.
+
+| Filtro | Opciones o criterio |
+|---|---|
+| Favoritos | Muestra los recursos marcados como favoritos |
+| Vistos recientemente | Muestra los recursos consultados recientemente |
+| Categoría temática | Tema ambiental relacionado con el contenido |
+| Tipo de recurso | Video, texto, infografía o audio |
+| Edad recomendada | Rango de edad al que está dirigido |
+| Tiempo estimado | Duración aproximada del recurso |
+
+Los resultados se presentan mediante una cuadrícula de tarjetas. Cada tarjeta muestra una imagen referencial, el título del recurso, su formato, la categoría temática, una descripción breve y el tiempo estimado. También incluye controles para descargar el contenido o añadirlo a favoritos.
+
+**Búsqueda de contactos**
+
+La búsqueda de contactos se utiliza durante las acciones que requieren seleccionar a otros usuarios. El campo de búsqueda permite localizar contactos por su nombre.
+
+Los resultados se presentan en una lista que incluye el avatar, el nombre del contacto y su estado de selección. La acción **Select** permite añadirlo, mientras que el estado **Selected** confirma visualmente que ya fue elegido. La interfaz también muestra la cantidad total de contactos seleccionados.
+
+**Búsqueda de comunidades**
+
+La sección de comunidades permite alternar entre la comunidad local del usuario y la exploración de otras comunidades. En la vista **More Communities**, la barra de búsqueda facilita la localización de comunidades por nombre.
+
+Los resultados se organizan como una lista vertical. Cada elemento contiene el icono y el nombre de la comunidad, junto con el botón **Join**, que permite solicitar o efectuar la incorporación. La sección también incluye la opción **Create Communities** para iniciar una nueva comunidad.
+
+**Presentación de los resultados**
+
+La presentación de los resultados se adapta al tipo de contenido consultado. Los retos y recursos educativos utilizan tarjetas porque requieren mostrar información descriptiva y etiquetas adicionales. Los contactos y las comunidades se presentan como listas, ya que la identificación y selección de cada elemento constituyen las acciones principales.
+
+Los filtros se organizan en paneles desplegables para reducir la cantidad de información visible simultáneamente. Asimismo, las etiquetas de categoría, tipo, duración y recompensa permiten evaluar los resultados sin necesidad de abrir cada elemento.
+
+#### 3.1.2.5. Navigation Systems
+
+EcoMind utiliza sistemas de navegación diferentes para la landing page y la aplicación móvil. La landing page emplea una navegación lineal orientada a presentar el producto, mientras que la aplicación utiliza una navegación persistente que facilita el acceso a sus funciones principales.
+
+**Navegación de la Landing Page**
+
+La landing page utiliza una barra de navegación superior con accesos hacia sus principales secciones informativas. Al seleccionar una opción, el usuario es dirigido al bloque correspondiente dentro de la misma página.
+
+Los accesos principales permiten recorrer las siguientes secciones:
+
+- Presentación de EcoMind.
+- Funcionalidades principales.
+- Guía para padres.
+- Comunidad.
+- Preguntas frecuentes.
+- Equipo de desarrollo.
+
+El contenido se organiza mediante desplazamiento vertical, permitiendo que el visitante conozca progresivamente la propuesta de valor, las características de la aplicación y sus beneficios. Los botones de llamada a la acción, como **Únete ahora**, conducen al usuario hacia el proceso de registro o acceso al producto.
+
+En dispositivos móviles, la barra de navegación de la landing page se presenta mediante un menú desplegable para evitar ocupar demasiado espacio. Los accesos mantienen el mismo orden y conducen a las mismas secciones de la versión de escritorio.
+
+**Navegación principal de la aplicación móvil**
+
+La aplicación móvil utiliza una barra de navegación inferior persistente. Esta barra permite cambiar directamente entre las principales áreas de EcoMind sin regresar a una pantalla inicial.
+
+| Icono | Sección |
+|---|---|
+| Tienda | Tienda |
+| Trofeo | Logros |
+| Control de videojuego | Retos |
+| Gráfico ascendente | Progreso |
+| Grupo de personas | Comunidad |
+| Usuario | Perfil |
+
+La sección activa se diferencia mediante un color más intenso. Este indicador permite que el usuario reconozca en todo momento el área de la aplicación en la que se encuentra.
+
+**Navegación superior de la aplicación móvil**
+
+La barra superior se mantiene visible en las pantallas principales y reúne información general del usuario y accesos complementarios.
+
+| Elemento | Función |
+|---|---|
+| Logotipo de EcoMind | Identificar la aplicación |
+| Diamantes | Mostrar el saldo de moneda virtual |
+| Brote | Mostrar la racha de actividad |
+| Campana | Acceder a las notificaciones |
+| Engranaje | Acceder a la configuración |
+
+Los indicadores de diamantes y racha comunican el estado del usuario, mientras que los iconos de notificaciones y configuración permiten acceder a funciones secundarias sin ocupar espacio en la navegación inferior.
+
+**Navegación mediante pestañas**
+
+Algunas secciones dividen su contenido mediante pestañas. Este recurso permite alternar entre vistas relacionadas sin abandonar la sección actual.
+
+En la gestión de retos, el usuario puede cambiar entre **Add Quests** y **Manage Plan** para explorar actividades o administrar su planificación. En la sección de comunidad, puede alternar entre **Local Community** y **More Communities** para consultar su comunidad actual o descubrir otras comunidades.
+
+La pestaña seleccionada se diferencia mediante color o subrayado, proporcionando una referencia visual de la vista activa.
+
+**Navegación dentro de las pantallas**
+
+Las pantallas secundarias utilizan una flecha de retroceso ubicada en la parte superior para regresar al nivel anterior. Este recurso se emplea en procesos como la selección de contactos, la consulta de detalles y otras tareas que requieren avanzar temporalmente hacia una pantalla específica.
+
+Los filtros se organizan en paneles desplegables que pueden expandirse o contraerse. De esta manera, el usuario puede consultar únicamente las opciones que necesita y mantener visible el contenido principal.
+
+**Navegación contextual**
+
+Las tarjetas y elementos de las listas incorporan acciones relacionadas directamente con su contenido. Entre ellas se encuentran:
+
+- Consultar los detalles de un reto.
+- Añadir un reto al plan.
+- Iniciar una actividad.
+- Guardar o descargar un recurso educativo.
+- Añadir un recurso a favoritos.
+- Seleccionar un contacto.
+- Unirse a una comunidad.
+- Crear una comunidad.
+
+La ubicación de estas acciones dentro de cada tarjeta o elemento reduce la cantidad de pasos necesarios para completar una tarea.
+
+**Recorrido del contenido**
+
+El contenido de la aplicación se presenta principalmente mediante desplazamiento vertical. Los retos y recursos educativos se organizan en tarjetas, mientras que los contactos y las comunidades se muestran mediante listas. Esta estructura permite revisar el contenido de manera progresiva y mantiene un comportamiento consistente entre las diferentes secciones.
+
+La combinación de la barra inferior, la barra superior, las pestañas, los controles de retroceso y las acciones contextuales permite que los usuarios recorran EcoMind de forma directa y predecible.
+
+### 3.1.3. Landing Page UI Design
+
+Esta sección presenta el diseño UX/UI de la Landing Page de EcoMind, desarrollada como el principal punto de contacto entre la solución y sus potenciales usuarios. Su propósito es comunicar de manera clara la propuesta de valor, explicar las principales funcionalidades de la plataforma y orientar a estudiantes y padres de familia hacia el registro o acceso a la aplicación.
+El proceso de diseño comprende la elaboración del wireframe y del mock-up de alta fidelidad. El wireframe define la estructura, jerarquía y distribución inicial de los contenidos, mientras que el mock-up incorpora la identidad visual definitiva de EcoMind mediante colores, tipografías, iconos, ilustraciones y componentes gráficos.
+
+#### 3.1.3.1. Landing Page Wireframe
+
+Los wireframes de la Landing Page de EcoMind representan la estructura inicial de las pantallas antes de incorporar colores, imágenes finales y elementos gráficos de marca. Su propósito fue organizar la jerarquía de la información, definir la ubicación de los componentes y validar que el recorrido del visitante fuera claro. En todas las vistas se mantiene una barra de navegación superior con acceso a las preguntas frecuentes, la guía para padres, la comunidad, el selector de idioma y la descarga de la aplicación.
+
+**Figura 78**
+
+*Wireframe de la página de inicio de la Landing Page.*
+
+<div align="center"><img src="assets/img/figures/WireInicio.jpeg" alt="Wireframe de la página de inicio de EcoMind" width="650"></div>
+
+La página de inicio introduce la propuesta de valor de EcoMind y organiza el acceso a sus beneficios principales, la información de la startup y las llamadas a la acción dirigidas a nuevos usuarios.
+
+**Figura 79**
+
+*Wireframe de preguntas frecuentes.*
+
+<div align="center"><img src="assets/img/figures/PreguntasWire.jpeg" alt="Wireframe de preguntas frecuentes de EcoMind" width="650"></div>
+
+La sección de preguntas frecuentes utiliza componentes desplegables para presentar respuestas sobre la conexión a Internet, la administración de la cuenta, las actividades, los puntos, las recompensas y la participación familiar sin saturar la pantalla.
+
+**Figura 80**
+
+*Wireframe de la guía para padres.*
+
+<div align="center"><img src="assets/img/figures/WireGuia.jpeg" alt="Wireframe de la guía para padres de EcoMind" width="650"></div>
+
+La guía para padres reúne información sobre el acompañamiento familiar, los recursos educativos y recomendaciones para incorporar hábitos sostenibles en el hogar. Su estructura combina contenido informativo, tarjetas y una sección destacada de consejos.
+
+**Figura 81**
+
+*Wireframe de la comunidad de EcoMind.*
+
+<div align="center"><img src="assets/img/figures/WireComunidad.jpeg" alt="Wireframe de la comunidad de EcoMind" width="650"></div>
+
+La sección de comunidad presenta indicadores generales, beneficios de la participación, testimonios de familias y eventos ambientales cercanos. La distribución conduce al visitante desde la explicación de la comunidad hasta las oportunidades concretas de participación.
+
+#### 3.1.3.2. Landing Page Mock-up
+
+Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante la identidad gráfica de EcoMind. Se incorporan el logotipo, la paleta de verdes, fotografías, ilustraciones, iconos y una jerarquía tipográfica consistente. Estos elementos refuerzan el enfoque ambiental del producto y permiten visualizar con mayor precisión la experiencia final del visitante en una interfaz web.
+
+**Figura 82**
+
+*Mock-up de la página de inicio de la Landing Page.*
+
+<div align="center"><img src="assets/img/figures/InicioMock.jpeg" alt="Mock-up de la página de inicio de EcoMind" width="650"></div>
+
+El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar de manera inmediata la propuesta de EcoMind. Las secciones posteriores explican sus beneficios, misión, visión e identidad como startup educativa.
+
+**Figura 83**
+
+*Mock-up de preguntas frecuentes.*
+
+<div align="center"><img src="assets/img/figures/PreguntasMock.jpeg" alt="Mock-up de preguntas frecuentes de EcoMind" width="650"></div>
+
+La versión visual de preguntas frecuentes mantiene el formato desplegable e incorpora los colores y componentes definitivos. La separación entre preguntas favorece la lectura y permite que el visitante ubique rápidamente la información que necesita.
+
+**Figura 84**
+
+*Mock-up de la guía para padres.*
+
+<div align="center"><img src="assets/img/figures/GuiaMock.jpeg" alt="Mock-up de la guía para padres de EcoMind" width="650"></div>
+
+La guía para padres combina contenido educativo con fotografías e iconos para explicar los beneficios del acompañamiento familiar. Además, diferencia los recursos disponibles y presenta recomendaciones prácticas para reforzar hábitos sostenibles en casa.
+
+**Figura 85**
+
+*Mock-up de la comunidad de EcoMind.*
+
+<div align="center"><img src="assets/img/figures/MockComunidad.jpeg" alt="Mock-up de la comunidad de EcoMind" width="650"></div>
+
+El mock-up de comunidad utiliza indicadores, testimonios, ilustraciones y un mapa de eventos para transmitir colaboración y participación. El diseño busca que las familias comprendan cómo pueden compartir logros, conocer actividades cercanas y formar parte de una comunidad ambiental.
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+Esta sección presenta el proceso de diseño UX/UI de la aplicación móvil EcoMind, desarrollado a partir de las necesidades identificadas en los segmentos de estudiantes de primaria y padres de familia. Su propósito es definir una experiencia clara, accesible y motivadora que permita aprender sobre sostenibilidad, completar retos ambientales, consultar el progreso individual y familiar, participar en actividades comunitarias y acceder a los elementos de gamificación.
+El diseño comprende la elaboración de wireframes, wireflows, mock-ups y User Flow Diagrams. Los wireframes representan la estructura inicial de las pantallas; los wireflows muestran la navegación entre ellas; los mock-ups incorporan la identidad visual definitiva; y los User Flow Diagrams describen los recorridos necesarios para completar los principales objetivos dentro de la aplicación.
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+Los wireframes de la aplicación móvil EcoMind representan una primera aproximación a la estructura, distribución y navegación de su interfaz. Para su elaboración se priorizó la claridad de la información, la consistencia visual y el acceso directo a las funciones principales: autenticación, perfil, retos, aprendizaje, ranking, comunidad, tienda y configuración.
+La aplicación emplea una barra de navegación inferior que permite cambiar rápidamente entre los módulos principales. Asimismo, las pantallas presentan encabezados, tarjetas, botones, formularios y listas con una organización uniforme. Esta estructura reduce la carga cognitiva y permite que tanto los menores como sus padres comprendan fácilmente las acciones disponibles.
+
+**Figura 86**
+
+*Wireframe de inicio de sesión.*
+
+<div align="center"><img src="assets/img/figures/Sign in.jpeg" alt="Wireframe de inicio de sesión" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y ofrece acceso al registro de una cuenta nueva.
+
+**Figura 87**
+
+*Wireframe de registro.*
+
+<div align="center"><img src="assets/img/figures/Sign upWireframe.jpeg" alt="Wireframe de registro" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los términos y acceder posteriormente a la aplicación.
+
+**Figura 88**
+
+*Wireframe de selección de retos.*
+
+<div align="center"><img src="assets/img/figures/QuestWireframe.jpeg" alt="Wireframe de selección de retos" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones visuales de fácil reconocimiento.
+
+**Figura 89**
+
+*Wireframe del detalle de un reto.*
+
+<div align="center"><img src="assets/img/figures/Quest2Wireframe.jpeg" alt="Wireframe del detalle de un reto" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El detalle del reto muestra sus objetivos, recompensas, progreso y la acción principal para completar la actividad.
+
+**Figura 90**
+
+*Wireframe de perfil.*
+
+<div align="center"><img src="assets/img/figures/ProfileWireframe.jpeg" alt="Wireframe de perfil" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El perfil centraliza los datos del usuario, sus estadísticas, progreso, compromisos y opciones de administración.
+
+**Figura 91**
+
+*Wireframe de comunidad.*
+
+<div align="center">
+  <a href="https://postimg.cc/t7rrDKVV">
+    <img src="https://i.postimg.cc/9F2vXVm1/Comunidad-Wireframe.jpg" alt="Wireframe de comunidad" width="250">
+  </a>
+</div>
+
+*Nota. Elaboración propia.*
+
+La pantalla permite consultar publicaciones, eventos y actividades compartidas por la comunidad.
+
+**Figura 92**
+
+*Wireframe de tienda.*
+
+<div align="center"><img src="assets/img/figures/StoreWireframe.jpeg" alt="Wireframe de tienda" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acción de compra.
+
+
+
+**Figura 93**
+
+*Wireframe de aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/LearningWireframe.jpeg" alt="Wireframe de aprendizaje" width="250"></div>
+
+La sección presenta recursos educativos mediante tarjetas, categorías, búsqueda y opciones para descargar o guardar contenido.
+
+**Figura 94**
+
+*Wireframe de ranking.*
+
+<div align="center"><img src="assets/img/figures/RankingWireframe1.jpeg" alt="Wireframe de ranking" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla muestra la clasificación de los usuarios y destaca la posición personal según la categoría seleccionada.
+
+**Figura 95**
+
+*Wireframe de ajustes.*
+
+<div align="center"><img src="assets/img/figures/AjustesWireframe.jpeg" alt="Wireframe de ajustes" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La sección reúne las opciones de cuenta, preferencias y configuración en bloques simples y fáciles de identificar.
+
+
+**Figura 96**
+
+*Wireframes de inicio y retos.*
+
+<div align="center"><img src="assets/img/figures/InicioQuestWires.jpeg" alt="Wireframes de inicio y retos" width="800"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto presenta el acceso inicial y las distintas etapas para explorar, iniciar y completar retos ambientales.
+
+**Figura 97**
+
+*Wireframes de tienda y aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/WireLearningMonet.jpeg" alt="Detalle de los wireflows de tienda y aprendizaje" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto muestra la consulta y compra de productos, junto con la búsqueda y visualización de recursos educativos.
+
+**Figura 98**
+
+*Wireframes de perfil.*
+
+<div align="center"><img src="assets/img/figures/ProfileBC.jpeg" alt="Wireframes de perfil y administración de cuentas" width="750"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto presenta la consulta y edición del perfil, las estadísticas, los logros y las diversas acciones que puedes hacer en perfil.
+
+
+**Figura 99**
+
+*Wireframes de comunidad.*
+
+<div align="center"><img src="assets/img/figures/Comunidad.jpeg" alt="Wireframes de comunidad" width="750"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto presenta publicaciones, eventos, grupos, logros, búsquedas y mensajes disponibles en la comunidad.
+
+**Figura 100**
+
+*Wireframes de ranking, notificaciones y ajustes.*
+
+<div align="center"><img src="assets/img/figures/AjustNotifiRanWire.jpeg" alt="Detalle de los wireframe de ranking, notificaciones y ajustes" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto reúne la clasificación de usuarios, el centro de notificaciones y las opciones generales de configuración.
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelidad con las acciones que realiza el usuario. Las flechas representan las transiciones entre vistas y permiten comprobar la continuidad de tareas como registrarse, iniciar un reto, consultar el progreso, comprar productos, revisar el ranking, participar en la comunidad y administrar el perfil. La organización por bounded context facilita reconocer la responsabilidad funcional de cada recorrido.
+
+**Figura 101**
+
+*Wireflow general de la aplicación móvil EcoMind.*
+
+<div align="center"><img src="assets/img/figures/WireFAll.jpeg" alt="Wireflow general de la aplicación móvil EcoMind" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+El wireflow general integra los recorridos principales de IAM, Quests, Learning, Monetization, Gamification, Community y Users. Este diagrama permite observar cómo la pantalla principal y la barra de navegación inferior conectan los diferentes módulos de la aplicación.
+
+**Figura 102**
+
+*Wireflow de IAM, notificaciones y ajustes.*
+
+<div align="center"><img src="assets/img/figures/NotiSet.jpeg" alt="Wireflow de IAM, notificaciones y ajustes" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El flujo de IAM comprende la presentación inicial, el registro, la confirmación del correo y el inicio de sesión hasta llegar al menú principal. Los flujos de notificaciones y ajustes permiten revisar avisos, modificar preferencias, seleccionar el idioma y acceder a las opciones de ayuda y soporte.
+
+**Figura 103**
+
+*Wireflow de retos y progreso.*
+
+<div align="center"><img src="assets/img/figures/QuestWireF.jpeg" alt="Wireflow de retos y progreso" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+Este flujo muestra la selección de una categoría, la búsqueda y filtrado de retos, la consulta del detalle y la ejecución de actividades. También representa el inicio, seguimiento y finalización del reto, junto con el acceso al progreso y la posibilidad de invitar amigos a una actividad colaborativa.
+
+**Figura 104**
+
+*Wireflow de monetización, gamificación y aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/MonetGamLearWore.jpeg" alt="Wireflow de monetización, gamificación y aprendizaje" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+En Monetization se representan la compra y gestión de cosméticos, el inventario, los multiplicadores, los protectores de racha y los paquetes de gemas. Gamification presenta la navegación entre los diferentes rankings, mientras que Learning permite buscar, filtrar y consultar recursos educativos.
+
+**Figura 105**
+
+*Wireflow de comunidad.*
+
+<div align="center"><img src="assets/img/figures/CommnunityWire.jpeg" alt="Wireflow de comunidad" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El flujo de Community conecta las vistas de premios, eventos y noticias. Además, representa las acciones para crear un evento, consultar sus detalles, unirse de manera individual o familiar y acceder posteriormente al espacio de comunicación del evento.
+
+**Figura 106**
+
+*Wireflow de perfil, amigos y familia.*
+
+<div align="center"><img src="assets/img/figures/ProfileWire.jpeg" alt="Wireflow de perfil, amigos y familia" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El wireflow de perfil comprende la consulta de estadísticas, compromisos, favoritos y opciones para compartir. Desde esta sección también se accede a la gestión de amistades, la creación de una familia y la revisión del progreso de sus integrantes.
+
+
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+Los mock-ups de la aplicación móvil EcoMind representan la propuesta visual de alta fidelidad elaborada a partir de los wireframes. En estas pantallas se aplican la paleta de colores, las tipografías, los iconos, las ilustraciones y los componentes definitivos. La interfaz conserva una barra superior con los indicadores del usuario y una barra de navegación inferior que facilita el acceso a los módulos principales.
+
+**Figura 107**
+
+*Mock-up de inicio de sesión.*
+
+<div align="center"><img src="assets/img/figures/SignInMock.jpeg" alt="Mock-up de inicio de sesión" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla permite que el usuario ingrese sus credenciales y acceda a la aplicación. También ofrece una ruta directa al registro para quienes todavía no poseen una cuenta.
+
+**Figura 108**
+
+*Mock-up de registro.*
+
+<div align="center"><img src="assets/img/figures/SignUPMock.jpeg" alt="Mock-up de registro" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El registro reúne los datos necesarios para crear una cuenta, aceptar los términos y continuar con la verificación del correo electrónico.
+
+**Figura 109**
+
+*Mock-up del menú principal de retos.*
+
+<div align="center"><img src="assets/img/figures/QuestMock.jpeg" alt="Mock-up del menú principal de retos" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El menú principal presenta las categorías de actividades mediante botones visuales diferenciados por color. Desde esta pantalla se puede explorar el contenido ambiental o ingresar al módulo de aprendizaje.
+
+**Figura 110**
+
+*Mock-up de ejecución de un reto.*
+
+<div align="center"><img src="assets/img/figures/Quest2Mock.jpeg" alt="Mock-up de ejecución de un reto" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla del reto muestra su categoría, duración, recompensa y tipo. Las actividades se marcan conforme son realizadas y la barra de progreso comunica el avance antes de finalizar el reto.
+
+**Figura 111**
+
+*Mock-up del perfil del usuario.*
+
+<div align="center"><img src="assets/img/figures/ProfieMock.jpeg" alt="Mock-up del perfil del usuario" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El perfil centraliza la identidad del usuario, su racha, EcoPoints, gemas, compromiso ambiental, medallas y accesos a las secciones de amigos y familia.
+
+**Figura 112**
+
+*Mock-up de comunidad.*
+
+<div align="center"><img src="assets/img/figures/ComuniMock.jpeg" alt="Mock-up de comunidad" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla de comunidad presenta la meta compartida, su progreso y las pestañas de premios, eventos y noticias. También permite buscar, crear y unirse a eventos ambientales.
+
+**Figura 113**
+
+*Mock-up de tienda.*
+
+<div align="center"><img src="assets/img/figures/StoreMock.jpeg" alt="Mock-up de tienda" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La tienda organiza avatares y cosméticos, multiplicadores, protectores y paquetes de gemas. Los estados visuales permiten distinguir los productos disponibles, adquiridos y equipados.
+
+**Figura 114**
+
+*Mock-up de aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/LaerningMock.jpeg" alt="Mock-up de aprendizaje" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El módulo de aprendizaje presenta recursos educativos en tarjetas con su imagen, tipo, categoría, descripción y duración, además de acciones para descargar o guardar el contenido.
+
+**Figura 115**
+
+*Mock-up de ranking.*
+
+<div align="center"><img src="assets/img/figures/RankingMock.jpeg" alt="Mock-up de ranking" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+El ranking muestra la posición del usuario y permite comparar EcoPoints en ámbitos local, global, de amigos y de familias, utilizando periodos diarios, semanales, mensuales o históricos.
+
+**Figura 116**
+
+*Mock-up de ajustes.*
+
+<div align="center"><img src="assets/img/figures/SettingsMock.jpeg" alt="Mock-up de ajustes" width="250"></div>
+
+*Nota. Elaboración propia.*
+
+La pantalla de ajustes agrupa la información de la cuenta, las preferencias de notificación, el idioma, el tema, la ayuda y el cierre de sesión.
+
+Los siguientes conjuntos reúnen las variantes y estados complementarios de cada módulo, como pantallas vacías, errores de carga, confirmaciones, filtros, formularios y acciones secundarias.
+
+**Figura 117**
+
+*Conjunto de mock-ups de retos.*
+
+<div align="center"><img src="assets/img/figures/questMocks.jpeg" alt="Conjunto de mock-ups de retos" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto incluye autenticación, categorías, búsqueda, filtros, planificación, progreso y ejecución de retos individuales y colaborativos.
+
+**Figura 118**
+
+*Conjunto de mock-ups de tienda y aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/storeLearMocks.jpeg" alt="Conjunto de mock-ups de tienda y aprendizaje" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+Estas pantallas muestran las variantes de compra, inventario, multiplicadores, paquetes de gemas, búsqueda de recursos, aplicación de filtros y consulta del detalle educativo.
+
+**Figura 119**
+
+*Conjunto de mock-ups de comunidad.*
+
+<div align="center"><img src="assets/img/figures/ComuniMocks.jpeg" alt="Conjunto de mock-ups de comunidad" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto presenta las distintas vistas de premios, eventos y noticias, además de los procesos para crear comunidades y eventos, seleccionar participantes y confirmar la inscripción.
+
+**Figura 120**
+
+*Conjunto de mock-ups de perfil.*
+
+<div align="center"><img src="assets/img/figures/ProfileMocks.jpeg" alt="Conjunto de mock-ups de perfil" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+Estas pantallas desarrollan la edición del perfil, los compromisos, favoritos, amistades, invitaciones, creación y administración familiar, progreso de integrantes e informes semanales.
+
+**Figura 121**
+
+*Conjunto de mock-ups de ranking, notificaciones y ajustes.*
+
+<div align="center"><img src="assets/img/figures/AjNotiRanMocks.jpeg" alt="User Flow de notificaciones y ajustes" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El conjunto reúne las variantes del ranking, los estados de la bandeja de notificaciones y las opciones de cuenta, preferencias, idioma, tema, preguntas frecuentes y soporte.
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+
+Los User Flow Diagrams muestran los recorridos previstos para que los usuarios alcancen objetivos específicos dentro de EcoMind. A diferencia de los wireflows, estos diagramas utilizan los mock-ups de alta fidelidad y destacan mediante flechas las acciones y transiciones entre pantallas.
+
+**Figura 122**
+
+*User Flow de autenticación e identidad.*
+
+<div align="center"><img src="assets/img/figures/IAMUser.jpeg" alt="User Flow de autenticación e identidad" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El flujo de IAM contempla dos recorridos. Un usuario con una cuenta existente ingresa sus credenciales, y accede al menú principal. Un usuario nuevo selecciona la opción de registro, completa sus datos, acepta los términos y continúa con la verificación de la cuenta.
+
+**Figura 123**
+
+*User Flow de retos.*
+
+<div align="center"><img src="assets/img/figures/QuestUser.jpeg" alt="User Flow de retos" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+El flujo de Quests comienza en el panel principal con la selección de una categoría. El estudiante puede revisar su progreso o buscar una miniactividad mediante filtros. Al abrirla, consulta sus instrucciones y recompensas, inicia el reto, completa cada paso y confirma su finalización para recibir EcoPoints. Si el reto es colaborativo, selecciona la opción de invitar amigos, revisa la lista de participantes, administra el grupo e inicia la actividad en conjunto. Este diagrama cubre los flujos de validación “Miniactividades y retos” y “Desafío entre compañeros”.
+
+**Figura 124**
+
+*User Flow de perfil, familia y seguimiento del progreso.*
+
+<div align="center"><img src="https://i.postimg.cc/tg25bMhB/User-Profie.jpg" alt="User Flow de perfil, familia y seguimiento del progreso" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+Después de completar un reto, el estudiante accede a su perfil para comprobar la actualización de la racha, los EcoPoints, las medallas y el progreso de sus actividades. También puede registrar un compromiso ambiental y consultar sus favoritos. En el recorrido para padres, el usuario abre la pestaña **Family**, revisa los integrantes, selecciona el perfil del hijo y consulta sus actividades completadas y pendientes. Este recorrido corresponde al flujo de validación “Familia y progreso”.
+
+**Figura 125**
+
+*User Flow de aprendizaje.*
+
+<div align="center"><img src="assets/img/figures/LearnignUser.jpeg" alt="User Flow de aprendizaje" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El usuario accede a Learning desde el menú principal, revisa los recursos disponibles y abre el contenido seleccionado. Como recorrido alternativo, puede utilizar los filtros para limitar los resultados según el tipo, la categoría y otros criterios de búsqueda.
+
+**Figura 126**
+
+*User Flow de tienda y monetización.*
+
+<div align="center"><img src="assets/img/figures/StoreUser.jpeg" alt="User Flow de tienda y monetización" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+Desde la tienda, el usuario selecciona la categoría de cosméticos, abre un producto y confirma la compra con gemas. Luego accede a **My Inventory** para equiparlo y comprobar el cambio en su avatar. El recorrido también permite revisar la descripción y duración de los multiplicadores o protectores antes de adquirirlos. En la sección de gemas, el usuario elige un paquete, selecciona el método de pago, revisa el resumen y confirma la operación. Para los estudiantes se valida la compra y personalización; para los padres se valida principalmente la comprensión y confianza que genera la economía virtual.
+
+**Figura 127**
+
+*User Flow de ranking y gamificación.*
+
+<div align="center"><img src="assets/img/figures/GamiRankingUser.jpeg" alt="User Flow de ranking y gamificación" width="850"></div>
+
+*Nota. Elaboración propia.*
+
+El flujo inicia en la barra de navegación inferior y conduce al ranking. Primero, el usuario identifica su posición resaltada; después puede cambiar entre las clasificaciones local, global, de amigos y de familias. Los filtros diario, semanal, mensual y acumulado permiten comparar los EcoPoints en distintos periodos. Para la validación se priorizan la posición propia, el ranking general y la clasificación semanal de la comunidad.
+
+**Figura 128**
+
+*User Flow de comunidad.*
+
+<div align="center"><img src="assets/img/figures/ComunidadUser.jpeg" alt="User Flow de comunidad" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+El recorrido de Community permite consultar la meta comunitaria y alternar entre premios, eventos y noticias. Desde la sección de eventos, el usuario puede buscar una actividad, revisar sus detalles y ubicación, crear un evento o solicitar una inscripción. La confirmación debe diferenciar claramente la participación individual de la familiar. Una vez inscrito, el usuario puede revisar el evento en **My events**, cancelarlo cuando sea necesario y acceder al espacio de comunicación. Este diagrama cubre “Comunidad y eventos” para estudiantes y “Actividad familiar en comunidad” para padres.
+
+**Figura 129**
+
+*User Flow de notificaciones y ajustes.*
+
+<div align="center"><img src="assets/img/figures/NotiAjusteUser.jpeg" alt="User Flow de" width="900"></div>
+
+*Nota. Elaboración propia.*
+
+El usuario puede revisar sus notificaciones y marcar los avisos como leídos. Desde ajustes puede administrar la información de la cuenta, configurar las notificaciones, cambiar el idioma y acceder a ayuda, soporte y preguntas frecuentes.
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+<div style="page-break-before: always;"></div>
+
+En el siguiente video se presenta el prototipo de EcoMind, compuesto por la Landing Page y la aplicación móvil. Primero, se realizará un recorrido por la Landing Page para explicar la propuesta de valor, las principales funcionalidades, los beneficios para estudiantes y familias, los planes disponibles, las preguntas frecuentes y las opciones para acceder a la aplicación.
+Posteriormente, se mostrarán los principales recorridos de la aplicación móvil, como el registro e inicio de sesión, la realización de retos ambientales, la participación en actividades colaborativas, el seguimiento del progreso personal y familiar, el acceso a contenidos educativos, el ranking, la comunidad, los eventos y la personalización mediante la tienda.
+Esta presentación tiene como finalidad demostrar cómo ambas interfaces trabajan de manera complementaria. La Landing Page permite conocer la solución y orienta al usuario antes de ingresar, mientras que la aplicación móvil ofrece las herramientas necesarias para aprender, participar y desarrollar hábitos sostenibles. Asimismo, el recorrido permite comprobar si la navegación, las instrucciones y las acciones disponibles son claras y coherentes con las necesidades de estudiantes y padres de familia.
+
+<div align="center">
+  <img src="https://i.postimg.cc/VLnSzdxJ/Prototipo.jpg" alt="Prototipo de EcoMind" width="850">
+</div>
+
+*Nota. Elaboración propia.*
+
+**Link del Video**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQBiIZe9m70_S7kY5FntgY2fAfeCmhGWDfVhBCyFnBw4zEo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NX4Lbh
+
+# Capítulo IV: Product Implementation & Validation
+
+# 4. Product Implementation & Validation
+
+## 4.1. Software Configuration Management
+
+Esta sección describe las herramientas, prácticas y convenciones utilizadas para administrar el desarrollo de EcoMind. Incluye la configuración del entorno de trabajo, la gestión del código fuente y los lineamientos aplicados al código de la landing page, la aplicación móvil y los servicios backend.
+
+### 4.1.1. Software Development Environment Configuration
+
+
+Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestionar el proyecto, documentar los requisitos, diseñar la experiencia de usuario, implementar la landing page, desarrollar la aplicación móvil y los servicios backend, ejecutar pruebas y desplegar los componentes de la solución.
+
+**Project Management**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| WhatsApp | SaaS / Aplicación | Facilitar la comunicación del equipo, coordinar reuniones, resolver dudas y compartir avisos relacionados con el proyecto. | [https://www.whatsapp.com/](https://www.whatsapp.com/) |
+| Trello | SaaS | Organizar el Product Backlog y los Sprint Backlogs mediante tableros, listas y tarjetas. También permite asignar responsables y dar seguimiento al estado de las tareas. | [https://trello.com/](https://trello.com/) |
+
+**Requirements Management**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Trello | SaaS | Registrar, priorizar y dar seguimiento a las épicas, historias de usuario, tareas técnicas y criterios de aceptación definidos para EcoMind. | [https://trello.com/](https://trello.com/) |
+| GitHub | SaaS | Mantener el historial de cambios del reporte y de los artefactos asociados a los requisitos, permitiendo la revisión colaborativa mediante commits y pull requests. | [https://github.com/](https://github.com/) |
+| Markdown | Lenguaje de marcado | Documentar las historias de usuario, requisitos, decisiones del proyecto y demás contenidos del reporte en un formato legible y compatible con GitHub. | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
+
+**Product UX/UI Design**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Figma | SaaS / Aplicación | Diseñar los wireframes, mock-ups y prototipos interactivos de la landing page y de la aplicación móvil. También permite mantener los componentes visuales y colaborar en tiempo real. | [https://www.figma.com/](https://www.figma.com/) |
+| Lucidchart | SaaS | Elaborar los user flows y representar gráficamente los recorridos y decisiones de los usuarios dentro de EcoMind. | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+
+**Software Development**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| IntelliJ IDEA | Aplicación de escritorio | Desarrollar y depurar el Backend API implementado con Java y Spring Boot. Sus herramientas permiten administrar dependencias, ejecutar servicios y trabajar con proyectos backend desde un mismo entorno. | [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/) |
+| Visual Studio Code | Aplicación de escritorio | Implementar y mantener la landing page de EcoMind mediante tecnologías web. También proporciona integración con Git y extensiones para facilitar el desarrollo. | [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) |
+| Live Preview | Extensión de Visual Studio Code | Visualizar en el navegador los cambios realizados en la landing page durante el desarrollo de su estructura y estilos. | [https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) |
+| Android Studio | Aplicación de escritorio | Desarrollar la aplicación móvil nativa de EcoMind con Kotlin. Permite diseñar interfaces, administrar dependencias, depurar el código y ejecutar la aplicación en dispositivos físicos o virtuales. | [https://developer.android.com/studio](https://developer.android.com/studio) |
+| Git | Sistema de control de versiones | Registrar los cambios realizados en el código y la documentación, crear ramas de trabajo y combinar los aportes de los integrantes del equipo. | [https://git-scm.com/downloads](https://git-scm.com/downloads) |
+| GitHub | SaaS | Alojar los repositorios de la landing page, la aplicación Android, los servicios backend y el reporte del proyecto. También facilita la colaboración y revisión de cambios. | [https://github.com/](https://github.com/) |
+| PostgreSQL | Sistema de gestión de bases de datos | Almacenar en una única base de datos relacional los datos de todos los módulos del Backend API. | [https://www.postgresql.org/](https://www.postgresql.org/) |
+
+**Software Testing**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Google Chrome | Aplicación de escritorio | Ejecutar pruebas funcionales, visuales y de compatibilidad sobre la landing page, además de inspeccionar su comportamiento mediante las herramientas para desarrolladores. | [https://www.google.com/chrome/](https://www.google.com/chrome/) |
+| Postman | SaaS / Aplicación | Probar los endpoints de las APIs REST, enviar solicitudes HTTP y verificar códigos de estado, encabezados y cuerpos de respuesta. | [https://www.postman.com/downloads/](https://www.postman.com/downloads/) |
+| Android Emulator | Herramienta de Android Studio | Probar la aplicación móvil en diferentes versiones y configuraciones de Android sin depender exclusivamente de dispositivos físicos. | [https://developer.android.com/studio/run/emulator](https://developer.android.com/studio/run/emulator) |
+
+**Software Deployment**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| GitHub Pages | SaaS | Alojar y publicar la landing page estática de EcoMind desde su repositorio en GitHub. | [https://pages.github.com/](https://pages.github.com/) |
+| Render | PaaS | Desplegar y ejecutar el Backend API desarrollado con Java y Spring Boot como un único servicio web, con las variables de entorno de configuración y credenciales inyectadas al iniciar. | [https://render.com/](https://render.com/) |
+| Google Play Console | SaaS | Gestionar las versiones, pruebas y publicación de la aplicación Android en Google Play. | [https://play.google.com/console/about/](https://play.google.com/console/about/) |
+
+**Software Documentation**
+
+| Producto | Tipo | Propósito de uso | Ruta |
+|---|---|---|---|
+| Markdown | Lenguaje de marcado | Redactar y estructurar el reporte del proyecto, los archivos README y la documentación técnica almacenada en los repositorios. | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
+| GitHub | SaaS | Almacenar, versionar y publicar la documentación del proyecto junto con sus imágenes, diagramas y demás recursos. | [https://github.com/](https://github.com/) |
+| Structurizr | SaaS / Lenguaje de modelado | Elaborar los diagramas del modelo C4 para representar el contexto, los contenedores, los componentes y el despliegue de la solución. | [https://structurizr.com/](https://structurizr.com/) |
+| PlantUML | Herramienta de diagramación | Crear diagramas de clases y otros modelos técnicos mediante descripciones textuales que pueden mantenerse bajo control de versiones. | [https://plantuml.com/](https://plantuml.com/) |
+
+### 4.1.2. Source Code Management
+
+El proyecto se gestionará mediante Git como sistema de control de versiones, utilizando el modelo de ramas GitFlow, propuesto por Vincent Driessen (2010), como workflow principal. Este modelo permite mantener una estructura ordenada para el desarrollo, integración, pruebas, liberación y mantenimiento de los productos de software de EcoMind.
+
+**Repositorios de GitHub por producto**
+
+| Producto | Repositorio |
+|----------|-------------|
+| Landing Page | https://upc-pre-202620-13980-greenminds.github.io/EcoMind_LandingPage/#landing |
+| Android Application | https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android |
+| Backend | https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend |
+| Project Report | https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report |
+
+**Estructura de ramas**
+
+**Ramas principales:**
+
+- `main`: versión estable, validada y lista para producción o publicación.
+- `develop`: rama de integración donde se consolidan las funcionalidades antes de preparar una versión oficial.
+
+**Feature branches:**
+
+Cada nueva funcionalidad, mejora o módulo se desarrolla en una rama independiente creada desde `develop`. La convención utilizada será:
+
+`feature/<bounded-context>-<descripcion-corta>`
+
+**Release branches:**
+
+Las ramas de release se crean desde `develop` cuando el incremento del producto está listo para estabilización. En estas ramas solo se permiten ajustes menores, correcciones de integración, actualización de documentación y preparación de versión. La convención utilizada será:
+
+`release/v<major>.<minor>.<patch>`
+
+Ejemplo: `release/v1.2.0`
+
+Al finalizar, la rama release se fusiona hacia `main` y también hacia `develop` para conservar los cambios de estabilización.
+
+**Hotfix branches:**
+
+Las ramas hotfix se crean desde `main` para corregir errores críticos detectados en producción o en una versión publicada. La convención utilizada será:
+
+`hotfix/v<major>.<minor>.<patch>-<descripcion-corta>`
+
+Ejemplo: `hotfix/v1.2.1-fix-login`
+
+Una vez corregido el problema, la rama hotfix se fusiona hacia `main` y `develop`, asegurando que la corrección quede disponible tanto en producción como en la línea activa de desarrollo.
+
+**Semantic Versioning:**
+
+Se usará Semantic Versioning 2.0.0, utilizando el formato `MAJOR.MINOR.PATCH`:
+
+- `MAJOR`: cambios incompatibles o reestructuraciones mayores.
+- `MINOR`: nuevas funcionalidades compatibles.
+- `PATCH`: correcciones de errores o ajustes menores.
+
+**Conventional Commits:**
+
+Para los mensajes de commit se utilizará el estándar Conventional Commits, asegurando claridad y trazabilidad en el historial del proyecto.
+
+Formato:
+
+`<tipo>(<scope>): <mensaje en presente>`
+
+Tipos principales:
+
+- `feat`: nueva funcionalidad.
+- `fix`: corrección de error.
+- `docs`: cambios en documentación.
+- `style`: cambios de formato sin alterar lógica.
+- `refactor`: reestructuración del código sin cambiar comportamiento.
+- `test`: creación o actualización de pruebas.
+- `chore`: tareas menores o de mantenimiento.
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+Para todos los productos de EcoMind se utilizará nomenclatura en inglés y convenciones consistentes entre la landing page, la aplicación móvil, los servicios backend y la documentación técnica. El objetivo es mantener un código legible, mantenible y alineado con estándares reconocidos.
+
+La landing page utiliza HTML, CSS y JavaScript; los servicios backend se desarrollan con Java y Spring Boot; y la aplicación móvil Android se implementa con Kotlin.
+
+**Convenciones generales de coding**
+
+- Utilizar nombres descriptivos y en inglés para archivos, variables, funciones, clases, interfaces, componentes, servicios y paquetes.
+- Evitar abreviaturas ambiguas y nombres genéricos como `data`, `info`, `object` o `temp` cuando no expresen claramente el propósito del elemento.
+- Mantener cada función o método orientado a una única responsabilidad.
+- Evitar la duplicación de código mediante funciones, clases, componentes o servicios reutilizables.
+- Aplicar una indentación consistente de acuerdo con las convenciones del lenguaje utilizado.
+- Eliminar código sin uso, importaciones innecesarias y bloques comentados antes de integrar los cambios.
+- Agregar comentarios únicamente cuando sea necesario explicar una regla de negocio, una decisión técnica o un comportamiento que no resulte evidente.
+- Mantener una separación clara entre las capas de dominio, aplicación, infraestructura e interfaces.
+- No incluir credenciales, tokens, contraseñas ni claves de servicios externos directamente en el código fuente.
+- Utilizar variables de entorno o archivos de configuración excluidos del repositorio para almacenar información sensible.
+- Mantener los mensajes de commits breves, descriptivos y redactados en inglés.
+
+**Lenguaje HTML**
+
+Para el desarrollo de la landing page se seguirán el HTML Standard y Google HTML/CSS Style Guide.
+
+- Los nombres de archivos se escribirán en minúsculas y se separarán mediante guiones, siguiendo la convención `kebab-case`.
+- Las etiquetas y los atributos HTML se escribirán en minúsculas.
+- Los valores de los atributos se colocarán entre comillas dobles.
+- Las etiquetas estarán correctamente anidadas y utilizarán una indentación consistente.
+- Se utilizarán elementos semánticos como `header`, `nav`, `main`, `section`, `article` y `footer`.
+- Cada página deberá incluir un atributo `lang` en el elemento `html`.
+- Las imágenes deberán incluir el atributo `alt` con una descripción adecuada.
+- Los elementos interactivos deberán utilizar etiquetas acordes con su función, como `button` para acciones y `a` para enlaces.
+- Se evitará el uso de estilos y scripts inline.
+- Los identificadores deberán ser únicos dentro de cada documento.
+- La estructura del contenido deberá mantener una jerarquía coherente de encabezados.
+
+**Lenguaje CSS**
+
+Para los estilos de la landing page se seguirá Google HTML/CSS Style Guide.
+
+- Los nombres de clases se escribirán en minúsculas y se separarán mediante guiones, siguiendo la convención `kebab-case`.
+- Los nombres de las clases deberán describir el propósito del elemento y no únicamente su apariencia.
+- Se evitarán selectores excesivamente específicos.
+- Los estilos se organizarán desde reglas generales hacia reglas específicas.
+- Se reutilizarán variables CSS para colores, tipografías, espacios y otros valores compartidos.
+- Los valores iguales a cero no incluirán unidades.
+- Se evitará el uso de `!important`, excepto cuando exista una justificación técnica.
+- Se mantendrá una separación entre la estructura HTML y la presentación visual.
+- Se utilizarán media queries para adaptar la interfaz a dispositivos móviles y de escritorio.
+- Se agruparán las declaraciones relacionadas para facilitar su lectura.
+
+
+**Lenguaje JavaScript**
+
+Para la lógica interactiva de la landing page se seguirán MDN JavaScript Guide y Google JavaScript Style Guide.
+
+- Las variables y funciones se escribirán en `camelCase`.
+- Las clases se escribirán en `PascalCase`.
+- Las constantes globales se escribirán en `UPPER_SNAKE_CASE`.
+- Se utilizarán `const` y `let` en lugar de `var`.
+- Se priorizará el uso de `const` cuando una referencia no necesite ser reasignada.
+- Se utilizará comparación estricta mediante `===` y `!==`.
+- Las funciones deberán tener nombres que describan claramente la acción que realizan.
+- Las operaciones asíncronas se manejarán mediante `async` y `await` cuando corresponda.
+- Los errores deberán gestionarse mediante bloques `try...catch` o mecanismos equivalentes.
+- La lógica reutilizable se separará en funciones o módulos.
+- Se evitará modificar directamente variables globales.
+- Los eventos deberán registrarse desde JavaScript en lugar de utilizar atributos HTML inline.
+
+**Lenguaje Java**
+
+Los servicios backend de EcoMind se desarrollarán con Java y Spring Boot. Para su implementación se seguirán Google Java Style Guide y Spring Boot Reference Documentation.
+
+- Las clases, interfaces, enumeraciones y anotaciones se escribirán en `PascalCase`.
+- Los métodos, atributos, parámetros y variables locales se escribirán en `camelCase`.
+- Las constantes se escribirán en `UPPER_SNAKE_CASE`.
+- Los paquetes se escribirán completamente en minúsculas.
+- Los nombres de las clases de dominio serán sustantivos en singular.
+- Los métodos deberán utilizar verbos que expresen claramente la acción realizada.
+- Cada archivo deberá contener una clase pública principal con el mismo nombre del archivo.
+- Se utilizarán tipos específicos y se evitará el uso innecesario de valores nulos.
+- Las dependencias se recibirán mediante inyección por constructor.
+- Se evitará incluir reglas de negocio dentro de los controladores REST.
+- Las excepciones deberán representar situaciones concretas del dominio o de la aplicación.
+- Las colecciones y objetos retornados no deberán exponer estructuras internas modificables cuando esto pueda afectar el estado del dominio.
+
+**Convenciones de Spring Boot**
+
+- Los controladores REST terminarán en `Controller`.
+- Los servicios de comandos o consultas terminarán en `CommandService` o `QueryService`, según su responsabilidad.
+- Los repositorios del dominio terminarán en `Repository`.
+- Las implementaciones técnicas de repositorios terminarán en `RepositoryImpl`.
+- Los adaptadores externos terminarán en `Client`, `Adapter` o `Gateway`, según su función.
+- Los recursos utilizados por la API terminarán en `Resource`.
+- Los objetos de transferencia de datos terminarán en `Dto` cuando corresponda.
+- Los ensambladores encargados de transformar objetos terminarán en `Assembler`.
+- Los eventos del dominio terminarán en `Event`.
+- Los manejadores de eventos terminarán en `EventHandler`.
+- Las clases de configuración terminarán en `Configuration`.
+- Las rutas REST utilizarán sustantivos en plural, minúsculas y separados mediante guiones cuando contengan más de una palabra.
+- Los nombres de propiedades JSON se escribirán en `camelCase`.
+- Los códigos de estado HTTP deberán representar correctamente el resultado de cada operación.
+- La validación de los datos de entrada se realizará antes de ejecutar la lógica de aplicación.
+
+
+**Lenguaje Kotlin**
+
+La aplicación móvil Android se desarrollará con Kotlin. Para su implementación se seguirán Kotlin Coding Conventions y Android Kotlin Style Guide.
+
+- Las clases, interfaces, objetos y enumeraciones se escribirán en `PascalCase`.
+- Las funciones, propiedades, parámetros y variables locales se escribirán en `camelCase`.
+- Las constantes se escribirán en `UPPER_SNAKE_CASE`.
+- Los paquetes se escribirán completamente en minúsculas.
+- Los nombres de los archivos deberán coincidir con la clase principal que contienen.
+- Se utilizarán nombres descriptivos y en inglés.
+- Se priorizarán las propiedades inmutables declaradas con `val`.
+- Se utilizará `var` únicamente cuando el valor de una propiedad deba cambiar.
+- Se evitará el operador de aserción no nula `!!`.
+- Se utilizarán tipos anulables únicamente cuando la ausencia de un valor forme parte del modelo.
+- Se utilizarán `data class` para representar estructuras cuyo propósito principal sea almacenar información.
+- Se utilizarán corrutinas para las operaciones asíncronas.
+- Las operaciones que puedan bloquear la interfaz no deberán ejecutarse en el hilo principal.
+- Los estados de carga, éxito y error deberán representarse explícitamente.
+- Se evitarán funciones extensas y clases con múltiples responsabilidades.
+
+**Convenciones de la aplicación Android**
+
+- Las clases encargadas del estado de las pantallas terminarán en `ViewModel`.
+- Los casos de uso terminarán en `UseCase`.
+- Las interfaces de acceso a datos terminarán en `Repository`.
+- Las implementaciones de acceso a datos terminarán en `RepositoryImpl`.
+- Las fuentes de datos terminarán en `LocalDataSource` o `RemoteDataSource`.
+- Los objetos provenientes de servicios externos terminarán en `Dto`.
+- Los mapeadores de datos terminarán en `Mapper`.
+- Las clases relacionadas con bases de datos locales terminarán en `Database`, `Dao` o `Entity`, según su responsabilidad.
+- Los nombres de los recursos de Android se escribirán en `snake_case`.
+- Los textos visibles para el usuario se almacenarán en archivos de recursos y no directamente en el código.
+- Los colores, dimensiones e imágenes reutilizables se administrarán mediante los recursos correspondientes.
+- La lógica de negocio no se implementará directamente dentro de las pantallas.
+- La navegación y el estado de la interfaz se mantendrán separados del acceso a datos.
+
+### 4.1.4. Software Deployment Configuration
+
+En esta sección se describe la configuración del despliegue de EcoMind, incluyendo los pasos necesarios para publicar la landing page en GitHub Pages y el backend en Render, así como la configuración de sus servicios asociados.
+
+**Landing page - Github pages**
+
+1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio.
+2. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages.
+3. En la sección Source, seleccionar la rama main y la carpeta raíz.
+4. Guardar la configuración para que GitHub Pages genere automáticamente la página pública.
+5. Una vez desplegado, el sitio estará disponible. Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
+
+**Backend**
+
+Base de datos - Aiven:
+
+1. Seleccionar opción crear servicio
+2. Asegurarse de elegir postgreSQL
+3. Seleccionar configuración básica del plan, y nombre del servicio
+4. Guardar y crear servicio. Se conectará con el backend desplegado, el cual añadirá entidades a las tablas según los endpoints lo soliciten.
+
+Backend - Render:
+
+1. Seleccionar opción crear servicio y dentro de ella seleccionar servicio web
+2. Elegir el repositorio donde se esta desarrollando el backend
+3. Configurar nombre, lenguaje, rama, plan y variables de entorno previo a la creación del servicio
+4. Guardar configuración y crear servicio, esperar su despliegue, cuando haya cambios es la rama main, render permite actualización ya sea de forma automática o manual.
+
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint 1
+
+En esta sección se presenta el trabajo planificado para el primer Sprint de EcoMind y las evidencias de su desarrollo.
+
+#### 4.2.1.1. Sprint Planning 1
+
+Aquí se documentan los acuerdos de planificación del Sprint 1, incluyendo su objetivo y la estimación del trabajo.
+
+| **Sprint #** |  1 |
+|------|--------|
+| **Date** | 2026-03-10 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual (Google Meet / Zoom) |
+| **Prepared By** | Alejandra Isabel Astocondor Bazan |
+| **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Mauricio Luis Pajes Leon, Katty Yolanda Philco Mota |
+| **Sprint n - 1 Review Summary** | - |
+| **Sprint n - 1 Retrospective Summary** | - |
+| **Sprint n Goal** | Our focus is on delivering the core EcoMind experience for families, including clear information about the app, environmental challenges, progress tracking, gamification, and community events. We believe this will help children and their families understand, participate in, and track environmental activities together. This will be confirmed when a family can explore the landing page, access the main challenge and progress features, and participate in a community event through the implemented application flows. |
+| **Sprint n Velocity** | Designamos aceptar hasta 150 SP |
+| **Sum of Story Points** | 147 SP |
+
+#### 4.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección se presentan los aspectos principales del Sprint 1 y la distribución de responsabilidades según las User Stories planteadas en el desarrollo del sprint. Entre ellas, la Landing Page informativa, los retos, aspectos de gamificación, rankings, la participación en comunidad, la personalización y compra de elementos virtuales, y la gestión de perfiles, familias y amigos. La tabla organiza estos aspectos por área del producto y presenta los roles de liderazgo y colaboración definidos para el Sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Quest | Community | Monetization | Profile | Gamification |
+|-------------------------------------|-----------------|--------------|-------|-----------|--------------|---------|--------------|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | C | L | C | C | C | C |
+| Dulanto Espino, Leo César | Leotens | L | C | L | C | C | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | L | C | C |
+| Pajes Leon, Mauricio Luis | mauricio-pajes | C | C | C | C | C | L |
+| Philco Mota, Katty Yolanda | kattyph | C | C | C | C | L | C |
+
+#### 4.2.1.3. Sprint Backlog 1
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto, cuyo objetivo principal fue desarrollar las funcionalidades iniciales de EcoMind para promover la participación familiar en actividades ambientales. Durante este Sprint, el equipo trabajó en User Stories relacionadas con la landing page, los retos guiados, el sistema de puntos y rankings, los eventos comunitarios, la personalización de avatares, las gemas y los logros, además de endpoints para gestionar retos, perfiles, familias, comunidad y funciones de monetización. Asimismo, cada User Story y tarea técnica se desglosó en Work-Items/Tasks con sus respectivas descripciones, estimaciones, responsables y estados, facilitando la organización y el seguimiento del trabajo del equipo.
+
+Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
+
+**Figura X**
+
+*Organización del sprint 1 en Trello*
+
+![Sprint_4](assets/img/figures/Sprint_1.png)
+
+**Tabla xx**
+ 
+*Tabla de Sprint backlog 1*
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr><th colspan="2">User Story</th><th colspan="6">Work-Item / Task</th></tr>
+    <tr><th>Id</th><th>Title</th><th>Id</th><th>Title</th><th>Description</th><th>Estimation (Hours)</th><th>Assigned To</th><th>Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">HU-051</td>
+      <td rowspan="2">Información descriptiva clara</td>
+      <td>TO01</td>
+      <td>Definir estructura y contenido de Información descriptiva clara</td>
+      <td>Organizar la información y definir su jerarquía visual para los visitantes.</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO02</td>
+      <td>Implementar e integrar Información descriptiva clara</td>
+      <td>Construir la sección e integrarla con la estructura de la landing page.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-052</td>
+      <td rowspan="2">Consejos de uso para padres</td>
+      <td>TO03</td>
+      <td>Definir estructura y contenido de Consejos de uso para padres</td>
+      <td>Organizar la información y definir su jerarquía visual para los visitantes.</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO04</td>
+      <td>Implementar e integrar Consejos de uso para padres</td>
+      <td>Construir la sección e integrarla con la estructura de la landing page.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-053</td>
+      <td rowspan="2">Preguntas frecuentes en landing page</td>
+      <td>TO05</td>
+      <td>Definir estructura y contenido de Preguntas frecuentes en landing page</td>
+      <td>Organizar la información y definir su jerarquía visual para los visitantes.</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO06</td>
+      <td>Implementar e integrar Preguntas frecuentes en landing page</td>
+      <td>Construir la sección e integrarla con la estructura de la landing page.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-054</td>
+      <td rowspan="2">Información de la comunidad</td>
+      <td>TO07</td>
+      <td>Definir estructura y contenido de Información de la comunidad</td>
+      <td>Organizar la información y definir su jerarquía visual para los visitantes.</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO08</td>
+      <td>Implementar e integrar Información de la comunidad</td>
+      <td>Construir la sección e integrarla con la estructura de la landing page.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="4">HU-001</td>
+      <td rowspan="4">Retos guiados con indicaciones</td>
+      <td>TO09</td>
+      <td>Definir flujo y reglas de Retos guiados con indicaciones</td>
+      <td>Establecer pasos, reglas y datos necesarios para completar la funcionalidad.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO10</td>
+      <td>Implementar interacción de Retos guiados con indicaciones</td>
+      <td>Construir la interacción que permite al estudiante acceder y realizar la actividad.</td>
+      <td>4</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO11</td>
+      <td>Registrar progreso de Retos guiados con indicaciones</td>
+      <td>Guardar el avance y el resultado asociado a la actividad.</td>
+      <td>4</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO12</td>
+      <td>Validar estados y finalización de Retos guiados con indicaciones</td>
+      <td>Comprobar estados iniciales, progreso, finalización y casos no válidos.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-002</td>
+      <td rowspan="3">Reto ambiental diario</td>
+      <td>TO13</td>
+      <td>Definir flujo y reglas de Reto ambiental diario</td>
+      <td>Establecer pasos, reglas y datos necesarios para completar la funcionalidad.</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO14</td>
+      <td>Implementar interacción de Reto ambiental diario</td>
+      <td>Construir la interacción que permite al estudiante acceder y realizar la actividad.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO15</td>
+      <td>Registrar progreso de Reto ambiental diario</td>
+      <td>Guardar el avance y el resultado asociado a la actividad.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-004</td>
+      <td rowspan="3">Sistema de puntos por aprendizaje</td>
+      <td>TO16</td>
+      <td>Definir reglas de Sistema de puntos por aprendizaje</td>
+      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificación.</td>
+      <td>2</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO17</td>
+      <td>Implementar cálculo o registro de Sistema de puntos por aprendizaje</td>
+      <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO18</td>
+      <td>Mostrar resultado de Sistema de puntos por aprendizaje</td>
+      <td>Presentar al usuario sus puntos, posición o logros de forma comprensible.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-009</td>
+      <td rowspan="2">Ranking educativo</td>
+      <td>TO19</td>
+      <td>Definir reglas de Ranking educativo</td>
+      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificación.</td>
+      <td>2</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO20</td>
+      <td>Implementar cálculo o registro de Ranking educativo</td>
+      <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="4">HU-014</td>
+      <td rowspan="4">Evento familiar en comunidad</td>
+      <td>TO21</td>
+      <td>Definir datos y vista de Evento familiar en comunidad</td>
+      <td>Identificar la información que necesita el usuario para encontrar y entender esta función comunitaria.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO22</td>
+      <td>Implementar consulta de Evento familiar en comunidad</td>
+      <td>Mostrar eventos o contenido comunitario correspondiente a la historia.</td>
+      <td>4</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO23</td>
+      <td>Registrar participación en Evento familiar en comunidad</td>
+      <td>Registrar la participación o interacción realizada por el usuario.</td>
+      <td>4</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO24</td>
+      <td>Validar interacción de Evento familiar en comunidad</td>
+      <td>Verificar estados de participación, actualización y manejo de casos inválidos.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-029</td>
+      <td rowspan="3">Avatares y cosméticos personalizables</td>
+      <td>TO25</td>
+      <td>Definir opciones y reglas de Avatares y cosméticos personalizables</td>
+      <td>Establecer productos, condiciones y reglas que se aplican a esta funcionalidad.</td>
+      <td>2</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO26</td>
+      <td>Implementar flujo de Avatares y cosméticos personalizables</td>
+      <td>Construir el flujo para que el usuario pueda obtener o adquirir el elemento correspondiente.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO27</td>
+      <td>Actualizar saldo o inventario de Avatares y cosméticos personalizables</td>
+      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operación.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-031</td>
+      <td rowspan="3">Multiplicador de XP</td>
+      <td>TO28</td>
+      <td>Definir opciones y reglas de Multiplicador de XP</td>
+      <td>Establecer productos, condiciones y reglas que se aplican a esta funcionalidad.</td>
+      <td>2</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO29</td>
+      <td>Implementar flujo de Multiplicador de XP</td>
+      <td>Construir el flujo para que el usuario pueda obtener o adquirir el elemento correspondiente.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO30</td>
+      <td>Actualizar saldo o inventario de Multiplicador de XP</td>
+      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operación.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-035</td>
+      <td rowspan="3">Compra y obtención de gemas</td>
+      <td>TO31</td>
+      <td>Definir opciones y reglas de Compra y obtención de gemas</td>
+      <td>Establecer productos, condiciones y reglas que se aplican a esta funcionalidad.</td>
+      <td>2</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO32</td>
+      <td>Implementar flujo de Compra y obtención de gemas</td>
+      <td>Construir el flujo para que el usuario pueda obtener o adquirir el elemento correspondiente.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO33</td>
+      <td>Actualizar saldo o inventario de Compra y obtención de gemas</td>
+      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operación.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-037</td>
+      <td rowspan="3">Eventos ambientales</td>
+      <td>TO34</td>
+      <td>Definir datos y vista de Eventos ambientales</td>
+      <td>Identificar la información que necesita el usuario para encontrar y entender esta función comunitaria.</td>
+      <td>2</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO35</td>
+      <td>Implementar consulta de Eventos ambientales</td>
+      <td>Mostrar eventos o contenido comunitario correspondiente a la historia.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO36</td>
+      <td>Registrar participación en Eventos ambientales</td>
+      <td>Registrar la participación o interacción realizada por el usuario.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-038</td>
+      <td rowspan="2">Panel de logros compartidos</td>
+      <td>TO37</td>
+      <td>Definir reglas de Panel de logros compartidos</td>
+      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificación.</td>
+      <td>2</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO38</td>
+      <td>Implementar cálculo o registro de Panel de logros compartidos</td>
+      <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="4">TS-004</td>
+      <td rowspan="4">Endpoints de retos y actividades</td>
+      <td>TO39</td>
+      <td>Definir contrato y validaciones de Endpoints de retos y actividades</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO40</td>
+      <td>Implementar la lógica de aplicación de Endpoints de retos y actividades</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>4</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO41</td>
+      <td>Integrar persistencia y exponer Endpoints de retos y actividades</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>4</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO42</td>
+      <td>Verificar escenarios y respuestas de Endpoints de retos y actividades</td>
+      <td>Comprobar respuestas exitosas y errores, y dejar documentado el comportamiento del endpoint.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-005</td>
+      <td rowspan="3">Endpoint de progreso de retos y actividades</td>
+      <td>TO43</td>
+      <td>Definir contrato y validaciones de Endpoint de progreso de retos y actividades</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO44</td>
+      <td>Implementar la lógica de aplicación de Endpoint de progreso de retos y actividades</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO45</td>
+      <td>Integrar persistencia y exponer Endpoint de progreso de retos y actividades</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-007</td>
+      <td rowspan="3">Endpoint de ranking semanal</td>
+      <td>TO46</td>
+      <td>Definir contrato y validaciones de Endpoint de ranking semanal</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO47</td>
+      <td>Implementar la lógica de aplicación de Endpoint de ranking semanal</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO48</td>
+      <td>Integrar persistencia y exponer Endpoint de ranking semanal</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-009</td>
+      <td rowspan="3">Endpoint de resumen y edición de perfil</td>
+      <td>TO49</td>
+      <td>Definir contrato y validaciones de Endpoint de resumen y edición de perfil</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO50</td>
+      <td>Implementar la lógica de aplicación de Endpoint de resumen y edición de perfil</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO51</td>
+      <td>Integrar persistencia y exponer Endpoint de resumen y edición de perfil</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-010</td>
+      <td rowspan="3">Endpoint de progreso del perfil</td>
+      <td>TO52</td>
+      <td>Definir contrato y validaciones de Endpoint de progreso del perfil</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO53</td>
+      <td>Implementar la lógica de aplicación de Endpoint de progreso del perfil</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO54</td>
+      <td>Integrar persistencia y exponer Endpoint de progreso del perfil</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-011</td>
+      <td rowspan="3">Endpoint de familia y amigos del perfil</td>
+      <td>TO55</td>
+      <td>Definir contrato y validaciones de Endpoint de familia y amigos del perfil</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO56</td>
+      <td>Implementar la lógica de aplicación de Endpoint de familia y amigos del perfil</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO57</td>
+      <td>Integrar persistencia y exponer Endpoint de familia y amigos del perfil</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-012</td>
+      <td rowspan="3">Endpoint de interacción comunitaria</td>
+      <td>TO58</td>
+      <td>Definir contrato y validaciones de Endpoint de interacción comunitaria</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO59</td>
+      <td>Implementar la lógica de aplicación de Endpoint de interacción comunitaria</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO60</td>
+      <td>Integrar persistencia y exponer Endpoint de interacción comunitaria</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-013</td>
+      <td rowspan="3">Endpoint de eventos comunitarios y participación</td>
+      <td>TO61</td>
+      <td>Definir contrato y validaciones de Endpoint de eventos comunitarios y participación</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO62</td>
+      <td>Implementar la lógica de aplicación de Endpoint de eventos comunitarios y participación</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO63</td>
+      <td>Integrar persistencia y exponer Endpoint de eventos comunitarios y participación</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="4">TS-018</td>
+      <td rowspan="4">Endpoint de metas comunitarias y chat temporal</td>
+      <td>TO64</td>
+      <td>Definir contrato y validaciones de Endpoint de metas comunitarias y chat temporal</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO65</td>
+      <td>Implementar la lógica de aplicación de Endpoint de metas comunitarias y chat temporal</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>4</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO66</td>
+      <td>Integrar persistencia y exponer Endpoint de metas comunitarias y chat temporal</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>4</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO67</td>
+      <td>Verificar escenarios y respuestas de Endpoint de metas comunitarias y chat temporal</td>
+      <td>Comprobar respuestas exitosas y errores, y dejar documentado el comportamiento del endpoint.</td>
+      <td>3</td>
+      <td>Leo Cesar Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-014</td>
+      <td rowspan="3">Endpoint de catálogo y compra de cosméticos</td>
+      <td>TO68</td>
+      <td>Definir contrato y validaciones de Endpoint de catálogo y compra de cosméticos</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO69</td>
+      <td>Implementar la lógica de aplicación de Endpoint de catálogo y compra de cosméticos</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO70</td>
+      <td>Integrar persistencia y exponer Endpoint de catálogo y compra de cosméticos</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-015</td>
+      <td rowspan="3">Endpoint de compra de gemas</td>
+      <td>TO71</td>
+      <td>Definir contrato y validaciones de Endpoint de compra de gemas</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO72</td>
+      <td>Implementar la lógica de aplicación de Endpoint de compra de gemas</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO73</td>
+      <td>Integrar persistencia y exponer Endpoint de compra de gemas</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-001</td>
+      <td rowspan="3">Endpoint de usuarios</td>
+      <td>TO74</td>
+      <td>Definir contrato y validaciones de Endpoint de usuarios</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO75</td>
+      <td>Implementar la lógica de aplicación de Endpoint de usuarios</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO76</td>
+      <td>Integrar persistencia y exponer Endpoint de usuarios</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-002</td>
+      <td rowspan="3">Endpoints de familia y miembros familiares</td>
+      <td>TO77</td>
+      <td>Definir contrato y validaciones de Endpoints de familia y miembros familiares</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO78</td>
+      <td>Implementar la lógica de aplicación de Endpoints de familia y miembros familiares</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO79</td>
+      <td>Integrar persistencia y exponer Endpoints de familia y miembros familiares</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-003</td>
+      <td rowspan="3">Endpoint de amigos</td>
+      <td>TO80</td>
+      <td>Definir contrato y validaciones de Endpoint de amigos</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO81</td>
+      <td>Implementar la lógica de aplicación de Endpoint de amigos</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO82</td>
+      <td>Integrar persistencia y exponer Endpoint de amigos</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">TS-006</td>
+      <td rowspan="3">Endpoint de logros de usuario y comunidad</td>
+      <td>TO83</td>
+      <td>Definir contrato y validaciones de Endpoint de logros de usuario y comunidad</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
+      <td>2</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO84</td>
+      <td>Implementar la lógica de aplicación de Endpoint de logros de usuario y comunidad</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO85</td>
+      <td>Integrar persistencia y exponer Endpoint de logros de usuario y comunidad</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-008</td>
+      <td rowspan="2">Animaciones de logro</td>
+      <td>TO86</td>
+      <td>Definir reglas de Animaciones de logro</td>
+      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificación.</td>
+      <td>2</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO87</td>
+      <td>Implementar cálculo o registro de Animaciones de logro</td>
+      <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los flujos de la aplicación Android. La Tabla 117 relaciona los cambios con sus repositorios y ramas.
+
+**Tabla 117**
+
+*Commits de implementación del Sprint 1*
+
+| Repositorio | Rama | Commit ID | Mensaje | Cuerpo del mensaje | Descripción del commit | Fecha |
+|---|---|---|---|---|---|---|
+| EcoMind_LandingPage | `main` | [e770a14](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_LandingPage/commit/e770a144452a381a6557b0b8113ff53486dbf4aa) | feat: add landing page views | — | Implementación de las vistas de la Landing Page. | 2026-10-09 |
+| EcoMind_LandingPage | `main` | [106ce09](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_LandingPage/commit/106ce099d64c57e0a3aa8505955a3eb59c12fb3c) | feat: add GitHub Pages deployment workflow | Updated workflow for deploying static site to GitHub Pages, including version upgrades for actions and path adjustments. | Actualización del workflow de GitHub Pages, sus acciones y rutas de despliegue. | 2026-10-09 |
+| EcoMind_LandingPage | `main` | [81810b0](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_LandingPage/commit/81810b0ad3d83827a6b3b2cb0c53338ac092d82a) | feat: add English language switch and update landing CTAs | — | Selector de idioma inglés y actualización de los botones de acción. | 2026-10-09 |
+| EcoMind_Backend | `develop` | [f210a91](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/f210a91b13bee1a421e9cc1410ea4f1a226e0aca) | feat(iam): add registration, authentication and password recovery with jwt security | — | Registro, inicio de sesión y recuperación de contraseña con seguridad JWT. | 2026-10-07 |
+| EcoMind_Backend | `develop` | [c8ba61d](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/c8ba61dcc87b319a25492dfc73c48ea7682cc64e) | feat(users): add profiles, families and friend requests with iam integration | — | Gestión de perfiles, grupos familiares y solicitudes de amistad integrada con IAM. | 2026-10-07 |
+| EcoMind_Backend | `develop` | [0409d2b](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/0409d2b96963ef1f088ea8c4d355f938c129c95d) | feat(quests): add versioning, publication lifecycle and member queries | — | Versionado, ciclo de publicación y consultas de participantes de los retos. | 2026-10-07 |
+| EcoMind_Backend | `develop` | [fe38157](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/fe381578688843a0c961ddf762c969e4493a06d5) | feat(monetization): complete store catalog and purchase flows | — | Implementación del catálogo de la tienda y del flujo de compras. | 2026-10-08 |
+| EcoMind_Backend | `develop` | [1b7d57e](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/1b7d57e0b3cdf0533f5fb4c560ccd30ef9234798) | feat(community): expose community goal endpoints | — | Exposición de endpoints para las metas comunitarias. | 2026-10-08 |
+| EcoMind_Backend | `develop` | [d267cce](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/d267ccea453bdbfce27a5b7bc1ce92ca064657cc) | fix(gamification): remove duplicated XP storage completely | — | Eliminación del almacenamiento duplicado de XP en Gamification. | 2026-10-08 |
+| EcoMind_Backend | `main` | [8c37512](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8c3751276beb8fb1a2535a99dd5a190386a0b73e) | test: expand backend coverage and configure CI/CD | — | Pruebas, reportes de cobertura y pipeline de integración y entrega | 2026-10-10 |
+| EcoMind_Backend | `main` | [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635) | test: complete quest lifecycle regressions and enforce coverage | — | Pruebas del ciclo de retos, permisos, participantes y umbrales de cobertura | 2026-10-10 |
+| EcoMind_Android | `develop` | [a47ed78](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/a47ed781040f873676fc10c2b589b8126db76785) | feat(users): add profile screen with friends and family tabs | — | Pantalla de perfil con pestañas de amigos y familia. | 2026-10-08 |
+| EcoMind_Android | `develop` | [c265c95](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/c265c95aea14914233bf487a8470835bc617e63e) | feat: add complete quest type activities flow | — | Implementación del flujo de actividades por tipo de reto. | 2026-10-09 |
+| EcoMind_Android | `develop` | [64554e5](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/64554e5ec7925f54baff2f2ec76408fd58c46e56) | feat(monetization): connect cosmetics store to backend | — | Conexión de la tienda de cosméticos con el backend. | 2026-10-09 |
+| EcoMind_Android | `develop` | [d7a6b9d](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/d7a6b9de690870f2af01b8e334257020304e161c) | feat(community): add awards and news sections | — | Incorporación de las secciones de premios y noticias de la comunidad. | 2026-10-09 |
+| EcoMind_Android | `feature/gamification` | [d88dffd](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/d88dffd451d6513a922cfe14f848f631b9bbcbaf) | feat(gamification): connect progress rewards and achievement sharing | — | Conexión del progreso, las recompensas y la publicación de logros. | 2026-10-09 |
+| EcoMind_Android | `feature/gamification` | [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad) | refactor(gamification): centralize authentication in shared client | — | Centralización de la autenticación en el cliente HTTP compartido. | 2026-10-10 |
+| GreenMinds_Report | `develop` | [4254c22](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/commit/4254c220a2f76c1681aeed088c4b44d365766abe) | docs: add Software deployment configuration | — | Documentación de la configuración de despliegue del software. | 2026-10-10 |
+| GreenMinds_Report | `develop` | [f556fb5](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/commit/f556fb5b79eaf883b99c87a399de84b08146b654) | docs(Chapter iii) : add Mobile Applications Wireflow Diagrams | — | Incorporación de los diagramas de navegación de la aplicación móvil. | 2026-10-10 |
+
+*Nota. Los identificadores enlazan al historial de GitHub. Las fechas corresponden al registro de cada commit.*
+
+La ejecución de Android corresponde a `feature/gamification`, commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad), que contiene los cambios de `develop` hasta [6db2af6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/6db2af6355fb1031b15c72724051367363939f3a). La integración se presenta en el [pull request #3](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/3).
+
+El proyecto Android se trabaja en Android Studio. Su estructura organiza los bounded contexts en paquetes y separa las capas `application`, `domain`, `infrastructure` e `interfaces`. La Figura 54 muestra el módulo `app` y un caso de uso de Gamification.
+
+**Figura 54**
+
+*Proyecto EcoMind en Android Studio*
+
+<img src="assets/img/figures/sprint-1/android-studio-environment.png" alt="Proyecto Android abierto en Android Studio con sus paquetes y el caso de uso GetAchievementByIdUseCase" width="100%">
+
+*Nota. Captura de Android Studio.*
+
+El Backend API se desarrolla en IntelliJ IDEA. La Figura 55 muestra el proyecto `EcoMind_Backend` en la rama `develop`, con las capas `application`, `domain`, `infrastructure` e `interfaces` del bounded context Gamification. En el editor, `GamificationContextFacade` expone la consulta `getUserProgress`, que delega en `GamificationQueryService` y devuelve un registro `Progress` con el identificador del usuario, sus ecopoints, la racha actual, la racha más larga y la fecha de última actividad.
+
+**Figura 55**
+
+*Proyecto EcoMind Backend en IntelliJ IDEA*
+
+<img src="assets/img/figures/sprint-1/backend-intellij-environment.png" alt="Proyecto EcoMind_Backend abierto en IntelliJ IDEA en la rama develop, con las capas de Gamification y la clase GamificationContextFacade" width="100%">
+
+*Nota. Captura de IntelliJ IDEA. Se observa la estructura del backend y el código de consulta del progreso de Gamification.*
+
+#### 4.2.1.5. Testing Suite Evidence for Sprint Review
+
+Las pruebas de los servicios se ejecutaron en `main`, commit [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c) con JUnit, Spring Boot Test, MockMvc y Cucumber. Las pruebas de Android corresponden al commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad).
+
+Los proyectos de pruebas se encuentran en [EcoMind_Backend/src/test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/a6d1491f722c8ee88cbd84337aa1c995e14be44c/src/test), [EcoMind_Android/app/src/test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/tree/5e26fe6ed67c9aa034c78c4c97badec589a88dad/app/src/test) y [EcoMind_Android/app/src/androidTest](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/tree/5e26fe6ed67c9aa034c78c4c97badec589a88dad/app/src/androidTest).
+
+*Commits que incorporan y actualizan las pruebas del Sprint 1*
+
+| Repositorio | Rama | Commit ID | Mensaje | Cuerpo del mensaje | Fecha |
+|---|---|---|---|---|---|
+| EcoMind_Backend | `main` | [8c37512](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8c3751276beb8fb1a2535a99dd5a190386a0b73e) | test: expand backend coverage and configure CI/CD | — | 2026-10-10 |
+| EcoMind_Backend | `main` | [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635) | test: complete quest lifecycle regressions and enforce coverage | — | 2026-10-10 |
+| EcoMind_Android | `feature/gamification` | [d88dffd](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/d88dffd451d6513a922cfe14f848f631b9bbcbaf) | feat(gamification): connect progress rewards and achievement sharing | — | 2026-10-09 |
+| EcoMind_Android | `feature/gamification` | [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad) | refactor(gamification): centralize authentication in shared client | — | 2026-10-10 |
+
+**Tabla 118**
+
+*Resultado de pruebas y compilación del 10 de octubre de 2026*
+
+| Componente | Ejecución | Resultado | Entorno |
+|---|---|---|---|
+| Backend API | `bash ./mvnw clean verify` | 515 ejecuciones; 0 fallos, 0 errores y 0 omitidas | GitHub Actions; JDK 21; H2 en modo de compatibilidad PostgreSQL |
+| Backend API | `bash ./mvnw clean verify` | 515 ejecuciones; 0 fallos, 0 errores y 0 omitidas | GitHub Actions; JDK 21; PostgreSQL 17 |
+| Android | `bash ./gradlew testDebugUnitTest` | 49 pruebas; 0 fallos, 0 errores y 0 omitidas | JDK 21 y Gradle |
+| Android | `bash ./gradlew connectedDebugAndroidTest` | 14 pruebas; 0 fallos, 0 errores y 0 omitidas | Emulador Android API 37; Backend API local |
+| Android | `bash ./gradlew assembleDebug assembleRelease` | Compilación satisfactoria de ambos APK | Android SDK 37 |
+
+Cucumber ejecutó 73 escenarios de aceptación dentro de un total de 515 pruebas. JaCoCo registró 86,78 % de cobertura de líneas y 69,12 % de ramas. La verificación exige un mínimo de 85 % de líneas y 65 % de ramas.
+
+Las pruebas instrumentadas incluyen el inicio de sesión por Retrofit, la consulta de retos, navegación, filtros, progreso y logros.
+
+La Figura 57 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
+
+**Figura 56**
+
+*Ejecución de la suite del backend en IntelliJ IDEA*
+
+<img src="assets/img/figures/sprint-1/backend-intellij-tests.png" alt="IntelliJ IDEA muestra 588 ejecuciones aprobadas y un escenario Gherkin de grupo familiar" width="100%">
+
+*Nota. La vista «All in ecomind-backend» de IntelliJ IDEA registra 588 ejecuciones aprobadas. La Tabla 118 corresponde a las 515 pruebas ejecutadas por Maven en cada base de datos del pipeline.*
+
+**Tabla 119**
+
+*Trazabilidad de pruebas de los servicios*
+
+| Historia o funcionalidad | Evidencia de prueba | Comportamiento verificado |
+|---|---|---|
+| HU-056: registro | `hu056_user_registration.feature` | Validación de datos, registro y confirmación de correo |
+| HU-057: inicio de sesión | `hu057_sign_in.feature` | Autenticación válida, credenciales incorrectas y campos vacíos |
+| HU-058: recuperación de contraseña | `hu058_password_recovery.feature` | Solicitud y validación del proceso de recuperación |
+| HU-059: cierre de sesión | `hu059_logout.feature` | Cierre de la sesión autenticada |
+| HU-019: grupo familiar | `hu019_family_group.feature` | Creación, incorporación y retiro de miembros; permisos del padre |
+| HU-039: solicitudes de amistad | `hu039_friend_requests.feature` | Gestión de solicitudes y validación de participantes |
+| Recompensas y logros | `GamificationReportIntegrationTests` | Idempotencia, ecopoints, multiplicadores, logros y protección de racha |
+| Ranking | `RankingTests` | Ámbitos, periodos, orden y paginación |
+| HU-001, HU-004 y HU-046: retos | `guided_quests.feature` | Publicación, actividades, finalización, recompensa única y acceso restringido al participante |
+| Retos colaborativos y planes familiares | `collaborative_lifecycle.feature`, `QuestLifecycleIntegrationTests` | Aceptación y rechazo de invitaciones, aforo, retiro, permisos e inicio de sesiones y planes |
+| Retos diarios y minijuegos | `DailyQuestLifecycleServiceTests`, `MinigameAttemptTests` | Asignación, cierre del reto diario y estados de intentos |
+| HU-014, HU-033, HU-034, HU-037 y HU-060–064: comunidad | `community_participation.feature` | Membresía, permisos, publicaciones, reacciones, aforo, reinscripción y metas |
+| HU-029, HU-035 y HU-067: tienda | `store_and_wallet.feature`, `MonetizationPurchaseIntegrationTests` | Compras, inventario, saldo insuficiente e idempotencia |
+| Actividades, planes familiares y sesiones colaborativas | `ActivityCommandServiceImplTests`, `FamilyPlanCommandServiceImplTests`, `CollabQuestSessionCommandServiceImplTests` | Orden de actividades, participantes y condiciones de inicio |
+| Acceso al API | `ProtectedEndpointsIntegrationTests` | Rechazo de solicitudes sin autenticación o con token inválido |
+
+Las [especificaciones Gherkin](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/a6d1491f722c8ee88cbd84337aa1c995e14be44c/src/test/resources/features) se vinculan a los [step definitions](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/a6d1491f722c8ee88cbd84337aa1c995e14be44c/src/test/java/pe/greenminds/ecomind/bdd) y se ejecutan mediante `RunCucumberTest`. El siguiente escenario corresponde a HU-057:
+
+```gherkin
+Scenario: Sign in with a wrong password
+  When I sign in with email "camila@example.com" and password "WrongPassword2026"
+  Then the response status is 401
+  And the error code is "INVALID_CREDENTIALS"
+  And I do not receive an access token
+```
+
+El workflow ejecuta las pruebas con H2 y PostgreSQL 17, verifica la cobertura con JaCoCo y construye la imagen Docker.
+
+La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300) de `main` completó satisfactoriamente las pruebas y la construcción de la imagen.
+
+**Figura 57**
+
+*Verificaciones del backend y construcción de la imagen en GitHub Actions*
+
+<img src="assets/img/figures/sprint-1/backend-main-pipeline.png" alt="Pipeline aprobado con pruebas H2, PostgreSQL y construcción Docker" width="100%">
+
+*Nota. Captura de GitHub Actions.*
+
+#### 4.2.1.6. Execution Evidence for Sprint Review
+
+La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Backend API mediante HTTP y autenticación JWT. El backend utilizó una base de datos PostgreSQL local y cuentas de prueba. La landing page se verificó desde su dirección pública.
+
+**Figura 58**
+
+*Landing page de EcoMind en ejecución*
+
+<div align="center">
+<img src="assets/img/figures/sprint-1/landing-home.png" alt="Landing page de EcoMind en ejecución" width="100%">
+</div>
+
+*Nota. Captura de la Landing Page de EcoMind.*
+
+El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta su descripción, duración y ecopoints.
+
+**Figura 59**
+
+*Inicio de sesión y detalle de un reto*
+
+<div align="center">
+<img src="assets/img/figures/sprint-1/android-sign-in.png" alt="Inicio de sesión y detalle de un reto" width="45%">
+<img src="assets/img/figures/sprint-1/android-quest-detail.png" alt="Inicio de sesión y detalle de un reto" width="45%">
+</div>
+
+*Nota. Captura de la aplicación Android en el emulador.*
+
+Al completar la actividad, el usuario obtiene el resultado del reto y puede consultar su progreso. En la ejecución se registraron 10 ecopoints y el logro «First green step».
+
+**Figura 60**
+
+*Finalización del reto y consulta de progreso*
+
+<div align="center">
+<img src="assets/img/figures/sprint-1/android-quest-completed.png" alt="Finalización del reto y consulta de progreso" width="45%">
+<img src="assets/img/figures/sprint-1/android-progress.png" alt="Finalización del reto y consulta de progreso" width="45%">
+</div>
+
+*Nota. Captura de la aplicación Android en el emulador.*
+
+**Figura 61**
+
+*Medalla obtenida y ranking global semanal*
+
+<div align="center">
+<img src="assets/img/figures/sprint-1/android-achievement-earned.png" alt="Medalla obtenida y ranking global semanal" width="45%">
+<img src="assets/img/figures/sprint-1/android-ranking-global.png" alt="Medalla obtenida y ranking global semanal" width="45%">
+</div>
+
+*Nota. Captura de la aplicación Android en el emulador.*
+
+La navegación también permite consultar el grupo familiar y el catálogo de cosméticos.
+
+**Figura 62**
+
+*Grupo familiar y tienda de cosméticos*
+
+<div align="center">
+<img src="assets/img/figures/sprint-1/android-family.png" alt="Grupo familiar y tienda de cosméticos" width="45%">
+<img src="assets/img/figures/sprint-1/android-store.png" alt="Grupo familiar y tienda de cosméticos" width="45%">
+</div>
+
+*Nota. Captura de la aplicación Android en el emulador.*
+
+**Video de ejecución:** [Recorrido de la aplicación Android](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410093_upc_edu_pe/IQBVA-AU-FA9TLx1V8zV1IPRAYv5FncU0FDrAn9In9ViiO8?e=ozx3X8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D). Véase el [Anexo 1](#anexo-1-video-de-ejecución-de-la-aplicación-android).
+
+La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL en el puerto `8092`. Swagger UI estuvo disponible en `http://localhost:8092/swagger-ui/index.html`. La aplicación Android se instaló en el emulador con el APK debug y consumió `http://10.0.2.2:8092/api/v1/`.
+
+**Tabla 120**
+
+*Artefactos de ejecución*
+
+| Componente | Revisión | Artefacto o dirección |
+|---|---|---|
+| Landing page | `81810b0` | GitHub Pages: `EcoMind_LandingPage` |
+| Backend API | `11556d0` | Spring Boot y PostgreSQL; API local en el puerto `8092` |
+| Android | `5e26fe6` | `app/build/outputs/apk/debug/app-debug.apk` instalado en emulador API 37 |
+| Android release | `5e26fe6` | `app/build/outputs/apk/release/app-release-unsigned.apk` generado por Gradle |
+
+#### 4.2.1.7. Services Documentation Evidence for Sprint Review
+
+El Backend API documenta sus servicios con OpenAPI 3.1 y Swagger UI. Los contratos están agrupados por bounded context y especifican métodos HTTP, parámetros, cuerpos JSON y códigos de respuesta. El contrato corresponde al código [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635), integrado en `main` [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c). El [catálogo de servicios](assets/evidence/sprint-1/services-catalog.md) detalla 140 operaciones en 113 rutas, con parámetros, esquemas de solicitud y respuesta, códigos HTTP y ejemplos de invocación. La instancia documentada expone Swagger UI en `http://localhost:8093/swagger-ui/index.html` y el contrato en `http://localhost:8093/v3/api-docs`.
+
+**Tabla 121**
+
+*Servicios REST de los flujos implementados*
+
+| Bounded context | Método y endpoint | Entrada principal | Resultado |
+|---|---|---|---|
+| IAM | `POST /api/v1/authentication/sign-in` | Correo y contraseña | Sesión y token de acceso |
+| IAM | `POST /api/v1/authentication/sign-up` | Datos de registro | Registro de cuenta |
+| Users | `GET /api/v1/user/{id}` | Identificador del usuario y JWT | Perfil del usuario |
+| Users | `POST /api/v1/family` | Nombre y compromiso | Grupo familiar y miembro padre |
+| Quests | `GET /api/v1/quests` | JWT | Catálogo de retos publicados |
+| Quests | `GET /api/v1/quests/{questId}` | Identificador de reto | Detalle del reto |
+| Quests | `POST /api/v1/quest-users` | `questId` | Asignación y actividades del reto |
+| Quests | `POST /api/v1/quest-users/{questUserId}/complete` | Identificador de asignación | Reto completado |
+| Gamification | `GET /api/v1/gamification/me/progress` | JWT | Ecopoints y racha del usuario |
+| Gamification | `GET /api/v1/gamification/me/achievements` | JWT | Logros obtenidos |
+| Gamification | `GET /api/v1/gamification/me/rewards` | JWT | Historial de recompensas |
+| Gamification | `GET /api/v1/gamification/rankings/{type}/participants` | Ámbito, periodo y paginación | Participantes del ranking |
+| Community | `GET /api/v1/Community/Communities` | JWT | Comunidades disponibles |
+| Monetization | `GET /api/v1/monetization/me/wallet` | JWT | Saldo de gemas |
+| Monetization | `GET /api/v1/monetization/store` | JWT | Consulta del catálogo o saldo |
+
+Los endpoints protegidos reciben `Authorization: Bearer <token>`. La consulta de progreso devuelve `200 OK` con el siguiente cuerpo para la cuenta de prueba:
+
+```json
+{
+  "userId": 101,
+  "totalEcopoints": 10,
+  "currentStreak": 0,
+  "longestStreak": 0,
+  "lastActivityDate": null,
+  "lastProtectedDate": null
+}
+```
+
+Las respuestas ilustradas corresponden a la ejecución registrada del commit `11556d0`. La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un identificador inexistente se documenta con `404 Not Found`. El [contrato OpenAPI](assets/evidence/sprint-1/openapi.json) y las [respuestas de ejecución](assets/evidence/sprint-1/api-responses.json) acompañan las capturas.
+
+**Figura 63**
+
+*Documentación de los endpoints de Gamification en Swagger UI*
+
+<div align="center">
+<img src="assets/img/figures/sprint-1/swagger-gamification.png" alt="Documentación de los endpoints de Gamification en Swagger UI" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura 64**
+
+*Respuesta HTTP 200 del detalle de un reto*
+
+<div align="center">
+<img src="assets/img/figures/sprint-1/swagger-quest-response.png" alt="Respuesta HTTP 200 del detalle de un reto" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+#### 4.2.1.8. Software Deployment Evidence for Sprint Review
+
+Para el sprint 1 se realizaron 2 despligues, el de la landing page y el del backend, para cada uno seguimos unos pasos específicos.
+
+**Landing page**
+
+El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de GitHub que permite publicar sitios web estáticos directamente desde el repositorio de código fuente, sin necesidad de configurar servidores adicionales. 
+
+**Procedimiento planificado:** 
+
+1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio.
+
+**Figura X**
+
+*Verificación que el repositorio este actualizado*
+
+![Repository_updated](assets/img/figures/Repository_updated.png)
+
+2. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages. 
+
+**Figura X**
+
+*Acceso a configuración "Pages"*
+
+![Settings_Pages](assets/img/figures/Settings_Pages.png)
+
+3. En la sección Source, seleccionar la rama main y la carpeta raíz.
+
+**Figura X**
+
+*Selección de rama a desplegar*
+
+![Main_branch](assets/img/figures/Main_branch.png)
+
+4. Guardar la configuración para que GitHub Pages genere automáticamente la página pública. 
+
+**Figura X**
+
+*Verificación de estado del despliegue*
+
+![Landing_Deployed](assets/img/figures/Landing_Deployed.png)
+
+5. Una vez desplegado, el sitio estará disponible. 
+
+**Figura X**
+
+*Verificación del landing page desplegado*
+
+![Verify_landing](assets/img/figures/Verify_landing.png)
+
+Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
+
+**Figura X**
+
+*Versionamiento de despliegues de la landing page*
+
+![Deployments_evidence](assets/img/figures/Deployments_evidence.png)
+
+**Backend**
+
+Para su despliegue se hace en dos partes, primero hostear una base de datos y con ello ya podriamos realizar el despliegue de nuestro backend desarrollado, usamos las herramientas Aiven y Render para su despliegue respectivamente.
+
+Base de datos:
+
+1. Acceder a aiven (Crear cuenta en caso no disponga de una)
+
+**Figura X**
+
+*Acceso a pestaña home de aiven*
+
+![Aiven_home](assets/img/figures/Aiven_home.png)
+
+2. Seleccionar opción "Create service"
+
+**Figura X**
+
+*Pestaña de creación de servicio en aiven*
+
+![Aiven_create_service](assets/img/figures/Aiven_create_service.png)
+
+3. Realizar la configuración de plan y nombre a usar
+
+**Figura X**
+
+*Pestaña de configuración de servicio en aiven*
+
+![Aiven_service_configuration](assets/img/figures/Aiven_service_configuration.png)
+
+4. Guardar configuración y esperar que se termine el despliegue
+
+**Figura X**
+
+*Base de datos desplegada*
+
+![Aiven_db_deployed](assets/img/figures/Aiven_db_deployed.png)
+
+Backend:
+
+1. Acceder a render (Crear cuenta en caso no disponga de una)
+
+**Figura X**
+
+*Acceder a Render*
+
+![Render_access](assets/img/figures/Render_access.png)
+
+2. Crear un proyecto
+
+**Figura X**
+
+*Crear proyecto en Render*
+
+![Render_new_project](assets/img/figures/Render_new_project.png)
+
+3. Seleccionar opción "Create new service"
+
+**Figura X**
+
+*Comenzar creación de servicio en Render*
+
+![Render_create_service](assets/img/figures/Render_create_service.png)
+
+4. Seleccionar opción "Web Services"
+
+**Figura X**
+
+*Comenzar creación de web service en Render*
+
+![Render_create_web_service](assets/img/figures/Render_create_web_service.png)
+
+5. Seleccionar repositorio de github que se va a desplegar
+
+**Figura X**
+
+*Seleccionar repositorio para despliegue del backend en Render*
+
+![Render_select_repository](assets/img/figures/Render_select_repository.png)
+
+6. Realizar configuración del web service, que incluya nombre, lenguaje, rama a desplegar, región, plan y variables de entorno
+
+**Figura X**
+
+*Configurar web service en Render*
+
+![Render_service_configuration](assets/img/figures/Render_service_configuration.png)
+
+7. Guardar y esperar que se termine el despliegue
+
+**Figura X**
+
+*Backend desplegado*
+
+![Render_deployed](assets/img/figures/Render_deployed.png)
+
+
+8. Verificación del despliegue del backend
+
+**Figura X**
+
+*Verificar despliegue del backend*
+
+![Render_verify_backend](assets/img/figures/Render_verify_backend.png)
+
+Las solicitudes realizadas en el swagger (Backend) se veran reflejadas en la base de datos que se desplego en aiven.
+
+
+#### 4.2.1.9. Team Collaboration Insights during Sprint
+
+## 4.3. Validation Interviews
+
+Esta sección presenta el proceso definido para validar la landing page y la aplicación móvil con representantes de los segmentos objetivo. Comprende el diseño de las entrevistas, las tareas asignadas y las preguntas utilizadas para evaluar la comprensión, facilidad de uso y utilidad de la solución.
+
+### 4.3.1. Diseño de Entrevistas
+
+Al inicio de cada sesión se le explica al participante que el objetivo es probar la aplicación, no sus conocimientos, por lo que puede interactuar con total libertad. Se le pide que mientras navega vaya comentando en voz alta lo que piensa o lo que le genera dudas. La sesión se divide en tres momentos: exploración del Landing Page, ejecución de tareas en la aplicación y cuestionario final.
+
+**Datos de registro del participante**
+
+- Nombre completo
+- Edad
+- Distrito de residencia
+
+**Segmento objetivo 1: Estudiantes de Primaria**
+
+**User Flows a validar :**
+
+- User Flow 1 – Miniactividades y retos. Seleccionar una categoría desde el panel principal, elegir una miniactividad, completarla paso a paso, recibir los eco-points y completar el reto diario para verificar la racha en el perfil.
+- User Flow 2 – Ranking educativo y comunitario. Consultar la posición propia en el ranking general y revisar el ranking semanal de la comunidad.
+- User Flow 3 – Comunidad y eventos. Revisar el feed de publicaciones, explorar eventos cercanos en el mapa, consultar los logros compartidos y la meta comunitaria.
+- User Flow 4 – Tienda y personalización. Explorar cosméticos, multiplicadores de XP y paquetes de gemas.
+
+**Tareas asignadas:**
+
+- Navegar el Landing Page, revisar las preguntas frecuentes y entrar a la aplicación.
+- Elegir una categoría de reto y completar una miniactividad.
+- Ir al perfil, revisar resumen con puntos, racha y medallas, crear un compromiso ambiental, revisar progreso y explorar favoritos.
+- Buscar su posición en el ranking.
+- En la tienda, comprar un cosmético con gemas y equiparlo.
+
+**Preguntas de validación:**
+
+1. ¿El Landing Page te ayudó a entender de qué va EcoMind? ¿Qué parte te llamó más la atención?
+
+2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer
+
+3. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental
+
+4. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
+
+5. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
+
+6. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
+
+7.  ¿Usarías EcoMind seguido? ¿Qué te haría volver a abrirla cada día?
+
+8.  Si pudieras cambiarle una sola cosa a la app, ¿cuál sería?
+
+**Segmento objetivo 2: Padres de Familia**
+
+**User Flows a validar:**
+
+- User Flow 1 – Familia y progreso. Acceder a la pestaña de familia en el perfil, revisar los integrantes, entrar al perfil del hijo y consultar su racha, puntos, medallas, actividades completadas.
+
+- User Flow 2 – Tienda. Recorrer las categorías de cosméticos, multiplicadores de XP y paquetes de gemas para conocer el sistema de economía virtual.
+
+**Tareas asignadas:**
+
+- Explorar el Landing Page, leer los consejos para padres y preguntas frecuentes, y acceder a la aplicación.
+- Acceder a la pestaña de familia en el perfil, revisar los integrantes.
+- Revisar el resumen del perfil (racha, puntos, medallas) y la pestaña de progreso con actividades completadas y pendientes.
+- En comunidad, buscar un evento en el mapa, ver los detalles.
+- Revisar los logros en ranking.
+- Recorrer la tienda: cosméticos, multiplicadores y gemas.
+
+**Preguntas de validación:**
+
+1. Después de ver el Landing Page, ¿le quedó claro cómo EcoMind puede ayudar a su familia? ¿Los consejos para padres le sirvieron?
+
+2. En la pestaña de familia, ¿pudo encontrar a los integrantes y ver el perfil de su hijo sin dificultad? ¿La información le pareció suficiente?
+
+3. Al revisar las actividades completadas y pendientes, ¿siente que puede hacerle seguimiento real al aprendizaje de su hijo?
+
+4. ¿Cómo fue inscribir a la familia en un evento del mapa? ¿El modal con la opción individual/familiar le resultó claro?
+
+5. Al consultar el ranking, ¿pudo identificar fácilmente su posición? ¿Considera que el ranking es un buen mecanismo de motivación?
+
+6. La tienda y las gemas, los multipliers , ¿le generan confianza o le preocupa algo sobre las compras en la app?
+
+7. ¿Siente que la aplicación está pensada también para los padres o la percibe solo para los niños?
+
+8. ¿Algo de la interfaz le generó confusión o le pareció innecesario?
+
+9. Del 1 al 5, ¿qué tan probable es que use EcoMind con su familia de forma regular? ¿Por qué?
+
+10. ¿Qué le cambiaría a la aplicación para que se adapte mejor a su dinámica familiar?
+
+### 4.3.2.Registro de Entrevistas
+
+En esta sección se registran las entrevistas de validación realizadas a usuarios de los segmentos objetivo, en las que cada participante exploró el Landing Page y ejecutó las tareas asignadas en la aplicación móvil de EcoMind, según el diseño descrito en la sección 4.3.1. Para cada entrevista se consignan los datos del participante, la referencia al video de la sesión y un resumen descriptivo de sus apreciaciones sobre las tareas realizadas.
+ 
+#### Segmento: Padres de Familia
+<br>
+
+**Tabla 117**
+ 
+*Entrevista de validación 1 del segmento de padres de familia.*
+ 
+| **Entrevista de validación Nro. 1** |
+|---|
+| <img src="assets/img/figures/yolanda_entrevista.png" width="335" hspace="240"> |
+| **Entrevistada N°1:** Yolanda Nely Mota Granados<br>**Edad:** 52 años<br>**Ubicación:** Surquillo, Lima<br>**Entrevistadora:** Katty Philco<br>**Fecha de la entrevista:** 09/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Yolanda Nely Mota Granados](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416107_upc_edu_pe/IQD6MW-bHvTgTLIvTWB1yt1yAdBEq5G0st9w9zk0MEyuoXs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BSMdpw)<br>**Instante del que inicia:** 00:58<br>**Duración:** 05:48<br><br>**Resumen:**<br><br>La entrevistada es Yolanda Nely Mota Granados, una madre de familia de 52 años que vive en Surquillo. Tras explorar el Landing Page, comprendió con claridad que EcoMind busca enseñar a los niños y a la familia a adoptar hábitos de cuidado del medio ambiente.<br><br>Al usar la aplicación, identificó sin dificultad la información familiar y el perfil de su hijo, y valoró positivamente la variedad de contenidos, retos, reuniones y comunidades. Indicó que el seguimiento al aprendizaje de su hija necesita mejoras para ser más efectivo. En comunidad logró crear comunidades, pero no comprendió el flujo para inscribir a su familia en los eventos del mapa.<br><br>Respecto a la gamificación, encontró con facilidad su posición en el ranking y señaló que ver los puestos la motiva a seguir participando. Le pareció atractiva la dinámica de la tienda y las gemas, aunque manifestó desconfianza ante el uso de tarjetas de crédito o pagos de dinero dentro de la plataforma.<br><br>Consideró que la aplicación es relevante tanto para los padres como para los niños, pero sintió confusión al navegar para encontrar secciones específicas. Por ello sugirió simplificar la interfaz para que los adultos aprendan a usarla más rápido. Propuso además incluir una función de comunicación familiar que permita enviarse recordatorios directos sobre acciones sostenibles en el hogar, como apagar las luces o cerrar los caños.<br><br>Calificó con 5 sobre 5 la probabilidad de usar EcoMind con regularidad junto a su familia, por su interés en promover la conservación ambiental y por el ahorro práctico de recursos en su hogar. |
+
+ 
+**Tabla 118**
+ 
+*Entrevista de validación 2 del segmento de padres de familia.*
+ 
+| **Entrevista de validación Nro. 2** |
+|---|
+| <img src="assets/img/figures/margarita_entrevista.png" width="335" hspace="240"> |
+| **Entrevistada N°2:** Victoria Margarita Espino Huatay<br>**Edad:** 48 años<br>**Ubicación:** Cercado de Lima, Lima<br>**Entrevistador:** Leo Dulanto<br>**Fecha de la entrevista:** 10/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 2 - Victoria Margarita Espino Huatay](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410254_upc_edu_pe/IQC9SgS6nYfDTp7hD7eLSh_MAc0A8W4XPyXCXk_WpS7A6EA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CaeIDB)<br>**Instante del que inicia:** 00:00<br>**Duración:** 07:13<br><br>**Resumen:**<br><br>La participante Margarita Espino, residente del Cercado de Lima, consideró que la aplicación promueve el trabajo en equipo, la competencia sana y la participación de toda la familia. Le pareció intuitivo y gráfico el seguimiento del progreso y las actividades, y valoró que los eventos permitan inscripciones individuales o familiares. También señaló que el ranking podría motivar a los niños a participar en actividades ambientales y alejarse un poco de los videojuegos. Calificó con 5 de 5 su probabilidad de usar la aplicación con su familia y dijo que estaría dispuesta a realizar compras dentro de ella. Como principal mejora, recomendó añadir etiquetas o indicaciones a algunos botones e íconos para que los nuevos usuarios comprendan su función; en general, considera que la aplicación está bien orientada y no cambiaría su enfoque. |
+
+#### Segmento: Niños de primaria
+<br>
+
+**Tabla 119**
+ 
+*Entrevista de validación 1 del segmento de niños de primaria.*
+ 
+| **Entrevista de validación Nro. 1** |
+|---|
+| <img src="assets/img/figures/validationPablo.png" width="335" hspace="240"> |
+| **Entrevistado N°1:** Pablo Abel Astocondor Bazan<br>**Edad:** 12 años<br>**Ubicación:** Pueblo Libre, Lima<br>**Entrevistadora:** Alejandra Astocondor <br>**Fecha de la entrevista:** 10/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Pablo Astocondor ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQB2Yd017FxJSLhZ88neGjwnAQdHxG3BwQITo458cL7Xk9s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lgMuR5)<br>**Instante del que inicia:** 00:00<br>**Duración:** 07:20<br><br>**Resumen:**<br><br>El participante Pablo Abel Astocondor Bazan, de 12 años y residente de Pueblo Libre, valoró positivamente las mejoras visuales del Landing Page y destacó la propuesta dirigida a los padres como la parte que más llamó su atención. Al probar la aplicación, comprendió el flujo para completar las actividades, aunque señaló que las instrucciones podrían ser más claras. Durante la navegación por el perfil y las secciones de progreso, amigos y familia, mencionó haberse perdido en una ocasión y observó que algunas funciones todavía no estaban disponibles; aun así, no encontró botones o pantallas cuya función desconociera por completo. Respecto al ranking, recomendó hacerlo más dinámico e incorporar ligas similares a las de Duolingo para fomentar la competencia. La prueba de personalización del avatar estuvo limitada porque los accesorios aún no se visualizaban en el perfil. En general, sus observaciones apuntan a mejorar las instrucciones, completar las funciones pendientes y ofrecer una dinámica de competencia más atractiva. |
+
+### 4.3.3. Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation <br> Usability – Inclusive Design – Information Architecture
+
+CARRERA : Ingeniería de Software <br>
+CURSO :  Aplicaciones para Dispositivos Móviles<br>
+SECCIÓN : 13980 <br>
+PROFESOR : Jorge Luis Mayta Guillermo <br>
+AUDITOR : GreenMinds <br>
+SITE o APP A EVALUAR: EcoMind <br>
+
+**TAREAS A EVALUAR:**<br>
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Explorar la Landing Page y comprender el propósito de EcoMind.
+2. Completar una miniactividad o reto diario.
+3. Navegar entre las diferentes secciones del perfil.
+4. Consultar el compromiso ambiental y el progreso personal.
+5. Explorar los eventos disponibles en la sección de comunidad.
+6. Consultar la posición personal dentro del ranking.
+7.  Explorar la tienda de recompensas.
+8.  Comprender el funcionamiento del multiplicador de experiencia (XP).
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Revisión de contenido de aprendizaje
+2. Desarrollo de retos colaborativos
+3. Equipamiento de avatares y cosmeticos
+4. Inscribirse a eventos
+5. Ver otros perfiles
+6. Buscar mas comunidades
+7. Notificaciones
+8. Ajustes
+   
+   
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|Nivel|Descripción|
+|-----|-----------|
+|1|Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil desuperar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+
+**TABLA RESUMEN:**
+
+|# |Problema|Escala de severidad |Heurística/Principio violada(o)|
+|-----|-----------|-----|---------|
+|1 |El progreso obtenido al completar actividades no se visualiza de manera clara|2|Visibilidad del estado del sistema|
+|2 |La información de los eventos comunitarios es limitada|1|Reconocimiento antes que recuerdo|
+|3 |Los retos se presentan como cuestionarios y no comunican claramente la dinámica de un desafío|2|Correspondencia entre el sistema y el mundo real|
+|4 |Las tarjetas de miembros de familia no permiten diferenciar roles visualmente|2|Reconocimiento antes que recuerdo|
+|5 |El perfil no permite distinguir claramente la apariencia actual del avatar|1|Visibilidad del estado del sistema|
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+
+**PROBLEMA #1: El progreso obtenido al completar actividades no se visualiza de manera clara**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+
+**Problema:**
+
+Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
+
+**Figura 130**
+
+*Visibilidad del progreso al completar actividades.*
+
+![Problema_1](assets/img/figures/problema1.png)
+
+**Recomendación:**
+
+Implementar animaciones, barras de progreso o indicadores visuales que muestren de forma dinámica el incremento de puntos, experiencia y rachas al finalizar una actividad.
+
+
+**PROBLEMA #2: La información de los eventos comunitarios es limitada**
+
+**Severidad:** 1 <br>
+**Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
+
+**Problema:**
+
+Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
+
+**Figura 131**
+
+*Información disponible sobre eventos comunitarios.*
+
+![Problema_2](assets/img/figures/problema2.png)
+
+**Recomendación:**
+
+Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde se muestre información ampliada como descripción, objetivos, ubicación, fecha y requisitos de participación.
+
+
+**PROBLEMA #3: Los retos se presentan como cuestionarios y no comunican claramente la dinámica de un desafío**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Correspondencia entre el sistema y el mundo real
+
+**Problema:**
+
+Las actividades disponibles dentro de la aplicación se presentan principalmente como formularios o cuestionarios, sin comunicar con suficiente claridad qué acción debe realizar el usuario para cumplir el reto. Esta presentación dificulta relacionar la actividad con un desafío ambiental concreto y comprender su objetivo, más allá de responder preguntas.
+
+**Figura 132**
+
+*Presentación de las actividades y retos.*
+
+![Problema_3](assets/img/figures/problema3.png)
+
+**Recomendación:**
+
+Presentar cada reto con un objetivo ambiental concreto, instrucciones en lenguaje familiar y pasos que indiquen qué acción debe realizar el usuario y cómo completar la actividad. Complementar estas indicaciones con ejemplos o ilustraciones que relacionen el reto con situaciones cotidianas, diferenciando las preguntas de conocimiento de las acciones prácticas.
+
+
+**PROBLEMA #4: Las tarjetas de miembros de familia no permiten diferenciar roles visualmente**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
+
+**Problema:**
+
+En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. Aunque incluyen una etiqueta de rol, el usuario debe leer cada tarjeta para distinguir a los padres de los hijos, lo que dificulta reconocer rápidamente los roles al revisar el grupo familiar.
+
+**Figura 133**
+
+*Tarjetas de integrantes de la familia.*
+
+![Problema_4](assets/img/figures/problema4.png)
+
+**Recomendación:**
+
+Incorporar un distintivo visual consistente para cada rol familiar, como un ícono acompañado de una etiqueta visible de «Padre/madre» o «Hijo/a». Se pueden utilizar colores como apoyo, manteniendo el texto y los íconos para que la identificación del rol no dependa únicamente del color.
+
+**PROBLEMA #5: El perfil no permite distinguir claramente la apariencia actual del avatar**
+
+**Severidad:** 1 <br>
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+
+**Problema:**
+
+Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. La evaluación considera la visualización del perfil, sin revisar el proceso de equipamiento de accesorios.
+
+**Figura 134**
+
+*Visualización del avatar en el perfil.*
+
+![Problema_5](assets/img/figures/Problema5.png)
+
+**Recomendación:**
+
+Mostrar en el perfil una representación coherente con la apariencia actual del avatar. Mientras la visualización de accesorios no esté disponible, incluir una indicación clara de esa limitación para evitar que el usuario interprete la falta de cambios como un error o como la pérdida de su selección.
+
+<div style="page-break-before: always;"></div>
 
 # Conclusiones
 
@@ -6426,11 +9310,21 @@ La documentación de capas, componentes, clases y bases de datos permitió regis
 
 El Context Map permitió comprobar que las integraciones planteadas mantienen separadas las reglas de cada dominio y favorecen una evolución independiente de los módulos.
 
+Con el despliegue de la Landing Page y el Backend publicado con su documentación en Swagger, el equipo cumplió con los requisitos para el TB1, gracias a ello, ahora los usuarios pueden conocer la propuesta de EcoMind desde un sitio público.
+
+El diseño de las pantallas core de la aplicación Android se diseñaron a partir de las entrevistas y las User Personas de ambos segmentos, logrando asi priorizar retos, recompensas para la vista del estudiante y una interfaz sencilla para los padres.
+
+Gracias a la arquitectura definida con DDD, logramos separar la solución en siete Bounded Contexts. Esta organización permitió repartir el trabajo entre todos los integrantes e hizo posible que cada módulo evolucione sin afectar a los demás.
+
 **Recomendaciones**
 
 Se recomienda revisar periódicamente que los nombres, relaciones y responsabilidades coincidan en los canvases, diagramas y descripciones del informe.
 
 También se recomienda validar las integraciones entre bounded contexts durante la implementación y actualizar la documentación cuando cambien las reglas del dominio.
+
+Se recomienda incorporar al Roadmap del producto el seguimiento del aprendizaje de los hijos y la comunicación entre los integrantes de la familia. Se sugiere priorizar estas mejoras en el Product Backlog según el valor que los padres les asignen en las siguientes validaciones, y confirmar su alcance con los otros participantes antes de implementarlas.
+
+<div style="page-break-before: always;"></div>
 
 # Bibliografía
 
@@ -6450,4 +9344,10 @@ También se recomienda validar las integraciones entre bounded contexts durante 
 
 - Y-Group Games. (s. f.). Defender of the nature. Google Play. https://play.google.com/store/apps/details?id=com.YovoGames.Defender&hl=es_PE 
 
+<div style="page-break-before: always;"></div>
+
 # Anexos
+
+## Anexo 1. Video de ejecución de la aplicación Android
+
+[Video de ejecución de EcoMind — Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410093_upc_edu_pe/IQBVA-AU-FA9TLx1V8zV1IPRAYv5FncU0FDrAn9In9ViiO8?e=ozx3X8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
