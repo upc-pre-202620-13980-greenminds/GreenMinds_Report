@@ -6908,7 +6908,7 @@ El proceso de diseño comprende la elaboración del wireframe y del mock-up de a
 
 Los wireframes de la Landing Page de EcoMind representan la estructura inicial de las pantallas antes de incorporar colores, imágenes finales y elementos gráficos de marca. Su propósito fue organizar la jerarquía de la información, definir la ubicación de los componentes y validar que el recorrido del visitante fuera claro. En todas las vistas se mantiene una barra de navegación superior con acceso a las preguntas frecuentes, la guía para padres, la comunidad, el selector de idioma y la descarga de la aplicación.
 
-**Figura 78**
+**Figura 77**
 
 *Wireframe de la página de inicio de la Landing Page.*
 
@@ -6916,7 +6916,7 @@ Los wireframes de la Landing Page de EcoMind representan la estructura inicial d
 
 La página de inicio introduce la propuesta de valor de EcoMind y organiza el acceso a sus beneficios principales, la información de la startup y las llamadas a la acción dirigidas a nuevos usuarios.
 
-**Figura 79**
+**Figura 78**
 
 *Wireframe de preguntas frecuentes.*
 
@@ -6924,7 +6924,7 @@ La página de inicio introduce la propuesta de valor de EcoMind y organiza el ac
 
 La sección de preguntas frecuentes utiliza componentes desplegables para presentar respuestas sobre la conexión a Internet, la administración de la cuenta, las actividades, los puntos, las recompensas y la participación familiar sin saturar la pantalla.
 
-**Figura 80**
+**Figura 79**
 
 *Wireframe de la guía para padres.*
 
@@ -6932,7 +6932,7 @@ La sección de preguntas frecuentes utiliza componentes desplegables para presen
 
 La guía para padres reúne información sobre el acompañamiento familiar, los recursos educativos y recomendaciones para incorporar hábitos sostenibles en el hogar. Su estructura combina contenido informativo, tarjetas y una sección destacada de consejos.
 
-**Figura 81**
+**Figura 80**
 
 *Wireframe de la comunidad de EcoMind.*
 
@@ -6944,7 +6944,7 @@ La sección de comunidad presenta indicadores generales, beneficios de la partic
 
 Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante la identidad gráfica de EcoMind. Se incorporan el logotipo, la paleta de verdes, fotografías, ilustraciones, iconos y una jerarquía tipográfica consistente. Estos elementos refuerzan el enfoque ambiental del producto y permiten visualizar con mayor precisión la experiencia final del visitante en una interfaz web.
 
-**Figura 82**
+**Figura 81**
 
 *Mock-up de la página de inicio de la Landing Page.*
 
@@ -6952,7 +6952,7 @@ Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante 
 
 El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar de manera inmediata la propuesta de EcoMind. Las secciones posteriores explican sus beneficios, misión, visión e identidad como startup educativa.
 
-**Figura 83**
+**Figura 82**
 
 *Mock-up de preguntas frecuentes.*
 
@@ -6960,7 +6960,7 @@ El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar
 
 La versión visual de preguntas frecuentes mantiene el formato desplegable e incorpora los colores y componentes definitivos. La separación entre preguntas favorece la lectura y permite que el visitante ubique rápidamente la información que necesita.
 
-**Figura 84**
+**Figura 83**
 
 *Mock-up de la guía para padres.*
 
@@ -6968,7 +6968,7 @@ La versión visual de preguntas frecuentes mantiene el formato desplegable e inc
 
 La guía para padres combina contenido educativo con fotografías e iconos para explicar los beneficios del acompañamiento familiar. Además, diferencia los recursos disponibles y presenta recomendaciones prácticas para reforzar hábitos sostenibles en casa.
 
-**Figura 85**
+**Figura 84**
 
 *Mock-up de la comunidad de EcoMind.*
 
@@ -6986,7 +6986,7 @@ El diseño comprende la elaboración de wireframes, wireflows, mock-ups y User F
 Los wireframes de la aplicación móvil EcoMind representan una primera aproximación a la estructura, distribución y navegación de su interfaz. Para su elaboración se priorizó la claridad de la información, la consistencia visual y el acceso directo a las funciones principales: autenticación, perfil, retos, aprendizaje, ranking, comunidad, tienda y configuración.
 La aplicación emplea una barra de navegación inferior que permite cambiar rápidamente entre los módulos principales. Asimismo, las pantallas presentan encabezados, tarjetas, botones, formularios y listas con una organización uniforme. Esta estructura reduce la carga cognitiva y permite que tanto los menores como sus padres comprendan fácilmente las acciones disponibles.
 
-**Figura 86**
+**Figura 85**
 
 *Wireframe de inicio de sesión.*
 
@@ -6996,7 +6996,7 @@ La aplicación emplea una barra de navegación inferior que permite cambiar ráp
 
 Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y ofrece acceso al registro de una cuenta nueva.
 
-**Figura 87**
+**Figura 86**
 
 *Wireframe de registro.*
 
@@ -7006,7 +7006,7 @@ Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y
 
 Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los términos y acceder posteriormente a la aplicación.
 
-**Figura 88**
+**Figura 87**
 
 *Wireframe de selección de retos.*
 
@@ -7016,7 +7016,7 @@ Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los t
 
 Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones visuales de fácil reconocimiento.
 
-**Figura 89**
+**Figura 88**
 
 *Wireframe del detalle de un reto.*
 
@@ -7026,7 +7026,7 @@ Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones
 
 El detalle del reto muestra sus objetivos, recompensas, progreso y la acción principal para completar la actividad.
 
-**Figura 90**
+**Figura 89**
 
 *Wireframe de perfil.*
 
@@ -7036,7 +7036,7 @@ El detalle del reto muestra sus objetivos, recompensas, progreso y la acción pr
 
 El perfil centraliza los datos del usuario, sus estadísticas, progreso, compromisos y opciones de administración.
 
-**Figura 91**
+**Figura 90**
 
 *Wireframe de comunidad.*
 
@@ -7050,7 +7050,7 @@ El perfil centraliza los datos del usuario, sus estadísticas, progreso, comprom
 
 La pantalla permite consultar publicaciones, eventos y actividades compartidas por la comunidad.
 
-**Figura 92**
+**Figura 91**
 
 *Wireframe de tienda.*
 
@@ -7062,7 +7062,7 @@ La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acc
 
 
 
-**Figura 93**
+**Figura 92**
 
 *Wireframe de aprendizaje.*
 
@@ -7070,7 +7070,7 @@ La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acc
 
 La sección presenta recursos educativos mediante tarjetas, categorías, búsqueda y opciones para descargar o guardar contenido.
 
-**Figura 94**
+**Figura 93**
 
 *Wireframe de ranking.*
 
@@ -7080,7 +7080,7 @@ La sección presenta recursos educativos mediante tarjetas, categorías, búsque
 
 La pantalla muestra la clasificación de los usuarios y destaca la posición personal según la categoría seleccionada.
 
-**Figura 95**
+**Figura 94**
 
 *Wireframe de ajustes.*
 
@@ -7091,7 +7091,7 @@ La pantalla muestra la clasificación de los usuarios y destaca la posición per
 La sección reúne las opciones de cuenta, preferencias y configuración en bloques simples y fáciles de identificar.
 
 
-**Figura 96**
+**Figura 95**
 
 *Wireframes de inicio y retos.*
 
@@ -7101,7 +7101,7 @@ La sección reúne las opciones de cuenta, preferencias y configuración en bloq
 
 El conjunto presenta el acceso inicial y las distintas etapas para explorar, iniciar y completar retos ambientales.
 
-**Figura 97**
+**Figura 96**
 
 *Wireframes de tienda y aprendizaje.*
 
@@ -7111,7 +7111,7 @@ El conjunto presenta el acceso inicial y las distintas etapas para explorar, ini
 
 El conjunto muestra la consulta y compra de productos, junto con la búsqueda y visualización de recursos educativos.
 
-**Figura 98**
+**Figura 97**
 
 *Wireframes de perfil.*
 
@@ -7122,7 +7122,7 @@ El conjunto muestra la consulta y compra de productos, junto con la búsqueda y 
 El conjunto presenta la consulta y edición del perfil, las estadísticas, los logros y las diversas acciones que puedes hacer en perfil.
 
 
-**Figura 99**
+**Figura 98**
 
 *Wireframes de comunidad.*
 
@@ -7132,7 +7132,7 @@ El conjunto presenta la consulta y edición del perfil, las estadísticas, los l
 
 El conjunto presenta publicaciones, eventos, grupos, logros, búsquedas y mensajes disponibles en la comunidad.
 
-**Figura 100**
+**Figura 99**
 
 *Wireframes de ranking, notificaciones y ajustes.*
 
@@ -7146,7 +7146,7 @@ El conjunto reúne la clasificación de usuarios, el centro de notificaciones y 
 
 Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelidad con las acciones que realiza el usuario. Las flechas representan las transiciones entre vistas y permiten comprobar la continuidad de tareas como registrarse, iniciar un reto, consultar el progreso, comprar productos, revisar el ranking, participar en la comunidad y administrar el perfil. La organización por bounded context facilita reconocer la responsabilidad funcional de cada recorrido.
 
-**Figura 101**
+**Figura 100**
 
 *Wireflow general de la aplicación móvil EcoMind.*
 
@@ -7156,7 +7156,7 @@ Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelida
 
 El wireflow general integra los recorridos principales de IAM, Quests, Learning, Monetization, Gamification, Community y Users. Este diagrama permite observar cómo la pantalla principal y la barra de navegación inferior conectan los diferentes módulos de la aplicación.
 
-**Figura 102**
+**Figura 101**
 
 *Wireflow de IAM, notificaciones y ajustes.*
 
@@ -7166,7 +7166,7 @@ El wireflow general integra los recorridos principales de IAM, Quests, Learning,
 
 El flujo de IAM comprende la presentación inicial, el registro, la confirmación del correo y el inicio de sesión hasta llegar al menú principal. Los flujos de notificaciones y ajustes permiten revisar avisos, modificar preferencias, seleccionar el idioma y acceder a las opciones de ayuda y soporte.
 
-**Figura 103**
+**Figura 102**
 
 *Wireflow de retos y progreso.*
 
@@ -7176,7 +7176,7 @@ El flujo de IAM comprende la presentación inicial, el registro, la confirmació
 
 Este flujo muestra la selección de una categoría, la búsqueda y filtrado de retos, la consulta del detalle y la ejecución de actividades. También representa el inicio, seguimiento y finalización del reto, junto con el acceso al progreso y la posibilidad de invitar amigos a una actividad colaborativa.
 
-**Figura 104**
+**Figura 103**
 
 *Wireflow de monetización, gamificación y aprendizaje.*
 
@@ -7186,7 +7186,7 @@ Este flujo muestra la selección de una categoría, la búsqueda y filtrado de r
 
 En Monetization se representan la compra y gestión de cosméticos, el inventario, los multiplicadores, los protectores de racha y los paquetes de gemas. Gamification presenta la navegación entre los diferentes rankings, mientras que Learning permite buscar, filtrar y consultar recursos educativos.
 
-**Figura 105**
+**Figura 104**
 
 *Wireflow de comunidad.*
 
@@ -7196,7 +7196,7 @@ En Monetization se representan la compra y gestión de cosméticos, el inventari
 
 El flujo de Community conecta las vistas de premios, eventos y noticias. Además, representa las acciones para crear un evento, consultar sus detalles, unirse de manera individual o familiar y acceder posteriormente al espacio de comunicación del evento.
 
-**Figura 106**
+**Figura 105**
 
 *Wireflow de perfil, amigos y familia.*
 
@@ -7212,7 +7212,7 @@ El wireflow de perfil comprende la consulta de estadísticas, compromisos, favor
 
 Los mock-ups de la aplicación móvil EcoMind representan la propuesta visual de alta fidelidad elaborada a partir de los wireframes. En estas pantallas se aplican la paleta de colores, las tipografías, los iconos, las ilustraciones y los componentes definitivos. La interfaz conserva una barra superior con los indicadores del usuario y una barra de navegación inferior que facilita el acceso a los módulos principales.
 
-**Figura 107**
+**Figura 106**
 
 *Mock-up de inicio de sesión.*
 
@@ -7222,7 +7222,7 @@ Los mock-ups de la aplicación móvil EcoMind representan la propuesta visual de
 
 La pantalla permite que el usuario ingrese sus credenciales y acceda a la aplicación. También ofrece una ruta directa al registro para quienes todavía no poseen una cuenta.
 
-**Figura 108**
+**Figura 107**
 
 *Mock-up de registro.*
 
@@ -7232,7 +7232,7 @@ La pantalla permite que el usuario ingrese sus credenciales y acceda a la aplica
 
 El registro reúne los datos necesarios para crear una cuenta, aceptar los términos y continuar con la verificación del correo electrónico.
 
-**Figura 109**
+**Figura 108**
 
 *Mock-up del menú principal de retos.*
 
@@ -7242,7 +7242,7 @@ El registro reúne los datos necesarios para crear una cuenta, aceptar los térm
 
 El menú principal presenta las categorías de actividades mediante botones visuales diferenciados por color. Desde esta pantalla se puede explorar el contenido ambiental o ingresar al módulo de aprendizaje.
 
-**Figura 110**
+**Figura 109**
 
 *Mock-up de ejecución de un reto.*
 
@@ -7252,7 +7252,7 @@ El menú principal presenta las categorías de actividades mediante botones visu
 
 La pantalla del reto muestra su categoría, duración, recompensa y tipo. Las actividades se marcan conforme son realizadas y la barra de progreso comunica el avance antes de finalizar el reto.
 
-**Figura 111**
+**Figura 110**
 
 *Mock-up del perfil del usuario.*
 
@@ -7262,7 +7262,7 @@ La pantalla del reto muestra su categoría, duración, recompensa y tipo. Las ac
 
 El perfil centraliza la identidad del usuario, su racha, EcoPoints, gemas, compromiso ambiental, medallas y accesos a las secciones de amigos y familia.
 
-**Figura 112**
+**Figura 111**
 
 *Mock-up de comunidad.*
 
@@ -7272,7 +7272,7 @@ El perfil centraliza la identidad del usuario, su racha, EcoPoints, gemas, compr
 
 La pantalla de comunidad presenta la meta compartida, su progreso y las pestañas de premios, eventos y noticias. También permite buscar, crear y unirse a eventos ambientales.
 
-**Figura 113**
+**Figura 112**
 
 *Mock-up de tienda.*
 
@@ -7282,7 +7282,7 @@ La pantalla de comunidad presenta la meta compartida, su progreso y las pestaña
 
 La tienda organiza avatares y cosméticos, multiplicadores, protectores y paquetes de gemas. Los estados visuales permiten distinguir los productos disponibles, adquiridos y equipados.
 
-**Figura 114**
+**Figura 113**
 
 *Mock-up de aprendizaje.*
 
@@ -7292,7 +7292,7 @@ La tienda organiza avatares y cosméticos, multiplicadores, protectores y paquet
 
 El módulo de aprendizaje presenta recursos educativos en tarjetas con su imagen, tipo, categoría, descripción y duración, además de acciones para descargar o guardar el contenido.
 
-**Figura 115**
+**Figura 114**
 
 *Mock-up de ranking.*
 
@@ -7302,7 +7302,7 @@ El módulo de aprendizaje presenta recursos educativos en tarjetas con su imagen
 
 El ranking muestra la posición del usuario y permite comparar EcoPoints en ámbitos local, global, de amigos y de familias, utilizando periodos diarios, semanales, mensuales o históricos.
 
-**Figura 116**
+**Figura 115**
 
 *Mock-up de ajustes.*
 
@@ -7314,7 +7314,7 @@ La pantalla de ajustes agrupa la información de la cuenta, las preferencias de 
 
 Los siguientes conjuntos reúnen las variantes y estados complementarios de cada módulo, como pantallas vacías, errores de carga, confirmaciones, filtros, formularios y acciones secundarias.
 
-**Figura 117**
+**Figura 116**
 
 *Conjunto de mock-ups de retos.*
 
@@ -7324,7 +7324,7 @@ Los siguientes conjuntos reúnen las variantes y estados complementarios de cada
 
 El conjunto incluye autenticación, categorías, búsqueda, filtros, planificación, progreso y ejecución de retos individuales y colaborativos.
 
-**Figura 118**
+**Figura 117**
 
 *Conjunto de mock-ups de tienda y aprendizaje.*
 
@@ -7334,7 +7334,7 @@ El conjunto incluye autenticación, categorías, búsqueda, filtros, planificaci
 
 Estas pantallas muestran las variantes de compra, inventario, multiplicadores, paquetes de gemas, búsqueda de recursos, aplicación de filtros y consulta del detalle educativo.
 
-**Figura 119**
+**Figura 118**
 
 *Conjunto de mock-ups de comunidad.*
 
@@ -7344,7 +7344,7 @@ Estas pantallas muestran las variantes de compra, inventario, multiplicadores, p
 
 El conjunto presenta las distintas vistas de premios, eventos y noticias, además de los procesos para crear comunidades y eventos, seleccionar participantes y confirmar la inscripción.
 
-**Figura 120**
+**Figura 119**
 
 *Conjunto de mock-ups de perfil.*
 
@@ -7354,7 +7354,7 @@ El conjunto presenta las distintas vistas de premios, eventos y noticias, ademá
 
 Estas pantallas desarrollan la edición del perfil, los compromisos, favoritos, amistades, invitaciones, creación y administración familiar, progreso de integrantes e informes semanales.
 
-**Figura 121**
+**Figura 120**
 
 *Conjunto de mock-ups de ranking, notificaciones y ajustes.*
 
@@ -7369,7 +7369,7 @@ El conjunto reúne las variantes del ranking, los estados de la bandeja de notif
 
 Los User Flow Diagrams muestran los recorridos previstos para que los usuarios alcancen objetivos específicos dentro de EcoMind. A diferencia de los wireflows, estos diagramas utilizan los mock-ups de alta fidelidad y destacan mediante flechas las acciones y transiciones entre pantallas.
 
-**Figura 122**
+**Figura 121**
 
 *User Flow de autenticación e identidad.*
 
@@ -7379,7 +7379,7 @@ Los User Flow Diagrams muestran los recorridos previstos para que los usuarios a
 
 El flujo de IAM contempla dos recorridos. Un usuario con una cuenta existente ingresa sus credenciales, y accede al menú principal. Un usuario nuevo selecciona la opción de registro, completa sus datos, acepta los términos y continúa con la verificación de la cuenta.
 
-**Figura 123**
+**Figura 122**
 
 *User Flow de retos.*
 
@@ -7389,7 +7389,7 @@ El flujo de IAM contempla dos recorridos. Un usuario con una cuenta existente in
 
 El flujo de Quests comienza en el panel principal con la selección de una categoría. El estudiante puede revisar su progreso o buscar una miniactividad mediante filtros. Al abrirla, consulta sus instrucciones y recompensas, inicia el reto, completa cada paso y confirma su finalización para recibir EcoPoints. Si el reto es colaborativo, selecciona la opción de invitar amigos, revisa la lista de participantes, administra el grupo e inicia la actividad en conjunto. Este diagrama cubre los flujos de validación “Miniactividades y retos” y “Desafío entre compañeros”.
 
-**Figura 124**
+**Figura 123**
 
 *User Flow de perfil, familia y seguimiento del progreso.*
 
@@ -7399,7 +7399,7 @@ El flujo de Quests comienza en el panel principal con la selección de una categ
 
 Después de completar un reto, el estudiante accede a su perfil para comprobar la actualización de la racha, los EcoPoints, las medallas y el progreso de sus actividades. También puede registrar un compromiso ambiental y consultar sus favoritos. En el recorrido para padres, el usuario abre la pestaña **Family**, revisa los integrantes, selecciona el perfil del hijo y consulta sus actividades completadas y pendientes. Este recorrido corresponde al flujo de validación “Familia y progreso”.
 
-**Figura 125**
+**Figura 124**
 
 *User Flow de aprendizaje.*
 
@@ -7409,7 +7409,7 @@ Después de completar un reto, el estudiante accede a su perfil para comprobar l
 
 El usuario accede a Learning desde el menú principal, revisa los recursos disponibles y abre el contenido seleccionado. Como recorrido alternativo, puede utilizar los filtros para limitar los resultados según el tipo, la categoría y otros criterios de búsqueda.
 
-**Figura 126**
+**Figura 125**
 
 *User Flow de tienda y monetización.*
 
@@ -7419,7 +7419,7 @@ El usuario accede a Learning desde el menú principal, revisa los recursos dispo
 
 Desde la tienda, el usuario selecciona la categoría de cosméticos, abre un producto y confirma la compra con gemas. Luego accede a **My Inventory** para equiparlo y comprobar el cambio en su avatar. El recorrido también permite revisar la descripción y duración de los multiplicadores o protectores antes de adquirirlos. En la sección de gemas, el usuario elige un paquete, selecciona el método de pago, revisa el resumen y confirma la operación. Para los estudiantes se valida la compra y personalización; para los padres se valida principalmente la comprensión y confianza que genera la economía virtual.
 
-**Figura 127**
+**Figura 126**
 
 *User Flow de ranking y gamificación.*
 
@@ -7429,7 +7429,7 @@ Desde la tienda, el usuario selecciona la categoría de cosméticos, abre un pro
 
 El flujo inicia en la barra de navegación inferior y conduce al ranking. Primero, el usuario identifica su posición resaltada; después puede cambiar entre las clasificaciones local, global, de amigos y de familias. Los filtros diario, semanal, mensual y acumulado permiten comparar los EcoPoints en distintos periodos. Para la validación se priorizan la posición propia, el ranking general y la clasificación semanal de la comunidad.
 
-**Figura 128**
+**Figura 127**
 
 *User Flow de comunidad.*
 
@@ -7439,7 +7439,7 @@ El flujo inicia en la barra de navegación inferior y conduce al ranking. Primer
 
 El recorrido de Community permite consultar la meta comunitaria y alternar entre premios, eventos y noticias. Desde la sección de eventos, el usuario puede buscar una actividad, revisar sus detalles y ubicación, crear un evento o solicitar una inscripción. La confirmación debe diferenciar claramente la participación individual de la familiar. Una vez inscrito, el usuario puede revisar el evento en **My events**, cancelarlo cuando sea necesario y acceder al espacio de comunicación. Este diagrama cubre “Comunidad y eventos” para estudiantes y “Actividad familiar en comunidad” para padres.
 
-**Figura 129**
+**Figura 128**
 
 *User Flow de notificaciones y ajustes.*
 
@@ -7822,13 +7822,13 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
 
 Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
 
-**Figura X**
+**Figura 129**
 
 *Organización del sprint 1 en Trello*
 
 ![Sprint_4](assets/img/figures/Sprint_1.png)
 
-**Tabla xx**
+**Tabla 117**
  
 *Tabla de Sprint backlog 1*
 
@@ -8569,9 +8569,9 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 #### 4.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los flujos de la aplicación Android. La Tabla 117 relaciona los cambios con sus repositorios y ramas.
+Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los flujos de la aplicación Android. La Tabla 118 relaciona los cambios con sus repositorios y ramas.
 
-**Tabla 117**
+**Tabla 118**
 
 *Commits de implementación del Sprint 1*
 
@@ -8601,9 +8601,9 @@ Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los f
 
 La ejecución de Android corresponde a `feature/gamification`, commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad), que contiene los cambios de `develop` hasta [6db2af6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/6db2af6355fb1031b15c72724051367363939f3a). La integración se presenta en el [pull request #3](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/3).
 
-El proyecto Android se trabaja en Android Studio. Su estructura organiza los bounded contexts en paquetes y separa las capas `application`, `domain`, `infrastructure` e `interfaces`. La Figura 54 muestra el módulo `app` y un caso de uso de Gamification.
+El proyecto Android se trabaja en Android Studio. Su estructura organiza los bounded contexts en paquetes y separa las capas `application`, `domain`, `infrastructure` e `interfaces`. La Figura 130 muestra el módulo `app` y un caso de uso de Gamification.
 
-**Figura 54**
+**Figura 130**
 
 *Proyecto EcoMind en Android Studio*
 
@@ -8611,9 +8611,9 @@ El proyecto Android se trabaja en Android Studio. Su estructura organiza los bou
 
 *Nota. Captura de Android Studio.*
 
-El Backend API se desarrolla en IntelliJ IDEA. La Figura 55 muestra el proyecto `EcoMind_Backend` en la rama `develop`, con las capas `application`, `domain`, `infrastructure` e `interfaces` del bounded context Gamification. En el editor, `GamificationContextFacade` expone la consulta `getUserProgress`, que delega en `GamificationQueryService` y devuelve un registro `Progress` con el identificador del usuario, sus ecopoints, la racha actual, la racha más larga y la fecha de última actividad.
+El Backend API se desarrolla en IntelliJ IDEA. La Figura 131 muestra el proyecto `EcoMind_Backend` en la rama `develop`, con las capas `application`, `domain`, `infrastructure` e `interfaces` del bounded context Gamification. En el editor, `GamificationContextFacade` expone la consulta `getUserProgress`, que delega en `GamificationQueryService` y devuelve un registro `Progress` con el identificador del usuario, sus ecopoints, la racha actual, la racha más larga y la fecha de última actividad.
 
-**Figura 55**
+**Figura 131**
 
 *Proyecto EcoMind Backend en IntelliJ IDEA*
 
@@ -8636,7 +8636,7 @@ Los proyectos de pruebas se encuentran en [EcoMind_Backend/src/test](https://git
 | EcoMind_Android | `feature/gamification` | [d88dffd](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/d88dffd451d6513a922cfe14f848f631b9bbcbaf) | feat(gamification): connect progress rewards and achievement sharing | — | 2026-10-09 |
 | EcoMind_Android | `feature/gamification` | [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad) | refactor(gamification): centralize authentication in shared client | — | 2026-10-10 |
 
-**Tabla 118**
+**Tabla 119**
 
 *Resultado de pruebas y compilación del 10 de octubre de 2026*
 
@@ -8652,17 +8652,17 @@ Cucumber ejecutó 73 escenarios de aceptación dentro de un total de 515 pruebas
 
 Las pruebas instrumentadas incluyen el inicio de sesión por Retrofit, la consulta de retos, navegación, filtros, progreso y logros.
 
-La Figura 57 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
+La Figura 132 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
 
-**Figura 56**
+**Figura 132**
 
 *Ejecución de la suite del backend en IntelliJ IDEA*
 
 <img src="assets/img/figures/sprint-1/backend-intellij-tests.png" alt="IntelliJ IDEA muestra 588 ejecuciones aprobadas y un escenario Gherkin de grupo familiar" width="100%">
 
-*Nota. La vista «All in ecomind-backend» de IntelliJ IDEA registra 588 ejecuciones aprobadas. La Tabla 118 corresponde a las 515 pruebas ejecutadas por Maven en cada base de datos del pipeline.*
+*Nota. La vista «All in ecomind-backend» de IntelliJ IDEA registra 588 ejecuciones aprobadas. La Tabla 119 corresponde a las 515 pruebas ejecutadas por Maven en cada base de datos del pipeline.*
 
-**Tabla 119**
+**Tabla 120**
 
 *Trazabilidad de pruebas de los servicios*
 
@@ -8698,7 +8698,7 @@ El workflow ejecuta las pruebas con H2 y PostgreSQL 17, verifica la cobertura co
 
 La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300) de `main` completó satisfactoriamente las pruebas y la construcción de la imagen.
 
-**Figura 57**
+**Figura 133**
 
 *Verificaciones del backend y construcción de la imagen en GitHub Actions*
 
@@ -8710,7 +8710,7 @@ La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/E
 
 La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Backend API mediante HTTP y autenticación JWT. El backend utilizó una base de datos PostgreSQL local y cuentas de prueba. La landing page se verificó desde su dirección pública.
 
-**Figura 58**
+**Figura 134**
 
 *Landing page de EcoMind en ejecución*
 
@@ -8722,7 +8722,7 @@ La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Ba
 
 El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta su descripción, duración y ecopoints.
 
-**Figura 59**
+**Figura 135**
 
 *Inicio de sesión y detalle de un reto*
 
@@ -8735,7 +8735,7 @@ El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta s
 
 Al completar la actividad, el usuario obtiene el resultado del reto y puede consultar su progreso. En la ejecución se registraron 10 ecopoints y el logro «First green step».
 
-**Figura 60**
+**Figura 136**
 
 *Finalización del reto y consulta de progreso*
 
@@ -8746,7 +8746,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 *Nota. Captura de la aplicación Android en el emulador.*
 
-**Figura 61**
+**Figura 137**
 
 *Medalla obtenida y ranking global semanal*
 
@@ -8759,7 +8759,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 La navegación también permite consultar el grupo familiar y el catálogo de cosméticos.
 
-**Figura 62**
+**Figura 138**
 
 *Grupo familiar y tienda de cosméticos*
 
@@ -8774,7 +8774,7 @@ La navegación también permite consultar el grupo familiar y el catálogo de co
 
 La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL en el puerto `8092`. Swagger UI estuvo disponible en `http://localhost:8092/swagger-ui/index.html`. La aplicación Android se instaló en el emulador con el APK debug y consumió `http://10.0.2.2:8092/api/v1/`.
 
-**Tabla 120**
+**Tabla 121**
 
 *Artefactos de ejecución*
 
@@ -8789,7 +8789,7 @@ La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL e
 
 El Backend API documenta sus servicios con OpenAPI 3.1 y Swagger UI. Los contratos están agrupados por bounded context y especifican métodos HTTP, parámetros, cuerpos JSON y códigos de respuesta. El contrato corresponde al código [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635), integrado en `main` [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c). El [catálogo de servicios](assets/evidence/sprint-1/services-catalog.md) detalla 140 operaciones en 113 rutas, con parámetros, esquemas de solicitud y respuesta, códigos HTTP y ejemplos de invocación. La instancia documentada expone Swagger UI en `http://localhost:8093/swagger-ui/index.html` y el contrato en `http://localhost:8093/v3/api-docs`.
 
-**Tabla 121**
+**Tabla 122**
 
 *Servicios REST de los flujos implementados*
 
@@ -8826,7 +8826,7 @@ Los endpoints protegidos reciben `Authorization: Bearer <token>`. La consulta de
 
 Las respuestas ilustradas corresponden a la ejecución registrada del commit `11556d0`. La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un identificador inexistente se documenta con `404 Not Found`. El [contrato OpenAPI](assets/evidence/sprint-1/openapi.json) y las [respuestas de ejecución](assets/evidence/sprint-1/api-responses.json) acompañan las capturas.
 
-**Figura 63**
+**Figura 139**
 
 *Documentación de los endpoints de Gamification en Swagger UI*
 
@@ -8836,7 +8836,7 @@ Las respuestas ilustradas corresponden a la ejecución registrada del commit `11
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 64**
+**Figura 140**
 
 *Respuesta HTTP 200 del detalle de un reto*
 
@@ -8858,7 +8858,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio.
 
-**Figura X**
+**Figura 141**
 
 *Verificación que el repositorio este actualizado*
 
@@ -8866,7 +8866,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 2. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages. 
 
-**Figura X**
+**Figura 142**
 
 *Acceso a configuración "Pages"*
 
@@ -8874,7 +8874,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 3. En la sección Source, seleccionar la rama main y la carpeta raíz.
 
-**Figura X**
+**Figura 143**
 
 *Selección de rama a desplegar*
 
@@ -8882,7 +8882,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 4. Guardar la configuración para que GitHub Pages genere automáticamente la página pública. 
 
-**Figura X**
+**Figura 144**
 
 *Verificación de estado del despliegue*
 
@@ -8890,7 +8890,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 5. Una vez desplegado, el sitio estará disponible. 
 
-**Figura X**
+**Figura 145**
 
 *Verificación del landing page desplegado*
 
@@ -8898,7 +8898,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
 
-**Figura X**
+**Figura 146**
 
 *Versionamiento de despliegues de la landing page*
 
@@ -8912,7 +8912,7 @@ Base de datos:
 
 1. Acceder a aiven (Crear cuenta en caso no disponga de una)
 
-**Figura X**
+**Figura 147**
 
 *Acceso a pestaña home de aiven*
 
@@ -8920,7 +8920,7 @@ Base de datos:
 
 2. Seleccionar opción "Create service"
 
-**Figura X**
+**Figura 148**
 
 *Pestaña de creación de servicio en aiven*
 
@@ -8928,7 +8928,7 @@ Base de datos:
 
 3. Realizar la configuración de plan y nombre a usar
 
-**Figura X**
+**Figura 149**
 
 *Pestaña de configuración de servicio en aiven*
 
@@ -8936,7 +8936,7 @@ Base de datos:
 
 4. Guardar configuración y esperar que se termine el despliegue
 
-**Figura X**
+**Figura 150**
 
 *Base de datos desplegada*
 
@@ -8946,7 +8946,7 @@ Backend:
 
 1. Acceder a render (Crear cuenta en caso no disponga de una)
 
-**Figura X**
+**Figura 151**
 
 *Acceder a Render*
 
@@ -8954,7 +8954,7 @@ Backend:
 
 2. Crear un proyecto
 
-**Figura X**
+**Figura 152**
 
 *Crear proyecto en Render*
 
@@ -8962,7 +8962,7 @@ Backend:
 
 3. Seleccionar opción "Create new service"
 
-**Figura X**
+**Figura 153**
 
 *Comenzar creación de servicio en Render*
 
@@ -8970,7 +8970,7 @@ Backend:
 
 4. Seleccionar opción "Web Services"
 
-**Figura X**
+**Figura 154**
 
 *Comenzar creación de web service en Render*
 
@@ -8978,7 +8978,7 @@ Backend:
 
 5. Seleccionar repositorio de github que se va a desplegar
 
-**Figura X**
+**Figura 155**
 
 *Seleccionar repositorio para despliegue del backend en Render*
 
@@ -8986,7 +8986,7 @@ Backend:
 
 6. Realizar configuración del web service, que incluya nombre, lenguaje, rama a desplegar, región, plan y variables de entorno
 
-**Figura X**
+**Figura 156**
 
 *Configurar web service en Render*
 
@@ -8994,7 +8994,7 @@ Backend:
 
 7. Guardar y esperar que se termine el despliegue
 
-**Figura X**
+**Figura 157**
 
 *Backend desplegado*
 
@@ -9003,7 +9003,7 @@ Backend:
 
 8. Verificación del despliegue del backend
 
-**Figura X**
+**Figura 158**
 
 *Verificar despliegue del backend*
 
@@ -9126,7 +9126,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Padres de Familia
 <br>
 
-**Tabla 117**
+**Tabla 123**
  
 *Entrevista de validación 1 del segmento de padres de familia.*
  
@@ -9136,7 +9136,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 | **Entrevistada N°1:** Yolanda Nely Mota Granados<br>**Edad:** 52 años<br>**Ubicación:** Surquillo, Lima<br>**Entrevistadora:** Katty Philco<br>**Fecha de la entrevista:** 09/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Yolanda Nely Mota Granados](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416107_upc_edu_pe/IQD6MW-bHvTgTLIvTWB1yt1yAdBEq5G0st9w9zk0MEyuoXs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BSMdpw)<br>**Instante del que inicia:** 00:58<br>**Duración:** 05:48<br><br>**Resumen:**<br><br>La entrevistada es Yolanda Nely Mota Granados, una madre de familia de 52 años que vive en Surquillo. Tras explorar el Landing Page, comprendió con claridad que EcoMind busca enseñar a los niños y a la familia a adoptar hábitos de cuidado del medio ambiente.<br><br>Al usar la aplicación, identificó sin dificultad la información familiar y el perfil de su hijo, y valoró positivamente la variedad de contenidos, retos, reuniones y comunidades. Indicó que el seguimiento al aprendizaje de su hija necesita mejoras para ser más efectivo. En comunidad logró crear comunidades, pero no comprendió el flujo para inscribir a su familia en los eventos del mapa.<br><br>Respecto a la gamificación, encontró con facilidad su posición en el ranking y señaló que ver los puestos la motiva a seguir participando. Le pareció atractiva la dinámica de la tienda y las gemas, aunque manifestó desconfianza ante el uso de tarjetas de crédito o pagos de dinero dentro de la plataforma.<br><br>Consideró que la aplicación es relevante tanto para los padres como para los niños, pero sintió confusión al navegar para encontrar secciones específicas. Por ello sugirió simplificar la interfaz para que los adultos aprendan a usarla más rápido. Propuso además incluir una función de comunicación familiar que permita enviarse recordatorios directos sobre acciones sostenibles en el hogar, como apagar las luces o cerrar los caños.<br><br>Calificó con 5 sobre 5 la probabilidad de usar EcoMind con regularidad junto a su familia, por su interés en promover la conservación ambiental y por el ahorro práctico de recursos en su hogar. |
 
  
-**Tabla 118**
+**Tabla 124**
  
 *Entrevista de validación 2 del segmento de padres de familia.*
  
@@ -9148,7 +9148,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Niños de primaria
 <br>
 
-**Tabla 119**
+**Tabla 125**
  
 *Entrevista de validación 1 del segmento de niños de primaria.*
  
@@ -9224,7 +9224,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
 
-**Figura 130**
+**Figura 159**
 
 *Visibilidad del progreso al completar actividades.*
 
@@ -9244,7 +9244,7 @@ Implementar animaciones, barras de progreso o indicadores visuales que muestren 
 
 Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
 
-**Figura 131**
+**Figura 160**
 
 *Información disponible sobre eventos comunitarios.*
 
@@ -9264,7 +9264,7 @@ Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde s
 
 Las actividades disponibles dentro de la aplicación se presentan principalmente como formularios o cuestionarios, sin comunicar con suficiente claridad qué acción debe realizar el usuario para cumplir el reto. Esta presentación dificulta relacionar la actividad con un desafío ambiental concreto y comprender su objetivo, más allá de responder preguntas.
 
-**Figura 132**
+**Figura 161**
 
 *Presentación de las actividades y retos.*
 
@@ -9284,7 +9284,7 @@ Presentar cada reto con un objetivo ambiental concreto, instrucciones en lenguaj
 
 En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. Aunque incluyen una etiqueta de rol, el usuario debe leer cada tarjeta para distinguir a los padres de los hijos, lo que dificulta reconocer rápidamente los roles al revisar el grupo familiar.
 
-**Figura 133**
+**Figura 162**
 
 *Tarjetas de integrantes de la familia.*
 
@@ -9303,7 +9303,7 @@ Incorporar un distintivo visual consistente para cada rol familiar, como un íco
 
 Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. La evaluación considera la visualización del perfil, sin revisar el proceso de equipamiento de accesorios.
 
-**Figura 134**
+**Figura 163**
 
 *Visualización del avatar en el perfil.*
 
