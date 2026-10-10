@@ -7388,6 +7388,169 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 ### 4.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation <br> Usability – Inclusive Design – Information Architecture
+
+CARRERA : Ingeniería de Software <br>
+CURSO : Desarrollo de Aplicaciones Open Source <br>
+SECCIÓN : 11990 <br>
+PROFESORES : Todos <br>
+AUDITOR : GreenMinds <br>
+SITE o APP A EVALUAR: EcoMind <br>
+
+**TAREAS A EVALUAR:**<br>
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Explorar la Landing Page y comprender el propósito de EcoMind.
+2. Completar una miniactividad o reto diario.
+3. Revisar la actualización de puntos y rachas tras completar una actividad.
+4. Navegar entre las diferentes secciones del perfil.
+5. Consultar el compromiso ambiental y el progreso personal.
+6. Invitar a un amigo a un desafío grupal.
+7. Explorar los eventos disponibles en la sección de comunidad.
+8. Unirse a un evento comunitario desde el mapa.
+9. Consultar la posición personal dentro del ranking.
+10. Explorar la tienda de recompensas.
+11. Personalizar el avatar mediante la compra de artículos.
+12. Comprender el funcionamiento del multiplicador de experiencia (XP).
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Revisión de contenido de aprendizaje
+2. Ajustes
+   
+   
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|Nivel|Descripción|
+|-----|-----------|
+|1|Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil desuperar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso dela herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+
+**TABLA RESUMEN:**
+
+|# |Problema|Escala de severidad |Heurística/Principio violada(o)|
+|-----|-----------|-----|---------|
+|1 |El progreso obtenido al completar actividades no se visualiza de manera clara|2|Visibilidad del estado del sistema|
+|2 |La información de los eventos comunitarios es limitada|1|Reconocimiento antes que recuerdo|
+|3 |La opción para invitar amigos tiene poca visibilidad|1|Visibilidad del estado del sistema|
+|4 |Los retos carecen de elementos interactivos que refuercen la experiencia de gamificación|2|Diseño estético y minimalista|
+|5 |Las tarjetas de miembros de familia no permiten diferenciar roles visualmente|2|Usabilidad|
+|6 |El sistema de retroalimentación no es lo suficientemente simple o claro|2|Visibilidad del estado del sistema|
+|7 |La personalización del perfil puede sentirse limitada para usuarios escolares|1|Flexibilidad y eficiencia de uso|
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+
+**PROBLEMA #1: El progreso obtenido al completar actividades no se visualiza de manera clara**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+
+**Problema:**
+
+Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
+
+![Problema_1](assets/img/figures/problema1.png)
+
+**Recomendación:**
+
+Implementar animaciones, barras de progreso o indicadores visuales que muestren de forma dinámica el incremento de puntos, experiencia y rachas al finalizar una actividad.
+
+
+**PROBLEMA #2: La información de los eventos comunitarios es limitada**
+
+**Severidad:** 1 <br>
+**Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
+
+**Problema:**
+
+Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
+
+![Problema_2](assets/img/figures/problema2.png)
+
+**Recomendación:**
+
+Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde se muestre información ampliada como descripción, objetivos, ubicación, fecha y requisitos de participación.
+
+**PROBLEMA #3: La opción para invitar amigos tiene poca visibilidad**
+
+**Severidad:** 1 <br>
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+
+**Problema:**
+
+La funcionalidad para invitar amigos a desafíos grupales no destaca visualmente dentro de la interfaz. Debido a ello, los usuarios pueden centrarse en las acciones principales de la pantalla e ignorar esta opción, reduciendo el uso de las funciones colaborativas de la aplicación.
+
+![Problema_3](assets/img/figures/problema3.png)
+
+**Recomendación:**
+
+Agregar un botón o mensaje de confirmación que indique claramente que el reto puede iniciarse sin invitar a otros usuarios. Esto brindará mayor claridad sobre las opciones disponibles y reducirá posibles dudas durante el flujo de participación en desafíos colaborativos.
+
+**PROBLEMA #4: Los retos carecen de elementos interactivos que refuercen la experiencia de gamificación**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Diseño estético y minimalista
+
+**Problema:**
+
+Las actividades disponibles dentro de la aplicación se perciben principalmente como formularios o cuestionarios. Esto reduce la sensación de participación activa y puede afectar el interés de los usuarios a largo plazo, ya que la experiencia no transmite completamente la dinámica de un reto o desafío gamificado.
+
+![Problema_4](assets/img/figures/problema4.png)
+
+**Recomendación:**
+
+Incorporar mecánicas más interactivas dentro de los retos, como desafíos prácticos, validaciones visuales, objetivos progresivos o actividades dinámicas que permitan diferenciar claramente los retos de un formulario convencional.
+
+
+**PROBLEMA #5: Las tarjetas de miembros de familia no permiten diferenciar roles visualmente**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
+
+**Problema:**
+
+En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura.
+
+![Problema_5]()
+
+**Recomendación:**
+
+Asignar colores de borde o fondo diferenciados a cada rol familiar (por ejemplo, verde para padres y amarillo para hijos) dentro de las tarjetas, para que el usuario pueda identificar rápidamente a cada miembro sin necesidad de leer la etiqueta del rol.
+
+**Problema #6: El sistema de retroalimentación no es lo suficientemente simple o claro**
+
+**Severidad:** 2 <br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:**
+
+El participante sugiere “mejorar la simplicidad del proceso para facilitar la participación”. Esto apunta a que la respuesta del sistema después de realizar una acción podría no ser suficientemente clara, directa o motivadora. En una app gamificada, el usuario necesita entender rápidamente qué hizo bien, qué ganó y qué sigue.
+
+![Problema_6](assets/img/figures/Problema_6.png)
+
+**Recomendación:**
+
+Mostrar feedback inmediato y simple después de cada acción: mensajes breves, estados visuales y siguiente acción recomendada.
+
+**Problema #7: La personalización del perfil puede sentirse limitada para usuarios escolares**
+
+**Severidad:** 1 <br>
+**Heurística violada:** Flexibilidad y eficiencia de uso
+
+**Problema:**
+
+El participante sugiere agregar más opciones de personalización para hacer la experiencia más atractiva. Para escolares, la personalización del avatar/perfil no es solo estética: también refuerza identidad, pertenencia y motivación dentro de la plataforma.
+
+![Problema_7](assets/img/figures/Problema_7.png)
+
+**Recomendación:**
+
+Agregar más opciones de avatar, accesorios, fondos, insignias visibles o recompensas cosméticas desbloqueables según progreso.
+
 <div style="page-break-before: always;"></div>
 
 # Conclusiones
