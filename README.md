@@ -6901,6 +6901,8 @@ La combinación de la barra inferior, la barra superior, las pestañas, los cont
 
 ### 3.1.3. Landing Page UI Design
 
+Esta sección presenta el diseño UX/UI de la Landing Page de EcoMind, desarrollada como el principal punto de contacto entre la solución y sus potenciales usuarios. Su propósito es comunicar de manera clara la propuesta de valor, explicar las principales funcionalidades de la plataforma y orientar a estudiantes y padres de familia hacia el registro o acceso a la aplicación.
+El proceso de diseño comprende la elaboración del wireframe y del mock-up de alta fidelidad. El wireframe define la estructura, jerarquía y distribución inicial de los contenidos, mientras que el mock-up incorpora la identidad visual definitiva de EcoMind mediante colores, tipografías, iconos, ilustraciones y componentes gráficos.
 
 #### 3.1.3.1. Landing Page Wireframe
 
@@ -6975,6 +6977,9 @@ La guía para padres combina contenido educativo con fotografías e iconos para 
 El mock-up de comunidad utiliza indicadores, testimonios, ilustraciones y un mapa de eventos para transmitir colaboración y participación. El diseño busca que las familias comprendan cómo pueden compartir logros, conocer actividades cercanas y formar parte de una comunidad ambiental.
 
 ### 3.1.4. Mobile Applications UX/UI Design
+
+Esta sección presenta el proceso de diseño UX/UI de la aplicación móvil EcoMind, desarrollado a partir de las necesidades identificadas en los segmentos de estudiantes de primaria y padres de familia. Su propósito es definir una experiencia clara, accesible y motivadora que permita aprender sobre sostenibilidad, completar retos ambientales, consultar el progreso individual y familiar, participar en actividades comunitarias y acceder a los elementos de gamificación.
+El diseño comprende la elaboración de wireframes, wireflows, mock-ups y User Flow Diagrams. Los wireframes representan la estructura inicial de las pantallas; los wireflows muestran la navegación entre ellas; los mock-ups incorporan la identidad visual definitiva; y los User Flow Diagrams describen los recorridos necesarios para completar los principales objetivos dentro de la aplicación.
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
@@ -7447,6 +7452,20 @@ El usuario puede revisar sus notificaciones y marcar los avisos como leídos. De
 #### 3.1.4.5. Mobile Applications Prototyping
 
 <div style="page-break-before: always;"></div>
+
+En el siguiente video se presenta el prototipo de EcoMind, compuesto por la Landing Page y la aplicación móvil. Primero, se realizará un recorrido por la Landing Page para explicar la propuesta de valor, las principales funcionalidades, los beneficios para estudiantes y familias, los planes disponibles, las preguntas frecuentes y las opciones para acceder a la aplicación.
+Posteriormente, se mostrarán los principales recorridos de la aplicación móvil, como el registro e inicio de sesión, la realización de retos ambientales, la participación en actividades colaborativas, el seguimiento del progreso personal y familiar, el acceso a contenidos educativos, el ranking, la comunidad, los eventos y la personalización mediante la tienda.
+Esta presentación tiene como finalidad demostrar cómo ambas interfaces trabajan de manera complementaria. La Landing Page permite conocer la solución y orienta al usuario antes de ingresar, mientras que la aplicación móvil ofrece las herramientas necesarias para aprender, participar y desarrollar hábitos sostenibles. Asimismo, el recorrido permite comprobar si la navegación, las instrucciones y las acciones disponibles son claras y coherentes con las necesidades de estudiantes y padres de familia.
+
+<div align="center">
+  <img src="https://i.postimg.cc/VLnSzdxJ/Prototipo.jpg" alt="Prototipo de EcoMind" width="850">
+</div>
+
+*Nota. Elaboración propia.*
+
+**Link del Video**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQBiIZe9m70_S7kY5FntgY2fAfeCmhGWDfVhBCyFnBw4zEo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NX4Lbh
 
 # Capítulo IV: Product Implementation & Validation
 
