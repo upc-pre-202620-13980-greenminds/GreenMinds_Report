@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "http://127.0.0.1:8092",
+      "url": "http://127.0.0.1:8093",
       "description": "Generated server url"
     }
   ],
@@ -5747,10 +5747,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/ActivityUserResource"
-                  }
+                  "type": "object"
                 }
               }
             }

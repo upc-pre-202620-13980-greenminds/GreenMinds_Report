@@ -8477,7 +8477,8 @@ Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los f
 | EcoMind_Backend | `develop` | [fe38157](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/fe381578688843a0c961ddf762c969e4493a06d5) | feat(monetization): complete store catalog and purchase flows | — | 2026-10-08 |
 | EcoMind_Backend | `develop` | [1b7d57e](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/1b7d57e0b3cdf0533f5fb4c560ccd30ef9234798) | feat(community): expose community goal endpoints | — | 2026-10-08 |
 | EcoMind_Backend | `develop` | [d267cce](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/d267ccea453bdbfce27a5b7bc1ce92ca064657cc) | fix(gamification): remove duplicated XP storage completely | — | 2026-10-08 |
-| EcoMind_Backend | `feature/backend-tests-ci` | [8c37512](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8c3751276beb8fb1a2535a99dd5a190386a0b73e) | test: expand backend coverage and configure CI/CD | Pruebas, reportes de cobertura y pipeline de integración y entrega | 2026-10-10 |
+| EcoMind_Backend | `main` | [8c37512](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8c3751276beb8fb1a2535a99dd5a190386a0b73e) | test: expand backend coverage and configure CI/CD | Pruebas, reportes de cobertura y pipeline de integración y entrega | 2026-10-10 |
+| EcoMind_Backend | `main` | [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635) | test: complete quest lifecycle regressions and enforce coverage | Pruebas del ciclo de retos, permisos, participantes y umbrales de cobertura | 2026-10-10 |
 | EcoMind_Android | `develop` | [a47ed78](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/a47ed781040f873676fc10c2b589b8126db76785) | feat(users): add profile screen with friends and family tabs | — | 2026-10-08 |
 | EcoMind_Android | `develop` | [c265c95](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/c265c95aea14914233bf487a8470835bc617e63e) | feat: add complete quest type activities flow | — | 2026-10-09 |
 | EcoMind_Android | `develop` | [64554e5](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/64554e5ec7925f54baff2f2ec76408fd58c46e56) | feat(monetization): connect cosmetics store to backend | — | 2026-10-09 |
@@ -8491,9 +8492,19 @@ Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los f
 
 La ejecución de Android corresponde a `feature/gamification`, commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad), que contiene los cambios de `develop` hasta [6db2af6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/6db2af6355fb1031b15c72724051367363939f3a). La integración se presenta en el [pull request #3](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/3).
 
+El proyecto Android se trabaja en Android Studio. Su estructura organiza los bounded contexts en paquetes y separa las capas `application`, `domain`, `infrastructure` e `interfaces`. La Figura 54 muestra el módulo `app` y un caso de uso de Gamification.
+
+**Figura 54**
+
+*Proyecto EcoMind en Android Studio*
+
+<img src="assets/img/figures/sprint-1/android-studio-environment.png" alt="Proyecto Android abierto en Android Studio con sus paquetes y el caso de uso GetAchievementByIdUseCase" width="100%">
+
+*Nota. Captura de Android Studio.*
+
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
 
-Las pruebas de los servicios se ejecutaron sobre el commit [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635) con JUnit, Spring Boot Test, MockMvc y Cucumber. Las pruebas de Android corresponden al commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad).
+Las pruebas de los servicios se ejecutaron en `main`, commit [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c) con JUnit, Spring Boot Test, MockMvc y Cucumber. Las pruebas de Android corresponden al commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad).
 
 **Tabla 118**
 
@@ -8501,25 +8512,25 @@ Las pruebas de los servicios se ejecutaron sobre el commit [2264474](https://git
 
 | Componente | Ejecución | Resultado | Entorno |
 |---|---|---|---|
-| Backend API | `bash ./mvnw clean verify` | 515 ejecuciones; 0 fallos, 0 errores y 0 omitidas | JDK 21; H2 en modo de compatibilidad PostgreSQL |
-| Backend API | `bash ./mvnw clean verify` | 515 ejecuciones; 0 fallos, 0 errores y 0 omitidas | JDK 21; PostgreSQL 17.9 |
+| Backend API | `bash ./mvnw clean verify` | 515 ejecuciones; 0 fallos, 0 errores y 0 omitidas | GitHub Actions; JDK 21; H2 en modo de compatibilidad PostgreSQL |
+| Backend API | `bash ./mvnw clean verify` | 515 ejecuciones; 0 fallos, 0 errores y 0 omitidas | GitHub Actions; JDK 21; PostgreSQL 17 |
 | Android | `bash ./gradlew testDebugUnitTest` | 49 pruebas; 0 fallos, 0 errores y 0 omitidas | JDK 21 y Gradle |
 | Android | `bash ./gradlew connectedDebugAndroidTest` | 14 pruebas; 0 fallos, 0 errores y 0 omitidas | Emulador Android API 37; Backend API local |
 | Android | `bash ./gradlew assembleDebug assembleRelease` | Compilación satisfactoria de ambos APK | Android SDK 37 |
 
-Cucumber ejecutó 73 escenarios de aceptación dentro de un total de 515 pruebas. JaCoCo registró 86,76 % de cobertura de líneas y 69,12 % de ramas. La verificación exige un mínimo de 85 % de líneas y 65 % de ramas.
+Cucumber ejecutó 73 escenarios de aceptación dentro de un total de 515 pruebas. JaCoCo registró 86,78 % de cobertura de líneas y 69,12 % de ramas. La verificación exige un mínimo de 85 % de líneas y 65 % de ramas.
 
 Las pruebas instrumentadas incluyen el inicio de sesión por Retrofit, la consulta de retos, navegación, filtros, progreso y logros.
 
-Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
+La Figura 63 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
 
-**Figura 54**
+**Figura 55**
 
-*Ejecución de pruebas del backend con PostgreSQL en GitHub Actions*
+*Ejecución de la suite del backend en IntelliJ IDEA*
 
-<img src="assets/img/figures/sprint-1/backend-tests-postgresql.png" alt="GitHub Actions: 355 pruebas sin fallos y compilación satisfactoria" width="100%">
+<img src="assets/img/figures/sprint-1/backend-intellij-tests.png" alt="IntelliJ IDEA muestra 588 ejecuciones aprobadas y un escenario Gherkin de grupo familiar" width="100%">
 
-*Nota. Captura de GitHub Actions, ejecución [38062452677](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38062452677/job/114243310960).*
+*Nota. La vista «All in ecomind-backend» de IntelliJ IDEA registra 588 ejecuciones aprobadas. La Tabla 118 corresponde a las 515 pruebas ejecutadas por Maven en cada base de datos del pipeline.*
 
 **Tabla 119**
 
@@ -8536,12 +8547,14 @@ Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/
 | Recompensas y logros | `GamificationReportIntegrationTests` | Idempotencia, ecopoints, multiplicadores, logros y protección de racha |
 | Ranking | `RankingTests` | Ámbitos, periodos, orden y paginación |
 | HU-001, HU-004 y HU-046: retos | `guided_quests.feature` | Publicación, actividades, finalización, recompensa única y acceso restringido al participante |
+| Retos colaborativos y planes familiares | `collaborative_lifecycle.feature`, `QuestLifecycleIntegrationTests` | Aceptación y rechazo de invitaciones, aforo, retiro, permisos e inicio de sesiones y planes |
+| Retos diarios y minijuegos | `DailyQuestLifecycleServiceTests`, `MinigameAttemptTests` | Asignación, cierre del reto diario y estados de intentos |
 | HU-014, HU-033, HU-034, HU-037 y HU-060–064: comunidad | `community_participation.feature` | Membresía, permisos, publicaciones, reacciones, aforo, reinscripción y metas |
 | HU-029, HU-035 y HU-067: tienda | `store_and_wallet.feature`, `MonetizationPurchaseIntegrationTests` | Compras, inventario, saldo insuficiente e idempotencia |
 | Actividades, planes familiares y sesiones colaborativas | `ActivityCommandServiceImplTests`, `FamilyPlanCommandServiceImplTests`, `CollabQuestSessionCommandServiceImplTests` | Orden de actividades, participantes y condiciones de inicio |
 | Acceso al API | `ProtectedEndpointsIntegrationTests` | Rechazo de solicitudes sin autenticación o con token inválido |
 
-Las [especificaciones Gherkin](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/e3df2c060050f194c5e9bda55420c604d131e171/src/test/resources/features) se vinculan a los [step definitions](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/e3df2c060050f194c5e9bda55420c604d131e171/src/test/java/pe/greenminds/ecomind/bdd) y se ejecutan mediante `RunCucumberTest`. El siguiente escenario corresponde a HU-057:
+Las [especificaciones Gherkin](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/a6d1491f722c8ee88cbd84337aa1c995e14be44c/src/test/resources/features) se vinculan a los [step definitions](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/a6d1491f722c8ee88cbd84337aa1c995e14be44c/src/test/java/pe/greenminds/ecomind/bdd) y se ejecutan mediante `RunCucumberTest`. El siguiente escenario corresponde a HU-057:
 
 ```gherkin
 Scenario: Sign in with a wrong password
@@ -8555,7 +8568,7 @@ Scenario: Sign in with a wrong password
 
 La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Backend API mediante HTTP y autenticación JWT. El backend utilizó una base de datos PostgreSQL local y cuentas de prueba. La landing page se verificó desde su dirección pública.
 
-**Figura 55**
+**Figura 56**
 
 *Landing page de EcoMind en ejecución*
 
@@ -8567,7 +8580,7 @@ La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Ba
 
 El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta su descripción, duración y ecopoints.
 
-**Figura 56**
+**Figura 57**
 
 *Inicio de sesión y detalle de un reto*
 
@@ -8580,7 +8593,7 @@ El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta s
 
 Al completar la actividad, el usuario obtiene el resultado del reto y puede consultar su progreso. En la ejecución se registraron 10 ecopoints y el logro «First green step».
 
-**Figura 57**
+**Figura 58**
 
 *Finalización del reto y consulta de progreso*
 
@@ -8591,7 +8604,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 *Nota. Elaboración propia.*
 
-**Figura 58**
+**Figura 59**
 
 *Medalla obtenida y ranking global semanal*
 
@@ -8604,7 +8617,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 La navegación también permite consultar el grupo familiar y el catálogo de cosméticos.
 
-**Figura 59**
+**Figura 60**
 
 *Grupo familiar y tienda de cosméticos*
 
@@ -8619,7 +8632,7 @@ La navegación también permite consultar el grupo familiar y el catálogo de co
 
 #### 4.2.1.7. Services Documentation Evidence for Sprint Review
 
-El Backend API documenta sus servicios con OpenAPI 3.1 y Swagger UI. Los contratos están agrupados por bounded context y especifican métodos HTTP, parámetros, cuerpos JSON y códigos de respuesta. La versión examinada corresponde al commit [11556d0](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/11556d061f12d4bdc0fd10c5ecb20bc9a72e17c1).
+El Backend API documenta sus servicios con OpenAPI 3.1 y Swagger UI. Los contratos están agrupados por bounded context y especifican métodos HTTP, parámetros, cuerpos JSON y códigos de respuesta. El contrato corresponde al código [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635), integrado en `main` [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c). El [catálogo de servicios](assets/evidence/sprint-1/services-catalog.md) detalla 140 operaciones en 113 rutas, con parámetros, esquemas de solicitud y respuesta, códigos HTTP y ejemplos de invocación. La instancia documentada expone Swagger UI en `http://localhost:8093/swagger-ui/index.html` y el contrato en `http://localhost:8093/v3/api-docs`.
 
 **Tabla 120**
 
@@ -8656,9 +8669,9 @@ Los endpoints protegidos reciben `Authorization: Bearer <token>`. La consulta de
 }
 ```
 
-La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un identificador inexistente se documenta con `404 Not Found`. El [contrato OpenAPI](assets/evidence/sprint-1/openapi.json) y las [respuestas de ejecución](assets/evidence/sprint-1/api-responses.json) acompañan las capturas.
+Las respuestas ilustradas corresponden a la ejecución registrada del commit `11556d0`. La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un identificador inexistente se documenta con `404 Not Found`. El [contrato OpenAPI](assets/evidence/sprint-1/openapi.json) y las [respuestas de ejecución](assets/evidence/sprint-1/api-responses.json) acompañan las capturas.
 
-**Figura 60**
+**Figura 61**
 
 *Documentación de los endpoints de Gamification en Swagger UI*
 
@@ -8668,7 +8681,7 @@ La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un i
 
 *Nota. Elaboración propia.*
 
-**Figura 61**
+**Figura 62**
 
 *Respuesta HTTP 200 del detalle de un reto*
 
@@ -8682,33 +8695,15 @@ La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un i
 
 La landing page se publica mediante GitHub Actions. El workflow `Deploy static site to Pages` obtiene el contenido de `main`, prepara GitHub Pages y publica el directorio `public`. La dirección de acceso es [EcoMind Landing Page](https://upc-pre-202620-13980-greenminds.github.io/EcoMind_LandingPage/).
 
-**Figura 62**
+El workflow [Backend CI and CD](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/a6d1491f722c8ee88cbd84337aa1c995e14be44c/.github/workflows/backend.yml) ejecuta pruebas con H2 y PostgreSQL 17, genera reportes Surefire, Cucumber y JaCoCo, conserva el JAR y construye la imagen Docker. Las validaciones se ejecutan en pull requests a `develop` y `main`. La entrega continua está condicionada a un cambio en `main`, verificaciones satisfactorias y la habilitación de la variable de despliegue. La integración se encuentra en el [pull request #17](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/17).
 
-*Ejecuciones del workflow de publicación de la landing page*
-
-<div align="center">
-<img src="assets/img/figures/sprint-1/landing-deployment.png" alt="Ejecuciones del workflow de publicación de la landing page" width="100%">
-</div>
-
-*Nota. Elaboración propia.*
-
-El workflow [Backend CI and CD](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/22644744806f6c2ce7eaa936942990f54e471635/.github/workflows/backend.yml) ejecuta pruebas con H2 y PostgreSQL 17, genera reportes Surefire, Cucumber y JaCoCo, conserva el JAR y construye la imagen Docker. Las validaciones se ejecutan en pull requests a `develop` y `main`. La entrega continua está condicionada a un cambio en `main`, verificaciones satisfactorias y la habilitación de la variable de despliegue. La integración se encuentra en el [pull request #17](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/17).
-
-La [ejecución 38066670760](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38066670760) completó satisfactoriamente las pruebas y la construcción de la imagen.
+La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300) de `main` completó satisfactoriamente las pruebas y la construcción de la imagen.
 
 **Figura 63**
 
 *Verificaciones del backend y construcción de la imagen en GitHub Actions*
 
-<img src="assets/img/figures/sprint-1/backend-ci-current.png" alt="Pipeline aprobado con pruebas H2, PostgreSQL y construcción Docker" width="100%">
-
-*Nota. Captura de GitHub Actions.*
-
-**Figura 64**
-
-*Artefactos generados por el pipeline del backend*
-
-<img src="assets/img/figures/sprint-1/backend-ci-artifacts.jpg" alt="Artefactos del backend: aplicación, reportes de pruebas y registro de construcción" width="100%">
+<img src="assets/img/figures/sprint-1/backend-main-pipeline.png" alt="Pipeline aprobado con pruebas H2, PostgreSQL y construcción Docker" width="100%">
 
 *Nota. Captura de GitHub Actions.*
 
@@ -8747,7 +8742,7 @@ Katty desarrolló la base de navegación, autenticación y perfiles. Alejandra i
 
 El [pull request #3](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/3) reúne la integración de Gamification con la autenticación y los flujos de Android. La revisión por ramas permite relacionar el cambio propuesto con su base de integración.
 
-**Figura 65**
+**Figura 64**
 
 *Pull request de integración de Gamification en Android*
 

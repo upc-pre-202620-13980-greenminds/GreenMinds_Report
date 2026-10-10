@@ -988,5 +988,11 @@
         "author": "Leotens"
       }
     ]
+  },
+  "backend-testing": {
+    "ref": "main",
+    "sha": "a6d1491f722c8ee88cbd84337aa1c995e14be44c",
+    "implementationCommit": "22644744806f6c2ce7eaa936942990f54e471635",
+    "ciRun": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300"
   }
 }

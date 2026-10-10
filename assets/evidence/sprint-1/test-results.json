@@ -1,14 +1,13 @@
 {
   "executedAt": "2026-10-10",
   "backend": {
-    "revision": "22644744806f6c2ce7eaa936942990f54e471635",
+    "revision": "a6d1491f722c8ee88cbd84337aa1c995e14be44c",
     "command": "bash ./mvnw --batch-mode --no-transfer-progress clean verify",
-    "environment": "JDK 21; H2 in PostgreSQL compatibility mode",
+    "environment": "GitHub Actions; JDK 21; H2 in PostgreSQL compatibility mode",
     "tests": 515,
     "failures": 0,
     "errors": 0,
     "skipped": 0,
-    "reportedExecutions": 515,
     "suites": [
       {
         "suite": "pe.greenminds.ecomind.EcomindApplicationTests",
@@ -378,8 +377,8 @@
     "coverage": {
       "instruction": {
         "covered": 32733,
-        "missed": 5157,
-        "percent": 86.39
+        "missed": 5159,
+        "percent": 86.38
       },
       "branch": {
         "covered": 1522,
@@ -387,9 +386,9 @@
         "percent": 69.12
       },
       "line": {
-        "covered": 7312,
-        "missed": 1116,
-        "percent": 86.76
+        "covered": 7314,
+        "missed": 1114,
+        "percent": 86.78
       },
       "complexity": {
         "covered": 2550,
@@ -407,15 +406,46 @@
         "percent": 92.01
       }
     },
-    "acceptanceScenarios": 73,
+    "ciCoverage": {
+      "instruction": {
+        "covered": 32733,
+        "missed": 5159,
+        "percent": 86.38
+      },
+      "branch": {
+        "covered": 1522,
+        "missed": 680,
+        "percent": 69.12
+      },
+      "line": {
+        "covered": 7314,
+        "missed": 1114,
+        "percent": 86.78
+      },
+      "complexity": {
+        "covered": 2550,
+        "missed": 860,
+        "percent": 74.78
+      },
+      "method": {
+        "covered": 2035,
+        "missed": 263,
+        "percent": 88.56
+      },
+      "class": {
+        "covered": 668,
+        "missed": 58,
+        "percent": 92.01
+      }
+    },
     "postgresql": {
-      "command": "bash ./mvnw --batch-mode --no-transfer-progress -Dsurefire.runOrder=random -Dsurefire.runOrder.random.seed=20261012 clean verify",
-      "environment": "JDK 21; PostgreSQL 17.9; isolated local test database",
+      "revision": "a6d1491f722c8ee88cbd84337aa1c995e14be44c",
+      "command": "bash ./mvnw --batch-mode --no-transfer-progress clean verify",
+      "environment": "GitHub Actions; JDK 21; PostgreSQL 17",
       "tests": 515,
       "failures": 0,
       "errors": 0,
       "skipped": 0,
-      "reportedExecutions": 515,
       "suites": [
         {
           "suite": "pe.greenminds.ecomind.EcomindApplicationTests",
@@ -785,8 +815,8 @@
       "coverage": {
         "instruction": {
           "covered": 32733,
-          "missed": 5157,
-          "percent": 86.39
+          "missed": 5159,
+          "percent": 86.38
         },
         "branch": {
           "covered": 1522,
@@ -794,9 +824,9 @@
           "percent": 69.12
         },
         "line": {
-          "covered": 7312,
-          "missed": 1116,
-          "percent": 86.76
+          "covered": 7314,
+          "missed": 1114,
+          "percent": 86.78
         },
         "complexity": {
           "covered": 2550,
@@ -847,11 +877,10 @@
         }
       }
     },
-    "workflow": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/workflows/backend.yml",
     "ci": {
-      "runId": 38066670760,
-      "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38066670760",
-      "revision": "22644744806f6c2ce7eaa936942990f54e471635",
+      "runId": 38068283300,
+      "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300",
+      "revision": "a6d1491f722c8ee88cbd84337aa1c995e14be44c",
       "conclusion": "success",
       "testsPerDatabase": 515,
       "acceptanceScenarios": 73,
@@ -862,37 +891,13 @@
       "containerBuild": "success",
       "deployment": "skipped"
     },
-    "ciCoverage": {
-      "instruction": {
-        "covered": 32733,
-        "missed": 5159,
-        "percent": 86.38
-      },
-      "branch": {
-        "covered": 1522,
-        "missed": 680,
-        "percent": 69.12
-      },
-      "line": {
-        "covered": 7314,
-        "missed": 1114,
-        "percent": 86.78
-      },
-      "complexity": {
-        "covered": 2550,
-        "missed": 860,
-        "percent": 74.78
-      },
-      "method": {
-        "covered": 2035,
-        "missed": 263,
-        "percent": 88.56
-      },
-      "class": {
-        "covered": 668,
-        "missed": 58,
-        "percent": 92.01
-      }
+    "workflow": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/a6d1491f722c8ee88cbd84337aa1c995e14be44c/.github/workflows/backend.yml",
+    "ideEvidence": {
+      "application": "IntelliJ IDEA",
+      "displayedExecutions": 588,
+      "displayedPassed": 588,
+      "duration": "56 sec 39 ms",
+      "image": "assets/img/figures/sprint-1/backend-intellij-tests.png"
     }
   },
   "android": {
