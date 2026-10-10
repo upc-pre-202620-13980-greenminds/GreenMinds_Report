@@ -1194,7 +1194,7 @@ El siguiente glosario establece los términos compartidos que el equipo y los st
 | **Virtual Purchase (Compra virtual)** | Adquisición de un producto de la tienda utilizando gemas. |
 
 ## 2.4. Requirements Specification
-Esta sección reúne la especificación de requerimientos de EcoMind mediante historias de usuario, mapas de impacto y el product backlog, estableciendo una base para planificar el desarrollo de la solución.
+Esta sección reúne la especificación de requisitos de EcoMind mediante historias de usuario, mapas de impacto y el product backlog, estableciendo una base para planificar el desarrollo de la solución.
 
 ### 2.4.1. User Stories
 
@@ -4610,7 +4610,9 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas presentan los componentes de IAM en la aplicación Android y en la API backend. La vista móvil comprende la interfaz, los ViewModels, los casos de uso, el acceso remoto y el almacenamiento seguro del access token. La vista de la API reúne los controllers, servicios de aplicación, elementos de dominio, persistencia, seguridad JWT e integraciones con Resend y Users.
+Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 28 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Secure Token Storage, que guarda el access token de forma protegida y lo elimina al cerrar sesión.
+
+La Figura 29 muestra el módulo IAM dentro del Backend API. Las solicitudes protegidas atraviesan primero el Bearer Authorization Filter del grupo Shared, que valida el access token mediante los Token & Password Services y reenvía la solicitud autenticada a los controllers. Las operaciones de registro, verificación, inicio de sesión y recuperación de contraseña son rutas públicas y llegan directamente a los IAM REST Controllers. Estos despachan commands y queries a los IAM Application Services, que aplican las reglas del IAM Domain Model, emiten los tokens y aplican el hash a las contraseñas, y persisten los datos mediante los IAM Persistence Adapters en EcoMind Database. Los servicios de aplicación también solicitan al Email Service Adapter el envío de correos de verificación y recuperación mediante Resend, y al Users Context Client la creación del perfil, que el IAM Context Listener de Users recibe como el command CreateProfile.
 
 **Figura 28**
 
@@ -4834,7 +4836,9 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 | `Monetization` | Proporciona el cosmético equipado y el balance de gemas que se muestran en el perfil. |
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas distribuyen los componentes de Users entre la aplicación Android y la API backend. La vista móvil abarca perfil, familia y amistades; la vista de la API muestra sus controllers, servicios, modelo de dominio, persistencia y colaboraciones con IAM y Quests.
+Los componentes de Users se distribuyen entre la aplicación Android y el módulo Users del Backend API. La Figura 32 corresponde a la vista móvil: Users UI muestra las pantallas de perfil, familia, amistades y cosméticos, y los Users ViewModels exponen estados inmutables a partir de las intenciones de la interfaz. Los Users Use Cases coordinan las operaciones y trabajan con los contratos del Users Repository Implementation, que usa los Users Data Mappers para transformar los DTO de red en modelos de dominio. Los datos remotos se obtienen mediante el Users Remote Data Source, que consume la API de Users con el Bearer JWT.
+
+La Figura 33 muestra el módulo Users dentro del Backend API. Tras el Bearer Authorization Filter, los Users REST Controllers reciben las solicitudes y las convierten en commands y queries mediante los Users Assemblers & Resources. Los Users Application Services aplican las reglas del Users Domain Model y persisten perfiles, familias y amistades con los Users Persistence Adapters. El IAM Context Listener recibe el command CreateProfile enviado por IAM, y los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade. Los demás módulos acceden a los datos de Users mediante el Users Context Facade: Quests con su Users Service Client, Community con su Community Actor Gateway y Gamification con sus Context Service Clients.
 
 **Figura 32**
 
@@ -5131,7 +5135,9 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente diagrama C4 muestra cómo se relaciona el bounded context de **Learning** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Learning y su base de datos. También representa la validación del token de acceso antes de ejecutar operaciones que requieren un usuario autenticado, como agregar o eliminar materiales favoritos y registrar descargas.
+Los diagramas de Learning muestran la aplicación Android y el módulo Learning del Backend API. La Figura 36 presenta la vista móvil. Learning UI se alcanza desde la navegación de Quests, mediante la opción “Aprende más”, y desde el perfil de Users, para consultar los favoritos. La interfaz muestra el catálogo, el detalle, los favoritos y las descargas, y se comunica con los Learning ViewModels, que invocan los Learning Use Cases. Estos coordinan el catálogo, la búsqueda, los favoritos, las reseñas y las descargas mediante el Learning Repository Implementation. El repositorio solicita las descargas sin conexión al Material Download Manager, basado en WorkManager, y transforma los datos con los Learning Data Mappers hacia el Learning Remote Data Source, que consume los endpoints de Learning con el Bearer JWT, y hacia el Learning Cache, implementado con Room, que guarda el catálogo, los favoritos y los metadatos de descargas.
+
+La Figura 37 muestra el módulo Learning dentro del Backend API. El Bearer Authorization Filter valida el token de acceso antes de reenviar la solicitud a los Learning REST Controllers, que reciben el identificador del usuario autenticado y exponen los endpoints de materiales, favoritos, reseñas y descargas. Estos despachan commands y queries a los Learning Application Services, que aplican las reglas del Learning Domain Model y persisten los datos mediante los Learning Persistence Adapters en EcoMind Database. Cuando se solicita un material disponible, los servicios recurren al Material Content Delivery, que consulta los metadatos y la referencia del archivo registrado y devuelve el archivo o el enlace correspondiente.
 
 **Figura 36**
 
@@ -5450,7 +5456,10 @@ La aplicación móvil presenta los casos de uso coordinados por el backend.
 | Mapper | `QuestMobileMapper` | Convertir DTOs de red en modelos utilizados por la aplicación móvil. | Es utilizado por `QuestsMobileRepositoryImpl`. |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-Los diagramas muestran los componentes de Quests en la aplicación Android y en la API backend, junto con sus interacciones con Users, Gamification y la infraestructura de persistencia.
+
+Los diagramas de Quests presentan la aplicación Android y el módulo Quests del Backend API. En la Figura 40, Quests UI muestra el catálogo, el detalle, el progreso, los minijuegos y las misiones colaborativas. Sus acciones llegan a los Quests ViewModels y de ahí a los Quests Use Cases, que coordinan el descubrimiento, la inscripción, el progreso y la finalización de misiones. El Quests Repository Implementation usa los Quest Data Mappers para transformar los datos y combina el Quests Remote Data Source, que consume los endpoints REST, con el Quests Local Cache, implementado con Room, que conserva las misiones activas y el progreso necesarios para el uso móvil.
+
+La Figura 41 muestra el módulo Quests dentro del Backend API. Los Quests REST Controllers reciben las solicitudes ya autenticadas por el Bearer Authorization Filter y despachan commands y queries a los Quests Application Services. Estos aplican las reglas del Quests Domain Model, persisten los datos con los Quests Persistence Adapters y validan usuarios, amistades y familias mediante el Users Service Client, que consulta el Users Context Facade. El Daily Quest Lifecycle Service genera las misiones diarias y expira las ejecuciones anteriores. Cuando una misión, un minijuego, una sesión colaborativa o un plan familiar finaliza, los Quests Event Handlers procesan el resultado y el Quest Event Publisher publica el evento de integración, que recibe el Gamification Event Handlers. Gamification, a su vez, consulta las recompensas base y los intentos mediante el Quests Context Facade.
 
 **Figura 40**
 
@@ -5766,8 +5775,9 @@ La aplicación móvil consume los casos de uso del backend sin duplicar sus regl
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente conjunto de diagramas C4 muestra cómo se relaciona el bounded context de **Community** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Community y su base de datos. También representa la comunicación con "Users" para validar usuarios, familias y roles; con "Quests", mediante la recepción de eventos de retos completados para actualizar las metas comunitarias; con "Gamification", mediante la publicación de metas comunitarias finalizadas; y con "Leaflet", para consultar y visualizar la ubicación de los eventos.
+Los diagramas de Community se dividen en la aplicación Android y el módulo Community del Backend API. La Figura 44 muestra la vista móvil. Community UI presenta las comunidades, las publicaciones, los eventos, las inscripciones, los chats y las metas comunitarias, y entrega las acciones a los Community ViewModels. Estos invocan los Community Use Cases, que coordinan la búsqueda y la participación. El Community Repository Implementation transforma los datos con los Community Data Mappers y los obtiene del Community Remote Data Source, que consume los endpoints REST de Community, o del Community Local Cache, implementado con Room, que almacena comunidades, publicaciones, eventos y progreso de metas.
 
+La Figura 45 muestra el módulo Community dentro del Backend API. Los Community REST Controllers reciben las solicitudes autenticadas y las despachan a los Community Application Services, que coordinan los permisos, las inscripciones, la publicación de logros y el progreso de metas, aplican el Community Domain Model y persisten los datos con los Community Persistence Adapters. Para validar usuarios, familias y roles, los servicios usan el Community Actor Gateway, que consulta el Users Context Facade. El Community Event Publisher publica los eventos de meta comunitaria completada, evento completado y publicación creada, que recibe el Gamification Event Handlers. Gamification utiliza el Community Context Facade para verificar la membresía y el acceso para compartir, y para entregar los avisos de logro que se publican en las comunidades.
 
 **Figura 44**
 
@@ -6092,7 +6102,10 @@ La aplicación móvil consulta progreso, logros y rankings, y permite compartir 
 `AchievementsViewModel` conserva la solicitud para reintentar un envío fallido. `CommunityAchievementsGateway` consulta las publicaciones compartidas, mientras que `CalculateWeeklyRankingUseCase` calcula las posiciones semanales con las transacciones autorizadas.
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
-En esta sección se presentan los diagramas de componentes del bounded context Gamification para la aplicación Android y la API backend. Muestran sus principales responsabilidades e interacciones, la comunicación con otros bounded contexts y el acceso a la base de datos.
+
+Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 46, Gamification UI presenta los rankings, los filtros de logros, la celebración y la opción de compartir. Los Gamification ViewModels administran los filtros, la decisión de compartir, el borrador reintentable y el estado de publicación, y los Gamification Use Cases consultan rankings y logros y solicitan el compartir voluntario. El Weekly Ranking Calculator filtra las transacciones del periodo y calcula las posiciones semanales. El Gamification Repository Implementation mapea los resultados con los Gamification Data Mappers y consulta el Gamification Remote Data Source, que consume los recursos REST de Gamification. Para leer las publicaciones de logros compartidos, que pertenecen a Community, los casos de uso emplean el Community Feature Gateway, que accede a la API de publicaciones de Community.
+
+La Figura 47 muestra el módulo Gamification dentro del Backend API. Los Gamification REST Controllers exponen progreso, logros, rankings y solicitudes de compartir, y despachan commands y queries a los Gamification Application Services. Estos aplican el Gamification Domain Model y persisten los datos con los Gamification Persistence Adapters. Los Gamification Event Handlers reciben los eventos publicados por el Quest Event Publisher, el Community Event Publisher y el Monetization Event Publisher, y el Daily Streak Lifecycle Service evalúa el cierre diario de las rachas activas. Los Context Service Clients consultan los facades de Users, Quests, Community y Monetization. El Gamification Event Publisher entrega las recompensas, los avisos de logro y las solicitudes de protección y publicación a Community y Monetization, y guarda los mensajes pendientes en EcoMind Database mediante un Transactional Outbox. Los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade.
 
 **Figura 46**
 
@@ -6422,7 +6435,9 @@ Las solicitudes protegidas llegan con un JWT emitido previamente por IAM. El fil
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Monetization con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Monetization, su base de datos y los servicios externos de autenticación y pagos. También muestra la comunicación con Gamification, que informa cuando una racha está en riesgo, para que Monetization verifique si el usuario tiene un protector disponible y comunique el resultado.
+Los diagramas de Monetization presentan la aplicación Android y el módulo Monetization del Backend API. En la Figura 50, Store UI muestra los cosméticos, los multiplicadores, los protectores, los paquetes de gemas y el saldo de la billetera. Los Monetization ViewModels reciben las intenciones de la interfaz y exponen estados inmutables, y los Monetization Use Cases coordinan el catálogo, las compras, el inventario y el pago. El Monetization Repository Implementation usa los Monetization Data Mappers para transformar los datos del Monetization Remote Data Source, que consume los endpoints de Monetization con el Bearer JWT, y del Catalog Cache, implementado con Room, que guarda una copia de solo lectura de los catálogos y de la billetera para el uso sin conexión.
+
+La Figura 51 muestra el módulo Monetization dentro del Backend API. Los Monetization REST Controllers exponen los endpoints de tienda, cosméticos, multiplicadores, protectores de racha, inventario, billetera y compras de gemas, y los despachan a los Monetization Application Services. Estos aplican el Monetization Domain Model, persisten los datos con los Monetization Persistence Adapters y consultan o actualizan el saldo de gemas del perfil mediante el User Gem Balance Gateway, que opera sobre los Users Persistence Adapters. Los Payment Adapters integran los proveedores de pago: Culqi, para pagos con tarjeta y Yape, y PayPal. Gamification consulta el multiplicador de experiencia activo y solicita el abono de gemas, la entrega de cosméticos y la protección de racha mediante el Monetization Context Facade, y recibe el resultado a través del Monetization Event Publisher, que publica los eventos StreakProtected o StreakProtectionUnavailable.
 
 **Figura 50**
 
@@ -6511,7 +6526,7 @@ La paleta está basada en tonos naturales que transmiten frescura, vitalidad y c
 
 **Iconografía**
 
-Los iconos siguen un estilo outline redondeado, coherente con la identidad orgánica de la marca. Se utiliza la librería de iconos Material Design adaptada con el color verde primario de EcoMind.
+Los iconos siguen un estilo outline redondeado, coherente con la identidad orgánica de la marca. Se utiliza la biblioteca de iconos Material Design adaptada con el color verde primario de EcoMind.
 
  
    
@@ -6529,9 +6544,9 @@ EcoMind organiza su contenido bajo dos sistemas complementarios:
 **Organización jerárquica** (principal): La información se estructura de lo general a lo específico. Se agrupan las secciones más relevantes (Retos, Progreso, Familia, Comunidad, Usuario, Tienda y Ranking) mediante un icono distintivo en la parte inferior, y cada sección navega hacia su contenido al profundizar en ella.
 
 **Organización por categorías temáticas**: Los retos y contenidos educativos se agrupan según los ejes ambientales de la plataforma:
-- ♻️ Reciclaje y residuos
-- 💧 Ahorro de agua
-- ⚡ Eficiencia energética
+- Reciclaje y residuos
+- Ahorro de agua
+- Eficiencia energética
 
 **Organización cronológica**: El historial de actividades, el progreso del usuario y las notificaciones se presentan en orden cronológico inverso (más reciente primero).
 
