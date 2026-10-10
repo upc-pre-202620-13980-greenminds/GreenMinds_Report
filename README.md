@@ -108,6 +108,18 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 
 ![projetoverview](assets/img/figures/Docs_Overview.png)
 
+*TB1*
+
+Durante el desarrollo de la entrega TB1, el equipo organizó la actualización del informe mediante la asignación de responsabilidades por secciones. Cada integrante contribuyó en la documentación del diseño de la aplicación móvil, la configuración del despliegue, el desarrollo del Sprint 1 y la validación de EcoMind con los usuarios de los segmentos objetivo.
+
+La elaboración del informe se realizó de manera incremental, incorporando los wireframes, mock-ups, wireflows y user flow diagrams conforme avanzaba la implementación. También se actualizaron los diagramas de arquitectura, el Student Outcome y las conclusiones y recomendaciones, y se añadieron las entrevistas de validación y las evaluaciones según heurísticas. Estos aportes se registraron en el control de versiones para mantener un seguimiento de los cambios realizados durante la entrega.
+
+Asimismo, los integrantes revisaron y complementaron las secciones del informe para que los diseños, la documentación técnica y los resultados de validación correspondieran con el producto desarrollado. Los analíticos de contribución y el historial de commits permiten observar los aportes de cada miembro y la participación del equipo en la preparación de la entrega TB1.
+
+*Contribuciones del equipo al informe durante TB1.*
+
+![projetoverview2](assets/img/figures/Docs_Overview2.png)
+
 
 <div style="page-break-before: always;"></div>
 
