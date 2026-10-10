@@ -1,0 +1,992 @@
+{
+  "landing": {
+    "ref": "HEAD",
+    "sha": "81810b0ad3d83827a6b3b2cb0c53338ac092d82a",
+    "commits": [
+      {
+        "sha": "81810b0ad3d83827a6b3b2cb0c53338ac092d82a",
+        "date": "2026-10-09T03:23:28-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "106ce099d64c57e0a3aa8505955a3eb59c12fb3c",
+        "date": "2026-10-09T02:19:39-05:00",
+        "author": "Leo Dulanto"
+      },
+      {
+        "sha": "b14aa13b5f708e7a3c47c2894bab9034a7b90f99",
+        "date": "2026-10-09T02:01:25-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "479cb0e0c3b7f66c09c320444636ba9dd17b3065",
+        "date": "2026-10-09T01:57:39-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "77515990c9fc530ca1d5f0adfa500bd34d209bf9",
+        "date": "2026-10-09T01:57:33-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "ccc385250a8bb96a0f89d63d8c70b256b3922ae5",
+        "date": "2026-10-09T01:57:17-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "e770a144452a381a6557b0b8113ff53486dbf4aa",
+        "date": "2026-10-09T01:57:09-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "f278ab8cbc39b197e3b7812448463e1deebd8caa",
+        "date": "2026-10-09T01:04:35-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "a57c409ba5ccd3be581eb6c9b7022fe2033a21cd",
+        "date": "2026-10-09T00:56:43-05:00",
+        "author": "Leo Dulanto"
+      }
+    ]
+  },
+  "backend": {
+    "ref": "origin/develop",
+    "sha": "11556d061f12d4bdc0fd10c5ecb20bc9a72e17c1",
+    "commits": [
+      {
+        "sha": "b51fc186d9b03c7bb3540a66b56014aae219527b",
+        "date": "2026-10-09T01:25:25-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "aefb0a8933e91150931da670da6c81a190398881",
+        "date": "2026-10-09T00:57:06-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "9312f013a38da4264d8608c44bb9e980f439a270",
+        "date": "2026-10-09T00:50:52-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "19b85df83dc1fcf0a5f61b38e31e3e209fcbb51b",
+        "date": "2026-10-08T18:49:17-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "40f7d562afea04dd67b320b13827fd55160903ad",
+        "date": "2026-10-08T17:50:09-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "9ed0b6cc72d1bc171d072859de01491297e212d2",
+        "date": "2026-10-08T16:02:22-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "d267ccea453bdbfce27a5b7bc1ce92ca064657cc",
+        "date": "2026-10-08T15:04:44-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "7a8492368194c1ae54a039f200c7ca938c8cdaf8",
+        "date": "2026-10-08T14:41:10-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "926baa2e2b1ed115ee8f7f39dcd9af130960d025",
+        "date": "2026-10-08T14:20:46-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "409a1b09d4032cf6d12040c84e45c26936ae79c2",
+        "date": "2026-10-08T11:48:00-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "fe381578688843a0c961ddf762c969e4493a06d5",
+        "date": "2026-10-08T07:28:23-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "1e56efc062747cf8bad27445f3aeb4c95bfe2316",
+        "date": "2026-10-08T04:26:09-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "81bc42c71aebea0a40e66b9fdbbfdbdef8a7e323",
+        "date": "2026-10-08T04:02:49-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "a6a548a42017d193ad6b9732c530b90721f2cd9f",
+        "date": "2026-10-08T03:48:56-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "1b7d57e0b3cdf0533f5fb4c560ccd30ef9234798",
+        "date": "2026-10-08T03:31:28-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "ee191c30ea4c4d23562fb30e6f28d8a60d696fab",
+        "date": "2026-10-08T03:31:11-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "c16224202285165705f7fb08dc77528964e9c3be",
+        "date": "2026-10-08T03:30:55-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "d1b547197b513b84f8a31e1879ecaf0f7743ef8b",
+        "date": "2026-10-08T03:30:39-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "75cb7449a6f0f5c6125626a97a898762ba9d5e19",
+        "date": "2026-10-08T02:14:52-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "58b285db944d4956fa6461bb53bde2f11485fe1a",
+        "date": "2026-10-08T02:08:55-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "2fc9c41dfa81081f576d0435ed2bb25504e3d5f4",
+        "date": "2026-10-08T02:08:39-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "7bee5ecc39a87a4e78afb43c39055601abbf704a",
+        "date": "2026-10-08T01:48:15-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "2b4af4827d7161183b2986be7f720df1d4817dbc",
+        "date": "2026-10-08T01:47:47-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "99eb0276c6c654ee830db4cc783540481b12b4ba",
+        "date": "2026-10-08T01:39:44-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "396a926b442ce44f5a690f55a499073500340723",
+        "date": "2026-10-08T01:39:02-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "8463f4f43b018b50fc6c8590f7954f58be84f832",
+        "date": "2026-10-08T01:36:53-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "46d15d83c13d64ba34b74f93f5d1325638a35663",
+        "date": "2026-10-08T01:04:12-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "49b543c293bd73e0532321fd34007801fd8e84f6",
+        "date": "2026-10-08T00:04:02-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "565bf640cde236523d3d7eb91b1b85affdd2efff",
+        "date": "2026-10-07T23:55:40-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "f52b8108bf5ea2524438a87f43b3742e0f4c78e9",
+        "date": "2026-10-07T23:54:14-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "f1a3dc9846d084aa64c214e1a51765d8450037cb",
+        "date": "2026-10-07T23:48:52-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "dc89676711d1727ada4b97b8accd5059d8e2122f",
+        "date": "2026-10-07T21:38:51-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "c05b9c1e07e62edd7a0cce216494e2b3329c03f2",
+        "date": "2026-10-07T21:35:23-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "5071c5890e56d932ed22f20c9916ba4499ef177b",
+        "date": "2026-10-07T21:35:22-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "11e940131b0fdb2e0a66b36db18b471c34459761",
+        "date": "2026-10-07T21:12:05-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "11d4288d3cfbe18684d5de47edd14117299fbd86",
+        "date": "2026-10-07T21:03:23-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "bb8770085f3f1cd65a5f900b666bc9f9a77ebfc0",
+        "date": "2026-10-07T21:02:33-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "070cb06adf296f6cd39578458929f247f09ca61e",
+        "date": "2026-10-07T19:56:31-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "91ed42810701c2bbe4ed660ec542e87d44ced635",
+        "date": "2026-10-07T19:28:46-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "f50499c022684dd75a8200201e5ac3f6cb90af39",
+        "date": "2026-10-07T18:55:48-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "0409d2b96963ef1f088ea8c4d355f938c129c95d",
+        "date": "2026-10-07T18:38:59-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "571c04141ad21539d38f990620ca6be4a4508b9b",
+        "date": "2026-10-07T17:35:31-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "1e85aa6d278f48f4795c75c5c4197a8e4520771f",
+        "date": "2026-10-07T17:30:29-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "d449a636254b1ffdf1d3de50a6786ae8838e5ed3",
+        "date": "2026-10-07T16:20:47-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "0a5f97243968fab16df436c984beb7bb9c74ac4b",
+        "date": "2026-10-07T16:16:30-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "85b98e5d841fb76b5482e2790f423eb499e85417",
+        "date": "2026-10-07T16:10:05-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "c0d3fa55bf93869ad674599588983fdfcd72dce2",
+        "date": "2026-10-07T15:46:42-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "3143759de2804c567601ba947ec5a077e12e57d6",
+        "date": "2026-10-07T15:42:29-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "240fce987d0d1d12d4529762095aff1f20c36396",
+        "date": "2026-10-07T15:42:08-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "0bd477a97c83ea46fed8c55708d6c79a1bb14014",
+        "date": "2026-10-07T15:31:37-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "fde91661da51f9137e1456469b95225c69236bb1",
+        "date": "2026-10-07T15:29:10-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "ab8011b294a8e47f621733291772c254aa48a492",
+        "date": "2026-10-07T15:23:01-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "36328baf4a4a12f85a5cf58ebc3f801775079e73",
+        "date": "2026-10-07T14:57:18-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "b6f9206021fa67abdf45afaa801e1052cd347070",
+        "date": "2026-10-07T14:57:17-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "c3bf719c122a4253f599d95745a55011d13e7578",
+        "date": "2026-10-07T14:15:13-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "291304b5eea0e0dad6b01f4d8a087c1a9babd6f9",
+        "date": "2026-10-07T14:15:12-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "6a0de65a69066ae71455718f96904d0ea5a65449",
+        "date": "2026-10-07T14:01:38-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "f3ba7dbd19373cb72d71d2a76740bfbcc9390b69",
+        "date": "2026-10-07T14:01:38-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "156b1d8c2485bcdbe167cfde01da02cc72864555",
+        "date": "2026-10-07T13:33:10-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "5598c4431427e5fe3392f7a01106e1490f10160d",
+        "date": "2026-10-07T13:18:40-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "bd3b37910d271366f013e65de02230f00afc3e55",
+        "date": "2026-10-07T12:28:34-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "c8ba61dcc87b319a25492dfc73c48ea7682cc64e",
+        "date": "2026-10-07T12:28:18-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "f210a91b13bee1a421e9cc1410ea4f1a226e0aca",
+        "date": "2026-10-07T10:18:18-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "0e7ac266af0d3fdc0b02fa2c6627b018110978f3",
+        "date": "2026-10-07T10:07:17-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "9ebe1bd2374fe16b62ecb25bd0acf7a06a78978f",
+        "date": "2026-10-07T03:33:20-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "01ad9b39dbae265ea911f31c00bde7ca5bcc5b2d",
+        "date": "2026-10-07T03:33:07-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "28f1feecea6ca1b94815f4522d83a60a130edc44",
+        "date": "2026-10-07T03:33:05-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "db038b5c4d41c2d5125ad1c273acbde031565203",
+        "date": "2026-10-07T03:33:04-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "0078c5ca68b8e15786c0ad35b000514a448a511a",
+        "date": "2026-10-07T03:33:02-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "286c81620088baa397b12095dcc22febda37ff80",
+        "date": "2026-10-07T03:33:01-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "3dddd2858e8e1be2bb488166243a1a63349458dc",
+        "date": "2026-10-07T03:33:00-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "5f4dd031456eecb8fcf1abf750b9d8136fded162",
+        "date": "2026-10-07T03:32:58-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "75c6918ce4a9a9de5a3cb39eb5a091e2d7e481e2",
+        "date": "2026-10-07T03:32:58-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "b5dc77e0a91a004efa073fabe296eb49af8fcdcc",
+        "date": "2026-10-07T03:32:57-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "6bed3910068fdf9c2120ab3d4384af53c628679d",
+        "date": "2026-10-07T02:48:40-05:00",
+        "author": "kattyph"
+      }
+    ]
+  },
+  "android": {
+    "ref": "origin/develop",
+    "sha": "6db2af6355fb1031b15c72724051367363939f3a",
+    "commits": [
+      {
+        "sha": "6d3ddd7d106da59582d0157250c8fc28567bc72a",
+        "date": "2026-10-09T05:25:30-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "d7a6b9de690870f2af01b8e334257020304e161c",
+        "date": "2026-10-09T05:24:55-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "ffa3d2923d91ff62b8a4a6e71e35e6d1e0f2beb6",
+        "date": "2026-10-09T02:16:09-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "64554e5ec7925f54baff2f2ec76408fd58c46e56",
+        "date": "2026-10-09T02:01:07-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "91f76f7cf014981f1723943ed429bea926fed822",
+        "date": "2026-10-09T01:58:39-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "c265c95aea14914233bf487a8470835bc617e63e",
+        "date": "2026-10-09T01:47:32-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "8b90424eb8ed8693d8ef9af8fdeb93ee68ca26c3",
+        "date": "2026-10-09T00:51:21-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "701d0e42d8262c0d766427e0a471e9a02c98d252",
+        "date": "2026-10-08T23:23:40-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "bf3e30110775c79cd0fb7531fce2aa86f32dfaf4",
+        "date": "2026-10-08T22:36:02-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "d23a6635f017ddb859885b2775adf0e9c75ee74b",
+        "date": "2026-10-08T20:38:17-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "89235665997b11eea3c595d2baec3d329fc25bec",
+        "date": "2026-10-08T20:35:56-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "866fc6094c093b3ec276b0e5fa16db0906969a39",
+        "date": "2026-10-08T19:38:27-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "418542543980fa97422868e97296b833b266d146",
+        "date": "2026-10-08T19:36:44-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "1e473a73fe8cf915577357fe10c881704d0d17c2",
+        "date": "2026-10-08T18:23:23-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "20520be98354ef59b77a749e312aa87ee6654880",
+        "date": "2026-10-08T17:36:40-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "185eca69f26b2267a3873c6527ea008f57460cca",
+        "date": "2026-10-08T15:19:49-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "4ba19e04b07fd4476beb2cfc0f5ced2cd3f131bb",
+        "date": "2026-10-08T14:53:56-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "f48a811735766cfaefb9624287729919301d076b",
+        "date": "2026-10-08T14:40:43-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "2911501e227d808c9b00f35cb9abd72e7d1f7b74",
+        "date": "2026-10-08T14:21:19-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "086e8873d4008c24e133df36feafcb21003e8089",
+        "date": "2026-10-08T14:05:50-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "a47ed781040f873676fc10c2b589b8126db76785",
+        "date": "2026-10-08T13:46:38-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "659964e7abb75813c8f72d3346bfb27825c8a374",
+        "date": "2026-10-08T13:32:49-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "f11360f1b83314c515f5fdde82d58ea6ecbf566e",
+        "date": "2026-10-08T06:47:29-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "855af6a0b2699f2dcfc02ec6c98340a61df021d7",
+        "date": "2026-10-08T06:37:46-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "bc0c78526d6a9da41e91e82f9f0db9251725cc08",
+        "date": "2026-10-08T06:36:58-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "ef9cf2ac1834349d82e2a32e3cf04dbc106187a1",
+        "date": "2026-10-08T06:27:17-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "e5c0d113460f82916fbbc8052fa4537e995f1b97",
+        "date": "2026-10-08T06:27:05-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "f104fa63b68cca129e88a6e005a3fc92103acd03",
+        "date": "2026-10-08T06:26:51-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "ae273bedae5cd982281b124b026476b6a5e534f8",
+        "date": "2026-10-08T06:26:39-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "c44e8c767da982d484496f4003d631ee1d394e95",
+        "date": "2026-10-08T06:07:30-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "411d6e81ea9668cbc92b5bc7ef4f051069e91e68",
+        "date": "2026-10-08T06:07:18-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "590d9a85c8c1e51d741baf2c3f1f6742ac0c016d",
+        "date": "2026-10-08T06:07:04-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "dccbb97fc54c87b55f8019012852b8dc393b0e6a",
+        "date": "2026-10-08T06:06:50-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "9dfedb1e7f45c4b4589bdf2424e0958d54c186fa",
+        "date": "2026-10-08T05:54:15-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "ba82f62ed5fcd36dcc2d4a3749a74eac2855d815",
+        "date": "2026-10-08T05:53:59-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "9ae30ca86b642d3aacd348618cc41d7a6677926d",
+        "date": "2026-10-08T05:53:21-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "1f8a66b307d32df1abf840582cd0cc1526a3de8c",
+        "date": "2026-10-08T05:53:00-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "2a3bf7c2c9a235e142547f28676eecc1c8c2f44d",
+        "date": "2026-10-08T05:52:30-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "a26e2709b2327a8e231d63a18d30529fcb8a084c",
+        "date": "2026-10-08T03:37:36-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "b036d747bf05fab8b7d10a1872477ea545564ba7",
+        "date": "2026-10-08T03:35:08-05:00",
+        "author": "kattyph"
+      }
+    ]
+  },
+  "android-gamification": {
+    "ref": "feature/gamification",
+    "sha": "5e26fe6ed67c9aa034c78c4c97badec589a88dad",
+    "commits": [
+      {
+        "sha": "5e26fe6ed67c9aa034c78c4c97badec589a88dad",
+        "date": "2026-10-10T00:07:05-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "6d3ddd7d106da59582d0157250c8fc28567bc72a",
+        "date": "2026-10-09T05:25:30-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "d7a6b9de690870f2af01b8e334257020304e161c",
+        "date": "2026-10-09T05:24:55-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "ffa3d2923d91ff62b8a4a6e71e35e6d1e0f2beb6",
+        "date": "2026-10-09T02:16:09-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "64554e5ec7925f54baff2f2ec76408fd58c46e56",
+        "date": "2026-10-09T02:01:07-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "91f76f7cf014981f1723943ed429bea926fed822",
+        "date": "2026-10-09T01:58:39-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "c265c95aea14914233bf487a8470835bc617e63e",
+        "date": "2026-10-09T01:47:32-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "3f9d31cee842d72dd806bef2da467ace806944e7",
+        "date": "2026-10-09T01:36:54-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "3fa5a8f156fa1c838b8452da0ef20f6b1a259d08",
+        "date": "2026-10-09T01:25:33-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "d88dffd451d6513a922cfe14f848f631b9bbcbaf",
+        "date": "2026-10-09T00:59:47-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "8b90424eb8ed8693d8ef9af8fdeb93ee68ca26c3",
+        "date": "2026-10-09T00:51:21-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "3e2e931a036948f6f01e896806279c666074307d",
+        "date": "2026-10-09T00:48:14-05:00",
+        "author": "Mauricio Pajes"
+      },
+      {
+        "sha": "701d0e42d8262c0d766427e0a471e9a02c98d252",
+        "date": "2026-10-08T23:23:40-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "bf3e30110775c79cd0fb7531fce2aa86f32dfaf4",
+        "date": "2026-10-08T22:36:02-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "d23a6635f017ddb859885b2775adf0e9c75ee74b",
+        "date": "2026-10-08T20:38:17-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "89235665997b11eea3c595d2baec3d329fc25bec",
+        "date": "2026-10-08T20:35:56-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "866fc6094c093b3ec276b0e5fa16db0906969a39",
+        "date": "2026-10-08T19:38:27-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "418542543980fa97422868e97296b833b266d146",
+        "date": "2026-10-08T19:36:44-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "1e473a73fe8cf915577357fe10c881704d0d17c2",
+        "date": "2026-10-08T18:23:23-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "20520be98354ef59b77a749e312aa87ee6654880",
+        "date": "2026-10-08T17:36:40-05:00",
+        "author": "Isabel Aponte"
+      },
+      {
+        "sha": "185eca69f26b2267a3873c6527ea008f57460cca",
+        "date": "2026-10-08T15:19:49-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "4ba19e04b07fd4476beb2cfc0f5ced2cd3f131bb",
+        "date": "2026-10-08T14:53:56-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "f48a811735766cfaefb9624287729919301d076b",
+        "date": "2026-10-08T14:40:43-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "2911501e227d808c9b00f35cb9abd72e7d1f7b74",
+        "date": "2026-10-08T14:21:19-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "086e8873d4008c24e133df36feafcb21003e8089",
+        "date": "2026-10-08T14:05:50-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "a47ed781040f873676fc10c2b589b8126db76785",
+        "date": "2026-10-08T13:46:38-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "659964e7abb75813c8f72d3346bfb27825c8a374",
+        "date": "2026-10-08T13:32:49-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "f11360f1b83314c515f5fdde82d58ea6ecbf566e",
+        "date": "2026-10-08T06:47:29-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "855af6a0b2699f2dcfc02ec6c98340a61df021d7",
+        "date": "2026-10-08T06:37:46-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "bc0c78526d6a9da41e91e82f9f0db9251725cc08",
+        "date": "2026-10-08T06:36:58-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "ef9cf2ac1834349d82e2a32e3cf04dbc106187a1",
+        "date": "2026-10-08T06:27:17-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "e5c0d113460f82916fbbc8052fa4537e995f1b97",
+        "date": "2026-10-08T06:27:05-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "f104fa63b68cca129e88a6e005a3fc92103acd03",
+        "date": "2026-10-08T06:26:51-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "ae273bedae5cd982281b124b026476b6a5e534f8",
+        "date": "2026-10-08T06:26:39-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "c44e8c767da982d484496f4003d631ee1d394e95",
+        "date": "2026-10-08T06:07:30-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "411d6e81ea9668cbc92b5bc7ef4f051069e91e68",
+        "date": "2026-10-08T06:07:18-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "590d9a85c8c1e51d741baf2c3f1f6742ac0c016d",
+        "date": "2026-10-08T06:07:04-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "dccbb97fc54c87b55f8019012852b8dc393b0e6a",
+        "date": "2026-10-08T06:06:50-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "9dfedb1e7f45c4b4589bdf2424e0958d54c186fa",
+        "date": "2026-10-08T05:54:15-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "ba82f62ed5fcd36dcc2d4a3749a74eac2855d815",
+        "date": "2026-10-08T05:53:59-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "9ae30ca86b642d3aacd348618cc41d7a6677926d",
+        "date": "2026-10-08T05:53:21-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "1f8a66b307d32df1abf840582cd0cc1526a3de8c",
+        "date": "2026-10-08T05:53:00-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "2a3bf7c2c9a235e142547f28676eecc1c8c2f44d",
+        "date": "2026-10-08T05:52:30-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "a26e2709b2327a8e231d63a18d30529fcb8a084c",
+        "date": "2026-10-08T03:37:36-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "b036d747bf05fab8b7d10a1872477ea545564ba7",
+        "date": "2026-10-08T03:35:08-05:00",
+        "author": "kattyph"
+      }
+    ]
+  },
+  "report": {
+    "ref": "HEAD",
+    "sha": "f556fb5b79eaf883b99c87a399de84b08146b654",
+    "commits": [
+      {
+        "sha": "f556fb5b79eaf883b99c87a399de84b08146b654",
+        "date": "2026-10-10T08:13:55-05:00",
+        "author": "isabel"
+      },
+      {
+        "sha": "22a358dd604f74b34155e74357d4ca41b677cb50",
+        "date": "2026-10-10T08:07:06-05:00",
+        "author": "isabel"
+      },
+      {
+        "sha": "235b88a3f2fdd8b52c73630c6c7a8836b9f600f4",
+        "date": "2026-10-10T08:04:21-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "6cf41d43d82c54c052f585f91e1ebb8d491010bc",
+        "date": "2026-10-10T07:57:42-05:00",
+        "author": "isabel"
+      },
+      {
+        "sha": "f56d48ac446e25e19ecf4fe398784d9813a8cc8b",
+        "date": "2026-10-10T07:01:05-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "4254c220a2f76c1681aeed088c4b44d365766abe",
+        "date": "2026-10-10T06:25:15-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "f352d9b19f987f44a372b3ee2d74b86e3043db97",
+        "date": "2026-10-10T06:02:47-05:00",
+        "author": "Leotens"
+      },
+      {
+        "sha": "0000d843d95d8fcbd7ff49bba467ff17240a1ea3",
+        "date": "2026-10-10T03:39:39-05:00",
+        "author": "Katty Philco Mota"
+      },
+      {
+        "sha": "63236f90413c1590d92786f00cf7e8ccab78c194",
+        "date": "2026-10-10T03:35:22-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "f2b8f3a45c7f1a21643c20719451d54c40a61ddd",
+        "date": "2026-10-10T03:26:06-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "1d718c2cf783fed5fadedadf1e7f6da1b316a8bb",
+        "date": "2026-10-09T21:09:42-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "b86f61d4396f3dfffb0c114073c69d510e01a3a8",
+        "date": "2026-10-09T20:47:08-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "a811b3222821eed5c8184d079c3d08f3b7324f59",
+        "date": "2026-10-09T20:17:43-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "22ff932c7b4aa23a3f570e2a580387dd3d6574cd",
+        "date": "2026-10-09T18:11:51-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "8d3365c2f7b90be51a94de0291745fd647e469f6",
+        "date": "2026-10-09T16:25:31-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "a18dc1f14ff8ff7c8bdb557e579b7b3a28004dab",
+        "date": "2026-10-09T16:04:10-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "030697b2aea4d9d51e908d5192744e1d4b3f33f4",
+        "date": "2026-10-09T15:46:19-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "0a5e39c29794e70dd043b4a7e75fe6a6ae8865da",
+        "date": "2026-10-09T14:46:18-05:00",
+        "author": "kattyph"
+      },
+      {
+        "sha": "a3c23423d9eb48bece22e4da9e01e5ac015a30b7",
+        "date": "2026-10-09T03:57:44-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "0d0783341b9f0b77883c65068d0af4809a74f5b9",
+        "date": "2026-10-07T14:20:02-05:00",
+        "author": "isabel"
+      },
+      {
+        "sha": "ec6e5f4b8f3396b065af40ece82e31c8648bac8a",
+        "date": "2026-10-07T13:52:02-05:00",
+        "author": "isabel"
+      },
+      {
+        "sha": "95d68cdfaba21e4019a2fdac4c55731011dabda6",
+        "date": "2026-10-07T10:09:33-05:00",
+        "author": "AleeAsto"
+      },
+      {
+        "sha": "5cb5ca965c5006738411d14b8333bdc669e18168",
+        "date": "2026-09-27T17:13:40-05:00",
+        "author": "Leotens"
+      }
+    ]
+  }
+}

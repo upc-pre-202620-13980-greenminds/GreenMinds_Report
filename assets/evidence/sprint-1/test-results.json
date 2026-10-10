@@ -1,0 +1,433 @@
+{
+  "executedAt": "2026-10-10",
+  "backend": {
+    "revision": "11556d061f12d4bdc0fd10c5ecb20bc9a72e17c1",
+    "command": "./mvnw test",
+    "environment": "JDK 21; H2 in PostgreSQL compatibility mode",
+    "tests": 247,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suites": [
+      {
+        "suite": "pe.greenminds.ecomind.EcomindApplicationTests",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.bdd.RunCucumberTest",
+        "tests": 34,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.AchievementTests",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.CommunityGamificationIntegrationTests",
+        "tests": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.FamilyGamificationTests",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.GamificationReportIntegrationTests",
+        "tests": 36,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.IntegrationContractTests",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.RankingTests",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.application.internal.commandservices.RewardCommandServiceIntegrationTests",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.domain.model.aggregates.UserProgressTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.interfaces.rest.GamificationControllerTests",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.iam.application.internal.commandservices.AuthenticationCommandServiceImplTests",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.iam.application.internal.commandservices.PasswordRecoveryCommandServiceImplTests",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.iam.application.internal.commandservices.RegistrationCommandServiceImplTests",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.MonetizationContextFacadeIntegrationTests",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.application.internal.commandservices.GemWalletCommandServiceImplTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.application.internal.queryservices.StoreQueryServiceImplTests",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.domain.model.aggregates.GemWalletTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.domain.model.entities.CosmeticTests",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.domain.model.entities.GemPackageTests",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.domain.model.entities.MultiplierTests",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.domain.model.entities.StreakProtectorTests",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.infrastructure.persistence.jpa.adapters.CosmeticRepositoryImplTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.infrastructure.persistence.jpa.adapters.StoreCatalogRepositoryImplTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.interfaces.rest.GemWalletControllerTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.interfaces.rest.MonetizationPurchaseIntegrationTests",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.monetization.interfaces.rest.StoreControllerTests",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.quests.application.internal.commandservices.MinigameAttemptCommandServiceImplTests",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.quests.application.internal.outboundservices.acl.UsersServiceClientTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.quests.domain.model.aggregates.MinigameAttemptTests",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.quests.domain.model.aggregates.QuestTests",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.quests.domain.model.aggregates.QuestUserTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.shared.interfaces.rest.GlobalExceptionHandlerTests",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.users.application.internal.commandservices.FamilyCommandServiceImplTests",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.users.application.internal.commandservices.FriendshipCommandServiceImplTests",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.users.application.internal.commandservices.ProfileCommandServiceImplTests",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.users.interfaces.acl.UsersContextFacadeTests",
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ]
+  },
+  "android": {
+    "revision": "5e26fe6ed67c9aa034c78c4c97badec589a88dad",
+    "command": "bash ./gradlew testDebugUnitTest assembleDebug assembleRelease",
+    "tests": 49,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "instrumentation": {
+      "environment": "Android emulator API 37",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "class": "pe.greenminds.ecomind.ExampleInstrumentedTest",
+          "name": "useAppContext",
+          "time": "0.038"
+        },
+        {
+          "class": "pe.greenminds.ecomind.MainActivitySmokeTest",
+          "name": "localizedActivityCreatesHiltViewModelsAndRendersTheNavigationHost",
+          "time": "4.795"
+        },
+        {
+          "class": "pe.greenminds.ecomind.gamification.AchievementsScreenTests",
+          "name": "hu011StudentCanOpenAnEarnedMedalAndBrowsePendingOnes",
+          "time": "4.234"
+        },
+        {
+          "class": "pe.greenminds.ecomind.gamification.AchievementsScreenTests",
+          "name": "failedReadOffersRetryAndNeverShowsAnEmptySuccessMessage",
+          "time": "1.99"
+        },
+        {
+          "class": "pe.greenminds.ecomind.gamification.AchievementsScreenTests",
+          "name": "detailLoadsTheRequestedMedalThroughItsOwnUseCaseAndViewModel",
+          "time": "3.787"
+        },
+        {
+          "class": "pe.greenminds.ecomind.gamification.AchievementsScreenTests",
+          "name": "unknownMedalProvidesARecoverableMissingState",
+          "time": "2.849"
+        },
+        {
+          "class": "pe.greenminds.ecomind.iam.LocalBackendConnectivityTest",
+          "name": "retrofitCanReachLocalSignIn",
+          "time": "1.268"
+        },
+        {
+          "class": "pe.greenminds.ecomind.notifications.EngagementTests",
+          "name": "shareRequestSurvivesRepositoryRecreationAndIsAccountScoped",
+          "time": "3.991"
+        },
+        {
+          "class": "pe.greenminds.ecomind.notifications.EngagementTests",
+          "name": "preferencesPersistAcrossRepositoryRecreationAndAreIsolatedByAccount",
+          "time": "3.35"
+        },
+        {
+          "class": "pe.greenminds.ecomind.notifications.EngagementTests",
+          "name": "notificationPreferencesOfferAnAccessibleSwitch",
+          "time": "4.231"
+        },
+        {
+          "class": "pe.greenminds.ecomind.notifications.EngagementTests",
+          "name": "notificationCanOpenTheMedalCollectionAndMarkAllRead",
+          "time": "4.273"
+        },
+        {
+          "class": "pe.greenminds.ecomind.quests.ProgressScreenTest",
+          "name": "restoresSectionsAndKeepsPendingActionsAsDialogs",
+          "time": "5.918"
+        },
+        {
+          "class": "pe.greenminds.ecomind.quests.QuestExecutionScreenTest",
+          "name": "individualQuestRequiresEveryCheckboxBeforeFinish",
+          "time": "6.271"
+        },
+        {
+          "class": "pe.greenminds.ecomind.quests.QuestFiltersScreenTest",
+          "name": "opensFiltersAppliesSelectionsAndRestoresThem",
+          "time": "6.773"
+        }
+      ]
+    },
+    "unitCommand": "bash ./gradlew :app:testDebugUnitTest --rerun",
+    "unitSuites": [
+      {
+        "suite": "pe.greenminds.ecomind.gamification.RankingSessionTests",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.quests.QuestExecutionServiceTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.RemoteGamificationTests",
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.AchievementsTests",
+        "tests": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.gamification.SharedConnectionTests",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.quests.FilterQuestsUseCaseTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.notifications.NotificationsTests",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.ExampleUnitTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.iam.infrastructure.remote.AuthInterceptorTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "suite": "pe.greenminds.ecomind.iam.infrastructure.implementation.RemoteAuthRepositoryTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ]
+  }
+}
