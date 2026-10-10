@@ -23,9 +23,9 @@
     "assets/img/figures/sprint-1/android-family.png": "90cd14e4c43d20ec9281a576150c703a16bf899b253be64f97790ccfc6dec896",
     "assets/img/figures/sprint-1/android-ranking-global.png": "c356936e2a9e81afa77f9327530928e787d758151d0d9edaed95234a2df53490",
     "assets/img/figures/sprint-1/android-quest-detail.png": "51f49fb3600f7cbcd8186a4928efaff9e3fe92b97d945f857a99b48f22516df0",
-    "assets/img/figures/sprint-1/backend-tests-postgresql.jpg": "f4c9420460b95809e4065d65e34211e3617c9fd6fbfba0a52eb1fe62e3151ffd",
     "assets/img/figures/sprint-1/backend-ci-summary.jpg": "6b312f603b75a297cf4b3dddc473505891bcb46a02e3db4f1e77e5c753c834a6",
-    "assets/img/figures/sprint-1/backend-ci-artifacts.jpg": "3bb619893f85e07981f2387ad2e1c0076c8cec2fa8b472ad29de16145e540dbc"
+    "assets/img/figures/sprint-1/backend-ci-artifacts.jpg": "3bb619893f85e07981f2387ad2e1c0076c8cec2fa8b472ad29de16145e540dbc",
+    "assets/img/figures/sprint-1/backend-tests-postgresql.png": "c7604158e6e73eb187973642831b1b80cf33035df26146a8074db5e980e3868a"
   },
   "backendTestRevision": "661032b0bc6a72c679a33a0e188f782c9905bf38",
   "backendCiRun": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38062452677"

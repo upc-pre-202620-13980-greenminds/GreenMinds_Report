@@ -7497,7 +7497,7 @@ Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/
 
 *Ejecución de pruebas del backend con PostgreSQL en GitHub Actions*
 
-<img src="assets/img/figures/sprint-1/backend-tests-postgresql.jpg" alt="GitHub Actions: 355 pruebas sin fallos y compilación satisfactoria" width="100%">
+<img src="assets/img/figures/sprint-1/backend-tests-postgresql.png" alt="GitHub Actions: 355 pruebas sin fallos y compilación satisfactoria" width="100%">
 
 *Nota. Captura de GitHub Actions, ejecución [38062452677](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38062452677/job/114243310960).*
 
