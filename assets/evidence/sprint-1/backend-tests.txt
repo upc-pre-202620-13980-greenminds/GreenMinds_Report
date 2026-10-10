@@ -1,4 +1,4 @@
-EcoMind Backend — Maven Surefire
+EcoMind Backend — Test execution summary
 Revision: e3df2c060050f194c5e9bda55420c604d131e171
 Date: 2026-10-10
 Command: bash ./mvnw -B -ntp -Dsurefire.runOrder=random clean verify
@@ -6,7 +6,7 @@ Random seeds: H2=20261010; PostgreSQL=20261011
 
 Runtime: JDK 21; H2 (PostgreSQL compatibility mode)
 pe.greenminds.ecomind.EcomindApplicationTests: tests=1, failures=0, errors=0, skipped=0
-pe.greenminds.ecomind.bdd.RunCucumberTest: tests=66, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.bdd.RunCucumberTest: tests=67, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.community.application.internal.commandservices.CommunityCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.community.application.internal.commandservices.CommunityGoalCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.community.application.internal.commandservices.EventRegistrationCommandServiceImplTests: tests=13, failures=0, errors=0, skipped=0
@@ -50,13 +50,13 @@ pe.greenminds.ecomind.users.application.internal.commandservices.FamilyCommandSe
 pe.greenminds.ecomind.users.application.internal.commandservices.FriendshipCommandServiceImplTests: tests=10, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.users.application.internal.commandservices.ProfileCommandServiceImplTests: tests=5, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.users.interfaces.acl.UsersContextFacadeTests: tests=17, failures=0, errors=0, skipped=0
-Reported executions (including Cucumber container): 355
-Total test cases: tests=354, failures=0, errors=0, skipped=0
+Reported executions: 355
+Total test cases: tests=355, failures=0, errors=0, skipped=0
 BUILD SUCCESS
 
 Runtime: JDK 21; PostgreSQL 17.9
 pe.greenminds.ecomind.EcomindApplicationTests: tests=1, failures=0, errors=0, skipped=0
-pe.greenminds.ecomind.bdd.RunCucumberTest: tests=66, failures=0, errors=0, skipped=0
+pe.greenminds.ecomind.bdd.RunCucumberTest: tests=67, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.community.application.internal.commandservices.CommunityCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.community.application.internal.commandservices.CommunityGoalCommandServiceImplTests: tests=8, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.community.application.internal.commandservices.EventRegistrationCommandServiceImplTests: tests=13, failures=0, errors=0, skipped=0
@@ -100,6 +100,6 @@ pe.greenminds.ecomind.users.application.internal.commandservices.FamilyCommandSe
 pe.greenminds.ecomind.users.application.internal.commandservices.FriendshipCommandServiceImplTests: tests=10, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.users.application.internal.commandservices.ProfileCommandServiceImplTests: tests=5, failures=0, errors=0, skipped=0
 pe.greenminds.ecomind.users.interfaces.acl.UsersContextFacadeTests: tests=17, failures=0, errors=0, skipped=0
-Reported executions (including Cucumber container): 355
-Total test cases: tests=354, failures=0, errors=0, skipped=0
+Reported executions: 355
+Total test cases: tests=355, failures=0, errors=0, skipped=0
 BUILD SUCCESS

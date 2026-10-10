@@ -4,7 +4,7 @@
     "revision": "e3df2c060050f194c5e9bda55420c604d131e171",
     "command": "bash ./mvnw -B -ntp -Dsurefire.runOrder=random -Dsurefire.runOrder.random.seed=20261010 clean verify",
     "environment": "JDK 21; H2 in PostgreSQL compatibility mode",
-    "tests": 354,
+    "tests": 355,
     "failures": 0,
     "errors": 0,
     "skipped": 0,
@@ -19,7 +19,7 @@
       },
       {
         "suite": "pe.greenminds.ecomind.bdd.RunCucumberTest",
-        "tests": 66,
+        "tests": 67,
         "failures": 0,
         "errors": 0,
         "skipped": 0
@@ -358,12 +358,12 @@
         "percent": 83.59
       }
     },
-    "acceptanceScenarios": 66,
+    "acceptanceScenarios": 67,
     "note": "Surefire includes the Cucumber container as one additional reported execution.",
     "postgresql": {
       "command": "bash ./mvnw -B -ntp -Dsurefire.runOrder=random -Dsurefire.runOrder.random.seed=20261011 clean verify",
       "environment": "JDK 21; PostgreSQL 17.9; isolated local test database",
-      "tests": 354,
+      "tests": 355,
       "failures": 0,
       "errors": 0,
       "skipped": 0,
@@ -378,7 +378,7 @@
         },
         {
           "suite": "pe.greenminds.ecomind.bdd.RunCucumberTest",
-          "tests": 66,
+          "tests": 67,
           "failures": 0,
           "errors": 0,
           "skipped": 0
@@ -718,7 +718,21 @@
         }
       }
     },
-    "workflow": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/workflows/backend.yml"
+    "workflow": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/workflows/backend.yml",
+    "ci": {
+      "runId": 38062452677,
+      "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38062452677",
+      "revision": "661032b0bc6a72c679a33a0e188f782c9905bf38",
+      "conclusion": "success",
+      "testsPerDatabase": 355,
+      "acceptanceScenarios": 67,
+      "databases": [
+        "H2",
+        "PostgreSQL 17"
+      ],
+      "containerBuild": "success",
+      "deployment": "skipped"
+    }
   },
   "android": {
     "revision": "5e26fe6ed67c9aa034c78c4c97badec589a88dad",
