@@ -84,6 +84,8 @@ Proyecto <br>
 | 1.0.0    | 17/09/2026     | Katty Philco, Isabel Aponte | docs: agregar registro de entrevistas <br> docs: agregar sección Needfinding <br> docs: agregar Bounded Context: Monetization <br> docs: agregar Bounded Context Software Architecture Component Level and code diagrams  <br>  |
 | 1.0.0    | 18/09/2026     | Alejandra Astocondor, Isabel Aponte, Leo Dulanto, Katty Philco, Mauricio Pajes | docs: agregar diagramas Bounded Context Quest <br> docs: agregar Bounded Context: Learning <br> docs: agregar bounded context canvases community <br> docs: agregar Bounded Context: IAM  <br> docs: agregar Bounded Context: User <br> docs: agregar lenguaje ubicuo <br> docs: agregar Bounded Context: Community <br> docs: agregar Bounded Context: Gamification <br> docs: agregar objetivos SMART  |
 
+<div style="page-break-before: always;"></div>
+
 # Project Report Collaboration Insights
 
 Project Report URL: https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report.git 
@@ -98,6 +100,8 @@ Asimismo, todos los integrantes participaron activamente en la elaboración del 
 
 ![projetoverview](assets/img/figures/Docs_Overview.png)
 
+
+<div style="page-break-before: always;"></div>
 
 # Tabla de contenidos
 
@@ -1131,6 +1135,10 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 ![event_Storming2](assets/img/figures/EventStorming020.jpg)
 ![event_Storming](assets/img/figures/EventStorming021.jpg)
 
+Los eventos se declararon como hechos ya ocurridos dentro del dominio, redactados en participio pasado y con el sustantivo que identifica lo que sucedió (por ejemplo, cuenta registrada, reto completado o compra confirmada). Cada evento se escribió en una nota independiente y se ubicó en el área del negocio a la que pertenece, con el fin de que el vocabulario coincida con el de la Ubiquitous Language de la sección 2.3.6.
+
+En el Paso 1, las notas quedaron agrupadas en seis áreas: retos y misiones, logros y ranking, tienda, perfil, familia y amistades, comunidad y aprendizaje, y cuenta y sesión. En el Paso 2, cada grupo se ordenó en una línea de tiempo, de manera que se distinguen el flujo principal y las ramas alternativas.
+
 ### 2.3.6. Ubiquitous Language
 
 El siguiente glosario establece los términos compartidos que el equipo y los stakeholders utilizan para describir el dominio de EcoMind. Las definiciones buscan evitar interpretaciones diferentes entre las áreas del producto y se limitan a conceptos propios de la solución, la educación ambiental y la participación de sus usuarios.
@@ -1186,7 +1194,7 @@ El siguiente glosario establece los términos compartidos que el equipo y los st
 | **Virtual Purchase (Compra virtual)** | Adquisición de un producto de la tienda utilizando gemas. |
 
 ## 2.4. Requirements Specification
-Esta sección reúne la especificación de requerimientos de EcoMind mediante historias de usuario, mapas de impacto y el product backlog, estableciendo una base para planificar el desarrollo de la solución.
+Esta sección reúne la especificación de requisitos de EcoMind mediante historias de usuario, mapas de impacto y el product backlog, estableciendo una base para planificar el desarrollo de la solución.
 
 ### 2.4.1. User Stories
 
@@ -4225,23 +4233,42 @@ Después de analizar, separar y consolidar las distintas responsabilidades, se d
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
-Luego de identificar los bounded contexts candidatos, se realizó una sesión de Flow Modeling con el propósito de representar la colaboración entre las distintas capacidades del dominio. Para ello, se seleccionaron los flujos que generan mayor valor para los usuarios y se identificaron los comandos, eventos y consultas intercambiados entre los bounded contexts.
+Luego de identificar los bounded contexts candidatos, se realizó una sesión de Flow Modeling con el propósito de representar la colaboración entre las distintas capacidades del dominio. Para ello se aplicó la técnica de Domain Storytelling sobre los flujos que generan mayor valor para los usuarios. En cada diagrama, el usuario y los bounded contexts participantes aparecen como actores, y los mensajes que intercambian (comandos, eventos y consultas) se numeran según el orden en que ocurren. Se modelaron cuatro escenarios: completar una quest y compartir un logro, invitar usuarios a una quest colaborativa, comprar y recibir un producto, y registrar la cuenta y configurar el perfil.
+
+**Escenario 1: completar una quest y compartir un logro**
+
+Este escenario describe el recorrido en el que un usuario cumple una quest y decide compartir el logro obtenido. Participan el Usuario y los bounded contexts Quests, Gamification y Community. El usuario envía el comando Completar Quest (1) a Quests, que valida la quest (2) y publica el evento Quest Completada (3) dirigido a Gamification. Gamification asigna las recompensas (4) y comunica al usuario el evento Logro desbloqueado (5). Después, el usuario envía el comando Compartir logro (6) a Gamification, que informa a Community mediante el evento Publicación de logro solicitada (7). Community crea la publicación (8) y notifica al usuario el evento Publicación creada (9). Quests solo publica el hecho de que la quest fue completada y Community interviene únicamente cuando el usuario decide compartir el logro.
 
 **Figura 13**
 
 *Domain Storytelling del flujo de participación en quests y publicación de un logro.*
 
 ![Flow1](assets/img/figures/Flow1.jpg)
+
+**Escenario 2: invitar usuarios a una quest colaborativa**
+
+En este escenario un usuario anfitrión invita a un usuario amigo a participar en una quest colaborativa. Intervienen Quests y Users. El anfitrión envía el comando Invitar usuario (1) a Quests, que valida con Users la relación con el invitado (2), crea la invitación (3) y comunica al amigo el evento Invitación creada (4). Cuando el amigo envía el comando Aceptar invitación (5), Quests vuelve a validar la relación con Users (6), incorpora al participante (7) y registra el evento Participante incorporado (8). La relación con el invitado se verifica tanto al enviar la invitación como al aceptarla, y Quests consulta a Users como cliente, según el patrón Customer/Supplier definido en la sección 2.5.2.
+
 **Figura 14**
 
 *Domain Storytelling del flujo de invitación a una quest colaborativa.*
 
 ![Flow1](assets/img/figures/Flow2.jpg)
+
+**Escenario 3: compra y entrega de productos**
+
+El tercer escenario representa la compra de productos dentro de la aplicación. Participan el Usuario, Monetization, la API de pago elegido y, según el tipo de producto, Gamification y Users. El usuario envía el comando Comprar producto (1) y Monetization procesa la compra (2). Si el producto son gemas, Monetization solicita el pago (2A) a la API de pago elegido y recibe el evento Pago procesado (3A). Si el producto es un potenciador o un protector de racha, Monetization emite el evento Potenciador comprado (3B) hacia Gamification. Si es un avatar o un sombrero, emite el evento Avatar comprado (3C) hacia Users. Finalmente, Monetization entrega el producto (4) y comunica al usuario el evento Producto entregado (5).
+
 **Figura 15**
 
 *Domain Storytelling del flujo de compra y entrega de productos.*
 
 ![Flow1](assets/img/figures/Flow3.jpg)
+
+**Escenario 4: registro y configuración del usuario**
+
+Este escenario cubre el inicio del ciclo de vida del usuario en la plataforma. Participan el Usuario, IAM y Users. El usuario envía el comando Registrar cuenta (1) a IAM, que crea la cuenta y registra el evento Cuenta creada (2). Luego IAM envía a Users el comando Crear perfil (3) y Users registra el evento Perfil creado (5). Posteriormente, el usuario puede enviar el comando Editar Perfil (6) a Users, que registra el evento Perfil editado (7). La cuenta y el perfil permanecen en contextos distintos: IAM solo solicita la creación del perfil y Users administra su contenido, como se describe en la relación entre ambos contextos en la sección 2.5.2.
+
 **Figura 16**
 
 *Domain Storytelling del flujo de registro y configuración del perfil.*
@@ -4250,56 +4277,77 @@ Luego de identificar los bounded contexts candidatos, se realizó una sesión de
 #### 2.5.1.3. Bounded Context Canvases
 Después de identificar los candidate bounded contexts, se elaboró un Bounded Context Canvas para cada uno, comenzando por los contextos de mayor importancia para el negocio. El objetivo fue precisar sus límites, responsabilidades, lenguaje, reglas y dependencias antes de tomar decisiones de diseño posteriores.
 
-La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique.
+La elaboración se realizó de manera iterativa mediante los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering, Dependencies Capture y Design Critique. En cada canvas se registraron el propósito del contexto, su clasificación estratégica, los mensajes que recibe y envía a sus colaboradores, el lenguaje ubicuo, las decisiones de negocio, los supuestos, las métricas de verificación y las preguntas abiertas.
 
-**1. Bounded Context Canvas Quests**
+**1. Bounded Context Canvas de Quests**
+
+El canvas de Quests lo define como un contexto core, con modelo de negocio de engagement y evolución custom built. Su propósito es permitir que los usuarios participen de manera individual o colaborativa en misiones orientadas al cuidado del medio ambiente, y gestionar las misiones, sus actividades, participantes, progreso y validación. Recibe de anfitriones, invitados y padres los comandos para iniciar, completar y progresar una quest, crear y administrar sesiones colaborativas, aceptar o rechazar invitaciones y gestionar planes familiares, además de las consultas de progreso y detalle. De Users recibe el evento Relación entre usuarios eliminada. Hacia Gamification y Community envía los eventos Quest completada, Quest colaborativa completada y Plan familiar completada, y hacia Users envía la consulta Validar relación. Entre sus decisiones de negocio se encuentran que las quests colaborativas requieren entre 2 y 5 participantes, que solo el anfitrión puede iniciarlas, que los participantes deben tener una relación de amistad o parentesco con el anfitrión y que una quest solo se completa si su progreso alcanza el 100 %.
+
 **Figura 17**
 
 *Bounded Context Canvas del contexto Quests.*
 
 ![BoundedContextCanvasQuests](assets/img/figures/CanvasQuest.jpg)
 
-**2. Bounded Context Canvas Community**
+**2. Bounded Context Canvas de Community**
+
+Community se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios interactúen dentro de comunidades en las que comparten logros, eventos y metas comunitarias, y gestiona comunidades, publicaciones, eventos y metas. Recibe de administradores y padres los comandos de inscripción a comunidades, eventos y metas, la reacción a publicaciones, y la creación, edición y eliminación de comunidades, eventos y metas. También recibe de Quests el evento Reto completado y de Gamification el evento Logro obtenido por usuario, y atiende consultas como buscar comunidades, listar eventos y logros, y mostrar eventos en el mapa mediante la API de Leaflet. Hacia Gamification envía el evento Participación comunitaria registrada y hacia Users la consulta Consultar familia usuario. Sus reglas indican, por ejemplo, que solo los padres pueden crear una comunidad, que un usuario puede inscribirse como máximo a tres metas comunitarias a la vez y que un niño no puede inscribirse a un evento por su cuenta.
+
 **Figura 18**
 
 *Bounded Context Canvas del contexto Community.*
 
 ![BoundedContextCanvasCommunity](assets/img/figures/CanvasCommunity.png)
 
-**3. Bounded Context Canvas Gamification**
+**3. Bounded Context Canvas de Gamification**
+
+Gamification se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es reconocer la participación y la constancia de los usuarios mediante ecopoints, experiencia, recompensas, rachas y logros, y proporcionar los datos para consultar rankings y compartir logros de forma voluntaria. Recibe de niños y padres los comandos de consulta de rankings (local, global, de amigos y de familias), de filtrado de logros y de compartir o no compartir un logro. De Quests recibe los eventos de quest, quest colaborativa y plan familiar completados, de Monetization los eventos Multiplicador comprado, Protector adquirido y Racha protegida, y de Community el evento Participación comunitaria registrada. Envía los eventos Logro obtenido por usuario, Recompensa brindada al usuario, Logro vinculado al usuario, Nuevo puntaje registrado y Posiciones de ranking actualizadas, y hacia Monetization el evento Racha en riesgo. Entre sus reglas, las recompensas se otorgan una sola vez por ejecución y beneficiario, el primer reto diario válido incrementa la racha una vez por día, los multiplicadores solo aumentan la experiencia y compartir un logro es voluntario.
+
 **Figura 19**
 
 *Bounded Context Canvas del contexto Gamification.*
 
 ![BoundedContextCanvasGamification](assets/img/figures/CanvasGamification.png)
 
-**4. Bounded Context Canvas Monetization**
+**4. Bounded Context Canvas de Monetization**
+
+Monetization se clasifica como contexto supporting, con modelos de engagement y de monetización, y evolución custom built. Su propósito es permitir el acceso a la tienda para consultar y adquirir cosméticos, avatares, multiplicadores y protectores utilizando gemas, así como comprar paquetes de gemas con distintos métodos de pago, consultar el saldo y administrar los productos obtenidos. Recibe de niños y padres los comandos de navegación y compra en la tienda, la selección del método de pago (tarjeta de crédito o débito, Yape o PayPal) y los datos necesarios para pagar. De Gamification recibe el evento Racha en riesgo y del proveedor de pago los eventos Pago aprobado, Pago pendiente y Pago rechazado. Envía a Gamification los eventos Multiplicador comprado, Protector adquirido y Racha protegida, a Users los eventos Avatar comprado, Cosmético comprado y Cosmético equipado, al proveedor de pago los comandos Crear pago, Procesar pago y Cancelar pago, y al usuario los eventos Compra completada, Compra rechazada y Gemas acreditadas. Sus reglas establecen, entre otras, que una compra solo se completa si el usuario tiene suficientes gemas, que los protectores solo pueden adquirirse con una racha activa y que las gemas se agregan a la billetera únicamente tras la confirmación del proveedor de pago.
+
 **Figura 20**
 
 *Bounded Context Canvas del contexto Monetization.*
 
 ![BCMonetization.jpg](assets/img/figures/CanvasesMtz.jpg)
 
-**5. Bounded Context Canvas Users**
+**5. Bounded Context Canvas de Users**
+
+Users se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios administren su información personal, perfil, familia y amistades, y configuren sus preferencias de idioma, tema y notificaciones. Recibe de niños y padres los comandos para visualizar, editar y compartir el perfil, establecer un compromiso, administrar amistades y cambiar los ajustes de cuenta y preferencias. Del padre recibe los comandos para crear una familia, agregar o eliminar integrantes, actualizar roles y editar el nombre de la familia, y de Quests recibe la consulta Validar relación. Envía a Quests el evento Relación entre usuarios eliminada, a Monetization la consulta Consultar cosmético equipado y a los usuarios los eventos Perfil actualizado, Solicitud de amistad enviada, Compromiso actualizado, Idioma actualizado, Tema actualizado y Familia registrada, entre otros. Sus reglas indican que un usuario puede tener hasta 100 amigos, que solo los mayores de 18 años pueden crear un grupo familiar, que una familia tiene un máximo de 5 miembros y que, al eliminar a un amigo, este es expulsado de las quests colaborativas en las que participaban juntos.
+
 **Figura 21**
 
 *Bounded Context Canvas del contexto Users.*
 
 ![BCUsers.jpg](assets/img/figures/canvasUsers.jpg)
 
-**5. Bounded Context Canvas Learning**
+**6. Bounded Context Canvas de Learning**
+
+Learning se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que niños y padres accedan a materiales educativos sobre el medio ambiente, utilicen filtros de búsqueda, guarden contenidos como favoritos y descarguen materiales para consultarlos sin conexión. Recibe de los usuarios los comandos para abrir la pestaña “Aprende más”, seleccionar filtros y materiales, solicitar y gestionar descargas, y agregar o eliminar favoritos, además de las consultas de catálogo, detalle y favoritos. Responde con los resultados de esas consultas y con los eventos Material descargado, Favorito agregado y Favorito eliminado. El canvas no registra colaboradores de otros bounded contexts. Entre sus reglas, se permite el acceso sin conexión a los materiales descargados, se evita duplicar favoritos y solo se muestran los materiales publicados y activos.
+
 **Figura 22**
 
 *Bounded Context Canvas del contexto Learning.*
 
-![BCUsers.jpg](assets/img/figures/LearningCanvas.jpg)
+![BCLearning.jpg](assets/img/figures/LearningCanvas.jpg)
 
-**7. Bounded Context Canvas IAM**
+**7. Bounded Context Canvas de IAM**
+
+IAM (Identity and Access) se clasifica como contexto supporting y generic, con modelo de negocio de compliance y evolución custom built, y su rol de dominio es gateway context. Su propósito es gestionar la identidad digital y el acceso seguro a EcoMind, registrando credenciales, autenticando usuarios, emitiendo y validando tokens de acceso y recuperando contraseñas. Recibe de los usuarios los comandos Registrarse, Iniciar sesión, Verificar email, Cerrar sesión y los de recuperación de contraseña, además de la consulta Obtener usuario actual. Envía a un servicio de correo los comandos Enviar correo de verificación y Enviar correo de recuperación de cuenta, y a Users el comando Crear perfil. Sus reglas establecen que una cuenta solo puede tener un correo asociado, que la cuenta no se crea hasta verificar el correo y que las verificaciones expiran a los 20 minutos.
+
 **Figura 23**
 
 *Bounded Context Canvas del contexto Identity and Access.*
 
-![BCIAMLearning.jpg](assets/img/figures/canvasIAM.jpg)
+![BCIAM.jpg](assets/img/figures/canvasIAM.jpg)
 
 ### 2.5.2. Context Mapping
 
@@ -4365,7 +4413,7 @@ Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden
 
 En esta sección se presenta el Container Diagram de EcoMind, el cual muestra los elementos de alto nivel de la arquitectura de software, la distribución de responsabilidades entre ellos y las principales decisiones de tecnología.
 
-La solución está compuesta por dos productos con los que interactúa el usuario final: la aplicación móvil `EcoMind Android Application`, desarrollada en Kotlin, y el `Landing Page`, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta. La aplicación Android consume una única Backend API desarrollada en Java y Spring Boot, que organiza la lógica del dominio en los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization.
+La solución está compuesta por cuatro contenedores. La aplicación móvil EcoMind Android Application, desarrollada en Kotlin, y el Landing Page, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta, son los productos con los que interactúa el usuario final. El Backend API, desarrollado en Java con Spring Boot, es un único contenedor que expone el servicio RESTful y organiza la lógica del dominio en los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization, que corresponden a los bounded contexts definidos en la sección 2.5.1 y se despliegan como una sola unidad. Los datos de todos los módulos se almacenan en EcoMind Database, una base de datos PostgreSQL a la que el Backend API accede mediante JDBC. La aplicación Android consume el Backend API por HTTPS con mensajes JSON y token Bearer JWT, y el Backend API se comunica con Resend para el envío de correos y con las pasarelas de pago con tarjeta, Yape y PayPal.
 
 **Figura 26**
 
@@ -4375,8 +4423,11 @@ La solución está compuesta por dos productos con los que interactúa el usuari
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura física y lógica sobre la que se ejecutan los containers.
+En esta sección se presenta el Deployment Diagram de EcoMind, el cual describe la infraestructura sobre la que se ejecutan los containers definidos en la sección 2.5.3.2. El diagrama muestra un único entorno de producción con cuatro nodos de despliegue.
 
+La aplicación EcoMind Android Application se ejecuta en el dispositivo Android del usuario y consume el Backend API mediante HTTPS. El Landing Page, al ser un sitio web estático, se publica en GitHub Pages. El Backend API se despliega en Render como un solo servicio web, de modo que los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization se ejecutan juntos como una única unidad de despliegue. Los datos de todos los módulos se almacenan en EcoMind Database, una base de datos PostgreSQL a la que el Backend API accede mediante JDBC.
+
+En el diagrama se representan solo los containers propios de EcoMind. Los servicios externos de correo y de pago ya se describen en el diagrama de contenedores y no forman parte de la infraestructura desplegada por el equipo.
 
 **Figura 27**
 
@@ -4559,7 +4610,9 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas presentan los componentes de IAM en la aplicación Android y en la API backend. La vista móvil comprende la interfaz, los ViewModels, los casos de uso, el acceso remoto y el almacenamiento seguro del access token. La vista de la API reúne los controllers, servicios de aplicación, elementos de dominio, persistencia, seguridad JWT e integraciones con Resend y Users.
+Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 28 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Secure Token Storage, que guarda el access token de forma protegida y lo elimina al cerrar sesión.
+
+La Figura 29 muestra el módulo IAM dentro del Backend API. Las solicitudes protegidas atraviesan primero el Bearer Authorization Filter del grupo Shared, que valida el access token mediante los Token & Password Services y reenvía la solicitud autenticada a los controllers. Las operaciones de registro, verificación, inicio de sesión y recuperación de contraseña son rutas públicas y llegan directamente a los IAM REST Controllers. Estos despachan commands y queries a los IAM Application Services, que aplican las reglas del IAM Domain Model, emiten los tokens y aplican el hash a las contraseñas, y persisten los datos mediante los IAM Persistence Adapters en EcoMind Database. Los servicios de aplicación también solicitan al Email Service Adapter el envío de correos de verificación y recuperación mediante Resend, y al Users Context Client la creación del perfil, que el IAM Context Listener de Users recibe como el command CreateProfile.
 
 **Figura 28**
 
@@ -4783,7 +4836,9 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 | `Monetization` | Proporciona el cosmético equipado y el balance de gemas que se muestran en el perfil. |
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas distribuyen los componentes de Users entre la aplicación Android y la API backend. La vista móvil abarca perfil, familia y amistades; la vista de la API muestra sus controllers, servicios, modelo de dominio, persistencia y colaboraciones con IAM y Quests.
+Los componentes de Users se distribuyen entre la aplicación Android y el módulo Users del Backend API. La Figura 32 corresponde a la vista móvil: Users UI muestra las pantallas de perfil, familia, amistades y cosméticos, y los Users ViewModels exponen estados inmutables a partir de las intenciones de la interfaz. Los Users Use Cases coordinan las operaciones y trabajan con los contratos del Users Repository Implementation, que usa los Users Data Mappers para transformar los DTO de red en modelos de dominio. Los datos remotos se obtienen mediante el Users Remote Data Source, que consume la API de Users con el Bearer JWT.
+
+La Figura 33 muestra el módulo Users dentro del Backend API. Tras el Bearer Authorization Filter, los Users REST Controllers reciben las solicitudes y las convierten en commands y queries mediante los Users Assemblers & Resources. Los Users Application Services aplican las reglas del Users Domain Model y persisten perfiles, familias y amistades con los Users Persistence Adapters. El IAM Context Listener recibe el command CreateProfile enviado por IAM, y los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade. Los demás módulos acceden a los datos de Users mediante el Users Context Facade: Quests con su Users Service Client, Community con su Community Actor Gateway y Gamification con sus Context Service Clients.
 
 **Figura 32**
 
@@ -5080,7 +5135,9 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente diagrama C4 muestra cómo se relaciona el bounded context de **Learning** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Learning y su base de datos. También representa la validación del token de acceso antes de ejecutar operaciones que requieren un usuario autenticado, como agregar o eliminar materiales favoritos y registrar descargas.
+Los diagramas de Learning muestran la aplicación Android y el módulo Learning del Backend API. La Figura 36 presenta la vista móvil. Learning UI se alcanza desde la navegación de Quests, mediante la opción “Aprende más”, y desde el perfil de Users, para consultar los favoritos. La interfaz muestra el catálogo, el detalle, los favoritos y las descargas, y se comunica con los Learning ViewModels, que invocan los Learning Use Cases. Estos coordinan el catálogo, la búsqueda, los favoritos, las reseñas y las descargas mediante el Learning Repository Implementation. El repositorio solicita las descargas sin conexión al Material Download Manager, basado en WorkManager, y transforma los datos con los Learning Data Mappers hacia el Learning Remote Data Source, que consume los endpoints de Learning con el Bearer JWT, y hacia el Learning Cache, implementado con Room, que guarda el catálogo, los favoritos y los metadatos de descargas.
+
+La Figura 37 muestra el módulo Learning dentro del Backend API. El Bearer Authorization Filter valida el token de acceso antes de reenviar la solicitud a los Learning REST Controllers, que reciben el identificador del usuario autenticado y exponen los endpoints de materiales, favoritos, reseñas y descargas. Estos despachan commands y queries a los Learning Application Services, que aplican las reglas del Learning Domain Model y persisten los datos mediante los Learning Persistence Adapters en EcoMind Database. Cuando se solicita un material disponible, los servicios recurren al Material Content Delivery, que consulta los metadatos y la referencia del archivo registrado y devuelve el archivo o el enlace correspondiente.
 
 **Figura 36**
 
@@ -5399,7 +5456,10 @@ La aplicación móvil presenta los casos de uso coordinados por el backend.
 | Mapper | `QuestMobileMapper` | Convertir DTOs de red en modelos utilizados por la aplicación móvil. | Es utilizado por `QuestsMobileRepositoryImpl`. |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-Los diagramas muestran los componentes de Quests en la aplicación Android y en la API backend, junto con sus interacciones con Users, Gamification y la infraestructura de persistencia.
+
+Los diagramas de Quests presentan la aplicación Android y el módulo Quests del Backend API. En la Figura 40, Quests UI muestra el catálogo, el detalle, el progreso, los minijuegos y las misiones colaborativas. Sus acciones llegan a los Quests ViewModels y de ahí a los Quests Use Cases, que coordinan el descubrimiento, la inscripción, el progreso y la finalización de misiones. El Quests Repository Implementation usa los Quest Data Mappers para transformar los datos y combina el Quests Remote Data Source, que consume los endpoints REST, con el Quests Local Cache, implementado con Room, que conserva las misiones activas y el progreso necesarios para el uso móvil.
+
+La Figura 41 muestra el módulo Quests dentro del Backend API. Los Quests REST Controllers reciben las solicitudes ya autenticadas por el Bearer Authorization Filter y despachan commands y queries a los Quests Application Services. Estos aplican las reglas del Quests Domain Model, persisten los datos con los Quests Persistence Adapters y validan usuarios, amistades y familias mediante el Users Service Client, que consulta el Users Context Facade. El Daily Quest Lifecycle Service genera las misiones diarias y expira las ejecuciones anteriores. Cuando una misión, un minijuego, una sesión colaborativa o un plan familiar finaliza, los Quests Event Handlers procesan el resultado y el Quest Event Publisher publica el evento de integración, que recibe el Gamification Event Handlers. Gamification, a su vez, consulta las recompensas base y los intentos mediante el Quests Context Facade.
 
 **Figura 40**
 
@@ -5715,8 +5775,9 @@ La aplicación móvil consume los casos de uso del backend sin duplicar sus regl
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente conjunto de diagramas C4 muestra cómo se relaciona el bounded context de **Community** con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Community y su base de datos. También representa la comunicación con "Users" para validar usuarios, familias y roles; con "Quests", mediante la recepción de eventos de retos completados para actualizar las metas comunitarias; con "Gamification", mediante la publicación de metas comunitarias finalizadas; y con "Leaflet", para consultar y visualizar la ubicación de los eventos.
+Los diagramas de Community se dividen en la aplicación Android y el módulo Community del Backend API. La Figura 44 muestra la vista móvil. Community UI presenta las comunidades, las publicaciones, los eventos, las inscripciones, los chats y las metas comunitarias, y entrega las acciones a los Community ViewModels. Estos invocan los Community Use Cases, que coordinan la búsqueda y la participación. El Community Repository Implementation transforma los datos con los Community Data Mappers y los obtiene del Community Remote Data Source, que consume los endpoints REST de Community, o del Community Local Cache, implementado con Room, que almacena comunidades, publicaciones, eventos y progreso de metas.
 
+La Figura 45 muestra el módulo Community dentro del Backend API. Los Community REST Controllers reciben las solicitudes autenticadas y las despachan a los Community Application Services, que coordinan los permisos, las inscripciones, la publicación de logros y el progreso de metas, aplican el Community Domain Model y persisten los datos con los Community Persistence Adapters. Para validar usuarios, familias y roles, los servicios usan el Community Actor Gateway, que consulta el Users Context Facade. El Community Event Publisher publica los eventos de meta comunitaria completada, evento completado y publicación creada, que recibe el Gamification Event Handlers. Gamification utiliza el Community Context Facade para verificar la membresía y el acceso para compartir, y para entregar los avisos de logro que se publican en las comunidades.
 
 **Figura 44**
 
@@ -6041,7 +6102,10 @@ La aplicación móvil consulta progreso, logros y rankings, y permite compartir 
 `AchievementsViewModel` conserva la solicitud para reintentar un envío fallido. `CommunityAchievementsGateway` consulta las publicaciones compartidas, mientras que `CalculateWeeklyRankingUseCase` calcula las posiciones semanales con las transacciones autorizadas.
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
-En esta sección se presentan los diagramas de componentes del bounded context Gamification para la aplicación Android y la API backend. Muestran sus principales responsabilidades e interacciones, la comunicación con otros bounded contexts y el acceso a la base de datos.
+
+Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 46, Gamification UI presenta los rankings, los filtros de logros, la celebración y la opción de compartir. Los Gamification ViewModels administran los filtros, la decisión de compartir, el borrador reintentable y el estado de publicación, y los Gamification Use Cases consultan rankings y logros y solicitan el compartir voluntario. El Weekly Ranking Calculator filtra las transacciones del periodo y calcula las posiciones semanales. El Gamification Repository Implementation mapea los resultados con los Gamification Data Mappers y consulta el Gamification Remote Data Source, que consume los recursos REST de Gamification. Para leer las publicaciones de logros compartidos, que pertenecen a Community, los casos de uso emplean el Community Feature Gateway, que accede a la API de publicaciones de Community.
+
+La Figura 47 muestra el módulo Gamification dentro del Backend API. Los Gamification REST Controllers exponen progreso, logros, rankings y solicitudes de compartir, y despachan commands y queries a los Gamification Application Services. Estos aplican el Gamification Domain Model y persisten los datos con los Gamification Persistence Adapters. Los Gamification Event Handlers reciben los eventos publicados por el Quest Event Publisher, el Community Event Publisher y el Monetization Event Publisher, y el Daily Streak Lifecycle Service evalúa el cierre diario de las rachas activas. Los Context Service Clients consultan los facades de Users, Quests, Community y Monetization. El Gamification Event Publisher entrega las recompensas, los avisos de logro y las solicitudes de protección y publicación a Community y Monetization, y guarda los mensajes pendientes en EcoMind Database mediante un Transactional Outbox. Los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade.
 
 **Figura 46**
 
@@ -6371,14 +6435,16 @@ Las solicitudes protegidas llegan con un JWT emitido previamente por IAM. El fil
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Monetization con los principales componentes de EcoMind. Incluye la aplicación Android, la API de Monetization, su base de datos y los servicios externos de autenticación y pagos. También muestra la comunicación con Gamification, que informa cuando una racha está en riesgo, para que Monetization verifique si el usuario tiene un protector disponible y comunique el resultado.
+Los diagramas de Monetization presentan la aplicación Android y el módulo Monetization del Backend API. En la Figura 50, Store UI muestra los cosméticos, los multiplicadores, los protectores, los paquetes de gemas y el saldo de la billetera. Los Monetization ViewModels reciben las intenciones de la interfaz y exponen estados inmutables, y los Monetization Use Cases coordinan el catálogo, las compras, el inventario y el pago. El Monetization Repository Implementation usa los Monetization Data Mappers para transformar los datos del Monetization Remote Data Source, que consume los endpoints de Monetization con el Bearer JWT, y del Catalog Cache, implementado con Room, que guarda una copia de solo lectura de los catálogos y de la billetera para el uso sin conexión.
+
+La Figura 51 muestra el módulo Monetization dentro del Backend API. Los Monetization REST Controllers exponen los endpoints de tienda, cosméticos, multiplicadores, protectores de racha, inventario, billetera y compras de gemas, y los despachan a los Monetization Application Services. Estos aplican el Monetization Domain Model, persisten los datos con los Monetization Persistence Adapters y consultan o actualizan el saldo de gemas del perfil mediante el User Gem Balance Gateway, que opera sobre los Users Persistence Adapters. Los Payment Adapters integran los proveedores de pago: Culqi, para pagos con tarjeta y Yape, y PayPal. Gamification consulta el multiplicador de experiencia activo y solicita el abono de gemas, la entrega de cosméticos y la protección de racha mediante el Monetization Context Facade, y recibe el resultado a través del Monetization Event Publisher, que publica los eventos StreakProtected o StreakProtectionUnavailable.
 
 **Figura 50**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
 
 <div align="center">
-  <img src="assets/img/figures/ComeponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
+  <img src="assets/img/figures/ComponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
 </div>
 
 **Figura 51**
@@ -6460,7 +6526,7 @@ La paleta está basada en tonos naturales que transmiten frescura, vitalidad y c
 
 **Iconografía**
 
-Los iconos siguen un estilo outline redondeado, coherente con la identidad orgánica de la marca. Se utiliza la librería de iconos Material Design adaptada con el color verde primario de EcoMind.
+Los iconos siguen un estilo outline redondeado, coherente con la identidad orgánica de la marca. Se utiliza la biblioteca de iconos Material Design adaptada con el color verde primario de EcoMind.
 
  
    
@@ -6478,9 +6544,9 @@ EcoMind organiza su contenido bajo dos sistemas complementarios:
 **Organización jerárquica** (principal): La información se estructura de lo general a lo específico. Se agrupan las secciones más relevantes (Retos, Progreso, Familia, Comunidad, Usuario, Tienda y Ranking) mediante un icono distintivo en la parte inferior, y cada sección navega hacia su contenido al profundizar en ella.
 
 **Organización por categorías temáticas**: Los retos y contenidos educativos se agrupan según los ejes ambientales de la plataforma:
-- ♻️ Reciclaje y residuos
-- 💧 Ahorro de agua
-- ⚡ Eficiencia energética
+- Reciclaje y residuos
+- Ahorro de agua
+- Eficiencia energética
 
 **Organización cronológica**: El historial de actividades, el progreso del usuario y las notificaciones se presentan en orden cronológico inverso (más reciente primero).
 
@@ -6908,6 +6974,8 @@ El conjunto reúne la clasificación de usuarios, el centro de notificaciones y 
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+<div style="page-break-before: always;"></div>
+
 # Capítulo IV: Product Implementation & Validation
 
 # 4. Product Implementation & Validation
@@ -6947,13 +7015,13 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
-| IntelliJ IDEA | Aplicación de escritorio | Desarrollar y depurar las APIs REST del backend implementadas con Java y Spring Boot. Sus herramientas permiten administrar dependencias, ejecutar servicios y trabajar con proyectos backend desde un mismo entorno. | [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/) |
+| IntelliJ IDEA | Aplicación de escritorio | Desarrollar y depurar el Backend API implementado con Java y Spring Boot. Sus herramientas permiten administrar dependencias, ejecutar servicios y trabajar con proyectos backend desde un mismo entorno. | [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/) |
 | Visual Studio Code | Aplicación de escritorio | Implementar y mantener la landing page de EcoMind mediante tecnologías web. También proporciona integración con Git y extensiones para facilitar el desarrollo. | [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) |
 | Live Preview | Extensión de Visual Studio Code | Visualizar en el navegador los cambios realizados en la landing page durante el desarrollo de su estructura y estilos. | [https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) |
 | Android Studio | Aplicación de escritorio | Desarrollar la aplicación móvil nativa de EcoMind con Kotlin. Permite diseñar interfaces, administrar dependencias, depurar el código y ejecutar la aplicación en dispositivos físicos o virtuales. | [https://developer.android.com/studio](https://developer.android.com/studio) |
 | Git | Sistema de control de versiones | Registrar los cambios realizados en el código y la documentación, crear ramas de trabajo y combinar los aportes de los integrantes del equipo. | [https://git-scm.com/downloads](https://git-scm.com/downloads) |
 | GitHub | SaaS | Alojar los repositorios de la landing page, la aplicación Android, los servicios backend y el reporte del proyecto. También facilita la colaboración y revisión de cambios. | [https://github.com/](https://github.com/) |
-| MySQL Workbench | Aplicación de escritorio | Diseñar, consultar y administrar las bases de datos MySQL utilizadas por los servicios backend de EcoMind. | [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/) |
+| PostgreSQL | Sistema de gestión de bases de datos | Almacenar en una única base de datos relacional los datos de todos los módulos del Backend API. | [https://www.postgresql.org/](https://www.postgresql.org/) |
 
 **Software Testing**
 
@@ -6967,9 +7035,8 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
-| Netlify | SaaS | Alojar y publicar la landing page estática de EcoMind, distribuyendo sus recursos web mediante una red de entrega de contenido. | [https://www.netlify.com/](https://www.netlify.com/) |
-| Microsoft Azure App Service | PaaS | Desplegar y ejecutar las APIs REST desarrolladas con Spring Boot, proporcionando un entorno administrado para los servicios backend. | [https://azure.microsoft.com/products/app-service](https://azure.microsoft.com/products/app-service) |
-| Azure Database for MySQL | DBaaS | Alojar las bases de datos MySQL utilizadas por los diferentes servicios de EcoMind en un entorno administrado en la nube. | [https://azure.microsoft.com/products/mysql](https://azure.microsoft.com/products/mysql) |
+| GitHub Pages | SaaS | Alojar y publicar la landing page estática de EcoMind desde su repositorio en GitHub. | [https://pages.github.com/](https://pages.github.com/) |
+| Render | PaaS | Desplegar y ejecutar el Backend API desarrollado con Java y Spring Boot como un único servicio web, con las variables de entorno de configuración y credenciales inyectadas al iniciar. | [https://render.com/](https://render.com/) |
 | Google Play Console | SaaS | Gestionar las versiones, pruebas y publicación de la aplicación Android en Google Play. | [https://play.google.com/console/about/](https://play.google.com/console/about/) |
 
 **Software Documentation**
@@ -7321,6 +7388,8 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 
 ### 4.3.3. Evaluaciones según heurísticas
 
+<div style="page-break-before: always;"></div>
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
@@ -7339,6 +7408,8 @@ Se recomienda revisar periódicamente que los nombres, relaciones y responsabili
 
 También se recomienda validar las integraciones entre bounded contexts durante la implementación y actualizar la documentación cuando cambien las reglas del dominio.
 
+<div style="page-break-before: always;"></div>
+
 # Bibliografía
 
 - Adrilo, R (s.f.). Happy Little Planet App. Adrilo Rincz. https://www.adrilorincz.com/happy-little-planet-app  
@@ -7356,5 +7427,7 @@ También se recomienda validar las integraciones entre bounded contexts durante 
 - Reyes, R. (2018). El fenómeno del consumismo y sus desafíos para la mejora del medio ambiente. Documentos de Trabajo Areandina, 1. https://revia.areandina.edu.co/index.php/DT/article/view/1265
 
 - Y-Group Games. (s. f.). Defender of the nature. Google Play. https://play.google.com/store/apps/details?id=com.YovoGames.Defender&hl=es_PE 
+
+<div style="page-break-before: always;"></div>
 
 # Anexos
