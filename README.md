@@ -7712,6 +7712,16 @@ Aquí se documentan los acuerdos de planificación del Sprint 1, incluyendo su o
 
 #### 4.2.1.2. Aspect Leaders and Collaborators
 
+En esta sección se presentan los aspectos principales del Sprint 1 y la distribución de responsabilidades según las User Stories planteadas en el desarrollo del sprint. Entre ellas, la Landing Page informativa, los retos, aspectos de gamificación, rankings, la participación en comunidad, la personalización y compra de elementos virtuales, y la gestión de perfiles, familias y amigos. La tabla organiza estos aspectos por área del producto y presenta los roles de liderazgo y colaboración definidos para el Sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Quest | Community | Monetization | Profile | Gamification |
+|-------------------------------------|-----------------|--------------|-------|-----------|--------------|---------|--------------|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | C | L | C | C | C | C |
+| Dulanto Espino, Leo César | Leotens | L | C | L | C | C | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | L | C | C |
+| Pajes Leon, Mauricio Luis | mauricio-pajes | C | C | C | C | C | L |
+| Philco Mota, Katty Yolanda | kattyph | C | C | C | C | L | C |
+
 #### 4.2.1.3. Sprint Backlog 1
 
 En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto, cuyo objetivo principal fue desarrollar las funcionalidades iniciales de EcoMind para promover la participación familiar en actividades ambientales. Durante este Sprint, el equipo trabajó en User Stories relacionadas con la landing page, los retos guiados, el sistema de puntos y rankings, los eventos comunitarios, la personalización de avatares, las gemas y los logros, además de endpoints para gestionar retos, perfiles, familias, comunidad y funciones de monetización. Asimismo, cada User Story y tarea técnica se desglosó en Work-Items/Tasks con sus respectivas descripciones, estimaciones, responsables y estados, facilitando la organización y el seguimiento del trabajo del equipo.
@@ -7724,6 +7734,10 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 ![Sprint_4](assets/img/figures/Sprint_1.png)
 
+**Tabla xx**
+ 
+*Tabla de Sprint backlog 1*
+
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
     <tr><th colspan="2">User Story</th><th colspan="6">Work-Item / Task</th></tr>
@@ -7731,18 +7745,18 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
   </thead>
   <tbody>
     <tr><td rowspan="2">HU-051</td>
-      <td rowspan="2">Informaci&#243;n descriptiva clara</td>
+      <td rowspan="2">Información descriptiva clara</td>
       <td>TO01</td>
-      <td>Definir estructura y contenido de Informaci&#243;n descriptiva clara</td>
-      <td>Organizar la informaci&#243;n y definir su jerarqu&#237;a visual para los visitantes.</td>
+      <td>Definir estructura y contenido de Información descriptiva clara</td>
+      <td>Organizar la información y definir su jerarquía visual para los visitantes.</td>
       <td>2</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO02</td>
-      <td>Implementar e integrar Informaci&#243;n descriptiva clara</td>
-      <td>Construir la secci&#243;n e integrarla con la estructura de la landing page.</td>
+      <td>Implementar e integrar Información descriptiva clara</td>
+      <td>Construir la sección e integrarla con la estructura de la landing page.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -7751,7 +7765,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="2">Consejos de uso para padres</td>
       <td>TO03</td>
       <td>Definir estructura y contenido de Consejos de uso para padres</td>
-      <td>Organizar la informaci&#243;n y definir su jerarqu&#237;a visual para los visitantes.</td>
+      <td>Organizar la información y definir su jerarquía visual para los visitantes.</td>
       <td>2</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -7759,7 +7773,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO04</td>
       <td>Implementar e integrar Consejos de uso para padres</td>
-      <td>Construir la secci&#243;n e integrarla con la estructura de la landing page.</td>
+      <td>Construir la sección e integrarla con la estructura de la landing page.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -7768,7 +7782,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="2">Preguntas frecuentes en landing page</td>
       <td>TO05</td>
       <td>Definir estructura y contenido de Preguntas frecuentes en landing page</td>
-      <td>Organizar la informaci&#243;n y definir su jerarqu&#237;a visual para los visitantes.</td>
+      <td>Organizar la información y definir su jerarquía visual para los visitantes.</td>
       <td>2</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -7776,24 +7790,24 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO06</td>
       <td>Implementar e integrar Preguntas frecuentes en landing page</td>
-      <td>Construir la secci&#243;n e integrarla con la estructura de la landing page.</td>
+      <td>Construir la sección e integrarla con la estructura de la landing page.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr><td rowspan="2">HU-054</td>
-      <td rowspan="2">Informaci&#243;n de la comunidad</td>
+      <td rowspan="2">Información de la comunidad</td>
       <td>TO07</td>
-      <td>Definir estructura y contenido de Informaci&#243;n de la comunidad</td>
-      <td>Organizar la informaci&#243;n y definir su jerarqu&#237;a visual para los visitantes.</td>
+      <td>Definir estructura y contenido de Información de la comunidad</td>
+      <td>Organizar la información y definir su jerarquía visual para los visitantes.</td>
       <td>2</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO08</td>
-      <td>Implementar e integrar Informaci&#243;n de la comunidad</td>
-      <td>Construir la secci&#243;n e integrarla con la estructura de la landing page.</td>
+      <td>Implementar e integrar Información de la comunidad</td>
+      <td>Construir la sección e integrarla con la estructura de la landing page.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -7809,8 +7823,8 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO10</td>
-      <td>Implementar interacci&#243;n de Retos guiados con indicaciones</td>
-      <td>Construir la interacci&#243;n que permite al estudiante acceder y realizar la actividad.</td>
+      <td>Implementar interacción de Retos guiados con indicaciones</td>
+      <td>Construir la interacción que permite al estudiante acceder y realizar la actividad.</td>
       <td>4</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -7825,8 +7839,8 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO12</td>
-      <td>Validar estados y finalizaci&#243;n de Retos guiados con indicaciones</td>
-      <td>Comprobar estados iniciales, progreso, finalizaci&#243;n y casos no v&#225;lidos.</td>
+      <td>Validar estados y finalización de Retos guiados con indicaciones</td>
+      <td>Comprobar estados iniciales, progreso, finalización y casos no válidos.</td>
       <td>3</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -7842,8 +7856,8 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO14</td>
-      <td>Implementar interacci&#243;n de Reto ambiental diario</td>
-      <td>Construir la interacci&#243;n que permite al estudiante acceder y realizar la actividad.</td>
+      <td>Implementar interacción de Reto ambiental diario</td>
+      <td>Construir la interacción que permite al estudiante acceder y realizar la actividad.</td>
       <td>3</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -7860,14 +7874,14 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Sistema de puntos por aprendizaje</td>
       <td>TO16</td>
       <td>Definir reglas de Sistema de puntos por aprendizaje</td>
-      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificaci&#243;n.</td>
+      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificación.</td>
       <td>2</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO17</td>
-      <td>Implementar c&#225;lculo o registro de Sistema de puntos por aprendizaje</td>
+      <td>Implementar cálculo o registro de Sistema de puntos por aprendizaje</td>
       <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
       <td>3</td>
       <td>Mauricio Luis Pajes Leon</td>
@@ -7876,7 +7890,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO18</td>
       <td>Mostrar resultado de Sistema de puntos por aprendizaje</td>
-      <td>Presentar al usuario sus puntos, posici&#243;n o logros de forma comprensible.</td>
+      <td>Presentar al usuario sus puntos, posición o logros de forma comprensible.</td>
       <td>3</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
@@ -7885,14 +7899,14 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="2">Ranking educativo</td>
       <td>TO19</td>
       <td>Definir reglas de Ranking educativo</td>
-      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificaci&#243;n.</td>
+      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificación.</td>
       <td>2</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO20</td>
-      <td>Implementar c&#225;lculo o registro de Ranking educativo</td>
+      <td>Implementar cálculo o registro de Ranking educativo</td>
       <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
       <td>3</td>
       <td>Mauricio Luis Pajes Leon</td>
@@ -7902,7 +7916,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="4">Evento familiar en comunidad</td>
       <td>TO21</td>
       <td>Definir datos y vista de Evento familiar en comunidad</td>
-      <td>Identificar la informaci&#243;n que necesita el usuario para encontrar y entender esta funci&#243;n comunitaria.</td>
+      <td>Identificar la información que necesita el usuario para encontrar y entender esta función comunitaria.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -7917,24 +7931,24 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO23</td>
-      <td>Registrar participaci&#243;n en Evento familiar en comunidad</td>
-      <td>Registrar la participaci&#243;n o interacci&#243;n realizada por el usuario.</td>
+      <td>Registrar participación en Evento familiar en comunidad</td>
+      <td>Registrar la participación o interacción realizada por el usuario.</td>
       <td>4</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO24</td>
-      <td>Validar interacci&#243;n de Evento familiar en comunidad</td>
-      <td>Verificar estados de participaci&#243;n, actualizaci&#243;n y manejo de casos inv&#225;lidos.</td>
+      <td>Validar interacción de Evento familiar en comunidad</td>
+      <td>Verificar estados de participación, actualización y manejo de casos inválidos.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr><td rowspan="3">HU-029</td>
-      <td rowspan="3">Avatares y cosm&#233;ticos personalizables</td>
+      <td rowspan="3">Avatares y cosméticos personalizables</td>
       <td>TO25</td>
-      <td>Definir opciones y reglas de Avatares y cosm&#233;ticos personalizables</td>
+      <td>Definir opciones y reglas de Avatares y cosméticos personalizables</td>
       <td>Establecer productos, condiciones y reglas que se aplican a esta funcionalidad.</td>
       <td>2</td>
       <td>Isabel Luisa Aponte Pablo</td>
@@ -7942,7 +7956,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO26</td>
-      <td>Implementar flujo de Avatares y cosm&#233;ticos personalizables</td>
+      <td>Implementar flujo de Avatares y cosméticos personalizables</td>
       <td>Construir el flujo para que el usuario pueda obtener o adquirir el elemento correspondiente.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
@@ -7950,8 +7964,8 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO27</td>
-      <td>Actualizar saldo o inventario de Avatares y cosm&#233;ticos personalizables</td>
-      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operaci&#243;n.</td>
+      <td>Actualizar saldo o inventario de Avatares y cosméticos personalizables</td>
+      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operación.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
@@ -7976,15 +7990,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO30</td>
       <td>Actualizar saldo o inventario de Multiplicador de XP</td>
-      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operaci&#243;n.</td>
+      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operación.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
     <tr><td rowspan="3">HU-035</td>
-      <td rowspan="3">Compra y obtenci&#243;n de gemas</td>
+      <td rowspan="3">Compra y obtención de gemas</td>
       <td>TO31</td>
-      <td>Definir opciones y reglas de Compra y obtenci&#243;n de gemas</td>
+      <td>Definir opciones y reglas de Compra y obtención de gemas</td>
       <td>Establecer productos, condiciones y reglas que se aplican a esta funcionalidad.</td>
       <td>2</td>
       <td>Isabel Luisa Aponte Pablo</td>
@@ -7992,7 +8006,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO32</td>
-      <td>Implementar flujo de Compra y obtenci&#243;n de gemas</td>
+      <td>Implementar flujo de Compra y obtención de gemas</td>
       <td>Construir el flujo para que el usuario pueda obtener o adquirir el elemento correspondiente.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
@@ -8000,8 +8014,8 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO33</td>
-      <td>Actualizar saldo o inventario de Compra y obtenci&#243;n de gemas</td>
-      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operaci&#243;n.</td>
+      <td>Actualizar saldo o inventario de Compra y obtención de gemas</td>
+      <td>Actualizar el saldo, inventario o experiencia del usuario tras la operación.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
@@ -8010,7 +8024,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Eventos ambientales</td>
       <td>TO34</td>
       <td>Definir datos y vista de Eventos ambientales</td>
-      <td>Identificar la informaci&#243;n que necesita el usuario para encontrar y entender esta funci&#243;n comunitaria.</td>
+      <td>Identificar la información que necesita el usuario para encontrar y entender esta función comunitaria.</td>
       <td>2</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -8025,8 +8039,8 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr>
       <td>TO36</td>
-      <td>Registrar participaci&#243;n en Eventos ambientales</td>
-      <td>Registrar la participaci&#243;n o interacci&#243;n realizada por el usuario.</td>
+      <td>Registrar participación en Eventos ambientales</td>
+      <td>Registrar la participación o interacción realizada por el usuario.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -8035,14 +8049,14 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="2">Panel de logros compartidos</td>
       <td>TO37</td>
       <td>Definir reglas de Panel de logros compartidos</td>
-      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificaci&#243;n.</td>
+      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificación.</td>
       <td>2</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO38</td>
-      <td>Implementar c&#225;lculo o registro de Panel de logros compartidos</td>
+      <td>Implementar cálculo o registro de Panel de logros compartidos</td>
       <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
       <td>3</td>
       <td>Mauricio Luis Pajes Leon</td>
@@ -8052,15 +8066,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="4">Endpoints de retos y actividades</td>
       <td>TO39</td>
       <td>Definir contrato y validaciones de Endpoints de retos y actividades</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>3</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO40</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoints de retos y actividades</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoints de retos y actividades</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>4</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -8068,7 +8082,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO41</td>
       <td>Integrar persistencia y exponer Endpoints de retos y actividades</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>4</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -8085,15 +8099,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoint de progreso de retos y actividades</td>
       <td>TO43</td>
       <td>Definir contrato y validaciones de Endpoint de progreso de retos y actividades</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO44</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de progreso de retos y actividades</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de progreso de retos y actividades</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -8101,7 +8115,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO45</td>
       <td>Integrar persistencia y exponer Endpoint de progreso de retos y actividades</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
@@ -8110,15 +8124,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoint de ranking semanal</td>
       <td>TO46</td>
       <td>Definir contrato y validaciones de Endpoint de ranking semanal</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO47</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de ranking semanal</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de ranking semanal</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
@@ -8126,32 +8140,32 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO48</td>
       <td>Integrar persistencia y exponer Endpoint de ranking semanal</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
     <tr><td rowspan="3">TS-009</td>
-      <td rowspan="3">Endpoint de resumen y edici&#243;n de perfil</td>
+      <td rowspan="3">Endpoint de resumen y edición de perfil</td>
       <td>TO49</td>
-      <td>Definir contrato y validaciones de Endpoint de resumen y edici&#243;n de perfil</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Definir contrato y validaciones de Endpoint de resumen y edición de perfil</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO50</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de resumen y edici&#243;n de perfil</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de resumen y edición de perfil</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO51</td>
-      <td>Integrar persistencia y exponer Endpoint de resumen y edici&#243;n de perfil</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Integrar persistencia y exponer Endpoint de resumen y edición de perfil</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8160,15 +8174,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoint de progreso del perfil</td>
       <td>TO52</td>
       <td>Definir contrato y validaciones de Endpoint de progreso del perfil</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO53</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de progreso del perfil</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de progreso del perfil</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8176,7 +8190,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO54</td>
       <td>Integrar persistencia y exponer Endpoint de progreso del perfil</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8185,15 +8199,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoint de familia y amigos del perfil</td>
       <td>TO55</td>
       <td>Definir contrato y validaciones de Endpoint de familia y amigos del perfil</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO56</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de familia y amigos del perfil</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de familia y amigos del perfil</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8201,57 +8215,57 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO57</td>
       <td>Integrar persistencia y exponer Endpoint de familia y amigos del perfil</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr><td rowspan="3">TS-012</td>
-      <td rowspan="3">Endpoint de interacci&#243;n comunitaria</td>
+      <td rowspan="3">Endpoint de interacción comunitaria</td>
       <td>TO58</td>
-      <td>Definir contrato y validaciones de Endpoint de interacci&#243;n comunitaria</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Definir contrato y validaciones de Endpoint de interacción comunitaria</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO59</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de interacci&#243;n comunitaria</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de interacción comunitaria</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO60</td>
-      <td>Integrar persistencia y exponer Endpoint de interacci&#243;n comunitaria</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Integrar persistencia y exponer Endpoint de interacción comunitaria</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr><td rowspan="3">TS-013</td>
-      <td rowspan="3">Endpoint de eventos comunitarios y participaci&#243;n</td>
+      <td rowspan="3">Endpoint de eventos comunitarios y participación</td>
       <td>TO61</td>
-      <td>Definir contrato y validaciones de Endpoint de eventos comunitarios y participaci&#243;n</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Definir contrato y validaciones de Endpoint de eventos comunitarios y participación</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO62</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de eventos comunitarios y participaci&#243;n</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de eventos comunitarios y participación</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO63</td>
-      <td>Integrar persistencia y exponer Endpoint de eventos comunitarios y participaci&#243;n</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Integrar persistencia y exponer Endpoint de eventos comunitarios y participación</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -8260,15 +8274,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="4">Endpoint de metas comunitarias y chat temporal</td>
       <td>TO64</td>
       <td>Definir contrato y validaciones de Endpoint de metas comunitarias y chat temporal</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>3</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO65</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de metas comunitarias y chat temporal</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de metas comunitarias y chat temporal</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>4</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -8276,7 +8290,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO66</td>
       <td>Integrar persistencia y exponer Endpoint de metas comunitarias y chat temporal</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>4</td>
       <td>Leo Cesar Dulanto Espino</td>
       <td>Completed</td>
@@ -8290,26 +8304,26 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td>Completed</td>
     </tr>
     <tr><td rowspan="3">TS-014</td>
-      <td rowspan="3">Endpoint de cat&#225;logo y compra de cosm&#233;ticos</td>
+      <td rowspan="3">Endpoint de catálogo y compra de cosméticos</td>
       <td>TO68</td>
-      <td>Definir contrato y validaciones de Endpoint de cat&#225;logo y compra de cosm&#233;ticos</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Definir contrato y validaciones de Endpoint de catálogo y compra de cosméticos</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO69</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de cat&#225;logo y compra de cosm&#233;ticos</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de catálogo y compra de cosméticos</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO70</td>
-      <td>Integrar persistencia y exponer Endpoint de cat&#225;logo y compra de cosm&#233;ticos</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Integrar persistencia y exponer Endpoint de catálogo y compra de cosméticos</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
@@ -8318,15 +8332,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoint de compra de gemas</td>
       <td>TO71</td>
       <td>Definir contrato y validaciones de Endpoint de compra de gemas</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO72</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de compra de gemas</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de compra de gemas</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
@@ -8334,7 +8348,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO73</td>
       <td>Integrar persistencia y exponer Endpoint de compra de gemas</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
@@ -8343,15 +8357,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoint de usuarios</td>
       <td>TO74</td>
       <td>Definir contrato y validaciones de Endpoint de usuarios</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO75</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de usuarios</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de usuarios</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8359,7 +8373,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO76</td>
       <td>Integrar persistencia y exponer Endpoint de usuarios</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8368,15 +8382,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoints de familia y miembros familiares</td>
       <td>TO77</td>
       <td>Definir contrato y validaciones de Endpoints de familia y miembros familiares</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO78</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoints de familia y miembros familiares</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoints de familia y miembros familiares</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8384,7 +8398,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO79</td>
       <td>Integrar persistencia y exponer Endpoints de familia y miembros familiares</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8393,15 +8407,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoint de amigos</td>
       <td>TO80</td>
       <td>Definir contrato y validaciones de Endpoint de amigos</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO81</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de amigos</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de amigos</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8409,7 +8423,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO82</td>
       <td>Integrar persistencia y exponer Endpoint de amigos</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
@@ -8418,15 +8432,15 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="3">Endpoint de logros de usuario y comunidad</td>
       <td>TO83</td>
       <td>Definir contrato y validaciones de Endpoint de logros de usuario y comunidad</td>
-      <td>Especificar datos de entrada y salida, reglas de validaci&#243;n y respuestas esperadas.</td>
+      <td>Especificar datos de entrada y salida, reglas de validación y respuestas esperadas.</td>
       <td>2</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO84</td>
-      <td>Implementar la l&#243;gica de aplicaci&#243;n de Endpoint de logros de usuario y comunidad</td>
-      <td>Desarrollar la operaci&#243;n de aplicaci&#243;n que atiende la necesidad descrita por la historia t&#233;cnica.</td>
+      <td>Implementar la lógica de aplicación de Endpoint de logros de usuario y comunidad</td>
+      <td>Desarrollar la operación de aplicación que atiende la necesidad descrita por la historia técnica.</td>
       <td>3</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
@@ -8434,7 +8448,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr>
       <td>TO85</td>
       <td>Integrar persistencia y exponer Endpoint de logros de usuario y comunidad</td>
-      <td>Conectar la operaci&#243;n con el repositorio y publicar el endpoint requerido.</td>
+      <td>Conectar la operación con el repositorio y publicar el endpoint requerido.</td>
       <td>3</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
@@ -8443,21 +8457,22 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td rowspan="2">Animaciones de logro</td>
       <td>TO86</td>
       <td>Definir reglas de Animaciones de logro</td>
-      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificaci&#243;n.</td>
+      <td>Establecer criterios y datos necesarios para aplicar la funcionalidad de gamificación.</td>
       <td>2</td>
-      <td>Mauricio Luis Pajes Leon</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>TO87</td>
-      <td>Implementar c&#225;lculo o registro de Animaciones de logro</td>
+      <td>Implementar cálculo o registro de Animaciones de logro</td>
       <td>Calcular, otorgar o registrar el resultado de acuerdo con las reglas definidas.</td>
       <td>3</td>
-      <td>Mauricio Luis Pajes Leon</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
   </tbody>
 </table>
+
 #### 4.2.1.4. Development Evidence for Sprint Review
 
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
