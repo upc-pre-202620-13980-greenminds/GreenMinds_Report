@@ -7515,21 +7515,11 @@ Scenario: Sign in with a wrong password
   And I do not receive an access token
 ```
 
-**Figura 54**
-
-*Resultado de las pruebas instrumentadas de Android*
-
-<div align="center">
-<img src="assets/img/figures/sprint-1/android-tests.png" alt="Catorce pruebas instrumentadas de Android completadas sin fallos" width="100%">
-</div>
-
-*Nota. Reporte generado por Gradle el 10 de octubre de 2026.*
-
 #### 4.2.1.6. Execution Evidence for Sprint Review
 
 La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Backend API mediante HTTP y autenticación JWT. El backend utilizó una base de datos PostgreSQL local y cuentas de prueba. La landing page se verificó desde su dirección pública.
 
-**Figura 55**
+**Figura 54**
 
 *Landing page de EcoMind en ejecución*
 
@@ -7541,7 +7531,7 @@ La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Ba
 
 El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta su descripción, duración y ecopoints.
 
-**Figura 56**
+**Figura 55**
 
 *Inicio de sesión y detalle de un reto*
 
@@ -7554,7 +7544,7 @@ El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta s
 
 Al completar la actividad, el usuario obtiene el resultado del reto y puede consultar su progreso. En la ejecución se registraron 10 ecopoints y el logro «First green step».
 
-**Figura 57**
+**Figura 56**
 
 *Finalización del reto y consulta de progreso*
 
@@ -7565,7 +7555,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 *Nota. Elaboración propia.*
 
-**Figura 58**
+**Figura 57**
 
 *Medalla obtenida y ranking global semanal*
 
@@ -7578,7 +7568,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 La navegación también permite consultar el grupo familiar y el catálogo de cosméticos.
 
-**Figura 59**
+**Figura 58**
 
 *Grupo familiar y tienda de cosméticos*
 
@@ -7632,7 +7622,7 @@ Los endpoints protegidos reciben `Authorization: Bearer <token>`. La consulta de
 
 La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un identificador inexistente se documenta con `404 Not Found`. El [contrato OpenAPI](assets/evidence/sprint-1/openapi.json) y las [respuestas de ejecución](assets/evidence/sprint-1/api-responses.json) acompañan las capturas.
 
-**Figura 60**
+**Figura 59**
 
 *Documentación de los endpoints de Gamification en Swagger UI*
 
@@ -7642,7 +7632,7 @@ La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un i
 
 *Nota. Elaboración propia.*
 
-**Figura 61**
+**Figura 60**
 
 *Respuesta HTTP 200 del detalle de un reto*
 
@@ -7656,7 +7646,7 @@ La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un i
 
 La landing page se publica mediante GitHub Actions. El workflow `Deploy static site to Pages` obtiene el contenido de `main`, prepara GitHub Pages y publica el directorio `public`. La dirección de acceso es [EcoMind Landing Page](https://upc-pre-202620-13980-greenminds.github.io/EcoMind_LandingPage/).
 
-**Figura 62**
+**Figura 61**
 
 *Ejecuciones del workflow de publicación de la landing page*
 
@@ -7701,7 +7691,7 @@ Katty desarrolló la base de navegación, autenticación y perfiles. Alejandra i
 
 El [pull request #3](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/3) reúne la integración de Gamification con la autenticación y los flujos de Android. La revisión por ramas permite relacionar el cambio propuesto con su base de integración.
 
-**Figura 63**
+**Figura 62**
 
 *Pull request de integración de Gamification en Android*
 
