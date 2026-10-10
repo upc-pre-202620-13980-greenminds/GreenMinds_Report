@@ -6429,7 +6429,7 @@ El siguiente diagrama C4 muestra cómo se relaciona el bounded context de Moneti
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
 
 <div align="center">
-  <img src="assets/img/figures/ComeponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
+  <img src="assets/img/figures/ComponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
 </div>
 
 **Figura 51**
