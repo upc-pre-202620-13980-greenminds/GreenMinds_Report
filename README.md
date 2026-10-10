@@ -6829,9 +6829,78 @@ La combinación de la barra inferior, la barra superior, las pestañas, los cont
 
 ### 3.1.3. Landing Page UI Design
 
+
 #### 3.1.3.1. Landing Page Wireframe
 
+Los wireframes de la Landing Page de EcoMind representan la estructura inicial de las pantallas antes de incorporar colores, imágenes finales y elementos gráficos de marca. Su propósito fue organizar la jerarquía de la información, definir la ubicación de los componentes y validar que el recorrido del visitante fuera claro. En todas las vistas se mantiene una barra de navegación superior con acceso a las preguntas frecuentes, la guía para padres, la comunidad, el selector de idioma y la descarga de la aplicación.
+
+**Figura X**
+
+*Wireframe de la página de inicio de la Landing Page.*
+
+<div align="center"><img src="assets/img/figures/WireInicio.jpeg" alt="Wireframe de la página de inicio de EcoMind" width="650"></div>
+
+La página de inicio introduce la propuesta de valor de EcoMind y organiza el acceso a sus beneficios principales, la información de la startup y las llamadas a la acción dirigidas a nuevos usuarios.
+
+**Figura X**
+
+*Wireframe de preguntas frecuentes.*
+
+<div align="center"><img src="assets/img/figures/PreguntasWire.jpeg" alt="Wireframe de preguntas frecuentes de EcoMind" width="650"></div>
+
+La sección de preguntas frecuentes utiliza componentes desplegables para presentar respuestas sobre la conexión a Internet, la administración de la cuenta, las actividades, los puntos, las recompensas y la participación familiar sin saturar la pantalla.
+
+**Figura X**
+
+*Wireframe de la guía para padres.*
+
+<div align="center"><img src="assets/img/figures/WireGuia.jpeg" alt="Wireframe de la guía para padres de EcoMind" width="650"></div>
+
+La guía para padres reúne información sobre el acompañamiento familiar, los recursos educativos y recomendaciones para incorporar hábitos sostenibles en el hogar. Su estructura combina contenido informativo, tarjetas y una sección destacada de consejos.
+
+**Figura X**
+
+*Wireframe de la comunidad de EcoMind.*
+
+<div align="center"><img src="assets/img/figures/WireComunidad.jpeg" alt="Wireframe de la comunidad de EcoMind" width="650"></div>
+
+La sección de comunidad presenta indicadores generales, beneficios de la participación, testimonios de familias y eventos ambientales cercanos. La distribución conduce al visitante desde la explicación de la comunidad hasta las oportunidades concretas de participación.
+
 #### 3.1.3.2. Landing Page Mock-up
+
+Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante la identidad gráfica de EcoMind. Se incorporan el logotipo, la paleta de verdes, fotografías, ilustraciones, iconos y una jerarquía tipográfica consistente. Estos elementos refuerzan el enfoque ambiental del producto y permiten visualizar con mayor precisión la experiencia final del visitante en una interfaz web.
+
+**Figura X**
+
+*Mock-up de la página de inicio de la Landing Page.*
+
+<div align="center"><img src="assets/img/figures/InicioMock.jpeg" alt="Mock-up de la página de inicio de EcoMind" width="650"></div>
+
+El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar de manera inmediata la propuesta de EcoMind. Las secciones posteriores explican sus beneficios, misión, visión e identidad como startup educativa.
+
+**Figura X**
+
+*Mock-up de preguntas frecuentes.*
+
+<div align="center"><img src="assets/img/figures/PreguntasMock.jpeg" alt="Mock-up de preguntas frecuentes de EcoMind" width="650"></div>
+
+La versión visual de preguntas frecuentes mantiene el formato desplegable e incorpora los colores y componentes definitivos. La separación entre preguntas favorece la lectura y permite que el visitante ubique rápidamente la información que necesita.
+
+**Figura X**
+
+*Mock-up de la guía para padres.*
+
+<div align="center"><img src="assets/img/figures/GuiaMock.jpeg" alt="Mock-up de la guía para padres de EcoMind" width="650"></div>
+
+La guía para padres combina contenido educativo con fotografías e iconos para explicar los beneficios del acompañamiento familiar. Además, diferencia los recursos disponibles y presenta recomendaciones prácticas para reforzar hábitos sostenibles en casa.
+
+**Figura X**
+
+*Mock-up de la comunidad de EcoMind.*
+
+<div align="center"><img src="assets/img/figures/MockComunidad.jpeg" alt="Mock-up de la comunidad de EcoMind" width="650"></div>
+
+El mock-up de comunidad utiliza indicadores, testimonios, ilustraciones y un mapa de eventos para transmitir colaboración y participación. El diseño busca que las familias comprendan cómo pueden compartir logros, conocer actividades cercanas y formar parte de una comunidad ambiental.
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
