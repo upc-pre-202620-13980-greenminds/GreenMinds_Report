@@ -7459,14 +7459,25 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 | <img src="assets/img/figures/margarita_entrevista.png" width="335" hspace="240"> |
 | **Entrevistada N°2:** Victoria Margarita Espino Huatay<br>**Edad:** 48 años<br>**Ubicación:** Cercado de Lima, Lima<br>**Entrevistador:** Leo Dulanto<br>**Fecha de la entrevista:** 10/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 2 - Victoria Margarita Espino Huatay](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410254_upc_edu_pe/IQC9SgS6nYfDTp7hD7eLSh_MAc0A8W4XPyXCXk_WpS7A6EA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CaeIDB)<br>**Instante del que inicia:** 00:00<br>**Duración:** 07:13<br><br>**Resumen:**<br><br>La participante Margarita Espino, residente del Cercado de Lima, consideró que la aplicación promueve el trabajo en equipo, la competencia sana y la participación de toda la familia. Le pareció intuitivo y gráfico el seguimiento del progreso y las actividades, y valoró que los eventos permitan inscripciones individuales o familiares. También señaló que el ranking podría motivar a los niños a participar en actividades ambientales y alejarse un poco de los videojuegos. Calificó con 5 de 5 su probabilidad de usar la aplicación con su familia y dijo que estaría dispuesta a realizar compras dentro de ella. Como principal mejora, recomendó añadir etiquetas o indicaciones a algunos botones e íconos para que los nuevos usuarios comprendan su función; en general, considera que la aplicación está bien orientada y no cambiaría su enfoque. |
 
+#### Segmento: Niños de primaria
+<br>
+
+**Tabla xx**
+ 
+*Entrevista de validación 1 del segmento de niños de primaria.*
+ 
+| **Entrevista de validación Nro. 1** |
+|---|
+| <img src="assets/img/figures/" width="335" hspace="240"> |
+| **Entrevistado N°1:** Pablo Abel Astocondor Bazan<br>**Edad:** 12 años<br>**Ubicación:** Pueblo Libre, Lima<br>**Entrevistadora:** Alejandra Astocondor <br>**Fecha de la entrevista:** 10/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Pablo Astocondor ]()<br>**Instante del que inicia:** 00:58<br>**Duración:** 05:48<br><br>**Resumen:**<br><br>  |
 
 ### 4.3.3. Evaluaciones según heurísticas
 
 #### UX Heuristics & Principles Evaluation <br> Usability – Inclusive Design – Information Architecture
 
 CARRERA : Ingeniería de Software <br>
-CURSO : Desarrollo de Aplicaciones Open Source <br>
-SECCIÓN : 11990 <br>
+CURSO :  <br>
+SECCIÓN :  <br>
 PROFESORES : Todos <br>
 AUDITOR : GreenMinds <br>
 SITE o APP A EVALUAR: EcoMind <br>
