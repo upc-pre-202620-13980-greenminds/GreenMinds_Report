@@ -7015,13 +7015,13 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
-| IntelliJ IDEA | Aplicación de escritorio | Desarrollar y depurar las APIs REST del backend implementadas con Java y Spring Boot. Sus herramientas permiten administrar dependencias, ejecutar servicios y trabajar con proyectos backend desde un mismo entorno. | [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/) |
+| IntelliJ IDEA | Aplicación de escritorio | Desarrollar y depurar el Backend API implementado con Java y Spring Boot. Sus herramientas permiten administrar dependencias, ejecutar servicios y trabajar con proyectos backend desde un mismo entorno. | [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/) |
 | Visual Studio Code | Aplicación de escritorio | Implementar y mantener la landing page de EcoMind mediante tecnologías web. También proporciona integración con Git y extensiones para facilitar el desarrollo. | [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) |
 | Live Preview | Extensión de Visual Studio Code | Visualizar en el navegador los cambios realizados en la landing page durante el desarrollo de su estructura y estilos. | [https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) |
 | Android Studio | Aplicación de escritorio | Desarrollar la aplicación móvil nativa de EcoMind con Kotlin. Permite diseñar interfaces, administrar dependencias, depurar el código y ejecutar la aplicación en dispositivos físicos o virtuales. | [https://developer.android.com/studio](https://developer.android.com/studio) |
 | Git | Sistema de control de versiones | Registrar los cambios realizados en el código y la documentación, crear ramas de trabajo y combinar los aportes de los integrantes del equipo. | [https://git-scm.com/downloads](https://git-scm.com/downloads) |
 | GitHub | SaaS | Alojar los repositorios de la landing page, la aplicación Android, los servicios backend y el reporte del proyecto. También facilita la colaboración y revisión de cambios. | [https://github.com/](https://github.com/) |
-| MySQL Workbench | Aplicación de escritorio | Diseñar, consultar y administrar las bases de datos MySQL utilizadas por los servicios backend de EcoMind. | [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/) |
+| PostgreSQL | Sistema de gestión de bases de datos | Almacenar en una única base de datos relacional los datos de todos los módulos del Backend API. | [https://www.postgresql.org/](https://www.postgresql.org/) |
 
 **Software Testing**
 
@@ -7035,9 +7035,8 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
-| Netlify | SaaS | Alojar y publicar la landing page estática de EcoMind, distribuyendo sus recursos web mediante una red de entrega de contenido. | [https://www.netlify.com/](https://www.netlify.com/) |
-| Microsoft Azure App Service | PaaS | Desplegar y ejecutar las APIs REST desarrolladas con Spring Boot, proporcionando un entorno administrado para los servicios backend. | [https://azure.microsoft.com/products/app-service](https://azure.microsoft.com/products/app-service) |
-| Azure Database for MySQL | DBaaS | Alojar las bases de datos MySQL utilizadas por los diferentes servicios de EcoMind en un entorno administrado en la nube. | [https://azure.microsoft.com/products/mysql](https://azure.microsoft.com/products/mysql) |
+| GitHub Pages | SaaS | Alojar y publicar la landing page estática de EcoMind desde su repositorio en GitHub. | [https://pages.github.com/](https://pages.github.com/) |
+| Render | PaaS | Desplegar y ejecutar el Backend API desarrollado con Java y Spring Boot como un único servicio web, con las variables de entorno de configuración y credenciales inyectadas al iniciar. | [https://render.com/](https://render.com/) |
 | Google Play Console | SaaS | Gestionar las versiones, pruebas y publicación de la aplicación Android en Google Play. | [https://play.google.com/console/about/](https://play.google.com/console/about/) |
 
 **Software Documentation**
