@@ -1,0 +1,106 @@
+# IAM account access
+
+This evidence covers HU-058, HU-059 and the registration terms screen. It does not establish that
+Sprint 2, the complete backend scope or the AV2 delivery is finished.
+
+## Implemented behavior
+
+| Scope | Behavior |
+|---|---|
+| HU-058: request recovery | Android normalizes the email and calls `POST /api/v1/authentication/password-recovery/request`. The `200` response uses the same message whether or not an account exists. |
+| HU-058: reset password | The recovery link opens `ecomind://authentication/reset-password?token=<recovery-token>`. Confirmation calls `POST /api/v1/authentication/password-recovery/confirm` and accepts `204` with no body. Invalid, expired or consumed tokens map to `PASSWORD_RESET_TOKEN_INVALID` (`422`); a weak password maps to `PASSWORD_POLICY_VIOLATION` (`400`). |
+| HU-059: logout | Android calls `POST /api/v1/authentication/logout` with the current Bearer token, accepts an empty `204` response and clears the stored session. Local cleanup also runs after a network failure or coroutine cancellation. The access flow uses a new navigation controller so protected destinations and saved tab state are not restored after logout. |
+| Registration terms | The placeholder is replaced with a readable terms screen using the existing EcoMind components. **The legal copy is provisional and requires team approval.** This change does not add server-side storage of consent or a terms version. |
+
+The backend uses stateless access tokens. Logout does not revoke the token on the server; the
+client discards its session. Password-reset completion and local session cleanup are separate
+steps so a cleanup retry does not consume the recovery token again.
+
+## Design references
+
+- [Current sign-up frame](https://www.figma.com/design/nQ8aSe0ovKrqrfQpvV21TC/EcoMind-Designs?node-id=2-1415).
+- [Current settings frame](https://www.figma.com/design/nQ8aSe0ovKrqrfQpvV21TC/EcoMind-Designs?node-id=284-5264).
+
+These frames are visual references from the current team file. The new states retain the existing
+logo, form fields, buttons, colors and typography. A Figma reference alone does not prove
+working application behavior or user validation.
+
+## Recorded verification
+
+| Check | Result | Scope |
+|---|---|---|
+| Android JVM tests | 33 tests; 0 failures, 0 errors, 0 skipped | Seven suites from `testDebugUnitTest`. |
+| Android application build | Passed | `assembleDebug`. |
+| Android instrumented-test build | Passed | `assembleDebugAndroidTest`; building the test APK does not prove native execution. |
+| Existing backend unit tests | 6 passed | Password recovery service regressions. |
+| Existing backend acceptance tests | 8 scenarios passed | HU-058 and HU-059, with H2 and the recording email adapter. |
+| Local API integration | Passed | Real Spring Boot server with an isolated H2 in-memory database, port `8092`; no external email provider. |
+| Native ViewModel tests | 3 passed | Instrumented state tests on an API 36 ARM64 emulator. |
+| Native Compose screen tests | 4 passed | Instrumented content and interaction tests on the same emulator. |
+| Application navigation tests | 4 passed | Terms retain the form, recovery returns to sign-in, missing-token links show an error, and incoming links survive activity recreation. |
+| Android-to-backend integration test | 1 passed | Reset password, sign in, press Back during logout and recreate the activity against the local API. |
+| Cold recovery-link entry | Passed | Open a fresh recovery link after force-stopping the application; the reset form is displayed. |
+| Rendered screen review | Passed | Seven unedited emulator screenshots reviewed against the existing components and current Figma references. |
+
+The 12 passed native tests used an API 36 ARM64 emulator at `360 × 800` with host/Metal graphics.
+The final navigation and API runs also produced the screenshots below. Earlier attempts had
+SystemUI/Quickstep ANR dialogs; those captures were discarded. The system dialogs were closed
+before the final visual evidence was captured. Emulator checks do not establish physical-device
+behavior.
+
+The [native test output](native-tests.txt) records the final passing runs on Android revision
+`931a785`.
+
+The local API check verified sign-in and the authenticated account (`200`), logout (`204`, empty
+body), rejection without a token (`401`), password reset (`204`, empty body), rejection of the
+previous password (`401`), acceptance of the new password (`200`) and rejection of a consumed
+recovery token (`422`).
+
+The local test harness adds a `900 ms` logout delay to reproduce leaving the screen while the
+request is pending. One API measurement recorded `949 ms`. The delay is test-only and is not a
+backend source or production configuration change. The native regression verified that pressing
+Back during this delayed logout still clears the session and returns to sign-in; activity recreation
+does not restore the protected destination.
+
+## Implementation references
+
+| Repository | Commit | Change |
+|---|---|---|
+| Android | `3592349` | Connect recovery and logout APIs. |
+| Android | `cfe6ff7` | Add recovery and session screens. |
+| Android | `3ed4ada` | Preserve activity launch metadata when consuming recovery links. |
+| Android | `931a785` | Wait for completed access navigation in regression tests. |
+| Backend | `e4893fb` | Document the Android recovery link and session contract. |
+
+The backend regressions were run at `a6d1491`. Its Java source matches the `origin/develop` base
+`36b0a2b` used for this change. No new backend feature is attributed to the documentation update.
+
+## Review links
+
+- [Android implementation](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/8), targeting `develop`.
+- [Backend contract documentation](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/25), targeting `develop`.
+
+## Screenshots
+
+These captures show the rendered emulator application with a synthetic local account. They do
+not show production data or replace the course's physical-device evidence.
+
+| Screen | Capture |
+|---|---|
+| Recovery request | [password-recovery.png](password-recovery.png) |
+| Password reset | [password-reset.png](password-reset.png) |
+| Password updated | [password-updated.png](password-updated.png) |
+| Terms | [terms.png](terms.png) |
+| Settings | [settings.png](settings.png) |
+| Signed out | [signed-out.png](signed-out.png) |
+| Cold recovery-link entry | [cold-recovery-link.png](cold-recovery-link.png) |
+
+## Remaining verification
+
+- Physical-device execution.
+- Team-approved terms text.
+- Production `PASSWORD_RECOVERY_URL` configuration and real Resend delivery.
+
+The recording email adapter and synthetic local account do not demonstrate production email
+delivery. No passwords, verification codes, access tokens, live recovery links or private
+credential-file paths are included in this evidence.

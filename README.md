@@ -3850,11 +3850,11 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
         <li><b>Cuando</b> selecciona la opción "Forgot password?" e ingresa su correo registrado,</li>
         <li><b>Entonces</b> el sistema envía un enlace de recuperación al correo electrónico del usuario.</li>
       </ul>
-      <b>Escenario 2:</b> Correo no registrado<br/>
+      <b>Escenario 2:</b> Respuesta de recuperación sin revelar cuentas<br/>
       <ul>
-        <li><b>Dado que</b> el usuario ingresa un correo que no existe en la plataforma,</li>
+        <li><b>Dado que</b> el usuario ingresa un correo con formato válido, exista o no una cuenta asociada,</li>
         <li><b>Cuando</b> solicita recuperar su contraseña,</li>
-        <li><b>Entonces</b> el sistema informa que el correo ingresado no se encuentra registrado.</li>
+        <li><b>Entonces</b> el sistema muestra el mismo mensaje de solicitud recibida, sin revelar si el correo se encuentra registrado, y envía el enlace únicamente cuando existe una cuenta asociada.</li>
       </ul>
       <b>Escenario 3:</b> Restablecimiento exitoso de contraseña<br/>
       <ul>
@@ -9368,3 +9368,9 @@ Se recomienda incorporar al Roadmap del producto el seguimiento del aprendizaje 
 ## Anexo 1. Video de ejecución de la aplicación Android
 
 [Video de ejecución de EcoMind — Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410093_upc_edu_pe/IQBVA-AU-FA9TLx1V8zV1IPRAYv5FncU0FDrAn9In9ViiO8?e=ozx3X8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
+
+<div style="page-break-before: always;"></div>
+
+## Anexo 2. Evidencia de acceso y sesión (AV2)
+
+El [registro de implementación y validación de IAM](assets/evidence/iam-account-access/README.md) relaciona las historias HU-058 y HU-059 con sus contratos, commits, pruebas y referencias de diseño. El registro distingue la verificación local de la validación en producción y señala las comprobaciones pendientes. La pantalla de términos conserva un texto provisional hasta contar con la versión aprobada por el equipo.
