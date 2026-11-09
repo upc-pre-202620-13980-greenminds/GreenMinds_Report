@@ -25,11 +25,16 @@ from those labels.
 | Requirement | Observed evidence | State | Remaining action |
 |---|---|---|---|
 | HU-058, scenario 1: request recovery from sign-in | Forgot-password navigation, normalized email and request API call are implemented. Backend BDD records delivery through a recording email adapter. | Implemented; production delivery unverified | Verify an approved test inbox receives the real message and its link opens the installed app. |
-| HU-058, scenario 2: do not disclose account existence | The backend returns the same request response for registered and unknown addresses; Android uses a generic confirmation. Unit, screen and BDD tests cover the contract. | Verified locally | Retain the same response in production. |
+| HU-058, scenario 2: generic recovery response (report alignment under review) | The backend returns the same request response for registered and unknown addresses; Android uses a generic confirmation. Unit, screen and BDD tests cover that contract. | API behavior verified locally; report correction under review | Review the scenario alignment in report PR #12; the previous wording disclosed unknown addresses. |
 | HU-058, scenario 3: change password and sign in again | Native API test resets the password and signs in; API checks reject the old password and a consumed token. The link parser, invalid-link states, weak-password and confirmation checks are tested. | Verified locally | Repeat the journey with the deployed backend and real email. |
 | HU-059, scenario 1: logout and return to sign-in | Bearer-authenticated logout accepts empty `204`; local credentials are cleared even after request failure. The delayed API test presses Back during logout and recreates the activity. | Verified locally | Repeat on a physical device with the deployed API. |
 | HU-059, scenario 2: protected destinations require a new login | Logout clears saved tab stacks, graph state and balances. Native recreation remains on sign-in; API access without a token returns `401`. | Verified locally | Confirm device Back and relaunch behavior in physical-device evidence. |
 | Registration terms: readable screen reachable from sign-up | A scrollable terms screen and return navigation preserve the registration form. Two dedicated instrumented tests verify that valid registration is blocked before acceptance and after acceptance is withdrawn. | Screen implemented; legal content incomplete | Replace the explicitly provisional copy with the team-approved terms and privacy information. |
+
+The baseline report described an explicit error for an unknown email address. The existing
+backend instead acknowledges both cases to avoid disclosing registered accounts. Report PR #12
+proposes aligning scenario 2 with that contract. This is an explicit correction under review,
+not evidence that the old disclosure behavior was implemented.
 
 Logout uses the existing stateless contract: Android discards credentials; the backend does not
 revoke previously issued JWTs. No server-side revocation, consent version or consent audit record

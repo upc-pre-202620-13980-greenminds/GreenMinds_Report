@@ -3,6 +3,10 @@
 This evidence covers HU-058, HU-059 and the registration terms screen. It does not establish that
 Sprint 2, the complete backend scope or the AV2 delivery is finished.
 
+The previous HU-058 scenario 2 described disclosing an unknown address. This report change
+proposes the existing backend’s generic response instead; that criteria correction remains
+under review in report PR #12.
+
 ## Implemented behavior
 
 | Scope | Behavior |
