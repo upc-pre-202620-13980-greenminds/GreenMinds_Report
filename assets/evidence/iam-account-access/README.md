@@ -27,6 +27,9 @@ working application behavior or user validation.
 
 ## Recorded verification
 
+The following results were collected on 2026-11-05 for Android `931a785` and the backend
+revision identified below. They are retained separately from the later integrated check.
+
 | Check | Result | Scope |
 |---|---|---|
 | Android JVM tests | 33 tests; 0 failures, 0 errors, 0 skipped | Seven suites from `testDebugUnitTest`. |
@@ -94,6 +97,27 @@ not show production data or replace the course's physical-device evidence.
 | Settings | [settings.png](settings.png) |
 | Signed out | [signed-out.png](signed-out.png) |
 | Cold recovery-link entry | [cold-recovery-link.png](cold-recovery-link.png) |
+
+## Integrated verification — 2026-11-08
+
+Android and backend PRs above are merged into `develop`; the report is still under review.
+The latest inspected Android `develop` revision, `e137d95`, passed `testDebugUnitTest`,
+`assembleDebug` and `assembleDebugAndroidTest`: 54 JVM tests across nine suites, with no
+failures, errors or skips. The [result record](integrated-validation.json) preserves the suite
+counts. On backend `988a49a`, the six recovery unit tests and eight HU-058/HU-059 BDD scenarios
+also passed again with the test profile and recording email adapter.
+
+The later native runs passed 14 tests on Android `e74125b` (base `e137d95`): 11 existing
+state/content/navigation tests, two explicit-acceptance tests and the full local API journey
+against backend `988a49a`. The local account’s tutorial was pre-completed to isolate IAM; this
+check does not validate the Learning tutorial flow. The [native output](native-integrated-tests.txt)
+records those runs. The application code is unchanged
+from that base; [Android PR #14](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/14)
+contains tests only. The 2026-11-05 native results above retain
+their original revision.
+
+The [acceptance checklist](acceptance-checklist.md) maps each IAM criterion to evidence and
+separates local verification from the remaining checks for IAM.
 
 ## Remaining verification
 
