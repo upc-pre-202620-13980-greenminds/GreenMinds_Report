@@ -14,7 +14,7 @@ under review in report PR #12.
 | HU-058: request recovery | Android normalizes the email and calls `POST /api/v1/authentication/password-recovery/request`. The `200` response uses the same message whether or not an account exists. |
 | HU-058: reset password | The recovery link opens `ecomind://authentication/reset-password?token=<recovery-token>`. Confirmation calls `POST /api/v1/authentication/password-recovery/confirm` and accepts `204` with no body. Invalid, expired or consumed tokens map to `PASSWORD_RESET_TOKEN_INVALID` (`422`); a weak password maps to `PASSWORD_POLICY_VIOLATION` (`400`). |
 | HU-059: logout | Android calls `POST /api/v1/authentication/logout` with the current Bearer token, accepts an empty `204` response and clears the stored session. Local cleanup also runs after a network failure or coroutine cancellation. The access flow uses a new navigation controller so protected destinations and saved tab state are not restored after logout. |
-| Registration terms | The placeholder is replaced with a readable terms screen using the existing EcoMind components. **The legal copy is provisional and requires team approval.** This change does not add server-side storage of consent or a terms version. |
+| Registration terms | The placeholder is replaced with a readable terms screen using the existing EcoMind components. The initial provisional copy is superseded by the [version 1.0 terms increment](terms-and-email-2026-11-10.md). This change does not add server-side storage of consent or a terms version. |
 
 The backend uses stateless access tokens. Logout does not revoke the token on the server; the
 client discards its session. Password-reset completion and local session cleanup are separate
@@ -126,9 +126,16 @@ separates local verification from the remaining checks for IAM.
 ## Remaining verification
 
 - Physical-device execution.
-- Team-approved terms text.
+- Production rollout of the version 1.0 terms increment.
 - Production `PASSWORD_RECOVERY_URL` configuration and real Resend delivery.
 
 The recording email adapter and synthetic local account do not demonstrate production email
 delivery. No passwords, verification codes, access tokens, live recovery links or private
 credential-file paths are included in this evidence.
+
+## Terms and email completion — 2026-11-10
+
+The [terms and mail increment](terms-and-email-2026-11-10.md) records the completed body copy,
+14 native checks, 54 JVM checks, 18 backend unit tests and eight BDD scenarios. Resend request
+handling is tested with a mock provider; actual inbox delivery remains unverified because the
+service administration account is unavailable. No private demos were uploaded.

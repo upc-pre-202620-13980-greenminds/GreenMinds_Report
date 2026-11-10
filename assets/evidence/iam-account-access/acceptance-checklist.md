@@ -29,7 +29,7 @@ from those labels.
 | HU-058, scenario 3: change password and sign in again | Native API test resets the password and signs in; API checks reject the old password and a consumed token. The link parser, invalid-link states, weak-password and confirmation checks are tested. | Verified locally | Repeat the journey with the deployed backend and real email. |
 | HU-059, scenario 1: logout and return to sign-in | Bearer-authenticated logout accepts empty `204`; local credentials are cleared even after request failure. The delayed API test presses Back during logout and recreates the activity. | Verified locally | Repeat on a physical device with the deployed API. |
 | HU-059, scenario 2: protected destinations require a new login | Logout clears saved tab stacks, graph state and balances. Native recreation remains on sign-in; API access without a token returns `401`. | Verified locally | Confirm device Back and relaunch behavior in physical-device evidence. |
-| Registration terms: readable screen reachable from sign-up | A scrollable terms screen and return navigation preserve the registration form. Two dedicated instrumented tests verify that valid registration is blocked before acceptance and after acceptance is withdrawn. | Screen implemented; legal content incomplete | Replace the explicitly provisional copy with the team-approved terms and privacy information. |
+| Registration terms: readable screen reachable from sign-up | A scrollable terms screen and return navigation preserve the registration form. Two dedicated instrumented tests verify that valid registration is blocked before acceptance and after acceptance is withdrawn. | Version 1.0 copy and readable navigation verified in the new increment | Integrate Android PR #15; preserve manual privacy-request limits. |
 
 The baseline report described an explicit error for an unknown email address. The existing
 backend instead acknowledges both cases to avoid disclosing registered accounts. Report PR #12
@@ -76,7 +76,7 @@ subsequent unrelated changes. Passing tests are not evidence of legal approval o
 | Core mobile flows consume the existing REST API | Recovery request/confirmation and authenticated logout are connected. | Verified locally; real delivery from the deployed environment remains pending. |
 | Class architecture and project GitFlow | Existing use-case/repository/ViewModel layers, Hilt, typed navigation, feature branches and personal authorship are preserved. | Verified for this increment. |
 | Default English and locale resources | Recovery, sign-in, logout and terms resources exist in default English and `values-b+es+419`, with matching keys. | Resource parity verified; physical-device accessibility and locale checks remain pending. |
-| Terms are readable and explicitly accepted | Readable screen, preserved form and two passing acceptance-guard tests. | Behavior verified; approved legal content remains pending. |
+| Terms are readable and explicitly accepted | Readable screen, preserved form and two passing acceptance-guard tests. | Version 1.0 completed and verified in Android PR #15. |
 | Sprint evidence is traceable | Report section 4.2.2 and the implementation record link commits, tests, contracts and captures. | IAM contribution recorded; this is not a claim that the entire Sprint 2 is complete. |
 | Real execution evidence | Emulator captures and recorded native/API checks exist. | Physical-device verification remains pending. |
 
@@ -95,5 +95,6 @@ and legal checks without marking them complete.
 ## Closure criteria
 
 IAM can be demonstrated locally now. It must not be represented as fully ready for delivery
-while final legal content, production recovery delivery and physical-device execution remain
-unverified. Repository integration alone does not prove production delivery or physical-device behavior.
+while production recovery delivery and physical-device execution remain unverified. The
+[2026-11-10 increment](terms-and-email-2026-11-10.md) completes the terms content and records
+mail integration checks separately from real delivery. Repository integration alone does not prove production delivery or physical-device behavior.
