@@ -1,6 +1,6 @@
 # Remaining IAM checks
 
-Use this record with a controlled test account and version 1.0 terms copy. Do not treat the
+Use this record with a controlled test account and the current version 1.1 terms copy. Do not treat the
 unchecked items below as completed. Never publish passwords, verification codes, access tokens,
 recovery-link tokens or private inbox contents in screenshots or videos.
 
@@ -29,7 +29,7 @@ recovery-link tokens or private inbox contents in screenshots or videos.
 - Record device model, OS version, app revision, API environment, date, steps and observed results.
 - Complete registration with valid fields but without accepting terms: submission must remain
   on the form with an acceptance error. The checkbox must start unchecked.
-- Open and read the version 1.0 terms and privacy text; return and verify form preservation.
+- Open and read the version 1.1 terms and privacy text; return and verify form preservation.
   Accept explicitly and confirm registration can continue. Repeat after unchecking it.
 - Sign in, visit a protected destination and **Log out**. Verify sign-in is shown. Press Back,
   rotate, relaunch and verify that the previous protected destination is not restored.
@@ -48,6 +48,11 @@ recovery-link tokens or private inbox contents in screenshots or videos.
 | Reset and consumed-link behavior on a physical device | Pending | Pending | Pending | Not verified |
 | Logout, Back and relaunch on a physical device | Pending | Pending | Pending | Not verified |
 | Version 1.0 terms, explicit acceptance and accessible reading | 2026-11-10, Android eb582eb, emulator | Reading/return tested in both locales, including 150% Spanish text; physical-device check pending | [Increment record](terms-and-email-2026-11-10.md) | Emulator verified |
+
+Version1.1 was checked on November 11 in the current Android integration and rendered in Flutter
+(English and es-419 with 150% text). Settings → Terms → Settings was exercised against the local
+API. These checks do not close the physical-device or deployed-email rows. See the
+[client follow-up](client-alignment-2026-11-11.md).
 
 Keep these results separate from App Validation with participants. A developer walkthrough does
 not replace the course’s user-validation sessions, About the Product or About the Team videos.

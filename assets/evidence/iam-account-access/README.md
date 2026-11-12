@@ -139,3 +139,10 @@ The [terms and mail increment](terms-and-email-2026-11-10.md) records the comple
 14 native checks, 54 JVM checks, 18 backend unit tests and eight BDD scenarios. Resend request
 handling is tested with a mock provider; actual inbox delivery remains unverified because the
 service administration account is unavailable. No private demos were uploaded.
+
+## Current client alignment — 2026-11-11
+
+The [client follow-up](client-alignment-2026-11-11.md) records version 1.1 terms shared with the
+parent Flutter client and restores post-registration access after the Android settings update.
+It preserves the team’s role and client direction without changing account contracts or claiming
+that all Flutter IAM flows are implemented. Historical screenshots and videos keep their dates.

@@ -90,6 +90,7 @@ Proyecto <br>
 | 2.0.0    | 05/11/2026     | Mauricio Pajes | docs: align HU-058 acceptance criteria with the generic recovery response <br> docs: add IAM implementation, test results and screenshots |
 | 2.0.0    | 08/11/2026     | Mauricio Pajes | docs: trace IAM acceptance to AV2 requirements <br> docs: update the verified IAM contribution and remaining checks |
 | 2.0.0    | 10/11/2026     | Mauricio Pajes | docs: record completed terms and recovery email validation |
+| 2.0.0    | 11/11/2026     | Mauricio Pajes | fix: align shared terms with current mobile clients |
 
 <div style="page-break-before: always;"></div>
 
@@ -127,7 +128,7 @@ Asimismo, los integrantes revisaron y complementaron las secciones del informe p
 
 Mauricio Pajes incorporó al informe la evidencia de recuperación de contraseña (HU-058), cierre de sesión (HU-059) y navegación de términos del registro. El aporte relaciona los criterios de aceptación con los contratos de la API, los commits, las pruebas ejecutadas y las capturas. Las referencias de diseño corresponden al archivo Figma actual del equipo. Los cambios de Android y la documentación del Backend se integraron mediante los PR [Android #8](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/8) y [Backend #25](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/25).
 
-La [matriz de verificación IAM](assets/evidence/iam-account-access/acceptance-checklist.md) relaciona el alcance asignado con sus pruebas y los requisitos del curso aplicables. El texto de términos y privacidad se completó en la versión 1.0 del 10/11/2026; la entrega real del correo y la ejecución en un dispositivo físico continúan pendientes.
+La [matriz de verificación IAM](assets/evidence/iam-account-access/acceptance-checklist.md) relaciona el alcance asignado con sus pruebas y los requisitos del curso aplicables. El texto de términos y privacidad se completó en la versión 1.0 del 10/11/2026 y se ajustó a la versión 1.1 para ambos clientes el 11/11/2026; la entrega real del correo y la ejecución en un dispositivo físico continúan pendientes.
 
 
 
@@ -9053,7 +9054,9 @@ El aporte de Mauricio Pajes comprende HU-058, HU-059 y la pantalla de términos 
 
 **Pruebas y ejecución.** Android `931a785` registró 33 pruebas JVM y 12 instrumentadas, incluidas la recuperación, la navegación y el recorrido con la API local. En la integración posterior `e137d95`, el APK y el APK de pruebas compilaron y pasaron 54 pruebas JVM. El incremento de pruebas `e74125b` verificó además 14 casos instrumentados: los 11 existentes de estado, contenido y navegación, dos de aceptación explícita de términos y el recorrido completo con la API local actual. El tutorial de la cuenta sintética se completó previamente para aislar IAM. Backend `988a49a` volvió a superar seis pruebas unitarias y ocho escenarios BDD de HU-058/HU-059 con el perfil de pruebas. El [registro integrado](assets/evidence/iam-account-access/integrated-validation.json) conserva las revisiones y el alcance. Las [capturas](assets/evidence/iam-account-access/README.md#screenshots) proceden de un emulador y una cuenta sintética.
 
-**Cierre de IAM.** La pantalla de términos y su aceptación funcionan y el contenido de términos y privacidad se completó en la versión 1.0. La configuración desplegada de `PASSWORD_RECOVERY_URL`, la entrega real por Resend y la ejecución en un teléfono físico aún requieren verificación. Las consultas públicas de OpenAPI realizadas en esta revisión no recibieron respuesta dentro de los límites de tiempo, por lo que no acreditan disponibilidad. El [registro de comprobaciones pendientes](assets/evidence/iam-account-access/manual-checks.md) permite completar esas verificaciones. Esta evidencia documenta el aporte de IAM y no acredita por sí sola el Sprint 2 completo.
+**Coordinación de clientes.** El enfoque acordado distingue Android para niños y Flutter para padres, conservando las funciones compartidas y el mismo Backend. El [seguimiento de IAM del 11/11/2026](assets/evidence/iam-account-access/client-alignment-2026-11-11.md) registra los términos compartidos versión 1.1, su acceso desde Settings en Android y Profile en Flutter, y la comprobación contra los ajustes recientes del equipo. El flujo de recuperación registrado en esta sección corresponde a Android; no se atribuye una implementación de recuperación a Flutter.
+
+**Cierre de IAM.** La pantalla de términos y su aceptación funcionan y el contenido vigente de términos y privacidad es la versión 1.1. La configuración desplegada de `PASSWORD_RECOVERY_URL`, la entrega real por Resend y la ejecución en un teléfono físico aún requieren verificación. Las consultas públicas de OpenAPI realizadas en esta revisión no recibieron respuesta dentro de los límites de tiempo, por lo que no acreditan disponibilidad. El [registro de comprobaciones pendientes](assets/evidence/iam-account-access/manual-checks.md) permite completar esas verificaciones. Esta evidencia documenta el aporte de IAM y no acredita por sí sola el Sprint 2 completo.
 
 ## 4.3. Validation Interviews
 
