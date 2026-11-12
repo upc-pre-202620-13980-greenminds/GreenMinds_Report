@@ -68,7 +68,8 @@ The existing Azure metrics/logging and cost budget remain in use.
 - [Identity and role template](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/develop/infra/azure/github-deploy.bicep)
 
 Nine offline deployment tests passed, covering exact revision/digest, public smoke,
-rollback, concurrent updates and pending revisions. Actionlint passed. ARM template
+rollback, concurrent updates and pending revisions. No forced live rollback was
+performed on the shared application. Actionlint passed. ARM template
 build, validation, change preview and identity/role deployment succeeded. Full CI
 and the first merge-triggered Azure rollout are recorded below after observation.
 
@@ -120,3 +121,39 @@ image was built or deployed manually. Azure independently reported:
 The run verified the exact requested revision/digest and public HTTP checks. The
 initial authentication setup failure is not represented as a successful first attempt.
 The next merge's fully automatic result is recorded separately below.
+
+## Final merged verification
+
+Backend PR #39 was merged as `dafd261711ddf3cf3a4c084c4220e92e754b7621`, with a
+tree identical to tested source `3afef07b0e4408ea2a478356afd754dbe7b4d298`.
+[Push run 43319120978](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43319120978)
+was triggered automatically by that merge, with no manual dispatch or retry.
+
+The retained Surefire/JaCoCo artifacts from that push show:
+
+| Database | Tests | Failures/errors/skips | Line coverage | Branch coverage |
+| --- | ---: | --- | --- | --- |
+| h2 | 698 | 0 / 0 / 0 | 8587/9975 (86.09%) | 1978/2802 (70.59%) |
+| postgresql | 698 | 0 / 0 / 0 | 8589/9975 (86.11%) | 1978/2802 (70.59%) |
+
+The nine isolated deployment-helper tests also passed. The final image scan report
+contains zero fixable HIGH/CRITICAL findings. No general Maven JAR artifact was
+uploaded; test/coverage reports and the deployment-safe image were retained.
+
+## Final automatic deployment result
+
+Push run **43319120978 completed successfully on attempt 1**, including Azure login,
+image publication and runtime verification. It was triggered solely by the merge into
+`develop`; no manual dispatch, retry or local deployment command was required.
+
+Azure independently reported `ca-ecomind-api--gh-43319120978-1` as the latest ready
+revision, active, Healthy, Provisioned and Running. Its immutable image digest is
+`sha256:48e53a2b203f4434304a9ce8abe8446cc6eb2f58287a1f570aa0b301cbabba31`.
+Public verification returned OpenAPI 200 with 133 documented paths and anonymous
+account access 401. The endpoint used by both mobile apps is unchanged.
+
+[Sanitized execution evidence](azure-devops-validation-2026-11-12.json) records the
+source, run, tests, coverage, image, revision and limits. GitHub's ordinary push event
+now performs the full path `tests → coverage → image/scan → publish → rollout → health`.
+Optional branch protection does not gate this requested automation. Image rollback is
+implemented and covered by offline safety tests; no forced live failure was introduced.
