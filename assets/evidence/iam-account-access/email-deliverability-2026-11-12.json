@@ -1,0 +1,52 @@
+{
+  "checkedOn": "2026-11-12",
+  "initialMessage": {
+    "at": "2026-11-12T17:48:22.466Z",
+    "spf": "PASS",
+    "dkim": "PASS",
+    "dkimDomain": "azurecomm.net",
+    "dmarc": "PASS",
+    "sendingIp": "2a01:111:f403:c001::5",
+    "mime": {
+      "contentTypes": [
+        "multipart/alternative; boundary=\"=-cDMoNdyde2EgVwjTt1hJJg==\"",
+        "text/plain; charset=utf-8",
+        "multipart/related; boundary=\"=-/7jGJRdY407CxMBlVEoRgQ==\"; type=\"text/html\"",
+        "text/html; charset=utf-8",
+        "image/png; name=ecomind-logo.png"
+      ],
+      "dispositions": [],
+      "contentIds": [
+        "<cdd6cd03-fe26-4f5d-8b02-04597c9bdf46>",
+        "<ecomind-logo>"
+      ],
+      "tls": [
+        "TLS1_3"
+      ]
+    }
+  },
+  "followUp": {
+    "received": true,
+    "displayName": "EcoMind",
+    "initialPlacement": "inbox",
+    "manuallyMoved": false,
+    "spf": "PASS",
+    "dkim": "PASS",
+    "dkimDomain": "azurecomm.net",
+    "dmarc": "PASS",
+    "sendingIp": "2a01:111:f403:c001::2",
+    "mailboxPreviouslyMarkedEarlierMessagesNotSpam": true,
+    "globalInboxPlacementEstablished": false
+  },
+  "senderChange": {
+    "resource": "ecs-ecomind-2c297d64/AzureManagedDomain/donotreply",
+    "before": "DoNotReply",
+    "after": "EcoMind",
+    "deployment": "ecomind-sender-brand-20261112",
+    "state": "Succeeded",
+    "sameDefaultSenderAddress": true
+  },
+  "domainOwnership": "Owner confirms no custom domain",
+  "domainPurchase": "Not authorized or submitted",
+  "scope": "A result in an already trained owner mailbox does not establish inbox placement for other recipients."
+}

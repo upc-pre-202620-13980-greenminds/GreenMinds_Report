@@ -1,0 +1,10 @@
+{
+  "aca": "https://app.diagrams.net/img/lib/azure2/other/Container_App_Environments.svg",
+  "pg": "https://app.diagrams.net/img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg",
+  "kv": "https://app.diagrams.net/img/lib/azure2/security/Key_Vaults.svg",
+  "acr": "https://app.diagrams.net/img/lib/azure2/containers/Container_Registries.svg",
+  "logs": "https://app.diagrams.net/img/lib/azure2/management_governance/Log_Analytics_Workspaces.svg",
+  "email": "https://app.diagrams.net/img/lib/azure2/other/Azure_Communication_Services.svg",
+  "vnet": "https://app.diagrams.net/img/lib/azure2/networking/Virtual_Networks.svg",
+  "identity": "https://app.diagrams.net/img/lib/azure2/identity/Entra_Managed_Identities.svg"
+}

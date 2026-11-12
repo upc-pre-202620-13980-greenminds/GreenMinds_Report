@@ -1,0 +1,82 @@
+[
+  {
+    "location": "eastus2",
+    "name": "vnet-ecomind-prod",
+    "type": "Microsoft.Network/virtualNetworks"
+  },
+  {
+    "location": "global",
+    "name": "psql-ecomind-2c297d64.private.postgres.database.azure.com",
+    "type": "Microsoft.Network/privateDnsZones"
+  },
+  {
+    "location": "global",
+    "name": "psql-ecomind-2c297d64.private.postgres.database.azure.com/ihxjxw67q3kza",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks"
+  },
+  {
+    "location": "eastus2",
+    "name": "acrecomind2c297d64",
+    "type": "Microsoft.ContainerRegistry/registries"
+  },
+  {
+    "location": "global",
+    "name": "private.postgres.database.azure.com",
+    "type": "Microsoft.Network/privateDnsZones"
+  },
+  {
+    "location": "westus2",
+    "name": "log-ecomind-prod-westus2",
+    "type": "Microsoft.OperationalInsights/workspaces"
+  },
+  {
+    "location": "westus2",
+    "name": "kv-ecomind-2c297d64",
+    "type": "Microsoft.KeyVault/vaults"
+  },
+  {
+    "location": "westus2",
+    "name": "vnet-ecomind-prod-westus2",
+    "type": "Microsoft.Network/virtualNetworks"
+  },
+  {
+    "location": "westus2",
+    "name": "cae-ecomind-prod-westus2",
+    "type": "Microsoft.App/managedEnvironments"
+  },
+  {
+    "location": "global",
+    "name": "private.postgres.database.azure.com/ecomind-westus2",
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks"
+  },
+  {
+    "location": "westus2",
+    "name": "psql-ecomind-2c297d64-westus2",
+    "type": "Microsoft.DBforPostgreSQL/flexibleServers"
+  },
+  {
+    "location": "westus2",
+    "name": "id-ecomind-api-pull",
+    "type": "Microsoft.ManagedIdentity/userAssignedIdentities"
+  },
+  {
+    "location": "westus2",
+    "name": "ca-ecomind-api",
+    "type": "Microsoft.App/containerApps"
+  },
+  {
+    "location": "global",
+    "name": "ecs-ecomind-2c297d64",
+    "type": "Microsoft.Communication/EmailServices"
+  },
+  {
+    "location": "global",
+    "name": "ecs-ecomind-2c297d64/AzureManagedDomain",
+    "type": "Microsoft.Communication/EmailServices/Domains"
+  },
+  {
+    "location": "global",
+    "name": "acs-ecomind-2c297d64",
+    "type": "Microsoft.Communication/CommunicationServices"
+  }
+]
