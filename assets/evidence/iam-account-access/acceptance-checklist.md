@@ -11,7 +11,13 @@ password reset, rejection of the previous password, rejection of a reused reset 
 logout followed by unauthorized access without a JWT. Current client feature branches
 point to Azure. New synthetic demonstration data replaces the attempted legacy-data
 migration. The branded mail layout and HTTPS handoff are tracked separately in that record.
-Physical-device execution and team integration remain open; this is not an AV2 closure.
+This historical runtime record predates the client integration described below.
+Physical-device execution remains open; this is not an AV2 closure.
+
+The [current client integration record](azure-clients-2026-11-12.md) supersedes the historical
+implementation status below: terms v1.2 and Azure defaults are implemented in both apps,
+and controlled-link emulator validation is separate from the still-unconfirmed current
+ACS mail operation. Historical real-mail receipt is retained with its original source.
 
 ## Sources and interpretation
 

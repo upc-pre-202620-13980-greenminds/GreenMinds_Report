@@ -128,7 +128,7 @@ Asimismo, los integrantes revisaron y complementaron las secciones del informe p
 
 Mauricio Pajes incorporó al informe la evidencia de recuperación de contraseña (HU-058), cierre de sesión (HU-059) y navegación de términos del registro. El aporte relaciona los criterios de aceptación con los contratos de la API, los commits, las pruebas ejecutadas y las capturas. Las referencias de diseño corresponden al archivo Figma actual del equipo. Los cambios de Android y la documentación del Backend se integraron mediante los PR [Android #8](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/8) y [Backend #25](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/25).
 
-La [matriz de verificación IAM](assets/evidence/iam-account-access/acceptance-checklist.md) relaciona el alcance asignado con sus pruebas y los requisitos del curso aplicables. El texto de términos y privacidad se completó en la versión 1.0 del 10/11/2026 y se ajustó a la versión 1.1 para ambos clientes el 11/11/2026; la entrega real del correo y la ejecución en un dispositivo físico continúan pendientes.
+La [matriz de verificación IAM](assets/evidence/iam-account-access/acceptance-checklist.md) relaciona el alcance asignado con sus pruebas y los requisitos del curso aplicables. El texto de términos y privacidad llegó a la versión 1.2 el 12/11/2026. El [seguimiento de clientes en Azure](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) distingue las pruebas con enlace controlado en emulador de la entrega actual del correo, que continúa sin confirmarse. La evidencia en dispositivo físico permanece pendiente.
 
 
 
@@ -4472,7 +4472,7 @@ Los patrones de relación seleccionados para cada integración son los siguiente
 | `Learning` ↔ `Users` | Separate Ways | Users solo ofrece en el perfil un enlace visual hacia la sección de favoritos; Learning sigue siendo dueño exclusivo de consultarlos mediante `userId`. No existe llamada entre ambos backends. |
 | `Learning` ↔ `Quests` | Separate Ways | Quests solo provee el punto de navegación "Aprende más"; no hay llamada de API ni modelo compartido entre ambos contextos. |
 | `Monetization`, `Gamification` → `Users` (en el perfil) | Separate Ways (UI) | El cosmético equipado, el balance de gemas, la racha y los ecopoints que se muestran en el perfil de Users se sincronizan a nivel de aplicación móvil, no mediante una llamada backend documentada entre estos contextos. |
-| `IAM` → `Resend` | Anticorruption Layer | `ResendEmailService` traduce la necesidad de dominio ("enviar verificación") al contrato específico de la API de Resend. |
+| `IAM` → `Azure Communication Services Email` | Anticorruption Layer | `AzureEmailService` implementa `EmailService` y adapta el envío de verificación y recuperación al SDK de Azure. Es el proveedor seleccionado en el despliegue actual; `ResendEmailService` se conserva como alternativa configurable. |
 | `Monetization` → Tarjeta / Yape / PayPal | Anticorruption Layer | Cada `PaymentGateway` (`CardPaymentGateway`, `YapePaymentGateway`, `PayPalPaymentGateway`) traduce el dominio de pago de Monetization al contrato propio de cada pasarela externa. |
 | `Community` → `Leaflet` | Anticorruption Layer | `LeafletServiceClient` adapta la información geográfica externa al modelo de `Location` propio de Community. |
 
@@ -4661,7 +4661,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 | Nombre | Responsabilidad principal | Destino |
 |---|---|---|
-| `EmailService` | Enviar correos de verificación y de recuperación de contraseña. | Email Service / Resend. |
+| `EmailService` | Enviar correos de verificación y de recuperación de contraseña. | Azure Communication Services Email en el despliegue actual. |
 | `UsersContextGateway` | Enviar `CreateProfile` después de crear correctamente la cuenta. | Bounded context Users mediante comunicación interna síncrona. |
 | `TokenService` | Emitir y validar access tokens firmados con expiración. | Implementación JWT en Infrastructure Layer. |
 
@@ -4686,7 +4686,8 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 | Security Configuration | `WebSecurityConfiguration` | Definir endpoints públicos, protegidos y el orden del filtro JWT. | Spring Security. |
 | Security Principal | `AuthenticatedUserPrincipal` | Representar el `AccountId` autenticado dentro de la solicitud. | Consumido por controllers y `CurrentAuthenticatedUserService`. |
 | Cryptography Adapter | `PasswordHasherImpl` | Generar y comparar hashes resistentes para contraseñas. | Implementa `PasswordHasher`. |
-| Email Adapter | `ResendEmailService` | Enviar correos de verificación y recuperación. | Implementa `EmailService` mediante la API de Resend. |
+| Email Adapter | `AzureEmailService` | Enviar correos de verificación y recuperación y consultar su estado con espera acotada. | Implementa `EmailService` mediante el SDK de Azure; conserva diagnósticos sin destinatarios, claves ni tokens. |
+| Alternative Email Adapter | `ResendEmailService` | Permitir seleccionar el proveedor anterior mediante configuración. | Implementa `EmailService` mediante la API de Resend; no es el proveedor activo en Azure. |
 | Internal Context Client | `UsersContextClient` | Enviar el command `CreateProfile` después de crear la cuenta. | Implementa `UsersContextGateway`; llamada interna síncrona. |
 | Android API Client | `IamApiService` | Consumir los endpoints de registro, autenticación y recuperación. | HTTPS/JSON desde la aplicación Android. |
 | Android Token Storage | `AccessTokenStore` | Guardar el JWT en almacenamiento seguro, adjuntarlo a solicitudes y eliminarlo al cerrar sesión. | Almacenamiento cifrado e interceptor HTTP de Android. |
@@ -4695,7 +4696,7 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 
 Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 49 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Secure Token Storage, que guarda el access token de forma protegida y lo elimina al cerrar sesión.
 
-La Figura 50 muestra el módulo IAM dentro del Backend API. Las solicitudes protegidas atraviesan primero el Bearer Authorization Filter del grupo Shared, que valida el access token mediante los Token & Password Services y reenvía la solicitud autenticada a los controllers. Las operaciones de registro, verificación, inicio de sesión y recuperación de contraseña son rutas públicas y llegan directamente a los IAM REST Controllers. Estos despachan commands y queries a los IAM Application Services, que aplican las reglas del IAM Domain Model, emiten los tokens y aplican el hash a las contraseñas, y persisten los datos mediante los IAM Persistence Adapters en EcoMind Database. Los servicios de aplicación también solicitan al Email Service Adapter el envío de correos de verificación y recuperación mediante Resend, y al Users Context Client la creación del perfil, que el IAM Context Listener de Users recibe como el command CreateProfile.
+La Figura 50 muestra el módulo IAM dentro del Backend API. Las solicitudes protegidas atraviesan primero el Bearer Authorization Filter del grupo Shared, que valida el access token mediante los Token & Password Services y reenvía la solicitud autenticada a los controllers. Las operaciones de registro, verificación, inicio de sesión y recuperación de contraseña son rutas públicas y llegan directamente a los IAM REST Controllers. Estos despachan commands y queries a los IAM Application Services, que aplican las reglas del IAM Domain Model, emiten los tokens y aplican el hash a las contraseñas, y persisten los datos mediante los IAM Persistence Adapters en EcoMind Database. Los servicios de aplicación también solicitan al Email Service Adapter el envío de correos de verificación y recuperación, y al Users Context Client la creación del perfil, que el IAM Context Listener de Users recibe como el command CreateProfile. La Figura 50 conserva la vista inicial con Resend; desde el 12/11, el despliegue selecciona `AzureEmailService`. La [arquitectura actual de Azure](assets/diagrams/azure-2026-11-12/architecture-evidence.md) y el [registro de integración de clientes](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) documentan ese cambio y la entrega de correo aún sin confirmar.
 
 **Figura 49**
 
@@ -9054,12 +9055,13 @@ El aporte de Mauricio Pajes comprende HU-058, HU-059 y la pantalla de términos 
 
 **Pruebas y ejecución.** Android `931a785` registró 33 pruebas JVM y 12 instrumentadas, incluidas la recuperación, la navegación y el recorrido con la API local. En la integración posterior `e137d95`, el APK y el APK de pruebas compilaron y pasaron 54 pruebas JVM. El incremento de pruebas `e74125b` verificó además 14 casos instrumentados: los 11 existentes de estado, contenido y navegación, dos de aceptación explícita de términos y el recorrido completo con la API local actual. El tutorial de la cuenta sintética se completó previamente para aislar IAM. Backend `988a49a` volvió a superar seis pruebas unitarias y ocho escenarios BDD de HU-058/HU-059 con el perfil de pruebas. El [registro integrado](assets/evidence/iam-account-access/integrated-validation.json) conserva las revisiones y el alcance. Las [capturas](assets/evidence/iam-account-access/README.md#screenshots) proceden de un emulador y una cuenta sintética.
 
-**Coordinación de clientes.** El enfoque acordado distingue Android para niños y Flutter para padres, conservando las funciones compartidas y el mismo Backend. El [seguimiento de IAM del 11/11/2026](assets/evidence/iam-account-access/client-alignment-2026-11-11.md) registra los términos compartidos versión 1.1, su acceso desde Settings en Android y Profile en Flutter, y la comprobación contra los ajustes recientes del equipo. El flujo de recuperación registrado en esta sección corresponde a Android; no se atribuye una implementación de recuperación a Flutter.
+**Coordinación de clientes.** El enfoque acordado distingue Android para niños y Flutter para padres, conservando las funciones compartidas y el mismo Backend. El [seguimiento de IAM del 11/11/2026](assets/evidence/iam-account-access/client-alignment-2026-11-11.md) registra los términos compartidos versión 1.1, su acceso desde Settings en Android y Profile en Flutter, y la comprobación contra los ajustes recientes del equipo. Ese registro del 11/11 corresponde al flujo Android. La implementación posterior de recuperación en Flutter se documenta por separado en el [seguimiento del 12/11](assets/evidence/iam-account-access/azure-clients-2026-11-12.md).
 
-**IAM status — November 12.** The terms and privacy content is version 1.1. The
+**IAM status — November 12.** The terms and privacy content is version 1.2. The [client integration follow-up](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) records Azure defaults in both clients, including Android debug, Flutter recovery implementation and controlled-link emulator checks. Current ACS delivery is pending; those checks are not represented as mailbox receipt. The
 [Azure runtime record](assets/evidence/iam-account-access/azure-runtime-2026-11-12.md)
-documents the new private database, synthetic demonstration data, public API and actual
-English verification/Spanish recovery email receipt. The reset API rejects the old
+documents the new private database, synthetic demonstration data, public API and
+historical English verification/Spanish recovery email receipt, separate from the
+current unconfirmed recovery operation. The reset API rejects the old
 password and consumed reset tokens. The [current Azure architecture](assets/diagrams/azure-2026-11-12/architecture-evidence.md)
 adds editable draw.io and SVG views without replacing Sprint 1 history. Physical-device
 execution and the client handoff remain separate [manual checks](assets/evidence/iam-account-access/manual-checks.md).

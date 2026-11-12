@@ -1,8 +1,12 @@
 # Remaining IAM checks
 
-Use this record with a controlled test account and the current version 1.1 terms copy. Do not treat the
+Use this record with a controlled test account and the current version 1.2 terms copy. Do not treat the
 unchecked items below as completed. Never publish passwords, verification codes, access tokens,
 recovery-link tokens or private inbox contents in screenshots or videos.
+
+The [November 12 client follow-up](azure-clients-2026-11-12.md) records current Azure defaults,
+terms v1.2 and controlled-link emulator validation. Those developer checks do not close the
+physical-device or participant-validation items below. Current ACS mail receipt remains unverified.
 
 ## Deployed recovery journey
 
@@ -10,7 +14,7 @@ recovery-link tokens or private inbox contents in screenshots or videos.
    the test date. Verify the recovery request, confirmation and logout contracts.
 2. Confirm `PASSWORD_RECOVERY_URL` points to the public Azure HTTPS `/authentication/reset-password`
    helper and the server appends the `token` query parameter. Its button must open the existing
-   `ecomind://authentication/reset-password` Android route. A Git merge alone is not evidence
+   `ecomind://authentication/reset-password` route in the installed client. A Git merge alone is not evidence
    that the environment setting changed.
 3. Use a team-approved inbox/account. From **Forgot your password?**, request recovery and
    confirm the generic acknowledgement. Record actual delivery without capturing the token.
@@ -25,12 +29,12 @@ recovery-link tokens or private inbox contents in screenshots or videos.
 ## Physical-device session and terms checks
 
 - Install a build configured for the deployed API. The emulator address `10.0.2.2` is not the
-  physical device’s backend address. The current debug build supports `api.base.url` in
-  untracked `local.properties`; set it to the team’s deployed HTTPS `/api/v1/` URL and rebuild.
+  physical device’s backend address. Debug and release now default to Azure; an explicit
+  `api.base.url` override in ignored `local.properties` takes precedence in debug and requires a rebuild.
 - Record device model, OS version, app revision, API environment, date, steps and observed results.
 - Complete registration with valid fields but without accepting terms: submission must remain
   on the form with an acceptance error. The checkbox must start unchecked.
-- Open and read the version 1.1 terms and privacy text; return and verify form preservation.
+- Open and read the version 1.2 terms and privacy text; return and verify form preservation.
   Accept explicitly and confirm registration can continue. Repeat after unchecking it.
 - Sign in, visit a protected destination and **Log out**. Verify sign-in is shown. Press Back,
   rotate, relaunch and verify that the previous protected destination is not restored.
@@ -45,7 +49,7 @@ recovery-link tokens or private inbox contents in screenshots or videos.
 | Check | Date / revision / environment | Observed result | Evidence link | State |
 |---|---|---|---|---|
 | Public OpenAPI and deployed IAM contracts | 2026-11-12, Azure source 930cdcd | Public OpenAPI 200; protected resource without token 401; account lifecycle checked | [Azure runtime](azure-runtime-2026-11-12.md) | API verified |
-| Real recovery email and app link | 2026-11-12, Azure source 930cdcd | Actual ES receipt (initially spam), logo and browser handoff checked; reset API passed; installed-app handoff pending | [Azure runtime](azure-runtime-2026-11-12.md) | Mail/API verified; device pending |
+| Historical recovery email and app link (separate from the current pending operation) | 2026-11-12, Azure source 930cdcd | Actual ES receipt (initially spam), logo and browser handoff checked; reset API passed; installed-app handoff pending | [Azure runtime](azure-runtime-2026-11-12.md) | Mail/API verified; device pending |
 | Reset and consumed-link behavior on a physical device | Pending | Pending | Pending | Not verified |
 | Logout, Back and relaunch on a physical device | Pending | Pending | Pending | Not verified |
 | Version 1.0 terms, explicit acceptance and accessible reading | 2026-11-10, Android eb582eb, emulator | Reading/return tested in both locales, including 150% Spanish text; physical-device check pending | [Increment record](terms-and-email-2026-11-10.md) | Emulator verified |
