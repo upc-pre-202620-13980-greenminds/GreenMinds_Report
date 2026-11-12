@@ -3,6 +3,16 @@
 Checked on 2026-11-08. This checklist covers Mauricio’s assigned IAM work: HU-058, HU-059 and
 the registration terms screen, together with the course requirements applicable to that increment.
 
+## November 12 Azure follow-up
+
+The historical checks below retain their original dates. The [Azure runtime record](azure-runtime-2026-11-12.md)
+now establishes public OpenAPI availability, real verification/recovery mailbox receipt,
+password reset, rejection of the previous password, rejection of a reused reset token and
+logout followed by unauthorized access without a JWT. Current client feature branches
+point to Azure. New synthetic demonstration data replaces the attempted legacy-data
+migration. The branded mail layout and HTTPS handoff are tracked separately in that record.
+Physical-device execution and team integration remain open; this is not an AV2 closure.
+
 ## Sources and interpretation
 
 - Team request: connect password recovery and logout to their APIs; complete the registration

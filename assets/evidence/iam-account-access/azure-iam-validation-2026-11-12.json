@@ -1,0 +1,99 @@
+{
+  "source": "930cdcda590afa2a8d4a12f156527b6f5680c625",
+  "imageDigest": "sha256:9cda70edabf84f4cd3ad7acb2b22a608f571bac0b40044a603635f9012dfa46b",
+  "revision": "ca-ecomind-api--0000002",
+  "ci": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43257139726",
+  "focusedTests": {
+    "count": 19,
+    "failures": 0,
+    "errors": 0
+  },
+  "publicChecks": {
+    "at": "2026-11-12T16:30:06.035894+00:00",
+    "source": "930cdcda590afa2a8d4a12f156527b6f5680c625",
+    "passed": true,
+    "checks": {
+      "public_spanish_handoff": {
+        "status": 200,
+        "no_store": true,
+        "no_referrer": true,
+        "restrictive_csp": true
+      },
+      "missing_token": 400,
+      "malformed_token": 400,
+      "helper_post_protected": 401,
+      "account_without_token": 401,
+      "openapi": {
+        "status": 200,
+        "paths": 128,
+        "html_helper_hidden": true
+      }
+    },
+    "rollout_first_attempt": "Timed out during the revision transition; repeated after Healthy/Running, all checks passed."
+  },
+  "accountLifecycle": {
+    "registration": {
+      "status": 201,
+      "code": null,
+      "at": "2026-11-12T16:28:26.192463+00:00"
+    },
+    "verification": {
+      "status": 201,
+      "accountId": 6
+    },
+    "initial_login_and_logout": "passed",
+    "recovery_request": {
+      "status": 200,
+      "language": "es-419",
+      "at": "2026-11-12T16:31:42.101641+00:00"
+    },
+    "password_reset": {
+      "confirm": 204,
+      "old_password": 401,
+      "new_password": 200,
+      "reused_token": 422,
+      "logout": 204,
+      "without_token_after_logout": 401,
+      "server_side_revocation": false
+    },
+    "finished_at": "2026-11-12T16:35:00.956037+00:00"
+  },
+  "mailbox": {
+    "verification": {
+      "received": true,
+      "initialPlacement": "spam",
+      "logoInitiallyBlockedByGmail": true,
+      "movedToInboxForKnownTestMessage": true,
+      "logoLoadedAfterMove": true,
+      "sourceLogoWidth": 888,
+      "renderedLogoWidth": 222,
+      "codeConsumed": true
+    },
+    "recovery": {
+      "received": true,
+      "initialPlacement": "spam",
+      "httpsDestinationVerified": true,
+      "tokenCapturedPrivately": true,
+      "movedToInboxForKnownTestMessage": true,
+      "logoLoadedAfterMove": true,
+      "sourceLogoWidth": 888,
+      "httpsHandoffObserved": true,
+      "androidUriPreserved": true,
+      "sameReceivedToken": true,
+      "tokenConsumedByApi": true
+    }
+  },
+  "demoDataRetention": {
+    "at": "2026-11-12T16:32:55.855012+00:00",
+    "source": "930cdcd",
+    "passed": true,
+    "checks": {
+      "families": 1,
+      "communities": 2,
+      "quests": 4,
+      "demo_accounts_authenticated": 4
+    }
+  },
+  "physicalDevice": "not verified",
+  "wholeDeliveryReadiness": "not claimed"
+}

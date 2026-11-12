@@ -9056,7 +9056,14 @@ El aporte de Mauricio Pajes comprende HU-058, HU-059 y la pantalla de términos 
 
 **Coordinación de clientes.** El enfoque acordado distingue Android para niños y Flutter para padres, conservando las funciones compartidas y el mismo Backend. El [seguimiento de IAM del 11/11/2026](assets/evidence/iam-account-access/client-alignment-2026-11-11.md) registra los términos compartidos versión 1.1, su acceso desde Settings en Android y Profile en Flutter, y la comprobación contra los ajustes recientes del equipo. El flujo de recuperación registrado en esta sección corresponde a Android; no se atribuye una implementación de recuperación a Flutter.
 
-**Cierre de IAM.** La pantalla de términos y su aceptación funcionan y el contenido vigente de términos y privacidad es la versión 1.1. La configuración desplegada de `PASSWORD_RECOVERY_URL`, la entrega real por Resend y la ejecución en un teléfono físico aún requieren verificación. Las consultas públicas de OpenAPI realizadas en esta revisión no recibieron respuesta dentro de los límites de tiempo, por lo que no acreditan disponibilidad. El [registro de comprobaciones pendientes](assets/evidence/iam-account-access/manual-checks.md) permite completar esas verificaciones. Esta evidencia documenta el aporte de IAM y no acredita por sí sola el Sprint 2 completo.
+**IAM status — November 12.** The terms and privacy content is version 1.1. The
+[Azure runtime record](assets/evidence/iam-account-access/azure-runtime-2026-11-12.md)
+documents the new private database, synthetic demonstration data, public API and actual
+English verification/Spanish recovery email receipt. The reset API rejects the old
+password and consumed reset tokens. The [current Azure architecture](assets/diagrams/azure-2026-11-12/architecture-evidence.md)
+adds editable draw.io and SVG views without replacing Sprint 1 history. Physical-device
+execution and the client handoff remain separate [manual checks](assets/evidence/iam-account-access/manual-checks.md).
+This records the IAM contribution and does not certify all of Sprint 2.
 
 ## 4.3. Validation Interviews
 

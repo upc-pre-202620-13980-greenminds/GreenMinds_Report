@@ -8,9 +8,10 @@ recovery-link tokens or private inbox contents in screenshots or videos.
 
 1. Confirm the deployed backend’s OpenAPI loads publicly. Record its URL, deployed revision and
    the test date. Verify the recovery request, confirmation and logout contracts.
-2. Confirm `PASSWORD_RECOVERY_URL` points to `ecomind://authentication/reset-password` for the
-   installed Android build and the server appends the `token` query parameter. A Git merge is
-   not evidence that this environment setting changed.
+2. Confirm `PASSWORD_RECOVERY_URL` points to the public Azure HTTPS `/authentication/reset-password`
+   helper and the server appends the `token` query parameter. Its button must open the existing
+   `ecomind://authentication/reset-password` Android route. A Git merge alone is not evidence
+   that the environment setting changed.
 3. Use a team-approved inbox/account. From **Forgot your password?**, request recovery and
    confirm the generic acknowledgement. Record actual delivery without capturing the token.
 4. Open the email link with the app stopped and again while the app is running, using a fresh
@@ -43,8 +44,8 @@ recovery-link tokens or private inbox contents in screenshots or videos.
 
 | Check | Date / revision / environment | Observed result | Evidence link | State |
 |---|---|---|---|---|
-| Public OpenAPI and deployed IAM contracts | Pending | Pending | Pending | Not verified |
-| Real recovery email and app link | Pending | Pending | Pending | Not verified |
+| Public OpenAPI and deployed IAM contracts | 2026-11-12, Azure source 930cdcd | Public OpenAPI 200; protected resource without token 401; account lifecycle checked | [Azure runtime](azure-runtime-2026-11-12.md) | API verified |
+| Real recovery email and app link | 2026-11-12, Azure source 930cdcd | Actual ES receipt (initially spam), logo and browser handoff checked; reset API passed; installed-app handoff pending | [Azure runtime](azure-runtime-2026-11-12.md) | Mail/API verified; device pending |
 | Reset and consumed-link behavior on a physical device | Pending | Pending | Pending | Not verified |
 | Logout, Back and relaunch on a physical device | Pending | Pending | Pending | Not verified |
 | Version 1.0 terms, explicit acceptance and accessible reading | 2026-11-10, Android eb582eb, emulator | Reading/return tested in both locales, including 150% Spanish text; physical-device check pending | [Increment record](terms-and-email-2026-11-10.md) | Emulator verified |
