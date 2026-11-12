@@ -2,6 +2,14 @@
 
 These current-state diagrams supplement the existing Sprint 1 architecture evidence. They do not replace the historical Render/Aiven diagrams and do not represent migration of the previous database. New demonstration records were created in Azure through the API.
 
+## Deployment follow-up
+
+The original diagrams below show the initial manually provisioned snapshot. The
+[DevOps follow-up](../../evidence/iam-account-access/azure-devops-2026-11-12.md)
+documents the later develop-to-Azure automation and its separate execution evidence.
+The old diagram labels stating that automatic CD was not configured are historical;
+they must not be read as the latest pipeline state.
+
 ## Views and editing
 
 | File | Purpose |
