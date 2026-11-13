@@ -98,7 +98,9 @@ Proyecto <br>
 
 # Project Report Collaboration Insights
 
-Project Report URL: https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report.git 
+Project Report URL: https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report.git
+
+[Ver informe completo](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md).
 
 *AV1*
 
@@ -268,28 +270,37 @@ El [registro de IAM](assets/evidence/iam-account-access/README.md) y el [seguimi
 3.1.4.5. [Mobile Applications Prototyping](#3145-mobile-applications-prototyping)  
 
 **Capítulo IV: Product Implementation & Validation**  
-4. [Product Implementation & Validation](#4-product-implementation-&-validation)  
-4.1. [Software Configuration Management](#41-software-configuration-management)  
-4.1.1. [Software Development Environment Configuration](#411-software-development-environment-configuration)  
-4.1.2. [Source Code Management](#412-source-code-management)  
-4.1.3. [Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)  
-4.1.4. [Software Deployment Configuration](#414-software-deployment-configuration)  
-4.2. [Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)  
-4.2.1. [Sprint 1](#421-sprint-1)  
-4.2.1.1. [Sprint Planning 1](#4211-sprint-planning-1)  
-4.2.1.2. [Aspect Leaders and Collaborators](#4212-aspect-leaders-and-collaborators)  
-4.2.1.3. [Sprint Backlog 1](#4213-sprint-backlog-1)  
-4.2.1.4. [Development Evidence for Sprint Review](#4214-development-evidence-for-sprint-review)  
-4.2.1.5. [Testing Suite Evidence for Sprint Review](#4215-testing-suite-evidence-for-sprint-review)  
-4.2.1.6. [Execution Evidence for Sprint Review](#4216-execution-evidence-for-sprint-review)  
-4.2.1.7. [Services Documentation Evidence for Sprint Review](#4217-services-documentation-evidence-for-sprint-review)  
-4.2.1.8. [Software Deployment Evidence for Sprint Review](#4218-software-deployment-evidence-for-sprint-review)  
-4.2.1.9. [Team Collaboration Insights during Sprint](#4219-team-collaboration-insights-during-sprint)  
-4.2.2. [Sprint 2 — IAM y Gamification](#422-sprint-2--iam-y-gamification)<br>
-4.3. [Validation Interviews](#43-validation-interviews)  
-4.3.1. [Diseño de Entrevistas](#431-diseño-de-entrevistas)  
-4.3.2. [Registro de Entrevistas](#432-registro-de-entrevistas)  
-4.3.3. [Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+4. [Product Implementation & Validation](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4-product-implementation--validation)<br>
+4.1. [Software Configuration Management](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#41-software-configuration-management)<br>
+4.1.1. [Software Development Environment Configuration](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#411-software-development-environment-configuration)<br>
+4.1.2. [Source Code Management](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#412-source-code-management)<br>
+4.1.3. [Source Code Style Guide & Conventions](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#413-source-code-style-guide--conventions)<br>
+4.1.4. [Software Deployment Configuration](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#414-software-deployment-configuration)<br>
+4.2. [Landing Page & Mobile Application Implementation](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#42-landing-page--mobile-application-implementation)<br>
+4.2.1. [Sprint 1](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#421-sprint-1)<br>
+4.2.1.1. [Sprint Planning 1](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4211-sprint-planning-1)<br>
+4.2.1.2. [Aspect Leaders and Collaborators](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4212-aspect-leaders-and-collaborators)<br>
+4.2.1.3. [Sprint Backlog 1](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4213-sprint-backlog-1)<br>
+4.2.1.4. [Development Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4214-development-evidence-for-sprint-review)<br>
+4.2.1.5. [Testing Suite Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4215-testing-suite-evidence-for-sprint-review)<br>
+4.2.1.6. [Execution Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4216-execution-evidence-for-sprint-review)<br>
+4.2.1.7. [Services Documentation Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4217-services-documentation-evidence-for-sprint-review)<br>
+4.2.1.8. [Software Deployment Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4218-software-deployment-evidence-for-sprint-review)<br>
+4.2.1.9. [Team Collaboration Insights during Sprint](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4219-team-collaboration-insights-during-sprint)<br>
+4.2.2. [Sprint 2](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#422-sprint-2)<br>
+4.2.2.1. [Sprint Planning 2](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4221-sprint-planning-2)<br>
+4.2.2.2. [Aspect Leaders and Collaborators](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4222-aspect-leaders-and-collaborators)<br>
+4.2.2.3. [Sprint Backlog 2](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4223-sprint-backlog-2)<br>
+4.2.2.4. [Development Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4224-development-evidence-for-sprint-review)<br>
+4.2.2.5. [Testing Suite Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4225-testing-suite-evidence-for-sprint-review)<br>
+4.2.2.6. [Execution Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4226-execution-evidence-for-sprint-review)<br>
+4.2.2.7. [Services Documentation Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4227-services-documentation-evidence-for-sprint-review)<br>
+4.2.2.8. [Software Deployment Evidence for Sprint Review](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4228-software-deployment-evidence-for-sprint-review)<br>
+4.2.2.9. [Team Collaboration Insights during Sprint](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#4229-team-collaboration-insights-during-sprint)<br>
+4.3. [Validation Interviews](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#43-validation-interviews)<br>
+4.3.1. [Diseño de Entrevistas](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#431-diseño-de-entrevistas)<br>
+4.3.2. [Registro de Entrevistas](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#432-registro-de-entrevistas)<br>
+4.3.3. [Evaluaciones según heurísticas](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/blob/develop/README.md#433-evaluaciones-según-heurísticas)
 
 [Conclusiones](#conclusiones)  
 [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)  
@@ -8931,9 +8942,9 @@ Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestio
 
 **Backend**
 
-Para su despliegue se hace en dos partes, primero hostear una base de datos y con ello ya podriamos realizar el despliegue de nuestro backend desarrollado, usamos las herramientas Aiven y Render para su despliegue respectivamente.
+El despliegue de Sprint 1 utilizó Aiven para PostgreSQL y Render para el Backend API. Las siguientes capturas registran esa configuración; el despliegue de Sprint 2 se documenta en el apartado 4.2.2.8.
 
-Base de datos:
+Base de datos — Aiven (Sprint 1):
 
 1. Acceder a aiven (Crear cuenta en caso no disponga de una)
 
@@ -8967,7 +8978,7 @@ Base de datos:
 
 ![Aiven_db_deployed](assets/img/figures/Aiven_db_deployed.png)
 
-Backend:
+Backend — Render (Sprint 1):
 
 1. Acceder a render (Crear cuenta en caso no disponga de una)
 
@@ -9034,7 +9045,7 @@ Backend:
 
 ![Render_verify_backend](assets/img/figures/Render_verify_backend.png)
 
-Las solicitudes realizadas en el swagger (Backend) se veran reflejadas en la base de datos que se desplego en aiven.
+En el despliegue de Sprint 1, las solicitudes realizadas desde Swagger se reflejaban en la base de datos de Aiven.
 
 
 #### 4.2.1.9. Team Collaboration Insights during Sprint
@@ -9056,23 +9067,167 @@ En esta sección se muestra los aportes de cada integrante en los repositorios r
 ![sprint1_backend_evidence1](assets/img/figures/sprint1_backend_evidence1.png)
 ![sprint1_backend_evidence2](assets/img/figures/sprint1_backend_evidence2.png)
 
-### 4.2.2. Sprint 2 — IAM y Gamification
+### 4.2.2. Sprint 2
 
-**IAM.** Android y Flutter consumen el Backend API de Azure para el registro, la recuperación de contraseña y el cierre de sesión. Ambos clientes incorporan los términos y la política de privacidad versión 1.2. La recuperación utiliza tokens de 30 minutos, consumo único y confirmación idempotente; el cierre de sesión elimina las credenciales locales. Los correos de verificación y recuperación utilizan Azure Communication Services Email.
+En este apartado se documenta el aporte de Mauricio Pajes a IAM, Gamification y el despliegue en Azure para AV2.
 
-**Gamification.** Android consulta rankings, puntos, rachas, medallas e historial del Backend API. XP y ecopoints representan una misma puntuación; las gemas se administran en Monetization. El backend registra el bono semanal de racha y concede la medalla del primer reto completado a partir de una finalización validada.
+#### 4.2.2.1. Sprint Planning 2
 
-**Despliegue.** El Backend API se ejecuta en Azure Container Apps y utiliza PostgreSQL en red privada. GitHub Actions ejecuta las pruebas antes del despliegue automático de `develop`. Las imágenes, credenciales y configuración se gestionan mediante Azure Container Registry y Key Vault.
+La coordinación del 4 de noviembre asignó a Mauricio la recuperación de contraseña, el cierre de sesión y los términos del registro. El 11 de noviembre se acordó mantener las funciones compartidas de Android y Flutter, con enfoque en estudiantes y padres, respectivamente. El incremento también integra Gamification y el Backend API de Azure.
 
-**Integración del código.**
+**Tabla 123**
 
-| Producto | Cambios integrados en `develop` | Referencia |
+*Planificación del aporte al Sprint 2.*
+
+| Aspecto | Registro |
+|---|---|
+| Sprint | 2 — AV2 |
+| Coordinación inicial | 04/11/2026, grupo de trabajo en WhatsApp |
+| Responsable del aporte | Mauricio Luis Pajes Leon |
+| Objetivo del aporte | Conectar acceso, recuperación, sesión y gamificación con el Backend API, y verificar su ejecución en Android y Flutter. |
+| Criterio de verificación | Contratos REST, pruebas automatizadas, ejecución en emuladores y despliegue en Azure. |
+
+#### 4.2.2.2. Aspect Leaders and Collaborators
+
+**Tabla 124**
+
+*Responsabilidades del aporte documentado.*
+
+| Team Member | GitHub Username | Aspectos |
 |---|---|---|
-| Backend | Recuperación, despliegue en Azure, bono semanal y medalla del primer reto. | [Release v2.0.0](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/releases/tag/v2.0.0), [PR #59](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/59), [PR #60](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/60). |
-| Android | IAM, integración de Gamification e historial del bono semanal de racha. | [PR #23](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/23), [PR #28](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28), [PR #29](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/29), [PR #30](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/30). |
-| Flutter | Términos, recuperación, cierre de sesión y reintento de confirmación ante pérdida de respuesta. | [PR #1](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/1), [PR #2](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/2). |
+| Pajes Leon, Mauricio Luis | mauricio-pajes | IAM en Android y Flutter; integración de Gamification en Android; Azure, CI/CD y actualización del informe. |
 
-**Validación.** Las pruebas cubren recuperación de contraseña, cierre de sesión, aceptación de términos, recompensas, rachas, bonos y medallas. La integración del primer reto completado (`38939f5`) superó 736 pruebas del backend con PostgreSQL; su [ejecución de CI/CD](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408) registra el despliegue. El [registro de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-12.md) documenta las pruebas y el despliegue automático. El [registro de IAM](assets/evidence/iam-account-access/README.md) conserva los contratos y las evidencias de los clientes.
+#### 4.2.2.3. Sprint Backlog 2
+
+El trabajo se organizó a partir de los pendientes de integración del equipo y las historias del Product Backlog.
+
+**Tabla 125**
+
+*Trabajo integrado durante el Sprint 2.*
+
+| Referencia | Trabajo | Producto | Resultado |
+|---|---|---|---|
+| HU-058 | Solicitud y confirmación de recuperación de contraseña. | Backend, Android y Flutter | Integrado en `develop`; enlace, errores y reintentos verificados. |
+| HU-059 | Cierre de sesión y limpieza de credenciales y navegación. | Android y Flutter | Integrado en `develop`; acceso anónimo verificado. |
+| Registro | Términos y privacidad versión 1.2, lectura y aceptación explícita. | Android y Flutter | Integrado en `develop`. |
+| HU-003, HU-004, HU-009, HU-022, HU-036 | Rankings, ecopoints y rachas con datos del backend. | Android | Integrado en `develop`. |
+| HU-005, HU-008, HU-011, HU-015, HU-016, HU-020 | Medallas, recompensas, logros colectivos, celebración y bono semanal de racha. | Backend y Android | Integrado en `develop`; catálogo, otorgamiento y bonos verificados. |
+| Infraestructura | Backend API, PostgreSQL privado, correo y despliegue automático. | Azure y GitHub Actions | Despliegue de `develop` verificado. |
+
+#### 4.2.2.4. Development Evidence for Sprint Review
+
+Los cambios se integraron mediante pull requests a `develop`. La versión estable del backend se publicó como [v2.0.0](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/releases/tag/v2.0.0) en `main`; los incrementos posteriores continuaron en `develop`.
+
+**Tabla 126**
+
+*Commits de implementación del Sprint 2.*
+
+| Repositorio | Rama de integración | Commit ID | Mensaje | Cuerpo del mensaje | Fecha |
+|---|---|---|---|---|---|
+| EcoMind_Backend | `develop` | [ec5ccf7](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/ec5ccf710eb8b25169116601564e550abdeae91b) | fix(iam): acknowledge recovery confirmation retries | — | 2026-11-12 |
+| EcoMind_Backend | `develop` | [f17ce52](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/f17ce52b4013e7481d0c13869c388edf1c8d33fd) | ci(azure): deploy verified develop builds | — | 2026-11-12 |
+| EcoMind_Backend | `develop` | [0a5346c](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/0a5346c2d0286ba43d60816b5120eeb12cc67f89) | fix(azure): route IAM email through Europe | — | 2026-11-12 |
+| EcoMind_Backend | `develop` | [14d8c36](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/14d8c368ecb1f2d6dcee4f00ae1437a1bf9fff87) | feat(gamification): restore weekly streak bonus | — | 2026-11-13 |
+| EcoMind_Backend | `develop` | [8d7ee24](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8d7ee242cf562d0553ae39638da75f0bea74977a) | fix(gamification): recover missing first quest awards | — | 2026-11-13 |
+| EcoMind_Android | `develop` | [3592349](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/3592349709e994801372188b3d2f353d1d396a8b) | feat(iam): connect recovery and logout APIs | — | 2026-11-05 |
+| EcoMind_Android | `develop` | [0ada1c8](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/0ada1c84c1116a80bbfee97dc01fba077ed6b250) | refactor(iam): move session cleanup into use case | — | 2026-11-12 |
+| EcoMind_Android | `develop` | [f273074](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/f2730742f752bb157ecf9f1cee144c4d86963a05) | feat(gamification): integrate rankings and achievements with Azure | — | 2026-11-13 |
+| EcoMind_Android | `develop` | [a00f3c6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/a00f3c644a5b098e27da45d6e80f3470ce95e30e) | feat(gamification): label weekly streak bonuses | — | 2026-11-13 |
+| EcoMind_Flutter | `develop` | [e787a00](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/e787a0090c25450befac1da8236693d73997dd8a) | feat(iam): add password recovery and reset links | — | 2026-11-12 |
+| EcoMind_Flutter | `develop` | [4524e34](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/4524e34376d10924348476aed7c85d3cf54e7a87) | fix(iam): recover from lost password reset responses | — | 2026-11-12 |
+
+El [registro de commits](assets/evidence/sprint-2/commits.json) conserva los identificadores y las fechas. La recuperación se integró mediante los PR [#23 de Android](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/23) y [#2 de Flutter](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/2); Gamification, mediante los PR [#28](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28), [#29](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/29) y [#30](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/30) de Android, y [#59](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/59) y [#60](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/60) del backend.
+
+#### 4.2.2.5. Testing Suite Evidence for Sprint Review
+
+Las pruebas cubrieron recuperación, cierre de sesión, aceptación de términos, rankings, recompensas, rachas y medallas. Los [resultados registrados](assets/evidence/sprint-2/test-results.json) distinguen las revisiones y los ambientes utilizados.
+
+**Tabla 127**
+
+*Resultados de pruebas del Sprint 2.*
+
+| Producto y revisión | Pruebas | Resultado |
+|---|---|---|
+| Backend `38939f5` | 736 pruebas con PostgreSQL y 9 pruebas de utilidades de despliegue. | Sin fallos; [CI/CD completado](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408). |
+| Android, integración de Gamification `f273074` | 91 pruebas JVM y 8 instrumentadas en emulador API 36. | Sin fallos. |
+| Flutter, integración `2ab1e5a` | 47 pruebas y escenario instrumentado de pérdida de respuesta durante la confirmación. | Pruebas y reintento completados. |
+| IAM en Azure | Nueva contraseña: `200`; contraseña anterior: `401`; token consumido: `422`; logout: `204`; acceso sin token: `401`. | Contrato verificado. |
+
+#### 4.2.2.6. Execution Evidence for Sprint Review
+
+Android y Flutter consumen el mismo Backend API. Las ejecuciones de IAM incluyeron solicitud de recuperación, apertura del enlace, confirmación de contraseña, inicio de sesión y cierre de sesión. Flutter verificó además la recuperación ante pérdida de respuesta sin repetir el cambio de contraseña. Las ejecuciones registradas se realizaron en emuladores.
+
+**Figura 159**
+
+*Confirmación de recuperación y retorno a inicio de sesión en Android, registro del 5 de noviembre de 2026.*
+
+<table><tr><td><img src="assets/evidence/iam-account-access/password-updated.png" alt="Contraseña actualizada en Android" width="280"></td><td><img src="assets/evidence/iam-account-access/signed-out.png" alt="Inicio de sesión después de cerrar la sesión" width="280"></td></tr></table>
+
+El [registro de clientes](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) documenta las verificaciones posteriores con Azure. Los resultados del escenario de Flutter con correo recibido y pérdida de respuesta están incluidos en el [registro de pruebas](assets/evidence/sprint-2/test-results.json).
+
+En Gamification, Android consulta rankings, puntos, rachas, medallas e historial. XP y ecopoints representan una sola puntuación; las gemas pertenecen a Monetization. El backend acredita el bono semanal de racha y concede la medalla del primer reto a partir de una finalización validada.
+
+#### 4.2.2.7. Services Documentation Evidence for Sprint Review
+
+El Backend API publica [Swagger UI](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/swagger-ui/index.html) y el [contrato OpenAPI](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/v3/api-docs). Las rutas siguientes corresponden a los flujos del incremento.
+
+**Tabla 128**
+
+*Servicios utilizados por IAM y Gamification.*
+
+| Bounded context | Método y endpoint | Entrada principal | Resultado |
+|---|---|---|---|
+| IAM | `POST /api/v1/authentication/password-recovery/request` | Correo electrónico. | Confirmación genérica `200`. |
+| IAM | `POST /api/v1/authentication/password-recovery/confirm` | Token, contraseña e identificador opcional de confirmación. | `204`; error de token inválido o consumido `422`. |
+| IAM | `POST /api/v1/authentication/logout` | JWT. | `204`; el cliente elimina la sesión. |
+| Gamification | `GET /api/v1/gamification/me/progress` | JWT. | Ecopoints y racha. |
+| Gamification | `GET /api/v1/gamification/rewards` | JWT, periodo y paginación. | Historial de recompensas. |
+| Gamification | `GET /api/v1/gamification/achievements` | JWT y paginación. | Catálogo de medallas. |
+| Gamification | `GET /api/v1/gamification/me/achievements` | JWT y paginación. | Medallas obtenidas. |
+| Gamification | `GET /api/v1/gamification/rankings/{type}/participants` | JWT, ámbito y paginación. | Participantes del ranking. |
+| Gamification | `GET /api/v1/gamification/rankings/{type}/transactions` | JWT, ámbito, periodo y paginación. | Transacciones para calcular posiciones. |
+| Gamification | `POST /api/v1/gamification/achievement-shares` | JWT, medalla, comunidad e identificador de solicitud. | Solicitud de publicación y su estado. |
+
+#### 4.2.2.8. Software Deployment Evidence for Sprint Review
+
+El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub Actions ejecuta las pruebas y la verificación de la imagen antes de publicar los cambios de `develop`. La ejecución [43382634408](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408), correspondiente a `38939f5`, terminó correctamente.
+
+**Tabla 129**
+
+*Recursos del despliegue de Sprint 2.*
+
+| Servicio | Uso |
+|---|---|
+| Azure Container Apps | Backend API con ingreso HTTPS y escalado de cero a dos réplicas. |
+| Azure Database for PostgreSQL | Base de datos en red privada, con conexión TLS. |
+| Azure Container Registry | Imágenes del Backend API. |
+| Azure Key Vault | Secretos de la aplicación. |
+| Azure Communication Services Email | Correos de verificación y recuperación de contraseña. |
+| Log Analytics | Registros de ejecución del backend. |
+
+**Figura 160**
+
+*Ejecución de pruebas y despliegue del Backend API en GitHub Actions.*
+
+![Pipeline del Backend API](assets/img/figures/sprint-2/backend-pipeline.png)
+
+El [registro de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-12.md) y la [validación del despliegue](assets/evidence/iam-account-access/azure-devops-validation-2026-11-12.json) conservan la evidencia de la automatización inicial. Las capturas de Render y Aiven del apartado 4.2.1.8 corresponden al despliegue de Sprint 1.
+
+#### 4.2.2.9. Team Collaboration Insights during Sprint
+
+La coordinación del equipo asignó IAM a Mauricio y mantuvo las funciones compartidas entre los clientes. Los cambios se integraron con GitFlow y se eliminaron las ramas personales después de su fusión. La documentación se actualizó con los contratos, las pruebas y la arquitectura de Azure.
+
+**Tabla 130**
+
+*Integración y colaboración del aporte al Sprint 2.*
+
+| Aporte | Evidencia de integración |
+|---|---|
+| Recuperación y sesión en Android | [PR #23](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/23). |
+| Recuperación y reintentos en Flutter | [PR #2](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/2). |
+| Gamification en Android | [PR #28](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28) y [#30](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/30). |
+| Release del backend | [PR #46](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/46) a `main` y [#47](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/47) de retorno a `develop`. |
+| Arquitectura e informe | [PR #15](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/15), [#16](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/16) y [#17](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/17). |
 
 ## 4.3. Validation Interviews
 
@@ -9169,7 +9324,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Padres de Familia
 <br>
 
-**Tabla 123**
+**Tabla 131**
  
 *Entrevista de validación 1 del segmento de padres de familia.*
  
@@ -9179,7 +9334,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 | **Entrevistada N°1:** Yolanda Nely Mota Granados<br>**Edad:** 52 años<br>**Ubicación:** Surquillo, Lima<br>**Entrevistadora:** Katty Philco<br>**Fecha de la entrevista:** 09/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Yolanda Nely Mota Granados](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416107_upc_edu_pe/IQD6MW-bHvTgTLIvTWB1yt1yAdBEq5G0st9w9zk0MEyuoXs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BSMdpw)<br>**Instante del que inicia:** 00:58<br>**Duración:** 05:48<br><br>**Resumen:**<br><br>La entrevistada es Yolanda Nely Mota Granados, una madre de familia de 52 años que vive en Surquillo. Tras explorar el Landing Page, comprendió con claridad que EcoMind busca enseñar a los niños y a la familia a adoptar hábitos de cuidado del medio ambiente.<br><br>Al usar la aplicación, identificó sin dificultad la información familiar y el perfil de su hijo, y valoró positivamente la variedad de contenidos, retos, reuniones y comunidades. Indicó que el seguimiento al aprendizaje de su hija necesita mejoras para ser más efectivo. En comunidad logró crear comunidades, pero no comprendió el flujo para inscribir a su familia en los eventos del mapa.<br><br>Respecto a la gamificación, encontró con facilidad su posición en el ranking y señaló que ver los puestos la motiva a seguir participando. Le pareció atractiva la dinámica de la tienda y las gemas, aunque manifestó desconfianza ante el uso de tarjetas de crédito o pagos de dinero dentro de la plataforma.<br><br>Consideró que la aplicación es relevante tanto para los padres como para los niños, pero sintió confusión al navegar para encontrar secciones específicas. Por ello sugirió simplificar la interfaz para que los adultos aprendan a usarla más rápido. Propuso además incluir una función de comunicación familiar que permita enviarse recordatorios directos sobre acciones sostenibles en el hogar, como apagar las luces o cerrar los caños.<br><br>Calificó con 5 sobre 5 la probabilidad de usar EcoMind con regularidad junto a su familia, por su interés en promover la conservación ambiental y por el ahorro práctico de recursos en su hogar. |
 
  
-**Tabla 124**
+**Tabla 132**
  
 *Entrevista de validación 2 del segmento de padres de familia.*
  
@@ -9191,7 +9346,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Niños de primaria
 <br>
 
-**Tabla 125**
+**Tabla 133**
  
 *Entrevista de validación 1 del segmento de niños de primaria.*
  
@@ -9267,7 +9422,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
 
-**Figura 159**
+**Figura 161**
 
 *Visibilidad del progreso al completar actividades.*
 
@@ -9287,7 +9442,7 @@ Implementar animaciones, barras de progreso o indicadores visuales que muestren 
 
 Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
 
-**Figura 160**
+**Figura 162**
 
 *Información disponible sobre eventos comunitarios.*
 
@@ -9307,7 +9462,7 @@ Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde s
 
 Las actividades disponibles dentro de la aplicación se presentan principalmente como formularios o cuestionarios, sin comunicar con suficiente claridad qué acción debe realizar el usuario para cumplir el reto. Esta presentación dificulta relacionar la actividad con un desafío ambiental concreto y comprender su objetivo, más allá de responder preguntas.
 
-**Figura 161**
+**Figura 163**
 
 *Presentación de las actividades y retos.*
 
@@ -9327,7 +9482,7 @@ Presentar cada reto con un objetivo ambiental concreto, instrucciones en lenguaj
 
 En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. Aunque incluyen una etiqueta de rol, el usuario debe leer cada tarjeta para distinguir a los padres de los hijos, lo que dificulta reconocer rápidamente los roles al revisar el grupo familiar.
 
-**Figura 162**
+**Figura 164**
 
 *Tarjetas de integrantes de la familia.*
 
@@ -9346,7 +9501,7 @@ Incorporar un distintivo visual consistente para cada rol familiar, como un íco
 
 Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. La evaluación considera la visualización del perfil, sin revisar el proceso de equipamiento de accesorios.
 
-**Figura 163**
+**Figura 165**
 
 *Visualización del avatar en el perfil.*
 
