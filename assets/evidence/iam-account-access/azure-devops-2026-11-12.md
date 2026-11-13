@@ -157,3 +157,12 @@ source, run, tests, coverage, image, revision and limits. GitHub's ordinary push
 now performs the full path `tests → coverage → image/scan → publish → rollout → health`.
 Optional branch protection does not gate this requested automation. Image rollback is
 implemented and covered by offline safety tests; no forced live failure was introduced.
+
+## Email routing completion
+
+Azure Communication Services Email now serves production IAM verification and password
+recovery from its Europe resource. The healthy production revision delivered actual
+registration and recovery messages; API confirmation, consumed-token rejection and
+mail authentication checks passed. The public API and recovery URL remain unchanged.
+This records the verified service path and two controlled mail checks; it does not
+guarantee inbox placement for other recipients.
