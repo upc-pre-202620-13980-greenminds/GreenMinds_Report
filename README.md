@@ -9094,13 +9094,17 @@ Aquí se documentan los acuerdos de planificación del Sprint 2, incluyendo su o
 
 #### 4.2.2.2. Aspect Leaders and Collaborators
 
+En el Sprint 2, el equipo se enfocó en completar las funcionalidades pendientes de la aplicación nativa de Android y avanzar en la implementación de las funcionalidades principales de EcoMind en Flutter. La Tabla 124 presenta la distribución de responsabilidades para las historias de usuario y las tareas técnicas del sprint en las áreas de gestión de acceso, retos, comunidad, monetización, perfiles, gamificación y aprendizaje. Para cada área, se indica quién asumió el liderazgo (L) y quiénes colaboraron (C).
+
 **Tabla 124**
 
-*Responsabilidades del aporte documentado.*
-
-| Team Member | GitHub Username | Aspectos |
-|---|---|---|
-| Pajes Leon, Mauricio Luis | mauricio-pajes | IAM en Android, Flutter y backend; Gamification en Android y backend; Azure, CI/CD y actualización del informe. |
+| Team Member (Last Name, First Name) | GitHub Username | IAM | Quest | Community | Monetization | Profile | Gamification | Learning |
+|-------------------------------------|-----------------|--------------|-------|-----------|--------------|---------|--------------|--------------|
+| Astocondor Bazan, Alejandra Isabel | AleeAsto | C | L | C | C | C | C | C |
+| Dulanto Espino, Leo César | Leotens | C | C | L | C | C | C | C |
+| Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | L | C | C | L |
+| Pajes Leon, Mauricio Luis | mauricio-pajes | C | L | C | C | C | L | C |
+| Philco Mota, Katty Yolanda | kattyph | C | C | C | C | L | C | C |
 
 #### 4.2.2.3. Sprint Backlog 2
 
