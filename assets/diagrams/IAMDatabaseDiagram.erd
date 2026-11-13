@@ -58,8 +58,8 @@
           "iam_accounts_status"
         ],
         "ui": {
-          "x": 80,
-          "y": 80,
+          "x": 190,
+          "y": 370,
           "color": "#2196F3"
         }
       },
@@ -74,8 +74,8 @@
           "iam_account_credentials_password_hash"
         ],
         "ui": {
-          "x": 700,
-          "y": 80,
+          "x": 805.3333,
+          "y": 305.3335,
           "color": "#2196F3"
         }
       },
@@ -92,8 +92,8 @@
           "iam_email_verifications_attempts"
         ],
         "ui": {
-          "x": 1320,
-          "y": 80,
+          "x": 840.2221,
+          "y": 71.1112,
           "color": "#4CAF50"
         }
       },
@@ -110,8 +110,8 @@
           "iam_password_reset_tokens_confirmation_id_hash"
         ],
         "ui": {
-          "x": 80,
-          "y": 780,
+          "x": 724.0001,
+          "y": 606.6667,
           "color": "#FF9800"
         }
       },
@@ -129,8 +129,8 @@
           "iam_pending_registrations_created_at"
         ],
         "ui": {
-          "x": 700,
-          "y": 780,
+          "x": 82.6667,
+          "y": 68.4444,
           "color": "#4CAF50"
         }
       }
@@ -212,7 +212,7 @@
         "id": "iam_email_verifications_token_hash",
         "tableId": "iam_email_verifications",
         "name": "token_hash",
-        "comment": "",
+        "comment": "Hash del token de verificación",
         "dataType": "VARCHAR(255)",
         "default": "",
         "options": 8
@@ -222,7 +222,7 @@
         "tableId": "iam_email_verifications",
         "name": "expires_at",
         "comment": "",
-        "dataType": "TIMESTAMP(6) WITH TIME ZONE",
+        "dataType": "TIMESTAMPTZ(6)",
         "default": "",
         "options": 8
       },
@@ -231,7 +231,7 @@
         "tableId": "iam_email_verifications",
         "name": "used_at",
         "comment": "",
-        "dataType": "TIMESTAMP(6) WITH TIME ZONE",
+        "dataType": "TIMESTAMPTZ(6)",
         "default": "",
         "options": 0
       },
@@ -276,7 +276,7 @@
         "tableId": "iam_password_reset_tokens",
         "name": "expires_at",
         "comment": "",
-        "dataType": "TIMESTAMP(6) WITH TIME ZONE",
+        "dataType": "TIMESTAMPTZ(6)",
         "default": "",
         "options": 8
       },
@@ -285,7 +285,7 @@
         "tableId": "iam_password_reset_tokens",
         "name": "used_at",
         "comment": "",
-        "dataType": "TIMESTAMP(6) WITH TIME ZONE",
+        "dataType": "TIMESTAMPTZ(6)",
         "default": "",
         "options": 0
       },
@@ -320,7 +320,7 @@
         "id": "iam_pending_registrations_email",
         "tableId": "iam_pending_registrations",
         "name": "email",
-        "comment": "",
+        "comment": "Correo normalizado y único",
         "dataType": "VARCHAR(255)",
         "default": "",
         "options": 12
@@ -329,7 +329,7 @@
         "id": "iam_pending_registrations_password_hash",
         "tableId": "iam_pending_registrations",
         "name": "password_hash",
-        "comment": "",
+        "comment": "Hash seguro de la contraseña",
         "dataType": "VARCHAR(255)",
         "default": "",
         "options": 8
@@ -348,7 +348,7 @@
         "tableId": "iam_pending_registrations",
         "name": "expires_at",
         "comment": "",
-        "dataType": "TIMESTAMP(6) WITH TIME ZONE",
+        "dataType": "TIMESTAMPTZ(6)",
         "default": "",
         "options": 8
       },
@@ -357,7 +357,7 @@
         "tableId": "iam_pending_registrations",
         "name": "created_at",
         "comment": "",
-        "dataType": "TIMESTAMP(6) WITH TIME ZONE",
+        "dataType": "TIMESTAMPTZ(6)",
         "default": "",
         "options": 8
       }

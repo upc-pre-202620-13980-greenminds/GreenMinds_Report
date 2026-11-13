@@ -4729,7 +4729,7 @@ El diagrama de base de datos presenta las estructuras de persistencia necesarias
 
 **Figura 52**
 
-*Diagrama de diseño de la base de datos PostgreSQL del bounded context IAM.*
+*Diagrama de diseño de la base de datos del bounded context IAM, elaborado con ERD Editor.*
 
 ![C4I](assets/img/figures/IamDatabase.png)
 
