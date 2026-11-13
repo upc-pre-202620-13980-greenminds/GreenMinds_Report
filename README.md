@@ -3088,26 +3088,38 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Ranking comunitario</td>
+    <td colspan="3">Ranking local</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como estudiante, quiero ver un ranking de usuarios en mi comunidad, para mantener la motivación en los retos.</td>
+    <td colspan="3">Como estudiante, quiero ver un ranking de usuarios en mi localidad, para mantener la motivación en los retos.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Visualización del ranking semanal<br/>
+      <b>Escenario 1:</b> Visualización del ranking local semanal<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante accede a la sección de comunidad y selecciona "Ranking",</li>
-        <li><b>Cuando</b> solicita consultar la clasificación semanal,</li>
-        <li><b>Entonces</b> el sistema mostrará un top 20 de estudiantes con más puntos de la semana, destacando la posición del usuario actual.</li>
+        <li><b>Dado que</b> el estudiante tiene una localidad definida,</li>
+        <li><b>Cuando</b> consulta el ranking local semanal,</li>
+        <li><b>Entonces</b> el sistema muestra los 20 usuarios de su localidad con más puntos de la semana y destaca su posición si aparece en la lista.</li>
       </ul>
-      <b>Escenario 2:</b> Filtros en el ranking<br/>
+      <b>Escenario 2:</b> Filtros del ranking local<br/>
       <ul>
-        <li><b>Dado que</b> el estudiante visualiza el ranking,</li>
-        <li><b>Cuando</b> seleccione filtros de tiempo (diario, semanal, mensual, histórico),</li>
-        <li><b>Entonces</b> el sistema actualizará la lista según el periodo seleccionado.</li>
+        <li><b>Dado que</b> el estudiante visualiza el ranking local,</li>
+        <li><b>Cuando</b> selecciona un periodo diario, semanal, mensual o histórico,</li>
+        <li><b>Entonces</b> el sistema actualiza la clasificación para ese periodo manteniendo únicamente a los usuarios de su localidad.</li>
+      </ul>
+      <b>Escenario 3:</b> Localidad no definida<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante no tiene una localidad definida,</li>
+        <li><b>Cuando</b> intenta consultar el ranking local,</li>
+        <li><b>Entonces</b> el sistema solicita definir su localidad antes de mostrar la clasificación.</li>
+      </ul>
+      <b>Escenario 4:</b> Sin resultados locales<br/>
+      <ul>
+        <li><b>Dado que</b> no existen puntajes registrados en la localidad para el periodo seleccionado,</li>
+        <li><b>Cuando</b> el estudiante consulta el ranking local,</li>
+        <li><b>Entonces</b> el sistema informa que no hay resultados disponibles para esa localidad y periodo.</li>
       </ul>
     </td>
   </tr>
@@ -3489,38 +3501,38 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
   <tr>
     <td><b>Título</b></td>
-    <td colspan="3">Visualización de eventos de la comunidad en mapa</td>
+    <td colspan="3">Selección del lugar de encuentro en mapa</td>
   </tr>
   <tr>
     <td><b>Descripción</b></td>
-    <td colspan="3">Como usuario, quiero ver eventos de la comunidad cercanos en un mapa, para participar en actividades cercanas a mi ubicación.</td>
+    <td colspan="3">Como usuario, quiero contar con un mapa interactivo al crear un evento, para facilitar la selección del lugar de encuentro.</td>
   </tr>
   <tr>
     <td colspan="4">
       <b>Criterios de aceptación:</b><br/><br/>
-      <b>Escenario 1:</b> Visualización de eventos en mapa<br/>
+      <b>Escenario 1:</b> Apertura del mapa<br/>
       <ul>
-        <li><b>Dado que</b> el usuario accede a la pantalla de comunidad,</li>
-        <li><b>Cuando</b> ingresa a la sección de eventos de la comunidad,</li>
-        <li><b>Entonces</b> el sistema muestra un mapa con los eventos cercanos a su ubicación.</li>
+        <li><b>Dado que</b> el usuario está en el formulario de creación de un evento,</li>
+        <li><b>Cuando</b> elige definir el lugar de encuentro,</li>
+        <li><b>Entonces</b> el sistema muestra un mapa interactivo para explorar y seleccionar una ubicación.</li>
       </ul>
-      <b>Escenario 2:</b> Visualización de detalle de evento<br/>
+      <b>Escenario 2:</b> Selección del lugar de encuentro<br/>
       <ul>
-        <li><b>Dado que</b> el usuario visualiza el mapa con eventos,</li>
-        <li><b>Cuando</b> selecciona un evento en el mapa,</li>
-        <li><b>Entonces</b> el sistema muestra la información detallada del evento.</li>
+        <li><b>Dado que</b> el usuario tiene abierto el mapa,</li>
+        <li><b>Cuando</b> selecciona un punto y confirma su elección,</li>
+        <li><b>Entonces</b> el sistema registra las coordenadas seleccionadas y muestra el lugar de encuentro en el formulario.</li>
       </ul>
-      <b>Escenario 3:</b> Sin eventos cercanos<br/>
+      <b>Escenario 3:</b> Cambio del lugar de encuentro<br/>
       <ul>
-        <li><b>Dado que</b> no existen eventos de la comunidad cercanos a la ubicación del usuario,</li>
-        <li><b>Cuando</b> consulta los eventos disponibles en el mapa,</li>
-        <li><b>Entonces</b> el sistema muestra el mensaje "No hay eventos cercanos disponibles".</li>
+        <li><b>Dado que</b> el usuario seleccionó un lugar y todavía no creó el evento,</li>
+        <li><b>Cuando</b> abre el mapa y confirma otro punto,</li>
+        <li><b>Entonces</b> el sistema reemplaza la ubicación anterior por la nueva selección.</li>
       </ul>
-      <b>Escenario 4:</b> Error de ubicación<br/>
+      <b>Escenario 4:</b> Conservación del lugar seleccionado<br/>
       <ul>
-        <li><b>Dado que</b> el usuario no otorga permisos de ubicación o hay un error al obtenerla,</li>
-        <li><b>Cuando</b> intenta acceder al mapa de eventos,</li>
-        <li><b>Entonces</b> el sistema muestra un mensaje solicitando habilitar la ubicación.</li>
+        <li><b>Dado que</b> el usuario completó los datos requeridos y confirmó un punto en el mapa,</li>
+        <li><b>Cuando</b> confirma la creación del evento,</li>
+        <li><b>Entonces</b> el sistema guarda el evento con las coordenadas del lugar de encuentro seleccionado.</li>
       </ul>
     </td>
   </tr>
@@ -4052,6 +4064,50 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
+<table align="center">
+  <tr>
+    <td><b>User Story ID</b></td><td>HU-068</td>
+    <td><b>Epic ID</b></td><td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Título</b></td>
+    <td colspan="3">Modo offline</td>
+  </tr>
+  <tr>
+    <td><b>Descripción</b></td>
+    <td colspan="3">Como estudiante, quiero usar la aplicación en modo offline, para continuar aprendiendo sin conexión.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Criterios de aceptación:</b><br/><br/>
+      <b>Escenario 1:</b> Acceso sin conexión<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante inició sesión previamente y tiene contenido educativo almacenado en el dispositivo,</li>
+        <li><b>Cuando</b> abre la aplicación sin conexión a Internet,</li>
+        <li><b>Entonces</b> la aplicación informa que está en modo offline y permite acceder al contenido disponible localmente.</li>
+      </ul>
+      <b>Escenario 2:</b> Progreso local<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante usa una actividad compatible con el modo offline,</li>
+        <li><b>Cuando</b> avanza o completa la actividad sin conexión,</li>
+        <li><b>Entonces</b> la aplicación guarda el progreso en el dispositivo y lo conserva al cerrar y volver a abrir la aplicación.</li>
+      </ul>
+      <b>Escenario 3:</b> Contenido no disponible<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante está en modo offline,</li>
+        <li><b>Cuando</b> intenta abrir contenido no almacenado o una función que requiere Internet,</li>
+        <li><b>Entonces</b> la aplicación informa que necesita conexión y permite continuar con el contenido disponible.</li>
+      </ul>
+      <b>Escenario 4:</b> Recuperación de la conexión<br/>
+      <ul>
+        <li><b>Dado que</b> el estudiante tiene progreso guardado durante el uso offline,</li>
+        <li><b>Cuando</b> la aplicación recupera Internet y dispone de una sesión válida,</li>
+        <li><b>Entonces</b> la aplicación sincroniza el progreso pendiente sin duplicar registros y conserva los pendientes si el envío falla.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 ### 2.4.2. Impact Mapping
 
 Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de negocio, los actores clave, los impactos esperados y las funcionalidades que los sustentan, esto para ambos segmentos objetivo en los que nos enfocamos
@@ -4121,12 +4177,12 @@ Para establecer el orden de prioridad de las historias de usuario planteadas par
 | 18 | HU-066 | Selección de comunidad de preferencia | Como usuario, quiero elegir qué comunidad consultar al entrar a la sección Comunidad, para mantener ordenado el contenido de las comunidades a las que pertenezco. | 3 |
 | 19 | HU-063 | Creación de meta comunitaria | Como padre administrador de una comunidad, quiero crear una meta comunitaria a partir de opciones estandarizadas de la aplicación, para obtener recompensas y motivar la participación de la comunidad. | 8 |
 | 20 | HU-064 | Inscripción a meta comunitaria | Como padre o niño miembro de una comunidad, quiero inscribirme en metas comunitarias disponibles, para obtener recompensas y aumentar mi interacción con la comunidad. | 5 |
-| 21 | HU-036 | Ranking comunitario | Como estudiante, quiero ver un ranking de usuarios en mi comunidad, para mantener la motivación en los retos. | 3 |
+| 21 | HU-036 | Ranking local | Como estudiante, quiero ver un ranking de usuarios en mi localidad, para mantener la motivación en los retos. | 3 |
 | 22 | HU-037 | Eventos ambientales | Como estudiante, quiero participar en eventos ambientales comunitarios desde la aplicación, para sentir la participación comunitaria. | 5 |
 | 23 | HU-065 | Creación de chat temporal de evento | Como padre, quiero que al terminar la creación de mi evento se cree un chat grupal temporal, para coordinar con los futuros participantes. | 8 |
 | 24 | HU-038 | Panel de logros compartidos | Como estudiante, quiero consultar un panel con los logros más destacados, para inspirarme en los avances de otros. | 3 |
 | 25 | HU-039 | Invitar amigos | Como estudiante, quiero enviar solicitudes de amistad para compartir experiencias de aprendizaje. | 3 |
-| 26 | HU-048 | Eventos de la comunidad en mapa | Como usuario, quiero ver eventos de la comunidad cercanos en un mapa, para participar en actividades cercanas a mi ubicación. | 5 |
+| 26 | HU-048 | Selección del lugar de encuentro en mapa | Como usuario, quiero contar con un mapa interactivo al crear un evento, para facilitar la selección del lugar de encuentro. | 5 |
 | 27 | HU-067 | Protector de racha | Como usuario, quiero adquirir protectores para mi racha actual, para evitar perder mi progreso y mantener mi motivación. | 5 |
 | 28 | TS-004 | Endpoint de gestión de retos (CRUD) | Como desarrollador backend, quiero implementar la gestión de retos. | 8 |
 | 29 | TS-005 | Endpoint de progreso y puntaje del usuario | Como desarrollador backend, quiero implementar el progreso del usuario. | 5 |
@@ -4175,17 +4231,18 @@ Para establecer el orden de prioridad de las historias de usuario planteadas par
 | 72 | HU-045 | Disponibilidad | Como estudiante, quiero que la aplicación esté disponible las 24 horas del día y 7 días de la semana, para poder realizar mis retos o acceder a información en cualquier momento. | 3 |
 | 73 | HU-046 | Seguridad | Como estudiante, quiero que mis datos personales estén protegidos mediante cifrado para evitar filtraciones o mal uso. | 5 |
 | 74 | HU-047 | Soporte | Como estudiante, quiero contar con soporte técnico dentro de la aplicación, para resolver problemas fácilmente. | 3 |
-| 75 | HU-049 | Sincronización automática | Como estudiante, quiero que la aplicación sincronice mis datos automáticamente, para no perder mi progreso. | 5 |
-| 76 | HU-050 | Optimización | Como estudiante, quiero que la aplicación use pocos recursos, para que funcione correctamente en cualquier dispositivo. | 3 |
-| 77 | TS-001 | Endpoint de registro de usuarios | Como desarrollador backend, quiero implementar el registro de usuarios. | 5 |
-| 78 | TS-002 | Endpoint de autenticación con JWT | Como desarrollador backend, quiero implementar autenticación con JWT. | 5 |
-| 79 | TS-003 | Endpoint de vinculación de cuentas padre-hijo | Como desarrollador backend, quiero implementar la vinculación familiar. | 5 |
-| 80 | TS-006 | Endpoint de insignias y sistema de recompensas | Como desarrollador backend, quiero implementar el sistema de insignias. | 5 |
-| 81 | TS-008 | Servicio de notificaciones push | Como desarrollador backend, quiero implementar notificaciones push. | 5 |
-| 82 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataform como estudiante o padre, para acceder a funcionalidades personalizadas de la aplicación. | 7 |
-| 83 | HU-057 | Inicio de sesión | Como usuario registrado, quiero autenticarme en el sistema mediante la validación de mis credenciales únicas (correo electrónico y contraseña), para establecer una sesión segua. | 7 |
-| 84 | HU-058 | Recuperación de contraseña | Como usuario, quiero iniciar el protocolo de recuperación de credenciales mediante mi dirección de correo electrónico vinculada, para volver a acceder a mi cuenta. | 7 |
-| 85 | HU-059 | Cierre de sesión | Como usuario, quiero ejecutar la finalización de mi sesión activa mediante la opción de "Log out, para proteger mi información personal en la plataforma. | 7 |
+| 75 | HU-068 | Modo offline | Como estudiante, quiero usar la aplicación en modo offline, para continuar aprendiendo sin conexión. | Por estimar |
+| 76 | HU-049 | Sincronización automática | Como estudiante, quiero que la aplicación sincronice mis datos automáticamente, para no perder mi progreso. | 5 |
+| 77 | HU-050 | Optimización | Como estudiante, quiero que la aplicación use pocos recursos, para que funcione correctamente en cualquier dispositivo. | 3 |
+| 78 | TS-001 | Endpoint de registro de usuarios | Como desarrollador backend, quiero implementar el registro de usuarios. | 5 |
+| 79 | TS-002 | Endpoint de autenticación con JWT | Como desarrollador backend, quiero implementar autenticación con JWT. | 5 |
+| 80 | TS-003 | Endpoint de vinculación de cuentas padre-hijo | Como desarrollador backend, quiero implementar la vinculación familiar. | 5 |
+| 81 | TS-006 | Endpoint de insignias y sistema de recompensas | Como desarrollador backend, quiero implementar el sistema de insignias. | 5 |
+| 82 | TS-008 | Servicio de notificaciones push | Como desarrollador backend, quiero implementar notificaciones push. | 5 |
+| 83 | HU-056 | Registro de usuario | Como usuario, quiero crear una cuenta y seleccionar mi rol dentro de la plataform como estudiante o padre, para acceder a funcionalidades personalizadas de la aplicación. | 7 |
+| 84 | HU-057 | Inicio de sesión | Como usuario registrado, quiero autenticarme en el sistema mediante la validación de mis credenciales únicas (correo electrónico y contraseña), para establecer una sesión segua. | 7 |
+| 85 | HU-058 | Recuperación de contraseña | Como usuario, quiero iniciar el protocolo de recuperación de credenciales mediante mi dirección de correo electrónico vinculada, para volver a acceder a mi cuenta. | 7 |
+| 86 | HU-059 | Cierre de sesión | Como usuario, quiero ejecutar la finalización de mi sesión activa mediante la opción de "Log out, para proteger mi información personal en la plataforma. | 7 |
 
 ## 2.5. Strategic-Level Domain-Driven Design
 Esta sección presenta el modelado estratégico del dominio de EcoMind, incluyendo la identificación de contextos, sus flujos de mensajes, sus relaciones y la arquitectura general de la solución.
@@ -9474,10 +9531,10 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td>Completed</td>
     </tr>
     <tr><td>HU-036</td>
-      <td>Ranking comunitario</td>
+      <td>Ranking local</td>
       <td>S2-60</td>
-      <td>Conectar el ranking comunitario (Android)</td>
-      <td>Consultar la clasificación correspondiente a la comunidad y mostrar sus participantes ordenados por puntaje.</td>
+      <td>Conectar el ranking local (Android)</td>
+      <td>Consultar la clasificación de usuarios de la localidad del estudiante y mostrar sus participantes ordenados por puntaje.</td>
       <td>4</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
@@ -9633,6 +9690,24 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td>7</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
+    </tr>
+    <tr><td>HU-048</td>
+      <td>Selección del lugar de encuentro en mapa</td>
+      <td>S2-73</td>
+      <td>Seleccionar el lugar de encuentro al crear un evento (Android)</td>
+      <td>Integrar el mapa interactivo en la creación de eventos, permitir seleccionar o modificar el punto de encuentro y guardar sus coordenadas con el evento.</td>
+      <td>Por estimar</td>
+      <td>Por confirmar</td>
+      <td>Por confirmar</td>
+    </tr>
+    <tr><td>HU-068</td>
+      <td>Modo offline</td>
+      <td>S2-74</td>
+      <td>Habilitar el aprendizaje sin conexión (Android)</td>
+      <td>Permitir acceder al contenido almacenado y guardar el progreso localmente, informar las funciones que requieren conexión e integrar la sincronización de HU-049 al recuperar Internet.</td>
+      <td>Por estimar</td>
+      <td>Por confirmar</td>
+      <td>Por confirmar</td>
     </tr>
   </tbody>
 </table>
