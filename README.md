@@ -7919,7 +7919,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 *Organización del sprint 1 en Trello*
 
-![Sprint_4](assets/img/figures/Sprint_1.png)
+![Sprint_1](assets/img/figures/Sprint_1.png)
 
 **Tabla 117**
  
@@ -9160,7 +9160,7 @@ En el Sprint 2, el equipo se enfocó en completar las funcionalidades pendientes
 | Astocondor Bazan, Alejandra Isabel | AleeAsto | C | L | C | C | C | C | C |
 | Dulanto Espino, Leo César | Leotens | C | C | L | C | C | C | C |
 | Aponte Pablo, Isabel Luisa | IsabelAponte234 | C | C | C | L | C | C | L |
-| Pajes Leon, Mauricio Luis | mauricio-pajes | C | L | C | C | C | L | C |
+| Pajes Leon, Mauricio Luis | mauricio-pajes | L | C | C | C | C | L | C |
 | Philco Mota, Katty Yolanda | kattyph | C | C | C | C | L | C | C |
 
 #### 4.2.2.3. Sprint Backlog 2
@@ -9168,6 +9168,12 @@ En el Sprint 2, el equipo se enfocó en completar las funcionalidades pendientes
 El Sprint Backlog 2 retoma los pendientes del Sprint 1 para completar la aplicación nativa de Android e incorpora el avance de EcoMind en Flutter. En Flutter se priorizó el recorrido de acceso, búsqueda, ejecución y seguimiento de retos.
 
 Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
+
+**Figura XX**
+
+*Organización del sprint 2 en Trello*
+
+![Sprint_2](assets/img/figures/Sprint_2.png)
 
 **Tabla 125**
 
@@ -9179,70 +9185,187 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     <tr><th>Id</th><th>Title</th><th>Id</th><th>Title</th><th>Description</th><th>Estimation (Hours)</th><th>Assigned To</th><th>Status</th></tr>
   </thead>
   <tbody>
-    <tr><td>HU-041</td>
-      <td>Puntaje decreciente por repetición de minijuegos</td>
-      <td>S2-01</td>
-      <td>Implementar el minijuego de recolección (Android, Backend)</td>
-      <td>Registrar los intentos del minijuego de recolección y mostrar los ecopoints que asigna el servicio en cada repetición.</td>
-      <td>16</td>
-      <td>Alejandra Isabel Astocondor Bazan</td>
+    <tr><td rowspan="2">HU-046</td>
+      <td rowspan="2">Seguridad</td>
+      <td>TO01</td>
+      <td>Proteger credenciales y comunicaciones (Android)</td>
+      <td>Almacenar las credenciales de forma segura, utilizar HTTPS y evitar datos sensibles en los registros de la aplicación.</td>
+      <td>6</td>
+      <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
-    <tr><td rowspan="3">HU-001</td>
-      <td rowspan="3">Retos guiados con indicaciones</td>
-      <td>S2-02</td>
-      <td>Ampliar las actividades guiadas (Android)</td>
-      <td>Permitir que el estudiante escriba y envíe respuestas dentro de un reto guiado.</td>
+    <tr>
+      <td>TO02</td>
+      <td>Validar autorización y aislamiento de datos (Android, Backend)</td>
+      <td>Verificar que cada usuario acceda solo a la información permitida para su cuenta y rol, incluyendo sesiones vencidas y accesos rechazados.</td>
+      <td>5</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-056</td>
+      <td rowspan="3">Registro de usuario</td>
+      <td>TO03</td>
+      <td>Completar términos y privacidad del registro (Android, Flutter)</td>
+      <td>Mostrar los términos y la información de privacidad durante el registro y solicitar la aceptación explícita.</td>
+      <td>6</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO04</td>
+      <td>Implementar el registro y la verificación de correo (Flutter)</td>
+      <td>Conectar el formulario de registro y la verificación de correo con los servicios de autenticación.</td>
       <td>9</td>
-      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
     <tr>
-      <td>S2-39</td>
-      <td>Explorar el catálogo de retos (Flutter)</td>
-      <td>Mostrar el catálogo y el detalle de los retos e incorporar la búsqueda por título y los filtros.</td>
-      <td>10</td>
-      <td>Alejandra Isabel Astocondor Bazan</td>
-      <td>Completed</td>
-    </tr>
-    <tr>
-      <td>S2-40</td>
-      <td>Conectar el inicio, las respuestas y la finalización del reto (Flutter)</td>
-      <td>Conectar con la API el inicio del reto, el guardado de respuestas y la confirmación de que se completó.</td>
-      <td>12</td>
-      <td>Alejandra Isabel Astocondor Bazan</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-010</td>
-      <td>Desafío entre compañeros</td>
-      <td>S2-03</td>
-      <td>Conectar los retos entre amigos (Android)</td>
-      <td>Permitir que el estudiante invite amigos, responda invitaciones e inicie un reto colaborativo.</td>
-      <td>14</td>
-      <td>Alejandra Isabel Astocondor Bazan</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-013</td>
-      <td>Reto familiar en casa</td>
-      <td>S2-04</td>
-      <td>Ejecutar retos familiares (Android)</td>
-      <td>Permitir que los integrantes de la familia realicen las actividades del plan y registren su finalización.</td>
+      <td>TO05</td>
+      <td>Completar el registro y la selección de rol (Android)</td>
+      <td>Conectar el alta de estudiante o padre, validar los campos y gestionar la verificación de correo en Android.</td>
       <td>7</td>
-      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
-    <tr><td>HU-017</td>
-      <td>Planificación de retos familiares</td>
-      <td>S2-44</td>
-      <td>Planificar retos familiares (Android)</td>
-      <td>Conectar la creación y edición de planes familiares con los datos del servicio de retos.</td>
+    <tr><td rowspan="2">HU-057</td>
+      <td rowspan="2">Inicio de sesión</td>
+      <td>TO06</td>
+      <td>Implementar el inicio de sesión y conservar la sesión (Flutter)</td>
+      <td>Autenticar al usuario con la API y almacenar la sesión para mantener el acceso al volver a abrir la aplicación.</td>
+      <td>7</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO07</td>
+      <td>Integrar el inicio de sesión y su persistencia (Android)</td>
+      <td>Validar credenciales con la API, conservar la sesión y gestionar errores de autenticación y sesión vencida.</td>
+      <td>7</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-059</td>
+      <td>Cierre de sesión</td>
+      <td>TO08</td>
+      <td>Conectar el cierre de sesión (Android, Flutter)</td>
+      <td>Invocar el servicio de cierre de sesión, borrar las credenciales locales y volver a la pantalla de acceso.</td>
+      <td>7</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-058</td>
+      <td rowspan="3">Recuperación de contraseña</td>
+      <td>TO09</td>
+      <td>Solicitar la recuperación de contraseña (Android, Flutter, Backend)</td>
+      <td>Conectar el formulario de correo con la solicitud de recuperación y presentar la respuesta sin revelar cuentas existentes.</td>
+      <td>5</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO10</td>
+      <td>Procesar el enlace y cambiar la contraseña (Android, Flutter, Backend)</td>
+      <td>Abrir el enlace de recuperación y conectar el formulario de nueva contraseña con el servicio.</td>
+      <td>8</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO11</td>
+      <td>Validar errores y reintentos de recuperación (Android, Flutter, Backend)</td>
+      <td>Gestionar enlaces inválidos o vencidos, errores de red y reintentos del flujo de recuperación.</td>
+      <td>5</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-044</td>
+      <td rowspan="2">Interfaz simple</td>
+      <td>TO12</td>
+      <td>Unificar navegación y componentes de la interfaz (Android)</td>
+      <td>Organizar accesos, botones y mensajes consistentes en los recorridos de retos, familia, comunidad y aprendizaje.</td>
+      <td>5</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO13</td>
+      <td>Revisar comprensión y accesibilidad de los flujos (Android)</td>
+      <td>Validar legibilidad, etiquetas, tamaños de controles y estados vacíos o de error en las pantallas principales.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="3">HU-068</td>
+      <td rowspan="3">Modo offline</td>
+      <td>TO14</td>
+      <td>Preparar el acceso al contenido local (Android)</td>
+      <td>Guardar el contenido educativo disponible para uso offline y permitir abrirlo sin conexión desde una sesión previamente iniciada.</td>
+      <td>6</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO15</td>
+      <td>Conservar el progreso durante el uso offline (Android)</td>
+      <td>Persistir el avance de actividades compatibles y recuperarlo al cerrar y volver a abrir la aplicación.</td>
       <td>6</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
+    <tr>
+      <td>TO16</td>
+      <td>Integrar estados y restricciones del modo offline (Android)</td>
+      <td>Informar la ausencia de conexión, distinguir contenido disponible y funciones que requieren Internet, y enlazar el progreso pendiente con HU-049.</td>
+      <td>4</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-049</td>
+      <td rowspan="2">Sincronización automática</td>
+      <td>TO17</td>
+      <td>Implementar el envío del progreso pendiente (Android, Backend)</td>
+      <td>Sincronizar los registros locales al recuperar Internet con una sesión válida y conservar los pendientes ante fallos.</td>
+      <td>6</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO18</td>
+      <td>Resolver reintentos y registros duplicados (Android, Backend)</td>
+      <td>Evitar duplicaciones al reenviar progreso y verificar la consistencia entre el estado local y el servidor tras interrupciones.</td>
+      <td>5</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-045</td>
+      <td rowspan="2">Disponibilidad</td>
+      <td>TO19</td>
+      <td>Configurar supervisión y recuperación del servicio (Backend)</td>
+      <td>Configurar comprobaciones de salud, registro de fallos y recuperación del servicio desplegado para sostener su disponibilidad.</td>
+      <td>4</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO20</td>
+      <td>Gestionar interrupciones temporales (Android)</td>
+      <td>Mostrar el estado del servicio y permitir reintentos sin perder datos cuando una solicitud no pueda completarse.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-024</td>
+      <td>Tutorial paso a paso</td>
+      <td>TO21</td>
+      <td>Incorporar el tutorial guiado y registrar su avance (Android, Backend)</td>
+      <td>Presentar el tutorial en la primera sesión y guardar el avance de sus pasos mediante la API.</td>
+      <td>8</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
     <tr><td rowspan="2">HU-007</td>
       <td rowspan="2">Seguimiento de progreso</td>
-      <td>S2-05</td>
+      <td>TO22</td>
       <td>Conectar el progreso y la lista de actividades en curso (Android)</td>
       <td>Cargar las actividades en curso desde la API y abrir el listado completo desde «Ver más».</td>
       <td>5</td>
@@ -9250,7 +9373,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td>Completed</td>
     </tr>
     <tr>
-      <td>S2-41</td>
+      <td>TO23</td>
       <td>Consultar las actividades en curso (Flutter)</td>
       <td>Consultar las asignaciones en curso y mostrar cuáles están listas para finalizar.</td>
       <td>5</td>
@@ -9259,7 +9382,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr><td rowspan="2">HU-012</td>
       <td rowspan="2">Historial de aprendizaje</td>
-      <td>S2-45</td>
+      <td>TO24</td>
       <td>Conectar el historial y la lista de actividades completadas (Android)</td>
       <td>Cargar las actividades completadas desde la API y habilitar el acceso al historial desde «Ver más».</td>
       <td>4</td>
@@ -9267,281 +9390,59 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
       <td>Completed</td>
     </tr>
     <tr>
-      <td>S2-72</td>
+      <td>TO25</td>
       <td>Consultar el historial de retos completados (Flutter)</td>
       <td>Consultar las asignaciones completadas y presentarlas en la vista de progreso.</td>
       <td>5</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
-    <tr><td rowspan="2">TS-009</td>
-      <td rowspan="2">Endpoint de resumen y edición de perfil</td>
-      <td>S2-06</td>
-      <td>Editar y compartir el perfil (Android)</td>
-      <td>Guardar los cambios del perfil mediante la API y habilitar la opción de compartirlo.</td>
-      <td>8</td>
-      <td>Katty Yolanda Philco Mota</td>
-      <td>Completed</td>
-    </tr>
-    <tr>
-      <td>S2-36</td>
-      <td>Mostrar y editar el perfil del padre o madre (Flutter)</td>
-      <td>Cargar los datos del perfil de padre o madre y enviar los cambios desde el formulario de edición.</td>
-      <td>8</td>
-      <td>Katty Yolanda Philco Mota</td>
+    <tr><td>HU-003</td>
+      <td>Racha diaria por completar retos</td>
+      <td>TO26</td>
+      <td>Mostrar la racha diaria y el bono semanal (Android, Backend)</td>
+      <td>Cargar la racha desde la API y mostrar el bono asociado al cumplimiento de la meta semanal.</td>
+      <td>6</td>
+      <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
     <tr><td>HU-006</td>
       <td>Establecimiento de compromiso</td>
-      <td>S2-07</td>
+      <td>TO27</td>
       <td>Crear y editar compromisos personales (Android)</td>
       <td>Guardar en el dispositivo los compromisos que el estudiante crea o modifica.</td>
       <td>4</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
     </tr>
-    <tr><td>HU-039</td>
-      <td>Invitar amigos</td>
-      <td>S2-08</td>
-      <td>Buscar amigos y gestionar solicitudes (Android)</td>
-      <td>Buscar usuarios y permitir enviar, aceptar o rechazar solicitudes de amistad.</td>
+    <tr><td rowspan="3">HU-041</td>
+      <td rowspan="3">Puntaje decreciente por repetición de minijuegos</td>
+      <td>TO28</td>
+      <td>Registrar intentos del minijuego de recolección (Android, Backend)</td>
+      <td>Registrar la ejecución y las repeticiones del minijuego para calcular la recompensa correspondiente.</td>
       <td>6</td>
-      <td>Katty Yolanda Philco Mota</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td rowspan="2">TS-011</td>
-      <td rowspan="2">Endpoint de familia y amigos del perfil</td>
-      <td>S2-46</td>
-      <td>Conectar los endpoints de amistad al perfil (Android)</td>
-      <td>Consultar el perfil de un amigo y permitir eliminar la amistad mediante la API.</td>
-      <td>4</td>
-      <td>Katty Yolanda Philco Mota</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
-      <td>S2-47</td>
-      <td>Conectar el endpoint de membresías familiares (Android)</td>
-      <td>Consultar la membresía familiar del estudiante y cargar los integrantes asociados a su grupo.</td>
-      <td>3</td>
-      <td>Katty Yolanda Philco Mota</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-019</td>
-      <td>Agregar integrantes a la familia</td>
-      <td>S2-70</td>
-      <td>Crear el grupo familiar y gestionar integrantes (Flutter)</td>
-      <td>Permitir crear un grupo familiar, agregar o retirar integrantes y aplicar las reglas de membresía.</td>
-      <td>10</td>
-      <td>Katty Yolanda Philco Mota</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td rowspan="2">TS-016</td>
-      <td rowspan="2">Endpoint de notificaciones del usuario</td>
-      <td>S2-13</td>
-      <td>Implementar la bandeja y el contador de no leídas (Android, Backend)</td>
-      <td>Consultar la bandeja, marcar notificaciones como leídas y actualizar el contador de pendientes de lectura.</td>
-      <td>9</td>
-      <td>Katty Yolanda Philco Mota</td>
+      <td>TO29</td>
+      <td>Aplicar y mostrar el puntaje decreciente (Android, Backend)</td>
+      <td>Integrar la disminución progresiva del puntaje hasta cero y mostrar los ecopoints devueltos por el servicio.</td>
+      <td>6</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
     <tr>
-      <td>S2-38</td>
-      <td>Consultar las notificaciones (Flutter)</td>
-      <td>Mostrar la bandeja de notificaciones para padres, el contador de no leídas y los ajustes por categoría.</td>
-      <td>8</td>
-      <td>Katty Yolanda Philco Mota</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-060</td>
-      <td>Inscripción a una comunidad local cercana</td>
-      <td>S2-15</td>
-      <td>Incorporarse a una comunidad local (Android, Backend)</td>
-      <td>Detectar la localidad y permitir la inscripción a una comunidad cercana desde la selección inicial.</td>
-      <td>8</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-061</td>
-      <td>Creación de comunidades personalizadas</td>
-      <td>S2-16</td>
-      <td>Crear comunidades temáticas (Android)</td>
-      <td>Permitir que los padres creen una comunidad temática mediante el formulario de Comunidad.</td>
-      <td>7</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-062</td>
-      <td>Inscripción a comunidades personalizadas</td>
-      <td>S2-50</td>
-      <td>Inscribirse en comunidades temáticas (Android)</td>
-      <td>Cargar las comunidades temáticas disponibles y registrar la incorporación del usuario.</td>
-      <td>4</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-066</td>
-      <td>Selección de comunidad de preferencia</td>
-      <td>S2-51</td>
-      <td>Cambiar entre comunidades (Android)</td>
-      <td>Permitir elegir entre las comunidades del usuario y cargar el contenido de la comunidad seleccionada.</td>
-      <td>3</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-063</td>
-      <td>Creación de meta comunitaria</td>
-      <td>S2-17</td>
-      <td>Crear metas comunitarias (Android, Backend)</td>
-      <td>Habilitar el formulario de creación de metas para los administradores de comunidad.</td>
-      <td>5</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-064</td>
-      <td>Inscripción a meta comunitaria</td>
-      <td>S2-52</td>
-      <td>Inscribirse en metas comunitarias (Android, Backend)</td>
-      <td>Permitir que los miembros se inscriban en metas disponibles y consultar su estado de participación.</td>
-      <td>4</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td rowspan="2">TS-018</td>
-      <td rowspan="2">Endpoint de metas comunitarias y chat temporal</td>
-      <td>S2-53</td>
-      <td>Conectar la API de metas y actualizar su progreso (Android, Backend)</td>
-      <td>Registrar la creación y la inscripción a las metas en la API y actualizar su avance cuando se completan retos.</td>
-      <td>6</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr>
-      <td>S2-55</td>
-      <td>Conectar la API del chat temporal (Android, Backend)</td>
-      <td>Exponer los servicios del chat asociado al evento y controlar el acceso de sus participantes.</td>
-      <td>5</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-040</td>
-      <td>Logros colectivos</td>
-      <td>S2-18</td>
-      <td>Registrar el logro y publicar la finalización de una meta comunitaria (Backend)</td>
-      <td>Crear un registro de logro colectivo y una publicación cuando la meta alcance su condición de finalización.</td>
-      <td>8</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-014</td>
-      <td>Evento familiar en comunidad</td>
-      <td>S2-19</td>
-      <td>Habilitar la inscripción familiar a eventos (Android, Backend)</td>
-      <td>Enviar el identificador de la familia al registrar su participación en un evento.</td>
-      <td>5</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-037</td>
-      <td>Eventos ambientales</td>
-      <td>S2-54</td>
-      <td>Buscar eventos e inscribirse individualmente (Android, Backend)</td>
-      <td>Buscar eventos por texto, consultar su detalle y registrar la participación individual.</td>
-      <td>6</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-065</td>
-      <td>Creación de chat temporal de evento</td>
-      <td>S2-21</td>
-      <td>Habilitar el chat temporal para participantes (Android, Backend)</td>
-      <td>Abrir el chat temporal desde el evento y permitir a los participantes consultar y enviar mensajes.</td>
-      <td>6</td>
-      <td>Leo César Dulanto Espino</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-033</td>
-      <td>Compartir logros ambientales</td>
-      <td>S2-22</td>
-      <td>Publicar logros en la comunidad (Android, Backend)</td>
-      <td>Permitir que el usuario seleccione una comunidad y publique un logro obtenido.</td>
-      <td>5</td>
-      <td>Leo César Dulanto Espino<br>Mauricio Luis Pajes Leon</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-034</td>
-      <td>Reaccionar a publicaciones</td>
-      <td>S2-56</td>
-      <td>Reaccionar a publicaciones (Android, Backend)</td>
-      <td>Registrar las reacciones de los usuarios y actualizar su visualización en las publicaciones.</td>
-      <td>4</td>
-      <td>Leo César Dulanto Espino<br>Mauricio Luis Pajes Leon</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-038</td>
-      <td>Panel de logros compartidos</td>
-      <td>S2-57</td>
-      <td>Conectar el panel de logros compartidos (Android, Backend)</td>
-      <td>Consultar los logros de la comunidad y mostrarlos en el panel correspondiente.</td>
-      <td>4</td>
-      <td>Leo César Dulanto Espino<br>Mauricio Luis Pajes Leon</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-003</td>
-      <td>Racha diaria por completar retos</td>
-      <td>S2-23</td>
-      <td>Mostrar la racha diaria y el bono semanal (Android, Backend)</td>
-      <td>Cargar la racha desde la API y mostrar el bono asociado al cumplimiento de la meta semanal.</td>
-      <td>6</td>
-      <td>Mauricio Luis Pajes Leon<br>Alejandra Isabel Astocondor Bazan</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td rowspan="2">HU-004</td>
-      <td rowspan="2">Sistema de puntos por aprendizaje</td>
-      <td>S2-58</td>
-      <td>Mostrar ecopoints con datos del backend (Android, Backend)</td>
-      <td>Consultar el saldo de ecopoints y reflejarlo en las pantallas de gamificación.</td>
-      <td>4</td>
-      <td>Mauricio Luis Pajes Leon<br>Alejandra Isabel Astocondor Bazan</td>
-      <td>Completed</td>
-    </tr>
-    <tr>
-      <td>S2-71</td>
-      <td>Mostrar los ecopoints en el resultado del reto (Flutter)</td>
-      <td>Mostrar en la pantalla de finalización los ecopoints asociados al reto.</td>
+      <td>TO30</td>
+      <td>Validar resultados de las repeticiones (Android, Backend)</td>
+      <td>Comprobar los puntajes de intentos sucesivos y el límite de cero en la integración del minijuego.</td>
       <td>4</td>
       <td>Alejandra Isabel Astocondor Bazan</td>
       <td>Completed</td>
     </tr>
-    <tr><td>HU-009</td>
-      <td>Ranking educativo</td>
-      <td>S2-24</td>
-      <td>Conectar el ranking de usuarios (Android)</td>
-      <td>Consultar la clasificación de usuarios y mostrar sus posiciones y puntajes.</td>
-      <td>4</td>
-      <td>Mauricio Luis Pajes Leon</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-022</td>
-      <td>Ranking de familias</td>
-      <td>S2-59</td>
-      <td>Conectar el ranking de familias (Android)</td>
-      <td>Obtener la clasificación de familias desde la API y mostrar sus resultados.</td>
-      <td>4</td>
-      <td>Mauricio Luis Pajes Leon</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-036</td>
-      <td>Ranking local</td>
-      <td>S2-60</td>
-      <td>Conectar el ranking local (Android)</td>
-      <td>Consultar la clasificación de usuarios de la localidad del estudiante y mostrar sus participantes ordenados por puntaje.</td>
-      <td>4</td>
-      <td>Mauricio Luis Pajes Leon</td>
-      <td>Completed</td>
-    </tr>
     <tr><td>HU-005</td>
       <td>Reconocimiento por constancia</td>
-      <td>S2-25</td>
+      <td>TO31</td>
       <td>Integrar el reconocimiento por constancia (Android, Backend)</td>
       <td>Consultar los reconocimientos de gamificación asociados a la constancia y mostrarlos en la aplicación.</td>
       <td>4</td>
@@ -9550,16 +9451,68 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr><td>HU-011</td>
       <td>Colección de medallas</td>
-      <td>S2-61</td>
+      <td>TO32</td>
       <td>Conectar la colección «Mis medallas» (Android, Backend)</td>
       <td>Cargar las medallas obtenidas y pendientes, con acceso al detalle de cada una.</td>
       <td>6</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
+    <tr><td rowspan="2">HU-067</td>
+      <td rowspan="2">Protector de racha</td>
+      <td>TO33</td>
+      <td>Conectar la adquisición de protectores (Android, Backend)</td>
+      <td>Consultar el costo, validar el saldo y registrar la compra del protector en el inventario sin duplicar cobros.</td>
+      <td>5</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO34</td>
+      <td>Aplicar el protector a la racha (Android, Backend)</td>
+      <td>Consumir un protector disponible cuando corresponda y reflejar la conservación de la racha y el inventario actualizado.</td>
+      <td>5</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-019</td>
+      <td rowspan="2">Agregar integrantes a la familia</td>
+      <td>TO35</td>
+      <td>Crear el grupo familiar y gestionar integrantes (Flutter)</td>
+      <td>Permitir crear un grupo familiar, agregar o retirar integrantes y aplicar las reglas de membresía.</td>
+      <td>10</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO36</td>
+      <td>Gestionar el grupo familiar en Android</td>
+      <td>Permitir crear el grupo, agregar o retirar integrantes y reflejar las restricciones de membresía familiar.</td>
+      <td>7</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-013</td>
+      <td>Reto familiar en casa</td>
+      <td>TO37</td>
+      <td>Ejecutar retos familiares (Android)</td>
+      <td>Permitir que los integrantes de la familia realicen las actividades del plan y registren su finalización.</td>
+      <td>7</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-017</td>
+      <td>Planificación de retos familiares</td>
+      <td>TO38</td>
+      <td>Planificar retos familiares (Android)</td>
+      <td>Conectar la creación y edición de planes familiares con los datos del servicio de retos.</td>
+      <td>6</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
     <tr><td>HU-015</td>
       <td>Registro de logros familiares</td>
-      <td>S2-62</td>
+      <td>TO39</td>
       <td>Mostrar los logros familiares (Android, Backend)</td>
       <td>Consultar los logros del grupo familiar y mostrarlos en la vista de logros grupales.</td>
       <td>4</td>
@@ -9568,43 +9521,219 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr><td>HU-016</td>
       <td>Premios por colaboración familiar</td>
-      <td>S2-63</td>
+      <td>TO40</td>
       <td>Integrar recompensas por colaboración familiar (Android, Backend)</td>
       <td>Integrar el otorgamiento y la consulta de recompensas asociadas a la colaboración familiar.</td>
       <td>5</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
-    <tr><td>HU-020</td>
-      <td>Felicitación de logros familiares</td>
-      <td>S2-64</td>
-      <td>Mostrar la animación de finalización familiar (Android)</td>
-      <td>Mostrar la animación de felicitación y los logros obtenidos al finalizar un plan familiar.</td>
+    <tr><td rowspan="2">HU-021</td>
+      <td rowspan="2">Reportes de progreso familiares</td>
+      <td>TO41</td>
+      <td>Consultar y presentar el reporte familiar (Android)</td>
+      <td>Mostrar el progreso y las actividades de los integrantes con indicadores visuales por periodo.</td>
+      <td>6</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO42</td>
+      <td>Validar periodos y acceso al reporte (Android, Backend)</td>
+      <td>Verificar los datos del grupo familiar, los periodos sin actividad y las restricciones de consulta del padre o madre.</td>
+      <td>3</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-022</td>
+      <td>Ranking de familias</td>
+      <td>TO43</td>
+      <td>Conectar el ranking de familias (Android)</td>
+      <td>Obtener la clasificación de familias desde la API y mostrar sus resultados.</td>
       <td>4</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
-    <tr><td>TS-017</td>
-      <td>Endpoint de materiales de aprendizaje</td>
-      <td>S2-27</td>
-      <td>Implementar la API de materiales (Backend)</td>
-      <td>Exponer el catálogo de materiales, sus filtros y fuentes, y gestionar los favoritos del usuario.</td>
-      <td>12</td>
+    <tr><td>HU-060</td>
+      <td>Inscripción a una comunidad local cercana</td>
+      <td>TO44</td>
+      <td>Incorporarse a una comunidad local (Android, Backend)</td>
+      <td>Detectar la localidad y permitir la inscripción a una comunidad cercana desde la selección inicial.</td>
+      <td>8</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-036</td>
+      <td>Ranking local</td>
+      <td>TO45</td>
+      <td>Conectar el ranking local (Android)</td>
+      <td>Consultar la clasificación de usuarios de la localidad del estudiante y mostrar sus participantes ordenados por puntaje.</td>
+      <td>4</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-048</td>
+      <td rowspan="2">Selección del lugar de encuentro en mapa</td>
+      <td>TO46</td>
+      <td>Integrar el mapa en la creación del evento (Android)</td>
+      <td>Abrir el mapa desde el formulario y permitir seleccionar manualmente un lugar incluso sin permiso de ubicación.</td>
+      <td>5</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO47</td>
+      <td>Confirmar y guardar el lugar de encuentro (Android, Backend)</td>
+      <td>Permitir modificar la selección antes de crear el evento y guardar las coordenadas confirmadas con sus datos.</td>
+      <td>4</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-065</td>
+      <td>Creación de chat temporal de evento</td>
+      <td>TO48</td>
+      <td>Habilitar el chat temporal para participantes (Android, Backend)</td>
+      <td>Abrir el chat temporal desde el evento y permitir a los participantes consultar y enviar mensajes.</td>
+      <td>6</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-061</td>
+      <td>Creación de comunidades personalizadas</td>
+      <td>TO49</td>
+      <td>Crear comunidades temáticas (Android)</td>
+      <td>Permitir que los padres creen una comunidad temática mediante el formulario de Comunidad.</td>
+      <td>7</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-062</td>
+      <td>Inscripción a comunidades personalizadas</td>
+      <td>TO50</td>
+      <td>Inscribirse en comunidades temáticas (Android)</td>
+      <td>Cargar las comunidades temáticas disponibles y registrar la incorporación del usuario.</td>
+      <td>4</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-066</td>
+      <td>Selección de comunidad de preferencia</td>
+      <td>TO51</td>
+      <td>Cambiar entre comunidades (Android)</td>
+      <td>Permitir elegir entre las comunidades del usuario y cargar el contenido de la comunidad seleccionada.</td>
+      <td>3</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-063</td>
+      <td>Creación de meta comunitaria</td>
+      <td>TO52</td>
+      <td>Crear metas comunitarias (Android, Backend)</td>
+      <td>Habilitar el formulario de creación de metas para los administradores de comunidad.</td>
+      <td>5</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-064</td>
+      <td>Inscripción a meta comunitaria</td>
+      <td>TO53</td>
+      <td>Inscribirse en metas comunitarias (Android, Backend)</td>
+      <td>Permitir que los miembros se inscriban en metas disponibles y consultar su estado de participación.</td>
+      <td>4</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-033</td>
+      <td>Compartir logros ambientales</td>
+      <td>TO54</td>
+      <td>Publicar logros en la comunidad (Android, Backend)</td>
+      <td>Permitir que el usuario seleccione una comunidad y publique un logro obtenido.</td>
+      <td>5</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-034</td>
+      <td>Reaccionar a publicaciones</td>
+      <td>TO55</td>
+      <td>Reaccionar a publicaciones (Android, Backend)</td>
+      <td>Registrar las reacciones de los usuarios y actualizar su visualización en las publicaciones.</td>
+      <td>4</td>
+      <td>Leo César Dulanto Espino</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-039</td>
+      <td>Invitar amigos</td>
+      <td>TO56</td>
+      <td>Buscar amigos y gestionar solicitudes (Android)</td>
+      <td>Buscar usuarios y permitir enviar, aceptar o rechazar solicitudes de amistad.</td>
+      <td>6</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-010</td>
+      <td rowspan="2">Desafío entre compañeros</td>
+      <td>TO57</td>
+      <td>Gestionar invitaciones a retos entre amigos (Android)</td>
+      <td>Permitir seleccionar amigos y enviar, aceptar o rechazar invitaciones a retos colaborativos.</td>
+      <td>6</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO58</td>
+      <td>Iniciar el reto colaborativo con los participantes (Android)</td>
+      <td>Conectar el acceso de los participantes al reto y presentar su estado de participación.</td>
+      <td>8</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">TS-017</td>
+      <td rowspan="2">Endpoint de materiales de aprendizaje</td>
+      <td>TO59</td>
+      <td>Exponer el catálogo y detalle de materiales (Backend)</td>
+      <td>Implementar la consulta de materiales con filtros y fuentes de información.</td>
+      <td>7</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO60</td>
+      <td>Gestionar favoritos de materiales (Backend)</td>
+      <td>Implementar el registro, consulta y retiro de favoritos asociados al usuario.</td>
+      <td>5</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
     <tr><td>HU-023</td>
       <td>Guía simplificada</td>
-      <td>S2-28</td>
+      <td>TO61</td>
       <td>Integrar guías, favoritos y descargas (Android)</td>
       <td>Mostrar las guías del catálogo y habilitar la descarga de archivos PDF y el acceso a favoritos.</td>
       <td>7</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
+    <tr><td>HU-028</td>
+      <td>Lenguaje sencillo</td>
+      <td>TO62</td>
+      <td>Simplificar el lenguaje de los materiales (Android)</td>
+      <td>Revisar términos, instrucciones y mensajes del contenido educativo para adecuarlos al nivel de comprensión de los estudiantes.</td>
+      <td>3</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-026</td>
+      <td>Contenido breve y claro</td>
+      <td>TO63</td>
+      <td>Organizar el contenido en bloques breves (Android)</td>
+      <td>Dividir las explicaciones extensas en secciones cortas con títulos e indicaciones claras para facilitar su lectura.</td>
+      <td>4</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
     <tr><td>HU-027</td>
       <td>Videos explicativos</td>
-      <td>S2-65</td>
+      <td>TO64</td>
       <td>Integrar videos explicativos (Android)</td>
       <td>Mostrar los videos del catálogo y habilitar el acceso a su contenido desde el detalle del material.</td>
       <td>4</td>
@@ -9613,101 +9742,168 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
     </tr>
     <tr><td>HU-032</td>
       <td>Infografías resumen</td>
-      <td>S2-66</td>
+      <td>TO65</td>
       <td>Integrar infografías (Android)</td>
       <td>Incluir las infografías en el catálogo y presentar su contenido en el detalle del material.</td>
       <td>4</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
-    <tr><td>HU-024</td>
-      <td>Tutorial paso a paso</td>
-      <td>S2-29</td>
-      <td>Incorporar el tutorial guiado y registrar su avance (Android, Backend)</td>
-      <td>Presentar el tutorial en la primera sesión y guardar el avance de sus pasos mediante la API.</td>
+    <tr><td rowspan="2">TS-016</td>
+      <td rowspan="2">Endpoint de notificaciones del usuario</td>
+      <td>TO66</td>
+      <td>Implementar la bandeja y el contador de no leídas (Android, Backend)</td>
+      <td>Consultar la bandeja, marcar notificaciones como leídas y actualizar el contador de pendientes de lectura.</td>
+      <td>9</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO67</td>
+      <td>Consultar las notificaciones (Flutter)</td>
+      <td>Mostrar la bandeja de notificaciones para padres, el contador de no leídas y los ajustes por categoría.</td>
       <td>8</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">TS-008</td>
+      <td rowspan="2">Servicio de notificaciones push</td>
+      <td>TO68</td>
+      <td>Registrar dispositivos y preferencias de recepción (Android, Backend)</td>
+      <td>Configurar el proveedor push y asociar los tokens de dispositivo al usuario, contemplando permisos y renovación del token.</td>
+      <td>5</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO69</td>
+      <td>Enviar y abrir notificaciones push (Android, Backend)</td>
+      <td>Enviar mensajes a los destinatarios autorizados y abrir el contenido correspondiente al tocar la notificación, evitando envíos duplicados.</td>
+      <td>6</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-018</td>
+      <td rowspan="2">Alertas de eventos comunitarios para padres</td>
+      <td>TO70</td>
+      <td>Configurar alertas de eventos para padres (Android, Backend)</td>
+      <td>Permitir activar o desactivar las alertas de eventos comunitarios y guardar la preferencia del padre o madre.</td>
+      <td>4</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO71</td>
+      <td>Mostrar y abrir las alertas de eventos (Android)</td>
+      <td>Filtrar las alertas para presentar eventos comunitarios pertinentes y abrir su detalle desde la bandeja o el aviso recibido.</td>
+      <td>4</td>
+      <td>Katty Yolanda Philco Mota</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td>HU-025</td>
+      <td>Recordatorios educativos</td>
+      <td>TO72</td>
+      <td>Programar recordatorios de materiales pendientes (Android, Backend)</td>
+      <td>Identificar materiales pendientes y emitir recordatorios según las preferencias del estudiante, evitando recordar materiales ya revisados.</td>
+      <td>5</td>
       <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-043</td>
+      <td rowspan="2">Carga rápida</td>
+      <td>TO73</td>
+      <td>Medir y reducir tiempos de navegación (Android)</td>
+      <td>Medir la carga entre pestañas y optimizar consultas, caché y renderizado para cumplir el objetivo de menos de dos segundos.</td>
+      <td>5</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO74</td>
+      <td>Comprobar los tiempos tras la optimización (Android)</td>
+      <td>Repetir las mediciones en los recorridos principales y registrar los resultados bajo condiciones de prueba definidas.</td>
+      <td>3</td>
+      <td>Mauricio Luis Pajes Leon</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-050</td>
+      <td rowspan="2">Optimización</td>
+      <td>TO75</td>
+      <td>Optimizar memoria y recursos multimedia (Android)</td>
+      <td>Reducir cargas innecesarias de imágenes y datos y liberar recursos al abandonar las pantallas.</td>
+      <td>4</td>
+      <td>Isabel Luisa Aponte Pablo</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO76</td>
+      <td>Verificar consumo en dispositivos de recursos limitados (Android)</td>
+      <td>Medir memoria, batería y fluidez durante sesiones de aprendizaje y corregir los problemas detectados.</td>
+      <td>4</td>
+      <td>Alejandra Isabel Astocondor Bazan</td>
+      <td>Completed</td>
+    </tr>
+    <tr><td rowspan="2">HU-042</td>
+      <td rowspan="2">Multiplataforma</td>
+      <td>TO77</td>
+      <td>Adaptar la interfaz a distintos dispositivos (Android)</td>
+      <td>Ajustar los diseños a tamaños de pantalla y configuraciones compatibles, conservando el acceso a las funciones principales.</td>
+      <td>5</td>
+      <td>Todos</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td>TO78</td>
+      <td>Validar continuidad entre clientes (Android, Flutter)</td>
+      <td>Comprobar que la cuenta y el progreso sincronizado se consulten de forma coherente al alternar entre los clientes y dispositivos disponibles.</td>
+      <td>5</td>
+      <td>Todos</td>
       <td>Completed</td>
     </tr>
     <tr><td>HU-030</td>
       <td>Preguntas frecuentes</td>
-      <td>S2-67</td>
+      <td>TO79</td>
       <td>Incorporar preguntas frecuentes en Ajustes (Android, Backend)</td>
       <td>Agregar una sección de ayuda con respuestas a preguntas frecuentes desde la pantalla de Ajustes.</td>
       <td>4</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
-    <tr><td>TS-015</td>
-      <td>Endpoint de compra de gemas</td>
-      <td>S2-68</td>
-      <td>Integrar el endpoint de pago de gemas en sandbox (Backend)</td>
-      <td>Procesar solicitudes de compra de paquetes de gemas con Culqi y PayPal en el entorno de pruebas.</td>
-      <td>10</td>
+    <tr><td>HU-047</td>
+      <td>Soporte</td>
+      <td>TO80</td>
+      <td>Incorporar el acceso a soporte (Android)</td>
+      <td>Habilitar desde Ajustes un canal de soporte con instrucciones para describir el problema y confirmación de la acción disponible.</td>
+      <td>4</td>
       <td>Isabel Luisa Aponte Pablo</td>
       <td>Completed</td>
     </tr>
-    <tr><td>HU-058</td>
-      <td>Recuperación de contraseña</td>
-      <td>S2-31</td>
-      <td>Recuperar la contraseña (Android, Flutter, Backend)</td>
-      <td>Conectar la solicitud de recuperación, la apertura del enlace y el cambio de contraseña, con manejo de errores y reintentos.</td>
-      <td>18</td>
+    <tr><td>HU-020</td>
+      <td>Felicitación de logros familiares</td>
+      <td>TO81</td>
+      <td>Mostrar la animación de finalización familiar (Android)</td>
+      <td>Mostrar la animación de felicitación y los logros obtenidos al finalizar un plan familiar.</td>
+      <td>4</td>
       <td>Mauricio Luis Pajes Leon</td>
       <td>Completed</td>
     </tr>
-    <tr><td>HU-059</td>
-      <td>Cierre de sesión</td>
-      <td>S2-32</td>
-      <td>Conectar el cierre de sesión (Android, Flutter)</td>
-      <td>Invocar el servicio de cierre de sesión, borrar las credenciales locales y volver a la pantalla de acceso.</td>
-      <td>7</td>
-      <td>Mauricio Luis Pajes Leon<br>Katty Yolanda Philco Mota</td>
+    <tr><td>HU-040</td>
+      <td>Logros colectivos</td>
+      <td>TO82</td>
+      <td>Registrar el logro y publicar la finalización de una meta comunitaria (Backend)</td>
+      <td>Crear un registro de logro colectivo y una publicación cuando la meta alcance su condición de finalización.</td>
+      <td>8</td>
+      <td>Leo César Dulanto Espino</td>
       <td>Completed</td>
     </tr>
-    <tr><td rowspan="2">HU-056</td>
-      <td rowspan="2">Registro de usuario</td>
-      <td>S2-33</td>
-      <td>Completar términos y privacidad del registro (Android, Flutter)</td>
-      <td>Mostrar los términos y la información de privacidad durante el registro y solicitar la aceptación explícita.</td>
-      <td>6</td>
-      <td>Mauricio Luis Pajes Leon</td>
-      <td>Completed</td>
-    </tr>
-    <tr>
-      <td>S2-35</td>
-      <td>Implementar el registro y la verificación de correo (Flutter)</td>
-      <td>Conectar el formulario de registro y la verificación de correo con los servicios de autenticación.</td>
-      <td>9</td>
+    <tr><td>HU-055</td>
+      <td>Redirección a registro</td>
+      <td>TO83</td>
+      <td>Conectar la landing con el registro</td>
+      <td>Configurar el enlace de registro desde la landing y verificar su destino y el comportamiento cuando la aplicación no está instalada.</td>
+      <td>3</td>
       <td>Katty Yolanda Philco Mota</td>
       <td>Completed</td>
-    </tr>
-    <tr><td>HU-057</td>
-      <td>Inicio de sesión</td>
-      <td>S2-69</td>
-      <td>Implementar el inicio de sesión y conservar la sesión (Flutter)</td>
-      <td>Autenticar al usuario con la API y almacenar la sesión para mantener el acceso al volver a abrir la aplicación.</td>
-      <td>7</td>
-      <td>Katty Yolanda Philco Mota</td>
-      <td>Completed</td>
-    </tr>
-    <tr><td>HU-048</td>
-      <td>Selección del lugar de encuentro en mapa</td>
-      <td>S2-73</td>
-      <td>Seleccionar el lugar de encuentro al crear un evento (Android)</td>
-      <td>Integrar el mapa interactivo en la creación de eventos, permitir seleccionar o modificar el punto de encuentro y guardar sus coordenadas con el evento.</td>
-      <td>Por estimar</td>
-      <td>Por confirmar</td>
-      <td>Por confirmar</td>
-    </tr>
-    <tr><td>HU-068</td>
-      <td>Modo offline</td>
-      <td>S2-74</td>
-      <td>Habilitar el aprendizaje sin conexión (Android)</td>
-      <td>Permitir acceder al contenido almacenado y guardar el progreso localmente, informar las funciones que requieren conexión e integrar la sincronización de HU-049 al recuperar Internet.</td>
-      <td>Por estimar</td>
-      <td>Por confirmar</td>
-      <td>Por confirmar</td>
     </tr>
   </tbody>
 </table>
