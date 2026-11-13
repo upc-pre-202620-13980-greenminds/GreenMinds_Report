@@ -7836,8 +7836,8 @@ Aquí se documentan los acuerdos de planificación del Sprint 1, incluyendo su o
 | **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Mauricio Luis Pajes Leon, Katty Yolanda Philco Mota |
 | **Sprint n - 1 Review Summary** | - |
 | **Sprint n - 1 Retrospective Summary** | - |
-| **Sprint n Goal** | Our focus is on delivering the core EcoMind experience for families, including clear information about the app, environmental challenges, progress tracking, gamification, and community events. We believe this will help children and their families understand, participate in, and track environmental activities together. This will be confirmed when a family can explore the landing page, access the main challenge and progress features, and participate in a community event through the implemented application flows. |
-| **Sprint n Velocity** | Designamos aceptar hasta 150 SP |
+| **Sprint 1 Goal** | Our focus is on delivering the core EcoMind experience for families, including clear information about the app, environmental challenges, progress tracking, gamification, and community events. We believe this will help children and their families understand, participate in, and track environmental activities together. This will be confirmed when a family can explore the landing page, access the main challenge and progress features, and participate in a community event through the implemented application flows. |
+| **Sprint 1 Velocity** | Designamos aceptar hasta 150 SP |
 | **Sum of Story Points** | 147 SP |
 
 #### 4.2.1.2. Aspect Leaders and Collaborators
@@ -9069,23 +9069,28 @@ En esta sección se muestra los aportes de cada integrante en los repositorios r
 
 ### 4.2.2. Sprint 2
 
-En este apartado se documenta el aporte de Mauricio Pajes a IAM, Gamification y el despliegue en Azure para AV2.
+En esta sección se presenta el trabajo planificado para el segundo Sprint de EcoMind y las evidencias de su desarrollo.
 
 #### 4.2.2.1. Sprint Planning 2
 
-La coordinación del 4 de noviembre asignó a Mauricio la recuperación de contraseña, el cierre de sesión y los términos del registro. El 11 de noviembre se acordó mantener las funciones compartidas de Android y Flutter, con enfoque en estudiantes y padres, respectivamente. El incremento también integra Gamification y el Backend API de Azure.
+Aquí se documentan los acuerdos de planificación del Sprint 2, incluyendo su objetivo y la estimación del trabajo.
 
 **Tabla 123**
 
 *Planificación del aporte al Sprint 2.*
 
-| Aspecto | Registro |
-|---|---|
-| Sprint | 2 — AV2 |
-| Coordinación inicial | 04/11/2026, grupo de trabajo en WhatsApp |
-| Responsable del aporte | Mauricio Luis Pajes Leon |
-| Objetivo del aporte | Conectar acceso, recuperación, sesión y gamificación con el Backend API, y verificar su ejecución en Android y Flutter. |
-| Criterio de verificación | Contratos REST, pruebas automatizadas, ejecución en emuladores y despliegue en Azure. |
+| **Sprint #** | 2 |
+|------|--------|
+| **Date** | 2026-04-11 |
+| **Time** | 5:00 PM |
+| **Location** | Reunión virtual |
+| **Prepared By** | Alejandra Isabel Astocondor Bazan |
+| **Attendees** | Alejandra Isabel Astocondor Bazan,  Leo César Dulanto Espino, Isabel Luisa Aponte Pablo, Mauricio Luis Pajes Leon, Katty Yolanda Philco Mota |
+| **Sprint 1 Review Summary** | The team published the EcoMind landing page and demonstrated a working flow. A user could sign in, browse the quest catalog, complete a checklist-based environmental quest, and see the ecopoints and achievement earned. We verified backend behavior for quests, rewards, and community participation. The review identified mobile features that still needed work, including additional activity types, friend and family quests, full progress and history tracking, and event registration. |
+| **Sprint 1 Retrospective Summary** |We found that dividing work across the landing page, Android app, and backend helped each area move forward. The main opportunity for improvement was to coordinate mobile and backend work earlier, adjust the sprint plan based on actual progress, and verify each priority flow from the user’s first action through to the saved result. |
+| **Sprint 2 Goal** | Our focus is on completing the native Android app and delivering a working version of EcoMind’s core quest experience in Flutter. We believe this will help children and their families use the full set of features planned for Android and start completing environmental activities in Flutter.This will be confirmed by the end of Sprint 2 when the remaining Android features meet their acceptance criteria and a Flutter user can sign in, find and complete a guided quest, and see the ecopoints earned in their progress view. |
+| **Sprint n Velocity** |  |
+| **Sum of Story Points** | |
 
 #### 4.2.2.2. Aspect Leaders and Collaborators
 
