@@ -1,6 +1,6 @@
-# EcoMind Azure architecture — 12 November 2026
+# EcoMind Azure architecture — initial deployment, 12 November 2026
 
-These current-state diagrams supplement the existing Sprint 1 architecture evidence. They do not replace the historical Render/Aiven diagrams and do not represent migration of the previous database. New demonstration records were created in Azure through the API.
+These initial deployment diagrams supplement the existing Sprint 1 architecture evidence. They do not replace the historical Render/Aiven diagrams and do not represent migration of the previous database. New demonstration records were created in Azure through the API.
 
 ## Deployment follow-up
 
@@ -42,7 +42,7 @@ The current managed email domain has a low default quota of five emails/minute a
 
 ## Source provenance
 
-Infrastructure source: [Azure feature branch](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/feature/azure-container-apps/infra/azure). The hashes below identify the diagram-authoring snapshot; later template or documentation updates may differ.
+Infrastructure source: [initial deployment commit](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/632111ca72c8b3c228f21c237172f8232ed41610/infra/azure). The hashes below identify the diagram-authoring snapshot; later template or documentation updates may differ.
 
 | Source | SHA-256 |
 | --- | --- |
