@@ -10428,6 +10428,42 @@ Se recomienda incorporar al Roadmap del producto el seguimiento del aprendizaje 
 
 <div style="page-break-before: always;"></div>
 
+# Video App Validation
+# Video About the product
+
+En esta sección se presenta el video About the Product de EcoMind, elaborado con una orientación promocional y dirigido principalmente a los visitantes de la Landing Page, estudiantes y padres de familia interesados en conocer la propuesta de la plataforma.
+
+El video comienza mostrando la Landing Page y sus principales secciones informativas. Posteriormente, presenta la interacción con la aplicación móvil, incluyendo el acceso a la cuenta, el desarrollo de retos, la consulta de materiales educativos, la personalización del perfil, la tienda virtual, las comunidades y el seguimiento del progreso. Finalmente, incluye el testimonio de un padre de familia que destaca el valor de EcoMind para aprender y realizar actividades sostenibles en familia.
+
+- **Duración:** 02:07
+- **Público objetivo:** padres de familia, estudiantes y visitantes de la Landing Page.
+- **Elaboración:** Elaboración propia.
+- **OneDrive:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQAm-bbQdtuwR7clFjl4SpRaAbkZsP7XZNGdzmSYpESSkE4?e=a1bF4w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **YouTube:** https://youtu.be/ncnP-2C8w-0?si=_yzorFEw2-XiaPrd
+### Secuencia de contenido
+
+| Tiempo | Contenido |
+|---|---|
+| 00:00–00:05 | Presentación del logotipo de EcoMind. |
+| 00:05–00:25 | Presentación de la Landing Page, sus beneficios, preguntas frecuentes, guía para padres y comunidad EcoMind. |
+| 00:25–00:40 | Inicio de sesión e ingreso a la aplicación móvil. |
+| 00:40–00:55 | Presentación de retos y materiales educativos. |
+| 00:55–01:15 | Navegación por las funcionalidades de aprendizaje y tienda virtual. |
+| 01:15–01:35 | Personalización del perfil, favoritos y progreso. |
+| 01:35–01:54 | Presentación de Comunidad y Ranking. |
+| 01:54–02:09 | Testimonio de un padre de familia y cierre del video. |
+
+### Evidencia del video
+
+<p align="center">
+  <img src="https://i.postimg.cc/hGKk0QTV/Whats-App-Image-2026-11-13-at-16-04-44.jpg" alt="Video About the Product" width="600">
+</p>
+
+**Figura X.** Video About the Product de EcoMind.  
+**Nota.** Elaboración propia.
+
+# Video About the team
+
 # Bibliografía
 
 - Adrilo, R (s.f.). Happy Little Planet App. Adrilo Rincz. https://www.adrilorincz.com/happy-little-planet-app  
