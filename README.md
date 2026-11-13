@@ -7799,6 +7799,12 @@ En esta sección se describe la configuración del despliegue de EcoMind, incluy
 5. Configurar GitHub Actions con autenticación federada de Azure. Al integrar cambios en `develop`, ejecutar las pruebas, construir la imagen y desplegarla en Container Apps.
 6. Verificar la nueva revisión y el estado de salud del Backend API.
 
+| Servicio | URL |
+|---|---|
+| Backend API | [API de EcoMind](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/api/v1/) |
+| Swagger UI | [Documentación interactiva](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/swagger-ui/index.html) |
+| OpenAPI | [Contrato JSON](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/v3/api-docs) |
+
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
