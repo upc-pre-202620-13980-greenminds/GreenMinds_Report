@@ -10040,7 +10040,7 @@ Documentación del Backend API: [Swagger UI](https://ca-ecomind-api.icybush-bd13
 
 #### 4.2.2.8. Software Deployment Evidence for Sprint Review
 
-El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub Actions ejecuta las pruebas y la verificación de la imagen antes de publicar los cambios de `develop`. La ejecución [43382634408](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408), correspondiente a `38939f5`, terminó correctamente.
+El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub Actions ejecuta las pruebas y la verificación de la imagen antes de publicar los cambios de `develop`.
 
 **Tabla 129**
 
@@ -10097,20 +10097,16 @@ El [registro de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-1
 
 #### 4.2.2.9. Team Collaboration Insights during Sprint
 
-La coordinación del equipo asignó IAM a Mauricio y mantuvo las funciones compartidas entre los clientes. Los cambios se integraron con GitFlow y se eliminaron las ramas personales después de su fusión. La documentación se actualizó con los contratos, las pruebas y la arquitectura de Azure.
+En esta sección se muestra los aportes de cada integrante en los repositorios respectivos de según el sprint, se muestra referente a la landing page, app android, app flutter y backend
 
-**Tabla 130**
+**Sprint 2 - Landing page**
 
-*Integración y colaboración del aporte al Sprint 2.*
+**Sprint 2 - App Android**
 
-| Aporte | Evidencia de integración |
-|---|---|
-| Recuperación y sesión en Android | [PR #23](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/23). |
-| Recuperación y reintentos en Flutter | [PR #2](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/2). |
-| Gamification en Android | [PR #28](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28), [#29](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/29) y [#30](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/30). |
-| Medalla inicial y bono semanal en backend | [PR #59](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/59) y [#60](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/60). |
-| Release del backend | [PR #46](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/46) a `main` y [#47](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/47) de retorno a `develop`. |
-| Arquitectura e informe | [PR #15](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/15), [#16](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/16) y [#17](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/17). |
+**Sprint 2 - App Flutter**
+
+**Sprint 2 - Backend**
+
 
 ## 4.3. Validation Interviews
 
