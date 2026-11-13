@@ -9095,7 +9095,7 @@ La coordinación del 4 de noviembre asignó a Mauricio la recuperación de contr
 
 | Team Member | GitHub Username | Aspectos |
 |---|---|---|
-| Pajes Leon, Mauricio Luis | mauricio-pajes | IAM en Android y Flutter; integración de Gamification en Android; Azure, CI/CD y actualización del informe. |
+| Pajes Leon, Mauricio Luis | mauricio-pajes | IAM en Android, Flutter y backend; Gamification en Android y backend; Azure, CI/CD y actualización del informe. |
 
 #### 4.2.2.3. Sprint Backlog 2
 
@@ -9136,7 +9136,7 @@ Los cambios se integraron mediante pull requests a `develop`. La versión establ
 | EcoMind_Flutter | `develop` | [e787a00](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/e787a0090c25450befac1da8236693d73997dd8a) | feat(iam): add password recovery and reset links | — | 2026-11-12 |
 | EcoMind_Flutter | `develop` | [4524e34](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/4524e34376d10924348476aed7c85d3cf54e7a87) | fix(iam): recover from lost password reset responses | — | 2026-11-12 |
 
-El [registro de commits](assets/evidence/sprint-2/commits.json) conserva los identificadores y las fechas. La recuperación se integró mediante los PR [#23 de Android](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/23) y [#2 de Flutter](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/2); Gamification, mediante los PR [#28](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28), [#29](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/29) y [#30](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/30) de Android, y [#59](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/59) y [#60](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/60) del backend.
+El [registro de commits](assets/evidence/sprint-2/commits.json) conserva los identificadores y las fechas. En el backend, los PR [#44](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/44), [#38](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/38) y [#41](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/41) integraron los reintentos de recuperación, el despliegue automático y el correo, respectivamente. La recuperación se integró mediante los PR [#23 de Android](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/23) y [#2 de Flutter](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/2); Gamification, mediante los PR [#28](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28), [#29](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/29) y [#30](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/30) de Android, y [#59](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/59) y [#60](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/60) del backend.
 
 #### 4.2.2.5. Testing Suite Evidence for Sprint Review
 
@@ -9151,7 +9151,7 @@ Las pruebas cubrieron recuperación, cierre de sesión, aceptación de términos
 | Backend `38939f5` | 736 pruebas con PostgreSQL y 9 pruebas de utilidades de despliegue. | Sin fallos; [CI/CD completado](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408). |
 | Android, integración de Gamification `f273074` | 91 pruebas JVM y 8 instrumentadas en emulador API 36. | Sin fallos. |
 | Flutter, integración `2ab1e5a` | 47 pruebas y escenario instrumentado de pérdida de respuesta durante la confirmación. | Pruebas y reintento completados. |
-| IAM en Azure | Nueva contraseña: `200`; contraseña anterior: `401`; token consumido: `422`; logout: `204`; acceso sin token: `401`. | Contrato verificado. |
+| IAM en Azure, Flutter, 12/11/2026 | Inicio de sesión con nueva contraseña: `200`; contraseña anterior: `401`; token consumido: `422`; logout: `204`; acceso sin token: `401`. | Contrato verificado con correo recibido. |
 
 #### 4.2.2.6. Execution Evidence for Sprint Review
 
@@ -9159,17 +9159,17 @@ Android y Flutter consumen el mismo Backend API. Las ejecuciones de IAM incluyer
 
 **Figura 159**
 
-*Confirmación de recuperación y retorno a inicio de sesión en Android, registro del 5 de noviembre de 2026.*
+*Confirmación de recuperación y retorno a inicio de sesión en Android con API local, registro del 5 de noviembre de 2026.*
 
 <table><tr><td><img src="assets/evidence/iam-account-access/password-updated.png" alt="Contraseña actualizada en Android" width="280"></td><td><img src="assets/evidence/iam-account-access/signed-out.png" alt="Inicio de sesión después de cerrar la sesión" width="280"></td></tr></table>
 
 El [registro de clientes](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) documenta las verificaciones posteriores con Azure. Los resultados del escenario de Flutter con correo recibido y pérdida de respuesta están incluidos en el [registro de pruebas](assets/evidence/sprint-2/test-results.json).
 
-En Gamification, Android consulta rankings, puntos, rachas, medallas e historial. XP y ecopoints representan una sola puntuación; las gemas pertenecen a Monetization. El backend acredita el bono semanal de racha y concede la medalla del primer reto a partir de una finalización validada.
+En Gamification, Android consulta rankings, puntos, rachas, medallas e historial. XP y ecopoints representan una sola puntuación; las gemas pertenecen a Monetization. El backend acredita el bono semanal de racha y concede la medalla del primer reto a partir de una finalización validada. En la verificación de integración con una cuenta de prueba, completar el reto incrementó los ecopoints de 20 a 30, las medallas de 0 a 1 y las recompensas de 1 a 2, con una gema otorgada. Repetir la solicitud conservó los totales.
 
 #### 4.2.2.7. Services Documentation Evidence for Sprint Review
 
-El Backend API publica [Swagger UI](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/swagger-ui/index.html) y el [contrato OpenAPI](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/v3/api-docs). Las rutas siguientes corresponden a los flujos del incremento.
+Documentación del Backend API: [Swagger UI](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/swagger-ui/index.html) y el [contrato OpenAPI](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/v3/api-docs). Las rutas siguientes corresponden a los flujos del incremento.
 
 **Tabla 128**
 
@@ -9207,7 +9207,7 @@ El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub A
 
 **Figura 160**
 
-*Ejecución de pruebas y despliegue del Backend API en GitHub Actions.*
+*Pruebas y despliegue del Backend API: ejecución 43382634408, revisión 38939f5, 13 de noviembre de 2026.*
 
 ![Pipeline del Backend API](assets/img/figures/sprint-2/backend-pipeline.png)
 
@@ -9225,7 +9225,8 @@ La coordinación del equipo asignó IAM a Mauricio y mantuvo las funciones compa
 |---|---|
 | Recuperación y sesión en Android | [PR #23](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/23). |
 | Recuperación y reintentos en Flutter | [PR #2](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/2). |
-| Gamification en Android | [PR #28](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28) y [#30](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/30). |
+| Gamification en Android | [PR #28](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28), [#29](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/29) y [#30](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/30). |
+| Medalla inicial y bono semanal en backend | [PR #59](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/59) y [#60](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/60). |
 | Release del backend | [PR #46](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/46) a `main` y [#47](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/47) de retorno a `develop`. |
 | Arquitectura e informe | [PR #15](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/15), [#16](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/16) y [#17](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/17). |
 

@@ -5,7 +5,8 @@
     "failures": 0,
     "helper_tests": 9,
     "workflow_url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408",
-    "workflow_result": "success"
+    "workflow_result": "success",
+    "environment": "GitHub Actions, PostgreSQL test suite"
   },
   "android": {
     "source": "f273074",
@@ -33,5 +34,25 @@
     },
     "environment": "Android emulator",
     "completed_at": "2026-11-13T03:44:20.852684+00:00"
+  },
+  "gamification_live": {
+    "backend_source": "18eb479e59d484fc9193cf21f4f661fb74c53f9e",
+    "workflow_url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43376286744",
+    "synthetic_account": true,
+    "before": {
+      "ecopoints": 20,
+      "awards": 0,
+      "rewards": 1
+    },
+    "after": {
+      "ecopoints": 30,
+      "awards": 1,
+      "rewards": 2
+    },
+    "granted_gems": 1,
+    "repeat_completion": {
+      "status": 200,
+      "totals_unchanged": true
+    }
   }
 }
