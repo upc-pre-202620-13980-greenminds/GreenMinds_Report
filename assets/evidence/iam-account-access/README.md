@@ -3,18 +3,21 @@
 This evidence covers HU-058, HU-059 and the registration terms screen. It does not establish that
 Sprint 2, the complete backend scope or the AV2 delivery is finished.
 
-The previous HU-058 scenario 2 described disclosing an unknown address. This report change
-proposes the existing backend’s generic response instead; that criteria correction remains
-under review in report PR #12.
+HU-058 uses the backend's generic recovery acknowledgement. The criteria update was
+merged in [report PR #12](https://github.com/upc-pre-202620-13980-greenminds/GreenMinds_Report/pull/12).
+Android and Flutter use Azure, shared terms version 1.2 and the same recovery contract.
+Flutter [PR #2](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/pull/2)
+preserves the confirmation ID when retrying after a lost response. Current client
+integration is recorded in the [client follow-up](azure-clients-2026-11-12.md).
 
 ## Implemented behavior
 
 | Scope | Behavior |
 |---|---|
-| HU-058: request recovery | Android normalizes the email and calls `POST /api/v1/authentication/password-recovery/request`. The `200` response uses the same message whether or not an account exists. |
+| HU-058: request recovery | Android and Flutter normalize the email and call `POST /api/v1/authentication/password-recovery/request`. The `200` response uses the same message whether or not an account exists. |
 | HU-058: reset password | The recovery link opens `ecomind://authentication/reset-password?token=<recovery-token>`. Confirmation calls `POST /api/v1/authentication/password-recovery/confirm` and accepts `204` with no body. Invalid, expired or consumed tokens map to `PASSWORD_RESET_TOKEN_INVALID` (`422`); a weak password maps to `PASSWORD_POLICY_VIOLATION` (`400`). |
-| HU-059: logout | Android calls `POST /api/v1/authentication/logout` with the current Bearer token, accepts an empty `204` response and clears the stored session. Local cleanup also runs after a network failure or coroutine cancellation. The access flow uses a new navigation controller so protected destinations and saved tab state are not restored after logout. |
-| Registration terms | The placeholder is replaced with a readable terms screen using the existing EcoMind components. The initial provisional copy is superseded by the [version 1.0 terms increment](terms-and-email-2026-11-10.md). This change does not add server-side storage of consent or a terms version. |
+| HU-059: logout | Android and Flutter call `POST /api/v1/authentication/logout` with the current Bearer token, accept an empty `204` response and clear the stored session. Local cleanup also runs after a network failure or coroutine cancellation. Protected navigation is replaced by sign-in after logout. |
+| Registration terms | The placeholder is replaced with a readable terms screen using the existing EcoMind components. Both clients use the shared terms and privacy text, version 1.2, described in the [client follow-up](azure-clients-2026-11-12.md). This change does not add server-side storage of consent or a terms version. |
 
 The backend uses stateless access tokens. Logout does not revoke the token on the server; the
 client discards its session. Password-reset completion and local session cleanup are separate
@@ -123,15 +126,12 @@ their original revision.
 The [acceptance checklist](acceptance-checklist.md) maps each IAM criterion to evidence and
 separates local verification from the remaining checks for IAM.
 
-## Remaining verification
+## Current deployment
 
-- Physical-device execution.
-- Production rollout of the version 1.0 terms increment.
-- Production `PASSWORD_RECOVERY_URL` configuration and real Resend delivery.
-
-The recording email adapter and synthetic local account do not demonstrate production email
-delivery. No passwords, verification codes, access tokens, live recovery links or private
-credential-file paths are included in this evidence.
+Both clients use Azure Container Apps. PostgreSQL is private, and Azure Communication
+Services Email handles verification and recovery messages. The [CI/CD record](azure-devops-2026-11-12.md)
+contains the automatic deployment checks; the [runtime record](azure-runtime-2026-11-12.md)
+contains the dated API and mailbox checks. Mobile executions recorded here use emulators.
 
 ## Terms and email completion — 2026-11-10
 

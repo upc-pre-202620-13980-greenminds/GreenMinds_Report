@@ -96,9 +96,9 @@ subsequent unrelated changes. Passing tests are not evidence of legal approval o
 | Sprint evidence is traceable | Report section 4.2.2 and the implementation record link commits, tests, contracts and captures. | IAM contribution recorded; this is not a claim that the entire Sprint 2 is complete. |
 | Real execution evidence | Emulator captures and recorded native/API checks exist. | Physical-device verification remains pending. |
 
-## Public-environment check
+## Historical public-environment check — November 8
 
-The release configuration identifies `https://ecomind-backend-yxp7.onrender.com/api/v1/`.
+The November 8 release configuration identified `https://ecomind-backend-yxp7.onrender.com/api/v1/`.
 On 2026-11-08, requests with TLS verification enabled to that host’s `/v3/api-docs` returned no HTTP response
 before the 60-second timeout and a 25-second IPv4 retry. This is a failed availability
 verification from this environment; it does not establish why the service did not respond.
@@ -108,7 +108,11 @@ and a real recovery-email journey remain required evidence.
 The [manual check record](manual-checks.md) gives the exact remaining production, physical-device
 and legal checks without marking them complete.
 
-## Closure criteria
+## Current integration
+
+Android and Flutter use the Azure API and shared terms version 1.2. The [client record](azure-clients-2026-11-12.md) contains emulator checks, and the [CI/CD record](azure-devops-2026-11-12.md) contains the automatic rollout evidence. The checks above retain their original dates and environments.
+
+## Historical closure criteria — November 10
 
 IAM can be demonstrated locally now. It must not be represented as fully ready for delivery
 while production recovery delivery and physical-device execution remain unverified. The
