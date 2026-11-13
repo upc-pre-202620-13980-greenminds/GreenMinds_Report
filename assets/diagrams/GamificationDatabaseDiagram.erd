@@ -2,9 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
   "version": "3.0.0",
   "settings": {
+    "width": 2600,
+    "height": 1800,
+    "scrollTop": 0,
+    "scrollLeft": 0,
     "originX": 0,
     "originY": 0,
-    "zoomLevel": 0.65,
+    "zoomLevel": 0.75,
     "show": 495,
     "database": 16,
     "databaseName": "EcoMind Gamification",
@@ -14,6 +18,7 @@
     "columnNameCase": 8,
     "bracketType": 1,
     "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
     "columnOrder": [
       1,
       2,
@@ -24,6 +29,7 @@
       64
     ],
     "maxWidthComment": 160,
+    "ignoreSaveSettings": 0,
     "lockSettings": 0
   },
   "doc": {
@@ -72,7 +78,23 @@
         "ui": {
           "x": 760,
           "y": 80,
-          "color": "#C6EF00"
+          "color": "#C6EF00",
+          "zIndex": 1,
+          "widthName": 180,
+          "widthComment": 60
+        },
+        "seqColumnIds": [
+          "gamification_user_progresses_user_id",
+          "gamification_user_progresses_total_ecopoints",
+          "gamification_user_progresses_current_streak",
+          "gamification_user_progresses_longest_streak",
+          "gamification_user_progresses_last_activity_date",
+          "gamification_user_progresses_last_protected_date",
+          "gamification_user_progresses_version"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
         }
       },
       "gamification_family_scores": {
@@ -87,7 +109,19 @@
         "ui": {
           "x": 760,
           "y": 1000,
-          "color": "#C6EF00"
+          "color": "#C6EF00",
+          "zIndex": 2,
+          "widthName": 180,
+          "widthComment": 60
+        },
+        "seqColumnIds": [
+          "gamification_family_scores_family_id",
+          "gamification_family_scores_total_ecopoints",
+          "gamification_family_scores_version"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
         }
       },
       "gamification_reward_transactions": {
@@ -114,7 +148,31 @@
         "ui": {
           "x": 70,
           "y": 500,
-          "color": "#C6EF00"
+          "color": "#C6EF00",
+          "zIndex": 3,
+          "widthName": 180,
+          "widthComment": 60
+        },
+        "seqColumnIds": [
+          "gamification_reward_transactions_id",
+          "gamification_reward_transactions_source_type",
+          "gamification_reward_transactions_source_execution_id",
+          "gamification_reward_transactions_beneficiary_type",
+          "gamification_reward_transactions_beneficiary_id",
+          "gamification_reward_transactions_base_ecopoints",
+          "gamification_reward_transactions_base_gems",
+          "gamification_reward_transactions_ecopoints",
+          "gamification_reward_transactions_gems",
+          "gamification_reward_transactions_multiplier_id",
+          "gamification_reward_transactions_applied_factor",
+          "gamification_reward_transactions_repetition_factor",
+          "gamification_reward_transactions_occurred_at",
+          "gamification_reward_transactions_user_progress_id",
+          "gamification_reward_transactions_family_score_id"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
         }
       },
       "gamification_achievements": {
@@ -135,7 +193,25 @@
         "ui": {
           "x": 1450,
           "y": 80,
-          "color": "#C6EF00"
+          "color": "#C6EF00",
+          "zIndex": 4,
+          "widthName": 180,
+          "widthComment": 60
+        },
+        "seqColumnIds": [
+          "gamification_achievements_id",
+          "gamification_achievements_code",
+          "gamification_achievements_name",
+          "gamification_achievements_description",
+          "gamification_achievements_scope",
+          "gamification_achievements_metric",
+          "gamification_achievements_target",
+          "gamification_achievements_active",
+          "gamification_achievements_cosmetic_id"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
         }
       },
       "gamification_achievement_awards": {
@@ -156,7 +232,25 @@
         "ui": {
           "x": 1450,
           "y": 550,
-          "color": "#C6EF00"
+          "color": "#C6EF00",
+          "zIndex": 5,
+          "widthName": 180,
+          "widthComment": 60
+        },
+        "seqColumnIds": [
+          "gamification_achievement_awards_id",
+          "gamification_achievement_awards_achievement_id",
+          "gamification_achievement_awards_scope",
+          "gamification_achievement_awards_beneficiary_id",
+          "gamification_achievement_awards_community_id",
+          "gamification_achievement_awards_source_event_id",
+          "gamification_achievement_awards_awarded_at",
+          "gamification_achievement_awards_user_progress_id",
+          "gamification_achievement_awards_family_score_id"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
         }
       },
       "gamification_streak_protection_requests": {
@@ -175,7 +269,23 @@
         "ui": {
           "x": 70,
           "y": 80,
-          "color": "#C6EF00"
+          "color": "#C6EF00",
+          "zIndex": 6,
+          "widthName": 180,
+          "widthComment": 60
+        },
+        "seqColumnIds": [
+          "gamification_streak_protection_requests_id",
+          "gamification_streak_protection_requests_user_id",
+          "gamification_streak_protection_requests_streak_date",
+          "gamification_streak_protection_requests_status",
+          "gamification_streak_protection_requests_created_at",
+          "gamification_streak_protection_requests_resolved_at",
+          "gamification_streak_protection_requests_version"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
         }
       },
       "gamification_achievement_share_requests": {
@@ -196,7 +306,25 @@
         "ui": {
           "x": 1450,
           "y": 1000,
-          "color": "#C6EF00"
+          "color": "#C6EF00",
+          "zIndex": 7,
+          "widthName": 180,
+          "widthComment": 60
+        },
+        "seqColumnIds": [
+          "gamification_achievement_share_requests_id",
+          "gamification_achievement_share_requests_award_id",
+          "gamification_achievement_share_requests_requested_by",
+          "gamification_achievement_share_requests_community_id",
+          "gamification_achievement_share_requests_publication_id",
+          "gamification_achievement_share_requests_status",
+          "gamification_achievement_share_requests_created_at",
+          "gamification_achievement_share_requests_confirmed_at",
+          "gamification_achievement_share_requests_version"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
         }
       }
     },
@@ -208,7 +336,18 @@
         "comment": "external ref.",
         "dataType": "BIGINT",
         "default": "",
-        "options": 10
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 92.3,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_user_progresses_total_ecopoints": {
         "id": "gamification_user_progresses_total_ecopoints",
@@ -217,7 +356,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 106.5,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_user_progresses_current_streak": {
         "id": "gamification_user_progresses_current_streak",
@@ -226,7 +376,18 @@
         "comment": "",
         "dataType": "INTEGER",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 99.39999999999999,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_user_progresses_longest_streak": {
         "id": "gamification_user_progresses_longest_streak",
@@ -235,7 +396,18 @@
         "comment": "",
         "dataType": "INTEGER",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 99.39999999999999,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_user_progresses_last_activity_date": {
         "id": "gamification_user_progresses_last_activity_date",
@@ -244,7 +416,18 @@
         "comment": "",
         "dataType": "DATE",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 127.8,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_user_progresses_last_protected_date": {
         "id": "gamification_user_progresses_last_protected_date",
@@ -253,7 +436,18 @@
         "comment": "",
         "dataType": "DATE",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 134.9,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_user_progresses_version": {
         "id": "gamification_user_progresses_version",
@@ -262,7 +456,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_family_scores_family_id": {
         "id": "gamification_family_scores_family_id",
@@ -271,7 +476,18 @@
         "comment": "external ref.",
         "dataType": "BIGINT",
         "default": "",
-        "options": 10
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 63.9,
+          "widthComment": 92.3,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_family_scores_total_ecopoints": {
         "id": "gamification_family_scores_total_ecopoints",
@@ -280,7 +496,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 106.5,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_family_scores_version": {
         "id": "gamification_family_scores_version",
@@ -289,7 +516,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_id": {
         "id": "gamification_reward_transactions_id",
@@ -298,7 +536,18 @@
         "comment": "",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 10
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_source_type": {
         "id": "gamification_reward_transactions_source_type",
@@ -307,7 +556,18 @@
         "comment": "UQ(origin)",
         "dataType": "VARCHAR(24)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 78.1,
+          "widthComment": 71.0,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_source_execution_id": {
         "id": "gamification_reward_transactions_source_execution_id",
@@ -316,7 +576,18 @@
         "comment": "UQ(origin)",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 134.9,
+          "widthComment": 71.0,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_beneficiary_type": {
         "id": "gamification_reward_transactions_beneficiary_type",
@@ -325,7 +596,18 @@
         "comment": "UQ(origin)",
         "dataType": "VARCHAR(8)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 113.6,
+          "widthComment": 71.0,
+          "widthDataType": 71.0,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_beneficiary_id": {
         "id": "gamification_reward_transactions_beneficiary_id",
@@ -334,7 +616,18 @@
         "comment": "UQ(origin)",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 99.39999999999999,
+          "widthComment": 71.0,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_base_ecopoints": {
         "id": "gamification_reward_transactions_base_ecopoints",
@@ -343,7 +636,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 99.39999999999999,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_base_gems": {
         "id": "gamification_reward_transactions_base_gems",
@@ -352,7 +656,18 @@
         "comment": "",
         "dataType": "INTEGER",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 63.9,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_ecopoints": {
         "id": "gamification_reward_transactions_ecopoints",
@@ -361,7 +676,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 63.9,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_gems": {
         "id": "gamification_reward_transactions_gems",
@@ -370,7 +696,18 @@
         "comment": "",
         "dataType": "INTEGER",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_multiplier_id": {
         "id": "gamification_reward_transactions_multiplier_id",
@@ -379,7 +716,18 @@
         "comment": "external ref.",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 92.3,
+          "widthComment": 92.3,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_applied_factor": {
         "id": "gamification_reward_transactions_applied_factor",
@@ -388,7 +736,18 @@
         "comment": "",
         "dataType": "NUMERIC(18,8)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 99.39999999999999,
+          "widthComment": 60,
+          "widthDataType": 92.3,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_repetition_factor": {
         "id": "gamification_reward_transactions_repetition_factor",
@@ -397,7 +756,18 @@
         "comment": "",
         "dataType": "NUMERIC(18,8)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 120.69999999999999,
+          "widthComment": 60,
+          "widthDataType": 92.3,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_occurred_at": {
         "id": "gamification_reward_transactions_occurred_at",
@@ -406,7 +776,18 @@
         "comment": "",
         "dataType": "TIMESTAMPTZ(6)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 78.1,
+          "widthComment": 60,
+          "widthDataType": 99.39999999999999,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_user_progress_id": {
         "id": "gamification_reward_transactions_user_progress_id",
@@ -415,7 +796,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 2,
+          "widthName": 113.6,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_reward_transactions_family_score_id": {
         "id": "gamification_reward_transactions_family_score_id",
@@ -424,7 +816,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 2,
+          "widthName": 106.5,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_id": {
         "id": "gamification_achievements_id",
@@ -433,7 +836,18 @@
         "comment": "",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 10
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_code": {
         "id": "gamification_achievements_code",
@@ -442,7 +856,18 @@
         "comment": "",
         "dataType": "VARCHAR(80)",
         "default": "",
-        "options": 12
+        "options": 12,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_name": {
         "id": "gamification_achievements_name",
@@ -451,7 +876,18 @@
         "comment": "",
         "dataType": "VARCHAR(120)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 85.19999999999999,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_description": {
         "id": "gamification_achievements_description",
@@ -460,7 +896,18 @@
         "comment": "",
         "dataType": "VARCHAR(500)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 78.1,
+          "widthComment": 60,
+          "widthDataType": 85.19999999999999,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_scope": {
         "id": "gamification_achievements_scope",
@@ -469,7 +916,18 @@
         "comment": "",
         "dataType": "VARCHAR(16)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_metric": {
         "id": "gamification_achievements_metric",
@@ -478,7 +936,18 @@
         "comment": "",
         "dataType": "VARCHAR(40)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_target": {
         "id": "gamification_achievements_target",
@@ -487,7 +956,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_active": {
         "id": "gamification_achievements_active",
@@ -496,7 +976,18 @@
         "comment": "",
         "dataType": "BOOLEAN",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievements_cosmetic_id": {
         "id": "gamification_achievements_cosmetic_id",
@@ -505,7 +996,18 @@
         "comment": "external ref.",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 78.1,
+          "widthComment": 92.3,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_id": {
         "id": "gamification_achievement_awards_id",
@@ -514,7 +1016,18 @@
         "comment": "",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 10
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_achievement_id": {
         "id": "gamification_achievement_awards_achievement_id",
@@ -523,7 +1036,18 @@
         "comment": "UQ(target)",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 99.39999999999999,
+          "widthComment": 71.0,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_scope": {
         "id": "gamification_achievement_awards_scope",
@@ -532,7 +1056,18 @@
         "comment": "UQ(target)",
         "dataType": "VARCHAR(16)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_beneficiary_id": {
         "id": "gamification_achievement_awards_beneficiary_id",
@@ -541,7 +1076,18 @@
         "comment": "UQ(target)",
         "dataType": "BIGINT",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 99.39999999999999,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_community_id": {
         "id": "gamification_achievement_awards_community_id",
@@ -550,7 +1096,18 @@
         "comment": "external; UQ(target)",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 85.19999999999999,
+          "widthComment": 142.0,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_source_event_id": {
         "id": "gamification_achievement_awards_source_event_id",
@@ -559,7 +1116,18 @@
         "comment": "",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 106.5,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_awarded_at": {
         "id": "gamification_achievement_awards_awarded_at",
@@ -568,7 +1136,18 @@
         "comment": "",
         "dataType": "TIMESTAMPTZ(6)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 71.0,
+          "widthComment": 60,
+          "widthDataType": 99.39999999999999,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_user_progress_id": {
         "id": "gamification_achievement_awards_user_progress_id",
@@ -577,7 +1156,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 2,
+          "widthName": 113.6,
+          "widthComment": 71.0,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_family_score_id": {
         "id": "gamification_achievement_awards_family_score_id",
@@ -586,7 +1176,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 2,
+          "widthName": 106.5,
+          "widthComment": 71.0,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_streak_protection_requests_id": {
         "id": "gamification_streak_protection_requests_id",
@@ -595,7 +1196,18 @@
         "comment": "",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 10
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_streak_protection_requests_user_id": {
         "id": "gamification_streak_protection_requests_user_id",
@@ -604,7 +1216,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_streak_protection_requests_streak_date": {
         "id": "gamification_streak_protection_requests_streak_date",
@@ -613,7 +1236,18 @@
         "comment": "UQ(pair)",
         "dataType": "DATE",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 78.1,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_streak_protection_requests_status": {
         "id": "gamification_streak_protection_requests_status",
@@ -622,7 +1256,18 @@
         "comment": "",
         "dataType": "VARCHAR(16)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_streak_protection_requests_created_at": {
         "id": "gamification_streak_protection_requests_created_at",
@@ -631,7 +1276,18 @@
         "comment": "",
         "dataType": "TIMESTAMPTZ(6)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 71.0,
+          "widthComment": 60,
+          "widthDataType": 99.39999999999999,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_streak_protection_requests_resolved_at": {
         "id": "gamification_streak_protection_requests_resolved_at",
@@ -640,7 +1296,18 @@
         "comment": "",
         "dataType": "TIMESTAMPTZ(6)",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 78.1,
+          "widthComment": 60,
+          "widthDataType": 99.39999999999999,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_streak_protection_requests_version": {
         "id": "gamification_streak_protection_requests_version",
@@ -649,7 +1316,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_id": {
         "id": "gamification_achievement_share_requests_id",
@@ -658,7 +1336,18 @@
         "comment": "",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 10
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_award_id": {
         "id": "gamification_achievement_share_requests_award_id",
@@ -667,7 +1356,18 @@
         "comment": "",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_requested_by": {
         "id": "gamification_achievement_share_requests_requested_by",
@@ -676,7 +1376,18 @@
         "comment": "external ref.",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 85.19999999999999,
+          "widthComment": 92.3,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_community_id": {
         "id": "gamification_achievement_share_requests_community_id",
@@ -685,7 +1396,18 @@
         "comment": "external ref.",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 85.19999999999999,
+          "widthComment": 92.3,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_publication_id": {
         "id": "gamification_achievement_share_requests_publication_id",
@@ -694,7 +1416,18 @@
         "comment": "external ref.",
         "dataType": "VARCHAR(36)",
         "default": "",
-        "options": 4
+        "options": 4,
+        "ui": {
+          "keys": 0,
+          "widthName": 99.39999999999999,
+          "widthComment": 92.3,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_status": {
         "id": "gamification_achievement_share_requests_status",
@@ -703,7 +1436,18 @@
         "comment": "",
         "dataType": "VARCHAR(16)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 78.1,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_created_at": {
         "id": "gamification_achievement_share_requests_created_at",
@@ -712,7 +1456,18 @@
         "comment": "",
         "dataType": "TIMESTAMPTZ(6)",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 71.0,
+          "widthComment": 60,
+          "widthDataType": 99.39999999999999,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_confirmed_at": {
         "id": "gamification_achievement_share_requests_confirmed_at",
@@ -721,7 +1476,18 @@
         "comment": "",
         "dataType": "TIMESTAMPTZ(6)",
         "default": "",
-        "options": 0
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 85.19999999999999,
+          "widthComment": 60,
+          "widthDataType": 99.39999999999999,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_version": {
         "id": "gamification_achievement_share_requests_version",
@@ -730,7 +1496,18 @@
         "comment": "",
         "dataType": "BIGINT",
         "default": "",
-        "options": 8
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       }
     },
     "relationshipEntities": {
@@ -741,16 +1518,24 @@
           "tableId": "gamification_user_progresses",
           "columnIds": [
             "gamification_user_progresses_user_id"
-          ]
+          ],
+          "x": 760,
+          "y": 288,
+          "direction": 1
         },
         "end": {
           "tableId": "gamification_reward_transactions",
           "columnIds": [
             "gamification_reward_transactions_user_progress_id"
-          ]
+          ],
+          "x": 313,
+          "y": 500,
+          "direction": 4
         },
         "onDelete": 1,
-        "onUpdate": 1
+        "onUpdate": 1,
+        "identification": false,
+        "startRelationshipType": 1
       },
       "rel_reward_transactions_family_score_id": {
         "id": "rel_reward_transactions_family_score_id",
@@ -759,16 +1544,24 @@
           "tableId": "gamification_family_scores",
           "columnIds": [
             "gamification_family_scores_family_id"
-          ]
+          ],
+          "x": 760,
+          "y": 1088,
+          "direction": 1
         },
         "end": {
           "tableId": "gamification_reward_transactions",
           "columnIds": [
             "gamification_reward_transactions_family_score_id"
-          ]
+          ],
+          "x": 556,
+          "y": 720,
+          "direction": 2
         },
         "onDelete": 1,
-        "onUpdate": 1
+        "onUpdate": 1,
+        "identification": false,
+        "startRelationshipType": 1
       },
       "rel_achievement_awards_achievement_id": {
         "id": "rel_achievement_awards_achievement_id",
@@ -777,16 +1570,24 @@
           "tableId": "gamification_achievements",
           "columnIds": [
             "gamification_achievements_id"
-          ]
+          ],
+          "x": 1682,
+          "y": 352,
+          "direction": 8
         },
         "end": {
           "tableId": "gamification_achievement_awards",
           "columnIds": [
             "gamification_achievement_awards_achievement_id"
-          ]
+          ],
+          "x": 1703.5,
+          "y": 550,
+          "direction": 4
         },
         "onDelete": 1,
-        "onUpdate": 1
+        "onUpdate": 1,
+        "identification": false,
+        "startRelationshipType": 2
       },
       "rel_achievement_awards_user_progress_id": {
         "id": "rel_achievement_awards_user_progress_id",
@@ -795,16 +1596,24 @@
           "tableId": "gamification_user_progresses",
           "columnIds": [
             "gamification_user_progresses_user_id"
-          ]
+          ],
+          "x": 1237,
+          "y": 228,
+          "direction": 2
         },
         "end": {
           "tableId": "gamification_achievement_awards",
           "columnIds": [
             "gamification_achievement_awards_user_progress_id"
-          ]
+          ],
+          "x": 1450,
+          "y": 602,
+          "direction": 1
         },
         "onDelete": 1,
-        "onUpdate": 1
+        "onUpdate": 1,
+        "identification": false,
+        "startRelationshipType": 1
       },
       "rel_achievement_awards_family_score_id": {
         "id": "rel_achievement_awards_family_score_id",
@@ -813,16 +1622,24 @@
           "tableId": "gamification_family_scores",
           "columnIds": [
             "gamification_family_scores_family_id"
-          ]
+          ],
+          "x": 1211,
+          "y": 1088,
+          "direction": 2
         },
         "end": {
           "tableId": "gamification_achievement_awards",
           "columnIds": [
             "gamification_achievement_awards_family_score_id"
-          ]
+          ],
+          "x": 1450,
+          "y": 722,
+          "direction": 1
         },
         "onDelete": 1,
-        "onUpdate": 1
+        "onUpdate": 1,
+        "identification": false,
+        "startRelationshipType": 1
       },
       "rel_streak_protection_requests_user_id": {
         "id": "rel_streak_protection_requests_user_id",
@@ -831,16 +1648,24 @@
           "tableId": "gamification_user_progresses",
           "columnIds": [
             "gamification_user_progresses_user_id"
-          ]
+          ],
+          "x": 760,
+          "y": 168,
+          "direction": 1
         },
         "end": {
           "tableId": "gamification_streak_protection_requests",
           "columnIds": [
             "gamification_streak_protection_requests_user_id"
-          ]
+          ],
+          "x": 526,
+          "y": 180,
+          "direction": 2
         },
         "onDelete": 1,
-        "onUpdate": 1
+        "onUpdate": 1,
+        "identification": false,
+        "startRelationshipType": 2
       },
       "rel_achievement_share_requests_award_id": {
         "id": "rel_achievement_share_requests_award_id",
@@ -849,16 +1674,24 @@
           "tableId": "gamification_achievement_awards",
           "columnIds": [
             "gamification_achievement_awards_id"
-          ]
+          ],
+          "x": 1703.5,
+          "y": 774,
+          "direction": 8
         },
         "end": {
           "tableId": "gamification_achievement_share_requests",
           "columnIds": [
             "gamification_achievement_share_requests_award_id"
-          ]
+          ],
+          "x": 1675,
+          "y": 1000,
+          "direction": 4
         },
         "onDelete": 1,
-        "onUpdate": 1
+        "onUpdate": 1,
+        "identification": false,
+        "startRelationshipType": 2
       }
     },
     "indexEntities": {
@@ -872,7 +1705,17 @@
           "gamification_reward_transactions_unique_0_2",
           "gamification_reward_transactions_unique_0_3"
         ],
-        "unique": true
+        "unique": true,
+        "seqIndexColumnIds": [
+          "gamification_reward_transactions_unique_0_0",
+          "gamification_reward_transactions_unique_0_1",
+          "gamification_reward_transactions_unique_0_2",
+          "gamification_reward_transactions_unique_0_3"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_unique_0": {
         "id": "gamification_achievement_awards_unique_0",
@@ -883,7 +1726,16 @@
           "gamification_achievement_awards_unique_0_1",
           "gamification_achievement_awards_unique_0_2"
         ],
-        "unique": true
+        "unique": true,
+        "seqIndexColumnIds": [
+          "gamification_achievement_awards_unique_0_0",
+          "gamification_achievement_awards_unique_0_1",
+          "gamification_achievement_awards_unique_0_2"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_awards_unique_1": {
         "id": "gamification_achievement_awards_unique_1",
@@ -893,7 +1745,15 @@
           "gamification_achievement_awards_unique_1_0",
           "gamification_achievement_awards_unique_1_1"
         ],
-        "unique": true
+        "unique": true,
+        "seqIndexColumnIds": [
+          "gamification_achievement_awards_unique_1_0",
+          "gamification_achievement_awards_unique_1_1"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_streak_protection_requests_unique_0": {
         "id": "gamification_streak_protection_requests_unique_0",
@@ -903,7 +1763,15 @@
           "gamification_streak_protection_requests_unique_0_0",
           "gamification_streak_protection_requests_unique_0_1"
         ],
-        "unique": true
+        "unique": true,
+        "seqIndexColumnIds": [
+          "gamification_streak_protection_requests_unique_0_0",
+          "gamification_streak_protection_requests_unique_0_1"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       },
       "gamification_achievement_share_requests_unique_0": {
         "id": "gamification_achievement_share_requests_unique_0",
@@ -912,7 +1780,14 @@
         "indexColumnIds": [
           "gamification_achievement_share_requests_unique_0_0"
         ],
-        "unique": true
+        "unique": true,
+        "seqIndexColumnIds": [
+          "gamification_achievement_share_requests_unique_0_0"
+        ],
+        "meta": {
+          "createAt": 1794528000000,
+          "updateAt": 1794528000000
+        }
       }
     },
     "indexColumnEntities": {
