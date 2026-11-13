@@ -9216,6 +9216,38 @@ El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub A
 
 ![Pipeline del Backend API](assets/img/figures/sprint-2/backend-pipeline.png)
 
+Configuración registrada en el portal de Azure el 13 de noviembre de 2026.
+
+**Figura 161**
+
+*Recursos de EcoMind en Azure.*
+
+![Recursos de EcoMind en Azure](assets/img/figures/sprint-2/resource-group.png)
+
+**Figura 162**
+
+*Backend API desplegado en Azure Container Apps.*
+
+![Información general de la API en Azure Container Apps](assets/img/figures/sprint-2/container-app-overview.png)
+
+**Figura 163**
+
+*Revisión activa del Backend API, asociada a la ejecución 43382634408.*
+
+![Revisión activa del Backend API](assets/img/figures/sprint-2/container-app-revisions.png)
+
+**Figura 164**
+
+*Servidor PostgreSQL de EcoMind en West US 2.*
+
+![Servidor PostgreSQL de EcoMind](assets/img/figures/sprint-2/postgresql-overview.png)
+
+**Figura 165**
+
+*Acceso privado de PostgreSQL mediante red virtual y DNS privado.*
+
+![Configuración de red privada de PostgreSQL](assets/img/figures/sprint-2/postgresql-networking.png)
+
 El [registro de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-12.md) y la [validación del despliegue](assets/evidence/iam-account-access/azure-devops-validation-2026-11-12.json) conservan la evidencia de la automatización inicial. Las capturas de Render y Aiven del apartado 4.2.1.8 corresponden al despliegue de Sprint 1.
 
 #### 4.2.2.9. Team Collaboration Insights during Sprint
@@ -9428,7 +9460,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
 
-**Figura 161**
+**Figura 166**
 
 *Visibilidad del progreso al completar actividades.*
 
@@ -9448,7 +9480,7 @@ Implementar animaciones, barras de progreso o indicadores visuales que muestren 
 
 Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
 
-**Figura 162**
+**Figura 167**
 
 *Información disponible sobre eventos comunitarios.*
 
@@ -9468,7 +9500,7 @@ Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde s
 
 Las actividades disponibles dentro de la aplicación se presentan principalmente como formularios o cuestionarios, sin comunicar con suficiente claridad qué acción debe realizar el usuario para cumplir el reto. Esta presentación dificulta relacionar la actividad con un desafío ambiental concreto y comprender su objetivo, más allá de responder preguntas.
 
-**Figura 163**
+**Figura 168**
 
 *Presentación de las actividades y retos.*
 
@@ -9488,7 +9520,7 @@ Presentar cada reto con un objetivo ambiental concreto, instrucciones en lenguaj
 
 En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. Aunque incluyen una etiqueta de rol, el usuario debe leer cada tarjeta para distinguir a los padres de los hijos, lo que dificulta reconocer rápidamente los roles al revisar el grupo familiar.
 
-**Figura 164**
+**Figura 169**
 
 *Tarjetas de integrantes de la familia.*
 
@@ -9507,7 +9539,7 @@ Incorporar un distintivo visual consistente para cada rol familiar, como un íco
 
 Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. La evaluación considera la visualización del perfil, sin revisar el proceso de equipamiento de accesorios.
 
-**Figura 165**
+**Figura 170**
 
 *Visualización del avatar en el perfil.*
 
