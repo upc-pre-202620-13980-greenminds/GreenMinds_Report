@@ -91,6 +91,7 @@ Proyecto <br>
 | 2.0.0    | 08/11/2026     | Mauricio Pajes | docs: trace IAM acceptance to AV2 requirements <br> docs: update the verified IAM contribution and remaining checks |
 | 2.0.0    | 10/11/2026     | Mauricio Pajes | docs: record completed terms and recovery email validation |
 | 2.0.0    | 11/11/2026     | Mauricio Pajes | fix: align shared terms with current mobile clients |
+| 2.0.0    | 13/11/2026     | Mauricio Pajes | docs: align IAM and Gamification diagrams with Azure deployment |
 
 <div style="page-break-before: always;"></div>
 
@@ -124,13 +125,11 @@ Asimismo, los integrantes revisaron y complementaron las secciones del informe p
 
 ![projetoverview2](assets/img/figures/Docs_Overview2.png)
 
-*AV2 — incremento IAM con verificación local*
+*AV2 — IAM y Gamification*
 
-Mauricio Pajes incorporó al informe la evidencia de recuperación de contraseña (HU-058), cierre de sesión (HU-059) y navegación de términos del registro. El aporte relaciona los criterios de aceptación con los contratos de la API, los commits, las pruebas ejecutadas y las capturas. Las referencias de diseño corresponden al archivo Figma actual del equipo. Los cambios de Android y la documentación del Backend se integraron mediante los PR [Android #8](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/8) y [Backend #25](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/25).
+Mauricio Pajes actualizó el registro, la recuperación de contraseña (HU-058), el cierre de sesión (HU-059) y los términos versión 1.2 en Android y Flutter. También integró Gamification en Android con el backend, incluyendo rankings, puntos, rachas, medallas, recompensas y el bono semanal. El informe incorpora los diagramas de componentes, clases y datos correspondientes a la implementación y al despliegue en Azure.
 
-La [matriz de verificación IAM](assets/evidence/iam-account-access/acceptance-checklist.md) relaciona el alcance asignado con sus pruebas y los requisitos del curso aplicables. El texto de términos y privacidad llegó a la versión 1.2 el 12/11/2026. El [seguimiento de clientes en Azure](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) distingue las pruebas con enlace controlado en emulador de la entrega actual del correo, que continúa sin confirmarse. La evidencia en dispositivo físico permanece pendiente.
-
-
+El [registro de IAM](assets/evidence/iam-account-access/README.md) y el [seguimiento de clientes en Azure](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) reúnen los contratos y las pruebas. La [configuración de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-12.md) describe la validación y el despliegue automático desde `develop`.
 
 <div style="page-break-before: always;"></div>
 
@@ -4542,7 +4541,7 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 | Entity | `EmailVerification` | Verificación asociada con un registro pendiente. | Validar el código o token dentro del plazo de 20 minutos e impedir su reutilización. | Pertenece a `PendingRegistration`. |
 | Aggregate Root | `Account` | Identidad digital habilitada para acceder a EcoMind. | Crear y mantener el estado de la cuenta autenticable. | Posee una `AccountCredential` y se identifica mediante `AccountId`. |
 | Entity | `AccountCredential` | Credencial de acceso de una cuenta. | Asociar un correo normalizado con el hash de la contraseña y permitir su actualización segura. | Pertenece a `Account`; utiliza `EmailAddress` y `PasswordHash`. |
-| Aggregate Root | `PasswordResetToken` | Autorización temporal para cambiar una contraseña. | Controlar expiración, consumo único y asociación con la cuenta solicitante. | Se busca mediante su `TokenHash` y, al consumirse, permite actualizar `AccountCredential`. |
+| Aggregate Root | `PasswordResetToken` | Autorización temporal para cambiar una contraseña. | Controlar la vigencia de 30 minutos, el consumo único y los reintentos de la misma confirmación durante cinco minutos. | Se busca mediante su `TokenHash` y, al consumirse, permite actualizar `AccountCredential`. |
 | Value Object | `AccountId` | Identificador estable de una cuenta. | Identificar al usuario autenticado sin exponer credenciales. | Se incluye como subject del `AccessToken` y se comunica a Users. |
 | Value Object | `EmailAddress` | Correo normalizado. | Eliminar espacios laterales, convertir a minúsculas y validar el formato. | Usado por `PendingRegistration` y `AccountCredential`. |
 | Value Object | `PasswordHash` | Representación no reversible de una contraseña. | Evitar que la contraseña en texto plano forme parte del modelo persistido. | Utilizado por `AccountCredential`. |
@@ -4604,7 +4603,7 @@ Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints pr
 | Request Resource | `VerifyEmailResource` | Transportar la prueba de verificación del correo. | Se convierte en `VerifyEmailCommand`. |
 | Request Resource | `SignInResource` | Transportar las credenciales de inicio de sesión. | Se convierte en `SignInCommand`. |
 | Request Resource | `PasswordRecoveryResource` | Transportar el correo para solicitar la recuperación. | Se convierte en `RequestPasswordRecoveryCommand`. |
-| Request Resource | `ConfirmPasswordRecoveryResource` | Transportar el token temporal y la nueva contraseña. | Se convierte en `ConfirmPasswordRecoveryCommand`. |
+| Request Resource | `ConfirmPasswordRecoveryResource` | Transportar el token temporal, la nueva contraseña y el identificador opcional de confirmación. | Se convierte en `ConfirmPasswordRecoveryCommand`. |
 | Response Resource | `AuthenticationResource` | Exponer el access token, su expiración y la identidad autenticada. | Se ensambla a partir del resultado de `SignIn`. |
 | Response Resource | `AuthenticatedUserResource` | Exponer la identidad de la cuenta autenticada. | Presenta el `AccountId` y el correo de la cuenta. |
 | Assembler | `AuthenticationCommandFromResourceAssembler` | Convertir los resources de entrada en commands. | Conecta los controllers con Application Layer. |
@@ -4690,13 +4689,13 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 | Alternative Email Adapter | `ResendEmailService` | Permitir seleccionar el proveedor anterior mediante configuración. | Implementa `EmailService` mediante la API de Resend; no es el proveedor activo en Azure. |
 | Internal Context Client | `UsersContextClient` | Enviar el command `CreateProfile` después de crear la cuenta. | Implementa `UsersContextGateway`; llamada interna síncrona. |
 | Android API Client | `IamApiService` | Consumir los endpoints de registro, autenticación y recuperación. | HTTPS/JSON desde la aplicación Android. |
-| Android Token Storage | `AccessTokenStore` | Guardar el JWT en almacenamiento seguro, adjuntarlo a solicitudes y eliminarlo al cerrar sesión. | Almacenamiento cifrado e interceptor HTTP de Android. |
+| Android Token Storage | `SessionDataStore` | Conservar el JWT en el almacenamiento privado de la aplicación y eliminarlo al cerrar sesión. | Android DataStore e interceptor HTTP. |
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 49 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Secure Token Storage, que guarda el access token de forma protegida y lo elimina al cerrar sesión.
+Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 49 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Session Data Store, que conserva el access token en el almacenamiento privado de la aplicación y lo elimina al cerrar sesión.
 
-La Figura 50 muestra el módulo IAM dentro del Backend API. Las solicitudes protegidas atraviesan primero el Bearer Authorization Filter del grupo Shared, que valida el access token mediante los Token & Password Services y reenvía la solicitud autenticada a los controllers. Las operaciones de registro, verificación, inicio de sesión y recuperación de contraseña son rutas públicas y llegan directamente a los IAM REST Controllers. Estos despachan commands y queries a los IAM Application Services, que aplican las reglas del IAM Domain Model, emiten los tokens y aplican el hash a las contraseñas, y persisten los datos mediante los IAM Persistence Adapters en EcoMind Database. Los servicios de aplicación también solicitan al Email Service Adapter el envío de correos de verificación y recuperación, y al Users Context Client la creación del perfil, que el IAM Context Listener de Users recibe como el command CreateProfile. La Figura 50 conserva la vista inicial con Resend; desde el 12/11, el despliegue selecciona `AzureEmailService`. La [arquitectura actual de Azure](assets/diagrams/azure-2026-11-12/architecture-evidence.md) y el [registro de integración de clientes](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) documentan ese cambio y la entrega de correo aún sin confirmar.
+La Figura 50 muestra el módulo IAM dentro del Backend API, consumido por Android y Flutter. Authentication & JWT Security valida las solicitudes protegidas. Los REST Controllers invocan los Application Services, que aplican el Domain Model y persisten cuentas, credenciales y tokens mediante los Persistence Adapters en PostgreSQL. El Email Service Adapter utiliza Azure Communication Services Email para la verificación y recuperación de cuentas. Users Context Client solicita la creación del perfil mediante comunicación interna síncrona con Users.
 
 **Figura 49**
 
@@ -4716,7 +4715,7 @@ Los diagramas de código describen el modelo de dominio y su estructura de persi
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del Domain Layer representa los aggregates, entities, value objects, domain services y repositories que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación.
+El diagrama de clases del Domain Layer representa los aggregates, entities y value objects que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación.
 
 **Figura 51**
 
@@ -4730,7 +4729,7 @@ El diagrama de base de datos presenta las estructuras de persistencia necesarias
 
 **Figura 52**
 
-*Diagrama de diseño de la base de datos del bounded context IAM, elaborado con ERD Editor.*
+*Diagrama de diseño de la base de datos PostgreSQL del bounded context IAM.*
 
 ![C4I](assets/img/figures/IamDatabase.png)
 
@@ -5917,21 +5916,21 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 | Tipo | Nombre | Descripción | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|---|
-| Aggregate Root | `UserProgress` | Progreso de gamificación de un usuario. | Mantener ecopoints, experiencia y racha a partir de hechos válidos. | Referencia a `Users`; contiene `Streak` y recibe las recompensas de `RewardTransaction`. |
+| Aggregate Root | `UserProgress` | Progreso de gamificación de un usuario. | Mantener ecopoints y racha a partir de hechos válidos. | Referencia a `Users`; contiene `Streak` y recibe las recompensas de `RewardTransaction`. |
 | Aggregate Root | `FamilyScore` | Puntuación de una familia. | Acumular únicamente las recompensas atribuidas a la familia. | Referencia a una familia de `Users`; se consulta en el ranking familiar. |
 | Aggregate Root | `RewardTransaction` | Registro inmutable de recompensa. | Conservar origen, beneficiario, cantidades y fecha; impedir premios repetidos por la misma ejecución. | Contiene `Reward`, `RewardSource` y `RewardBeneficiary`; referencia a `UserProgress` o `FamilyScore`. |
 | Aggregate Root | `Achievement` | Definición de un logro o medalla. | Mantener código, nombre, descripción, alcance y criterio de obtención. | Contiene `AchievementCriterion`; puede referenciar un cosmético de Monetization como premio individual. |
 | Aggregate Root | `AchievementAward` | Logro concedido a un beneficiario. | Registrar la obtención una sola vez por logro y beneficiario; validar un único destinatario compatible con su alcance. | Referencia a `Achievement` y a `UserProgress`, `FamilyScore` o una comunidad externa, según el alcance del logro. |
 | Aggregate Root | `AchievementShareRequest` | Solicitud voluntaria de compartir un logro individual. | Mantener la solicitud pendiente hasta recibir la publicación creada y reconocer confirmaciones repetidas. | Referencia a `AchievementAward`, al solicitante, a la comunidad destino y a la publicación creada por Community. |
 | Aggregate Root | `StreakProtectionRequest` | Solicitud de protección de una fecha sin actividad. | Identificar usuario, día y resultado de la protección sin consumir inventario. | Referencia a `UserProgress`; se resuelve con la confirmación de Monetization. |
-| Value Object | `Reward` | Cantidades de una recompensa. | Representar ecopoints, experiencia y gemas no negativos. | Se incorpora a `RewardTransaction`; las gemas se acreditan en Monetization. |
+| Value Object | `Reward` | Cantidades de una recompensa. | Representar ecopoints y gemas no negativos; XP corresponde al mismo saldo de ecopoints. | Se incorpora a `RewardTransaction`; las gemas se acreditan en Monetization. |
 | Value Object | `RewardSource` | Origen verificable del premio. | Identificar el tipo de hecho y su ejecución canónica. | Permite reconocer reintentos aunque llegue un nuevo identificador de mensaje. |
 | Value Object | `RewardBeneficiary` | Destinatario individual o familiar. | Identificar el destinatario y su tipo. | Las recompensas comunitarias se distribuyen a los participantes comunicados por Community. |
 | Value Object | `Streak` | Constancia del usuario. | Registrar el avance diario sin duplicados y gestionar protección, reinicio y récord. | Parte de `UserProgress`; una fecha protegida conserva la racha sin simular una actividad completada. |
 | Value Object | `ActiveMultiplier` | Factor y vigencia consultados a Monetization. | Determinar si el multiplicador corresponde al instante de la recompensa. | Es utilizado por `RewardCalculationService` para calcular la recompensa. |
 | Value Object | `AchievementCriterion` | Condición de obtención. | Representar la métrica y el objetivo configurados para un logro. | Evaluado por `AchievementEvaluationService`, sin fijar umbrales no definidos en el catálogo. |
 | Value Object | `RankingPeriod` | Intervalo de clasificación. | Delimitar inicio y fin de las transacciones a consultar. | Utilizado por consultas y por el cálculo semanal en Android. |
-| Enumeration | `RewardSourceType` | Tipo de origen. | Distinguir `QUEST`, `MINIGAME`, `COLLABORATIVE_QUEST`, `FAMILY_PLAN`, `COMMUNITY_GOAL` y `COMMUNITY_EVENT`. | Utilizado por `RewardSource`. |
+| Enumeration | `RewardSourceType` | Tipo de origen. | Distinguir `QUEST`, `MINIGAME`, `COLLABORATIVE_QUEST`, `FAMILY_PLAN`, `COMMUNITY_GOAL`, `COMMUNITY_EVENT` y `STREAK_BONUS`. | Utilizado por `RewardSource`. |
 | Enumeration | `BeneficiaryType` | Tipo de destinatario. | Distinguir `USER` y `FAMILY`. | Utilizado por `RewardBeneficiary`. |
 | Enumeration | `AchievementScope` | Alcance del logro. | Distinguir `INDIVIDUAL`, `FAMILY` y `COMMUNITY`. | Utilizado por `Achievement`. |
 | Enumeration | `AchievementShareStatus` | Estado de publicación de un logro. | Distinguir `PENDING` y `PUBLISHED`. | Utilizado por `AchievementShareRequest`; enviar el mensaje no confirma la creación del post. |
@@ -5942,11 +5941,11 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 `RewardTransaction` registra una recompensa por origen, ejecución y beneficiario. El otorgamiento y la actualización de puntos se realizan en la misma transacción; una ejecución individual o colaborativa no puede premiarse dos veces al mismo beneficiario.
 
-`Streak` aumenta una vez al día con el primer reto diario válido. Los demás retos conservan sus recompensas. La protección de una fecha requiere confirmación de Monetization; un fallo de comunicación mantiene la solicitud pendiente.
+`Streak` aumenta una vez al día con el primer reto diario válido. Los demás retos conservan sus recompensas. Cada siete días de racha se acredita una sola vez un bono de ecopoints equivalente a los días acumulados multiplicados por el número de semanas completas, con un factor máximo de tres. Los multiplicadores se aplican a ecopoints, sin modificar las gemas. La protección de una fecha requiere confirmación de Monetization; un fallo de comunicación mantiene la solicitud pendiente.
 
-`Achievement` define el criterio y `AchievementAward` registra su cumplimiento. Las metas comunitarias pueden conceder insignias individuales a los participantes elegibles. Compartir un logro conserva su titular y alcance.
+`Achievement` define el criterio y `AchievementAward` registra su cumplimiento. La medalla `FIRST_QUEST_COMPLETED` utiliza `COMPLETED_QUESTS` con objetivo uno: cuenta una finalización validada de reto, minijuego o reto colaborativo, incluso si otorga cero ecopoints. Las metas comunitarias pueden conceder insignias individuales a los participantes elegibles. Compartir un logro conserva su titular y alcance.
 
-`RewardCalculationService` aplica el multiplicador de experiencia vigente y la reducción configurada por repetición de minijuegos en una ventana de tres horas. Los rankings consultan las puntuaciones del periodo sin conceder recompensas.
+`RewardCalculationService` aplica el multiplicador de ecopoints vigente y la reducción configurada por repetición de minijuegos en una ventana de tres horas. Los rankings consultan las puntuaciones del periodo sin conceder recompensas.
 
 **Sub-capa Model - Commands**
 
@@ -5977,7 +5976,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|
-| `GetUserProgressQuery` | Obtener ecopoints, experiencia y racha. | Atendida por `UserProgressQueryService`; permite a Monetization verificar una racha activa. |
+| `GetUserProgressQuery` | Obtener ecopoints y racha. | Atendida por `UserProgressQueryService`; permite a Monetization verificar una racha activa. |
 | `GetFamilyScoreQuery` | Obtener la puntuación familiar. | Atendida por `FamilyScoreQueryService`. |
 | `GetRewardTransactionsQuery` | Obtener otorgamientos del beneficiario y periodo solicitados. | Atendida por `RewardQueryService`; aporta las transacciones de TS-007. |
 | `GetAchievementByIdQuery`, `SearchAchievementsQuery` | Consultar definiciones y filtrar el catálogo. | Atendidas por `AchievementQueryService`. |
@@ -6019,7 +6018,7 @@ El aviso de logro obtenido informa a Community sobre su concesión. La publicaci
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
-| Domain Service | `RewardCalculationService` | Calcular ecopoints, experiencia y gemas con la recompensa base y los efectos vigentes. | Utiliza `Reward`, `RewardSource` y `ActiveMultiplier`; recibe el historial necesario de minijuegos. |
+| Domain Service | `RewardCalculationService` | Calcular ecopoints y gemas con la recompensa base y los efectos vigentes. | Utiliza `Reward`, `RewardSource` y `ActiveMultiplier`; recibe el historial necesario de minijuegos. |
 | Domain Service | `AchievementEvaluationService` | Evaluar criterios individuales, familiares o comunitarios. | Utiliza `AchievementCriterion` y progreso validado. |
 | Domain Service | `StreakService` | Determinar incremento diario único, conservación, riesgo o reinicio de racha. | Utiliza `Streak` y la respuesta de protección; recibe actividades que cumplen la regla del reto diario. |
 
@@ -6071,7 +6070,7 @@ Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados
 |---|---|---|---|
 | Request Resource | `ShareAchievementResource` | Transportar `requestId`, logro concedido y comunidad seleccionada. | Se convierte en `ShareAchievementCommand`; el solicitante se obtiene de la identidad autenticada. |
 | Response Resource | `AchievementShareResource` | Exponer la solicitud, su estado y la referencia de publicación cuando existe. | Ensamblado desde `AchievementShareRequest`. |
-| Response Resource | `UserProgressResource`, `FamilyScoreResource` | Exponer puntuación, experiencia y racha según el caso. | Ensamblados desde los agregados de progreso. |
+| Response Resource | `UserProgressResource`, `FamilyScoreResource` | Exponer puntuación y racha según el caso. | Ensamblados desde los agregados de progreso. |
 | Response Resource | `RewardTransactionResource` | Exponer origen, cantidades finales, beneficiario y fecha. | Ensamblado desde `RewardTransaction`. |
 | Response Resource | `AchievementResource` | Exponer definición y datos de obtención. | Ensamblado desde `Achievement` y `AchievementAward`. |
 | Response Resource | `RankingResource` | Exponer tipo, periodo y datos autorizados de participantes. | Ensamblado desde `Ranking` y `RankingEntry`. |
@@ -6143,7 +6142,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
-| Repository Implementations | `UserProgressRepositoryImpl`, `FamilyScoreRepositoryImpl` | Persistir puntuaciones, experiencia y racha con control de versión. | Implementan los contratos de progreso mediante Spring Data JPA. |
+| Repository Implementations | `UserProgressRepositoryImpl`, `FamilyScoreRepositoryImpl` | Persistir puntuaciones y racha con control de versión. | Implementan los contratos de progreso mediante Spring Data JPA. |
 | Repository Implementation | `RewardTransactionRepositoryImpl` | Persistir historial y garantizar unicidad por origen, ejecución y beneficiario. | Implementa `RewardTransactionRepository`. |
 | Repository Implementations | `AchievementRepositoryImpl`, `AchievementAwardRepositoryImpl` | Persistir definiciones y concesiones únicas por logro y beneficiario. | Implementan los contratos de logros. |
 | Repository Implementation | `AchievementShareRequestRepositoryImpl` | Persistir solicitudes y aplicar confirmaciones con control de versión. | Implementa `AchievementShareRequestRepository`; conserva solo la referencia de publicación externa. |
@@ -6177,25 +6176,20 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 | Tipo | Nombre | Responsabilidad principal | Relación con otros elementos |
 |---|---|---|---|
-| Use Cases | `GetUserProgressUseCase`, `GetFamilyScoreUseCase`, `GetRewardHistoryUseCase` | Consultar progreso e historial. | Utilizan `GamificationMobileRepository`. |
-| Use Cases | `GetAchievementsUseCase`, `ShareAchievementUseCase`, `GetAchievementShareStatusUseCase` | Consultar y filtrar logros, solicitar una publicación y recuperar su estado. | Utilizan `GamificationMobileRepository`; compartir se invoca únicamente al confirmar el diálogo. |
-| Use Case | `GetSharedCommunityAchievementsUseCase` | Consultar y filtrar logros personales publicados en una comunidad. | Utiliza `CommunityAchievementsGateway`; no sustituye esa lectura por `GetCommunityAchievementsQuery`. |
-| Use Cases | `GetRankingUseCase`, `CalculateWeeklyRankingUseCase` | Obtener participantes y sumar transacciones del periodo para ordenar el ranking semanal. | Implementan TS-007; no asignan puntos ni modifican el historial. |
-| ViewModel | `ProgressViewModel`, `AchievementsViewModel`, `RankingViewModel` | Gestionar carga, contenido, filtros y errores; distinguir diálogo de compartir, solicitud pendiente y publicación confirmada. | Invocan use cases y exponen StateFlow; cerrar el diálogo o elegir «No compartir» solo cambia el estado de presentación. |
-| Feature Gateway | `CommunityAchievementsGateway` | Adaptar la consulta de publicaciones compartidas a la pantalla de logros de comunidad. | Reutiliza el cliente de Community y devuelve las publicaciones autorizadas con sus referencias de logros. |
-| Presentation Model | `AchievementShareDraft` | Conservar `requestId`, `awardId` y `communityId` de la selección mientras se reintenta un envío fallido. | Gestionado por `AchievementsViewModel` con `SavedStateHandle`; no es un aggregate ni una publicación confirmada. |
-| Repository Interface | `GamificationMobileRepository` | Definir las consultas y solicitudes que necesita Android. | Utilizado por los use cases e implementado en la capa de datos móvil. |
-| Remote Service | `GamificationApiService` | Consumir REST mediante Retrofit y HTTPS. | Utilizado por `GamificationMobileRepositoryImpl`. |
-| Repository Implementation | `GamificationMobileRepositoryImpl` | Coordinar las llamadas remotas y mapear resultados. | Implementa `GamificationMobileRepository`. |
-| Mapper | `GamificationMobileMapper` | Convertir DTOs de red en modelos móviles. | Utilizado por el repositorio móvil; no replica reglas de asignación de premios. |
+| Use Cases | `GetGamificationOverviewUseCase`, `GetRewardHistoryUseCase`, `GetGroupAchievementsUseCase` | Consultar progreso, historial y logros colectivos. | Utilizan `ProgressRepository`. |
+| Use Cases | `GetAchievementsUseCase`, `GetAchievementByIdUseCase` | Consultar el catálogo, las medallas obtenidas y sus detalles. | Utilizan `AchievementRepository`. |
+| Use Cases | `ShareAchievementUseCase`, `GetAchievementShareUseCase` | Solicitar una publicación y consultar su confirmación. | Utilizan `ProgressRepository` y conservan el identificador de solicitud para reintentos. |
+| Use Cases | `GetRankingUseCase`, `CheckRankingAccessUseCase` | Consultar participantes, ordenar las puntuaciones del periodo y verificar el acceso. | Utilizan `RankingRepository` y `RankingCalculator`. |
+| ViewModel | `ProgressViewModel`, `HistoryViewModel`, `AchievementsViewModel`, `RankingViewModel`, `ShareAchievementViewModel` | Gestionar carga, filtros, errores y acciones de las pantallas. | Invocan los use cases y exponen StateFlow. |
+| Repository Interface | `ProgressRepository`, `AchievementRepository`, `RankingRepository` | Definir las consultas y solicitudes de la aplicación. | Implementadas por los repositorios remotos. |
+| Remote Service | `GamificationApi`, `RewardHistoryApi` | Consumir los endpoints REST mediante Retrofit y HTTPS. | Utilizados por los repositorios remotos. |
+| Repository Implementation | `RemoteProgressRepository`, `RemoteAchievementRepository`, `RemoteRankingRepository` | Consultar el backend y convertir las respuestas en modelos móviles. | Implementan los contratos de dominio y utilizan la sesión IAM. |
 
-La aplicación móvil consulta progreso, logros y rankings, y permite compartir un logro. Los ViewModels gestionan la selección, los filtros y el estado de las solicitudes.
-
-`AchievementsViewModel` conserva la solicitud para reintentar un envío fallido. `CommunityAchievementsGateway` consulta las publicaciones compartidas, mientras que `CalculateWeeklyRankingUseCase` calcula las posiciones semanales con las transacciones autorizadas.
+La aplicación móvil consulta progreso, logros y rankings, y permite compartir un logro. Los ViewModels gestionan la selección, los filtros y el estado de las solicitudes. `RankingCalculator` ordena los participantes con las transacciones del periodo. Las solicitudes de compartir conservan su identificador para reconocer reintentos.
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 69, Gamification UI presenta los rankings, los filtros de logros, la celebración y la opción de compartir. Los Gamification ViewModels administran los filtros, la decisión de compartir, el borrador reintentable y el estado de publicación, y los Gamification Use Cases consultan rankings y logros y solicitan el compartir voluntario. El Weekly Ranking Calculator filtra las transacciones del periodo y calcula las posiciones semanales. El Gamification Repository Implementation mapea los resultados con los Gamification Data Mappers y consulta el Gamification Remote Data Source, que consume los recursos REST de Gamification. Para leer las publicaciones de logros compartidos, que pertenecen a Community, los casos de uso emplean el Community Feature Gateway, que accede a la API de publicaciones de Community.
+Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 69, Gamification UI presenta rankings, medallas, progreso y la opción de compartir. Los ViewModels invocan los use cases y gestionan sus estados. Los repositorios remotos consumen la API y convierten sus respuestas en modelos de dominio. Ranking Calculator ordena las transacciones del periodo, y Users Context Facade identifica la familia del usuario para el ranking familiar.
 
 La Figura 70 muestra el módulo Gamification dentro del Backend API. Los Gamification REST Controllers exponen progreso, logros, rankings y solicitudes de compartir, y despachan commands y queries a los Gamification Application Services. Estos aplican el Gamification Domain Model y persisten los datos con los Gamification Persistence Adapters. Los Gamification Event Handlers reciben los eventos publicados por el Quest Event Publisher, el Community Event Publisher y el Monetization Event Publisher, y el Daily Streak Lifecycle Service evalúa el cierre diario de las rachas activas. Los Context Service Clients consultan los facades de Users, Quests, Community y Monetization. El Gamification Event Publisher entrega las recompensas, los avisos de logro y las solicitudes de protección y publicación a Community y Monetization, y guarda los mensajes pendientes en EcoMind Database mediante un Transactional Outbox. Los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade.
 
@@ -7543,7 +7537,12 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
 | GitHub Pages | SaaS | Alojar y publicar la landing page estática de EcoMind desde su repositorio en GitHub. | [https://pages.github.com/](https://pages.github.com/) |
-| Render | PaaS | Desplegar y ejecutar el Backend API desarrollado con Java y Spring Boot como un único servicio web, con las variables de entorno de configuración y credenciales inyectadas al iniciar. | [https://render.com/](https://render.com/) |
+| Azure Container Apps | PaaS | Ejecutar el Backend API como contenedor con acceso HTTPS y escalado automático. | [https://azure.microsoft.com/products/container-apps](https://azure.microsoft.com/products/container-apps) |
+| Azure Database for PostgreSQL | PaaS | Persistir los datos en una base PostgreSQL con acceso privado y conexión TLS. | [https://azure.microsoft.com/products/postgresql](https://azure.microsoft.com/products/postgresql) |
+| Azure Container Registry | PaaS | Almacenar las imágenes del Backend API. | [https://azure.microsoft.com/products/container-registry](https://azure.microsoft.com/products/container-registry) |
+| Azure Key Vault | PaaS | Administrar los secretos del despliegue. | [https://azure.microsoft.com/products/key-vault](https://azure.microsoft.com/products/key-vault) |
+| Azure Communication Services Email | PaaS | Enviar los correos de verificación y recuperación de contraseña. | [https://azure.microsoft.com/products/communication-services](https://azure.microsoft.com/products/communication-services) |
+| GitHub Actions | CI/CD | Ejecutar las pruebas y automatizar el despliegue del Backend API. | [https://github.com/features/actions](https://github.com/features/actions) |
 | Google Play Console | SaaS | Gestionar las versiones, pruebas y publicación de la aplicación Android en Google Play. | [https://play.google.com/console/about/](https://play.google.com/console/about/) |
 
 **Software Documentation**
@@ -7770,7 +7769,7 @@ La aplicación móvil Android se desarrollará con Kotlin. Para su implementaci�
 
 ### 4.1.4. Software Deployment Configuration
 
-En esta sección se describe la configuración del despliegue de EcoMind, incluyendo los pasos necesarios para publicar la landing page en GitHub Pages y el backend en Render, así como la configuración de sus servicios asociados.
+En esta sección se describe la configuración del despliegue de EcoMind, incluyendo los pasos necesarios para publicar la landing page en GitHub Pages y el Backend API en Azure Container Apps, así como la configuración de sus servicios asociados.
 
 **Landing page - Github pages**
 
@@ -7782,19 +7781,12 @@ En esta sección se describe la configuración del despliegue de EcoMind, incluy
 
 **Backend**
 
-Base de datos - Aiven:
-
-1. Seleccionar opción crear servicio
-2. Asegurarse de elegir postgreSQL
-3. Seleccionar configuración básica del plan, y nombre del servicio
-4. Guardar y crear servicio. Se conectará con el backend desplegado, el cual añadirá entidades a las tablas según los endpoints lo soliciten.
-
-Backend - Render:
-
-1. Seleccionar opción crear servicio y dentro de ella seleccionar servicio web
-2. Elegir el repositorio donde se esta desarrollando el backend
-3. Configurar nombre, lenguaje, rama, plan y variables de entorno previo a la creación del servicio
-4. Guardar configuración y crear servicio, esperar su despliegue, cuando haya cambios es la rama main, render permite actualización ya sea de forma automática o manual.
+1. Crear la red virtual y el servidor Azure Database for PostgreSQL en West US 2, con acceso privado y conexión TLS.
+2. Almacenar los secretos en Azure Key Vault y las imágenes del Backend API en Azure Container Registry.
+3. Configurar Azure Container Apps con ingreso HTTPS, conexión a la red virtual y escalado de cero a dos réplicas.
+4. Configurar Azure Communication Services Email como proveedor de verificación de cuentas y recuperación de contraseña.
+5. Configurar GitHub Actions con autenticación federada de Azure. Al integrar cambios en `develop`, ejecutar las pruebas, construir la imagen y desplegarla en Container Apps.
+6. Verificar la nueva revisión y el estado de salud del Backend API.
 
 
 ## 4.2. Landing Page & Mobile Application Implementation
@@ -9047,25 +9039,15 @@ En esta sección se muestra los aportes de cada integrante en los repositorios r
 ![sprint1_backend_evidence1](assets/img/figures/sprint1_backend_evidence1.png)
 ![sprint1_backend_evidence2](assets/img/figures/sprint1_backend_evidence2.png)
 
-### 4.2.2. Sprint 2 — evidencia parcial de IAM
+### 4.2.2. Sprint 2 — IAM y Gamification
 
-El aporte de Mauricio Pajes comprende HU-058, HU-059 y la pantalla de términos del registro solicitadas por Alejandra. La [matriz de aceptación IAM](assets/evidence/iam-account-access/acceptance-checklist.md) relaciona cada escenario con su implementación, prueba y estado.
+**IAM.** Android y Flutter consumen el Backend API de Azure para el registro, la recuperación de contraseña y el cierre de sesión. Ambos clientes incorporan los términos y la política de privacidad versión 1.2. La recuperación utiliza tokens de 30 minutos, consumo único y confirmación idempotente; el cierre de sesión elimina las credenciales locales. Los correos de verificación y recuperación utilizan Azure Communication Services Email.
 
-**Desarrollo y contratos.** El [registro de implementación](assets/evidence/iam-account-access/README.md#implementation-references) contiene los commits `3592349`, `cfe6ff7`, `3ed4ada` y `931a785` de Android, y `e4893fb` del Backend. Los PR Android #8 y Backend #25 se integraron en `develop`. Android conecta las APIs existentes, consume los enlaces de recuperación y limpia las credenciales y la navegación al cerrar sesión. El Backend documenta el contrato de enlace; sus endpoints ya estaban implementados. La confirmación de recuperación y el logout devuelven `204` sin cuerpo; el logout conserva el contrato stateless existente, sin revocación de JWT en el servidor.
+**Gamification.** Android consulta rankings, puntos, rachas, medallas e historial del Backend API. XP y ecopoints representan una misma puntuación; las gemas se administran en Monetization. El backend registra el bono semanal y concede la medalla del primer reto completado a partir de una finalización validada.
 
-**Pruebas y ejecución.** Android `931a785` registró 33 pruebas JVM y 12 instrumentadas, incluidas la recuperación, la navegación y el recorrido con la API local. En la integración posterior `e137d95`, el APK y el APK de pruebas compilaron y pasaron 54 pruebas JVM. El incremento de pruebas `e74125b` verificó además 14 casos instrumentados: los 11 existentes de estado, contenido y navegación, dos de aceptación explícita de términos y el recorrido completo con la API local actual. El tutorial de la cuenta sintética se completó previamente para aislar IAM. Backend `988a49a` volvió a superar seis pruebas unitarias y ocho escenarios BDD de HU-058/HU-059 con el perfil de pruebas. El [registro integrado](assets/evidence/iam-account-access/integrated-validation.json) conserva las revisiones y el alcance. Las [capturas](assets/evidence/iam-account-access/README.md#screenshots) proceden de un emulador y una cuenta sintética.
+**Despliegue.** El Backend API se ejecuta en Azure Container Apps y utiliza PostgreSQL en red privada. GitHub Actions ejecuta las pruebas antes del despliegue automático de `develop`. Las imágenes, credenciales y configuración se gestionan mediante Azure Container Registry y Key Vault.
 
-**Coordinación de clientes.** El enfoque acordado distingue Android para niños y Flutter para padres, conservando las funciones compartidas y el mismo Backend. El [seguimiento de IAM del 11/11/2026](assets/evidence/iam-account-access/client-alignment-2026-11-11.md) registra los términos compartidos versión 1.1, su acceso desde Settings en Android y Profile en Flutter, y la comprobación contra los ajustes recientes del equipo. Ese registro del 11/11 corresponde al flujo Android. La implementación posterior de recuperación en Flutter se documenta por separado en el [seguimiento del 12/11](assets/evidence/iam-account-access/azure-clients-2026-11-12.md).
-
-**IAM status — November 12.** The terms and privacy content is version 1.2. The [client integration follow-up](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) records Azure defaults in both clients, including Android debug, Flutter recovery implementation and controlled-link emulator checks. Current ACS delivery is pending; those checks are not represented as mailbox receipt. The
-[Azure runtime record](assets/evidence/iam-account-access/azure-runtime-2026-11-12.md)
-documents the new private database, synthetic demonstration data, public API and
-historical English verification/Spanish recovery email receipt, separate from the
-current unconfirmed recovery operation. The reset API rejects the old
-password and consumed reset tokens. The [current Azure architecture](assets/diagrams/azure-2026-11-12/architecture-evidence.md)
-adds editable draw.io and SVG views without replacing Sprint 1 history. Physical-device
-execution and the client handoff remain separate [manual checks](assets/evidence/iam-account-access/manual-checks.md).
-This records the IAM contribution and does not certify all of Sprint 2.
+**Validación.** Las pruebas cubren recuperación de contraseña, cierre de sesión, aceptación de términos, recompensas, rachas, bonos y medallas. La integración del primer reto completado superó 736 pruebas del backend con PostgreSQL. El [registro de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-12.md) documenta las pruebas y el despliegue automático. El [registro de IAM](assets/evidence/iam-account-access/README.md) conserva los contratos y las evidencias de los clientes. Los cambios de Gamification y del primer reto se integraron en `develop` mediante los PR [#28 de Android](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/28) y [#60 del Backend](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/pull/60).
 
 ## 4.3. Validation Interviews
 
@@ -9409,4 +9391,4 @@ Se recomienda incorporar al Roadmap del producto el seguimiento del aprendizaje 
 
 ## Anexo 2. Evidencia de acceso y sesión (AV2)
 
-El [registro de implementación y validación de IAM](assets/evidence/iam-account-access/README.md) relaciona las historias HU-058 y HU-059 con sus contratos, commits, pruebas y referencias de diseño. El registro distingue la verificación local de la validación en producción y señala las comprobaciones pendientes. El [incremento de términos y correo del 10/11/2026](assets/evidence/iam-account-access/terms-and-email-2026-11-10.md) registra el contenido completado y distingue las pruebas del adaptador de correo de la entrega real pendiente. La [matriz de aceptación](assets/evidence/iam-account-access/acceptance-checklist.md) presenta el estado por escenario y las comprobaciones de AV2 que este incremento no permite cerrar.
+El [registro de implementación y validación de IAM](assets/evidence/iam-account-access/README.md) relaciona HU-058 y HU-059 con sus contratos, commits y pruebas. La [integración de Android y Flutter con Azure](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) reúne las verificaciones de recuperación, términos y sesión en emuladores.

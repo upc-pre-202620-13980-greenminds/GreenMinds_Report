@@ -6,12 +6,12 @@ workspace "EcoMind - Gamification Component Diagrams" "Gamification components a
             mobileApp = container "EcoMind Android Application" "Consulta el progreso y los reconocimientos del usuario." "Kotlin / Android" {
                 ui = component "Gamification UI" "Displays rankings, achievement filters, celebration and optional sharing." "Jetpack Compose"
                 vm = component "Gamification ViewModels" "Manages filters, sharing choice, retryable draft and publication state." "ViewModel / StateFlow"
-                useCases = component "Gamification Use Cases" "Queries rankings and awards; reads shared community posts; requests voluntary sharing." "Kotlin"
+                useCases = component "Gamification Use Cases" "Queries rankings, progress and awards; requests voluntary sharing." "Kotlin"
                 weeklyRanking = component "Weekly Ranking Calculator" "Filters period transactions and calculates weekly positions (TS-007)." "Kotlin"
                 mobileRepo = component "Gamification Repository Implementation" "Coordinates remote queries and maps results." "Kotlin"
                 mappers = component "Gamification Data Mappers" "Transforms network DTOs into mobile models." "Kotlin"
                 remote = component "Gamification Remote Data Source" "Consumes Gamification REST resources." "Retrofit / HTTPS"
-                communityGateway = component "Community Feature Gateway" "Reads and filters shared achievement posts owned by Community (HU-038)." "Kotlin / Community API"
+                communityGateway = component "Users Context Facade" "Resolves the current user family for ranking." "Kotlin / Internal ACL"
             }
             backend = container "EcoMind API" "Backend que contiene los bounded contexts de EcoMind." "Java / Spring Boot" {
                 group "Gamification" {
@@ -29,15 +29,15 @@ workspace "EcoMind - Gamification Component Diagrams" "Gamification components a
                 community = component "Community Bounded Context" "Administra comunidades, participación y publicaciones." "Java / Spring Boot" "BoundedContext"
                 monetization = component "Monetization Bounded Context" "Administra gemas, cosméticos, multiplicadores y protectores." "Java / Spring Boot" "BoundedContext"
             }
-            database = container "Gamification Database" "Almacena progreso, recompensas, logros, solicitudes y outbox." "MySQL / Logical schema" "Database"
+            database = container "EcoMind Database" "Almacena progreso, recompensas, logros, solicitudes y outbox." "PostgreSQL" "Database"
         }
         user -> ui "Uses"
         ui -> vm "Sends actions and observes state"
         vm -> useCases "Invokes"
         useCases -> weeklyRanking "Calculates weekly positions"
         useCases -> mobileRepo "Uses repository contract"
-        useCases -> communityGateway "Queries shared achievements" "Kotlin call"
-        communityGateway -> backend "Uses Community publications API" "HTTPS / JSON"
+        useCases -> communityGateway "Resolves current family" "Kotlin call"
+        communityGateway -> backend "Queries family membership" "HTTPS / JSON"
         mobileRepo -> mappers "Maps data"
         mobileRepo -> remote "Queries or requests sharing"
         remote -> backend "Uses Gamification API" "HTTPS / JSON"
@@ -47,7 +47,7 @@ workspace "EcoMind - Gamification Component Diagrams" "Gamification components a
         }
         rest -> services "Dispatches commands and queries"
         quests -> consumers "Publishes completion events" "Spring Application Events"
-        community -> consumers "Reports participation; proposed correlated publication reply" {
+        community -> consumers "Reports participation; correlated publication reply" {
             tags "IntegrationDetail"
         }
         monetization -> consumers "Confirms protection or unavailability" {
@@ -66,7 +66,7 @@ workspace "EcoMind - Gamification Component Diagrams" "Gamification components a
         clients -> community "Checks membership and sharing access" {
             tags "IntegrationDetail"
         }
-        clients -> monetization "Queries active XP factor; grants cosmetic reward" {
+        clients -> monetization "Queries active ecopoints factor; grants cosmetic reward" {
             tags "IntegrationDetail"
         }
         publisher -> monetization "Sends rewards and protection requests"
@@ -104,7 +104,7 @@ workspace "EcoMind - Gamification Component Diagrams" "Gamification components a
                 color #ffffff
             }
             element "Component" {
-                background #ffffff
+                background #7fb3e6
                 color #000000
             }
             element "Interface" {
