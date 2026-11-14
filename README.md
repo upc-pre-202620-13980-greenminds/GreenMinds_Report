@@ -70,7 +70,6 @@ Proyecto <br>
 # Registro de Versiones del Informe
 
 **Tabla 1**
-
 *Registro de versiones del informe.*
 
 | Version | Fecha | Autor | Descripción de modificación |
@@ -87,12 +86,16 @@ Proyecto <br>
 | 2.0.0    | 07/10/2026     | Alejandra Astocondor, Isabel Aponte   | docs: actualizar las secciones de UI/UX Design y de Software Configuration Management <br> docs: agregar Mobile Applications Wireframes |
 | 2.0.0    | 09/10/2026     | Alejandra Astocondor, Katty Philco   | docs: actualizar diagrama de contenedores y diagrama de base de datos de Quests <br> docs: actualizar Big Picture EventStorming <br> docs: agregar descripción de escenarios en Domain Message Flows <br> docs: agregar descripción de los Bounded Context Canvases <br> docs: corregir títulos de los Bounded Context Canvases <br> docs: actualizar diagramas de contenedores y de despliegue para un único Backend <br> docs: actualizar diagramas de componentes para un único Backend API <br> docs: reescribir descripciones de los diagramas de componentes <br> docs: actualizar la tabla de herramientas con Render y PostgreSQL |
 | 2.0.0    | 10/10/2026     | Katty Philco, Leo Dulanto, Mauricio Pajes, Isabel Aponte, Alejandra Astocondor   | docs: agregar registro de entrevistas de validación <br> docs: actualizar Student Outcome <br> docs: actualizar conclusiones y recomendaciones <br> docs: agregar Software Deployment Configuration <br> docs: agregar Landing Page & Mobile Application Implementation, Sprint 1 <br> docs: agregar Mobile Applications Wireflow Diagrams <br> docs: agregar Mobile Applications Mock-ups <br> docs: agregar Mobile Applications User Flow Diagrams <br> docs: agregar evaluaciones según heurísticas <br> docs: agregar video de prototipo |
-| 2.0.0    | 05/11/2026     | Mauricio Pajes | docs: align HU-058 acceptance criteria with the generic recovery response <br> docs: add IAM implementation, test results and screenshots |
-| 2.0.0    | 08/11/2026     | Mauricio Pajes | docs: trace IAM acceptance to AV2 requirements <br> docs: update the verified IAM contribution and remaining checks |
-| 2.0.0    | 10/11/2026     | Mauricio Pajes | docs: record completed terms and recovery email validation |
-| 2.0.0    | 11/11/2026     | Mauricio Pajes | fix: align shared terms with current mobile clients |
-| 2.0.0    | 12/11/2026     | Mauricio Pajes | docs: document Azure client integration and automated deployment |
-| 2.0.0    | 13/11/2026     | Mauricio Pajes | docs: align IAM and Gamification diagrams, Azure deployment and contribution evidence |
+| 3.0.0    | 05/11/2026     | Mauricio Pajes | docs: align HU-058 acceptance criteria with the generic recovery response <br> docs: add IAM implementation, test results and screenshots |
+| 3.0.0    | 08/11/2026     | Mauricio Pajes | docs: trace IAM acceptance to AV2 requirements <br> docs: update the verified IAM contribution and remaining checks |
+| 3.0.0    | 10/11/2026     | Mauricio Pajes | docs: record completed terms and recovery email validation |
+| 3.0.0    | 11/11/2026     | Mauricio Pajes | fix: align shared terms with current mobile clients |
+| 3.0.0    | 12/11/2026     | Mauricio Pajes | docs: document Azure client integration and automated deployment |
+| 3.0.0    | 13/11/2026     | Mauricio Pajes | docs: align IAM and Gamification diagrams, Azure deployment and contribution evidence |
+| 3.0.0    | 13/11/2026     | Alejandra Astocondor | docs: agregar Sprint Planning 2 <br> docs: agregar Aspect Leaders and Collaborators <br> docs: agregar Sprint Backlog 2 <br> docs: agregar Development Evidence for Sprint Review <br> docs: actualizar preguntas de validación <br> docs: agregar entrevista de validación del Sprint 2 <br> docs: agregar Team Collaboration Insights during Sprint |
+| 3.0.0    | 13/11/2026     | Leo Dulanto | docs: agregar y actualizar user stories <br> docs: actualizar Sprint Backlog 2 <br> docs: actualizar Product Backlog <br> docs: agregar Services Documentation Evidence for Sprint Review |
+| 3.0.0    | 13/11/2026     | Isabel Aponte | docs: agregar Video About the Product <br> docs: agregar Video About the Team <br> docs: actualizar descripciones de los videos y su evidencia |
+| 3.0.0    | 13/11/2026     | Katty Philco | docs: actualizar Student Outcome <br> docs: actualizar conclusiones y recomendaciones <br> docs: actualizar Project Report Collaboration Insights <br> docs: actualizar registro de versiones |
 
 <div style="page-break-before: always;"></div>
 
