@@ -10383,9 +10383,22 @@ En esta sección se muestra los aportes de cada integrante en los repositorios r
 
 **Sprint 2 - App Android**
 
+![Sprint2_Contributors](assets/img/figures/AndroidSprint2Contributors.png)
+
+![Sprint2_Pulse](assets/img/figures/AndroidSprint2Pulse.png)
+
+
 **Sprint 2 - App Flutter**
 
+![Sprint2_Contributors](assets/img/figures/FlutterSprint2Contributors.png)
+
+![Sprint2_Pulse](assets/img/figures/FlutterSprint2Pulse.png)
+
 **Sprint 2 - Backend**
+
+![Sprint2_Contributors](assets/img/figures/CollabSprint2Backend1.png)
+
+![Sprint2_Pulse](assets/img/figures/CollabSprint2Backend2.png)
 
 
 ## 4.3. Validation Interviews
