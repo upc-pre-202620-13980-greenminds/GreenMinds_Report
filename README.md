@@ -11640,7 +11640,7 @@ Durante la entrevista de validación, la apariencia del avatar en el perfil no r
 
 *Visualización del avatar en el perfil.*
 
-![Problema_5](assets/img/figures/Problema5.png)
+![Problema_5](assets/img/figures/problema5.png)
 
 **Recomendación:**
 
@@ -11782,6 +11782,8 @@ Posteriormente, los integrantes presentan sus testimonios individuales, en los q
 # Glosario
 
 En esta sección se presentan los principales términos técnicos, metodológicos y de negocio utilizados durante el desarrollo de EcoMind. Su propósito es facilitar la comprensión del documento y mantener una terminología común entre el equipo, los usuarios y demás stakeholders.
+
+**Tabla 253**
 
 | Término | Definición |
 |---|---|
