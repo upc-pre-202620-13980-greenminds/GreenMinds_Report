@@ -10019,17 +10019,119 @@ En Gamification, Android consulta rankings, puntos, rachas, medallas e historial
 
 #### 4.2.2.7. Services Documentation Evidence for Sprint Review
 
-Documentación del Backend API: [Swagger UI](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/swagger-ui/index.html) y el [contrato OpenAPI](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/v3/api-docs). Las rutas siguientes corresponden a los flujos del incremento.
+Durante el Sprint 2 se consolidó la documentación de los Web Services del Backend API de EcoMind mediante OpenAPI y Swagger UI, organizada por bounded context. Se amplió la relación de servicios presentada en el Sprint 1 con operaciones de autenticación y recuperación de cuentas, gestión de usuarios y familias, retos, comunidades, eventos y chat, gamificación, monetización, aprendizaje y notificaciones.
+
+**Swagger UI:** https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/swagger-ui/index.html
+
+**OpenAPI:** https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/v3/api-docs
+
+**Repositorio Backend:** https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend
 
 **Tabla 128**
 
-*Servicios utilizados por IAM y Gamification.*
+*Nuevos Servicios REST implementados por bounded context.*
 
 | Bounded context | Método y endpoint | Entrada principal | Resultado |
 |---|---|---|---|
 | IAM | `POST /api/v1/authentication/password-recovery/request` | Correo electrónico. | Confirmación genérica `200`. |
 | IAM | `POST /api/v1/authentication/password-recovery/confirm` | Token, contraseña e identificador opcional de confirmación. | `204`; error de token inválido o consumido `422`. |
 | IAM | `POST /api/v1/authentication/logout` | JWT. | `204`; el cliente elimina la sesión. |
+| IAM | `GET /api/v1/authentication/me` | JWT. | Identidad de la cuenta autenticada. |
+| IAM | `GET /authentication/reset-password` | Token de recuperación y configuración de idioma del navegador. | Página HTML para abrir la recuperación en la aplicación. |
+| IAM | `POST /api/v1/authentication/verify-email` | Correo electrónico y código de verificación. | Cuenta creada tras validar el correo. |
+| Users | `GET /api/v1/family` | JWT. | Familias con sus integrantes. |
+| Users | `GET /api/v1/family_user` | JWT; `user_id` opcional. | Membresías familiares de todos los usuarios o del usuario indicado. |
+| Users | `POST /api/v1/family_user` | JWT; `familyId`, `userId` y `familyRole`. | Integrante añadido por un padre de la familia. |
+| Users | `DELETE /api/v1/family_user/{id}` | JWT; identificador de membresía familiar. | Integrante retirado por un padre autorizado. |
+| Users | `GET /api/v1/friend` | JWT; `user_id` opcional. | Solicitudes de amistad y sus estados. |
+| Users | `POST /api/v1/friend` | JWT; `receiverId` o `invitationCode`. | Solicitud de amistad enviada. |
+| Users | `PUT /api/v1/friend/{id}` | JWT; solicitud y respuesta de aceptación o rechazo. | Solicitud de amistad respondida por su destinatario. |
+| Users | `DELETE /api/v1/friend/{id}` | JWT; identificador de amistad o solicitud. | Amistad o solicitud eliminada respetando el periodo de espera. |
+| Users | `GET /api/v1/user` | JWT. | Perfiles registrados; código de invitación solo para el perfil propio. |
+| Users | `PUT /api/v1/user/{id}` | JWT; identificador propio, nombre, racha, fecha de racha, ecopoints y gemas. | Perfil propio actualizado. |
+| Quests | `POST /api/v1/activities` | JWT; reto, descripción, orden, tipo, configuración e imagen opcional. | Actividad creada. |
+| Quests | `GET /api/v1/activities/{activityId}` | JWT; identificador de actividad. | Detalle de la actividad. |
+| Quests | `PUT /api/v1/activities/{activityId}` | JWT; actividad, orden, tipo y datos actualizados. | Actividad actualizada conservando su tipo. |
+| Quests | `GET /api/v1/activities/quest/{questId}` | JWT; identificador del reto. | Actividades del reto. |
+| Quests | `DELETE /api/v1/activities/{activityId}` | JWT; identificador de actividad. | Actividad eliminada. |
+| Quests | `POST /api/v1/activity-users` | JWT; `questUserId`, `activityId` y sesión colaborativa opcional. | Asignación de actividad creada. |
+| Quests | `POST /api/v1/activity-users/{activityUserId}/submit` | JWT; asignación y `data` según el tipo de actividad. | Entrega validada y progreso actualizado. |
+| Quests | `GET /api/v1/activity-users/{activityUserId}` | JWT; identificador de asignación de actividad. | Detalle de la actividad asignada. |
+| Quests | `GET /api/v1/activity-users/quest-user/{questUserId}/activity/{activityId}` | JWT; `questUserId` y `activityId`. | Asignación de la actividad dentro del reto del usuario. |
+| Quests | `GET /api/v1/activity-users/quest-user/{questUserId}` | JWT; `questUserId`. | Actividades asignadas en el reto del usuario. |
+| Quests | `POST /api/v1/collaborative-quests` | JWT; `questId`. | Sesión colaborativa pendiente creada. |
+| Quests | `POST /api/v1/collaborative-quests/{sessionId}/start` | JWT; identificador de sesión. | Sesión colaborativa iniciada. |
+| Quests | `DELETE /api/v1/collaborative-quests/{sessionId}` | JWT; identificador de sesión pendiente. | Sesión colaborativa eliminada. |
+| Quests | `GET /api/v1/collaborative-quests/{sessionId}/state` | JWT; identificador de sesión. | Estado de la sesión colaborativa. |
+| Quests | `GET /api/v1/collaborative-quests/state` | JWT; parámetro `questId`. | Estado colaborativo del reto para el usuario. |
+| Quests | `GET /api/v1/collaborative-quest-members/{memberId}` | JWT; identificador de miembro. | Detalle de la participación colaborativa. |
+| Quests | `GET /api/v1/collaborative-quest-members/sessions/{sessionId}` | JWT; identificador de sesión. | Miembros de la sesión colaborativa. |
+| Quests | `GET /api/v1/collaborative-quest-members/me` | JWT; estado opcional. | Participaciones o invitaciones del usuario. |
+| Quests | `GET /api/v1/collaborative-quest-members/me/invitations` | JWT. | Invitaciones colaborativas disponibles para responder. |
+| Quests | `POST /api/v1/collaborative-quest-members` | JWT; sesión y usuario invitado. | Invitación a un amigo aceptado o integrante de la familia. |
+| Quests | `PATCH /api/v1/collaborative-quest-members/{memberId}/accept` | JWT; identificador de miembro. | Invitación colaborativa aceptada. |
+| Quests | `PATCH /api/v1/collaborative-quest-members/{memberId}/decline` | JWT; identificador de miembro. | Invitación colaborativa rechazada. |
+| Quests | `PATCH /api/v1/collaborative-quest-members/{memberId}/leave` | JWT; identificador de miembro. | Salida de la sesión colaborativa. |
+| Quests | `PATCH /api/v1/collaborative-quest-members/{memberId}/remove` | JWT; identificador de miembro. | Miembro invitado retirado de la sesión. |
+| Quests | `GET /api/v1/family-plans` | JWT; parámetro `familyId`. | Planes de la familia. |
+| Quests | `GET /api/v1/family-plans/active` | JWT; parámetro `familyId`. | Plan familiar activo. |
+| Quests | `GET /api/v1/family-plans/{familyPlanId}` | JWT; identificador de plan. | Detalle del plan familiar. |
+| Quests | `POST /api/v1/family-plans` | JWT; `familyId` y elementos del plan. | Plan familiar creado. |
+| Quests | `PUT /api/v1/family-plans/{familyPlanId}` | JWT; plan y elementos actualizados. | Borrador del plan familiar actualizado. |
+| Quests | `POST /api/v1/family-plans/{familyPlanId}/activate` | JWT; identificador de plan. | Plan familiar activado. |
+| Quests | `POST /api/v1/family-plans/{familyPlanId}/complete` | JWT; identificador de plan. | Plan familiar activo completado. |
+| Quests | `DELETE /api/v1/family-plans/{familyPlanId}` | JWT; identificador de plan. | Plan familiar eliminado o cancelado según su estado. |
+| Quests | `GET /api/v1/minigame-attempts` | JWT; parámetro `minigameId`. | Intentos del usuario en el minijuego. |
+| Quests | `POST /api/v1/minigame-attempts` | JWT; `questId`. | Intento de minijuego creado. |
+| Quests | `POST /api/v1/minigame-attempts/{attemptId}/finish` | JWT; intento, `score` y metadatos opcionales. | Intento finalizado tras validar sus resultados. |
+| Quests | `POST /api/v1/minigame-attempts/{attemptId}/cancel` | JWT; identificador de intento. | Intento cancelado. |
+| Quests | `POST /api/v1/minigames` | JWT; nombre, descripción, URL y reglas de finalización. | Minijuego creado. |
+| Quests | `GET /api/v1/minigames` | JWT. | Catálogo de minijuegos. |
+| Quests | `GET /api/v1/minigames/{minigameId}` | JWT; identificador de minijuego. | Detalle del minijuego. |
+| Quests | `DELETE /api/v1/minigames/{minigameId}` | JWT; identificador de minijuego. | Minijuego eliminado. |
+| Quests | `POST /api/v1/quests` | JWT; datos del reto, clasificación y recompensas. | Reto creado. |
+| Quests | `GET /api/v1/quests/version-groups/{versionGroupId}/versions` | JWT; `versionGroupId`. | Versiones del grupo de retos. |
+| Quests | `PUT /api/v1/quests/{questId}` | JWT; reto y datos actualizados. | Borrador actualizado o nueva versión en borrador si el reto estaba publicado. |
+| Quests | `GET /api/v1/quests/search` | JWT; filtros opcionales de título, categoría, modalidad, edad y tema. | Retos que coinciden con la búsqueda. |
+| Quests | `PATCH /api/v1/quests/{questId}/archive` | JWT; identificador de reto. | Reto archivado conservando su historial. |
+| Quests | `PATCH /api/v1/quests/{questId}/publish` | JWT; identificador de reto en borrador. | Reto publicado. |
+| Quests | `GET /api/v1/quest-users/{questUserId}` | JWT; identificador de asignación de reto. | Detalle de la asignación del reto. |
+| Quests | `GET /api/v1/quest-users/{questUserId}/version-status` | JWT; identificador de asignación de reto. | Estado de actualización de la versión asignada. |
+| Quests | `GET /api/v1/quest-users/me/quest/{questId}` | JWT; identificador del reto. | Asignación del reto para el usuario autenticado. |
+| Quests | `GET /api/v1/quest-users/me/status/{status}` | JWT; estado de asignación. | Retos asignados al usuario en ese estado. |
+| Quests | `PATCH /api/v1/quest-users/{questUserId}/cancel` | JWT; identificador de asignación de reto. | Asignación cancelada conservando su progreso. |
+| Community | `GET /api/v1/Community/Communities/{communityId}/AchievementPosts` | JWT; comunidad, autor o logro opcionales y paginación. | Publicaciones de logros compartidos en la comunidad. |
+| Community | `GET /api/v1/Community/Achievements` | JWT; `community_id` opcional. | Logros comunitarios registrados. |
+| Community | `POST /api/v1/Community/Communities/Local` | JWT; nombre y localidad; descripción e icono opcionales. | Comunidad local creada. |
+| Community | `POST /api/v1/Community/Communities/Topics` | JWT; nombre, tema, límite de miembros y datos descriptivos. | Comunidad temática creada. |
+| Community | `GET /api/v1/Community/Community-goals` | JWT; `community_id` opcional. | Metas comunitarias. |
+| Community | `GET /api/v1/Community/Community-goals/Panel` | JWT; `community_id`. | Panel de metas de la comunidad para el usuario. |
+| Community | `POST /api/v1/Community/Community-goals` | JWT; `community_id` y `topic`. | Meta comunitaria creada. |
+| Community | `POST /api/v1/Community/Community-goals/{id}/Participants` | JWT; identificador de la meta. | Participación del usuario en la meta. |
+| Community | `POST /api/v1/Community/Communities/{communityId}/Memberships` | JWT; identificador de comunidad. | Membresía del usuario en la comunidad. |
+| Community | `GET /api/v1/Community/Memberships` | JWT. | Membresías del usuario autenticado. |
+| Community | `GET /api/v1/Community/Communities/{communityId}/Memberships` | JWT; identificador de comunidad. | Miembros de la comunidad. |
+| Community | `DELETE /api/v1/Community/Communities/{communityId}/Memberships` | JWT; identificador de comunidad. | Salida de la comunidad y actualización de sus participaciones. |
+| Community | `GET /api/v1/Community/Events/{eventId}/Chat/Messages` | JWT; evento y cursor `after_id` opcional. | Página de mensajes del chat autorizado. |
+| Community | `POST /api/v1/Community/Events/{eventId}/Chat/Messages` | JWT; evento, `text` y UUID `client_id`. | Mensaje registrado con identificación de reintentos. |
+| Community | `GET /api/v1/Community/Events` | JWT; `community_id` opcional. | Eventos registrados. |
+| Community | `POST /api/v1/Community/Events` | JWT; comunidad, nombre, fecha, hora, capacidad y ubicación e imagen opcionales. | Evento creado. |
+| Community | `PATCH /api/v1/Community/Events/{id}` | JWT; evento y campos a modificar. | Evento actualizado por su creador. |
+| Community | `DELETE /api/v1/Community/Events/{id}` | JWT; identificador del evento. | Evento y chat asociado eliminados según permisos. |
+| Community | `POST /api/v1/Community/Events/Images` | JWT; archivo `file` en `multipart/form-data`. | Referencia de la imagen cargada para el evento. |
+| Community | `GET /api/v1/Community/Events/Participation` | JWT; `community_id`. | Eventos de la comunidad con información de participación del usuario. |
+| Community | `GET /api/v1/Community/Events/Mine` | JWT. | Eventos en los que participa el usuario. |
+| Community | `GET /api/v1/Community/Events/{eventId}/Registrations` | JWT; identificador del evento. | Inscripciones del evento. |
+| Community | `POST /api/v1/Community/Events/{eventId}/Registrations` | JWT; evento, `registration_type` y `family_id` para inscripción familiar. | Inscripción individual o familiar. |
+| Community | `PATCH /api/v1/Community/Events/{eventId}/Registrations/{registrationId}/cancel` | JWT; evento e inscripción. | Inscripción cancelada. |
+| Community | `DELETE /api/v1/Community/Events/{eventId}/Registrations/me` | JWT; identificador del evento. | Retiro del usuario y liberación de su plaza. |
+| Community | `GET /api/v1/Community/Posts` | JWT; `community_id` opcional. | Publicaciones y conteo de reacciones. |
+| Community | `POST /api/v1/Community/Posts` | JWT; `community_id`, `content` e `image_url` opcional. | Publicación creada. |
+| Community | `DELETE /api/v1/Community/Posts/{id}` | JWT; identificador de publicación. | Publicación eliminada según permisos. |
+| Community | `GET /api/v1/Community/Posts/{postId}/Reactions` | JWT; identificador de publicación. | Reacciones de la publicación. |
+| Community | `POST /api/v1/Community/Post-Reactions` | JWT; `post_id` y `reaction_type`. | Reacción registrada. |
+| Community | `PATCH /api/v1/Community/Posts/{postId}/Reactions` | JWT; publicación y `reaction_type`. | Tipo de reacción del usuario actualizado. |
+| Community | `DELETE /api/v1/Community/Posts/{postId}/Reactions` | JWT; identificador de publicación. | Reacción del usuario eliminada. |
 | Gamification | `GET /api/v1/gamification/me/progress` | JWT. | Ecopoints y racha. |
 | Gamification | `GET /api/v1/gamification/rewards` | JWT, periodo y paginación. | Historial de recompensas. |
 | Gamification | `GET /api/v1/gamification/achievements` | JWT y paginación. | Catálogo de medallas. |
@@ -10037,10 +10139,190 @@ Documentación del Backend API: [Swagger UI](https://ca-ecomind-api.icybush-bd13
 | Gamification | `GET /api/v1/gamification/rankings/{type}/participants` | JWT, ámbito y paginación. | Participantes del ranking. |
 | Gamification | `GET /api/v1/gamification/rankings/{type}/transactions` | JWT, ámbito, periodo y paginación. | Transacciones para calcular posiciones. |
 | Gamification | `POST /api/v1/gamification/achievement-shares` | JWT, medalla, comunidad e identificador de solicitud. | Solicitud de publicación y su estado. |
+| Gamification | `GET /api/v1/gamification/achievement-shares/{requestId}` | JWT; UUID `requestId`. | Estado de la solicitud propia de publicación. |
+| Gamification | `GET /api/v1/gamification/communities/{communityId}/achievements` | JWT; comunidad y paginación. | Logros colectivos otorgados a la comunidad del usuario. |
+| Gamification | `GET /api/v1/gamification/achievements/{achievementId}` | JWT; UUID `achievementId`. | Definición de la medalla. |
+| Gamification | `GET /api/v1/gamification/families/{familyId}/achievements` | JWT; familia y paginación. | Logros otorgados a una familia de la que el usuario es miembro. |
+| Gamification | `GET /api/v1/gamification/families/{familyId}/score` | JWT; identificador de la familia. | Ecopoints de la familia autorizada. |
+| Gamification | `GET /api/v1/gamification/families/{familyId}/rewards` | JWT; identificador de la familia. | Hasta 100 recompensas recientes de la familia autorizada. |
+| Gamification | `GET /api/v1/achievement` | JWT; ámbito opcional y paginación. | Catálogo de logros mediante la ruta de compatibilidad. |
+| Gamification | `GET /api/v1/user_achievement` | JWT; `user_id` opcional y paginación. | Logros individuales propios mediante la ruta de compatibilidad. |
+| Gamification | `GET /api/v1/community_achievement` | JWT; `community_id` y paginación. | Logros colectivos de una comunidad autorizada mediante la ruta de compatibilidad. |
+| Gamification | `GET /api/v1/ranking` | JWT. | Tipos de ranking mediante la ruta de compatibilidad. |
+| Gamification | `GET /api/v1/ecopoint_transaction` | JWT; tipo de ranking, `from`, `to` y paginación. | Transacciones autorizadas para calcular el ranking por periodo. |
+| Gamification | `GET /api/v1/gamification/rankings/types` | JWT. | Tipos de ranking disponibles. |
+| Monetization | `GET /api/v1/monetization/cosmetics` | JWT. | Catálogo de cosméticos. |
+| Monetization | `GET /api/v1/monetization/cosmetics/{id}` | JWT; UUID del cosmético. | Detalle del cosmético. |
+| Monetization | `POST /api/v1/monetization/cosmetics` | JWT; nombre, descripción, precio en gemas, tipo e imagen. | Cosmético creado en el catálogo. |
+| Monetization | `GET /api/v1/monetization/gem-packages` | JWT. | Paquetes de gemas disponibles. |
+| Monetization | `GET /api/v1/monetization/gem-packages/{id}` | JWT; UUID del paquete. | Detalle del paquete de gemas. |
+| Monetization | `POST /api/v1/monetization/gem-packages` | JWT; nombre, cantidad de gemas, precio y moneda. | Paquete de gemas creado. |
+| Monetization | `POST /api/v1/monetization/me/gem-purchases` | JWT; `packageId`, `paymentMethod` y UUID `requestId`. | Orden de compra de gemas y estado del pago. |
+| Monetization | `POST /api/v1/monetization/me/gem-purchases/{purchaseId}/payment` | JWT; compra, `sourceToken` y correo electrónico. | Resultado del pago y estado actualizado de la compra. |
+| Monetization | `GET /api/v1/monetization/me/gem-purchases` | JWT. | Compras de gemas del usuario. |
+| Monetization | `GET /api/v1/monetization/me/gem-purchases/{purchaseId}` | JWT; UUID de la compra. | Detalle de una compra propia de gemas. |
+| Monetization | `GET /api/v1/monetization/me/wallet/movements` | JWT. | Movimientos de la billetera de gemas. |
+| Monetization | `POST /api/v1/monetization/me/cosmetics/purchases` | JWT; UUID `itemId` del cosmético y UUID `requestId`. | Cosmético adquirido para el inventario. |
+| Monetization | `PUT /api/v1/monetization/me/cosmetics/{id}/equipped` | JWT; UUID del cosmético. | Cosmético equipado. |
+| Monetization | `DELETE /api/v1/monetization/me/cosmetics/{id}/equipped` | JWT; UUID del cosmético. | Cosmético desequipado. |
+| Monetization | `POST /api/v1/monetization/me/protectors/purchases` | JWT; UUID `itemId` del protector y UUID `requestId`. | Protector de racha adquirido. |
+| Monetization | `POST /api/v1/monetization/me/multipliers/purchases` | JWT; UUID `itemId` del multiplicador y UUID `requestId`. | Multiplicador adquirido. |
+| Monetization | `GET /api/v1/monetization/me/inventory` | JWT. | Inventario del usuario. |
+| Monetization | `GET /api/v1/monetization/multipliers` | JWT. | Catálogo de multiplicadores. |
+| Monetization | `GET /api/v1/monetization/multipliers/{id}` | JWT; UUID del multiplicador. | Detalle del multiplicador. |
+| Monetization | `POST /api/v1/monetization/multipliers` | JWT; nombre, descripción, factor, duración y precio en gemas. | Multiplicador creado. |
+| Monetization | `GET /api/v1/monetization/streak-protectors` | JWT. | Catálogo de protectores de racha. |
+| Monetization | `GET /api/v1/monetization/streak-protectors/{id}` | JWT; UUID del protector. | Detalle del protector de racha. |
+| Monetization | `POST /api/v1/monetization/streak-protectors` | JWT; nombre, descripción y precio en gemas. | Protector de racha creado. |
+| Learning | `GET /api/v1/educational-materials` | JWT; filtros opcionales de texto, categoría, tipo, idioma, descarga, edad y duración. | Catálogo filtrado de materiales educativos. |
+| Learning | `GET /api/v1/educational-materials/search` | JWT; título, categoría y tipo opcionales. | Materiales que coinciden con la búsqueda. |
+| Learning | `GET /api/v1/educational-materials/favorites` | JWT. | Materiales favoritos del usuario. |
+| Learning | `GET /api/v1/educational-materials/recent` | JWT. | Materiales consultados recientemente por el usuario. |
+| Learning | `GET /api/v1/educational-materials/{materialId}` | JWT; identificador de material. | Detalle del material educativo. |
+| Learning | `POST /api/v1/educational-materials/{materialId}/favorite` | JWT; identificador de material. | Estado de favorito alternado y devuelto al cliente. |
+| Learning | `POST /api/v1/educational-materials` | JWT; datos del material educativo. | Material educativo creado. |
+| Learning | `PUT /api/v1/educational-materials/{materialId}` | JWT; material y datos actualizados. | Material educativo actualizado. |
+| Learning | `DELETE /api/v1/educational-materials/{materialId}` | JWT; identificador de material. | Material educativo eliminado. |
+| Learning | `GET /api/v1/tutorials/progress` | JWT. | Progreso del tutorial del usuario. |
+| Learning | `POST /api/v1/tutorials/progress/step` | JWT. | Progreso actualizado al completar el siguiente paso. |
+| Learning | `POST /api/v1/tutorials/progress/complete` | JWT. | Tutorial marcado como completado. |
+| Notifications | `GET /api/v1/notification` | JWT. | Notificaciones del usuario. |
+| Notifications | `GET /api/v1/notification/unread-count` | JWT. | Cantidad de notificaciones no leídas. |
+| Notifications | `POST /api/v1/notification` | JWT; `category`, `title` y `message`. | Notificación creada según las reglas de autorización. |
+| Notifications | `PATCH /api/v1/notification/{notificationId}/read` | JWT; identificador de notificación. | Notificación marcada como leída. |
+| Notifications | `PATCH /api/v1/notification/read-all` | JWT. | Todas las notificaciones del usuario marcadas como leídas. |
+
+Los endpoints protegidos reciben `Authorization: Bearer <token>`. Son públicos los servicios de registro, verificación de correo, inicio de sesión y recuperación de contraseña. Los cuerpos de solicitud utilizan JSON cuando corresponde, excepto la carga de imágenes de eventos, que recibe el archivo `file` mediante `multipart/form-data`.
+
+El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta la creación de una comunidad y evento dentro de ella. Para ello vamos a utilizar endpoints dentro de dos bounded context: Iam y Community.
+
+**Figura XX**
+
+*Documentación de los endpoints de Iam en Swagger UI*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Iam_endpoints.png" alt="Documentación de los endpoints de Iam en Swagger UI" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Body Sign Up POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Sign_up_body.png" alt="Registro de cuenta endpoint" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Response Sign Up POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Sign_up_response.png" alt="Respuesta de registro de cuenta endpoint" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Body Verify Email POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Verify_email_body.png" alt="Verificación de correo" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Response Verify Email POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Verify_email_response.png" alt="Respuesta de verificacion de email" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Body Sign In POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Sign_in_body.png" alt="Iniciar sesión de cuenta endpoint" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Response Sign In POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Sign_in_response.png" alt="Respuesta de inicio de sesión de cuenta endpoint" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Documentación de los endpoints de Community en Swagger UI*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Community_endpoints.png" alt="Documentación de los endpoints de Community en Swagger UI" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+*Nota: Tras hacer sign in hay que usar el token brindado*
+
+**Figura XX**
+
+*Body Topic Community POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Topic_community_body.png" alt="Crear comunidad de topico especifico" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Response Topic Community POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Topic_community_response.png" alt="Respuesta de creación de comunidad de topico especifico" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Body Event POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Event_body.png" alt="Crear evento en comunidad específica" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
+
+**Figura XX**
+
+*Response Event POST endpoint*
+
+<div align="center">
+<img src="assets/img/figures/sprint-2/Event_response.png" alt="Respuesta de creación de evento de comunidad específica" width="100%">
+</div>
+
+*Nota. Captura de Swagger UI.*
 
 #### 4.2.2.8. Software Deployment Evidence for Sprint Review
 
-El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub Actions ejecuta las pruebas y la verificación de la imagen antes de publicar los cambios de `develop`. La ejecución [43382634408](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408), correspondiente a `38939f5`, terminó correctamente.
+El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub Actions ejecuta las pruebas y la verificación de la imagen antes de publicar los cambios de `develop`. La ejecución 
+
+Repositorio Backend: https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend
 
 **Tabla 129**
 
