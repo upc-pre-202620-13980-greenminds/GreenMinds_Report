@@ -9254,62 +9254,62 @@ La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/E
 
 La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Backend API mediante HTTP y autenticación JWT. El backend utilizó una base de datos PostgreSQL local y cuentas de prueba. La landing page se verificó desde su dirección pública.
 
-**Figura 138**
-
-*Landing page de EcoMind en ejecución*
-
-<div align="center">
-<a href="assets/img/figures/sprint-1/landing-home.png"><img src="assets/img/figures/sprint-1/landing-home.png" alt="Landing page de EcoMind en ejecución" width="620"></a>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+  <p><strong>Figura 138</strong><br>
+  <em>Landing page de EcoMind en ejecución</em></p>
+  <p align="center">
+<a href="assets/img/figures/sprint-1/landing-home.png"><img src="assets/img/figures/sprint-1/landing-home.png" alt="Landing page de EcoMind en ejecución" width="620" height="431" style="height: auto; max-height: none; vertical-align: top;"></a>
+  </p>
 </div>
 
 *Nota. Captura de la Landing Page de EcoMind.*
 
 El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta su descripción, duración y ecopoints.
 
-**Figura 139**
-
-*Inicio de sesión y detalle de un reto*
-
-<div align="center">
-<a href="assets/img/figures/sprint-1/android-sign-in.png"><img src="assets/img/figures/sprint-1/android-sign-in.png" alt="Inicio de sesión y detalle de un reto" width="200"></a>
-<a href="assets/img/figures/sprint-1/android-quest-detail.png"><img src="assets/img/figures/sprint-1/android-quest-detail.png" alt="Inicio de sesión y detalle de un reto" width="200"></a>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+  <p><strong>Figura 139</strong><br>
+  <em>Inicio de sesión y detalle de un reto</em></p>
+  <p align="center">
+<a href="assets/img/figures/sprint-1/android-sign-in.png"><img src="assets/img/figures/sprint-1/android-sign-in.png" alt="Inicio de sesión y detalle de un reto" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+<a href="assets/img/figures/sprint-1/android-quest-detail.png"><img src="assets/img/figures/sprint-1/android-quest-detail.png" alt="Inicio de sesión y detalle de un reto" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+  </p>
 </div>
 
 *Nota. Captura de la aplicación Android en el emulador.*
 
 Al completar la actividad, el usuario obtiene el resultado del reto y puede consultar su progreso. En la ejecución se registraron 10 ecopoints y el logro «First green step».
 
-**Figura 140**
-
-*Finalización del reto y consulta de progreso*
-
-<div align="center">
-<a href="assets/img/figures/sprint-1/android-quest-completed.png"><img src="assets/img/figures/sprint-1/android-quest-completed.png" alt="Finalización del reto y consulta de progreso" width="200"></a>
-<a href="assets/img/figures/sprint-1/android-progress.png"><img src="assets/img/figures/sprint-1/android-progress.png" alt="Finalización del reto y consulta de progreso" width="200"></a>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+  <p><strong>Figura 140</strong><br>
+  <em>Finalización del reto y consulta de progreso</em></p>
+  <p align="center">
+<a href="assets/img/figures/sprint-1/android-quest-completed.png"><img src="assets/img/figures/sprint-1/android-quest-completed.png" alt="Finalización del reto y consulta de progreso" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+<a href="assets/img/figures/sprint-1/android-progress.png"><img src="assets/img/figures/sprint-1/android-progress.png" alt="Finalización del reto y consulta de progreso" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+  </p>
 </div>
 
 *Nota. Captura de la aplicación Android en el emulador.*
 
-**Figura 141**
-
-*Medalla obtenida y ranking global semanal*
-
-<div align="center">
-<a href="assets/img/figures/sprint-1/android-achievement-earned.png"><img src="assets/img/figures/sprint-1/android-achievement-earned.png" alt="Medalla obtenida y ranking global semanal" width="200"></a>
-<a href="assets/img/figures/sprint-1/android-ranking-global.png"><img src="assets/img/figures/sprint-1/android-ranking-global.png" alt="Medalla obtenida y ranking global semanal" width="200"></a>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+  <p><strong>Figura 141</strong><br>
+  <em>Medalla obtenida y ranking global semanal</em></p>
+  <p align="center">
+<a href="assets/img/figures/sprint-1/android-achievement-earned.png"><img src="assets/img/figures/sprint-1/android-achievement-earned.png" alt="Medalla obtenida y ranking global semanal" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+<a href="assets/img/figures/sprint-1/android-ranking-global.png"><img src="assets/img/figures/sprint-1/android-ranking-global.png" alt="Medalla obtenida y ranking global semanal" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+  </p>
 </div>
 
 *Nota. Captura de la aplicación Android en el emulador.*
 
 La navegación también permite consultar el grupo familiar y el catálogo de cosméticos.
 
-**Figura 142**
-
-*Grupo familiar y tienda de cosméticos*
-
-<div align="center">
-<a href="assets/img/figures/sprint-1/android-family.png"><img src="assets/img/figures/sprint-1/android-family.png" alt="Grupo familiar y tienda de cosméticos" width="200"></a>
-<a href="assets/img/figures/sprint-1/android-store.png"><img src="assets/img/figures/sprint-1/android-store.png" alt="Grupo familiar y tienda de cosméticos" width="200"></a>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+  <p><strong>Figura 142</strong><br>
+  <em>Grupo familiar y tienda de cosméticos</em></p>
+  <p align="center">
+<a href="assets/img/figures/sprint-1/android-family.png"><img src="assets/img/figures/sprint-1/android-family.png" alt="Grupo familiar y tienda de cosméticos" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+<a href="assets/img/figures/sprint-1/android-store.png"><img src="assets/img/figures/sprint-1/android-store.png" alt="Grupo familiar y tienda de cosméticos" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+  </p>
 </div>
 
 *Nota. Captura de la aplicación Android en el emulador.*
@@ -10673,257 +10673,283 @@ En esta sección se presentan las evidencias de ejecución de EcoMind correspond
 
 **Bounded Context IAM:** En Iam contamos con las pantallas de registro, inicio de sesión y recuperación de contraseña, mediante las cuales los usuarios pueden crear una cuenta y gestionar su acceso a EcoMind.
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 170</strong><br>
       <em>Registro de cuenta</em><br>
-      <a href="assets/img/figures/sprint-2/execution_sign_up.png"><img src="assets/img/figures/sprint-2/execution_sign_up.png" alt="Registro de cuenta" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_sign_up.png"><img src="assets/img/figures/sprint-2/execution_sign_up.png" alt="Registro de cuenta" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 171</strong><br>
       <em>Inicio de sesión</em><br>
-      <a href="assets/img/figures/sprint-2/execution_sign_in.png"><img src="assets/img/figures/sprint-2/execution_sign_in.png" alt="Inicio de sesión" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_sign_in.png"><img src="assets/img/figures/sprint-2/execution_sign_in.png" alt="Inicio de sesión" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 172</strong><br>
       <em>Recuperación de contraseña</em><br>
-      <a href="assets/img/figures/sprint-2/execution_forgot_password.png"><img src="assets/img/figures/sprint-2/execution_forgot_password.png" alt="Recuperación de contraseña" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_forgot_password.png"><img src="assets/img/figures/sprint-2/execution_forgot_password.png" alt="Recuperación de contraseña" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
 Android y Flutter consumen el mismo Backend API. Las ejecuciones de IAM incluyeron solicitud de recuperación, apertura del enlace, confirmación de contraseña, inicio de sesión y cierre de sesión. Flutter verificó además la recuperación ante pérdida de respuesta sin repetir el cambio de contraseña. Las ejecuciones registradas se realizaron en emuladores.
 
-**Figura 173**
-
-*Confirmación de recuperación y retorno a inicio de sesión en Android con API local, registro del 5 de noviembre de 2026.*
-
-<p align="center">
-  <a href="assets/evidence/iam-account-access/password-updated.png"><img src="assets/evidence/iam-account-access/password-updated.png" alt="Contraseña actualizada en Android" width="200"></a>
-  <a href="assets/evidence/iam-account-access/signed-out.png"><img src="assets/evidence/iam-account-access/signed-out.png" alt="Inicio de sesión después de cerrar la sesión" width="200"></a>
-</p>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+  <p><strong>Figura 173</strong><br>
+  <em>Confirmación de recuperación y retorno a inicio de sesión en Android con API local, registro del 5 de noviembre de 2026.</em></p>
+  <p align="center">
+  <a href="assets/evidence/iam-account-access/password-updated.png"><img src="assets/evidence/iam-account-access/password-updated.png" alt="Contraseña actualizada en Android" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+  <a href="assets/evidence/iam-account-access/signed-out.png"><img src="assets/evidence/iam-account-access/signed-out.png" alt="Inicio de sesión después de cerrar la sesión" width="200" height="444" style="height: auto; max-height: none; vertical-align: top;"></a>
+  </p>
+</div>
 
 El [registro de clientes](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) documenta las verificaciones posteriores con Azure. Los resultados del escenario de Flutter con correo recibido y pérdida de respuesta están incluidos en el [registro de pruebas](assets/evidence/sprint-2/test-results.json).
 
 **Bounded Context Quest:** En Quest se presenta el recorrido desde la consulta de retos y sus actividades hasta su ejecución y finalización, como también la ejecución de un minijuego y el historial de actividades.
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 174</strong><br>
       <em>Inicio de retos</em><br>
-      <a href="assets/img/figures/sprint-2/execution_quest_home.png"><img src="assets/img/figures/sprint-2/execution_quest_home.png" alt="Inicio de retos" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_quest_home.png"><img src="assets/img/figures/sprint-2/execution_quest_home.png" alt="Inicio de retos" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 175</strong><br>
       <em>Detalle del reto</em><br>
-      <a href="assets/img/figures/sprint-2/execution_quest_tasks.png"><img src="assets/img/figures/sprint-2/execution_quest_tasks.png" alt="Detalle del reto" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_quest_tasks.png"><img src="assets/img/figures/sprint-2/execution_quest_tasks.png" alt="Detalle del reto" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 176</strong><br>
       <em>Animación de inicio del reto</em><br>
-      <a href="assets/img/figures/sprint-2/execution_quest_animation.png"><img src="assets/img/figures/sprint-2/execution_quest_animation.png" alt="Animación de inicio del reto" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_quest_animation.png"><img src="assets/img/figures/sprint-2/execution_quest_animation.png" alt="Animación de inicio del reto" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 177</strong><br>
       <em>Reto en curso</em><br>
-      <a href="assets/img/figures/sprint-2/execution_quest_tasks_completing.png"><img src="assets/img/figures/sprint-2/execution_quest_tasks_completing.png" alt="Reto en curso" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_quest_tasks_completing.png"><img src="assets/img/figures/sprint-2/execution_quest_tasks_completing.png" alt="Reto en curso" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 178</strong><br>
       <em>Reto completado</em><br>
-      <a href="assets/img/figures/sprint-2/execution_quest_completed.png"><img src="assets/img/figures/sprint-2/execution_quest_completed.png" alt="Reto completado" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_quest_completed.png"><img src="assets/img/figures/sprint-2/execution_quest_completed.png" alt="Reto completado" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 179</strong><br>
       <em>Minijuego</em><br>
-      <a href="assets/img/figures/sprint-2/execution_quest_minigame.png"><img src="assets/img/figures/sprint-2/execution_quest_minigame.png" alt="Minijuego" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_quest_minigame.png"><img src="assets/img/figures/sprint-2/execution_quest_minigame.png" alt="Minijuego" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 180</strong><br>
       <em>Historial de actividades</em><br>
-      <a href="assets/img/figures/sprint-2/execution_historial_activity.png"><img src="assets/img/figures/sprint-2/execution_historial_activity.png" alt="Historial de actividades" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_historial_activity.png"><img src="assets/img/figures/sprint-2/execution_historial_activity.png" alt="Historial de actividades" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
 **Bounded Context Learning:** En learning se muestra la consulta del catálogo de materiales educativos y la visualización del detalle de cada recurso, facilitando el acceso a contenidos relacionados con el cuidado del medioambiente.
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 181</strong><br>
       <em>Catálogo de materiales</em><br>
-      <a href="assets/img/figures/sprint-2/execution_learning.png"><img src="assets/img/figures/sprint-2/execution_learning.png" alt="Catálogo de materiales" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_learning.png"><img src="assets/img/figures/sprint-2/execution_learning.png" alt="Catálogo de materiales" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 182</strong><br>
       <em>Detalle del material</em><br>
-      <a href="assets/img/figures/sprint-2/execution_learning_detail.png"><img src="assets/img/figures/sprint-2/execution_learning_detail.png" alt="Detalle del material" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_learning_detail.png"><img src="assets/img/figures/sprint-2/execution_learning_detail.png" alt="Detalle del material" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
 **Bounded Context Gamification:** Contamos con rankings local y global, que permiten consultar la posición de los usuarios según su participación. Como tambien, las pantallas de configuración y notificaciones como parte de la experiencia de uso de la aplicación.
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 183</strong><br>
       <em>Ranking local</em><br>
-      <a href="assets/img/figures/sprint-2/execution_ranking_local.png"><img src="assets/img/figures/sprint-2/execution_ranking_local.png" alt="Ranking local" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_ranking_local.png"><img src="assets/img/figures/sprint-2/execution_ranking_local.png" alt="Ranking local" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 184</strong><br>
       <em>Ranking global</em><br>
-      <a href="assets/img/figures/sprint-2/execution_ranking_global.png"><img src="assets/img/figures/sprint-2/execution_ranking_global.png" alt="Ranking global" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_ranking_global.png"><img src="assets/img/figures/sprint-2/execution_ranking_global.png" alt="Ranking global" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 185</strong><br>
       <em>Configuración</em><br>
-      <a href="assets/img/figures/sprint-2/execution_config.png"><img src="assets/img/figures/sprint-2/execution_config.png" alt="Configuración" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_config.png"><img src="assets/img/figures/sprint-2/execution_config.png" alt="Configuración" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 186</strong><br>
       <em>Notificaciones</em><br>
-      <a href="assets/img/figures/sprint-2/execution_notification.png"><img src="assets/img/figures/sprint-2/execution_notification.png" alt="Notificaciones" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_notification.png"><img src="assets/img/figures/sprint-2/execution_notification.png" alt="Notificaciones" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
 En Gamification, Android consulta rankings, puntos, rachas, medallas e historial. XP y ecopoints representan una sola puntuación; las gemas pertenecen a Monetization. El backend acredita el bono semanal de racha y concede la medalla del primer reto a partir de una finalización validada. En la verificación de integración con una cuenta de prueba, completar el reto incrementó los ecopoints de 20 a 30, las medallas de 0 a 1 y las recompensas de 1 a 2, con una gema otorgada. Repetir la solicitud conservó los totales.
 
 **Bounded Context Community:** En community estaria la consulta, creación e inscripción a comunidades locales y temáticas, así como la creación y gestión de eventos. También contamos con chat de los eventos y las secciones de logros y noticias, que facilitan la interacción entre los miembros.
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 187</strong><br>
       <em>Comunidades locales</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_local_list.png"><img src="assets/img/figures/sprint-2/execution_community_local_list.png" alt="Comunidades locales" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_local_list.png"><img src="assets/img/figures/sprint-2/execution_community_local_list.png" alt="Comunidades locales" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 188</strong><br>
       <em>Inscripción a una comunidad</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_join.png"><img src="assets/img/figures/sprint-2/execution_community_join.png" alt="Inscripción a una comunidad" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_join.png"><img src="assets/img/figures/sprint-2/execution_community_join.png" alt="Inscripción a una comunidad" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 189</strong><br>
       <em>Eventos de la comunidad</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_events.png"><img src="assets/img/figures/sprint-2/execution_community_events.png" alt="Eventos de la comunidad" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_events.png"><img src="assets/img/figures/sprint-2/execution_community_events.png" alt="Eventos de la comunidad" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 190</strong><br>
       <em>Creación de un evento</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_create_event.png"><img src="assets/img/figures/sprint-2/execution_community_create_event.png" alt="Creación de un evento" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_create_event.png"><img src="assets/img/figures/sprint-2/execution_community_create_event.png" alt="Creación de un evento" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 191</strong><br>
       <em>Mis eventos</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_my_events.png"><img src="assets/img/figures/sprint-2/execution_community_my_events.png" alt="Mis eventos" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_my_events.png"><img src="assets/img/figures/sprint-2/execution_community_my_events.png" alt="Mis eventos" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 192</strong><br>
       <em>Chat del evento</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_chat.png"><img src="assets/img/figures/sprint-2/execution_community_chat.png" alt="Chat del evento" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_chat.png"><img src="assets/img/figures/sprint-2/execution_community_chat.png" alt="Chat del evento" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 193</strong><br>
       <em>Logros comunitarios</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_awards.png"><img src="assets/img/figures/sprint-2/execution_community_awards.png" alt="Logros comunitarios" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_awards.png"><img src="assets/img/figures/sprint-2/execution_community_awards.png" alt="Logros comunitarios" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 194</strong><br>
       <em>Noticias de la comunidad</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_news.png"><img src="assets/img/figures/sprint-2/execution_community_news.png" alt="Noticias de la comunidad" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_news.png"><img src="assets/img/figures/sprint-2/execution_community_news.png" alt="Noticias de la comunidad" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 195</strong><br>
       <em>Comunidades temáticas</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_topic_list.png"><img src="assets/img/figures/sprint-2/execution_community_topic_list.png" alt="Comunidades temáticas" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_topic_list.png"><img src="assets/img/figures/sprint-2/execution_community_topic_list.png" alt="Comunidades temáticas" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 196</strong><br>
       <em>Creación de una comunidad</em><br>
-      <a href="assets/img/figures/sprint-2/execution_community_create.png"><img src="assets/img/figures/sprint-2/execution_community_create.png" alt="Creación de una comunidad" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_community_create.png"><img src="assets/img/figures/sprint-2/execution_community_create.png" alt="Creación de una comunidad" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
 **Bounded Context Monetization:** En cuanto a monetization estan las secciones de la tienda destinadas a cosméticos, mejoras y paquetes de gemas.
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 197</strong><br>
       <em>Tienda de cosméticos</em><br>
-      <a href="assets/img/figures/sprint-2/execution_store_cosmetics.png"><img src="assets/img/figures/sprint-2/execution_store_cosmetics.png" alt="Tienda de cosméticos" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_store_cosmetics.png"><img src="assets/img/figures/sprint-2/execution_store_cosmetics.png" alt="Tienda de cosméticos" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 198</strong><br>
       <em>Tienda de mejoras</em><br>
-      <a href="assets/img/figures/sprint-2/execution_store_multipliers.png"><img src="assets/img/figures/sprint-2/execution_store_multipliers.png" alt="Tienda de mejoras" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_store_multipliers.png"><img src="assets/img/figures/sprint-2/execution_store_multipliers.png" alt="Tienda de mejoras" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 199</strong><br>
       <em>Tienda de gemas</em><br>
-      <a href="assets/img/figures/sprint-2/execution_store_gems.png"><img src="assets/img/figures/sprint-2/execution_store_gems.png" alt="Tienda de gemas" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_store_gems.png"><img src="assets/img/figures/sprint-2/execution_store_gems.png" alt="Tienda de gemas" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
 **Bounded Context Users:** Y para users tenemos tres pantallas principales, perfil, amigos y familia, desde las cuales los usuarios pueden consultar su información personal y acceder a las funciones de vinculación social y familiar.
 
-<table align="center">
-  <tr>
+<div style="break-inside: avoid; page-break-inside: avoid;">
+<table align="center" style="break-inside: avoid; page-break-inside: avoid;">
+  <tr style="break-inside: avoid; page-break-inside: avoid;">
     <td align="center" valign="top">
       <strong>Figura 200</strong><br>
       <em>Perfil</em><br>
-      <a href="assets/img/figures/sprint-2/execution_user_profile.png"><img src="assets/img/figures/sprint-2/execution_user_profile.png" alt="Perfil" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_user_profile.png"><img src="assets/img/figures/sprint-2/execution_user_profile.png" alt="Perfil" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 201</strong><br>
       <em>Amigos</em><br>
-      <a href="assets/img/figures/sprint-2/execution_user_friends.png"><img src="assets/img/figures/sprint-2/execution_user_friends.png" alt="Amigos" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_user_friends.png"><img src="assets/img/figures/sprint-2/execution_user_friends.png" alt="Amigos" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
     <td align="center" valign="top">
       <strong>Figura 202</strong><br>
       <em>Familia</em><br>
-      <a href="assets/img/figures/sprint-2/execution_user_family.png"><img src="assets/img/figures/sprint-2/execution_user_family.png" alt="Familia" width="200"></a>
+      <a href="assets/img/figures/sprint-2/execution_user_family.png"><img src="assets/img/figures/sprint-2/execution_user_family.png" alt="Familia" width="200" height="445" style="height: auto; max-height: none; vertical-align: top;"></a>
     </td>
   </tr>
 </table>
+</div>
 
 #### 4.2.2.7. Services Documentation Evidence for Sprint Review
 
