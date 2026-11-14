@@ -134,6 +134,12 @@ Durante el desarrollo del AV2, en nuestro equipo, Mauricio Pajes actualizó el r
 
 El [registro de IAM](assets/evidence/iam-account-access/README.md) y el [seguimiento de clientes en Azure](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) reúnen los contratos y las pruebas. La [configuración de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-12.md) describe la validación y el despliegue automático desde `develop`.
 
+Para el AV2, también actualizamos el informe con la documentación del Sprint 2, las entrevistas de validación, el Student Outcome, las conclusiones y recomendaciones y las descripciones de los videos About the Product y About the Team. Los cambios se trabajaron en ramas independientes y se fusionaron en develop mediante pull requests.
+
+*Historial de commits del informe en la rama develop durante AV2.*
+
+![av2_report](assets/img/figures/av2_report.png)
+
 <div style="page-break-before: always;"></div>
 
 # Tabla de contenidos
@@ -10377,16 +10383,31 @@ El [registro de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-1
 
 #### 4.2.2.9. Team Collaboration Insights during Sprint
 
-En esta sección se muestra los aportes de cada integrante en los repositorios respectivos de según el sprint, se muestra referente a la landing page, app android, app flutter y backend
+En esta sección se muestran los aportes de cada integrante en los repositorios del Sprint 2, correspondientes a la Landing Page, la aplicación Android, la aplicación Flutter y el Backend. 
 
 **Sprint 2 - Landing page**
 
+![av2_landing](assets/img/figures/av2_landing.png)
+
+*Historial de commits del repositorio de la Landing Page durante el Sprint 2.*
+
 **Sprint 2 - App Android**
+
+![av2_android](assets/img/figures/av2_android.png)
+
+*Historial de commits de la aplicación Android durante el Sprint 2.*
 
 **Sprint 2 - App Flutter**
 
+![av2_flutter](assets/img/figures/av2_flutter.png)
+
+*Historial de commits de la aplicación Flutter durante el Sprint 2.*
+
 **Sprint 2 - Backend**
 
+![av2_backend](assets/img/figures/av2_backend.png)
+
+*Historial de commits del Backend durante el Sprint 2.*
 
 ## 4.3. Validation Interviews
 
