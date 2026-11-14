@@ -30,10 +30,6 @@ Proyecto <br>
 
 **Integrantes**
 
-**Tabla 1**
-
-*Integrantes del equipo GreenMinds.*
-
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <th style="border: none; text-align: left; padding-right: 20px;">Código</th>
@@ -73,7 +69,7 @@ Proyecto <br>
 
 # Registro de Versiones del Informe
 
-**Tabla 2**
+**Tabla 1**
 *Registro de versiones del informe.*
 
 | Version | Fecha | Autor | Descripción de modificación |
@@ -339,7 +335,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
-**Tabla 3**
+**Tabla 2**
 
 *Acciones y conclusiones del Student Outcome 7.*
 
@@ -357,7 +353,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Aponte Pablo, Isabel Luisa (u20241e158)
 
-**Tabla 4**
+**Tabla 3**
 
 *Objetivo 1 — Obtener mi primer empleo como desarrolladora de software de Aponte Pablo, Isabel Luisa (u20241e158).*
 
@@ -369,7 +365,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant   | Conseguir experiencia laboral me permitirá aplicar mis conocimientos, desarrollar soluciones reales, aprender prácticas profesionales y construir una trayectoria en ingeniería de software. |
 | Time-bound | Alcanzar este objetivo dentro de los seis meses posteriores a mi egreso. |
 
-**Tabla 5**
+**Tabla 4**
 
 *Objetivo 2 — Fortalecer mis habilidades de liderazgo técnico en proyectos de software de Aponte Pablo, Isabel Luisa (u20241e158).*
 
@@ -384,7 +380,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Astocondor Bazan, Alejandra Isabel (U202410678)
 
-**Tabla 6**
+**Tabla 5**
 
 *Objetivo 1 — Creación de un producto digital propio de Astocondor Bazan, Alejandra Isabel (U202410678).*
 
@@ -396,7 +392,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant | Me permitirá aplicar mis conocimientos en un proyecto completo, fortalecer mi capacidad para tomar decisiones de producto y demostrar iniciativa profesional. |
 | Time-bound | Dentro del primer año posterior a mi egreso. |
 
-**Tabla 7**
+**Tabla 6**
 
 *Objetivo 2 — Construcción de un portafolio profesional de Astocondor Bazan, Alejandra Isabel (U202410678).*
 
@@ -410,7 +406,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Dulanto Espino, Leo César (U202410254)
 
-**Tabla 8**
+**Tabla 7**
 
 *Objetivo 1 — Especialización en desarrollo backend y servicios web de Dulanto Espino, Leo César (U202410254).*
 
@@ -422,7 +418,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant | Esta especialización me permitirá mejorar mis oportunidades laborales y participar en el desarrollo de soluciones de software escalables y confiables. |
 | Time-bound | Alcanzar este objetivo durante el primer año posterior a mi egreso. |
 
-**Tabla 9**
+**Tabla 8**
 
 *Objetivo 2 — Desarrollo de habilidades de liderazgo técnico de Dulanto Espino, Leo César (U202410254).*
 
@@ -436,7 +432,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Pajés León, Mauricio Luis (u202410093)
 
-**Tabla 10**
+**Tabla 9**
 
 *Objetivo 1 — Especialización en arquitectura de software de Pajés León, Mauricio Luis (u202410093).*
 
@@ -449,7 +445,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Time-bound | Dentro de los nueve meses posteriores a mi egreso. |
 
 
-**Tabla 11**
+**Tabla 10**
 
 *Objetivo 2 — Desarrollo de soluciones con inteligencia artificial aplicada de Pajés León, Mauricio Luis (u202410093).*
 
@@ -463,7 +459,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Philco Mota, Katty Yolanda (u202416107)
 
-**Tabla 12**
+**Tabla 11**
 
 *Objetivo 1 — Especialización en backend y buenas prácticas de arquitectura de software de Philco Mota, Katty Yolanda (u202416107).*
 
@@ -475,7 +471,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant | Consolidar estas competencias fortalecerá mi perfil como ingeniera backend orientada a buenas prácticas de arquitectura, aumentando mi empleabilidad y mi capacidad de participar en decisiones técnicas de diseño de software. |
 | Time-bound | Dentro del primer año posterior a mi egreso. |
 
-**Tabla 13**
+**Tabla 12**
 
 *Objetivo 2 — Construcción de un portafolio profesional de Philco Mota, Katty Yolanda (u202416107).*
 
@@ -523,7 +519,7 @@ Diseñar soluciones digitales educativas, accesibles y motivadoras que fortalezc
 
 La siguiente tabla resume los perfiles, intereses y principales capacidades de los integrantes que conforman el equipo GreenMinds.
 
-**Tabla 14**
+**Tabla 13**
 
 *Perfiles de los integrantes de GreenMinds.*
 
@@ -828,7 +824,7 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 El análisis compara a EcoMind con las alternativas seleccionadas según su propuesta de valor, público objetivo, producto, marketing, fortalezas, debilidades, oportunidades y amenazas.
 
-**Tabla 15**
+**Tabla 14**
 
 *Propósito del análisis competitivo.*
 
@@ -836,7 +832,7 @@ El análisis compara a EcoMind con las alternativas seleccionadas según su prop
 |---|---|
 | ¿Por qué llevar a cabo este análisis? | Llevamos a cabo este análisis con la finalidad de conocer a los competidores, identificar sus fortalezas y debilidades, y definir estrategias de diferenciación y posicionamiento para Green Mind. |
 
-**Tabla 16**
+**Tabla 15**
 
 *Análisis competitivo de EcoMind.*
 
@@ -959,7 +955,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 #### Segmento: Padres de Familia
 <br>
 
-**Tabla 17**
+**Tabla 16**
 
 *Entrevista 1 del segmento de padres de familia.*
 
@@ -968,7 +964,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | <img src="assets/img/figures/imagen0781.png" width="335" hspace="240"> |
 | **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:52<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 49 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
 
-**Tabla 18**
+**Tabla 17**
 
 *Entrevista 2 del segmento de padres de familia.*
 
@@ -977,7 +973,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | <img src="assets/img/figures/Entrevista_2_Padres_Familia.png" width="335" hspace="240"> |
 | **Entrevistado N°2:** Manuel Pajes<br> **Edad:** 52 años<br>**Ubicación:** San Miguel, Lima<br><br> **Entrevista:** [Video de la entrevista Nro. 2 - Manuel Pajes](https://upcedupe-my.sharepoint.com/personal/u202410093_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410093%5Fupc%5Fedu%5Fpe%2FDocuments%2FManuel%20Pajes%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2559e663%2Def0a%2D4632%2D94a0%2Dc1d5999434f4)<br>**Instante del que inicia:** 0:03<br> **Duración:** 4:46<br><br> **Resumen:** <br><br>Manuel Pajes tiene 52 años, es padre de tres hijos y es ingeniero electrónico dedicado a actividades comerciales relacionadas con su carrera. Se considera bastante seguro al utilizar celulares y aplicaciones; menciona redes sociales y aplicaciones bancarias, entre otras. Durante la semana, el trabajo, el colegio y los estudios de sus hijos limitan las actividades compartidas. Algunos fines de semana salen a comer y a pasar tiempo en familia, aunque no lo hacen con mucha frecuencia.<br><br>Considera muy importante el cuidado del medio ambiente, pero reconoce que las ocupaciones diarias dificultan dedicarle atención y que su familia no es especialmente proactiva. En casa les piden a los hijos apagar las luces, evitar dejar correr el agua durante mucho tiempo y moderar el uso de la terma. Explica que los hijos suelen olvidar estas indicaciones y que los padres tampoco mantienen un seguimiento constante, por lo que todavía no han consolidado esos hábitos.<br><br>Afirma que utilizaría en familia una aplicación con retos ambientales simples. Le parece útil que tanto los hijos como los adultos reciban recordatorios y aprendan mediante actividades cotidianas de forma lúdica. Para motivarlos, valora los recursos visuales, didácticos y entretenidos que ayuden a tomar conciencia. Espera que sus hijos interioricen el cuidado del medio ambiente hasta practicarlo de manera natural como parte de sus hábitos. |
 
-**Tabla 19**
+**Tabla 18**
 
 *Entrevista 3 del segmento de padres de familia.*
 
@@ -988,7 +984,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 
 #### Segmento objetivo: Escolares de Primaria
 
-**Tabla 20**
+**Tabla 19**
 
 *Entrevista 1 del segmento de escolares de primaria.*
 
@@ -997,7 +993,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | <img src="assets/img/figures/image036.png" width="330" hspace="230"> |
 | **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 11 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 4:53  <br> **Duración:** 3:15<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pablo, un estudiante de 11 años. En su tiempo libre le gusta jugar con sus juguetes, salir, utilizar la consola o la PC, y también emplear aplicaciones como Roblox para jugar y Discord para comunicarse.<br><br>En relación con el cuidado del medio ambiente, recuerda que en su colegio le han enseñado sobre el ahorro de agua, no botar botellas y guardar chapas. En su casa procura no usar muchas bolsas de plástico. Lo que más lo motiva es haber visto en la provincia la acumulación de basura y cómo afecta tanto a las personas como a los animales, lo que lo hace reflexionar sobre la importancia de reducir los desechos.<br><br>Sobre la forma de aprender, señala que prefiere actividades digitales, aunque también reconoce el valor de las que son en papel. Le gusta aprender escuchando, viendo videos y leyendo textos cortos. Además, considera que los juegos pueden servir como herramienta de aprendizaje si tienen mecánicas bien diseñadas, aunque algunos pueden resultar adictivos.<br><br>Finalmente, Pablo demuestra que disfruta combinar distintas formas de aprendizaje y entretenimiento, mostrando una postura crítica frente al uso de videojuegos educativos. |
 
-**Tabla 21**
+**Tabla 20**
 
 *Entrevista 2 del segmento de escolares de primaria.*
 
@@ -1006,7 +1002,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | <img src="assets/img/figures/image037.png" width="330" hspace="250"> |
 | **Entrevistado N°2:** Gianfranco de la Cruz <br> **Edad:** 12 años<br>**Ubicación:** La Molina, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 7:00 <br> **Duración:** 3:40<br><br> **Resumen:** <br><br>El entrevistado se llama Gianfranco de la Cruz, tiene 12 años y está por culminar la primaria. Le gusta pasar el tiempo usando su celular, ya sea para jugar o ver videos.<br><br>Nos menciona que en su colegio sí le han enseñado de manera regular sobre el cuidado del ambiente, como la implementación de tachos de basura específicos para reciclaje. Sin embargo, fuera del colegio no tiene muy claro qué actividades o acciones puede realizar, aparte de mantener limpias sus zonas de convivencia.<br><br>Por último, menciona que actualmente realiza este tipo de acciones más por ayudar que por motivación propia. Sin embargo, la idea de aprender nuevas formas de apoyo mediante juegos o videos le parecería motivante para esforzarse más. |
 
-**Tabla 22**
+**Tabla 21**
 
 *Entrevista 3 del segmento de escolares de primaria.*
 
@@ -1215,7 +1211,7 @@ En el Paso 1, las notas quedaron agrupadas en seis áreas: retos y misiones, log
 
 El siguiente glosario establece los términos compartidos que el equipo y los stakeholders utilizan para describir el dominio de EcoMind. Las definiciones buscan evitar interpretaciones diferentes entre las áreas del producto y se limitan a conceptos propios de la solución, la educación ambiental y la participación de sus usuarios.
 
-**Tabla 23**
+**Tabla 22**
 
 *Ubiquitous Language de EcoMind.*
 
@@ -1278,7 +1274,7 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 
 Las épicas agrupan necesidades amplias del producto y sirven como referencia para organizar las historias de usuario por áreas funcionales.
 
-**Tabla 24**
+**Tabla 23**
 
 *Épicas del producto EcoMind.*
 
@@ -1359,7 +1355,7 @@ Las épicas agrupan necesidades amplias del producto y sirven como referencia pa
 
 Las technical stories describen necesidades técnicas necesarias para soportar la calidad, seguridad, integración y evolución de la solución.
 
-**Tabla 25**
+**Tabla 24**
 
 *TS-001 – Endpoint de usuarios.*
 
@@ -1390,7 +1386,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 26**
+**Tabla 25**
 
 *TS-002 – Endpoints de familia y miembros familiares.*
 
@@ -1421,7 +1417,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 27**
+**Tabla 26**
 
 *TS-003 – Endpoint de amigos.*
 
@@ -1452,7 +1448,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 28**
+**Tabla 27**
 
 *TS-004 – Endpoints de retos y actividades.*
 
@@ -1483,7 +1479,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 29**
+**Tabla 28**
 
 *TS-005 – Endpoints de progreso de retos y actividades.*
 
@@ -1514,7 +1510,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 30**
+**Tabla 29**
 
 *TS-006 – Endpoints de logros de usuario y comunidad.*
 
@@ -1545,7 +1541,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 31**
+**Tabla 30**
 
 *TS-007 – Endpoints de ranking semanal.*
 
@@ -1577,7 +1573,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
 </table>
 
 
-**Tabla 32**
+**Tabla 31**
 
 *TS-008 – Servicio de notificaciones push.*
 
@@ -1608,7 +1604,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
 </table>
 
 
-**Tabla 33**
+**Tabla 32**
 
 *TS-009 – Endpoint de resumen y edición de perfil.*
 
@@ -1639,7 +1635,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 34**
+**Tabla 33**
 
 *TS-010 – Endpoint de progreso del perfil.*
 
@@ -1670,7 +1666,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 35**
+**Tabla 34**
 
 *TS-011 – Endpoint de familia y amigos del perfil.*
 
@@ -1701,7 +1697,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 36**
+**Tabla 35**
 
 *TS-012 – Endpoint de interacción comunitaria.*
 
@@ -1732,7 +1728,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 37**
+**Tabla 36**
 
 *TS-013 – Endpoint de eventos comunitarios y participación.*
 
@@ -1763,7 +1759,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 38**
+**Tabla 37**
 
 *TS-014 – Endpoint de catálogo y compra de cosméticos.*
 
@@ -1794,7 +1790,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 39**
+**Tabla 38**
 
 *TS-015 – Endpoint de compra de gemas.*
 
@@ -1825,7 +1821,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 40**
+**Tabla 39**
 
 *TS-016 – Endpoint de notificaciones del usuario.*
 
@@ -1856,7 +1852,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 41**
+**Tabla 40**
 
 *TS-017 – Endpoint de materiales de aprendizaje.*
 
@@ -1889,7 +1885,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
-**Tabla 42**
+**Tabla 41**
 
 *TS-018 – Endpoint de metas comunitarias y chat temporal.*
 
@@ -1924,7 +1920,7 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
 
 Las user stories detallan las necesidades de los usuarios y del sistema en unidades que pueden ser priorizadas y validadas durante el desarrollo.
 
-**Tabla 43**
+**Tabla 42**
 
 *HU-001 – Retos guiados con indicaciones.*
 
@@ -1980,7 +1976,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 44**
+**Tabla 43**
 
 *HU-002 – Reto ambiental diario.*
 
@@ -2017,7 +2013,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 45**
+**Tabla 44**
 
 *HU-003 – Racha diaria por completar retos.*
 
@@ -2060,7 +2056,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 46**
+**Tabla 45**
 
 *HU-004 – Sistema de puntos por aprendizaje.*
 
@@ -2098,7 +2094,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 47**
+**Tabla 46**
 
 *HU-005 – Reconocimiento por constancia.*
 
@@ -2128,7 +2124,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 48**
+**Tabla 47**
 
 *HU-006 – Establecimiento de compromiso.*
 
@@ -2164,7 +2160,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 49**
+**Tabla 48**
 
 *HU-007 – Seguimiento de progreso.*
 
@@ -2200,7 +2196,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 50**
+**Tabla 49**
 
 *HU-008 – Animaciones de logro.*
 
@@ -2230,7 +2226,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 51**
+**Tabla 50**
 
 *HU-009 – Ranking educativo.*
 
@@ -2267,7 +2263,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 52**
+**Tabla 51**
 
 *HU-010 – Desafío entre compañeros.*
 
@@ -2315,7 +2311,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 53**
+**Tabla 52**
 
 *HU-011 – Colección de medallas.*
 
@@ -2351,7 +2347,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 54**
+**Tabla 53**
 
 *HU-012 – Historial de aprendizaje.*
 
@@ -2387,7 +2383,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 55**
+**Tabla 54**
 
 *HU-013 – Reto familiar en casa.*
 
@@ -2424,7 +2420,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 56**
+**Tabla 55**
 
 *HU-014 – Evento familiar en comunidad.*
 
@@ -2460,7 +2456,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 57**
+**Tabla 56**
 
 *HU-015 – Registro de logros familiares.*
 
@@ -2491,7 +2487,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 58**
+**Tabla 57**
 
 *HU-016 – Premios por colaboración familiar.*
 
@@ -2523,7 +2519,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 59**
+**Tabla 58**
 
 *HU-017 – Planificación de retos familiares.*
 
@@ -2565,7 +2561,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 60**
+**Tabla 59**
 
 *HU-018 – Alertas de eventos comunitarios para padres.*
 
@@ -2601,7 +2597,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 61**
+**Tabla 60**
 
 *HU-019 – Agregar integrantes a la familia.*
 
@@ -2637,7 +2633,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 62**
+**Tabla 61**
 
 *HU-020 – Felicitación de logros familiares.*
 
@@ -2674,7 +2670,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 63**
+**Tabla 62**
 
 *HU-021 – Reportes de progreso familiares.*
 
@@ -2712,7 +2708,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 64**
+**Tabla 63**
 
 *HU-022 – Ranking de familias.*
 
@@ -2756,7 +2752,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 65**
+**Tabla 64**
 
 *HU-023 – Guía simplificada.*
 
@@ -2798,7 +2794,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 66**
+**Tabla 65**
 
 *HU-024 – Tutorial paso a paso.*
 
@@ -2844,7 +2840,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 67**
+**Tabla 66**
 
 *HU-025 – Recordatorios educativos.*
 
@@ -2887,7 +2883,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 68**
+**Tabla 67**
 
 *HU-026 – Contenido breve y claro.*
 
@@ -2924,7 +2920,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 69**
+**Tabla 68**
 
 *HU-027 – Videos explicativos.*
 
@@ -2959,7 +2955,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 70**
+**Tabla 69**
 
 *HU-028 – Lenguaje sencillo.*
 
@@ -2990,7 +2986,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 71**
+**Tabla 70**
 
 *HU-029 – Avatares y comesticos personalizables.*
 
@@ -3063,7 +3059,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 72**
+**Tabla 71**
 
 *HU-030 – Preguntas frecuentes.*
 
@@ -3105,7 +3101,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 73**
+**Tabla 72**
 
 *HU-031 – Multiplicador de XP.*
 
@@ -3149,7 +3145,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 74**
+**Tabla 73**
 
 *HU-032 – Infografías resumen.*
 
@@ -3190,7 +3186,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 75**
+**Tabla 74**
 
 *HU-033 – Compartir logros ambientales.*
 
@@ -3229,7 +3225,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 76**
+**Tabla 75**
 
 *HU-034 – Reaccionar a publicaciones.*
 
@@ -3265,7 +3261,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 77**
+**Tabla 76**
 
 *HU-035 – Compra y obtención de gemas.*
 
@@ -3314,7 +3310,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 78**
+**Tabla 77**
 
 *HU-036 – Ranking local.*
 
@@ -3363,7 +3359,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 79**
+**Tabla 78**
 
 *HU-037 – Eventos ambientales.*
 
@@ -3400,7 +3396,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 80**
+**Tabla 79**
 
 *HU-038 – Panel de logros compartidos.*
 
@@ -3430,7 +3426,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 81**
+**Tabla 80**
 
 *HU-039 – Invitar a amigos.*
 
@@ -3467,7 +3463,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 82**
+**Tabla 81**
 
 *HU-040 – Felicitación de logros comunitarios.*
 
@@ -3503,7 +3499,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 83**
+**Tabla 82**
 
 *HU-041 – Puntaje decreciente por repetición de minijuegos.*
 
@@ -3546,7 +3542,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 84**
+**Tabla 83**
 
 *HU-042 – Multiplataforma.*
 
@@ -3587,7 +3583,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 85**
+**Tabla 84**
 
 *HU-043 – Carga rápida.*
 
@@ -3623,7 +3619,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 86**
+**Tabla 85**
 
 *HU-044 – Interfaz simple.*
 
@@ -3663,7 +3659,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 87**
+**Tabla 86**
 
 *HU-045 – Disponibilidad 24/7.*
 
@@ -3699,7 +3695,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 88**
+**Tabla 87**
 
 *HU-046 – Seguridad y Datos Personales.*
 
@@ -3735,7 +3731,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 89**
+**Tabla 88**
 
 *HU-047 – Soporte técnico.*
 
@@ -3775,7 +3771,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 90**
+**Tabla 89**
 
 *HU-048 – Selección del lugar de encuentro en mapa.*
 
@@ -3823,7 +3819,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 91**
+**Tabla 90**
 
 *HU-049 – Sincronización automática.*
 
@@ -3863,7 +3859,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 92**
+**Tabla 91**
 
 *HU-050 – Optimización de recursos.*
 
@@ -3903,7 +3899,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 93**
+**Tabla 92**
 
 *HU-051 – Información descriptiva clara.*
 
@@ -3943,7 +3939,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 94**
+**Tabla 93**
 
 *HU-052 – Consejos de uso para padres.*
 
@@ -3979,7 +3975,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 95**
+**Tabla 94**
 
 *HU-053 – Preguntas frecuentes en landing page.*
 
@@ -4020,7 +4016,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 96**
+**Tabla 95**
 
 *HU-054 – Información de la comunidad.*
 
@@ -4066,7 +4062,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-**Tabla 97**
+**Tabla 96**
 
 *HU-055 – Redirección a registro de cuenta.*
 
@@ -4105,7 +4101,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 98**
+**Tabla 97**
 
 *HU-056 – Registro de usuario.*
 
@@ -4145,7 +4141,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 99**
+**Tabla 98**
 
 *HU-057 – Inicio de sesión.*
 
@@ -4184,7 +4180,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 100**
+**Tabla 99**
 
 *HU-058 – Recuperación de contraseña.*
 
@@ -4226,7 +4222,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 101**
+**Tabla 100**
 
 *HU-059 – Cierre de sesión.*
 
@@ -4263,7 +4259,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 102**
+**Tabla 101**
 
 *HU-060 – Inscripción a una comunidad local cercana.*
 
@@ -4305,7 +4301,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
-**Tabla 103**
+**Tabla 102**
 
 *HU-061 – Creación de comunidades personalizadas.*
 
@@ -4321,7 +4317,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
-**Tabla 104**
+**Tabla 103**
 
 *HU-062 – Inscripción a comunidades personalizadas.*
 
@@ -4337,7 +4333,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
-**Tabla 105**
+**Tabla 104**
 
 *HU-063 – Creación de meta comunitaria.*
 
@@ -4353,7 +4349,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
-**Tabla 106**
+**Tabla 105**
 
 *HU-064 – Inscripción a meta comunitaria.*
 
@@ -4371,7 +4367,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
-**Tabla 107**
+**Tabla 106**
 
 *HU-065 – Creación de chat temporal de evento.*
 
@@ -4389,7 +4385,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
-**Tabla 108**
+**Tabla 107**
 
 *HU-066 – Selección de comunidad de preferencia.*
 
@@ -4407,7 +4403,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
-**Tabla 109**
+**Tabla 108**
 
 *HU-067 – Protector de racha.*
 
@@ -4425,7 +4421,7 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
-**Tabla 110**
+**Tabla 109**
 
 *HU-068 – Modo offline.*
 
@@ -4516,7 +4512,7 @@ Para establecer el orden de prioridad de las historias de usuario planteadas par
 
 ![Product Backlog](assets/img/figures/Product_Backlog.png)
 
-**Tabla 111**
+**Tabla 110**
 
 *Product Backlog de EcoMind.*
 
@@ -4724,7 +4720,7 @@ Es importante distinguir **IAM** de **Users**. IAM gestiona la identidad digital
 
 Después de analizar, separar y consolidar las distintas responsabilidades, se definieron siete bounded contexts finales:
 
-**Tabla 112**
+**Tabla 111**
 
 *Bounded contexts finales de EcoMind.*
 
@@ -4884,7 +4880,7 @@ De esa discusión surgieron cuatro decisiones:
 
 Los patrones de relación seleccionados para cada integración son los siguientes.
 
-**Tabla 113**
+**Tabla 112**
 
 *Relaciones del Context Map de EcoMind.*
 
@@ -4962,7 +4958,7 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 
 **Sub-capa Model**
 
-**Tabla 114**
+**Tabla 113**
 
 *Elementos del modelo de dominio de IAM.*
 
@@ -4981,7 +4977,7 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 
 **Sub-capa Domain Services**
 
-**Tabla 115**
+**Tabla 114**
 
 *Servicios de dominio de IAM.*
 
@@ -4993,7 +4989,7 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 
 **Sub-capa Repositories y contratos del dominio**
 
-**Tabla 116**
+**Tabla 115**
 
 *Repositorios de IAM.*
 
@@ -5011,7 +5007,7 @@ Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints pr
 
 **Sub-capa REST - Controllers**
 
-**Tabla 117**
+**Tabla 116**
 
 *Controllers REST de IAM.*
 
@@ -5024,7 +5020,7 @@ Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints pr
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 118**
+**Tabla 117**
 
 *Resources y assemblers de IAM.*
 
@@ -5046,7 +5042,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Sub-capa Command Services**
 
-**Tabla 119**
+**Tabla 118**
 
 *Command services de IAM.*
 
@@ -5059,7 +5055,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Sub-capa Query Services**
 
-**Tabla 120**
+**Tabla 119**
 
 *Query services de IAM.*
 
@@ -5069,7 +5065,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Commands y Queries**
 
-**Tabla 121**
+**Tabla 120**
 
 *Queries de IAM.*
 
@@ -5085,7 +5081,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Puertos de salida**
 
-**Tabla 122**
+**Tabla 121**
 
 *Puertos de salida de IAM.*
 
@@ -5099,7 +5095,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 Esta capa implementa la persistencia, la seguridad y las integraciones técnicas requeridas por IAM.
 
-**Tabla 123**
+**Tabla 122**
 
 *Componentes de la capa de infraestructura de IAM.*
 
@@ -5174,7 +5170,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model**
 
-**Tabla 124**
+**Tabla 123**
 
 *Elementos del modelo de dominio de Users.*
 
@@ -5188,7 +5184,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Value Objects y Enumerations**
 
-**Tabla 125**
+**Tabla 124**
 
 *Value objects y enumeraciones de Users.*
 
@@ -5202,7 +5198,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Commands**
 
-**Tabla 126**
+**Tabla 125**
 
 *Commands de Users.*
 
@@ -5220,7 +5216,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Queries**
 
-**Tabla 127**
+**Tabla 126**
 
 *Queries de Users.*
 
@@ -5234,7 +5230,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Domain Events**
 
-**Tabla 128**
+**Tabla 127**
 
 *Eventos de dominio de Users.*
 
@@ -5246,7 +5242,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Services**
 
-**Tabla 129**
+**Tabla 128**
 
 *Servicios de dominio de Users.*
 
@@ -5257,7 +5253,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Repositories**
 
-**Tabla 130**
+**Tabla 129**
 
 *Repositorios de Users.*
 
@@ -5271,7 +5267,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa REST – Controllers**
 
-**Tabla 131**
+**Tabla 130**
 
 *Controllers REST de Users.*
 
@@ -5284,7 +5280,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa REST – Assemblers y Resources**
 
-**Tabla 132**
+**Tabla 131**
 
 *Resources y assemblers de Users.*
 
@@ -5300,7 +5296,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 Esta capa coordina los casos de uso del perfil, la familia, las amistades y el cosmético del perfil, incluyendo la comunicación entrante desde IAM y saliente hacia los demás bounded contexts.
 
-**Tabla 133**
+**Tabla 132**
 
 *Componentes de la capa de aplicación de Users.*
 
@@ -5320,7 +5316,7 @@ Esta capa coordina los casos de uso del perfil, la familia, las amistades y el c
 
 Esta capa implementará la persistencia, el punto de recepción de la integración con IAM y los adaptadores necesarios para consumir la API de Users desde la aplicación Android.
 
-**Tabla 134**
+**Tabla 133**
 
 *Componentes de la capa de infraestructura de Users.*
 
@@ -5338,7 +5334,7 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 
 **Colaboradores**
 
-**Tabla 135**
+**Tabla 134**
 
 *Colaboraciones de Users.*
 
@@ -5400,7 +5396,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model**
 
-**Tabla 136**
+**Tabla 135**
 
 *Elementos del modelo de dominio de Learning.*
 
@@ -5415,7 +5411,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Value Objects y Enumerations**
 
-**Tabla 137**
+**Tabla 136**
 
 *Value objects y enumeraciones de Learning.*
 
@@ -5433,7 +5429,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Commands**
 
-**Tabla 138**
+**Tabla 137**
 
 *Commands de Learning.*
 
@@ -5449,7 +5445,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Queries**
 
-**Tabla 139**
+**Tabla 138**
 
 *Queries de Learning.*
 
@@ -5462,7 +5458,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Domain Events**
 
-**Tabla 140**
+**Tabla 139**
 
 *Eventos de dominio de Learning.*
 
@@ -5476,7 +5472,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Services**
 
-**Tabla 141**
+**Tabla 140**
 
 *Servicios de dominio de Learning.*
 
@@ -5489,7 +5485,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Repositories**
 
-**Tabla 142**
+**Tabla 141**
 
 *Repositorios de Learning.*
 
@@ -5506,7 +5502,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa REST - Controllers**
 
-**Tabla 143**
+**Tabla 142**
 
 *Controllers REST de Learning.*
 
@@ -5521,7 +5517,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Endpoints principales**
 
-**Tabla 144**
+**Tabla 143**
 
 *Endpoints principales de Learning.*
 
@@ -5538,7 +5534,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 145**
+**Tabla 144**
 
 *Resources y assemblers de Learning.*
 
@@ -5560,7 +5556,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 La Application Layer coordina los casos de uso y las transacciones de Learning.
 **Sub-capa Command Services**
 
-**Tabla 146**
+**Tabla 145**
 
 *Command services de Learning.*
 
@@ -5573,7 +5569,7 @@ La Application Layer coordina los casos de uso y las transacciones de Learning.
 
 **Sub-capa Query Services**
 
-**Tabla 147**
+**Tabla 146**
 
 *Query services de Learning.*
 
@@ -5584,7 +5580,7 @@ La Application Layer coordina los casos de uso y las transacciones de Learning.
 
 **Sub-capa Event Handlers**
 
-**Tabla 148**
+**Tabla 147**
 
 *Event handlers de Learning.*
 
@@ -5612,7 +5608,7 @@ Cada Use Case posee una responsabilidad concreta, se ejecuta desde un ViewModel 
 
 La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene el acceso a la API REST, la persistencia relacional, la caché Room, la descarga local y la reproducción del contenido multimedia.
 
-**Tabla 149**
+**Tabla 148**
 
 *Componentes de la capa de infraestructura de Learning.*
 
@@ -5636,7 +5632,7 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 **Relaciones con otros contextos y sistemas**
 
-**Tabla 150**
+**Tabla 149**
 
 *Relaciones con otros bounded contexts de Learning.*
 
@@ -5701,7 +5697,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model**
 
-**Tabla 151**
+**Tabla 150**
 
 *Elementos del modelo de dominio de Quests.*
 
@@ -5732,7 +5728,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Commands**
 
-**Tabla 152**
+**Tabla 151**
 
 *Commands de Quests.*
 
@@ -5772,7 +5768,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Queries**
 
-**Tabla 153**
+**Tabla 152**
 
 *Queries de Quests.*
 
@@ -5799,7 +5795,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Domain Events**
 
-**Tabla 154**
+**Tabla 153**
 
 *Eventos de dominio de Quests.*
 
@@ -5818,7 +5814,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Repositories**
 
-**Tabla 155**
+**Tabla 154**
 
 *Repositorios de Quests.*
 
@@ -5841,7 +5837,7 @@ Esta capa expone los casos de uso mediante una API REST.
 
 **Sub-capa REST - Controllers**
 
-**Tabla 156**
+**Tabla 155**
 
 *Controllers REST de Quests.*
 
@@ -5859,7 +5855,7 @@ Esta capa expone los casos de uso mediante una API REST.
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 157**
+**Tabla 156**
 
 *Resources y assemblers de Quests.*
 
@@ -5883,7 +5879,7 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 **Sub-capa Command Services**
 
-**Tabla 158**
+**Tabla 157**
 
 *Command services de Quests.*
 
@@ -5896,7 +5892,7 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 **Sub-capa Query Services**
 
-**Tabla 159**
+**Tabla 158**
 
 *Query services de Quests.*
 
@@ -5909,7 +5905,7 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 **Sub-capa Event Handlers**
 
-**Tabla 160**
+**Tabla 159**
 
 *Event handlers de Quests.*
 
@@ -5922,7 +5918,7 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 #### 2.6.4.4. Infrastructure Layer
 Esta capa contiene las clases que implementan la persistencia y la comunicación con servicios externos.
 
-**Tabla 161**
+**Tabla 160**
 
 *Componentes de la capa de infraestructura de Quests.*
 
@@ -5937,7 +5933,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Relaciones entre bounded contexts**
 
-**Tabla 162**
+**Tabla 161**
 
 *Relaciones con otros bounded contexts de Quests.*
 
@@ -5953,7 +5949,7 @@ Las consultas necesarias se realizan mediante `UsersServiceClient`, mientras que
 
 La aplicación móvil presenta los casos de uso coordinados por el backend.
 
-**Tabla 163**
+**Tabla 162**
 
 *Componentes de la aplicación móvil de Quests.*
 
@@ -6016,7 +6012,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Model**
 
-**Tabla 164**
+**Tabla 163**
 
 *Elementos del modelo de dominio de Community.*
 
@@ -6044,7 +6040,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Model - Commands**
 
-**Tabla 165**
+**Tabla 164**
 
 *Commands de Community.*
 
@@ -6071,7 +6067,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Model - Queries**
 
-**Tabla 166**
+**Tabla 165**
 
 *Queries de Community.*
 
@@ -6090,7 +6086,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Model - Domain Events**
 
-**Tabla 167**
+**Tabla 166**
 
 *Eventos de dominio de Community.*
 
@@ -6111,7 +6107,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Repositories**
 
-**Tabla 168**
+**Tabla 167**
 
 *Repositorios de Community.*
 
@@ -6134,7 +6130,7 @@ Esta capa expone los casos de uso de Community mediante una API REST.
 
 **Sub-capa REST - Controllers**
 
-**Tabla 169**
+**Tabla 168**
 
 *Controllers REST de Community.*
 
@@ -6152,7 +6148,7 @@ Esta capa expone los casos de uso de Community mediante una API REST.
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 170**
+**Tabla 169**
 
 *Resources y assemblers de Community.*
 
@@ -6184,7 +6180,7 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Command Services**
 
-**Tabla 171**
+**Tabla 170**
 
 *Command services de Community.*
 
@@ -6202,7 +6198,7 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Query Services**
 
-**Tabla 172**
+**Tabla 171**
 
 *Query services de Community.*
 
@@ -6219,7 +6215,7 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Event Handlers**
 
-**Tabla 173**
+**Tabla 172**
 
 *Event handlers de Community.*
 
@@ -6234,7 +6230,7 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 Esta capa contiene las implementaciones de persistencia, los adaptadores de comunicación con otros bounded contexts y los componentes necesarios para integrar Community.
 
-**Tabla 174**
+**Tabla 173**
 
 *Componentes de la capa de infraestructura de Community.*
 
@@ -6252,7 +6248,7 @@ Esta capa contiene las implementaciones de persistencia, los adaptadores de comu
 
 **Relaciones entre bounded contexts y servicios externos**
 
-**Tabla 175**
+**Tabla 174**
 
 *Relaciones con otros bounded contexts de Community.*
 
@@ -6269,7 +6265,7 @@ Las consultas de usuarios, familias y roles se realizan mediante `UsersServiceCl
 
 La aplicación móvil consume los casos de uso del backend sin duplicar sus reglas de negocio.
 
-**Tabla 176**
+**Tabla 175**
 
 *Componentes de la aplicación móvil de Community.*
 
@@ -6341,7 +6337,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model**
 
-**Tabla 177**
+**Tabla 176**
 
 *Elementos del modelo de dominio de Gamification.*
 
@@ -6380,7 +6376,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Commands**
 
-**Tabla 178**
+**Tabla 177**
 
 *Commands de Gamification.*
 
@@ -6401,7 +6397,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Queries**
 
-**Tabla 179**
+**Tabla 178**
 
 *Queries de Gamification.*
 
@@ -6417,7 +6413,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Domain e Integration Events**
 
-**Tabla 180**
+**Tabla 179**
 
 *Eventos de dominio e integración de Gamification.*
 
@@ -6443,7 +6439,7 @@ El aviso de logro obtenido informa a Community sobre su concesión. La publicaci
 
 **Sub-capa Domain Services**
 
-**Tabla 181**
+**Tabla 180**
 
 *Servicios de dominio de Gamification.*
 
@@ -6455,7 +6451,7 @@ El aviso de logro obtenido informa a Community sobre su concesión. La publicaci
 
 **Sub-capa Repositories**
 
-**Tabla 182**
+**Tabla 181**
 
 *Repositorios de Gamification.*
 
@@ -6474,7 +6470,7 @@ Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados
 
 **Sub-capa REST - Controllers y Consumers**
 
-**Tabla 183**
+**Tabla 182**
 
 *Controllers y consumers de Gamification.*
 
@@ -6493,7 +6489,7 @@ Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 184**
+**Tabla 183**
 
 *Resources y assemblers de Gamification.*
 
@@ -6513,7 +6509,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Command Services**
 
-**Tabla 185**
+**Tabla 184**
 
 *Command services de Gamification.*
 
@@ -6527,7 +6523,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Query Services**
 
-**Tabla 186**
+**Tabla 185**
 
 *Query services de Gamification.*
 
@@ -6540,7 +6536,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Event Handlers**
 
-**Tabla 187**
+**Tabla 186**
 
 *Event handlers de Gamification.*
 
@@ -6567,7 +6563,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Persistencia e integración del backend**
 
-**Tabla 188**
+**Tabla 187**
 
 *Componentes de persistencia e integración de Gamification.*
 
@@ -6588,7 +6584,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Relaciones entre bounded contexts**
 
-**Tabla 189**
+**Tabla 188**
 
 *Relaciones con otros bounded contexts de Gamification.*
 
@@ -6601,7 +6597,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Mobile Application - Gamification Feature**
 
-**Tabla 190**
+**Tabla 189**
 
 *Componentes de la aplicación móvil de Gamification.*
 
@@ -6669,7 +6665,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model**
 
-**Tabla 191**
+**Tabla 190**
 
 *Elementos del modelo de dominio de Monetization.*
 
@@ -6691,7 +6687,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model - Value Objects y Enumerations**
 
-**Tabla 192**
+**Tabla 191**
 
 *Value objects y enumeraciones de Monetization.*
 
@@ -6719,7 +6715,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model - Commands**
 
-**Tabla 193**
+**Tabla 192**
 
 *Commands de Monetization.*
 
@@ -6739,7 +6735,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model - Queries**
 
-**Tabla 194**
+**Tabla 193**
 
 *Queries de Monetization.*
 
@@ -6757,7 +6753,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model - Domain e Integration Events**
 
-**Tabla 195**
+**Tabla 194**
 
 *Eventos de dominio e integración de Monetization.*
 
@@ -6777,7 +6773,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Services**
 
-**Tabla 196**
+**Tabla 195**
 
 *Servicios de dominio de Monetization.*
 
@@ -6791,7 +6787,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Repositories**
 
-**Tabla 197**
+**Tabla 196**
 
 *Repositorios de Monetization.*
 
@@ -6816,7 +6812,7 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 
 **Sub-capa REST - Controllers y Consumers**
 
-**Tabla 198**
+**Tabla 197**
 
 *Controllers y consumers de Monetization.*
 
@@ -6834,7 +6830,7 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 199**
+**Tabla 198**
 
 *Resources y assemblers de Monetization.*
 
@@ -6858,7 +6854,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Command Services**
 
-**Tabla 200**
+**Tabla 199**
 
 *Command services de Monetization.*
 
@@ -6873,7 +6869,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Query Services**
 
-**Tabla 201**
+**Tabla 200**
 
 *Query services de Monetization.*
 
@@ -6888,7 +6884,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Event Handlers**
 
-**Tabla 202**
+**Tabla 201**
 
 *Event handlers de Monetization.*
 
@@ -6909,7 +6905,7 @@ Esta capa contiene las clases que implementan persistencia, caché local, comuni
 
 
 
-**Tabla 203**
+**Tabla 202**
 
 *Componentes de la capa de infraestructura de Monetization.*
 
@@ -6937,7 +6933,7 @@ Esta capa contiene las clases que implementan persistencia, caché local, comuni
 
 **Relaciones entre bounded contexts**
 
-**Tabla 204**
+**Tabla 203**
 
 *Relaciones con otros bounded contexts de Monetization.*
 
@@ -7018,7 +7014,7 @@ El nombre EcoMind combina los conceptos de ecología y mentalidad consciente. El
 
 La paleta está basada en tonos naturales que transmiten frescura, vitalidad y cuidado ambiental, complementados por colores de acento para gamificación:
 
-**Tabla 205**
+**Tabla 204**
 
 *Paleta de colores de EcoMind.*
 
@@ -7083,7 +7079,7 @@ Este sistema se aplica especialmente en las barras superior e inferior, las cual
 
 La barra superior presenta información relacionada con el estado general del usuario y el acceso a funciones complementarias.
 
-**Tabla 206**
+**Tabla 205**
 
 *Iconos y etiquetas de la barra superior.*
 
@@ -7101,7 +7097,7 @@ Los valores de los diamantes y de la racha se muestran junto a sus respectivos i
 
 La barra inferior funciona como el principal medio de navegación entre las secciones de la aplicación. Cada sección se representa exclusivamente mediante un icono.
 
-**Tabla 207**
+**Tabla 206**
 
 *Iconos y etiquetas de la barra inferior.*
 
@@ -7124,7 +7120,7 @@ EcoMind cuenta con una landing page pública y una aplicación móvil. Por ello,
 
 La landing page comunica la propuesta de valor de EcoMind y orienta a los usuarios hacia la descarga de la aplicación móvil. Para esta página se establecen las siguientes etiquetas:
 
-**Tabla 208**
+**Tabla 207**
 
 *Etiquetas SEO y metadatos de la Landing Page.*
 
@@ -7199,7 +7195,7 @@ La aplicación móvil utiliza elementos ASO relacionados con la educación ambie
 
 **App Store**
 
-**Tabla 209**
+**Tabla 208**
 
 *Elementos de posicionamiento de EcoMind en App Store.*
 
@@ -7215,7 +7211,7 @@ La aplicación móvil utiliza elementos ASO relacionados con la educación ambie
 
 **Google Play**
 
-**Tabla 210**
+**Tabla 209**
 
 *Elementos de posicionamiento de EcoMind en Google Play.*
 
@@ -7237,7 +7233,7 @@ Las interfaces de búsqueda mantienen una estructura visual consistente: un camp
 
 La sección de retos incluye una barra de búsqueda que permite localizar actividades mediante palabras relacionadas con su nombre o contenido. También presenta un panel de filtros organizado mediante controles desplegables.
 
-**Tabla 211**
+**Tabla 210**
 
 *Filtros de búsqueda de retos.*
 
@@ -7254,7 +7250,7 @@ Después de seleccionar los criterios, el usuario confirma la búsqueda mediante
 
 La sección de aprendizaje dispone de una barra de búsqueda y filtros orientados a encontrar materiales educativos adecuados para las necesidades del usuario.
 
-**Tabla 212**
+**Tabla 211**
 
 *Filtros de búsqueda de materiales de aprendizaje.*
 
@@ -7312,7 +7308,7 @@ En dispositivos móviles, la barra de navegación de la landing page se presenta
 
 La aplicación móvil utiliza una barra de navegación inferior persistente. Esta barra permite cambiar directamente entre las principales áreas de EcoMind sin regresar a una pantalla inicial.
 
-**Tabla 213**
+**Tabla 212**
 
 *Secciones de la navegación inferior.*
 
@@ -7331,7 +7327,7 @@ La sección activa se diferencia mediante un color más intenso. Este indicador 
 
 La barra superior se mantiene visible en las pantallas principales y reúne información general del usuario y accesos complementarios.
 
-**Tabla 214**
+**Tabla 213**
 
 *Funciones de la barra superior.*
 
@@ -7967,7 +7963,7 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Project Management**
 
-**Tabla 215**
+**Tabla 214**
 
 *Herramientas de gestión de proyectos.*
 
@@ -7978,7 +7974,7 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Requirements Management**
 
-**Tabla 216**
+**Tabla 215**
 
 *Herramientas de gestión de requisitos.*
 
@@ -7990,7 +7986,7 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Product UX/UI Design**
 
-**Tabla 217**
+**Tabla 216**
 
 *Herramientas de diseño UX/UI.*
 
@@ -8001,7 +7997,7 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Software Development**
 
-**Tabla 218**
+**Tabla 217**
 
 *Herramientas de desarrollo de software.*
 
@@ -8019,7 +8015,7 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Software Testing**
 
-**Tabla 219**
+**Tabla 218**
 
 *Herramientas de pruebas de software.*
 
@@ -8031,7 +8027,7 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Software Deployment**
 
-**Tabla 220**
+**Tabla 219**
 
 *Herramientas de despliegue de software.*
 
@@ -8048,7 +8044,7 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Software Documentation**
 
-**Tabla 221**
+**Tabla 220**
 
 *Herramientas de documentación de software.*
 
@@ -8065,7 +8061,7 @@ El proyecto se gestionará mediante Git como sistema de control de versiones, ut
 
 **Repositorios de GitHub por producto**
 
-**Tabla 222**
+**Tabla 221**
 
 *Repositorios de GitHub por producto.*
 
@@ -8308,7 +8304,7 @@ En esta sección se describe la configuración del despliegue de EcoMind, incluy
 5. Configurar GitHub Actions con autenticación federada de Azure. Al integrar cambios en `develop`, ejecutar las pruebas, construir la imagen y desplegarla en Container Apps.
 6. Verificar la nueva revisión y el estado de salud del Backend API.
 
-**Tabla 223**
+**Tabla 222**
 
 *URLs de los servicios desplegados de EcoMind.*
 
@@ -8329,7 +8325,7 @@ En esta sección se presenta el trabajo planificado para el primer Sprint de Eco
 
 Aquí se documentan los acuerdos de planificación del Sprint 1, incluyendo su objetivo y la estimación del trabajo.
 
-**Tabla 224**
+**Tabla 223**
 
 *Objetivo y estimación del Sprint 1.*
 
@@ -8350,7 +8346,7 @@ Aquí se documentan los acuerdos de planificación del Sprint 1, incluyendo su o
 
 En esta sección se presentan los aspectos principales del Sprint 1 y la distribución de responsabilidades según las User Stories planteadas en el desarrollo del sprint. Entre ellas, la Landing Page informativa, los retos, aspectos de gamificación, rankings, la participación en comunidad, la personalización y compra de elementos virtuales, y la gestión de perfiles, familias y amigos. La tabla organiza estos aspectos por área del producto y presenta los roles de liderazgo y colaboración definidos para el Sprint.
 
-**Tabla 225**
+**Tabla 224**
 
 *Líderes y colaboradores por área del Sprint 1.*
 
@@ -8374,7 +8370,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 ![Sprint_1](assets/img/figures/Sprint_1.png)
 
-**Tabla 226**
+**Tabla 225**
  
 *Tabla de Sprint backlog 1*
 
@@ -9115,9 +9111,9 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 #### 4.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los flujos de la aplicación Android. La Tabla 227 relaciona los cambios con sus repositorios y ramas.
+Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los flujos de la aplicación Android. La Tabla 226 relaciona los cambios con sus repositorios y ramas.
 
-**Tabla 227**
+**Tabla 226**
 
 *Commits de implementación del Sprint 1*
 
@@ -9173,7 +9169,7 @@ Las pruebas de los servicios se ejecutaron en `main`, commit [a6d1491](https://g
 
 Los proyectos de pruebas se encuentran en [EcoMind_Backend/src/test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/a6d1491f722c8ee88cbd84337aa1c995e14be44c/src/test), [EcoMind_Android/app/src/test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/tree/5e26fe6ed67c9aa034c78c4c97badec589a88dad/app/src/test) y [EcoMind_Android/app/src/androidTest](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/tree/5e26fe6ed67c9aa034c78c4c97badec589a88dad/app/src/androidTest).
 
-**Tabla 228**
+**Tabla 227**
 
 *Commits que incorporan y actualizan las pruebas del Sprint 1*
 
@@ -9184,7 +9180,7 @@ Los proyectos de pruebas se encuentran en [EcoMind_Backend/src/test](https://git
 | EcoMind_Android | `feature/gamification` | [d88dffd](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/d88dffd451d6513a922cfe14f848f631b9bbcbaf) | feat(gamification): connect progress rewards and achievement sharing | — | 2026-10-09 |
 | EcoMind_Android | `feature/gamification` | [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad) | refactor(gamification): centralize authentication in shared client | — | 2026-10-10 |
 
-**Tabla 229**
+**Tabla 228**
 
 *Resultado de pruebas y compilación del 10 de octubre de 2026*
 
@@ -9208,9 +9204,9 @@ La Figura 136 presenta la ejecución del pipeline en `main`. Los resultados se c
 
 <img src="assets/img/figures/sprint-1/backend-intellij-tests.png" alt="IntelliJ IDEA muestra 588 ejecuciones aprobadas y un escenario Gherkin de grupo familiar" width="100%">
 
-*Nota. La vista «All in ecomind-backend» de IntelliJ IDEA registra 588 ejecuciones aprobadas. La Tabla 229 corresponde a las 515 pruebas ejecutadas por Maven en cada base de datos del pipeline.*
+*Nota. La vista «All in ecomind-backend» de IntelliJ IDEA registra 588 ejecuciones aprobadas. La Tabla 228 corresponde a las 515 pruebas ejecutadas por Maven en cada base de datos del pipeline.*
 
-**Tabla 230**
+**Tabla 229**
 
 *Trazabilidad de pruebas de los servicios*
 
@@ -9322,7 +9318,7 @@ La navegación también permite consultar el grupo familiar y el catálogo de co
 
 La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL en el puerto `8092`. Swagger UI estuvo disponible en `http://localhost:8092/swagger-ui/index.html`. La aplicación Android se instaló en el emulador con el APK debug y consumió `http://10.0.2.2:8092/api/v1/`.
 
-**Tabla 231**
+**Tabla 230**
 
 *Artefactos de ejecución*
 
@@ -9337,7 +9333,7 @@ La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL e
 
 El Backend API documenta sus servicios con OpenAPI 3.1 y Swagger UI. Los contratos están agrupados por bounded context y especifican métodos HTTP, parámetros, cuerpos JSON y códigos de respuesta. El contrato corresponde al código [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635), integrado en `main` [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c). El [catálogo de servicios](assets/evidence/sprint-1/services-catalog.md) detalla 140 operaciones en 113 rutas, con parámetros, esquemas de solicitud y respuesta, códigos HTTP y ejemplos de invocación. La instancia documentada expone Swagger UI en `http://localhost:8093/swagger-ui/index.html` y el contrato en `http://localhost:8093/v3/api-docs`.
 
-**Tabla 232**
+**Tabla 231**
 
 *Servicios REST de los flujos implementados*
 
@@ -9614,7 +9610,7 @@ En esta sección se presenta el trabajo planificado para el segundo Sprint de Ec
 
 Aquí se documentan los acuerdos de planificación del Sprint 2, incluyendo su objetivo y la estimación del trabajo.
 
-**Tabla 233**
+**Tabla 232**
 
 *Planificación del aporte al Sprint 2.*
 
@@ -9633,9 +9629,9 @@ Aquí se documentan los acuerdos de planificación del Sprint 2, incluyendo su o
 
 #### 4.2.2.2. Aspect Leaders and Collaborators
 
-En el Sprint 2, el equipo se enfocó en completar las funcionalidades pendientes de la aplicación nativa de Android y avanzar en la implementación de las funcionalidades principales de EcoMind en Flutter. La Tabla 234 presenta la distribución de responsabilidades para las historias de usuario y las tareas técnicas del sprint en las áreas de gestión de acceso, retos, comunidad, monetización, perfiles, gamificación y aprendizaje. Para cada área, se indica quién asumió el liderazgo (L) y quiénes colaboraron (C).
+En el Sprint 2, el equipo se enfocó en completar las funcionalidades pendientes de la aplicación nativa de Android y avanzar en la implementación de las funcionalidades principales de EcoMind en Flutter. La Tabla 233 presenta la distribución de responsabilidades para las historias de usuario y las tareas técnicas del sprint en las áreas de gestión de acceso, retos, comunidad, monetización, perfiles, gamificación y aprendizaje. Para cada área, se indica quién asumió el liderazgo (L) y quiénes colaboraron (C).
 
-**Tabla 234**
+**Tabla 233**
 
 *Líderes y colaboradores por área del Sprint 2.*
 
@@ -9659,7 +9655,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 ![Sprint_2](assets/img/figures/Sprint_2.png)
 
-**Tabla 235**
+**Tabla 234**
 
 *Sprint Backlog 2.*
 
@@ -10396,7 +10392,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 Durante el Sprint 2, el equipo amplió la aplicación nativa de Android con retos familiares y colaborativos, funciones de comunidad y mejoras en gamificación y aprendizaje. En Flutter, implementó el acceso a la cuenta y el flujo principal de retos, desde la búsqueda hasta la consulta del progreso.
 
-**Tabla 236**
+**Tabla 235**
 
 *Commits de implementación del Sprint 2*
 
@@ -10478,7 +10474,7 @@ Las pruebas automatizadas del Sprint 2 cubren los servicios web de EcoMind y su 
 
 **Repositorios de los proyectos de Testing**
 
-**Tabla 237**
+**Tabla 236**
 
 *Repositorios y ramas de las pruebas del Sprint 2.*
 
@@ -10490,7 +10486,7 @@ Las pruebas automatizadas del Sprint 2 cubren los servicios web de EcoMind y su 
 
 **Unit Tests**
 
-**Tabla 238**
+**Tabla 237**
 
 *Pruebas unitarias del Backend API por historia o tarea del Sprint 2.*
 
@@ -10509,7 +10505,7 @@ Las pruebas automatizadas del Sprint 2 cubren los servicios web de EcoMind y su 
 | HU-063, HU-064 | [`CommunityGoalCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/community/application/internal/commandservices/CommunityGoalCommandServiceImplTests.java) | `CommunityGoalCommandServiceImpl` | Restringe la creación de metas, impide dos metas activas y evita duplicar el reconocimiento al completar una meta. |
 | TS-016, HU-018 | [`NotificationCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/notifications/application/internal/commandservices/NotificationCommandServiceImplTests.java), [`CommunityEventConsumerTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/notifications/interfaces/acl/CommunityEventConsumerTests.java), [`ScheduledNotificationsTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/notifications/application/internal/services/ScheduledNotificationsTests.java) | `NotificationCommandServiceImpl`, `CommunityEventConsumer`, `LearningReminderService`, `WeeklySummaryService` | Valida la lectura por el destinatario, evita duplicados por origen, limita las alertas de eventos a padres y comprueba los recordatorios y el resumen semanal. |
 
-**Tabla 239**
+**Tabla 238**
 
 *Pruebas unitarias en Android y Flutter por historia o tarea del Sprint 2.*
 
@@ -10526,7 +10522,7 @@ Las pruebas automatizadas del Sprint 2 cubren los servicios web de EcoMind y su 
 
 **Integration Tests de Web Services y pruebas de cliente**
 
-**Tabla 240**
+**Tabla 239**
 
 *Pruebas de integración de servicios web y clientes del Sprint 2.*
 
@@ -10550,7 +10546,7 @@ Las pruebas automatizadas del Sprint 2 cubren los servicios web de EcoMind y su 
 
 [`RunCucumberTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/RunCucumberTest.java) carga los `.feature` y los [Steps en Java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd). `CucumberSpringConfiguration` inicia Spring con el perfil `test` y `ApiClient` llama a los servicios mediante MockMvc. Los Steps preparan datos, envían la solicitud y verifican el estado HTTP, los campos JSON y el estado que deja cada operación. `CommonSteps` aporta las aserciones compartidas.
 
-**Tabla 241**
+**Tabla 240**
 
 *Escenarios de aceptación en Gherkin del Sprint 2.*
 
@@ -10572,7 +10568,7 @@ Las pruebas automatizadas del Sprint 2 cubren los servicios web de EcoMind y su 
 
 La tabla incluye los commits que modificaron archivos de prueba durante el Sprint 2. La rama corresponde a la integración identificada en el historial de `develop`. La fecha se obtuvo del campo de confirmación de Git y `—` indica que el commit tiene solo asunto.
 
-**Tabla 242**
+**Tabla 241**
 
 *Commits de pruebas del Sprint 2.*
 
@@ -10656,9 +10652,9 @@ La tabla incluye los commits que modificaron archivos de prueba durante el Sprin
 
 **Ejecución de la suite**
 
-La Tabla 243 presenta los resultados por proyecto, revisión y entorno de ejecución. Los resultados se conservan en el [registro de pruebas del Sprint 2](assets/evidence/sprint-2/test-results.json).
+La Tabla 242 presenta los resultados por proyecto, revisión y entorno de ejecución. Los resultados se conservan en el [registro de pruebas del Sprint 2](assets/evidence/sprint-2/test-results.json).
 
-**Tabla 243**
+**Tabla 242**
 
 *Resultados de pruebas del Sprint 2.*
 
@@ -10939,7 +10935,7 @@ Durante el Sprint 2 se consolidó la documentación de los Web Services del Back
 
 **Repositorio Backend:** https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend
 
-**Tabla 244**
+**Tabla 243**
 
 *Nuevos Servicios REST implementados por bounded context.*
 
@@ -11234,7 +11230,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub Actions ejecuta las pruebas y la verificación de la imagen antes de publicar los cambios de `develop`.
 
-**Tabla 245**
+**Tabla 244**
 
 *Recursos del despliegue de Sprint 2.*
 
@@ -11444,7 +11440,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Padres de Familia
 <br>
 
-**Tabla 246**
+**Tabla 245**
  
 *Entrevista de validación 1 del segmento de padres de familia.*
  
@@ -11454,7 +11450,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 | **Entrevistada N°1:** Yolanda Nely Mota Granados<br>**Edad:** 52 años<br>**Ubicación:** Surquillo, Lima<br>**Entrevistadora:** Katty Philco<br>**Fecha de la entrevista:** 09/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Yolanda Nely Mota Granados](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416107_upc_edu_pe/IQD6MW-bHvTgTLIvTWB1yt1yAdBEq5G0st9w9zk0MEyuoXs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BSMdpw)<br>**Instante del que inicia:** 00:58<br>**Duración:** 05:48<br><br>**Resumen:**<br><br>La entrevistada es Yolanda Nely Mota Granados, una madre de familia de 52 años que vive en Surquillo. Tras explorar el Landing Page, comprendió con claridad que EcoMind busca enseñar a los niños y a la familia a adoptar hábitos de cuidado del medio ambiente.<br><br>Al usar la aplicación, identificó sin dificultad la información familiar y el perfil de su hijo, y valoró positivamente la variedad de contenidos, retos, reuniones y comunidades. Indicó que el seguimiento al aprendizaje de su hija necesita mejoras para ser más efectivo. En comunidad logró crear comunidades, pero no comprendió el flujo para inscribir a su familia en los eventos del mapa.<br><br>Respecto a la gamificación, encontró con facilidad su posición en el ranking y señaló que ver los puestos la motiva a seguir participando. Le pareció atractiva la dinámica de la tienda y las gemas, aunque manifestó desconfianza ante el uso de tarjetas de crédito o pagos de dinero dentro de la plataforma.<br><br>Consideró que la aplicación es relevante tanto para los padres como para los niños, pero sintió confusión al navegar para encontrar secciones específicas. Por ello sugirió simplificar la interfaz para que los adultos aprendan a usarla más rápido. Propuso además incluir una función de comunicación familiar que permita enviarse recordatorios directos sobre acciones sostenibles en el hogar, como apagar las luces o cerrar los caños.<br><br>Calificó con 5 sobre 5 la probabilidad de usar EcoMind con regularidad junto a su familia, por su interés en promover la conservación ambiental y por el ahorro práctico de recursos en su hogar. |
 
  
-**Tabla 247**
+**Tabla 246**
  
 *Entrevista de validación 2 del segmento de padres de familia.*
  
@@ -11466,7 +11462,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Niños de primaria
 <br>
 
-**Tabla 248**
+**Tabla 247**
  
 *Entrevista de validación 1 del segmento de niños de primaria.*
  
@@ -11477,7 +11473,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 
 **Entrevista de validación - Sprint 2**
 
-**Tabla 249**
+**Tabla 248**
 
 *Entrevista de validación 2 del segmento de niños de primaria. (SPRINT 2)*
  
@@ -11523,7 +11519,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 **ESCALA DE SEVERIDAD:**
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
-**Tabla 250**
+**Tabla 249**
 
 *Escala de severidad de los problemas de usabilidad.*
 
@@ -11537,7 +11533,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **TABLA RESUMEN:**
 
-**Tabla 251**
+**Tabla 250**
 
 *Resumen de hallazgos de la evaluación heurística.*
 
@@ -11719,7 +11715,7 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 
 ### Secuencia de contenido
 
-**Tabla 252**
+**Tabla 251**
 
 *Secuencia del video About the Product.*
 
@@ -11760,7 +11756,7 @@ Posteriormente, los integrantes presentan sus testimonios individuales, en los q
 
 ### Secuencia de contenido
 
-**Tabla 253**
+**Tabla 252**
 
 *Secuencia del video About the Team.*
 
