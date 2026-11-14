@@ -10393,21 +10393,23 @@ En esta sección se muestran los aportes de cada integrante en los repositorios 
 
 **Sprint 2 - App Android**
 
-![av2_android](assets/img/figures/av2_android.png)
+![Sprint2_Contributors](assets/img/figures/AndroidSprint2Contributors.png)
 
-*Historial de commits de la aplicación Android durante el Sprint 2.*
+![Sprint2_Pulse](assets/img/figures/AndroidSprint2Pulse.png)
+
 
 **Sprint 2 - App Flutter**
 
-![av2_flutter](assets/img/figures/av2_flutter.png)
+![Sprint2_Contributors](assets/img/figures/FlutterSprint2Contributors.png)
 
-*Historial de commits de la aplicación Flutter durante el Sprint 2.*
+![Sprint2_Pulse](assets/img/figures/FlutterSprint2Pulse.png)
 
 **Sprint 2 - Backend**
 
-![av2_backend](assets/img/figures/av2_backend.png)
+![Sprint2_Contributors](assets/img/figures/CollabSprint2Backend1.png)
 
-*Historial de commits del Backend durante el Sprint 2.*
+![Sprint2_Pulse](assets/img/figures/CollabSprint2Backend2.png)
+
 
 ## 4.3. Validation Interviews
 
@@ -10755,6 +10757,18 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 - **Elaboración:** Elaboración propia.
 - **OneDrive:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQAm-bbQdtuwR7clFjl4SpRaAbkZsP7XZNGdzmSYpESSkE4?e=a1bF4w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 - **YouTube:** https://youtu.be/ncnP-2C8w-0?si=_yzorFEw2-XiaPrd
+
+### Evidencia del video
+
+<p align="center">
+  <img src="assets/img/figures/aboutTheProduct.jpeg" alt="Video About the Product de EcoMind" width="700">
+</p>
+
+<p align="center">
+  <strong>Figura X.</strong> Video About the Product de EcoMind.<br>
+  <strong>Nota.</strong> Elaboración propia.
+</p>
+
 ### Secuencia de contenido
 
 | Tiempo | Contenido |
@@ -10767,15 +10781,6 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 | 01:15–01:35 | Personalización del perfil, favoritos y progreso. |
 | 01:35–01:54 | Presentación de Comunidad y Ranking. |
 | 01:54–02:09 | Testimonio de un padre de familia y cierre del video. |
-
-### Evidencia del video
-
-<p align="center">
-  <img src="assets/img/figures/aboutTheProduct.jpeg" alt="Video About the Product de EcoMind" width="700">
-</p>
-
-**Figura X.** Video About the Product de EcoMind.  
-**Nota.** Elaboración propia.
 
 # Video About the team
 
@@ -10790,6 +10795,18 @@ Posteriormente, los integrantes presentan sus testimonios individuales, en los q
 - **Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQCtJKtufwXvRqf7tq9Es2a_AQlCUL5lay9e-xPkfunyjCE?e=V1EpXZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 - **YouTube:** https://youtu.be/CCD8kZNfLDo?si=NGhDRwPDWi9ZU-xQ
 
+### Evidencia del video
+
+<p align="center">
+  <img src="assets/img/figures/aboutTheTeam.jpeg" alt="Video About the Team de GreenMinds" width="700">
+</p>
+
+<p align="center">
+  <strong>Figura X.</strong> Video About the Team de GreenMinds.<br>
+  <strong>Nota.</strong> Elaboración propia.
+</p>
+
+### Secuencia de contenido
 
 | Inicio | Sección | Contenido |
 |---|---|---|
@@ -10809,15 +10826,6 @@ Posteriormente, los integrantes presentan sus testimonios individuales, en los q
 | 00:07:59 | Isabel Aponte | Trabajo realizado durante los sprints, competencias desarrolladas y cumplimiento del Student Outcome 7. |
 | 00:09:05 | Leo Dulanto | Actividades desarrolladas, dificultades superadas y conocimientos adquiridos durante el proyecto. |
 | 00:10:15 | Cierre | Reflexión final y presentación de GreenMinds como equipo responsable de EcoMind. |
-
-<p align="center">
-  <img src="assets/img/figures/aboutTheTeam.jpeg" alt="Video About the Team de GreenMinds" width="700">
-</p>
-
-<p align="center">
-  <strong>Figura X.</strong> Video About the Team de GreenMinds.<br>
-  <strong>Nota.</strong> Elaboración propia.
-</p>
 
 # Bibliografía
 
