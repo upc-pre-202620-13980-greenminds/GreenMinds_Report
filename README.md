@@ -10005,17 +10005,220 @@ Las pruebas cubrieron recuperación, cierre de sesión, aceptación de términos
 
 #### 4.2.2.6. Execution Evidence for Sprint Review
 
-Android y Flutter consumen el mismo Backend API. Las ejecuciones de IAM incluyeron solicitud de recuperación, apertura del enlace, confirmación de contraseña, inicio de sesión y cierre de sesión. Flutter verificó además la recuperación ante pérdida de respuesta sin repetir el cambio de contraseña. Las ejecuciones registradas se realizaron en emuladores.
+En esta sección se presentan las evidencias de ejecución de EcoMind correspondientes al Sprint 2, mediante un video demostrativo y capturas de las principales funcionalidades de la aplicación móvil. Las evidencias se organizan por bounded context y muestran los flujos implementados para el acceso de usuarios, la realización de retos, el aprendizaje ambiental, la participación comunitaria y la gestión del progreso y las recompensas.
 
-**Figura 159**
+Link video de ejecución: https://youtu.be/Tgp8eGX5J5Q
 
-*Confirmación de recuperación y retorno a inicio de sesión en Android con API local, registro del 5 de noviembre de 2026.*
 
-<table><tr><td><img src="assets/evidence/iam-account-access/password-updated.png" alt="Contraseña actualizada en Android" width="280"></td><td><img src="assets/evidence/iam-account-access/signed-out.png" alt="Inicio de sesión después de cerrar la sesión" width="280"></td></tr></table>
+**Bounded Context IAM:** En Iam contamos con las pantallas de registro, inicio de sesión y recuperación de contraseña, mediante las cuales los usuarios pueden crear una cuenta y gestionar su acceso a EcoMind.
 
-El [registro de clientes](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) documenta las verificaciones posteriores con Azure. Los resultados del escenario de Flutter con correo recibido y pérdida de respuesta están incluidos en el [registro de pruebas](assets/evidence/sprint-2/test-results.json).
+**Figura XX**
 
-En Gamification, Android consulta rankings, puntos, rachas, medallas e historial. XP y ecopoints representan una sola puntuación; las gemas pertenecen a Monetization. El backend acredita el bono semanal de racha y concede la medalla del primer reto a partir de una finalización validada. En la verificación de integración con una cuenta de prueba, completar el reto incrementó los ecopoints de 20 a 30, las medallas de 0 a 1 y las recompensas de 1 a 2, con una gema otorgada. Repetir la solicitud conservó los totales.
+*Pantalla de Sign Up*
+
+![sign_up.jpg](assets/img/figures/sprint-2/execution_sign_up.png)
+
+
+**Figura XX**
+
+*Pantalla de Sign in*
+
+![sign_in.jpg](assets/img/figures/sprint-2/execution_sign_in.png)
+
+**Figura XX**
+
+*Pantalla de Forgot Password*
+
+![forgot_password.jpg](assets/img/figures/sprint-2/execution_forgot_password.png)
+
+**Bounded Context Quest:** En Quest se presenta el recorrido desde la consulta de retos y sus actividades hasta su ejecución y finalización, como también la ejecución de un minijuego y el historial de actividades.
+
+**Figura XX**
+
+*Pantalla de Home de Quests*
+
+![quest_home.jpg](assets/img/figures/sprint-2/execution_quest_home.png)
+
+**Figura XX**
+
+*Pantalla de detalle de quest*
+
+![quest_task.jpg](assets/img/figures/sprint-2/execution_quest_tasks.png)
+
+**Figura XX**
+
+*Pantalla de animacion de inicio de quest*
+
+![quest_animation.jpg](assets/img/figures/sprint-2/execution_quest_animation.png)
+
+**Figura XX**
+
+*Pantalla de desarrollo de quest*
+
+![quest_task_completing.jpg](assets/img/figures/sprint-2/execution_quest_tasks_completing.png)
+
+**Figura XX**
+
+*Pantalla de quest completada*
+
+![quest_task_completed.jpg](assets/img/figures/sprint-2/execution_quest_completed.png)
+
+**Figura XX**
+
+*Pantalla de minijuego*
+
+![quest_minigame.jpg](assets/img/figures/sprint-2/execution_quest_minigame.png)
+
+**Figura XX**
+
+*Pantalla de minijuego*
+
+![quest_historial.jpg](assets/img/figures/sprint-2/execution_historial_activity.png)
+
+
+**Bounded Context Learning:** En learning se muestra la consulta del catálogo de materiales educativos y la visualización del detalle de cada recurso, facilitando el acceso a contenidos relacionados con el cuidado del medioambiente.
+
+**Figura XX**
+
+*Pantalla de materiales disponibles*
+
+![learning.jpg](assets/img/figures/sprint-2/execution_learning.png)
+
+**Figura XX**
+
+*Pantalla de detalle de material especifico*
+
+![learning_detail.jpg](assets/img/figures/sprint-2/execution_learning_detail.png)
+
+**Bounded Context Gamification:** Contamos con rankings local y global, que permiten consultar la posición de los usuarios según su participación. Como tambien, las pantallas de configuración y notificaciones como parte de la experiencia de uso de la aplicación.
+
+**Figura XX**
+
+*Pantalla de Ranking Local*
+
+![gamification_local_ranking.jpg](assets/img/figures/sprint-2/execution_ranking_local.png)
+
+**Figura XX**
+
+*Pantalla de Ranking Global*
+
+![gamification_global_ranking.jpg](assets/img/figures/sprint-2/execution_ranking_global.png)
+
+**Figura XX**
+
+*Pantalla de configuracion*
+
+![gamification_notification.jpg](assets/img/figures/sprint-2/execution_config.png)
+
+**Figura XX**
+
+*Pantalla de notificaciones*
+
+![gamification_notification.jpg](assets/img/figures/sprint-2/execution_notification.png)
+
+**Bounded Context Community:** En community estaria la consulta, creación e inscripción a comunidades locales y temáticas, así como la creación y gestión de eventos. También contamos con chat de los eventos y las secciones de logros y noticias, que facilitan la interacción entre los miembros.
+
+**Figura XX**
+
+*Pantalla de lista de comunidades locales*
+
+![community_local_list.jpg](assets/img/figures/sprint-2/execution_community_local_list.png)
+
+**Figura XX**
+
+*Pantalla de unirse a comunidad*
+
+![community_join.jpg](assets/img/figures/sprint-2/execution_community_join.png)
+
+**Figura XX**
+
+*Pantalla de eventos en comunidad*
+
+![community_local_event.jpg](assets/img/figures/sprint-2/execution_community_events.png)
+
+**Figura XX**
+
+*Pantalla de crear eventos en comunidad*
+
+![community_create_event.jpg](assets/img/figures/sprint-2/execution_community_create_event.png)
+
+**Figura XX**
+
+*Pantalla de mis eventos*
+
+![community_my_events.jpg](assets/img/figures/sprint-2/execution_community_my_events.png)
+
+**Figura XX**
+
+*Pantalla de chat de evento especifico*
+
+![community_chat.jpg](assets/img/figures/sprint-2/execution_community_chat.png)
+
+**Figura XX**
+
+*Pantalla de logros comunitarios*
+
+![community_awards.jpg](assets/img/figures/sprint-2/execution_community_awards.png)
+
+**Figura XX**
+
+*Pantalla de noticias de la comunidad*
+
+![community_news.jpg](assets/img/figures/sprint-2/execution_community_news.png)
+
+**Figura XX**
+
+*Pantalla de lista de comunidades de topico especifico*
+
+![community_topic_list.jpg](assets/img/figures/sprint-2/execution_community_topic_list.png)
+
+**Figura XX**
+
+*Pantalla de crear comunidad*
+
+![community_create.jpg](assets/img/figures/sprint-2/execution_community_create.png)
+
+**Bounded Context Monetization:** En cuanto a monetization estan las secciones de la tienda destinadas a cosméticos, mejoras y paquetes de gemas.
+
+**Figura XX**
+
+*Pantalla de tienda de cosmeticos*
+
+![store_cosmetics.jpg](assets/img/figures/sprint-2/execution_store_cosmetics.png)
+
+**Figura XX**
+
+*Pantalla de tienda de mejoras*
+
+![store_multipliers.jpg](assets/img/figures/sprint-2/execution_store_multipliers.png)
+
+**Figura XX**
+
+*Pantalla de tienda de gemas*
+
+![store_multipliers.jpg](assets/img/figures/sprint-2/execution_store_gems.png)
+
+**Bounded Context Users:** Y para users tenemos tres pantallas principales, perfil, amigos y familia, desde las cuales los usuarios pueden consultar su información personal y acceder a las funciones de vinculación social y familiar.
+
+**Figura XX**
+
+*Pantalla de Perfil*
+
+![profile.jpg](assets/img/figures/sprint-2/execution_user_profile.png)
+
+**Figura XX**
+
+*Pantalla de Amigos*
+
+![friends.jpg](assets/img/figures/sprint-2/execution_user_friends.png)
+
+**Figura XX**
+
+*Pantalla de Familia*
+
+![family.jpg](assets/img/figures/sprint-2/execution_user_family.png)
+
+
 
 #### 4.2.2.7. Services Documentation Evidence for Sprint Review
 
