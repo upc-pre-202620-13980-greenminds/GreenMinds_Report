@@ -10677,20 +10677,20 @@ En esta sección se presentan las evidencias de ejecución de EcoMind correspond
 
 **Bounded Context IAM:** En Iam contamos con las pantallas de registro, inicio de sesión y recuperación de contraseña, mediante las cuales los usuarios pueden crear una cuenta y gestionar su acceso a EcoMind.
 
-**Figura XX**
+**Figura 170**
 
 *Pantalla de Sign Up*
 
 ![sign_up.jpg](assets/img/figures/sprint-2/execution_sign_up.png)
 
 
-**Figura XX**
+**Figura 171**
 
 *Pantalla de Sign in*
 
 ![sign_in.jpg](assets/img/figures/sprint-2/execution_sign_in.png)
 
-**Figura XX**
+**Figura 172**
 
 *Pantalla de Forgot Password*
 
@@ -10698,7 +10698,7 @@ En esta sección se presentan las evidencias de ejecución de EcoMind correspond
 
 Android y Flutter consumen el mismo Backend API. Las ejecuciones de IAM incluyeron solicitud de recuperación, apertura del enlace, confirmación de contraseña, inicio de sesión y cierre de sesión. Flutter verificó además la recuperación ante pérdida de respuesta sin repetir el cambio de contraseña. Las ejecuciones registradas se realizaron en emuladores.
 
-**Figura 170**
+**Figura 173**
 
 *Confirmación de recuperación y retorno a inicio de sesión en Android con API local, registro del 5 de noviembre de 2026.*
 
@@ -10708,43 +10708,43 @@ El [registro de clientes](assets/evidence/iam-account-access/azure-clients-2026-
 
 **Bounded Context Quest:** En Quest se presenta el recorrido desde la consulta de retos y sus actividades hasta su ejecución y finalización, como también la ejecución de un minijuego y el historial de actividades.
 
-**Figura XX**
+**Figura 174**
 
 *Pantalla de Home de Quests*
 
 ![quest_home.jpg](assets/img/figures/sprint-2/execution_quest_home.png)
 
-**Figura XX**
+**Figura 175**
 
 *Pantalla de detalle de quest*
 
 ![quest_task.jpg](assets/img/figures/sprint-2/execution_quest_tasks.png)
 
-**Figura XX**
+**Figura 176**
 
 *Pantalla de animacion de inicio de quest*
 
 ![quest_animation.jpg](assets/img/figures/sprint-2/execution_quest_animation.png)
 
-**Figura XX**
+**Figura 177**
 
 *Pantalla de desarrollo de quest*
 
 ![quest_task_completing.jpg](assets/img/figures/sprint-2/execution_quest_tasks_completing.png)
 
-**Figura XX**
+**Figura 178**
 
 *Pantalla de quest completada*
 
 ![quest_task_completed.jpg](assets/img/figures/sprint-2/execution_quest_completed.png)
 
-**Figura XX**
+**Figura 179**
 
 *Pantalla de minijuego*
 
 ![quest_minigame.jpg](assets/img/figures/sprint-2/execution_quest_minigame.png)
 
-**Figura XX**
+**Figura 180**
 
 *Pantalla de minijuego*
 
@@ -10753,13 +10753,13 @@ El [registro de clientes](assets/evidence/iam-account-access/azure-clients-2026-
 
 **Bounded Context Learning:** En learning se muestra la consulta del catálogo de materiales educativos y la visualización del detalle de cada recurso, facilitando el acceso a contenidos relacionados con el cuidado del medioambiente.
 
-**Figura XX**
+**Figura 181**
 
 *Pantalla de materiales disponibles*
 
 ![learning.jpg](assets/img/figures/sprint-2/execution_learning.png)
 
-**Figura XX**
+**Figura 182**
 
 *Pantalla de detalle de material especifico*
 
@@ -10767,25 +10767,25 @@ El [registro de clientes](assets/evidence/iam-account-access/azure-clients-2026-
 
 **Bounded Context Gamification:** Contamos con rankings local y global, que permiten consultar la posición de los usuarios según su participación. Como tambien, las pantallas de configuración y notificaciones como parte de la experiencia de uso de la aplicación.
 
-**Figura XX**
+**Figura 183**
 
 *Pantalla de Ranking Local*
 
 ![gamification_local_ranking.jpg](assets/img/figures/sprint-2/execution_ranking_local.png)
 
-**Figura XX**
+**Figura 184**
 
 *Pantalla de Ranking Global*
 
 ![gamification_global_ranking.jpg](assets/img/figures/sprint-2/execution_ranking_global.png)
 
-**Figura XX**
+**Figura 185**
 
 *Pantalla de configuracion*
 
 ![gamification_notification.jpg](assets/img/figures/sprint-2/execution_config.png)
 
-**Figura XX**
+**Figura 186**
 
 *Pantalla de notificaciones*
 
@@ -10795,61 +10795,61 @@ En Gamification, Android consulta rankings, puntos, rachas, medallas e historial
 
 **Bounded Context Community:** En community estaria la consulta, creación e inscripción a comunidades locales y temáticas, así como la creación y gestión de eventos. También contamos con chat de los eventos y las secciones de logros y noticias, que facilitan la interacción entre los miembros.
 
-**Figura XX**
+**Figura 187**
 
 *Pantalla de lista de comunidades locales*
 
 ![community_local_list.jpg](assets/img/figures/sprint-2/execution_community_local_list.png)
 
-**Figura XX**
+**Figura 188**
 
 *Pantalla de unirse a comunidad*
 
 ![community_join.jpg](assets/img/figures/sprint-2/execution_community_join.png)
 
-**Figura XX**
+**Figura 189**
 
 *Pantalla de eventos en comunidad*
 
 ![community_local_event.jpg](assets/img/figures/sprint-2/execution_community_events.png)
 
-**Figura XX**
+**Figura 190**
 
 *Pantalla de crear eventos en comunidad*
 
 ![community_create_event.jpg](assets/img/figures/sprint-2/execution_community_create_event.png)
 
-**Figura XX**
+**Figura 191**
 
 *Pantalla de mis eventos*
 
 ![community_my_events.jpg](assets/img/figures/sprint-2/execution_community_my_events.png)
 
-**Figura XX**
+**Figura 192**
 
 *Pantalla de chat de evento especifico*
 
 ![community_chat.jpg](assets/img/figures/sprint-2/execution_community_chat.png)
 
-**Figura XX**
+**Figura 193**
 
 *Pantalla de logros comunitarios*
 
 ![community_awards.jpg](assets/img/figures/sprint-2/execution_community_awards.png)
 
-**Figura XX**
+**Figura 194**
 
 *Pantalla de noticias de la comunidad*
 
 ![community_news.jpg](assets/img/figures/sprint-2/execution_community_news.png)
 
-**Figura XX**
+**Figura 195**
 
 *Pantalla de lista de comunidades de topico especifico*
 
 ![community_topic_list.jpg](assets/img/figures/sprint-2/execution_community_topic_list.png)
 
-**Figura XX**
+**Figura 196**
 
 *Pantalla de crear comunidad*
 
@@ -10857,19 +10857,19 @@ En Gamification, Android consulta rankings, puntos, rachas, medallas e historial
 
 **Bounded Context Monetization:** En cuanto a monetization estan las secciones de la tienda destinadas a cosméticos, mejoras y paquetes de gemas.
 
-**Figura XX**
+**Figura 197**
 
 *Pantalla de tienda de cosmeticos*
 
 ![store_cosmetics.jpg](assets/img/figures/sprint-2/execution_store_cosmetics.png)
 
-**Figura XX**
+**Figura 198**
 
 *Pantalla de tienda de mejoras*
 
 ![store_multipliers.jpg](assets/img/figures/sprint-2/execution_store_multipliers.png)
 
-**Figura XX**
+**Figura 199**
 
 *Pantalla de tienda de gemas*
 
@@ -10877,19 +10877,19 @@ En Gamification, Android consulta rankings, puntos, rachas, medallas e historial
 
 **Bounded Context Users:** Y para users tenemos tres pantallas principales, perfil, amigos y familia, desde las cuales los usuarios pueden consultar su información personal y acceder a las funciones de vinculación social y familiar.
 
-**Figura XX**
+**Figura 200**
 
 *Pantalla de Perfil*
 
 ![profile.jpg](assets/img/figures/sprint-2/execution_user_profile.png)
 
-**Figura XX**
+**Figura 201**
 
 *Pantalla de Amigos*
 
 ![friends.jpg](assets/img/figures/sprint-2/execution_user_friends.png)
 
-**Figura XX**
+**Figura 202**
 
 *Pantalla de Familia*
 
@@ -11076,7 +11076,7 @@ Los endpoints protegidos reciben `Authorization: Bearer <token>`. Son públicos 
 
 El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta la creación de una comunidad y evento dentro de ella. Para ello vamos a utilizar endpoints dentro de dos bounded context: Iam y Community.
 
-**Figura 171**
+**Figura 203**
 
 *Documentación de los endpoints de Iam en Swagger UI*
 
@@ -11086,7 +11086,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 172**
+**Figura 204**
 
 *Body Sign Up POST endpoint*
 
@@ -11096,7 +11096,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 173**
+**Figura 205**
 
 *Response Sign Up POST endpoint*
 
@@ -11106,7 +11106,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 174**
+**Figura 206**
 
 *Body Verify Email POST endpoint*
 
@@ -11116,7 +11116,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 175**
+**Figura 207**
 
 *Response Verify Email POST endpoint*
 
@@ -11126,7 +11126,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 176**
+**Figura 208**
 
 *Body Sign In POST endpoint*
 
@@ -11136,7 +11136,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 177**
+**Figura 209**
 
 *Response Sign In POST endpoint*
 
@@ -11146,7 +11146,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 178**
+**Figura 210**
 
 *Documentación de los endpoints de Community en Swagger UI*
 
@@ -11158,7 +11158,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota: Tras hacer sign in hay que usar el token brindado*
 
-**Figura 179**
+**Figura 211**
 
 *Body Topic Community POST endpoint*
 
@@ -11168,7 +11168,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 180**
+**Figura 212**
 
 *Response Topic Community POST endpoint*
 
@@ -11178,7 +11178,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 181**
+**Figura 213**
 
 *Body Event POST endpoint*
 
@@ -11188,7 +11188,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 182**
+**Figura 214**
 
 *Response Event POST endpoint*
 
@@ -11215,7 +11215,7 @@ El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub A
 | Azure Communication Services Email | Correos de verificación y recuperación de contraseña. |
 | Log Analytics | Registros de ejecución del backend. |
 
-**Figura 183**
+**Figura 215**
 
 *Pruebas y despliegue del Backend API: ejecución 43382634408, revisión 38939f5, 13 de noviembre de 2026.*
 
@@ -11223,31 +11223,31 @@ El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub A
 
 Configuración registrada en el portal de Azure el 13 de noviembre de 2026.
 
-**Figura 184**
+**Figura 216**
 
 *Recursos de EcoMind en Azure.*
 
 ![Recursos de EcoMind en Azure](assets/img/figures/sprint-2/resource-group.png)
 
-**Figura 185**
+**Figura 217**
 
 *Backend API desplegado en Azure Container Apps.*
 
 ![Información general de la API en Azure Container Apps](assets/img/figures/sprint-2/container-app-overview.png)
 
-**Figura 186**
+**Figura 218**
 
 *Revisión activa del Backend API, asociada a la ejecución 43382634408.*
 
 ![Revisión activa del Backend API](assets/img/figures/sprint-2/container-app-revisions.png)
 
-**Figura 187**
+**Figura 219**
 
 *Servidor PostgreSQL de EcoMind en West US 2.*
 
 ![Servidor PostgreSQL de EcoMind](assets/img/figures/sprint-2/postgresql-overview.png)
 
-**Figura 188**
+**Figura 220**
 
 *Acceso privado de PostgreSQL mediante red virtual y DNS privado.*
 
@@ -11261,13 +11261,13 @@ En esta sección se muestran los aportes de cada integrante en los repositorios 
 
 **Sprint 2 - Landing page**
 
-**Figura 189**
+**Figura 221**
 
 *Contribuciones a la Landing Page durante el Sprint 2.*
 
 ![Sprint2_Contributors](assets/img/figures/LandingSprint2Contributors.png)
 
-**Figura 190**
+**Figura 222**
 
 *Actividad del repositorio de la Landing Page durante el Sprint 2.*
 
@@ -11275,13 +11275,13 @@ En esta sección se muestran los aportes de cada integrante en los repositorios 
 
 **Sprint 2 - App Android**
 
-**Figura 191**
+**Figura 223**
 
 *Contribuciones a la aplicación Android durante el Sprint 2.*
 
 ![Sprint2_Contributors](assets/img/figures/AndroidSprint2Contributors.png)
 
-**Figura 192**
+**Figura 224**
 
 *Actividad del repositorio de Android durante el Sprint 2.*
 
@@ -11290,13 +11290,13 @@ En esta sección se muestran los aportes de cada integrante en los repositorios 
 
 **Sprint 2 - App Flutter**
 
-**Figura 193**
+**Figura 225**
 
 *Contribuciones a la aplicación Flutter durante el Sprint 2.*
 
 ![Sprint2_Contributors](assets/img/figures/FlutterSprint2Contributors.png)
 
-**Figura 194**
+**Figura 226**
 
 *Actividad del repositorio de Flutter durante el Sprint 2.*
 
@@ -11304,13 +11304,13 @@ En esta sección se muestran los aportes de cada integrante en los repositorios 
 
 **Sprint 2 - Backend**
 
-**Figura 195**
+**Figura 227**
 
 *Contribuciones al Backend durante el Sprint 2.*
 
 ![Sprint2_Contributors](assets/img/figures/CollabSprint2Backend1.png)
 
-**Figura 196**
+**Figura 228**
 
 *Actividad del repositorio del Backend durante el Sprint 2.*
 
@@ -11529,7 +11529,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
 
-**Figura 197**
+**Figura 229**
 
 *Visibilidad del progreso al completar actividades.*
 
@@ -11549,7 +11549,7 @@ Implementar animaciones, barras de progreso o indicadores visuales que muestren 
 
 Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
 
-**Figura 198**
+**Figura 230**
 
 *Información disponible sobre eventos comunitarios.*
 
@@ -11569,7 +11569,7 @@ Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde s
 
 Las actividades disponibles dentro de la aplicación se presentan principalmente como formularios o cuestionarios, sin comunicar con suficiente claridad qué acción debe realizar el usuario para cumplir el reto. Esta presentación dificulta relacionar la actividad con un desafío ambiental concreto y comprender su objetivo, más allá de responder preguntas.
 
-**Figura 199**
+**Figura 231**
 
 *Presentación de las actividades y retos.*
 
@@ -11589,7 +11589,7 @@ Presentar cada reto con un objetivo ambiental concreto, instrucciones en lenguaj
 
 En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. Aunque incluyen una etiqueta de rol, el usuario debe leer cada tarjeta para distinguir a los padres de los hijos, lo que dificulta reconocer rápidamente los roles al revisar el grupo familiar.
 
-**Figura 200**
+**Figura 232**
 
 *Tarjetas de integrantes de la familia.*
 
@@ -11608,7 +11608,7 @@ Incorporar un distintivo visual consistente para cada rol familiar, como un íco
 
 Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. La evaluación considera la visualización del perfil, sin revisar el proceso de equipamiento de accesorios.
 
-**Figura 201**
+**Figura 233**
 
 *Visualización del avatar en el perfil.*
 
@@ -11681,7 +11681,7 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 </p>
 
 <p align="center">
-  <strong>Figura 202.</strong> Video About the Product de EcoMind.<br>
+  <strong>Figura 234.</strong> Video About the Product de EcoMind.<br>
   <strong>Nota.</strong> Elaboración propia.
 </p>
 
@@ -11722,7 +11722,7 @@ Posteriormente, los integrantes presentan sus testimonios individuales, en los q
 </p>
 
 <p align="center">
-  <strong>Figura 203.</strong> Video About the Team de GreenMinds.<br>
+  <strong>Figura 235.</strong> Video About the Team de GreenMinds.<br>
   <strong>Nota.</strong> Elaboración propia.
 </p>
 
