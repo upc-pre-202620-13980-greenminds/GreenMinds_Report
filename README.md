@@ -11809,6 +11809,8 @@ Posteriormente, los integrantes presentan sus testimonios individuales, en los q
 
 [Video de ejecución de EcoMind — Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410093_upc_edu_pe/IQBVA-AU-FA9TLx1V8zV1IPRAYv5FncU0FDrAn9In9ViiO8?e=ozx3X8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
 
+[Video de ejecución de EcoMind — Sprint 2](https://youtu.be/Tgp8eGX5J5Q).
+
 <div style="page-break-before: always;"></div>
 
 ## Anexo 2. Evidencia de acceso y sesión (AV2)
