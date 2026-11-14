@@ -11779,6 +11779,70 @@ Posteriormente, los integrantes presentan sus testimonios individuales, en los q
 | 00:09:05 | Leo Dulanto | Actividades desarrolladas, dificultades superadas y conocimientos adquiridos durante el proyecto. |
 | 00:10:15 | Cierre | Reflexión final y presentación de GreenMinds como equipo responsable de EcoMind. |
 
+# Glosario
+
+En esta sección se presentan los principales términos técnicos, metodológicos y de negocio utilizados durante el desarrollo de EcoMind. Su propósito es facilitar la comprensión del documento y mantener una terminología común entre el equipo, los usuarios y demás stakeholders.
+
+| Término | Definición |
+|---|---|
+| **API (Application Programming Interface)** | Conjunto de reglas y endpoints que permite la comunicación entre las aplicaciones móviles y el backend de EcoMind. |
+| **Android** | Sistema operativo móvil para el cual se desarrolló una de las aplicaciones de EcoMind utilizando Kotlin y Jetpack Compose. |
+| **Arquitectura de software** | Estructura que define cómo se organizan y relacionan los componentes, capas, servicios y tecnologías de una solución. |
+| **Backend** | Parte de la plataforma encargada de procesar la lógica de negocio, gestionar la autenticación y comunicarse con la base de datos. |
+| **Bounded Context** | Límite lógico utilizado en Domain-Driven Design para organizar una parte específica del dominio, como IAM, Learning, Gamification o Monetization. |
+| **CI/CD (Continuous Integration/Continuous Deployment)** | Prácticas que automatizan la integración, las pruebas y el despliegue del software mediante workflows. |
+| **Commit** | Registro de un conjunto de cambios realizados en el código fuente dentro de un repositorio Git. |
+| **Community** | Contexto de EcoMind que permite a los usuarios participar en comunidades, actividades y eventos ambientales. |
+| **Cosmético** | Elemento visual que un usuario puede adquirir y equipar para personalizar su avatar. |
+| **CRUD** | Operaciones básicas de creación, lectura, actualización y eliminación de información. |
+| **DDD (Domain-Driven Design)** | Enfoque de desarrollo que organiza el software según el dominio del negocio y sus reglas. |
+| **EcoPoints** | Puntos obtenidos por los usuarios al completar retos, actividades educativas y otras acciones dentro de EcoMind. |
+| **Endpoint** | Dirección específica de una API utilizada para consultar, crear, modificar o eliminar información. |
+| **Experiencia de usuario (UX)** | Percepción y experiencia general que tiene una persona al utilizar una aplicación o sistema. |
+| **Firebase App Distribution** | Servicio utilizado para distribuir versiones de prueba de una aplicación móvil entre evaluadores antes de su publicación. |
+| **Flutter** | Framework multiplataforma utilizado para desarrollar una de las aplicaciones móviles de EcoMind mediante el lenguaje Dart. |
+| **Gamification** | Uso de puntos, recompensas, rankings, rachas y medallas para motivar la participación de los usuarios. |
+| **Gema** | Moneda virtual de EcoMind utilizada para adquirir cosméticos, multiplicadores y protectores. |
+| **Git** | Sistema de control de versiones utilizado para administrar los cambios realizados en el código fuente. |
+| **GitHub Actions** | Servicio de automatización utilizado para ejecutar pruebas, validaciones y procesos de despliegue. |
+| **GitHub Pages** | Servicio utilizado para publicar la Landing Page de EcoMind. |
+| **Heurística de usabilidad** | Principio utilizado para evaluar la facilidad de uso, claridad y consistencia de una interfaz. |
+| **IAM (Identity and Access Management)** | Contexto encargado del registro, inicio de sesión, recuperación de contraseña, autorización y administración de sesiones. |
+| **Interfaz de usuario (UI)** | Elementos visuales e interactivos con los que el usuario se comunica con una aplicación. |
+| **Inventario** | Sección donde se almacenan los cosméticos y beneficios adquiridos por un usuario. |
+| **JSON (JavaScript Object Notation)** | Formato de intercambio de datos utilizado en la comunicación entre las aplicaciones y el backend. |
+| **JWT (JSON Web Token)** | Token seguro utilizado para autenticar al usuario y autorizar el acceso a recursos protegidos. |
+| **Kotlin** | Lenguaje de programación utilizado para desarrollar la aplicación nativa de Android. |
+| **Landing Page** | Sitio web público que presenta la propuesta de valor, características, equipo y videos promocionales de EcoMind. |
+| **Learning** | Contexto encargado de los materiales educativos, filtros, búsquedas, favoritos, descargas y tutoriales. |
+| **Material educativo** | Recurso de aprendizaje, como texto, video, audio o infografía, relacionado con temas ambientales. |
+| **Medalla** | Reconocimiento virtual obtenido por alcanzar determinados objetivos dentro de la plataforma. |
+| **Microservicio** | Servicio independiente encargado de una capacidad específica del sistema y comunicado mediante una API. |
+| **Mock-up** | Representación visual detallada de la apariencia que tendrá una pantalla o interfaz. |
+| **Monetization** | Contexto que administra la tienda, cosméticos, inventario, paquetes de gemas, multiplicadores y protectores. |
+| **Multiplicador** | Beneficio temporal que incrementa la cantidad de EcoPoints obtenidos por el usuario. |
+| **OpenAPI** | Especificación utilizada para documentar formalmente los endpoints y contratos de una API REST. |
+| **PostgreSQL** | Sistema de gestión de base de datos relacional utilizado por el backend de EcoMind. |
+| **Product Backlog** | Lista priorizada de funcionalidades, mejoras, errores y actividades pendientes del producto. |
+| **Protector de racha** | Beneficio que evita que el usuario pierda su racha cuando no realiza una actividad durante un periodo determinado. |
+| **Pull Request** | Solicitud utilizada para revisar y fusionar cambios de una rama hacia otra dentro de GitHub. |
+| **Ranking** | Clasificación de usuarios, amigos o familias según la cantidad de EcoPoints obtenidos. |
+| **Repositorio** | Espacio donde se almacena y administra el código fuente y su historial de cambios. |
+| **REST** | Estilo arquitectónico utilizado para diseñar los servicios web y endpoints del backend. |
+| **Reto (Quest)** | Actividad sostenible que el usuario puede realizar para obtener EcoPoints y recompensas. |
+| **Racha (Streak)** | Número de días consecutivos en los que un usuario participa en actividades de EcoMind. |
+| **SDK (Software Development Kit)** | Conjunto de herramientas y bibliotecas utilizado para integrar funcionalidades externas en una aplicación. |
+| **Spring Boot** | Framework de Java utilizado para implementar los servicios y la lógica del backend. |
+| **Sprint** | Periodo de trabajo definido en Scrum durante el cual el equipo desarrolla y valida un conjunto de funcionalidades. |
+| **Stakeholder** | Persona o grupo interesado en el desarrollo, uso o resultados del proyecto. |
+| **Swagger UI** | Interfaz web que permite consultar y probar los endpoints documentados del backend. |
+| **Token** | Credencial digital utilizada para identificar una sesión o autorizar una operación. |
+| **UI Flow** | Representación del recorrido y las interacciones que realiza un usuario entre las pantallas de una aplicación. |
+| **User Flow** | Secuencia de pasos que sigue un usuario para completar una tarea u objetivo dentro del producto. |
+| **User Story** | Descripción breve de una funcionalidad desde la perspectiva y necesidad del usuario. |
+| **Wireframe** | Representación esquemática de la estructura y distribución de los componentes de una interfaz. |
+| **Workflow** | Secuencia automatizada de tareas, como compilación, pruebas y despliegue, ejecutada mediante CI/CD. |
+
 # Bibliografía
 
 - Adrilo, R (s.f.). Happy Little Planet App. Adrilo Rincz. https://www.adrilorincz.com/happy-little-planet-app  
