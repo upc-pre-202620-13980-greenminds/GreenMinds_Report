@@ -70,7 +70,6 @@ Proyecto <br>
 # Registro de Versiones del Informe
 
 **Tabla 1**
-
 *Registro de versiones del informe.*
 
 | Version | Fecha | Autor | Descripción de modificación |
@@ -87,12 +86,16 @@ Proyecto <br>
 | 2.0.0    | 07/10/2026     | Alejandra Astocondor, Isabel Aponte   | docs: actualizar las secciones de UI/UX Design y de Software Configuration Management <br> docs: agregar Mobile Applications Wireframes |
 | 2.0.0    | 09/10/2026     | Alejandra Astocondor, Katty Philco   | docs: actualizar diagrama de contenedores y diagrama de base de datos de Quests <br> docs: actualizar Big Picture EventStorming <br> docs: agregar descripción de escenarios en Domain Message Flows <br> docs: agregar descripción de los Bounded Context Canvases <br> docs: corregir títulos de los Bounded Context Canvases <br> docs: actualizar diagramas de contenedores y de despliegue para un único Backend <br> docs: actualizar diagramas de componentes para un único Backend API <br> docs: reescribir descripciones de los diagramas de componentes <br> docs: actualizar la tabla de herramientas con Render y PostgreSQL |
 | 2.0.0    | 10/10/2026     | Katty Philco, Leo Dulanto, Mauricio Pajes, Isabel Aponte, Alejandra Astocondor   | docs: agregar registro de entrevistas de validación <br> docs: actualizar Student Outcome <br> docs: actualizar conclusiones y recomendaciones <br> docs: agregar Software Deployment Configuration <br> docs: agregar Landing Page & Mobile Application Implementation, Sprint 1 <br> docs: agregar Mobile Applications Wireflow Diagrams <br> docs: agregar Mobile Applications Mock-ups <br> docs: agregar Mobile Applications User Flow Diagrams <br> docs: agregar evaluaciones según heurísticas <br> docs: agregar video de prototipo |
-| 2.0.0    | 05/11/2026     | Mauricio Pajes | docs: align HU-058 acceptance criteria with the generic recovery response <br> docs: add IAM implementation, test results and screenshots |
-| 2.0.0    | 08/11/2026     | Mauricio Pajes | docs: trace IAM acceptance to AV2 requirements <br> docs: update the verified IAM contribution and remaining checks |
-| 2.0.0    | 10/11/2026     | Mauricio Pajes | docs: record completed terms and recovery email validation |
-| 2.0.0    | 11/11/2026     | Mauricio Pajes | fix: align shared terms with current mobile clients |
-| 2.0.0    | 12/11/2026     | Mauricio Pajes | docs: document Azure client integration and automated deployment |
-| 2.0.0    | 13/11/2026     | Mauricio Pajes | docs: align IAM and Gamification diagrams, Azure deployment and contribution evidence |
+| 3.0.0    | 05/11/2026     | Mauricio Pajes | docs: align HU-058 acceptance criteria with the generic recovery response <br> docs: add IAM implementation, test results and screenshots |
+| 3.0.0    | 08/11/2026     | Mauricio Pajes | docs: trace IAM acceptance to AV2 requirements <br> docs: update the verified IAM contribution and remaining checks |
+| 3.0.0    | 10/11/2026     | Mauricio Pajes | docs: record completed terms and recovery email validation |
+| 3.0.0    | 11/11/2026     | Mauricio Pajes | fix: align shared terms with current mobile clients |
+| 3.0.0    | 12/11/2026     | Mauricio Pajes | docs: document Azure client integration and automated deployment |
+| 3.0.0    | 13/11/2026     | Mauricio Pajes | docs: align IAM and Gamification diagrams, Azure deployment and contribution evidence |
+| 3.0.0    | 13/11/2026     | Alejandra Astocondor | docs: agregar Sprint Planning 2 <br> docs: agregar Aspect Leaders and Collaborators <br> docs: agregar Sprint Backlog 2 <br> docs: agregar Development Evidence for Sprint Review <br> docs: actualizar preguntas de validación <br> docs: agregar entrevista de validación del Sprint 2 <br> docs: agregar Team Collaboration Insights during Sprint |
+| 3.0.0    | 13/11/2026     | Leo Dulanto | docs: agregar y actualizar user stories <br> docs: actualizar Sprint Backlog 2 <br> docs: actualizar Product Backlog <br> docs: agregar Services Documentation Evidence for Sprint Review |
+| 3.0.0    | 13/11/2026     | Isabel Aponte | docs: agregar Video About the Product <br> docs: agregar Video About the Team <br> docs: actualizar descripciones de los videos y su evidencia |
+| 3.0.0    | 13/11/2026     | Katty Philco | docs: actualizar Student Outcome <br> docs: actualizar conclusiones y recomendaciones <br> docs: actualizar Project Report Collaboration Insights <br> docs: actualizar registro de versiones |
 
 <div style="page-break-before: always;"></div>
 
@@ -130,9 +133,15 @@ Asimismo, los integrantes revisaron y complementaron las secciones del informe p
 
 *AV2*
 
-Durante el desarrollo del AV2, en nuestro equipo, Mauricio Pajes actualizó el registro, la recuperación de contraseña (HU-058), el cierre de sesión (HU-059) y los términos versión 1.2 en Android y Flutter. También integró Gamification en Android con el backend, incluyendo rankings, puntos, rachas, medallas, recompensas y el bono semanal de racha. El informe incorpora los diagramas de componentes, clases y datos correspondientes a la implementación y al despliegue en Azure.
+Durante el desarrollo de la entrega AV2, el equipo organizó la actualización del informe mediante la asignación de responsabilidades por secciones. Cada integrante contribuyó en la documentación del Sprint 2, la evidencia de las funcionalidades implementadas, el despliegue del Backend en Azure, la validación de EcoMind con usuarios de los segmentos objetivo y la elaboración de los videos About the Product y About the Team.
 
-El [registro de IAM](assets/evidence/iam-account-access/README.md) y el [seguimiento de clientes en Azure](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) reúnen los contratos y las pruebas. La [configuración de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-12.md) describe la validación y el despliegue automático desde `develop`.
+La elaboración del informe se realizó de manera incremental, incorporando la planificación, el Sprint Backlog 2 y las evidencias de desarrollo, pruebas, documentación de servicios y despliegue conforme avanzaba la implementación. También se actualizaron los diagramas de componentes, clases y datos, el Student Outcome, las conclusiones y recomendaciones, y se añadieron nuevas entrevistas de validación y evaluaciones según heurísticas. Estos aportes se registraron en el control de versiones para mantener un seguimiento de los cambios realizados durante la entrega.
+
+Asimismo, los integrantes revisaron y complementaron las secciones del informe para que la documentación técnica, las evidencias y los resultados de validación correspondieran con el producto desarrollado. Los analíticos de contribución y el historial de commits permiten observar los aportes de cada miembro y la participación del equipo en la preparación de la entrega AV2.
+
+*Historial de commits del informe en la rama develop durante AV2.*
+
+![av2_report](assets/img/figures/av2_report.png)
 
 <div style="page-break-before: always;"></div>
 
@@ -10579,9 +10588,13 @@ El [registro de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-1
 
 #### 4.2.2.9. Team Collaboration Insights during Sprint
 
-En esta sección se muestra los aportes de cada integrante en los repositorios respectivos de según el sprint, se muestra referente a la landing page, app android, app flutter y backend
+En esta sección se muestran los aportes de cada integrante en los repositorios del Sprint 2, correspondientes a la Landing Page, la aplicación Android, la aplicación Flutter y el Backend. 
 
 **Sprint 2 - Landing page**
+
+![Sprint2_Contributors](assets/img/figures/LandingSprint2Contributors.png)
+
+![Sprint2_Pulse](assets/img/figures/LandingSprint2Pulse.png)
 
 **Sprint 2 - App Android**
 
