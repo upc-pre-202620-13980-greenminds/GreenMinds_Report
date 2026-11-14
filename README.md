@@ -10694,6 +10694,10 @@ La integración de IAM en Android y Flutter permitió conservar el mismo contrat
 
 La conexión de Gamification con el Backend unificó XP y ecopoints, incorporó el bono semanal y vinculó la medalla del primer reto con una finalización validada. El despliegue en Azure y su automatización en GitHub Actions permitieron publicar estos cambios después de ejecutar las pruebas de integración.
 
+Con las funciones de Users, Quests, Community, Learning y Gamification conectadas al Backend, la aplicación Android quedó completa en sus principales funcionalidades core. En paralelo, se inició la aplicación Flutter para padres con acceso a la cuenta, perfil, gestión familiar, reporte semanal, notificaciones y retos, de modo que cada segmento cuenta con una aplicación orientada a sus necesidades.
+
+Android y Flutter consumen el mismo Backend API desplegado en Azure, lo que permitió mantener contratos comunes y detectar en cada cliente los errores de conexión y los reintentos. Esta organización mostró que el trabajo por bounded contexts se puede sostener con dos aplicaciones sin duplicar las reglas del dominio.
+
 **Recomendaciones**
 
 Se recomienda revisar periódicamente que los nombres, relaciones y responsabilidades coincidan en los canvases, diagramas y descripciones del informe.
@@ -10702,9 +10706,14 @@ También se recomienda validar las integraciones entre bounded contexts durante 
 
 Se recomienda incorporar al Roadmap del producto el seguimiento del aprendizaje de los hijos y la comunicación entre los integrantes de la familia. Se sugiere priorizar estas mejoras en el Product Backlog según el valor que los padres les asignen en las siguientes validaciones, y confirmar su alcance con los otros participantes antes de implementarlas.
 
+Se recomienda validar las funcionalidades del Sprint 2 en dispositivos físicos y con usuarios de ambos segmentos, ya que las ejecuciones registradas se realizaron en emuladores. 
+
 <div style="page-break-before: always;"></div>
 
 # Video App Validation
+
+Esta sección reúne el vídeo About the Product donde se presenta EcoMind desde su Landing Page y el uso de la aplicación móvil, dirigido a estudiantes y padres de familia interesados en la propuesta y el video About the Team donde se da a conocer al equipo GreenMinds mediante los testimonios de sus integrantes, quienes describen las actividades realizadas y su relación con el Student Outcome.
+
 # Video About the product
 
 En esta sección se presenta el video About the Product de EcoMind, elaborado con una orientación promocional y dirigido principalmente a los visitantes de la Landing Page, estudiantes y padres de familia interesados en conocer la propuesta de la plataforma.
@@ -10739,6 +10748,40 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 **Nota.** Elaboración propia.
 
 # Video About the team
+
+En esta sección se presenta el video About the Team de EcoMind, que resume el proceso de trabajo del equipo GreenMinds durante el desarrollo del proyecto. El video muestra escenas de sesiones de trabajo del equipo, acompañadas de una narración en voz en off que explica cómo se organizaron las actividades por bounded context, el desarrollo de las aplicaciones Android y Flutter y el despliegue del Backend en Azure.
+
+Además, el video incluye el testimonio ante cámara de cada integrante, quienes describen las actividades que realizaron, cómo lograron el Student Outcome 7 y qué competencias desarrollaron durante el trabajo. Estos testimonios complementan lo expuesto en la sección Student Outcome del informe.
+
+- **Duración:** 
+- **Público objetivo:** docentes y evaluadores del curso, y visitantes de la Landing Page interesados en conocer al equipo.
+- **Elaboración:** Elaboración propia.
+- **OneDrive:** 
+- **YouTube:** 
+
+### Secuencia de contenido
+
+| Tiempo | Contenido |
+|---|---|
+|  | Pantalla inicial y presentación del equipo GreenMinds. |
+|  | Retrospectiva del grupo: proceso de trabajo, escenas de sesiones del equipo y narración en voz en off. |
+|  | Testimonio de Aponte Pablo, Isabel Luisa. |
+|  | Testimonio de Astocondor Bazan, Alejandra Isabel. |
+|  | Testimonio de Dulanto Espino, Leo César. |
+|  | Testimonio de Pajes Leon, Mauricio Luis. |
+|  | Testimonio de Philco Mota, Katty Yolanda. |
+|  | Cierre del video. |
+
+### Evidencia del video
+
+<p align="center">
+  <img src="" alt="Video About the Team" width="600">
+</p>
+
+**Figura X.** Video About the Team de EcoMind.  
+**Nota.** Elaboración propia.
+
+<div style="page-break-before: always;"></div>
 
 # Bibliografía
 
