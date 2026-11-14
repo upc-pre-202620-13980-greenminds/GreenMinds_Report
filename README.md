@@ -7533,9 +7533,9 @@ En el siguiente video se presenta el prototipo de EcoMind, compuesto por la Land
 Posteriormente, se mostrarán los principales recorridos de la aplicación móvil, como el registro e inicio de sesión, la realización de retos ambientales, la participación en actividades colaborativas, el seguimiento del progreso personal y familiar, el acceso a contenidos educativos, el ranking, la comunidad, los eventos y la personalización mediante la tienda.
 Esta presentación tiene como finalidad demostrar cómo ambas interfaces trabajan de manera complementaria. La Landing Page permite conocer la solución y orienta al usuario antes de ingresar, mientras que la aplicación móvil ofrece las herramientas necesarias para aprender, participar y desarrollar hábitos sostenibles. Asimismo, el recorrido permite comprobar si la navegación, las instrucciones y las acciones disponibles son claras y coherentes con las necesidades de estudiantes y padres de familia.
 
-<div align="center">
-  <img src="https://i.postimg.cc/VLnSzdxJ/Prototipo.jpg" alt="Prototipo de EcoMind" width="850">
-</div>
+<p align="center">
+  <img src="assets/img/figures/prototype.jpeg" alt="Video de navegación del prototipo de EcoMind" width="700">
+</p>
 
 *Nota. Elaboración propia.*
 
@@ -10419,17 +10419,17 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 - Buscar su posición en el ranking.
 - En la tienda, comprar un cosmético con gemas y equiparlo.
 
-**Preguntas de validación:**
+**Preguntas de validación:*
 
-1. ¿El Landing Page te ayudó a entender de qué va EcoMind? ¿Qué parte te llamó más la atención?
+1. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer
 
-2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer
+2. En tu perfil encontraste varias pestañas: amigos, familia, compromiso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental
 
-3. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental
+3. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
 
-4. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
-
-5. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
+4. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
+   
+5. ¿Cómo te pareció lo de invitar un amigo al reto grupal? ¿Fue fácil o te trabaste en algun paso?
 
 6. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
 
@@ -10513,6 +10513,15 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 |---|
 | <img src="assets/img/figures/validationPablo.png" width="335" hspace="240"> |
 | **Entrevistado N°1:** Pablo Abel Astocondor Bazan<br>**Edad:** 12 años<br>**Ubicación:** Pueblo Libre, Lima<br>**Entrevistadora:** Alejandra Astocondor <br>**Fecha de la entrevista:** 10/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Pablo Astocondor ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQB2Yd017FxJSLhZ88neGjwnAQdHxG3BwQITo458cL7Xk9s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lgMuR5)<br>**Instante del que inicia:** 00:00<br>**Duración:** 07:20<br><br>**Resumen:**<br><br>El participante Pablo Abel Astocondor Bazan, de 12 años y residente de Pueblo Libre, valoró positivamente las mejoras visuales del Landing Page y destacó la propuesta dirigida a los padres como la parte que más llamó su atención. Al probar la aplicación, comprendió el flujo para completar las actividades, aunque señaló que las instrucciones podrían ser más claras. Durante la navegación por el perfil y las secciones de progreso, amigos y familia, mencionó haberse perdido en una ocasión y observó que algunas funciones todavía no estaban disponibles; aun así, no encontró botones o pantallas cuya función desconociera por completo. Respecto al ranking, recomendó hacerlo más dinámico e incorporar ligas similares a las de Duolingo para fomentar la competencia. La prueba de personalización del avatar estuvo limitada porque los accesorios aún no se visualizaban en el perfil. En general, sus observaciones apuntan a mejorar las instrucciones, completar las funciones pendientes y ofrecer una dinámica de competencia más atractiva. |
+
+**Entrevista de validación - Sprint 2**
+
+*Entrevista de validación 2 del segmento de niños de primaria. (SPRINT 2)*
+ 
+| **Entrevista de validación Nro. 2** |
+|---|
+| <img src="assets/img/figures/ValidationPablo2.png" width="335" hspace="240"> |
+| **Entrevistado N°2:** Pablo Abel Astocondor Bazan<br>**Edad:** 12 años<br>**Ubicación:** Pueblo Libre, Lima<br>**Entrevistadora:** Alejandra Astocondor <br>**Fecha de la entrevista:** 13/11/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 2 - Pablo Astocondor ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQCRaA6dz4PBQbdoyu8ZJ9HlAfidwZuw9iyl_yVDDHUpxFU?e=UtUVlc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>**Instante del que inicia:** 00:00<br>**Duración:** 06:50 <br><br>**Resumen:**<br>El entrevistado exploró la tienda de EcoMind y probó la personalización de su avatar. Sugirió que se puedan equipar varios accesorios a la vez para hacer la experiencia más divertida. Indicó que pudo moverse con facilidad entre las pestañas de perfil, amigos y familia, y le pareció sencillo invitar a un amigo a un desafío grupal. Consideró útil la sección de compromiso ambiental y propuso darle mayor visibilidad. También señaló que las gemas y las rachas de los minijuegos lo motivarían a volver al día siguiente si se mostraran de forma más visible. Respecto al ranking, encontró su posición y reiteró que un sistema de ligas lo animaría a completar más actividades para subir de puesto. Durante la creación de un evento, sugirió cambiar la etiqueta «Longitud» por «Dirección». Finalmente, al preguntarle qué cambiaría de la aplicación, propuso incorporar animaciones más fluidas en algunas transiciones de la interfaz.<br> |
 
 ### 4.3.3. Evaluaciones según heurísticas
 
@@ -10741,7 +10750,7 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 ### Evidencia del video
 
 <p align="center">
-  <img src="https://i.postimg.cc/hGKk0QTV/Whats-App-Image-2026-11-13-at-16-04-44.jpg" alt="Video About the Product" width="600">
+  <img src="assets/img/figures/aboutTheProduct.jpeg" alt="Video About the Product de EcoMind" width="700">
 </p>
 
 **Figura X.** Video About the Product de EcoMind.  
@@ -10749,39 +10758,45 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 
 # Video About the team
 
-En esta sección se presenta el video About the Team de EcoMind, que resume el proceso de trabajo del equipo GreenMinds durante el desarrollo del proyecto. El video muestra escenas de sesiones de trabajo del equipo, acompañadas de una narración en voz en off que explica cómo se organizaron las actividades por bounded context, el desarrollo de las aplicaciones Android y Flutter y el despliegue del Backend en Azure.
+En esta sección se presenta el video **About the Team** de GreenMinds, en el cual se resumen el proceso de trabajo, las actividades desarrolladas y los principales aprendizajes obtenidos durante la construcción de EcoMind.
 
-Además, el video incluye el testimonio ante cámara de cada integrante, quienes describen las actividades que realizaron, cómo lograron el Student Outcome 7 y qué competencias desarrollaron durante el trabajo. Estos testimonios complementan lo expuesto en la sección Student Outcome del informe.
+La primera parte del video presenta una retrospectiva del proyecto, incluyendo la investigación con usuarios, el diseño de las interfaces, la arquitectura de software, la implementación del backend y de las aplicaciones móviles, la documentación técnica, las pruebas y el trabajo colaborativo realizado durante los sprints.
 
-- **Duración:** 
-- **Público objetivo:** docentes y evaluadores del curso, y visitantes de la Landing Page interesados en conocer al equipo.
-- **Elaboración:** Elaboración propia.
-- **OneDrive:** 
-- **YouTube:** 
+Posteriormente, los integrantes presentan sus testimonios individuales, en los que describen las actividades que realizaron, las competencias profesionales fortalecidas y el cumplimiento del **ABET – EAC – Student Outcome 7**: adquirir y aplicar nuevos conocimientos cuando sea necesario mediante estrategias de aprendizaje apropiadas.
 
-### Secuencia de contenido
+- **Proyecto:** EcoMind
+- **Duración:** 10:18
+- **Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQCtJKtufwXvRqf7tq9Es2a_AQlCUL5lay9e-xPkfunyjCE?e=V1EpXZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **YouTube:** https://youtu.be/CCD8kZNfLDo?si=NGhDRwPDWi9ZU-xQ
 
-| Tiempo | Contenido |
-|---|---|
-|  | Pantalla inicial y presentación del equipo GreenMinds. |
-|  | Retrospectiva del grupo: proceso de trabajo, escenas de sesiones del equipo y narración en voz en off. |
-|  | Testimonio de Aponte Pablo, Isabel Luisa. |
-|  | Testimonio de Astocondor Bazan, Alejandra Isabel. |
-|  | Testimonio de Dulanto Espino, Leo César. |
-|  | Testimonio de Pajes Leon, Mauricio Luis. |
-|  | Testimonio de Philco Mota, Katty Yolanda. |
-|  | Cierre del video. |
 
-### Evidencia del video
+| Inicio | Sección | Contenido |
+|---|---|---|
+| 00:00:00 | Presentación | Introducción al proyecto EcoMind y al equipo GreenMinds. |
+| 00:00:20 | Investigación y planificación | Presentación del problema, las entrevistas, las necesidades identificadas y la organización del trabajo. |
+| 00:01:00 | Diseño UX/UI | Exposición de wireframes, mock-ups, flujos de usuario y diseño de las aplicaciones móviles. |
+| 00:01:30 | Arquitectura y backend | Presentación de los bounded contexts, la arquitectura, los endpoints y la documentación de servicios mediante Swagger. |
+| 00:02:00 | Implementación móvil | Evidencias del desarrollo de EcoMind y de la integración de las aplicaciones móviles con el backend. |
+| 00:02:30 | Desarrollo colaborativo | Presentación del código, repositorios, documentación y herramientas utilizadas por el equipo. |
+| 00:03:00 | Persistencia e integración | Evidencias de la base de datos, configuración de servicios e integración de los módulos de EcoMind. |
+| 00:03:30 | Pruebas y mejoras | Revisión de funcionalidades, solución de dificultades técnicas y mejoras realizadas durante los sprints. |
+| 00:04:00 | Retrospectiva | Resumen del proceso de trabajo, los resultados obtenidos y los principales aprendizajes del equipo. |
+| 00:04:39 | Presentación de testimonios | Transición hacia los testimonios individuales de los integrantes. |
+| 00:04:53 | Alejandra Astocondor | Actividades realizadas, competencias desarrolladas y cumplimiento del Student Outcome 7. |
+| 00:05:54 | Mauricio Pajes | Participación en el proyecto, aprendizajes alcanzados y competencias fortalecidas. |
+| 00:06:59 | Katty Philco | Aportes realizados, experiencia de trabajo y aprendizaje permanente. |
+| 00:07:59 | Isabel Aponte | Trabajo realizado durante los sprints, competencias desarrolladas y cumplimiento del Student Outcome 7. |
+| 00:09:05 | Leo Dulanto | Actividades desarrolladas, dificultades superadas y conocimientos adquiridos durante el proyecto. |
+| 00:10:15 | Cierre | Reflexión final y presentación de GreenMinds como equipo responsable de EcoMind. |
 
 <p align="center">
-  <img src="" alt="Video About the Team" width="600">
+  <img src="assets/img/figures/aboutTheTeam.jpeg" alt="Video About the Team de GreenMinds" width="700">
 </p>
 
-**Figura X.** Video About the Team de EcoMind.  
-**Nota.** Elaboración propia.
-
-<div style="page-break-before: always;"></div>
+<p align="center">
+  <strong>Figura X.</strong> Video About the Team de GreenMinds.<br>
+  <strong>Nota.</strong> Elaboración propia.
+</p>
 
 # Bibliografía
 
