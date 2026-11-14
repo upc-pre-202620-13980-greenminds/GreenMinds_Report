@@ -135,7 +135,7 @@ Asimismo, los integrantes revisaron y complementaron las secciones del informe p
 
 Durante el desarrollo de la entrega AV2, el equipo organizó la actualización del informe mediante la asignación de responsabilidades por secciones. Cada integrante contribuyó en la documentación del Sprint 2, la evidencia de las funcionalidades implementadas, el despliegue del Backend en Azure, la validación de EcoMind con usuarios de los segmentos objetivo y la elaboración de los videos About the Product y About the Team.
 
-La elaboración del informe se realizó de manera incremental, incorporando la planificación, el Sprint Backlog 2 y las evidencias de desarrollo, pruebas, documentación de servicios y despliegue conforme avanzaba la implementación. También se actualizaron los diagramas de componentes, clases y datos, el Student Outcome, las conclusiones y recomendaciones, y se añadieron nuevas entrevistas de validación y evaluaciones según heurísticas. Estos aportes se registraron en el control de versiones para mantener un seguimiento de los cambios realizados durante la entrega. El [registro de IAM](assets/evidence/iam-account-access/README.md) y el [seguimiento de clientes en Azure](assets/evidence/iam-account-access/azure-clients-2026-11-12.md) reúnen los contratos y las pruebas, y la [configuración de CI/CD](assets/evidence/iam-account-access/azure-devops-2026-11-12.md) describe la validación y el despliegue automático desde `develop`.
+La elaboración del informe se realizó de manera incremental, incorporando la planificación, el Sprint Backlog 2 y las evidencias de desarrollo, pruebas, documentación de servicios y despliegue conforme avanzaba la implementación. También se actualizaron los diagramas de componentes, clases y datos, el Student Outcome, las conclusiones y recomendaciones, y se añadieron nuevas entrevistas de validación y evaluaciones según heurísticas. Estos aportes se registraron en el control de versiones para mantener un seguimiento de los cambios realizados durante la entrega.
 
 Asimismo, los integrantes revisaron y complementaron las secciones del informe para que la documentación técnica, las evidencias y los resultados de validación correspondieran con el producto desarrollado. Los analíticos de contribución y el historial de commits permiten observar los aportes de cada miembro y la participación del equipo en la preparación de la entrega AV2.
 
@@ -10390,9 +10390,9 @@ En esta sección se muestran los aportes de cada integrante en los repositorios 
 
 **Sprint 2 - Landing page**
 
-![av2_landing](assets/img/figures/av2_landing.png)
+![Sprint2_Contributors](assets/img/figures/LandingSprint2Contributors.png)
 
-*Historial de commits del repositorio de la Landing Page durante el Sprint 2.*
+![Sprint2_Pulse](assets/img/figures/LandingSprint2Pulse.png)
 
 **Sprint 2 - App Android**
 
