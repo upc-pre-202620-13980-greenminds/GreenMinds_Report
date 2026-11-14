@@ -15,45 +15,37 @@ title Gamification Bounded Context - Domain Layer Class Diagram
 
 package "Progress and Streaks" {
 class UserProgress <<Aggregate Root>> {
- -id: UUID
- -userId: UUID
- -totalEcopoints: Long
- -totalExperience: Long
+ -userId: UserId
+ -totalEcopoints: long
  -streak: Streak
- -version: Long
- +applyReward(reward: Reward): void
- +recordDailyActivity(day: LocalDate): void
- +preserveStreak(day: LocalDate): void
- +resetStreak(day: LocalDate): void
+ +applyReward(Reward, LocalDate, boolean): void
+ +restoreProtectedDate(LocalDate): void
+ +protect(LocalDate): void
+ +resetForMissedDay(LocalDate): void
 }
 class Streak <<Value Object>> {
- -currentLength: Integer
- -longestLength: Integer
+ -current: int
+ -longest: int
  -lastActivityDate: LocalDate
  -lastProtectedDate: LocalDate
- +canRecordActivity(day: LocalDate): Boolean
- +recordActivity(day: LocalDate): Streak
- +protect(day: LocalDate): Streak
- +reset(day: LocalDate): Streak
- +isAtRisk(day: LocalDate): Boolean
+ +continuityDate(): LocalDate
+ +recordDailyActivity(LocalDate): Streak
+ +protect(LocalDate): Streak
+ +resetForMissedDay(LocalDate): Streak
 }
 class FamilyScore <<Aggregate Root>> {
- -id: UUID
- -familyId: UUID
- -totalEcopoints: Long
- -version: Long
- +applyReward(reward: Reward): void
+ -familyId: FamilyId
+ -totalEcopoints: long
+ +addReward(ecopoints: long): void
 }
 class StreakProtectionRequest <<Aggregate Root>> {
  -id: UUID
- -userProgressId: UUID
+ -userId: UserId
  -streakDate: LocalDate
  -status: StreakProtectionStatus
  -createdAt: Instant
  -resolvedAt: Instant
- +protect(): void
- +markUnavailable(): void
- +isPending(): Boolean
+ +resolve(UserId, LocalDate, StreakProtectionStatus, Instant): StreakProtectionRequest
 }
 enum StreakProtectionStatus {
  PENDING
@@ -67,39 +59,36 @@ StreakProtectionRequest --> StreakProtectionStatus : has state
 package "Rewards" {
 class RewardTransaction <<Aggregate Root>> {
  -id: UUID
- -source: RewardSource
- -beneficiary: RewardBeneficiary
+ -sourceType: RewardSourceType
+ -sourceExecutionId: UUID
+ -beneficiary: UserId
  -baseReward: Reward
  -grantedReward: Reward
+ -occurredAt: Instant
  -multiplierId: UUID
- -appliedFactor: Decimal
- -grantedAt: Instant
- +sameGrant(source: RewardSource, beneficiary: RewardBeneficiary): Boolean
- +hasGemReward(): Boolean
+ -appliedFactor: BigDecimal
+ -repetitionFactor: BigDecimal
+ +source(): RewardSource
+ +recipient(): RewardBeneficiary
 }
 class Reward <<Value Object>> {
- -ecopoints: Long
- -experience: Long
- -gems: Integer
- +isValid(): Boolean
- +multiplyExperience(factor: Decimal): Reward
+ -ecopoints: long
+ -gems: int
 }
 class RewardSource <<Value Object>> {
  -type: RewardSourceType
  -executionId: UUID
- +sameExecution(other: RewardSource): Boolean
 }
 class RewardBeneficiary <<Value Object>> {
  -type: BeneficiaryType
- -id: UUID
- +isUser(): Boolean
+ -id: Long
 }
 class ActiveMultiplier <<Value Object>> {
  -id: UUID
- -factor: Decimal
+ -factor: BigDecimal
  -startsAt: Instant
  -expiresAt: Instant
- +appliesAt(time: Instant): Boolean
+ +isActiveAt(at: Instant): boolean
 }
 enum RewardSourceType {
  QUEST
@@ -108,6 +97,7 @@ enum RewardSourceType {
  FAMILY_PLAN
  COMMUNITY_GOAL
  COMMUNITY_EVENT
+ STREAK_BONUS
 }
 enum BeneficiaryType {
  USER
@@ -129,42 +119,37 @@ class Achievement <<Aggregate Root>> {
  -name: String
  -description: String
  -scope: AchievementScope
- -criterion: AchievementCriterion
+ -metric: AchievementMetric
+ -target: long
+ -active: boolean
  -cosmeticId: UUID
- -active: Boolean
- +isEligible(progress: Map<String,Long>): Boolean
- +hasCosmeticReward(): Boolean
+ +criterion(): AchievementCriterion
+ +isSatisfiedBy(value: long): boolean
 }
 class AchievementCriterion <<Value Object>> {
- -metric: String
- -target: Long
- +isSatisfiedBy(value: Long): Boolean
+ -metric: AchievementMetric
+ -target: long
+ +isSatisfiedBy(value: long): boolean
 }
 class AchievementAward <<Aggregate Root>> {
  -id: UUID
  -achievementId: UUID
- -userProgressId: UUID
- -familyScoreId: UUID
- -communityId: UUID
+ -scope: AchievementScope
+ -beneficiaryId: Long
  -sourceEventId: UUID
  -awardedAt: Instant
- +hasValidBeneficiary(scope: AchievementScope): Boolean
- +isIndividual(): Boolean
- +belongsToProgress(userProgressId: UUID): Boolean
+ -communityId: Long
 }
 class AchievementShareRequest <<Aggregate Root>> {
  -id: UUID
  -awardId: UUID
- -requestedBy: UUID
- -communityId: UUID
+ -requestedBy: Long
+ -communityId: Long
  -status: AchievementShareStatus
- -publicationId: UUID
- -requestedAt: Instant
+ -publicationId: Long
+ -createdAt: Instant
  -confirmedAt: Instant
- -version: Long
- +confirmPublication(publicationId: UUID, confirmedAt: Instant): void
- +matches(awardId: UUID, requestedBy: UUID, communityId: UUID): Boolean
- +isPending(): Boolean
+ +confirm(UUID, Long, Long, Long, Instant): AchievementShareRequest
 }
 enum AchievementShareStatus {
  PENDING
@@ -175,6 +160,14 @@ enum AchievementScope {
  FAMILY
  COMMUNITY
 }
+enum AchievementMetric {
+ ECOPOINTS
+ COMPLETED_QUESTS
+ LONGEST_STREAK
+ COMPLETED_COMMUNITY_GOALS
+ COMPLETED_FAMILY_PLANS
+}
+AchievementCriterion --> AchievementMetric : measures
 Achievement "1" *-- "1" AchievementCriterion : defines
 AchievementAward "0..*" --> "1" Achievement : grants
 AchievementAward "0..*" --> "0..1" UserProgress : recognizes user

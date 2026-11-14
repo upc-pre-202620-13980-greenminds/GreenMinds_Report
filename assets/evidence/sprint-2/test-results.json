@@ -1,0 +1,58 @@
+{
+  "backend": {
+    "source": "38939f566f10ebc819d260959dcb8a0f8589b17e",
+    "postgresql_tests": 736,
+    "failures": 0,
+    "helper_tests": 9,
+    "workflow_url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408",
+    "workflow_result": "success",
+    "environment": "GitHub Actions, PostgreSQL test suite"
+  },
+  "android": {
+    "source": "f273074",
+    "jvm_tests": 91,
+    "instrumented_tests": 8,
+    "failures": 0,
+    "environment": "Android API 36 emulator"
+  },
+  "flutter": {
+    "source": "2ab1e5add09b238f3a5b9c7df49d54b039b0ea37",
+    "tests": 47,
+    "emulator_lost_response_test": "passed",
+    "normal_apk_installed": true,
+    "real_recovery_mail_received": true,
+    "postchecks": {
+      "client": "flutter",
+      "linkSource": "actual received Gmail message",
+      "newPasswordSignIn": 200,
+      "oldPasswordSignIn": 401,
+      "authenticatedMe": 200,
+      "usedToken": 422,
+      "logout": 204,
+      "anonymousMe": 401,
+      "passed": true
+    },
+    "environment": "Android emulator",
+    "completed_at": "2026-11-13T03:44:20.852684+00:00"
+  },
+  "gamification_live": {
+    "backend_source": "18eb479e59d484fc9193cf21f4f661fb74c53f9e",
+    "workflow_url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43376286744",
+    "synthetic_account": true,
+    "before": {
+      "ecopoints": 20,
+      "awards": 0,
+      "rewards": 1
+    },
+    "after": {
+      "ecopoints": 30,
+      "awards": 1,
+      "rewards": 2
+    },
+    "granted_gems": 1,
+    "repeat_completion": {
+      "status": 200,
+      "totals_unchanged": true
+    }
+  }
+}

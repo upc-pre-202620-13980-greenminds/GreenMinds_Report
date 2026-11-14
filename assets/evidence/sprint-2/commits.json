@@ -1,0 +1,90 @@
+[
+  {
+    "repository": "EcoMind_Backend",
+    "commit": "ec5ccf710eb8b25169116601564e550abdeae91b",
+    "date": "2026-11-12",
+    "subject": "fix(iam): acknowledge recovery confirmation retries",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/ec5ccf710eb8b25169116601564e550abdeae91b"
+  },
+  {
+    "repository": "EcoMind_Backend",
+    "commit": "f17ce52b4013e7481d0c13869c388edf1c8d33fd",
+    "date": "2026-11-12",
+    "subject": "ci(azure): deploy verified develop builds",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/f17ce52b4013e7481d0c13869c388edf1c8d33fd"
+  },
+  {
+    "repository": "EcoMind_Backend",
+    "commit": "0a5346c2d0286ba43d60816b5120eeb12cc67f89",
+    "date": "2026-11-12",
+    "subject": "fix(azure): route IAM email through Europe",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/0a5346c2d0286ba43d60816b5120eeb12cc67f89"
+  },
+  {
+    "repository": "EcoMind_Backend",
+    "commit": "14d8c368ecb1f2d6dcee4f00ae1437a1bf9fff87",
+    "date": "2026-11-13",
+    "subject": "feat(gamification): restore weekly streak bonus",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/14d8c368ecb1f2d6dcee4f00ae1437a1bf9fff87"
+  },
+  {
+    "repository": "EcoMind_Backend",
+    "commit": "8d7ee242cf562d0553ae39638da75f0bea74977a",
+    "date": "2026-11-13",
+    "subject": "fix(gamification): recover missing first quest awards",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8d7ee242cf562d0553ae39638da75f0bea74977a"
+  },
+  {
+    "repository": "EcoMind_Android",
+    "commit": "3592349709e994801372188b3d2f353d1d396a8b",
+    "date": "2026-11-05",
+    "subject": "feat(iam): connect recovery and logout APIs",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/3592349709e994801372188b3d2f353d1d396a8b"
+  },
+  {
+    "repository": "EcoMind_Android",
+    "commit": "0ada1c84c1116a80bbfee97dc01fba077ed6b250",
+    "date": "2026-11-12",
+    "subject": "refactor(iam): move session cleanup into use case",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/0ada1c84c1116a80bbfee97dc01fba077ed6b250"
+  },
+  {
+    "repository": "EcoMind_Android",
+    "commit": "f2730742f752bb157ecf9f1cee144c4d86963a05",
+    "date": "2026-11-13",
+    "subject": "feat(gamification): integrate rankings and achievements with Azure",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/f2730742f752bb157ecf9f1cee144c4d86963a05"
+  },
+  {
+    "repository": "EcoMind_Android",
+    "commit": "a00f3c644a5b098e27da45d6e80f3470ce95e30e",
+    "date": "2026-11-13",
+    "subject": "feat(gamification): label weekly streak bonuses",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/a00f3c644a5b098e27da45d6e80f3470ce95e30e"
+  },
+  {
+    "repository": "EcoMind_Flutter",
+    "commit": "e787a0090c25450befac1da8236693d73997dd8a",
+    "date": "2026-11-12",
+    "subject": "feat(iam): add password recovery and reset links",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/e787a0090c25450befac1da8236693d73997dd8a"
+  },
+  {
+    "repository": "EcoMind_Flutter",
+    "commit": "4524e34376d10924348476aed7c85d3cf54e7a87",
+    "date": "2026-11-12",
+    "subject": "fix(iam): recover from lost password reset responses",
+    "body": "",
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/4524e34376d10924348476aed7c85d3cf54e7a87"
+  }
+]

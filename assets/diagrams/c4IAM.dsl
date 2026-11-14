@@ -43,14 +43,14 @@ workspace "EcoMind - IAM Component Diagrams" {
                     tags "Mobile Infrastructure"
                 }
 
-                secureTokenStorage = component "Secure Token Storage" {
-                    description "Guarda el access token de forma protegida y lo elimina durante el cierre de sesión."
-                    technology "Android Keystore-backed Storage"
+                secureTokenStorage = component "Session Data Store" {
+                    description "Conserva el access token en el almacenamiento privado de la aplicación y lo elimina durante el cierre de sesión."
+                    technology "Android DataStore"
                     tags "Mobile Infrastructure"
                 }
             }
 
-            iamApi = container "IAM API" {
+            iamApi = container "Backend API" {
                 description "Administra cuentas, credenciales, autenticación, access tokens y recuperación de contraseña."
                 technology "Java / Spring Boot"
 
@@ -85,8 +85,8 @@ workspace "EcoMind - IAM Component Diagrams" {
                 }
 
                 emailServiceAdapter = component "Email Service Adapter" {
-                    description "Envía correos de verificación y recuperación de contraseña mediante Resend."
-                    technology "Resend API Client"
+                    description "Envía correos de verificación y recuperación de contraseña mediante Azure Communication Services Email."
+                    technology "Azure Communication Services SDK"
                     tags "Infrastructure"
                 }
 
@@ -95,22 +95,25 @@ workspace "EcoMind - IAM Component Diagrams" {
                     technology "Internal Synchronous Client"
                     tags "Infrastructure"
                 }
-            }
 
-            usersApi = container "Users Bounded Context" {
+                usersApi = component "Users Bounded Context" {
                 description "Administra perfiles, preferencias, amistades, familias y roles sociales."
                 technology "Java / Spring Boot"
                 tags "BoundedContext"
             }
 
-            iamDatabase = container "IAM Database" {
+            }
+
+            flutterApp = container "EcoMind Flutter Application" "Registro, recuperación y cierre de sesión para padres." "Dart / Flutter"
+
+            iamDatabase = container "EcoMind Database" {
                 description "Almacena registros pendientes, cuentas, credenciales y hashes de tokens de recuperación."
-                technology "MySQL"
+                technology "PostgreSQL"
                 tags "Database"
             }
         }
 
-        resend = softwareSystem "Resend" {
+        azureEmail = softwareSystem "Azure Communication Services Email" {
             description "Servicio externo utilizado para enviar correos de verificación y recuperación."
             tags "ExternalSystem"
         }
@@ -137,6 +140,9 @@ workspace "EcoMind - IAM Component Diagrams" {
 
         iamRemoteDataSource -> iamApi "Consumes IAM endpoints" "HTTPS / JSON / Bearer JWT"
 
+        flutterApp -> restControllers "Registration, sign-in and password recovery" "HTTPS / JSON"
+        flutterApp -> authenticationSecurity "Protected request + JWT" "HTTPS / Bearer JWT"
+
         // Entrada al IAM API
 
         mobileApp -> restControllers "Registration, verification, sign-in and password recovery" "HTTPS / JSON"
@@ -161,7 +167,7 @@ workspace "EcoMind - IAM Component Diagrams" {
 
         persistenceAdapters -> iamDatabase "Reads from and writes to" "JPA / JDBC"
 
-        emailServiceAdapter -> resend "Sends verification and recovery emails" "HTTPS / JSON"
+        emailServiceAdapter -> azureEmail "Sends verification and recovery emails" "HTTPS / JSON"
 
         usersContextClient -> usersApi "Sends CreateProfile command" "Internal synchronous call"
     }
@@ -169,6 +175,7 @@ workspace "EcoMind - IAM Component Diagrams" {
     views {
         component iamApi "IamBackendComponentDiagram" {
             include mobileApp
+            include flutterApp
             include restControllers
             include authenticationSecurity
             include applicationServices
@@ -178,7 +185,7 @@ workspace "EcoMind - IAM Component Diagrams" {
             include usersContextClient
             include usersApi
             include iamDatabase
-            include resend
+            include azureEmail
 
             autoLayout tb
         }

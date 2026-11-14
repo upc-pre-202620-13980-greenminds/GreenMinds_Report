@@ -1,0 +1,29 @@
+[
+  {
+    "view": "container",
+    "svgBytes": 727475,
+    "width": "1022px",
+    "height": "998px",
+    "images": 27,
+    "embeddedImages": 27,
+    "editableSource": true
+  },
+  {
+    "view": "deployment",
+    "svgBytes": 1048312,
+    "width": "1022px",
+    "height": "913px",
+    "images": 29,
+    "embeddedImages": 29,
+    "editableSource": true
+  },
+  {
+    "view": "delivery",
+    "svgBytes": 1095121,
+    "width": "1021px",
+    "height": "900px",
+    "images": 39,
+    "embeddedImages": 39,
+    "editableSource": true
+  }
+]

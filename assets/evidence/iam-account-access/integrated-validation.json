@@ -1,0 +1,97 @@
+{
+  "revision": "e137d95",
+  "date": "2026-11-08",
+  "build": "passed",
+  "tasks": [
+    "testDebugUnitTest",
+    "assembleDebug",
+    "assembleDebugAndroidTest"
+  ],
+  "unit": {
+    "tests": 54,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "suites": [
+    {
+      "name": "pe.greenminds.ecomind.ExampleUnitTest",
+      "tests": 1
+    },
+    {
+      "name": "pe.greenminds.ecomind.iam.application.AccountAccessUseCasesTest",
+      "tests": 6
+    },
+    {
+      "name": "pe.greenminds.ecomind.iam.infrastructure.implementation.RemoteAuthRepositoryTest",
+      "tests": 10
+    },
+    {
+      "name": "pe.greenminds.ecomind.iam.infrastructure.remote.AuthInterceptorTest",
+      "tests": 7
+    },
+    {
+      "name": "pe.greenminds.ecomind.iam.interfaces.navigation.PasswordResetLinkTest",
+      "tests": 2
+    },
+    {
+      "name": "pe.greenminds.ecomind.quests.FamilyPlanApiTest",
+      "tests": 6
+    },
+    {
+      "name": "pe.greenminds.ecomind.quests.FamilyPlanServiceTest",
+      "tests": 13
+    },
+    {
+      "name": "pe.greenminds.ecomind.quests.FilterQuestsUseCaseTest",
+      "tests": 3
+    },
+    {
+      "name": "pe.greenminds.ecomind.quests.QuestExecutionServiceTest",
+      "tests": 6
+    }
+  ],
+  "backend": {
+    "revision": "988a49a",
+    "unit": {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "bdd_scenarios": 8,
+    "bdd_passed": 8,
+    "database": "H2 in test profile",
+    "external_email": "recording adapter; no production delivery"
+  },
+  "consent_tests": {
+    "revision": "e74125b",
+    "base_revision": "e137d95",
+    "tests": 2,
+    "result": "passed",
+    "device": "API36 ARM64 emulator"
+  },
+  "native_regressions": {
+    "revision": "e74125b",
+    "base_revision": "e137d95",
+    "tests": 11,
+    "result": "passed",
+    "device": "API36 ARM64 emulator"
+  },
+  "native_api": {
+    "android_revision": "e74125b",
+    "backend_revision": "988a49a",
+    "tests": 1,
+    "result": "passed",
+    "fixture": "Synthetic local account with tutorial already completed; isolated H2 and recording email adapter",
+    "coverage": [
+      "password reset",
+      "sign-in with new password",
+      "Back during delayed logout",
+      "activity recreation remains signed out"
+    ],
+    "production_email": false,
+    "physical_device": false
+  },
+  "native_total_passed": 14
+}

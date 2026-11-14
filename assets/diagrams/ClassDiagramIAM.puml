@@ -1,0 +1,86 @@
+@startuml
+top to bottom direction
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor #F1F1F1
+skinparam classBorderColor #777777
+skinparam packageStyle rectangle
+skinparam defaultFontName Arial
+skinparam linetype ortho
+skinparam nodesep 45
+skinparam ranksep 55
+hide empty members
+title IAM Bounded Context - Domain Layer Class Diagram
+class PendingRegistration <<Aggregate Root>> {
+-id: Long
+-name: String
+-email: EmailAddress
+-passwordHash: PasswordHash
+-socialRole: SocialRole
+-expiresAt: Instant
+-createdAt: Instant
+-emailVerification: EmailVerification
++isExpired(now: Instant): boolean
++isVerified(): boolean
+}
+class EmailVerification <<Entity>> {
+-tokenHash: TokenHash
+-expiresAt: Instant
+-usedAt: Instant
+-attempts: int
++isValid(now: Instant): boolean
++isUsed(): boolean
+}
+class Account <<Aggregate Root>> {
+-id: AccountId
+-status: AccountStatus
+-credential: AccountCredential
++activate(): void
++isActive(): boolean
++changePassword(newPasswordHash: PasswordHash): void
+}
+class AccountCredential <<Entity>> {
+-email: EmailAddress
+-passwordHash: PasswordHash
++matchesPassword(rawPassword: String, passwordHasher: PasswordHasher): boolean
++updatePassword(newPasswordHash: PasswordHash): void
+}
+class PasswordResetToken <<Aggregate Root>> {
+-id: Long
+-accountId: AccountId
+-tokenHash: TokenHash
+-expiresAt: Instant
+-usedAt: Instant
+-confirmationIdHash: TokenHash
++isValid(now: Instant): boolean
++consume(now: Instant, confirmationIdHash: TokenHash): boolean
++isConfirmationRetry(confirmationIdHash: TokenHash, now: Instant): boolean
+}
+class AccountId <<Value Object>> {
+-value: Long
+}
+class EmailAddress <<Value Object>> {
+-value: String
+}
+class PasswordHash <<Value Object>> {
+-value: String
+}
+class TokenHash <<Value Object>> {
+-value: String
+}
+class AccessToken <<Value Object>> {
+-value: String
+-expiresAt: Instant
+}
+PendingRegistration "1" *-- "1" EmailVerification
+Account "1" *-- "1" AccountCredential
+Account *-- AccountId
+AccountCredential *-- EmailAddress
+AccountCredential *-- PasswordHash
+PendingRegistration --> EmailAddress
+PendingRegistration --> PasswordHash
+EmailVerification --> TokenHash
+PasswordResetToken --> TokenHash
+PasswordResetToken --> AccountId
+@enduml

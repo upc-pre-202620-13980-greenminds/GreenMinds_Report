@@ -1,0 +1,89 @@
+{
+  "observedAt": "2026-11-12T22:28:44.638832+00:00",
+  "repository": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend",
+  "branch": "develop",
+  "sourceCommit": "dafd261711ddf3cf3a4c084c4220e92e754b7621",
+  "testedFeatureCommit": "3afef07b0e4408ea2a478356afd754dbe7b4d298",
+  "testedTreeMatchesMergedTree": true,
+  "workflow": {
+    "run": 43319120978,
+    "url": "https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43319120978",
+    "event": "push",
+    "attempt": 1,
+    "status": "completed",
+    "conclusion": "success",
+    "manualDispatch": false,
+    "manualRetry": false
+  },
+  "tests": {
+    "h2": {
+      "junitSuites": 69,
+      "tests": 698,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "coverage": {
+        "BRANCH": {
+          "covered": 1978,
+          "missed": 824
+        },
+        "LINE": {
+          "covered": 8587,
+          "missed": 1388
+        }
+      }
+    },
+    "postgresql": {
+      "junitSuites": 69,
+      "tests": 698,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "coverage": {
+        "BRANCH": {
+          "covered": 1978,
+          "missed": 824
+        },
+        "LINE": {
+          "covered": 8589,
+          "missed": 1386
+        }
+      }
+    }
+  },
+  "offlineDeploymentTests": 9,
+  "securityGate": {
+    "fixableHighCriticalFindings": 0,
+    "includesAllVulnerabilities": false
+  },
+  "runtime": {
+    "revision": "ca-ecomind-api--gh-43319120978-1",
+    "image": "acrecomind2c297d64-g7g5aaf5b7evc2gc.azurecr.io/ecomind-backend@sha256:48e53a2b203f4434304a9ce8abe8446cc6eb2f58287a1f570aa0b301cbabba31",
+    "health": "Healthy",
+    "provisioning": "Provisioned",
+    "running": "Running",
+    "active": true,
+    "latestReadyMatchesRequested": true,
+    "publicOrigin": "https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io",
+    "smoke": {
+      "openapiStatus": 200,
+      "documentedPaths": 133,
+      "anonymousAccountStatus": 401
+    }
+  },
+  "identity": {
+    "type": "user-assigned managed identity with GitHub OIDC",
+    "immutableRepositorySubject": true,
+    "branch": "develop",
+    "clientPasswordStored": false,
+    "roleScopes": [
+      "existing Container App",
+      "existing Azure Container Registry"
+    ]
+  },
+  "rollbackValidation": "offline tests; no forced live rollback performed",
+  "branchProtection": "optional; not enabled by this account",
+  "generalMavenJarArtifactUploaded": false,
+  "wholeAV2Certified": false,
+  "currentEmailDeliveryCertified": false
+}
