@@ -7533,9 +7533,9 @@ En el siguiente video se presenta el prototipo de EcoMind, compuesto por la Land
 Posteriormente, se mostrarán los principales recorridos de la aplicación móvil, como el registro e inicio de sesión, la realización de retos ambientales, la participación en actividades colaborativas, el seguimiento del progreso personal y familiar, el acceso a contenidos educativos, el ranking, la comunidad, los eventos y la personalización mediante la tienda.
 Esta presentación tiene como finalidad demostrar cómo ambas interfaces trabajan de manera complementaria. La Landing Page permite conocer la solución y orienta al usuario antes de ingresar, mientras que la aplicación móvil ofrece las herramientas necesarias para aprender, participar y desarrollar hábitos sostenibles. Asimismo, el recorrido permite comprobar si la navegación, las instrucciones y las acciones disponibles son claras y coherentes con las necesidades de estudiantes y padres de familia.
 
-<div align="center">
-  <img src="https://i.postimg.cc/VLnSzdxJ/Prototipo.jpg" alt="Prototipo de EcoMind" width="850">
-</div>
+<p align="center">
+  <img src="assets/img/figures/prototype.jpeg" alt="Video de navegación del prototipo de EcoMind" width="700">
+</p>
 
 *Nota. Elaboración propia.*
 
@@ -10741,13 +10741,53 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 ### Evidencia del video
 
 <p align="center">
-  <img src="https://i.postimg.cc/hGKk0QTV/Whats-App-Image-2026-11-13-at-16-04-44.jpg" alt="Video About the Product" width="600">
+  <img src="assets/img/figures/aboutTheProduct.jpeg" alt="Video About the Product de EcoMind" width="700">
 </p>
 
 **Figura X.** Video About the Product de EcoMind.  
 **Nota.** Elaboración propia.
 
 # Video About the team
+
+En esta sección se presenta el video **About the Team** de GreenMinds, en el cual se resumen el proceso de trabajo, las actividades desarrolladas y los principales aprendizajes obtenidos durante la construcción de EcoMind.
+
+La primera parte del video presenta una retrospectiva del proyecto, incluyendo la investigación con usuarios, el diseño de las interfaces, la arquitectura de software, la implementación del backend y de las aplicaciones móviles, la documentación técnica, las pruebas y el trabajo colaborativo realizado durante los sprints.
+
+Posteriormente, los integrantes presentan sus testimonios individuales, en los que describen las actividades que realizaron, las competencias profesionales fortalecidas y el cumplimiento del **ABET – EAC – Student Outcome 7**: adquirir y aplicar nuevos conocimientos cuando sea necesario mediante estrategias de aprendizaje apropiadas.
+
+- **Proyecto:** EcoMind
+- **Duración:** 10:18
+- **Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQCtJKtufwXvRqf7tq9Es2a_AQlCUL5lay9e-xPkfunyjCE?e=V1EpXZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **YouTube:** https://youtu.be/CCD8kZNfLDo?si=NGhDRwPDWi9ZU-xQ
+
+
+| Inicio | Sección | Contenido |
+|---|---|---|
+| 00:00:00 | Presentación | Introducción al proyecto EcoMind y al equipo GreenMinds. |
+| 00:00:20 | Investigación y planificación | Presentación del problema, las entrevistas, las necesidades identificadas y la organización del trabajo. |
+| 00:01:00 | Diseño UX/UI | Exposición de wireframes, mock-ups, flujos de usuario y diseño de las aplicaciones móviles. |
+| 00:01:30 | Arquitectura y backend | Presentación de los bounded contexts, la arquitectura, los endpoints y la documentación de servicios mediante Swagger. |
+| 00:02:00 | Implementación móvil | Evidencias del desarrollo de EcoMind y de la integración de las aplicaciones móviles con el backend. |
+| 00:02:30 | Desarrollo colaborativo | Presentación del código, repositorios, documentación y herramientas utilizadas por el equipo. |
+| 00:03:00 | Persistencia e integración | Evidencias de la base de datos, configuración de servicios e integración de los módulos de EcoMind. |
+| 00:03:30 | Pruebas y mejoras | Revisión de funcionalidades, solución de dificultades técnicas y mejoras realizadas durante los sprints. |
+| 00:04:00 | Retrospectiva | Resumen del proceso de trabajo, los resultados obtenidos y los principales aprendizajes del equipo. |
+| 00:04:39 | Presentación de testimonios | Transición hacia los testimonios individuales de los integrantes. |
+| 00:04:53 | Alejandra Astocondor | Actividades realizadas, competencias desarrolladas y cumplimiento del Student Outcome 7. |
+| 00:05:54 | Mauricio Pajes | Participación en el proyecto, aprendizajes alcanzados y competencias fortalecidas. |
+| 00:06:59 | Katty Philco | Aportes realizados, experiencia de trabajo y aprendizaje permanente. |
+| 00:07:59 | Isabel Aponte | Trabajo realizado durante los sprints, competencias desarrolladas y cumplimiento del Student Outcome 7. |
+| 00:09:05 | Leo Dulanto | Actividades desarrolladas, dificultades superadas y conocimientos adquiridos durante el proyecto. |
+| 00:10:15 | Cierre | Reflexión final y presentación de GreenMinds como equipo responsable de EcoMind. |
+
+<p align="center">
+  <img src="assets/img/figures/aboutTheTeam.jpeg" alt="Video About the Team de GreenMinds" width="700">
+</p>
+
+<p align="center">
+  <strong>Figura X.</strong> Video About the Team de GreenMinds.<br>
+  <strong>Nota.</strong> Elaboración propia.
+</p>
 
 # Bibliografía
 
