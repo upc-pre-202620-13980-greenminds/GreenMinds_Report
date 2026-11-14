@@ -10419,17 +10419,17 @@ Al inicio de cada sesión se le explica al participante que el objetivo es proba
 - Buscar su posición en el ranking.
 - En la tienda, comprar un cosmético con gemas y equiparlo.
 
-**Preguntas de validación:**
+**Preguntas de validación:*
 
-1. ¿El Landing Page te ayudó a entender de qué va EcoMind? ¿Qué parte te llamó más la atención?
+1. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer
 
-2. Cuando hiciste la miniactividad paso a paso, ¿las instrucciones fueron claras o hubo algún momento en que no sabías qué hacer
+2. En tu perfil encontraste varias pestañas: amigos, familia, compromiso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental
 
-3. En tu perfil encontraste varias pestañas: resumen, progreso. ¿Pudiste moverte entre ellas sin problema? ¿Te pareció útil lo del compromiso ambiental
+3. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
 
-4. ¿Hubo algún botón o pantalla donde no supieras qué hacer?
-
-5. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
+4. Al ver el ranking, ¿pudiste encontrar tu posición? ¿Te dieron ganas de completar más actividades para subir?
+   
+5. ¿Cómo te pareció lo de invitar un amigo al reto grupal? ¿Fue fácil o te trabaste en algun paso?
 
 6. Del 1 al 5, ¿qué tan divertido te pareció explorar la tienda y ponerle cosas a tu avatar? ¿Entendiste para qué sirve el multiplicador de XP?
 
