@@ -10009,7 +10009,6 @@ En esta sección se presentan las evidencias de ejecución de EcoMind correspond
 
 Link video de ejecución: https://youtu.be/Tgp8eGX5J5Q
 
-
 **Bounded Context IAM:** En Iam contamos con las pantallas de registro, inicio de sesión y recuperación de contraseña, mediante las cuales los usuarios pueden crear una cuenta y gestionar su acceso a EcoMind.
 
 **Figura XX**
