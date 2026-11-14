@@ -30,6 +30,10 @@ Proyecto <br>
 
 **Integrantes**
 
+**Tabla 1**
+
+*Integrantes del equipo GreenMinds.*
+
 <table style="border-collapse: collapse; border: none;">
   <tr>
     <th style="border: none; text-align: left; padding-right: 20px;">Código</th>
@@ -69,7 +73,7 @@ Proyecto <br>
 
 # Registro de Versiones del Informe
 
-**Tabla 1**
+**Tabla 2**
 *Registro de versiones del informe.*
 
 | Version | Fecha | Autor | Descripción de modificación |
@@ -127,6 +131,8 @@ La elaboración del informe se realizó de manera incremental, incorporando los 
 
 Asimismo, los integrantes revisaron y complementaron las secciones del informe para que los diseños, la documentación técnica y los resultados de validación correspondieran con el producto desarrollado. Los analíticos de contribución y el historial de commits permiten observar los aportes de cada miembro y la participación del equipo en la preparación de la entrega TB1.
 
+**Figura 2**
+
 *Contribuciones del equipo al informe durante TB1.*
 
 ![projetoverview2](assets/img/figures/Docs_Overview2.png)
@@ -138,6 +144,8 @@ Durante el desarrollo de la entrega AV2, el equipo organizó la actualización d
 La elaboración del informe se realizó de manera incremental, incorporando la planificación, el Sprint Backlog 2 y las evidencias de desarrollo, pruebas, documentación de servicios y despliegue conforme avanzaba la implementación. También se actualizaron los diagramas de componentes, clases y datos, el Student Outcome, las conclusiones y recomendaciones, y se añadieron nuevas entrevistas de validación y evaluaciones según heurísticas. Estos aportes se registraron en el control de versiones para mantener un seguimiento de los cambios realizados durante la entrega.
 
 Asimismo, los integrantes revisaron y complementaron las secciones del informe para que la documentación técnica, las evidencias y los resultados de validación correspondieran con el producto desarrollado. Los analíticos de contribución y el historial de commits permiten observar los aportes de cada miembro y la participación del equipo en la preparación de la entrega AV2.
+
+**Figura 3**
 
 *Historial de commits del informe en la rama develop durante AV2.*
 
@@ -331,7 +339,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
-**Tabla 2**
+**Tabla 3**
 
 *Acciones y conclusiones del Student Outcome 7.*
 
@@ -349,7 +357,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Aponte Pablo, Isabel Luisa (u20241e158)
 
-**Tabla 3**
+**Tabla 4**
 
 *Objetivo 1 — Obtener mi primer empleo como desarrolladora de software de Aponte Pablo, Isabel Luisa (u20241e158).*
 
@@ -361,7 +369,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant   | Conseguir experiencia laboral me permitirá aplicar mis conocimientos, desarrollar soluciones reales, aprender prácticas profesionales y construir una trayectoria en ingeniería de software. |
 | Time-bound | Alcanzar este objetivo dentro de los seis meses posteriores a mi egreso. |
 
-**Tabla 4**
+**Tabla 5**
 
 *Objetivo 2 — Fortalecer mis habilidades de liderazgo técnico en proyectos de software de Aponte Pablo, Isabel Luisa (u20241e158).*
 
@@ -376,7 +384,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Astocondor Bazan, Alejandra Isabel (U202410678)
 
-**Tabla 5**
+**Tabla 6**
 
 *Objetivo 1 — Creación de un producto digital propio de Astocondor Bazan, Alejandra Isabel (U202410678).*
 
@@ -388,7 +396,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant | Me permitirá aplicar mis conocimientos en un proyecto completo, fortalecer mi capacidad para tomar decisiones de producto y demostrar iniciativa profesional. |
 | Time-bound | Dentro del primer año posterior a mi egreso. |
 
-**Tabla 6**
+**Tabla 7**
 
 *Objetivo 2 — Construcción de un portafolio profesional de Astocondor Bazan, Alejandra Isabel (U202410678).*
 
@@ -402,7 +410,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Dulanto Espino, Leo César (U202410254)
 
-**Tabla 7**
+**Tabla 8**
 
 *Objetivo 1 — Especialización en desarrollo backend y servicios web de Dulanto Espino, Leo César (U202410254).*
 
@@ -414,7 +422,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant | Esta especialización me permitirá mejorar mis oportunidades laborales y participar en el desarrollo de soluciones de software escalables y confiables. |
 | Time-bound | Alcanzar este objetivo durante el primer año posterior a mi egreso. |
 
-**Tabla 8**
+**Tabla 9**
 
 *Objetivo 2 — Desarrollo de habilidades de liderazgo técnico de Dulanto Espino, Leo César (U202410254).*
 
@@ -428,7 +436,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Pajés León, Mauricio Luis (u202410093)
 
-**Tabla 9**
+**Tabla 10**
 
 *Objetivo 1 — Especialización en arquitectura de software de Pajés León, Mauricio Luis (u202410093).*
 
@@ -441,7 +449,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Time-bound | Dentro de los nueve meses posteriores a mi egreso. |
 
 
-**Tabla 10**
+**Tabla 11**
 
 *Objetivo 2 — Desarrollo de soluciones con inteligencia artificial aplicada de Pajés León, Mauricio Luis (u202410093).*
 
@@ -455,7 +463,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 
 ## Philco Mota, Katty Yolanda (u202416107)
 
-**Tabla 11**
+**Tabla 12**
 
 *Objetivo 1 — Especialización en backend y buenas prácticas de arquitectura de software de Philco Mota, Katty Yolanda (u202416107).*
 
@@ -467,7 +475,7 @@ Cada integrante formula dos objetivos SMART orientados a su desarrollo profesion
 | Relevant | Consolidar estas competencias fortalecerá mi perfil como ingeniera backend orientada a buenas prácticas de arquitectura, aumentando mi empleabilidad y mi capacidad de participar en decisiones técnicas de diseño de software. |
 | Time-bound | Dentro del primer año posterior a mi egreso. |
 
-**Tabla 12**
+**Tabla 13**
 
 *Objetivo 2 — Construcción de un portafolio profesional de Philco Mota, Katty Yolanda (u202416107).*
 
@@ -515,7 +523,7 @@ Diseñar soluciones digitales educativas, accesibles y motivadoras que fortalezc
 
 La siguiente tabla resume los perfiles, intereses y principales capacidades de los integrantes que conforman el equipo GreenMinds.
 
-**Tabla 13**
+**Tabla 14**
 
 *Perfiles de los integrantes de GreenMinds.*
 
@@ -579,7 +587,7 @@ La falta de conciencia ambiental es el resultado de un proceso en el que los apr
 
 En el Perú, la gestión de residuos sólidos evidencia serias limitaciones. Aunque la valorización de residuos municipales pasó de 17 189 toneladas en 2014 a 148 559 toneladas en 2022, este volumen representa apenas el 1,8 % del total generado a nivel nacional (Ministerio del Ambiente, 2024), lo que refleja un bajo nivel de aprovechamiento de materiales reciclables.
 
-**Figura 2**
+**Figura 4**
 *Porcentaje de residuos sólidos municipales valorizados con respecto a lo generado según departamento*
 
 <img src="assets/img/figures/image021.png" width="500">
@@ -588,7 +596,7 @@ Nota.*Adaptado de Anuario estadístico del sector Ambiente 2023, por el Minister
 
 Un estudio realizado en Madre de Dios mostró que el 35,4 % de los estudiantes tenía un nivel moderado de conciencia ambiental, el 28,7 % un nivel alto y solo el 7,2 % alcanzó un nivel muy alto, mientras que un 5,5 % se ubicó en un nivel muy bajo. Respecto a las actitudes proambientales, el 43,7 % presentó niveles parcialmente adecuados y apenas un 3,3 % logró niveles muy adecuados (Estrada, et al. 2022). 
 
-**Figura 3**
+**Figura 5**
 
 *Resultados descriptivos de conciencia ambiental y las actitudes proambientales de los estudiantes de la Institución Educativa Almirante Miguel Grau Seminario de Madre de Dios, Perú.*
 
@@ -751,7 +759,7 @@ Esta subsección sintetiza el problema, los usuarios, la propuesta de valor y lo
 
 Link: https://canva.link/9mzenct40v5ocok
 
-**Figura 4**
+**Figura 6**
 
 *Lean Product Canvas*
 
@@ -820,7 +828,7 @@ Earth Cubs es una aplicación educativa orientada a niños, cuyo propósito es e
 
 El análisis compara a EcoMind con las alternativas seleccionadas según su propuesta de valor, público objetivo, producto, marketing, fortalezas, debilidades, oportunidades y amenazas.
 
-**Tabla 14**
+**Tabla 15**
 
 *Propósito del análisis competitivo.*
 
@@ -828,7 +836,7 @@ El análisis compara a EcoMind con las alternativas seleccionadas según su prop
 |---|---|
 | ¿Por qué llevar a cabo este análisis? | Llevamos a cabo este análisis con la finalidad de conocer a los competidores, identificar sus fortalezas y debilidades, y definir estrategias de diferenciación y posicionamiento para Green Mind. |
 
-**Tabla 15**
+**Tabla 16**
 
 *Análisis competitivo de EcoMind.*
 
@@ -951,7 +959,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 #### Segmento: Padres de Familia
 <br>
 
-**Tabla 16**
+**Tabla 17**
 
 *Entrevista 1 del segmento de padres de familia.*
 
@@ -960,7 +968,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | <img src="assets/img/figures/imagen0781.png" width="335" hspace="240"> |
 | **Entrevistado N°1:** Pedro Eulogio Pablo<br> **Edad:** 49 años<br>**Ubicación:** Barranca, Barranca, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 0:00<br> **Duración:** 4:52<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pedro Eulogio Pablo, un padre de familia de 49 años que vive en Barranca, región Lima. Tiene dos hijos de 9 y 15 años, quienes acompañan cursos en primaria y secundaria. Su rutina semanal se centra en el trabajo y en el acompañamiento a sus hijos en sus estudios, dedicando las tardes a comprender y revisar sus clases.<br><br>En cuanto al uso de la tecnología, Pedro tiene un nivel básico, ya que utiliza principalmente su celular para llamadas y WhatsApp. En contraste, sus hijos emplean aplicaciones más sofisticadas, acceso a redes sociales. Respecto al medio de la familia, Pedro le otorga gran importancia dentro de la educación familiar. En sus acciones más comunes son el reciclaje, la correcta disposición de los desechos y la limpieza de los espacios. Sin embargo, enfrenta dificultades porque sus hijos a veces olvidan prácticas básicas, como correr los caños o apagar las luces.<br><br>Para mejorar sus prácticas ambientales, Pedro está dispuesto a utilizar una aplicación con retos simples y premios que incentiven a que sus hijos realicen actividades cotidianas que les son importantes. A partir de la información que nos proporciona, hemos identificado que los hijos no solo practican en casa, sino que también comparten estas prácticas con su comunidad, creando autónomos en torno a los incentivos. |
 
-**Tabla 17**
+**Tabla 18**
 
 *Entrevista 2 del segmento de padres de familia.*
 
@@ -969,7 +977,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | <img src="assets/img/figures/Entrevista_2_Padres_Familia.png" width="335" hspace="240"> |
 | **Entrevistado N°2:** Manuel Pajes<br> **Edad:** 52 años<br>**Ubicación:** San Miguel, Lima<br><br> **Entrevista:** [Video de la entrevista Nro. 2 - Manuel Pajes](https://upcedupe-my.sharepoint.com/personal/u202410093_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202410093%5Fupc%5Fedu%5Fpe%2FDocuments%2FManuel%20Pajes%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2559e663%2Def0a%2D4632%2D94a0%2Dc1d5999434f4)<br>**Instante del que inicia:** 0:03<br> **Duración:** 4:46<br><br> **Resumen:** <br><br>Manuel Pajes tiene 52 años, es padre de tres hijos y es ingeniero electrónico dedicado a actividades comerciales relacionadas con su carrera. Se considera bastante seguro al utilizar celulares y aplicaciones; menciona redes sociales y aplicaciones bancarias, entre otras. Durante la semana, el trabajo, el colegio y los estudios de sus hijos limitan las actividades compartidas. Algunos fines de semana salen a comer y a pasar tiempo en familia, aunque no lo hacen con mucha frecuencia.<br><br>Considera muy importante el cuidado del medio ambiente, pero reconoce que las ocupaciones diarias dificultan dedicarle atención y que su familia no es especialmente proactiva. En casa les piden a los hijos apagar las luces, evitar dejar correr el agua durante mucho tiempo y moderar el uso de la terma. Explica que los hijos suelen olvidar estas indicaciones y que los padres tampoco mantienen un seguimiento constante, por lo que todavía no han consolidado esos hábitos.<br><br>Afirma que utilizaría en familia una aplicación con retos ambientales simples. Le parece útil que tanto los hijos como los adultos reciban recordatorios y aprendan mediante actividades cotidianas de forma lúdica. Para motivarlos, valora los recursos visuales, didácticos y entretenidos que ayuden a tomar conciencia. Espera que sus hijos interioricen el cuidado del medio ambiente hasta practicarlo de manera natural como parte de sus hábitos. |
 
-**Tabla 18**
+**Tabla 19**
 
 *Entrevista 3 del segmento de padres de familia.*
 
@@ -980,7 +988,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 
 #### Segmento objetivo: Escolares de Primaria
 
-**Tabla 19**
+**Tabla 20**
 
 *Entrevista 1 del segmento de escolares de primaria.*
 
@@ -989,7 +997,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | <img src="assets/img/figures/image036.png" width="330" hspace="230"> |
 | **Entrevistado N°1:** Pablo Astocondor<br> **Edad:** 11 años<br>**Ubicación:** Pueblo Libre, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 4:53  <br> **Duración:** 3:15<br><br> **Resumen:** <br><br>Nuestro entrevistado es Pablo, un estudiante de 11 años. En su tiempo libre le gusta jugar con sus juguetes, salir, utilizar la consola o la PC, y también emplear aplicaciones como Roblox para jugar y Discord para comunicarse.<br><br>En relación con el cuidado del medio ambiente, recuerda que en su colegio le han enseñado sobre el ahorro de agua, no botar botellas y guardar chapas. En su casa procura no usar muchas bolsas de plástico. Lo que más lo motiva es haber visto en la provincia la acumulación de basura y cómo afecta tanto a las personas como a los animales, lo que lo hace reflexionar sobre la importancia de reducir los desechos.<br><br>Sobre la forma de aprender, señala que prefiere actividades digitales, aunque también reconoce el valor de las que son en papel. Le gusta aprender escuchando, viendo videos y leyendo textos cortos. Además, considera que los juegos pueden servir como herramienta de aprendizaje si tienen mecánicas bien diseñadas, aunque algunos pueden resultar adictivos.<br><br>Finalmente, Pablo demuestra que disfruta combinar distintas formas de aprendizaje y entretenimiento, mostrando una postura crítica frente al uso de videojuegos educativos. |
 
-**Tabla 20**
+**Tabla 21**
 
 *Entrevista 2 del segmento de escolares de primaria.*
 
@@ -998,7 +1006,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e158_upc_edu_pe/IQDVAq3-
 | <img src="assets/img/figures/image037.png" width="330" hspace="250"> |
 | **Entrevistado N°2:** Gianfranco de la Cruz <br> **Edad:** 12 años<br>**Ubicación:** La Molina, Lima<br><br> **Entrevista:** <br>**Instante del que inicia:** 7:00 <br> **Duración:** 3:40<br><br> **Resumen:** <br><br>El entrevistado se llama Gianfranco de la Cruz, tiene 12 años y está por culminar la primaria. Le gusta pasar el tiempo usando su celular, ya sea para jugar o ver videos.<br><br>Nos menciona que en su colegio sí le han enseñado de manera regular sobre el cuidado del ambiente, como la implementación de tachos de basura específicos para reciclaje. Sin embargo, fuera del colegio no tiene muy claro qué actividades o acciones puede realizar, aparte de mantener limpias sus zonas de convivencia.<br><br>Por último, menciona que actualmente realiza este tipo de acciones más por ayudar que por motivación propia. Sin embargo, la idea de aprender nuevas formas de apoyo mediante juegos o videos le parecería motivante para esforzarse más. |
 
-**Tabla 21**
+**Tabla 22**
 
 *Entrevista 3 del segmento de escolares de primaria.*
 
@@ -1020,7 +1028,7 @@ Esta subsección interpreta los hallazgos de las entrevistas y relaciona los pat
      
 **2. Nivel de confianza con tecnología (celulares/aplicaciones)**
 
-**Figura 5**
+**Figura 7**
 
 *Nivel de confianza en la tecnología - Padres*
 
@@ -1040,7 +1048,7 @@ En cuanto a las acciones ambientales realizadas en casa, todos afirmaron practic
 
 **6. Dificultades al enseñar hábitos sostenibles a los hijos**
 
-**Figura 6**
+**Figura 8**
 
 *Dificultades en las enseñanzas - Padres*
 
@@ -1068,7 +1076,7 @@ Con respecto a las expectativas de aprendizaje ambiental, los padres desean que 
 
 Respecto a sus actividades en el tiempo libre, los escolares disfrutan jugar en consola o computadora y pasar tiempo en plataformas digitales para la visualización de vídeos.
 
-**Figura 7**
+**Figura 9**
 
 Uso de aparatos tecnológicos- Escolares
 
@@ -1084,7 +1092,7 @@ Dentro de las acciones ambientales en casa practican apagar luces y ahorrar agua
 
 **5. Motivación para hacerlo:**
 
-**Figura 8**
+**Figura 10**
 
 *Motivación de escolares*
 
@@ -1092,14 +1100,14 @@ Dentro de las acciones ambientales en casa practican apagar luces y ahorrar agua
  
 **7. Aprender con juegos o retos**
 
-**Figura 9**
+**Figura 11**
 *Juegos educativos - Escolares*
 
 <img src="assets/img/figures/image048.png" width="330"> 
  
 **8. Preferencias entre lo digital o papel**
 
-**Figura 10**
+**Figura 12**
 
 *Preferencia en los escolares*
 
@@ -1126,12 +1134,12 @@ Los user personas representan a los principales perfiles de usuarios de EcoMind 
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 11 (User Persona 1)*
+*Figura 13 (User Persona 1)*
 <img src="assets/img/figures/image054.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 12 (User Persona 2)*
+*Figura 14 (User Persona 2)*
 <img src="assets/img/figures/image053.png" width="530">
 
 ### 2.3.2. User Task Matrix
@@ -1139,12 +1147,12 @@ La User Task Matrix organiza las tareas principales que realizan los segmentos o
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 13 (User Task Matrix 1)*
+*Figura 15 (User Task Matrix 1)*
 <img src="assets/img/figures/imagen083.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 14 (User Task Matrix 2)*
+*Figura 16 (User Task Matrix 2)*
 <img src="assets/img/figures/imagen082.png" width="530">
 
 
@@ -1153,12 +1161,12 @@ El User Journey Mapping muestra las etapas de interacción de cada segmento obje
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 15 (User Journey Mapping 1)*
+*Figura 17 (User Journey Mapping 1)*
 <img src="assets/img/figures/image059.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 16 (User Journey Mapping 2)*
+*Figura 18 (User Journey Mapping 2)*
 <img src="assets/img/figures/image057.png" width="530">
 
 ### 2.3.4. Empathy Mapping
@@ -1166,12 +1174,12 @@ Los mapas de empatía sintetizan lo que los usuarios piensan, sienten, dicen y h
 
 **Primer Segmento Objetivo (Padres de Familia)**
 
-*Figura 17 (Empathy Mapping 1)*
+*Figura 19 (Empathy Mapping 1)*
 <img src="assets/img/figures/image063.png" width="530">
 
 **Segundo Segmento Objetivo (Escolares de primaria)**
 
-*Figura 18 (Empathy Mapping 2)*
+*Figura 20 (Empathy Mapping 2)*
 <img src="assets/img/figures/image062.png" width="530">
 
 ### 2.3.5. Big Picture EventStorming
@@ -1180,7 +1188,7 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 
 **Paso 1: Identificación de eventos.** Se identificaron y organizaron los eventos más importantes que ocurren durante la interacción de los usuarios con la plataforma.
 
-**Figura 19**
+**Figura 21**
 
 *Identificación de eventos en el Big Picture EventStorming.*
 
@@ -1188,12 +1196,12 @@ El equipo realizó una sesión colaborativa de Big Picture EventStorming para co
 
 **Paso 2: Organización de los eventos.** Los eventos de dominio identificados se organizaron cronológicamente, comenzando por el happy path, que representa el flujo exitoso principal. Luego, se añadieron escenarios alternativos para mostrar posibles errores, decisiones diferentes y ramificaciones dentro de los procesos de GreenMinds.
 
-**Figura 20**
+**Figura 22**
 
 *Organización de eventos en el Big Picture EventStorming.*
 
 ![event_Storming2](assets/img/figures/EventStorming020.jpg)
-**Figura 21**
+**Figura 23**
 
 *Continuación de la organización de eventos.*
 
@@ -1207,7 +1215,7 @@ En el Paso 1, las notas quedaron agrupadas en seis áreas: retos y misiones, log
 
 El siguiente glosario establece los términos compartidos que el equipo y los stakeholders utilizan para describir el dominio de EcoMind. Las definiciones buscan evitar interpretaciones diferentes entre las áreas del producto y se limitan a conceptos propios de la solución, la educación ambiental y la participación de sus usuarios.
 
-**Tabla 22**
+**Tabla 23**
 
 *Ubiquitous Language de EcoMind.*
 
@@ -1269,6 +1277,10 @@ Cada user story describe una necesidad desde la perspectiva del usuario o del eq
 ### Épicas
 
 Las épicas agrupan necesidades amplias del producto y sirven como referencia para organizar las historias de usuario por áreas funcionales.
+
+**Tabla 24**
+
+*Épicas del producto EcoMind.*
 
 <table align="center">
   <tr>
@@ -1347,6 +1359,10 @@ Las épicas agrupan necesidades amplias del producto y sirven como referencia pa
 
 Las technical stories describen necesidades técnicas necesarias para soportar la calidad, seguridad, integración y evolución de la solución.
 
+**Tabla 25**
+
+*TS-001 – Endpoint de usuarios.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-001</td>
@@ -1373,6 +1389,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
     </td>
   </tr>
 </table>
+
+**Tabla 26**
+
+*TS-002 – Endpoints de familia y miembros familiares.*
 
 <table align="center">
   <tr>
@@ -1401,6 +1421,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
+**Tabla 27**
+
+*TS-003 – Endpoint de amigos.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-003</td>
@@ -1427,6 +1451,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
     </td>
   </tr>
 </table>
+
+**Tabla 28**
+
+*TS-004 – Endpoints de retos y actividades.*
 
 <table align="center">
   <tr>
@@ -1455,6 +1483,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
+**Tabla 29**
+
+*TS-005 – Endpoints de progreso de retos y actividades.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-005</td>
@@ -1482,6 +1514,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
+**Tabla 30**
+
+*TS-006 – Endpoints de logros de usuario y comunidad.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-006</td>
@@ -1508,6 +1544,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
     </td>
   </tr>
 </table>
+
+**Tabla 31**
+
+*TS-007 – Endpoints de ranking semanal.*
 
 <table align="center">
   <tr>
@@ -1537,6 +1577,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
 </table>
 
 
+**Tabla 32**
+
+*TS-008 – Servicio de notificaciones push.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-008</td>
@@ -1563,6 +1607,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
+
+**Tabla 33**
+
+*TS-009 – Endpoint de resumen y edición de perfil.*
 
 <table align="center">
   <tr>
@@ -1591,6 +1639,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
+**Tabla 34**
+
+*TS-010 – Endpoint de progreso del perfil.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-010</td>
@@ -1617,6 +1669,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
     </td>
   </tr>
 </table>
+
+**Tabla 35**
+
+*TS-011 – Endpoint de familia y amigos del perfil.*
 
 <table align="center">
   <tr>
@@ -1645,6 +1701,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
+**Tabla 36**
+
+*TS-012 – Endpoint de interacción comunitaria.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-012</td>
@@ -1671,6 +1731,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
     </td>
   </tr>
 </table>
+
+**Tabla 37**
+
+*TS-013 – Endpoint de eventos comunitarios y participación.*
 
 <table align="center">
   <tr>
@@ -1699,6 +1763,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
+**Tabla 38**
+
+*TS-014 – Endpoint de catálogo y compra de cosméticos.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-014</td>
@@ -1725,6 +1793,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
     </td>
   </tr>
 </table>
+
+**Tabla 39**
+
+*TS-015 – Endpoint de compra de gemas.*
 
 <table align="center">
   <tr>
@@ -1753,6 +1825,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
   </tr>
 </table>
 
+**Tabla 40**
+
+*TS-016 – Endpoint de notificaciones del usuario.*
+
 <table align="center">
   <tr>
     <td><b>Technical Story ID</b></td><td>TS-016</td>
@@ -1779,6 +1855,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
     </td>
   </tr>
 </table>
+
+**Tabla 41**
+
+*TS-017 – Endpoint de materiales de aprendizaje.*
 
 <table align="center">
   <tr>
@@ -1808,6 +1888,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
     </td>
   </tr>
 </table>
+
+**Tabla 42**
+
+*TS-018 – Endpoint de metas comunitarias y chat temporal.*
 
 <table align="center">
   <tr>
@@ -1839,6 +1923,10 @@ Las technical stories describen necesidades técnicas necesarias para soportar l
 ### User Stories
 
 Las user stories detallan las necesidades de los usuarios y del sistema en unidades que pueden ser priorizadas y validadas durante el desarrollo.
+
+**Tabla 43**
+
+*HU-001 – Retos guiados con indicaciones.*
 
 <table align="center">
   <tr>
@@ -1892,6 +1980,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 44**
+
+*HU-002 – Reto ambiental diario.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-002</td>
@@ -1924,6 +2016,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 45**
+
+*HU-003 – Racha diaria por completar retos.*
 
 <table align="center">
   <tr>
@@ -1964,6 +2060,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 46**
+
+*HU-004 – Sistema de puntos por aprendizaje.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-004</td>
@@ -1998,6 +2098,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 47**
+
+*HU-005 – Reconocimiento por constancia.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-005</td>
@@ -2023,6 +2127,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 48**
+
+*HU-006 – Establecimiento de compromiso.*
 
 <table align="center">
   <tr>
@@ -2056,6 +2164,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 49**
+
+*HU-007 – Seguimiento de progreso.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-007</td>
@@ -2088,6 +2200,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 50**
+
+*HU-008 – Animaciones de logro.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-008</td>
@@ -2113,6 +2229,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 51**
+
+*HU-009 – Ranking educativo.*
 
 <table align="center">
   <tr>
@@ -2146,6 +2266,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 52**
+
+*HU-010 – Desafío entre compañeros.*
 
 <table align="center">
   <tr>
@@ -2191,6 +2315,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 53**
+
+*HU-011 – Colección de medallas.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-011</td>
@@ -2223,6 +2351,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 54**
+
+*HU-012 – Historial de aprendizaje.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-012</td>
@@ -2254,6 +2386,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 55**
+
+*HU-013 – Reto familiar en casa.*
 
 <table align="center">
   <tr>
@@ -2288,6 +2424,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 56**
+
+*HU-014 – Evento familiar en comunidad.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-014</td>
@@ -2320,6 +2460,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 57**
+
+*HU-015 – Registro de logros familiares.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-015</td>
@@ -2346,6 +2490,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+
+**Tabla 58**
+
+*HU-016 – Premios por colaboración familiar.*
 
 <table align="center">
   <tr>
@@ -2374,6 +2522,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+
+**Tabla 59**
+
+*HU-017 – Planificación de retos familiares.*
 
 <table align="center">
   <tr>
@@ -2413,6 +2565,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 60**
+
+*HU-018 – Alertas de eventos comunitarios para padres.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-018</td>
@@ -2445,6 +2601,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 61**
+
+*HU-019 – Agregar integrantes a la familia.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-019</td>
@@ -2476,6 +2636,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 62**
+
+*HU-020 – Felicitación de logros familiares.*
 
 <table align="center">
   <tr>
@@ -2510,6 +2674,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 63**
+
+*HU-021 – Reportes de progreso familiares.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-021</td>
@@ -2543,6 +2711,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 64**
+
+*HU-022 – Ranking de familias.*
 
 <table align="center">
   <tr>
@@ -2584,6 +2756,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 65**
+
+*HU-023 – Guía simplificada.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-023</td>
@@ -2621,6 +2797,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 66**
+
+*HU-024 – Tutorial paso a paso.*
 
 <table align="center">
   <tr>
@@ -2664,6 +2844,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 67**
+
+*HU-025 – Recordatorios educativos.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-025</td>
@@ -2703,6 +2887,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 68**
+
+*HU-026 – Contenido breve y claro.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-026</td>
@@ -2736,6 +2924,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 69**
+
+*HU-027 – Videos explicativos.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-027</td>
@@ -2767,6 +2959,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 70**
+
+*HU-028 – Lenguaje sencillo.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-028</td>
@@ -2793,6 +2989,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+
+**Tabla 71**
+
+*HU-029 – Avatares y comesticos personalizables.*
 
 <table align="center">
   <tr>
@@ -2863,6 +3063,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 72**
+
+*HU-030 – Preguntas frecuentes.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-030</td>
@@ -2900,6 +3104,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+
+**Tabla 73**
+
+*HU-031 – Multiplicador de XP.*
 
 <table align="center">
   <tr>
@@ -2941,6 +3149,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 74**
+
+*HU-032 – Infografías resumen.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-032</td>
@@ -2978,6 +3190,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 75**
+
+*HU-033 – Compartir logros ambientales.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-033</td>
@@ -3013,6 +3229,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 76**
+
+*HU-034 – Reaccionar a publicaciones.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-034</td>
@@ -3044,6 +3264,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 77**
+
+*HU-035 – Compra y obtención de gemas.*
 
 <table align="center">
   <tr>
@@ -3090,6 +3314,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 78**
+
+*HU-036 – Ranking local.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-036</td>
@@ -3135,6 +3363,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 79**
+
+*HU-037 – Eventos ambientales.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-037</td>
@@ -3168,6 +3400,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 80**
+
+*HU-038 – Panel de logros compartidos.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-038</td>
@@ -3193,6 +3429,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 81**
+
+*HU-039 – Invitar a amigos.*
 
 <table align="center">
   <tr>
@@ -3227,6 +3467,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 82**
+
+*HU-040 – Felicitación de logros comunitarios.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-040</td>
@@ -3258,6 +3502,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 83**
+
+*HU-041 – Puntaje decreciente por repetición de minijuegos.*
 
 <table align="center">
   <tr>
@@ -3298,6 +3546,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 84**
+
+*HU-042 – Multiplataforma.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-042</td>
@@ -3335,6 +3587,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 85**
+
+*HU-043 – Carga rápida.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-043</td>
@@ -3366,6 +3622,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 86**
+
+*HU-044 – Interfaz simple.*
 
 <table align="center">
   <tr>
@@ -3403,6 +3663,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 87**
+
+*HU-045 – Disponibilidad 24/7.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-045</td>
@@ -3435,6 +3699,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 88**
+
+*HU-046 – Seguridad y Datos Personales.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-046</td>
@@ -3466,6 +3734,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+
+**Tabla 89**
+
+*HU-047 – Soporte técnico.*
 
 <table align="center">
   <tr>
@@ -3502,6 +3774,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 90**
+
+*HU-048 – Selección del lugar de encuentro en mapa.*
 
 <table align="center">
   <tr>
@@ -3547,6 +3823,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 91**
+
+*HU-049 – Sincronización automática.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-049</td>
@@ -3582,6 +3862,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 92**
+
+*HU-050 – Optimización de recursos.*
 
 <table align="center">
   <tr>
@@ -3619,6 +3903,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
+**Tabla 93**
+
+*HU-051 – Información descriptiva clara.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-051</td>
@@ -3655,6 +3943,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 94**
+
+*HU-052 – Consejos de uso para padres.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-052</td>
@@ -3686,6 +3978,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+
+**Tabla 95**
+
+*HU-053 – Preguntas frecuentes en landing page.*
 
 <table align="center">
   <tr>
@@ -3723,6 +4019,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 96**
+
+*HU-054 – Información de la comunidad.*
 
 <table align="center">
   <tr>
@@ -3766,7 +4066,11 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
 </table>
 
 
-<<table align="center">
+**Tabla 97**
+
+*HU-055 – Redirección a registro de cuenta.*
+
+<table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-055</td>
     <td><b>Epic ID</b></td><td>EP06</td>
@@ -3800,6 +4104,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 98**
+
+*HU-056 – Registro de usuario.*
 
 <table align="center">
   <tr>
@@ -3837,6 +4145,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 99**
+
+*HU-057 – Inicio de sesión.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-057</td>
@@ -3871,6 +4183,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 100**
+
+*HU-058 – Recuperación de contraseña.*
 
 <table align="center">
   <tr>
@@ -3910,6 +4226,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 101**
+
+*HU-059 – Cierre de sesión.*
+
 <table align="center">
   <tr>
     <td><b>User Story ID</b></td><td>HU-059</td>
@@ -3942,6 +4262,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     </td>
   </tr>
 </table>
+
+**Tabla 102**
+
+*HU-060 – Inscripción a una comunidad local cercana.*
 
 <table align="center">
   <tr>
@@ -3981,6 +4305,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </tr>
 </table>
 
+**Tabla 103**
+
+*HU-061 – Creación de comunidades personalizadas.*
+
 <table align="center">
   <tr><td><b>User Story ID</b></td><td>HU-061</td><td><b>Epic ID</b></td><td>EP04</td></tr>
   <tr><td><b>Título</b></td><td colspan="3">Creación de comunidades personalizadas</td></tr>
@@ -3992,6 +4320,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     <ul><li><b>Dado que</b> el padre intenta crear una comunidad,</li><li><b>Cuando</b> deja campos obligatorios vacíos o no selecciona un tópico válido,</li><li><b>Entonces</b> la aplicación muestra los errores correspondientes y no crea la comunidad.</li></ul>
   </td></tr>
 </table>
+
+**Tabla 104**
+
+*HU-062 – Inscripción a comunidades personalizadas.*
 
 <table align="center">
   <tr><td><b>User Story ID</b></td><td>HU-062</td><td><b>Epic ID</b></td><td>EP04</td></tr>
@@ -4005,6 +4337,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
+**Tabla 105**
+
+*HU-063 – Creación de meta comunitaria.*
+
 <table align="center">
   <tr><td><b>User Story ID</b></td><td>HU-063</td><td><b>Epic ID</b></td><td>EP04</td></tr>
   <tr><td><b>Título</b></td><td colspan="3">Creación de meta comunitaria</td></tr>
@@ -4016,6 +4352,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     <ul><li><b>Dado que</b> el padre intenta crear una meta comunitaria,</li><li><b>Cuando</b> no existe una opción estandarizada compatible o la comunidad ya tiene una meta activa del mismo tópico,</li><li><b>Entonces</b> la aplicación informa la restricción y no crea una meta duplicada.</li></ul>
   </td></tr>
 </table>
+
+**Tabla 106**
+
+*HU-064 – Inscripción a meta comunitaria.*
 
 <table align="center">
   <tr><td><b>User Story ID</b></td><td>HU-064</td><td><b>Epic ID</b></td><td>EP04</td></tr>
@@ -4031,6 +4371,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
+**Tabla 107**
+
+*HU-065 – Creación de chat temporal de evento.*
+
 <table align="center">
   <tr><td><b>User Story ID</b></td><td>HU-065</td><td><b>Epic ID</b></td><td>EP04</td></tr>
   <tr><td><b>Título</b></td><td colspan="3">Creación de chat temporal de evento</td></tr>
@@ -4044,6 +4388,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     <ul><li><b>Dado que</b> el evento asociado al chat ha finalizado,</li><li><b>Cuando</b> termina el periodo definido para la actividad,</li><li><b>Entonces</b> la aplicación cierra el chat para nuevos mensajes y conserva su historial para los participantes.</li></ul>
   </td></tr>
 </table>
+
+**Tabla 108**
+
+*HU-066 – Selección de comunidad de preferencia.*
 
 <table align="center">
   <tr><td><b>User Story ID</b></td><td>HU-066</td><td><b>Epic ID</b></td><td>EP04</td></tr>
@@ -4059,6 +4407,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
   </td></tr>
 </table>
 
+**Tabla 109**
+
+*HU-067 – Protector de racha.*
+
 <table align="center">
   <tr><td><b>User Story ID</b></td><td>HU-067</td><td><b>Epic ID</b></td><td>EP01</td></tr>
   <tr><td><b>Título</b></td><td colspan="3">Protector de racha</td></tr>
@@ -4072,6 +4424,10 @@ Las user stories detallan las necesidades de los usuarios y del sistema en unida
     <ul><li><b>Dado que</b> el usuario no tiene suficientes gemas para adquirir un protector,</li><li><b>Cuando</b> confirma la compra,</li><li><b>Entonces</b> la aplicación rechaza la operación y muestra el saldo requerido.</li></ul>
   </td></tr>
 </table>
+
+**Tabla 110**
+
+*HU-068 – Modo offline.*
 
 <table align="center">
   <tr>
@@ -4126,7 +4482,7 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 
 <div align="center">
  
-**Figura 22**
+**Figura 24**
 
 *Impact Mapping del segmento de padres de familia.*
 
@@ -4141,7 +4497,7 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 
 <div align="center">
 
-**Figura 23**
+**Figura 25**
 
 *Impact Mapping del segmento de niños de primaria.*
 
@@ -4154,13 +4510,13 @@ Con el desarrollo del Impact Mapping veremos la relación entre los objetivos de
 
 Para establecer el orden de prioridad de las historias de usuario planteadas para el desarrollo de la aplicación, realizamos su respectivo product backlog, con el cual podemos ver tanto el orden adecuado, como su estimación de tiempo para su desarrollo, con lo cual, con lo cual podremos administrar bien las fases de desarrollo de la aplicación. Para ello nos ayudamos de la herramienta de Trello: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
 
-**Figura 24**
+**Figura 26**
 
 *Product Backlog de EcoMind.*
 
 ![Product Backlog](assets/img/figures/Product_Backlog.png)
 
-**Tabla 23**
+**Tabla 111**
 
 *Product Backlog de EcoMind.*
 
@@ -4260,32 +4616,32 @@ Esta sección presenta el modelado estratégico del dominio de EcoMind, incluyen
 
 A partir de los resultados obtenidos en el Big Picture EventStorming, se realizó una sesión de EventStorming para profundizar en el modelado del dominio de EcoMind. Los procesos identificados se desarrollaron con mayor detalle mediante la incorporación de eventos, comandos, actores, políticas y otros elementos.
 
-**Figura 25**
+**Figura 27**
 
 *EventStorming del contexto Quests.*
 
 ![event_Storming2](assets/img/figures/EventstormingQuests.jpg)
-**Figura 26**
+**Figura 28**
 
 *EventStorming del contexto Community.*
 
 ![event_Storming](assets/img/figures/EventstormingCommunity.jpg)
-**Figura 27**
+**Figura 29**
 
 *EventStorming del contexto Gamification.*
 
 ![event_Storming](assets/img/figures/EventstormingGamification.jpg)
-**Figura 28**
+**Figura 30**
 
 *EventStorming del contexto Monetization.*
 
 ![event_Storming](assets/img/figures/EventstormingMonetization.jpg)
-**Figura 29**
+**Figura 31**
 
 *EventStorming del contexto Users.*
 
 ![event_Storming](assets/img/figures/EventstormingUsers.jpg)
-**Figura 30**
+**Figura 32**
 
 *EventStorming del contexto IAM.*
 
@@ -4314,7 +4670,7 @@ Al comienzo de la sesión se contaba con siete bounded contexts candidatos:
 
 Esta división representaba una primera aproximación a las capacidades del sistema. Sin embargo, al revisar los comandos, eventos, actores y reglas de negocio de cada contexto, se encontraron responsabilidades que debían separarse y otras que podían consolidarse.
 
-**Figura 31**
+**Figura 33**
 
 *Propuesta inicial de bounded contexts del EventStorm.*
 
@@ -4326,7 +4682,7 @@ Durante el análisis del bounded context **Retos**, se observó que este concent
 
 Se determinó que los materiales educativos poseen un propósito propio: facilitar el aprendizaje del usuario independientemente de su participación en un reto. Además, su contenido, organización y evolución responden a reglas diferentes de las utilizadas para gestionar retos. Por esta razón, se extrajeron de Retos los eventos y funcionalidades relacionados con la consulta de materiales, creando el bounded context **Learning**.
 
-**Figura 32**
+**Figura 34**
 
 *Separación de Learning a partir del bounded context Retos.*
 
@@ -4368,7 +4724,7 @@ Es importante distinguir **IAM** de **Users**. IAM gestiona la identidad digital
 
 Después de analizar, separar y consolidar las distintas responsabilidades, se definieron siete bounded contexts finales:
 
-**Tabla 24**
+**Tabla 112**
 
 *Bounded contexts finales de EcoMind.*
 
@@ -4382,7 +4738,7 @@ Después de analizar, separar y consolidar las distintas responsabilidades, se d
 | Learning | Gestionar los materiales educativos y las experiencias de aprendizaje |
 | Community | Gestionar la interacción y participación entre los miembros de la comunidad |
 
-**Figura 33**
+**Figura 35**
 
 *Resultado final de la sesión de Candidate Context Discovery.*
 
@@ -4396,7 +4752,7 @@ Luego de identificar los bounded contexts candidatos, se realizó una sesión de
 
 Este escenario describe el recorrido en el que un usuario cumple una quest y decide compartir el logro obtenido. Participan el Usuario y los bounded contexts Quests, Gamification y Community. El usuario envía el comando Completar Quest (1) a Quests, que valida la quest (2) y publica el evento Quest Completada (3) dirigido a Gamification. Gamification asigna las recompensas (4) y comunica al usuario el evento Logro desbloqueado (5). Después, el usuario envía el comando Compartir logro (6) a Gamification, que informa a Community mediante el evento Publicación de logro solicitada (7). Community crea la publicación (8) y notifica al usuario el evento Publicación creada (9). Quests solo publica el hecho de que la quest fue completada y Community interviene únicamente cuando el usuario decide compartir el logro.
 
-**Figura 34**
+**Figura 36**
 
 *Domain Storytelling del flujo de participación en quests y publicación de un logro.*
 
@@ -4406,7 +4762,7 @@ Este escenario describe el recorrido en el que un usuario cumple una quest y dec
 
 En este escenario un usuario anfitrión invita a un usuario amigo a participar en una quest colaborativa. Intervienen Quests y Users. El anfitrión envía el comando Invitar usuario (1) a Quests, que valida con Users la relación con el invitado (2), crea la invitación (3) y comunica al amigo el evento Invitación creada (4). Cuando el amigo envía el comando Aceptar invitación (5), Quests vuelve a validar la relación con Users (6), incorpora al participante (7) y registra el evento Participante incorporado (8). La relación con el invitado se verifica tanto al enviar la invitación como al aceptarla, y Quests consulta a Users como cliente, según el patrón Customer/Supplier definido en la sección 2.5.2.
 
-**Figura 35**
+**Figura 37**
 
 *Domain Storytelling del flujo de invitación a una quest colaborativa.*
 
@@ -4416,7 +4772,7 @@ En este escenario un usuario anfitrión invita a un usuario amigo a participar e
 
 El tercer escenario representa la compra de productos dentro de la aplicación. Participan el Usuario, Monetization, la API de pago elegido y, según el tipo de producto, Gamification y Users. El usuario envía el comando Comprar producto (1) y Monetization procesa la compra (2). Si el producto son gemas, Monetization solicita el pago (2A) a la API de pago elegido y recibe el evento Pago procesado (3A). Si el producto es un potenciador o un protector de racha, Monetization emite el evento Potenciador comprado (3B) hacia Gamification. Si es un avatar o un sombrero, emite el evento Avatar comprado (3C) hacia Users. Finalmente, Monetization entrega el producto (4) y comunica al usuario el evento Producto entregado (5).
 
-**Figura 36**
+**Figura 38**
 
 *Domain Storytelling del flujo de compra y entrega de productos.*
 
@@ -4426,7 +4782,7 @@ El tercer escenario representa la compra de productos dentro de la aplicación. 
 
 Este escenario cubre el inicio del ciclo de vida del usuario en la plataforma. Participan el Usuario, IAM y Users. El usuario envía el comando Registrar cuenta (1) a IAM, que crea la cuenta y registra el evento Cuenta creada (2). Luego IAM envía a Users el comando Crear perfil (3) y Users registra el evento Perfil creado (5). Posteriormente, el usuario puede enviar el comando Editar Perfil (6) a Users, que registra el evento Perfil editado (7). La cuenta y el perfil permanecen en contextos distintos: IAM solo solicita la creación del perfil y Users administra su contenido, como se describe en la relación entre ambos contextos en la sección 2.5.2.
 
-**Figura 37**
+**Figura 39**
 
 *Domain Storytelling del flujo de registro y configuración del perfil.*
 
@@ -4440,7 +4796,7 @@ La elaboración se realizó de manera iterativa mediante los pasos de Context Ov
 
 El canvas de Quests lo define como un contexto core, con modelo de negocio de engagement y evolución custom built. Su propósito es permitir que los usuarios participen de manera individual o colaborativa en misiones orientadas al cuidado del medio ambiente, y gestionar las misiones, sus actividades, participantes, progreso y validación. Recibe de anfitriones, invitados y padres los comandos para iniciar, completar y progresar una quest, crear y administrar sesiones colaborativas, aceptar o rechazar invitaciones y gestionar planes familiares, además de las consultas de progreso y detalle. De Users recibe el evento Relación entre usuarios eliminada. Hacia Gamification y Community envía los eventos Quest completada, Quest colaborativa completada y Plan familiar completada, y hacia Users envía la consulta Validar relación. Entre sus decisiones de negocio se encuentran que las quests colaborativas requieren entre 2 y 5 participantes, que solo el anfitrión puede iniciarlas, que los participantes deben tener una relación de amistad o parentesco con el anfitrión y que una quest solo se completa si su progreso alcanza el 100 %.
 
-**Figura 38**
+**Figura 40**
 
 *Bounded Context Canvas del contexto Quests.*
 
@@ -4450,7 +4806,7 @@ El canvas de Quests lo define como un contexto core, con modelo de negocio de en
 
 Community se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios interactúen dentro de comunidades en las que comparten logros, eventos y metas comunitarias, y gestiona comunidades, publicaciones, eventos y metas. Recibe de administradores y padres los comandos de inscripción a comunidades, eventos y metas, la reacción a publicaciones, y la creación, edición y eliminación de comunidades, eventos y metas. También recibe de Quests el evento Reto completado y de Gamification el evento Logro obtenido por usuario, y atiende consultas como buscar comunidades, listar eventos y logros, y mostrar eventos en el mapa mediante la API de Leaflet. Hacia Gamification envía el evento Participación comunitaria registrada y hacia Users la consulta Consultar familia usuario. Sus reglas indican, por ejemplo, que solo los padres pueden crear una comunidad, que un usuario puede inscribirse como máximo a tres metas comunitarias a la vez y que un niño no puede inscribirse a un evento por su cuenta.
 
-**Figura 39**
+**Figura 41**
 
 *Bounded Context Canvas del contexto Community.*
 
@@ -4460,7 +4816,7 @@ Community se clasifica como contexto supporting, con modelo de engagement y evol
 
 Gamification se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es reconocer la participación y la constancia de los usuarios mediante ecopoints, experiencia, recompensas, rachas y logros, y proporcionar los datos para consultar rankings y compartir logros de forma voluntaria. Recibe de niños y padres los comandos de consulta de rankings (local, global, de amigos y de familias), de filtrado de logros y de compartir o no compartir un logro. De Quests recibe los eventos de quest, quest colaborativa y plan familiar completados, de Monetization los eventos Multiplicador comprado, Protector adquirido y Racha protegida, y de Community el evento Participación comunitaria registrada. Envía los eventos Logro obtenido por usuario, Recompensa brindada al usuario, Logro vinculado al usuario, Nuevo puntaje registrado y Posiciones de ranking actualizadas, y hacia Monetization el evento Racha en riesgo. Entre sus reglas, las recompensas se otorgan una sola vez por ejecución y beneficiario, el primer reto diario válido incrementa la racha una vez por día, los multiplicadores solo aumentan la experiencia y compartir un logro es voluntario.
 
-**Figura 40**
+**Figura 42**
 
 *Bounded Context Canvas del contexto Gamification.*
 
@@ -4470,7 +4826,7 @@ Gamification se clasifica como contexto supporting, con modelo de engagement y e
 
 Monetization se clasifica como contexto supporting, con modelos de engagement y de monetización, y evolución custom built. Su propósito es permitir el acceso a la tienda para consultar y adquirir cosméticos, avatares, multiplicadores y protectores utilizando gemas, así como comprar paquetes de gemas con distintos métodos de pago, consultar el saldo y administrar los productos obtenidos. Recibe de niños y padres los comandos de navegación y compra en la tienda, la selección del método de pago (tarjeta de crédito o débito, Yape o PayPal) y los datos necesarios para pagar. De Gamification recibe el evento Racha en riesgo y del proveedor de pago los eventos Pago aprobado, Pago pendiente y Pago rechazado. Envía a Gamification los eventos Multiplicador comprado, Protector adquirido y Racha protegida, a Users los eventos Avatar comprado, Cosmético comprado y Cosmético equipado, al proveedor de pago los comandos Crear pago, Procesar pago y Cancelar pago, y al usuario los eventos Compra completada, Compra rechazada y Gemas acreditadas. Sus reglas establecen, entre otras, que una compra solo se completa si el usuario tiene suficientes gemas, que los protectores solo pueden adquirirse con una racha activa y que las gemas se agregan a la billetera únicamente tras la confirmación del proveedor de pago.
 
-**Figura 41**
+**Figura 43**
 
 *Bounded Context Canvas del contexto Monetization.*
 
@@ -4480,7 +4836,7 @@ Monetization se clasifica como contexto supporting, con modelos de engagement y 
 
 Users se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que los usuarios administren su información personal, perfil, familia y amistades, y configuren sus preferencias de idioma, tema y notificaciones. Recibe de niños y padres los comandos para visualizar, editar y compartir el perfil, establecer un compromiso, administrar amistades y cambiar los ajustes de cuenta y preferencias. Del padre recibe los comandos para crear una familia, agregar o eliminar integrantes, actualizar roles y editar el nombre de la familia, y de Quests recibe la consulta Validar relación. Envía a Quests el evento Relación entre usuarios eliminada, a Monetization la consulta Consultar cosmético equipado y a los usuarios los eventos Perfil actualizado, Solicitud de amistad enviada, Compromiso actualizado, Idioma actualizado, Tema actualizado y Familia registrada, entre otros. Sus reglas indican que un usuario puede tener hasta 100 amigos, que solo los mayores de 18 años pueden crear un grupo familiar, que una familia tiene un máximo de 5 miembros y que, al eliminar a un amigo, este es expulsado de las quests colaborativas en las que participaban juntos.
 
-**Figura 42**
+**Figura 44**
 
 *Bounded Context Canvas del contexto Users.*
 
@@ -4490,7 +4846,7 @@ Users se clasifica como contexto supporting, con modelo de engagement y evoluci�
 
 Learning se clasifica como contexto supporting, con modelo de engagement y evolución custom built. Su propósito es permitir que niños y padres accedan a materiales educativos sobre el medio ambiente, utilicen filtros de búsqueda, guarden contenidos como favoritos y descarguen materiales para consultarlos sin conexión. Recibe de los usuarios los comandos para abrir la pestaña “Aprende más”, seleccionar filtros y materiales, solicitar y gestionar descargas, y agregar o eliminar favoritos, además de las consultas de catálogo, detalle y favoritos. Responde con los resultados de esas consultas y con los eventos Material descargado, Favorito agregado y Favorito eliminado. El canvas no registra colaboradores de otros bounded contexts. Entre sus reglas, se permite el acceso sin conexión a los materiales descargados, se evita duplicar favoritos y solo se muestran los materiales publicados y activos.
 
-**Figura 43**
+**Figura 45**
 
 *Bounded Context Canvas del contexto Learning.*
 
@@ -4500,7 +4856,7 @@ Learning se clasifica como contexto supporting, con modelo de engagement y evolu
 
 IAM (Identity and Access) se clasifica como contexto supporting y generic, con modelo de negocio de compliance y evolución custom built, y su rol de dominio es gateway context. Su propósito es gestionar la identidad digital y el acceso seguro a EcoMind, registrando credenciales, autenticando usuarios, emitiendo y validando tokens de acceso y recuperando contraseñas. Recibe de los usuarios los comandos Registrarse, Iniciar sesión, Verificar email, Cerrar sesión y los de recuperación de contraseña, además de la consulta Obtener usuario actual. Envía a un servicio de correo los comandos Enviar correo de verificación y Enviar correo de recuperación de cuenta, y a Users el comando Crear perfil. Sus reglas establecen que una cuenta solo puede tener un correo asociado, que la cuenta no se crea hasta verificar el correo y que las verificaciones expiran a los 20 minutos.
 
-**Figura 44**
+**Figura 46**
 
 *Bounded Context Canvas del contexto Identity and Access.*
 
@@ -4520,7 +4876,7 @@ De esa discusión surgieron cuatro decisiones:
 - La cuarta fue reducir el shared kernel al mínimo deliberado: únicamente los identificadores `UserId` (equivalente al `AccountId` emitido por IAM) y `FamilyId`, sin que ningún contexto comparta lógica ni estructura además de esos identificadores opacos, bajo el criterio de que un shared kernel grande es un bounded context que no se llegó a dibujar.
 
 
-**Figura 45**
+**Figura 47**
 
 *Context Map de EcoMind.*
 
@@ -4528,7 +4884,7 @@ De esa discusión surgieron cuatro decisiones:
 
 Los patrones de relación seleccionados para cada integración son los siguientes.
 
-**Tabla 25**
+**Tabla 113**
 
 *Relaciones del Context Map de EcoMind.*
 
@@ -4560,7 +4916,7 @@ En esta sección se presenta el Context Diagram de EcoMind, elaborado con C4 Mod
 
 Los usuarios de EcoMind son el estudiante y el padre de familia, quienes acceden a la plataforma ya registrados, y el visitante, que llega primero al Landing Page antes de crear una cuenta. EcoMind se comunica con cinco sistemas externos: Azure Communication Services Email, que envía la verificación de cuenta y la recuperación de contraseña; las pasarelas de pago con tarjeta, Yape y PayPal, utilizadas para las compras dentro de Monetization; y OpenStreetMap, que proporciona los tiles para mostrar eventos comunitarios cercanos a la ubicación del usuario.
 
-**Figura 46**
+**Figura 48**
 
 *Diagrama C4 de contexto de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4572,7 +4928,7 @@ En esta sección se presenta el Container Diagram de EcoMind, el cual muestra lo
 
 La solución está compuesta por cinco contenedores: EcoMind Android Application, desarrollada en Kotlin; EcoMind Flutter Application, desarrollada con Flutter y Dart; el Landing Page, un sitio web estático informativo que redirige al visitante hacia el registro de cuenta; el Backend API; y EcoMind Database. El Backend API, desarrollado en Java con Spring Boot, es un único contenedor que expone el servicio RESTful y organiza la lógica del dominio en los módulos IAM, Users, Learning, Quests, Community, Gamification y Monetization, que corresponden a los bounded contexts definidos en la sección 2.5.1 y se despliegan como una sola unidad. Los datos de todos los módulos se almacenan en EcoMind Database, una base de datos PostgreSQL a la que el Backend API accede mediante JDBC. Las aplicaciones Android y Flutter consumen el Backend API por HTTPS con mensajes JSON y token Bearer JWT. El Backend API envía correo mediante Azure Communication Services Email y conserva las relaciones con las pasarelas de pago con tarjeta, Yape y PayPal; OpenStreetMap proporciona los tiles del mapa utilizados por la aplicación móvil.
 
-**Figura 47**
+**Figura 49**
 
 *Diagrama C4 de contenedores de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4586,7 +4942,7 @@ EcoMind Android Application y EcoMind Flutter Application se ejecutan en los dis
 
 El diagrama representa los containers propios de EcoMind y los servicios Azure utilizados para operarlos. Las pasarelas de pago se describen en el diagrama de contenedores como servicios externos.
 
-**Figura 48**
+**Figura 50**
 
 *Diagrama C4 de despliegue de EcoMind, elaborado con Structurizr DSL.*
 
@@ -4606,7 +4962,7 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 
 **Sub-capa Model**
 
-**Tabla 26**
+**Tabla 114**
 
 *Elementos del modelo de dominio de IAM.*
 
@@ -4625,7 +4981,7 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 
 **Sub-capa Domain Services**
 
-**Tabla 27**
+**Tabla 115**
 
 *Servicios de dominio de IAM.*
 
@@ -4637,7 +4993,7 @@ Esta capa representa las reglas que protegen la identidad digital y las credenci
 
 **Sub-capa Repositories y contratos del dominio**
 
-**Tabla 28**
+**Tabla 116**
 
 *Repositorios de IAM.*
 
@@ -4655,7 +5011,7 @@ Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints pr
 
 **Sub-capa REST - Controllers**
 
-**Tabla 29**
+**Tabla 117**
 
 *Controllers REST de IAM.*
 
@@ -4668,7 +5024,7 @@ Esta capa expone los casos de uso de IAM mediante una API REST. Los endpoints pr
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 30**
+**Tabla 118**
 
 *Resources y assemblers de IAM.*
 
@@ -4690,7 +5046,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Sub-capa Command Services**
 
-**Tabla 31**
+**Tabla 119**
 
 *Command services de IAM.*
 
@@ -4703,7 +5059,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Sub-capa Query Services**
 
-**Tabla 32**
+**Tabla 120**
 
 *Query services de IAM.*
 
@@ -4713,7 +5069,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Commands y Queries**
 
-**Tabla 33**
+**Tabla 121**
 
 *Queries de IAM.*
 
@@ -4729,7 +5085,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 **Puertos de salida**
 
-**Tabla 34**
+**Tabla 122**
 
 *Puertos de salida de IAM.*
 
@@ -4743,7 +5099,7 @@ Esta capa coordina los casos de uso, sus transacciones y las comunicaciones sali
 
 Esta capa implementa la persistencia, la seguridad y las integraciones técnicas requeridas por IAM.
 
-**Tabla 35**
+**Tabla 123**
 
 *Componentes de la capa de infraestructura de IAM.*
 
@@ -4768,17 +5124,17 @@ Esta capa implementa la persistencia, la seguridad y las integraciones técnicas
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 49 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Session Data Store, que conserva el access token en el almacenamiento privado de la aplicación y lo elimina al cerrar sesión.
+Los diagramas de componentes de IAM se presentan en dos vistas: la aplicación Android y el módulo IAM del Backend API. La Figura 51 muestra la vista móvil. La interfaz IAM UI reúne las pantallas de registro, verificación, inicio de sesión y recuperación de contraseña, y delega sus acciones en los IAM ViewModels. Estos invocan los IAM Use Cases, que se apoyan en el IAM Repository. El repositorio coordina el IAM Remote Data Source, que consume los endpoints REST del Backend API e incorpora el JWT en las solicitudes protegidas, y el Session Data Store, que conserva el access token en el almacenamiento privado de la aplicación y lo elimina al cerrar sesión.
 
-La Figura 50 muestra el módulo IAM dentro del Backend API, consumido por Android y Flutter. Authentication & JWT Security valida las solicitudes protegidas. Los REST Controllers invocan los Application Services, que aplican el Domain Model y persisten cuentas, credenciales y tokens mediante los Persistence Adapters en PostgreSQL. El Email Service Adapter utiliza Azure Communication Services Email para la verificación y recuperación de cuentas. Users Context Client solicita la creación del perfil mediante comunicación interna síncrona con Users.
+La Figura 52 muestra el módulo IAM dentro del Backend API, consumido por Android y Flutter. Authentication & JWT Security valida las solicitudes protegidas. Los REST Controllers invocan los Application Services, que aplican el Domain Model y persisten cuentas, credenciales y tokens mediante los Persistence Adapters en PostgreSQL. El Email Service Adapter utiliza Azure Communication Services Email para la verificación y recuperación de cuentas. Users Context Client solicita la creación del perfil mediante comunicación interna síncrona con Users.
 
-**Figura 49**
+**Figura 51**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context IAM, elaborado con Structurizr DSL.*
 
 ![C4I](assets/img/figures/ComponentsIAM1.png)
 
-**Figura 50**
+**Figura 52**
 
 *Diagrama C4 de componentes de la API del bounded context IAM, elaborado con Structurizr DSL.*
 
@@ -4792,7 +5148,7 @@ Los diagramas de código describen el modelo de dominio y su estructura de persi
 
 El diagrama de clases del Domain Layer representa los aggregates, entities y value objects que protegen el ciclo de vida de las cuentas y sus credenciales. Incluye el registro pendiente, la verificación del correo, la cuenta, la autenticación y los tokens de recuperación.
 
-**Figura 51**
+**Figura 53**
 
 *Diagrama de clases de la capa de dominio del bounded context IAM, elaborado con PlantUML.*
 
@@ -4802,7 +5158,7 @@ El diagrama de clases del Domain Layer representa los aggregates, entities y val
 
 El diagrama de base de datos presenta las estructuras de persistencia necesarias para las cuentas, las credenciales, los registros pendientes y los tokens de recuperación. Su diseño conserva únicamente hashes de contraseñas y tokens sensibles, registra sus fechas de expiración y consumo, y garantiza la unicidad del correo normalizado.
 
-**Figura 52**
+**Figura 54**
 
 *Diagrama de diseño de la base de datos del bounded context IAM, elaborado con ERD Editor.*
 
@@ -4818,7 +5174,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model**
 
-**Tabla 36**
+**Tabla 124**
 
 *Elementos del modelo de dominio de Users.*
 
@@ -4832,7 +5188,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Value Objects y Enumerations**
 
-**Tabla 37**
+**Tabla 125**
 
 *Value objects y enumeraciones de Users.*
 
@@ -4846,7 +5202,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Commands**
 
-**Tabla 38**
+**Tabla 126**
 
 *Commands de Users.*
 
@@ -4864,7 +5220,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Queries**
 
-**Tabla 39**
+**Tabla 127**
 
 *Queries de Users.*
 
@@ -4878,7 +5234,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Model – Domain Events**
 
-**Tabla 40**
+**Tabla 128**
 
 *Eventos de dominio de Users.*
 
@@ -4890,7 +5246,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Services**
 
-**Tabla 41**
+**Tabla 129**
 
 *Servicios de dominio de Users.*
 
@@ -4901,7 +5257,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa Repositories**
 
-**Tabla 42**
+**Tabla 130**
 
 *Repositorios de Users.*
 
@@ -4915,7 +5271,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa REST – Controllers**
 
-**Tabla 43**
+**Tabla 131**
 
 *Controllers REST de Users.*
 
@@ -4928,7 +5284,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 **Sub-capa REST – Assemblers y Resources**
 
-**Tabla 44**
+**Tabla 132**
 
 *Resources y assemblers de Users.*
 
@@ -4944,7 +5300,7 @@ La Domain Layer representa al usuario como individuo dentro de la plataforma, as
 
 Esta capa coordina los casos de uso del perfil, la familia, las amistades y el cosmético del perfil, incluyendo la comunicación entrante desde IAM y saliente hacia los demás bounded contexts.
 
-**Tabla 45**
+**Tabla 133**
 
 *Componentes de la capa de aplicación de Users.*
 
@@ -4964,7 +5320,7 @@ Esta capa coordina los casos de uso del perfil, la familia, las amistades y el c
 
 Esta capa implementará la persistencia, el punto de recepción de la integración con IAM y los adaptadores necesarios para consumir la API de Users desde la aplicación Android.
 
-**Tabla 46**
+**Tabla 134**
 
 *Componentes de la capa de infraestructura de Users.*
 
@@ -4982,7 +5338,7 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 
 **Colaboradores**
 
-**Tabla 47**
+**Tabla 135**
 
 *Colaboraciones de Users.*
 
@@ -4994,17 +5350,17 @@ Esta capa implementará la persistencia, el punto de recepción de la integraci�
 | `Monetization` | Proporciona el cosmético equipado y el balance de gemas que se muestran en el perfil. |
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los componentes de Users se distribuyen entre la aplicación Android y el módulo Users del Backend API. La Figura 53 corresponde a la vista móvil: Users UI muestra las pantallas de perfil, familia, amistades y cosméticos, y los Users ViewModels exponen estados inmutables a partir de las intenciones de la interfaz. Los Users Use Cases coordinan las operaciones y trabajan con los contratos del Users Repository Implementation, que usa los Users Data Mappers para transformar los DTO de red en modelos de dominio. Los datos remotos se obtienen mediante el Users Remote Data Source, que consume la API de Users con el Bearer JWT.
+Los componentes de Users se distribuyen entre la aplicación Android y el módulo Users del Backend API. La Figura 55 corresponde a la vista móvil: Users UI muestra las pantallas de perfil, familia, amistades y cosméticos, y los Users ViewModels exponen estados inmutables a partir de las intenciones de la interfaz. Los Users Use Cases coordinan las operaciones y trabajan con los contratos del Users Repository Implementation, que usa los Users Data Mappers para transformar los DTO de red en modelos de dominio. Los datos remotos se obtienen mediante el Users Remote Data Source, que consume la API de Users con el Bearer JWT.
 
-La Figura 54 muestra el módulo Users dentro del Backend API. Tras el Bearer Authorization Filter, los Users REST Controllers reciben las solicitudes y las convierten en commands y queries mediante los Users Assemblers & Resources. Los Users Application Services aplican las reglas del Users Domain Model y persisten perfiles, familias y amistades con los Users Persistence Adapters. El IAM Context Listener recibe el command CreateProfile enviado por IAM, y los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade. Los demás módulos acceden a los datos de Users mediante el Users Context Facade: Quests con su Users Service Client, Community con su Community Actor Gateway y Gamification con sus Context Service Clients.
+La Figura 56 muestra el módulo Users dentro del Backend API. Tras el Bearer Authorization Filter, los Users REST Controllers reciben las solicitudes y las convierten en commands y queries mediante los Users Assemblers & Resources. Los Users Application Services aplican las reglas del Users Domain Model y persisten perfiles, familias y amistades con los Users Persistence Adapters. El IAM Context Listener recibe el command CreateProfile enviado por IAM, y los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade. Los demás módulos acceden a los datos de Users mediante el Users Context Facade: Quests con su Users Service Client, Community con su Community Actor Gateway y Gamification con sus Context Service Clients.
 
-**Figura 53**
+**Figura 55**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Users, elaborado con Structurizr DSL.*
 
 ![C4II](assets/img/figures/UsersAndroidComponents.png)
 
-**Figura 54**
+**Figura 56**
 
 *Diagrama C4 de componentes de la API del bounded context Users, elaborado con Structurizr DSL.*
 
@@ -5018,7 +5374,7 @@ Los diagramas de código presentan el modelo de dominio de Users y su estructura
 
 El siguiente diagrama presenta las clases del Domain Layer de Users y las relaciones entre ellas. Incluye el perfil del usuario, sus preferencias de notificación, el grupo familiar con sus integrantes y la relación de amistad entre dos usuarios. También se representan los Command Services y Query Services que orquestan cada operación, así como las políticas de dominio (`FriendshipPolicy` y `FamilyMembershipPolicy`) que protegen la consistencia de las amistades y las familias.
 
-**Figura 55**
+**Figura 57**
 
 *Diagrama de clases de la capa de dominio del bounded context Users.*
 
@@ -5028,7 +5384,7 @@ El siguiente diagrama presenta las clases del Domain Layer de Users y las relaci
 
 El presente diagrama representa el modelo de base de datos del bounded context Users. La tabla `familia` representa al grupo familiar como raíz independiente, con su nombre y el compromiso declarado al crearse, mientras que `miembros_familia` registra a cada integrante con su `rol_familia` y referencia a la familia mediante clave foránea. Se persiste además el perfil del usuario en `perfiles_usuario` con su racha, ecopuntos, saldo de gemas y preferencias de notificación, y las relaciones de amistad en `amistades`, restringidas mediante una restricción `CHECK` para evitar solicitudes dirigidas al propio usuario y una restricción de unicidad para evitar relaciones duplicadas, conforme a `FriendshipPolicy`. El identificador `usuario_id` corresponde al `AccountId` emitido por IAM y se conserva como referencia simple, sin clave foránea entre bounded contexts, para mantener la independencia de Users respecto a IAM.
 
-**Figura 56**
+**Figura 58**
 
 *Diagrama de diseño de la base de datos del bounded context Users.*
 
@@ -5044,7 +5400,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model**
 
-**Tabla 48**
+**Tabla 136**
 
 *Elementos del modelo de dominio de Learning.*
 
@@ -5059,7 +5415,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Value Objects y Enumerations**
 
-**Tabla 49**
+**Tabla 137**
 
 *Value objects y enumeraciones de Learning.*
 
@@ -5077,7 +5433,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Commands**
 
-**Tabla 50**
+**Tabla 138**
 
 *Commands de Learning.*
 
@@ -5093,7 +5449,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Queries**
 
-**Tabla 51**
+**Tabla 139**
 
 *Queries de Learning.*
 
@@ -5106,7 +5462,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Model - Domain Events**
 
-**Tabla 52**
+**Tabla 140**
 
 *Eventos de dominio de Learning.*
 
@@ -5120,7 +5476,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Services**
 
-**Tabla 53**
+**Tabla 141**
 
 *Servicios de dominio de Learning.*
 
@@ -5133,7 +5489,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa Repositories**
 
-**Tabla 54**
+**Tabla 142**
 
 *Repositorios de Learning.*
 
@@ -5150,7 +5506,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa REST - Controllers**
 
-**Tabla 55**
+**Tabla 143**
 
 *Controllers REST de Learning.*
 
@@ -5165,7 +5521,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Endpoints principales**
 
-**Tabla 56**
+**Tabla 144**
 
 *Endpoints principales de Learning.*
 
@@ -5182,7 +5538,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 57**
+**Tabla 145**
 
 *Resources y assemblers de Learning.*
 
@@ -5204,7 +5560,7 @@ La Domain Layer representa el catálogo de materiales educativos y las interacci
 La Application Layer coordina los casos de uso y las transacciones de Learning.
 **Sub-capa Command Services**
 
-**Tabla 58**
+**Tabla 146**
 
 *Command services de Learning.*
 
@@ -5217,7 +5573,7 @@ La Application Layer coordina los casos de uso y las transacciones de Learning.
 
 **Sub-capa Query Services**
 
-**Tabla 59**
+**Tabla 147**
 
 *Query services de Learning.*
 
@@ -5228,7 +5584,7 @@ La Application Layer coordina los casos de uso y las transacciones de Learning.
 
 **Sub-capa Event Handlers**
 
-**Tabla 60**
+**Tabla 148**
 
 *Event handlers de Learning.*
 
@@ -5256,7 +5612,7 @@ Cada Use Case posee una responsabilidad concreta, se ejecuta desde un ViewModel 
 
 La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene el acceso a la API REST, la persistencia relacional, la caché Room, la descarga local y la reproducción del contenido multimedia.
 
-**Tabla 61**
+**Tabla 149**
 
 *Componentes de la capa de infraestructura de Learning.*
 
@@ -5280,7 +5636,7 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 **Relaciones con otros contextos y sistemas**
 
-**Tabla 62**
+**Tabla 150**
 
 *Relaciones con otros bounded contexts de Learning.*
 
@@ -5293,11 +5649,11 @@ La Infrastructure Layer implementa los contratos técnicos de Learning. Contiene
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Learning muestran la aplicación Android y el módulo Learning del Backend API. La Figura 57 presenta la vista móvil. Learning UI se alcanza desde la navegación de Quests, mediante la opción “Aprende más”, y desde el perfil de Users, para consultar los favoritos. La interfaz muestra el catálogo, el detalle, los favoritos y las descargas, y se comunica con los Learning ViewModels, que invocan los Learning Use Cases. Estos coordinan el catálogo, la búsqueda, los favoritos, las reseñas y las descargas mediante el Learning Repository Implementation. El repositorio solicita las descargas sin conexión al Material Download Manager, basado en WorkManager, y transforma los datos con los Learning Data Mappers hacia el Learning Remote Data Source, que consume los endpoints de Learning con el Bearer JWT, y hacia el Learning Cache, implementado con Room, que guarda el catálogo, los favoritos y los metadatos de descargas.
+Los diagramas de Learning muestran la aplicación Android y el módulo Learning del Backend API. La Figura 59 presenta la vista móvil. Learning UI se alcanza desde la navegación de Quests, mediante la opción “Aprende más”, y desde el perfil de Users, para consultar los favoritos. La interfaz muestra el catálogo, el detalle, los favoritos y las descargas, y se comunica con los Learning ViewModels, que invocan los Learning Use Cases. Estos coordinan el catálogo, la búsqueda, los favoritos, las reseñas y las descargas mediante el Learning Repository Implementation. El repositorio solicita las descargas sin conexión al Material Download Manager, basado en WorkManager, y transforma los datos con los Learning Data Mappers hacia el Learning Remote Data Source, que consume los endpoints de Learning con el Bearer JWT, y hacia el Learning Cache, implementado con Room, que guarda el catálogo, los favoritos y los metadatos de descargas.
 
-La Figura 58 muestra el módulo Learning dentro del Backend API. El Bearer Authorization Filter valida el token de acceso antes de reenviar la solicitud a los Learning REST Controllers, que reciben el identificador del usuario autenticado y exponen los endpoints de materiales, favoritos, reseñas y descargas. Estos despachan commands y queries a los Learning Application Services, que aplican las reglas del Learning Domain Model y persisten los datos mediante los Learning Persistence Adapters en EcoMind Database. Cuando se solicita un material disponible, los servicios recurren al Material Content Delivery, que consulta los metadatos y la referencia del archivo registrado y devuelve el archivo o el enlace correspondiente.
+La Figura 60 muestra el módulo Learning dentro del Backend API. El Bearer Authorization Filter valida el token de acceso antes de reenviar la solicitud a los Learning REST Controllers, que reciben el identificador del usuario autenticado y exponen los endpoints de materiales, favoritos, reseñas y descargas. Estos despachan commands y queries a los Learning Application Services, que aplican las reglas del Learning Domain Model y persisten los datos mediante los Learning Persistence Adapters en EcoMind Database. Cuando se solicita un material disponible, los servicios recurren al Material Content Delivery, que consulta los metadatos y la referencia del archivo registrado y devuelve el archivo o el enlace correspondiente.
 
-**Figura 57**
+**Figura 59**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Learning, elaborado con Structurizr DSL.*
 
@@ -5305,7 +5661,7 @@ La Figura 58 muestra el módulo Learning dentro del Backend API. El Bearer Autho
   <img src="assets/img/figures/LearningAndroidComponents.png" alt="Diagrama C4 de Learning" width="500">
 </div>
 
-**Figura 58**
+**Figura 60**
 
 *Diagrama C4 de componentes de la API del bounded context Learning, elaborado con Structurizr DSL.*
 
@@ -5322,7 +5678,7 @@ Los diagramas de código presentan las clases de dominio de **Learning** y el di
 
 El diagrama de clases presenta los principales elementos del dominio de Learning y las relaciones entre ellos. Incluye los materiales educativos, sus categorías, favoritos, valoraciones y registros de descarga. También representa las operaciones necesarias para consultar y filtrar materiales, obtener sus detalles, descargarlos y administrar los materiales favoritos de cada usuario.
 
-**Figura 59**
+**Figura 61**
 
 *Diagrama de clases de la capa de dominio del bounded context Learning.*
 
@@ -5332,7 +5688,7 @@ El diagrama de clases presenta los principales elementos del dominio de Learning
 
 El diagrama de base de datos presenta la estructura de persistencia utilizada por el bounded context de Learning. Incluye las tablas `material_categories`, `educational_materials`, `material_favorites`, `material_reviews` y `material_downloads`, así como sus claves y relaciones.
 
-**Figura 60**
+**Figura 62**
 
 *Diagrama de diseño de la base de datos del bounded context Learning.*
 
@@ -5345,7 +5701,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model**
 
-**Tabla 63**
+**Tabla 151**
 
 *Elementos del modelo de dominio de Quests.*
 
@@ -5376,7 +5732,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Commands**
 
-**Tabla 64**
+**Tabla 152**
 
 *Commands de Quests.*
 
@@ -5416,7 +5772,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Queries**
 
-**Tabla 65**
+**Tabla 153**
 
 *Queries de Quests.*
 
@@ -5443,7 +5799,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Domain Events**
 
-**Tabla 66**
+**Tabla 154**
 
 *Eventos de dominio de Quests.*
 
@@ -5462,7 +5818,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Repositories**
 
-**Tabla 67**
+**Tabla 155**
 
 *Repositorios de Quests.*
 
@@ -5485,7 +5841,7 @@ Esta capa expone los casos de uso mediante una API REST.
 
 **Sub-capa REST - Controllers**
 
-**Tabla 68**
+**Tabla 156**
 
 *Controllers REST de Quests.*
 
@@ -5503,7 +5859,7 @@ Esta capa expone los casos de uso mediante una API REST.
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 69**
+**Tabla 157**
 
 *Resources y assemblers de Quests.*
 
@@ -5527,7 +5883,7 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 **Sub-capa Command Services**
 
-**Tabla 70**
+**Tabla 158**
 
 *Command services de Quests.*
 
@@ -5540,7 +5896,7 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 **Sub-capa Query Services**
 
-**Tabla 71**
+**Tabla 159**
 
 *Query services de Quests.*
 
@@ -5553,7 +5909,7 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 
 **Sub-capa Event Handlers**
 
-**Tabla 72**
+**Tabla 160**
 
 *Event handlers de Quests.*
 
@@ -5566,7 +5922,7 @@ En esta capa se coordinan los casos de uso y la comunicación con otros bounded 
 #### 2.6.4.4. Infrastructure Layer
 Esta capa contiene las clases que implementan la persistencia y la comunicación con servicios externos.
 
-**Tabla 73**
+**Tabla 161**
 
 *Componentes de la capa de infraestructura de Quests.*
 
@@ -5581,7 +5937,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Relaciones entre bounded contexts**
 
-**Tabla 74**
+**Tabla 162**
 
 *Relaciones con otros bounded contexts de Quests.*
 
@@ -5597,7 +5953,7 @@ Las consultas necesarias se realizan mediante `UsersServiceClient`, mientras que
 
 La aplicación móvil presenta los casos de uso coordinados por el backend.
 
-**Tabla 75**
+**Tabla 163**
 
 *Componentes de la aplicación móvil de Quests.*
 
@@ -5615,17 +5971,17 @@ La aplicación móvil presenta los casos de uso coordinados por el backend.
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Quests presentan la aplicación Android y el módulo Quests del Backend API. En la Figura 61, Quests UI muestra el catálogo, el detalle, el progreso, los minijuegos y las misiones colaborativas. Sus acciones llegan a los Quests ViewModels y de ahí a los Quests Use Cases, que coordinan el descubrimiento, la inscripción, el progreso y la finalización de misiones. El Quests Repository Implementation usa los Quest Data Mappers para transformar los datos y combina el Quests Remote Data Source, que consume los endpoints REST, con el Quests Local Cache, implementado con Room, que conserva las misiones activas y el progreso necesarios para el uso móvil.
+Los diagramas de Quests presentan la aplicación Android y el módulo Quests del Backend API. En la Figura 63, Quests UI muestra el catálogo, el detalle, el progreso, los minijuegos y las misiones colaborativas. Sus acciones llegan a los Quests ViewModels y de ahí a los Quests Use Cases, que coordinan el descubrimiento, la inscripción, el progreso y la finalización de misiones. El Quests Repository Implementation usa los Quest Data Mappers para transformar los datos y combina el Quests Remote Data Source, que consume los endpoints REST, con el Quests Local Cache, implementado con Room, que conserva las misiones activas y el progreso necesarios para el uso móvil.
 
-La Figura 62 muestra el módulo Quests dentro del Backend API. Los Quests REST Controllers reciben las solicitudes ya autenticadas por el Bearer Authorization Filter y despachan commands y queries a los Quests Application Services. Estos aplican las reglas del Quests Domain Model, persisten los datos con los Quests Persistence Adapters y validan usuarios, amistades y familias mediante el Users Service Client, que consulta el Users Context Facade. El Daily Quest Lifecycle Service genera las misiones diarias y expira las ejecuciones anteriores. Cuando una misión, un minijuego, una sesión colaborativa o un plan familiar finaliza, los Quests Event Handlers procesan el resultado y el Quest Event Publisher publica el evento de integración, que recibe el Gamification Event Handlers. Gamification, a su vez, consulta las recompensas base y los intentos mediante el Quests Context Facade.
+La Figura 64 muestra el módulo Quests dentro del Backend API. Los Quests REST Controllers reciben las solicitudes ya autenticadas por el Bearer Authorization Filter y despachan commands y queries a los Quests Application Services. Estos aplican las reglas del Quests Domain Model, persisten los datos con los Quests Persistence Adapters y validan usuarios, amistades y familias mediante el Users Service Client, que consulta el Users Context Facade. El Daily Quest Lifecycle Service genera las misiones diarias y expira las ejecuciones anteriores. Cuando una misión, un minijuego, una sesión colaborativa o un plan familiar finaliza, los Quests Event Handlers procesan el resultado y el Quest Event Publisher publica el evento de integración, que recibe el Gamification Event Handlers. Gamification, a su vez, consulta las recompensas base y los intentos mediante el Quests Context Facade.
 
-**Figura 61**
+**Figura 63**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Quests, elaborado con Structurizr DSL.*
 
 ![C4Q](assets/img/figures/c4Quest2.png)
 
-**Figura 62**
+**Figura 64**
 
 *Diagrama C4 de componentes de la API del bounded context Quests, elaborado con Structurizr DSL.*
 
@@ -5637,7 +5993,7 @@ Los diagramas permiten identificar sus principales elementos de dominio, las rel
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests, organizadas según sus principales capacidades. Se incluyen aggregates, entities, value objects y enumeraciones responsables de representar el catálogo de misiones, el progreso de los usuarios, los minijuegos, las misiones colaborativas y los planes familiares.
 
-**Figura 63**
+**Figura 65**
 
 *Diagrama de clases de la capa de dominio del bounded context Quests, elaborado con PlantUML.*
 
@@ -5645,7 +6001,7 @@ El siguiente diagrama muestra las clases que conforman el Domain Layer de Quests
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 El presente diagrama representa el modelo de base de datos del bounded context **Quests** de EcoMind. Este contexto gestiona la definición y ejecución de retos, actividades, minijuegos, retos colaborativos y planes familiares, además de registrar el progreso de los usuarios. Las relaciones internas se representan mediante claves foráneas, mientras que los identificadores pertenecientes a otros bounded contexts, como usuarios y familias, se conservan como referencias externas para mantener la independencia entre contextos.
 
-**Figura 64**
+**Figura 66**
 
 *Diagrama de diseño de la base de datos del bounded context Quests.*
 
@@ -5660,7 +6016,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Model**
 
-**Tabla 76**
+**Tabla 164**
 
 *Elementos del modelo de dominio de Community.*
 
@@ -5688,7 +6044,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Model - Commands**
 
-**Tabla 77**
+**Tabla 165**
 
 *Commands de Community.*
 
@@ -5715,7 +6071,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Model - Queries**
 
-**Tabla 78**
+**Tabla 166**
 
 *Queries de Community.*
 
@@ -5734,7 +6090,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Model - Domain Events**
 
-**Tabla 79**
+**Tabla 167**
 
 *Eventos de dominio de Community.*
 
@@ -5755,7 +6111,7 @@ En esta capa se representa el núcleo del bounded context community y sus reglas
 
 **Sub-capa Repositories**
 
-**Tabla 80**
+**Tabla 168**
 
 *Repositorios de Community.*
 
@@ -5778,7 +6134,7 @@ Esta capa expone los casos de uso de Community mediante una API REST.
 
 **Sub-capa REST - Controllers**
 
-**Tabla 81**
+**Tabla 169**
 
 *Controllers REST de Community.*
 
@@ -5796,7 +6152,7 @@ Esta capa expone los casos de uso de Community mediante una API REST.
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 82**
+**Tabla 170**
 
 *Resources y assemblers de Community.*
 
@@ -5828,7 +6184,7 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Command Services**
 
-**Tabla 83**
+**Tabla 171**
 
 *Command services de Community.*
 
@@ -5846,7 +6202,7 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Query Services**
 
-**Tabla 84**
+**Tabla 172**
 
 *Query services de Community.*
 
@@ -5863,7 +6219,7 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 **Sub-capa Event Handlers**
 
-**Tabla 85**
+**Tabla 173**
 
 *Event handlers de Community.*
 
@@ -5878,7 +6234,7 @@ En esta capa se coordinan los casos de uso de Community, se aplican las reglas d
 
 Esta capa contiene las implementaciones de persistencia, los adaptadores de comunicación con otros bounded contexts y los componentes necesarios para integrar Community.
 
-**Tabla 86**
+**Tabla 174**
 
 *Componentes de la capa de infraestructura de Community.*
 
@@ -5896,7 +6252,7 @@ Esta capa contiene las implementaciones de persistencia, los adaptadores de comu
 
 **Relaciones entre bounded contexts y servicios externos**
 
-**Tabla 87**
+**Tabla 175**
 
 *Relaciones con otros bounded contexts de Community.*
 
@@ -5913,7 +6269,7 @@ Las consultas de usuarios, familias y roles se realizan mediante `UsersServiceCl
 
 La aplicación móvil consume los casos de uso del backend sin duplicar sus reglas de negocio.
 
-**Tabla 88**
+**Tabla 176**
 
 *Componentes de la aplicación móvil de Community.*
 
@@ -5933,11 +6289,11 @@ La aplicación móvil consume los casos de uso del backend sin duplicar sus regl
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Community se dividen en la aplicación Android y el módulo Community del Backend API. La Figura 65 muestra la vista móvil. Community UI presenta las comunidades, las publicaciones, los eventos, las inscripciones, los chats y las metas comunitarias, y entrega las acciones a los Community ViewModels. Estos invocan los Community Use Cases, que coordinan la búsqueda y la participación. El Community Repository Implementation transforma los datos con los Community Data Mappers y los obtiene del Community Remote Data Source, que consume los endpoints REST de Community, o del Community Local Cache, implementado con Room, que almacena comunidades, publicaciones, eventos y progreso de metas.
+Los diagramas de Community se dividen en la aplicación Android y el módulo Community del Backend API. La Figura 67 muestra la vista móvil. Community UI presenta las comunidades, las publicaciones, los eventos, las inscripciones, los chats y las metas comunitarias, y entrega las acciones a los Community ViewModels. Estos invocan los Community Use Cases, que coordinan la búsqueda y la participación. El Community Repository Implementation transforma los datos con los Community Data Mappers y los obtiene del Community Remote Data Source, que consume los endpoints REST de Community, o del Community Local Cache, implementado con Room, que almacena comunidades, publicaciones, eventos y progreso de metas.
 
-La Figura 66 muestra el módulo Community dentro del Backend API. Los Community REST Controllers reciben las solicitudes autenticadas y las despachan a los Community Application Services, que coordinan los permisos, las inscripciones, la publicación de logros y el progreso de metas, aplican el Community Domain Model y persisten los datos con los Community Persistence Adapters. Para validar usuarios, familias y roles, los servicios usan el Community Actor Gateway, que consulta el Users Context Facade. El Community Event Publisher publica los eventos de meta comunitaria completada, evento completado y publicación creada, que recibe el Gamification Event Handlers. Gamification utiliza el Community Context Facade para verificar la membresía y el acceso para compartir, y para entregar los avisos de logro que se publican en las comunidades.
+La Figura 68 muestra el módulo Community dentro del Backend API. Los Community REST Controllers reciben las solicitudes autenticadas y las despachan a los Community Application Services, que coordinan los permisos, las inscripciones, la publicación de logros y el progreso de metas, aplican el Community Domain Model y persisten los datos con los Community Persistence Adapters. Para validar usuarios, familias y roles, los servicios usan el Community Actor Gateway, que consulta el Users Context Facade. El Community Event Publisher publica los eventos de meta comunitaria completada, evento completado y publicación creada, que recibe el Gamification Event Handlers. Gamification utiliza el Community Context Facade para verificar la membresía y el acceso para compartir, y para entregar los avisos de logro que se publican en las comunidades.
 
-**Figura 65**
+**Figura 67**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Community, elaborado con Structurizr DSL.*
 
@@ -5945,7 +6301,7 @@ La Figura 66 muestra el módulo Community dentro del Backend API. Los Community 
   <img src="assets/img/figures/c4Community1.png" alt="Diagrama C4 de Community" width="550">
 </div>
 
-**Figura 66**
+**Figura 68**
 
 *Diagrama C4 de componentes de la API del bounded context Community, elaborado con Structurizr DSL.*
 
@@ -5961,7 +6317,7 @@ En esta sección elaboramos los diagramas de código que detallan la implementac
 
 El diagrama incluye aggregates, entities, value objects, enumeraciones, eventos de dominio y contratos de repositorio, junto con sus atributos, métodos, visibilidad, relaciones, direcciones y multiplicidades. También representa el procesamiento de los retos completados recibidos desde "Quests" y la publicación de la finalización de metas comunitarias hacia "Gamification".
 
-**Figura 67**
+**Figura 69**
 
 *Diagrama de clases del contexto Community.*
 
@@ -5971,7 +6327,7 @@ El diagrama incluye aggregates, entities, value objects, enumeraciones, eventos 
 
 El diseño de la base de datos organiza por separado las comunidades, sus miembros, publicaciones, reacciones, eventos, inscripciones, reportes, chats temporales y metas comunitarias, ya que cada funcionalidad posee atributos y reglas de negocio propias. Además, mantiene como referencias externas los usuarios, familias y retos pertenecientes a otros bounded contexts.
 
-**Figura 68**
+**Figura 70**
 
 *Diagrama de base de datos del contexto Community.*
 
@@ -5985,7 +6341,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model**
 
-**Tabla 89**
+**Tabla 177**
 
 *Elementos del modelo de dominio de Gamification.*
 
@@ -6024,7 +6380,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Commands**
 
-**Tabla 90**
+**Tabla 178**
 
 *Commands de Gamification.*
 
@@ -6045,7 +6401,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Queries**
 
-**Tabla 91**
+**Tabla 179**
 
 *Queries de Gamification.*
 
@@ -6061,7 +6417,7 @@ En esta capa se representa el núcleo del bounded context y sus reglas de negoci
 
 **Sub-capa Model - Domain e Integration Events**
 
-**Tabla 92**
+**Tabla 180**
 
 *Eventos de dominio e integración de Gamification.*
 
@@ -6087,7 +6443,7 @@ El aviso de logro obtenido informa a Community sobre su concesión. La publicaci
 
 **Sub-capa Domain Services**
 
-**Tabla 93**
+**Tabla 181**
 
 *Servicios de dominio de Gamification.*
 
@@ -6099,7 +6455,7 @@ El aviso de logro obtenido informa a Community sobre su concesión. La publicaci
 
 **Sub-capa Repositories**
 
-**Tabla 94**
+**Tabla 182**
 
 *Repositorios de Gamification.*
 
@@ -6118,7 +6474,7 @@ Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados
 
 **Sub-capa REST - Controllers y Consumers**
 
-**Tabla 95**
+**Tabla 183**
 
 *Controllers y consumers de Gamification.*
 
@@ -6137,7 +6493,7 @@ Esta capa expone los casos de uso mediante REST y recibe los eventos comunicados
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 96**
+**Tabla 184**
 
 *Resources y assemblers de Gamification.*
 
@@ -6157,7 +6513,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Command Services**
 
-**Tabla 97**
+**Tabla 185**
 
 *Command services de Gamification.*
 
@@ -6171,7 +6527,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Query Services**
 
-**Tabla 98**
+**Tabla 186**
 
 *Query services de Gamification.*
 
@@ -6184,7 +6540,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Event Handlers**
 
-**Tabla 99**
+**Tabla 187**
 
 *Event handlers de Gamification.*
 
@@ -6211,7 +6567,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Persistencia e integración del backend**
 
-**Tabla 100**
+**Tabla 188**
 
 *Componentes de persistencia e integración de Gamification.*
 
@@ -6232,7 +6588,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Relaciones entre bounded contexts**
 
-**Tabla 101**
+**Tabla 189**
 
 *Relaciones con otros bounded contexts de Gamification.*
 
@@ -6245,7 +6601,7 @@ Esta capa contiene las clases que implementan la persistencia y la comunicación
 
 **Mobile Application - Gamification Feature**
 
-**Tabla 102**
+**Tabla 190**
 
 *Componentes de la aplicación móvil de Gamification.*
 
@@ -6264,17 +6620,17 @@ La aplicación móvil consulta progreso, logros y rankings, y permite compartir 
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 69, Gamification UI presenta rankings, medallas, progreso y la opción de compartir. Los ViewModels invocan los use cases y gestionan sus estados. Los repositorios remotos consumen la API y convierten sus respuestas en modelos de dominio. Ranking Calculator ordena las transacciones del periodo, y Users Context Facade identifica la familia del usuario para el ranking familiar.
+Los diagramas de Gamification muestran la aplicación Android y el módulo Gamification del Backend API. En la Figura 71, Gamification UI presenta rankings, medallas, progreso y la opción de compartir. Los ViewModels invocan los use cases y gestionan sus estados. Los repositorios remotos consumen la API y convierten sus respuestas en modelos de dominio. Ranking Calculator ordena las transacciones del periodo, y Users Context Facade identifica la familia del usuario para el ranking familiar.
 
-La Figura 70 muestra el módulo Gamification dentro del Backend API. Los Gamification REST Controllers exponen progreso, logros, rankings y solicitudes de compartir, y despachan commands y queries a los Gamification Application Services. Estos aplican el Gamification Domain Model y persisten los datos con los Gamification Persistence Adapters. Los Gamification Event Handlers reciben los eventos publicados por el Quest Event Publisher, el Community Event Publisher y el Monetization Event Publisher, y el Daily Streak Lifecycle Service evalúa el cierre diario de las rachas activas. Los Context Service Clients consultan los facades de Users, Quests, Community y Monetization. El Gamification Event Publisher entrega las recompensas, los avisos de logro y las solicitudes de protección y publicación a Community y Monetization, y guarda los mensajes pendientes en EcoMind Database mediante un Transactional Outbox. Los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade.
+La Figura 72 muestra el módulo Gamification dentro del Backend API. Los Gamification REST Controllers exponen progreso, logros, rankings y solicitudes de compartir, y despachan commands y queries a los Gamification Application Services. Estos aplican el Gamification Domain Model y persisten los datos con los Gamification Persistence Adapters. Los Gamification Event Handlers reciben los eventos publicados por el Quest Event Publisher, el Community Event Publisher y el Monetization Event Publisher, y el Daily Streak Lifecycle Service evalúa el cierre diario de las rachas activas. Los Context Service Clients consultan los facades de Users, Quests, Community y Monetization. El Gamification Event Publisher entrega las recompensas, los avisos de logro y las solicitudes de protección y publicación a Community y Monetization, y guarda los mensajes pendientes en EcoMind Database mediante un Transactional Outbox. Los Users REST Controllers consultan el progreso del usuario a través del Gamification Context Facade.
 
-**Figura 69**
+**Figura 71**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Gamification, elaborado con Structurizr DSL.*
 
 ![C4 de componentes Android de Gamification](assets/img/figures/c4GamificationMobile.png)
 
-**Figura 70**
+**Figura 72**
 
 *Diagrama C4 de componentes de la API del bounded context Gamification, elaborado con Structurizr DSL.*
 
@@ -6286,7 +6642,7 @@ Los diagramas presentan los elementos del dominio de Gamification, sus relacione
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra los aggregates, value objects y enumeraciones del Domain Layer de Gamification. Representa el progreso individual y familiar, los otorgamientos de recompensas y logros, y las solicitudes de protección de racha y de compartir logros.
 
-**Figura 71**
+**Figura 73**
 
 *Diagrama de clases del bounded context Gamification, elaborado con PlantUML.*
 
@@ -6295,7 +6651,7 @@ El siguiente diagrama muestra los aggregates, value objects y enumeraciones del 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 El diagrama presenta las tablas de negocio del progreso individual y familiar, las recompensas, los logros y las solicitudes de compartir y proteger rachas. Las concesiones de logros se relacionan con su definición y con el progreso individual o familiar; cada concesión tiene un único destinatario. Los identificadores de usuarios, familias y comunidades de otros contextos se conservan como referencias externas.
 
-**Figura 72**
+**Figura 74**
 
 *Diagrama de diseño de la base de datos del bounded context Gamification.*
 
@@ -6313,7 +6669,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model**
 
-**Tabla 103**
+**Tabla 191**
 
 *Elementos del modelo de dominio de Monetization.*
 
@@ -6335,7 +6691,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model - Value Objects y Enumerations**
 
-**Tabla 104**
+**Tabla 192**
 
 *Value objects y enumeraciones de Monetization.*
 
@@ -6363,7 +6719,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model - Commands**
 
-**Tabla 105**
+**Tabla 193**
 
 *Commands de Monetization.*
 
@@ -6383,7 +6739,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model - Queries**
 
-**Tabla 106**
+**Tabla 194**
 
 *Queries de Monetization.*
 
@@ -6401,7 +6757,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Model - Domain e Integration Events**
 
-**Tabla 107**
+**Tabla 195**
 
 *Eventos de dominio e integración de Monetization.*
 
@@ -6421,7 +6777,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Services**
 
-**Tabla 108**
+**Tabla 196**
 
 *Servicios de dominio de Monetization.*
 
@@ -6435,7 +6791,7 @@ La Domain Layer define los elementos centrales del negocio de Monetization, incl
 
 **Sub-capa Repositories**
 
-**Tabla 109**
+**Tabla 197**
 
 *Repositorios de Monetization.*
 
@@ -6460,7 +6816,7 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 
 **Sub-capa REST - Controllers y Consumers**
 
-**Tabla 110**
+**Tabla 198**
 
 *Controllers y consumers de Monetization.*
 
@@ -6478,7 +6834,7 @@ Esta capa expone los casos de uso mediante la interfaz móvil y una API REST.
 
 **Sub-capa REST - Resources y Assemblers**
 
-**Tabla 111**
+**Tabla 199**
 
 *Resources y assemblers de Monetization.*
 
@@ -6502,7 +6858,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Command Services**
 
-**Tabla 112**
+**Tabla 200**
 
 *Command services de Monetization.*
 
@@ -6517,7 +6873,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Query Services**
 
-**Tabla 113**
+**Tabla 201**
 
 *Query services de Monetization.*
 
@@ -6532,7 +6888,7 @@ En esta capa se coordinan los casos de uso, las transacciones y la comunicación
 
 **Sub-capa Event Handlers**
 
-**Tabla 114**
+**Tabla 202**
 
 *Event handlers de Monetization.*
 
@@ -6553,7 +6909,7 @@ Esta capa contiene las clases que implementan persistencia, caché local, comuni
 
 
 
-**Tabla 115**
+**Tabla 203**
 
 *Componentes de la capa de infraestructura de Monetization.*
 
@@ -6581,7 +6937,7 @@ Esta capa contiene las clases que implementan persistencia, caché local, comuni
 
 **Relaciones entre bounded contexts**
 
-**Tabla 116**
+**Tabla 204**
 
 *Relaciones con otros bounded contexts de Monetization.*
 
@@ -6596,11 +6952,11 @@ Las solicitudes protegidas llegan con un JWT emitido previamente por IAM. El fil
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-Los diagramas de Monetization presentan la aplicación Android y el módulo Monetization del Backend API. En la Figura 73, Store UI muestra los cosméticos, los multiplicadores, los protectores, los paquetes de gemas y el saldo de la billetera. Los Monetization ViewModels reciben las intenciones de la interfaz y exponen estados inmutables, y los Monetization Use Cases coordinan el catálogo, las compras, el inventario y el pago. El Monetization Repository Implementation usa los Monetization Data Mappers para transformar los datos del Monetization Remote Data Source, que consume los endpoints de Monetization con el Bearer JWT, y del Catalog Cache, implementado con Room, que guarda una copia de solo lectura de los catálogos y de la billetera para el uso sin conexión.
+Los diagramas de Monetization presentan la aplicación Android y el módulo Monetization del Backend API. En la Figura 75, Store UI muestra los cosméticos, los multiplicadores, los protectores, los paquetes de gemas y el saldo de la billetera. Los Monetization ViewModels reciben las intenciones de la interfaz y exponen estados inmutables, y los Monetization Use Cases coordinan el catálogo, las compras, el inventario y el pago. El Monetization Repository Implementation usa los Monetization Data Mappers para transformar los datos del Monetization Remote Data Source, que consume los endpoints de Monetization con el Bearer JWT, y del Catalog Cache, implementado con Room, que guarda una copia de solo lectura de los catálogos y de la billetera para el uso sin conexión.
 
-La Figura 74 muestra el módulo Monetization dentro del Backend API. Los Monetization REST Controllers exponen los endpoints de tienda, cosméticos, multiplicadores, protectores de racha, inventario, billetera y compras de gemas, y los despachan a los Monetization Application Services. Estos aplican el Monetization Domain Model, persisten los datos con los Monetization Persistence Adapters y consultan o actualizan el saldo de gemas del perfil mediante el User Gem Balance Gateway, que opera sobre los Users Persistence Adapters. Los Payment Adapters integran los proveedores de pago: Culqi, para pagos con tarjeta y Yape, y PayPal. Gamification consulta el multiplicador de experiencia activo y solicita el abono de gemas, la entrega de cosméticos y la protección de racha mediante el Monetization Context Facade, y recibe el resultado a través del Monetization Event Publisher, que publica los eventos StreakProtected o StreakProtectionUnavailable.
+La Figura 76 muestra el módulo Monetization dentro del Backend API. Los Monetization REST Controllers exponen los endpoints de tienda, cosméticos, multiplicadores, protectores de racha, inventario, billetera y compras de gemas, y los despachan a los Monetization Application Services. Estos aplican el Monetization Domain Model, persisten los datos con los Monetization Persistence Adapters y consultan o actualizan el saldo de gemas del perfil mediante el User Gem Balance Gateway, que opera sobre los Users Persistence Adapters. Los Payment Adapters integran los proveedores de pago: Culqi, para pagos con tarjeta y Yape, y PayPal. Gamification consulta el multiplicador de experiencia activo y solicita el abono de gemas, la entrega de cosméticos y la protección de racha mediante el Monetization Context Facade, y recibe el resultado a través del Monetization Event Publisher, que publica los eventos StreakProtected o StreakProtectionUnavailable.
 
-**Figura 73**
+**Figura 75**
 
 *Diagrama C4 de componentes de la aplicación Android para el bounded context Monetization, elaborado con Structurizr DSL.*
 
@@ -6608,7 +6964,7 @@ La Figura 74 muestra el módulo Monetization dentro del Backend API. Los Monetiz
   <img src="assets/img/figures/ComponentsMonet.png" alt="Diagrama C4 de Monetization" width="350">
 </div>
 
-**Figura 74**
+**Figura 76**
 
 *Diagrama C4 de componentes de la API del bounded context Monetization, elaborado con Structurizr DSL.*
 
@@ -6622,7 +6978,7 @@ Los diagramas de código presentan las clases de dominio de Monetization y el di
 
 El diagrama de clases presenta los principales elementos del dominio de Monetization y las relaciones entre ellos. Incluye la tienda, la billetera de gemas, las compras, los inventarios y los distintos productos disponibles, como cosméticos, multiplicadores, protectores y paquetes de gemas. También representa las operaciones necesarias para consultar productos, verificar el saldo, realizar compras y administrar los artículos adquiridos por el usuario.
 
-**Figura 75**
+**Figura 77**
 
 *Diagrama de clases de la capa de dominio del bounded context Monetization.*
 
@@ -6632,7 +6988,7 @@ El diagrama de clases presenta los principales elementos del dominio de Monetiza
 
 El diseño de la base de datos organiza por separado los cosméticos, multiplicadores, protectores y paquetes de gemas, ya que cada tipo de producto posee características propias.
 
-**Figura 76**
+**Figura 78**
 
 *Diagrama de diseño de la base de datos del bounded context Monetization.*
 
@@ -6661,6 +7017,10 @@ El nombre EcoMind combina los conceptos de ecología y mentalidad consciente. El
 **Paleta de colores**
 
 La paleta está basada en tonos naturales que transmiten frescura, vitalidad y cuidado ambiental, complementados por colores de acento para gamificación:
+
+**Tabla 205**
+
+*Paleta de colores de EcoMind.*
 
 | Color | Hex | Uso |
 |---|---|---|
@@ -6691,7 +7051,7 @@ Los iconos siguen un estilo outline redondeado, coherente con la identidad orgá
 
  
    
- *Figura 77 ( General Style Guidelines )*
+ *Figura 79 ( General Style Guidelines )*
 ![Foto](assets/img/figures/style.png)
 
 ### 3.1.2. Information Architecture
@@ -6723,6 +7083,10 @@ Este sistema se aplica especialmente en las barras superior e inferior, las cual
 
 La barra superior presenta información relacionada con el estado general del usuario y el acceso a funciones complementarias.
 
+**Tabla 206**
+
+*Iconos y etiquetas de la barra superior.*
+
 | Recurso visual | Significado |
 |---|---|
 | Logotipo de EcoMind | Identidad de la aplicación |
@@ -6736,6 +7100,10 @@ Los valores de los diamantes y de la racha se muestran junto a sus respectivos i
 **Elementos de la barra inferior**
 
 La barra inferior funciona como el principal medio de navegación entre las secciones de la aplicación. Cada sección se representa exclusivamente mediante un icono.
+
+**Tabla 207**
+
+*Iconos y etiquetas de la barra inferior.*
 
 | Recurso visual | Sección representada |
 |---|---|
@@ -6755,6 +7123,10 @@ EcoMind cuenta con una landing page pública y una aplicación móvil. Por ello,
 **Landing Page**
 
 La landing page comunica la propuesta de valor de EcoMind y orienta a los usuarios hacia la descarga de la aplicación móvil. Para esta página se establecen las siguientes etiquetas:
+
+**Tabla 208**
+
+*Etiquetas SEO y metadatos de la Landing Page.*
 
 | Elemento | Valor asignado |
 |---|---|
@@ -6827,6 +7199,10 @@ La aplicación móvil utiliza elementos ASO relacionados con la educación ambie
 
 **App Store**
 
+**Tabla 209**
+
+*Elementos de posicionamiento de EcoMind en App Store.*
+
 | Elemento ASO | Valor asignado |
 |---|---|
 | App Title | EcoMind |
@@ -6838,6 +7214,10 @@ La aplicación móvil utiliza elementos ASO relacionados con la educación ambie
 | Secondary Category | Games |
 
 **Google Play**
+
+**Tabla 210**
+
+*Elementos de posicionamiento de EcoMind en Google Play.*
 
 | Elemento ASO | Valor asignado |
 |---|---|
@@ -6857,6 +7237,10 @@ Las interfaces de búsqueda mantienen una estructura visual consistente: un camp
 
 La sección de retos incluye una barra de búsqueda que permite localizar actividades mediante palabras relacionadas con su nombre o contenido. También presenta un panel de filtros organizado mediante controles desplegables.
 
+**Tabla 211**
+
+*Filtros de búsqueda de retos.*
+
 | Filtro | Opciones o criterio |
 |---|---|
 | Categoría | Tema ambiental al que pertenece el reto |
@@ -6869,6 +7253,10 @@ Después de seleccionar los criterios, el usuario confirma la búsqueda mediante
 **Búsqueda de recursos educativos**
 
 La sección de aprendizaje dispone de una barra de búsqueda y filtros orientados a encontrar materiales educativos adecuados para las necesidades del usuario.
+
+**Tabla 212**
+
+*Filtros de búsqueda de materiales de aprendizaje.*
 
 | Filtro | Opciones o criterio |
 |---|---|
@@ -6924,6 +7312,10 @@ En dispositivos móviles, la barra de navegación de la landing page se presenta
 
 La aplicación móvil utiliza una barra de navegación inferior persistente. Esta barra permite cambiar directamente entre las principales áreas de EcoMind sin regresar a una pantalla inicial.
 
+**Tabla 213**
+
+*Secciones de la navegación inferior.*
+
 | Icono | Sección |
 |---|---|
 | Tienda | Tienda |
@@ -6938,6 +7330,10 @@ La sección activa se diferencia mediante un color más intenso. Este indicador 
 **Navegación superior de la aplicación móvil**
 
 La barra superior se mantiene visible en las pantallas principales y reúne información general del usuario y accesos complementarios.
+
+**Tabla 214**
+
+*Funciones de la barra superior.*
 
 | Elemento | Función |
 |---|---|
@@ -6993,7 +7389,7 @@ El proceso de diseño comprende la elaboración del wireframe y del mock-up de a
 
 Los wireframes de la Landing Page de EcoMind representan la estructura inicial de las pantallas antes de incorporar colores, imágenes finales y elementos gráficos de marca. Su propósito fue organizar la jerarquía de la información, definir la ubicación de los componentes y validar que el recorrido del visitante fuera claro. En todas las vistas se mantiene una barra de navegación superior con acceso a las preguntas frecuentes, la guía para padres, la comunidad, el selector de idioma y la descarga de la aplicación.
 
-**Figura 77**
+**Figura 80**
 
 *Wireframe de la página de inicio de la Landing Page.*
 
@@ -7001,7 +7397,7 @@ Los wireframes de la Landing Page de EcoMind representan la estructura inicial d
 
 La página de inicio introduce la propuesta de valor de EcoMind y organiza el acceso a sus beneficios principales, la información de la startup y las llamadas a la acción dirigidas a nuevos usuarios.
 
-**Figura 78**
+**Figura 81**
 
 *Wireframe de preguntas frecuentes.*
 
@@ -7009,7 +7405,7 @@ La página de inicio introduce la propuesta de valor de EcoMind y organiza el ac
 
 La sección de preguntas frecuentes utiliza componentes desplegables para presentar respuestas sobre la conexión a Internet, la administración de la cuenta, las actividades, los puntos, las recompensas y la participación familiar sin saturar la pantalla.
 
-**Figura 79**
+**Figura 82**
 
 *Wireframe de la guía para padres.*
 
@@ -7017,7 +7413,7 @@ La sección de preguntas frecuentes utiliza componentes desplegables para presen
 
 La guía para padres reúne información sobre el acompañamiento familiar, los recursos educativos y recomendaciones para incorporar hábitos sostenibles en el hogar. Su estructura combina contenido informativo, tarjetas y una sección destacada de consejos.
 
-**Figura 80**
+**Figura 83**
 
 *Wireframe de la comunidad de EcoMind.*
 
@@ -7029,7 +7425,7 @@ La sección de comunidad presenta indicadores generales, beneficios de la partic
 
 Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante la identidad gráfica de EcoMind. Se incorporan el logotipo, la paleta de verdes, fotografías, ilustraciones, iconos y una jerarquía tipográfica consistente. Estos elementos refuerzan el enfoque ambiental del producto y permiten visualizar con mayor precisión la experiencia final del visitante en una interfaz web.
 
-**Figura 81**
+**Figura 84**
 
 *Mock-up de la página de inicio de la Landing Page.*
 
@@ -7037,7 +7433,7 @@ Los mock-ups de la Landing Page desarrollan visualmente los wireframes mediante 
 
 El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar de manera inmediata la propuesta de EcoMind. Las secciones posteriores explican sus beneficios, misión, visión e identidad como startup educativa.
 
-**Figura 82**
+**Figura 85**
 
 *Mock-up de preguntas frecuentes.*
 
@@ -7045,7 +7441,7 @@ El inicio utiliza una imagen ambiental y una llamada a la acción para comunicar
 
 La versión visual de preguntas frecuentes mantiene el formato desplegable e incorpora los colores y componentes definitivos. La separación entre preguntas favorece la lectura y permite que el visitante ubique rápidamente la información que necesita.
 
-**Figura 83**
+**Figura 86**
 
 *Mock-up de la guía para padres.*
 
@@ -7053,7 +7449,7 @@ La versión visual de preguntas frecuentes mantiene el formato desplegable e inc
 
 La guía para padres combina contenido educativo con fotografías e iconos para explicar los beneficios del acompañamiento familiar. Además, diferencia los recursos disponibles y presenta recomendaciones prácticas para reforzar hábitos sostenibles en casa.
 
-**Figura 84**
+**Figura 87**
 
 *Mock-up de la comunidad de EcoMind.*
 
@@ -7071,7 +7467,7 @@ El diseño comprende la elaboración de wireframes, wireflows, mock-ups y User F
 Los wireframes de la aplicación móvil EcoMind representan una primera aproximación a la estructura, distribución y navegación de su interfaz. Para su elaboración se priorizó la claridad de la información, la consistencia visual y el acceso directo a las funciones principales: autenticación, perfil, retos, aprendizaje, ranking, comunidad, tienda y configuración.
 La aplicación emplea una barra de navegación inferior que permite cambiar rápidamente entre los módulos principales. Asimismo, las pantallas presentan encabezados, tarjetas, botones, formularios y listas con una organización uniforme. Esta estructura reduce la carga cognitiva y permite que tanto los menores como sus padres comprendan fácilmente las acciones disponibles.
 
-**Figura 85**
+**Figura 88**
 
 *Wireframe de inicio de sesión.*
 
@@ -7081,7 +7477,7 @@ La aplicación emplea una barra de navegación inferior que permite cambiar ráp
 
 Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y ofrece acceso al registro de una cuenta nueva.
 
-**Figura 86**
+**Figura 89**
 
 *Wireframe de registro.*
 
@@ -7091,7 +7487,7 @@ Esta pantalla permite ingresar a EcoMind mediante las credenciales del usuario y
 
 Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los términos y acceder posteriormente a la aplicación.
 
-**Figura 87**
+**Figura 90**
 
 *Wireframe de selección de retos.*
 
@@ -7101,7 +7497,7 @@ Esta pantalla organiza los datos necesarios para crear una cuenta, aceptar los t
 
 Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones visuales de fácil reconocimiento.
 
-**Figura 88**
+**Figura 91**
 
 *Wireframe del detalle de un reto.*
 
@@ -7111,7 +7507,7 @@ Esta pantalla permite explorar y seleccionar retos ambientales mediante opciones
 
 El detalle del reto muestra sus objetivos, recompensas, progreso y la acción principal para completar la actividad.
 
-**Figura 89**
+**Figura 92**
 
 *Wireframe de perfil.*
 
@@ -7121,7 +7517,7 @@ El detalle del reto muestra sus objetivos, recompensas, progreso y la acción pr
 
 El perfil centraliza los datos del usuario, sus estadísticas, progreso, compromisos y opciones de administración.
 
-**Figura 90**
+**Figura 93**
 
 *Wireframe de comunidad.*
 
@@ -7135,7 +7531,7 @@ El perfil centraliza los datos del usuario, sus estadísticas, progreso, comprom
 
 La pantalla permite consultar publicaciones, eventos y actividades compartidas por la comunidad.
 
-**Figura 91**
+**Figura 94**
 
 *Wireframe de tienda.*
 
@@ -7147,7 +7543,7 @@ La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acc
 
 
 
-**Figura 92**
+**Figura 95**
 
 *Wireframe de aprendizaje.*
 
@@ -7155,7 +7551,7 @@ La tienda organiza los productos en tarjetas con su imagen, nombre, precio y acc
 
 La sección presenta recursos educativos mediante tarjetas, categorías, búsqueda y opciones para descargar o guardar contenido.
 
-**Figura 93**
+**Figura 96**
 
 *Wireframe de ranking.*
 
@@ -7165,7 +7561,7 @@ La sección presenta recursos educativos mediante tarjetas, categorías, búsque
 
 La pantalla muestra la clasificación de los usuarios y destaca la posición personal según la categoría seleccionada.
 
-**Figura 94**
+**Figura 97**
 
 *Wireframe de ajustes.*
 
@@ -7176,7 +7572,7 @@ La pantalla muestra la clasificación de los usuarios y destaca la posición per
 La sección reúne las opciones de cuenta, preferencias y configuración en bloques simples y fáciles de identificar.
 
 
-**Figura 95**
+**Figura 98**
 
 *Wireframes de inicio y retos.*
 
@@ -7186,7 +7582,7 @@ La sección reúne las opciones de cuenta, preferencias y configuración en bloq
 
 El conjunto presenta el acceso inicial y las distintas etapas para explorar, iniciar y completar retos ambientales.
 
-**Figura 96**
+**Figura 99**
 
 *Wireframes de tienda y aprendizaje.*
 
@@ -7196,7 +7592,7 @@ El conjunto presenta el acceso inicial y las distintas etapas para explorar, ini
 
 El conjunto muestra la consulta y compra de productos, junto con la búsqueda y visualización de recursos educativos.
 
-**Figura 97**
+**Figura 100**
 
 *Wireframes de perfil.*
 
@@ -7207,7 +7603,7 @@ El conjunto muestra la consulta y compra de productos, junto con la búsqueda y 
 El conjunto presenta la consulta y edición del perfil, las estadísticas, los logros y las diversas acciones que puedes hacer en perfil.
 
 
-**Figura 98**
+**Figura 101**
 
 *Wireframes de comunidad.*
 
@@ -7217,7 +7613,7 @@ El conjunto presenta la consulta y edición del perfil, las estadísticas, los l
 
 El conjunto presenta publicaciones, eventos, grupos, logros, búsquedas y mensajes disponibles en la comunidad.
 
-**Figura 99**
+**Figura 102**
 
 *Wireframes de ranking, notificaciones y ajustes.*
 
@@ -7231,7 +7627,7 @@ El conjunto reúne la clasificación de usuarios, el centro de notificaciones y 
 
 Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelidad con las acciones que realiza el usuario. Las flechas representan las transiciones entre vistas y permiten comprobar la continuidad de tareas como registrarse, iniciar un reto, consultar el progreso, comprar productos, revisar el ranking, participar en la comunidad y administrar el perfil. La organización por bounded context facilita reconocer la responsabilidad funcional de cada recorrido.
 
-**Figura 100**
+**Figura 103**
 
 *Wireflow general de la aplicación móvil EcoMind.*
 
@@ -7241,7 +7637,7 @@ Los wireflows de la aplicación móvil relacionan las pantallas de baja fidelida
 
 El wireflow general integra los recorridos principales de IAM, Quests, Learning, Monetization, Gamification, Community y Users. Este diagrama permite observar cómo la pantalla principal y la barra de navegación inferior conectan los diferentes módulos de la aplicación.
 
-**Figura 101**
+**Figura 104**
 
 *Wireflow de IAM, notificaciones y ajustes.*
 
@@ -7251,7 +7647,7 @@ El wireflow general integra los recorridos principales de IAM, Quests, Learning,
 
 El flujo de IAM comprende la presentación inicial, el registro, la confirmación del correo y el inicio de sesión hasta llegar al menú principal. Los flujos de notificaciones y ajustes permiten revisar avisos, modificar preferencias, seleccionar el idioma y acceder a las opciones de ayuda y soporte.
 
-**Figura 102**
+**Figura 105**
 
 *Wireflow de retos y progreso.*
 
@@ -7261,7 +7657,7 @@ El flujo de IAM comprende la presentación inicial, el registro, la confirmació
 
 Este flujo muestra la selección de una categoría, la búsqueda y filtrado de retos, la consulta del detalle y la ejecución de actividades. También representa el inicio, seguimiento y finalización del reto, junto con el acceso al progreso y la posibilidad de invitar amigos a una actividad colaborativa.
 
-**Figura 103**
+**Figura 106**
 
 *Wireflow de monetización, gamificación y aprendizaje.*
 
@@ -7271,7 +7667,7 @@ Este flujo muestra la selección de una categoría, la búsqueda y filtrado de r
 
 En Monetization se representan la compra y gestión de cosméticos, el inventario, los multiplicadores, los protectores de racha y los paquetes de gemas. Gamification presenta la navegación entre los diferentes rankings, mientras que Learning permite buscar, filtrar y consultar recursos educativos.
 
-**Figura 104**
+**Figura 107**
 
 *Wireflow de comunidad.*
 
@@ -7281,7 +7677,7 @@ En Monetization se representan la compra y gestión de cosméticos, el inventari
 
 El flujo de Community conecta las vistas de premios, eventos y noticias. Además, representa las acciones para crear un evento, consultar sus detalles, unirse de manera individual o familiar y acceder posteriormente al espacio de comunicación del evento.
 
-**Figura 105**
+**Figura 108**
 
 *Wireflow de perfil, amigos y familia.*
 
@@ -7297,7 +7693,7 @@ El wireflow de perfil comprende la consulta de estadísticas, compromisos, favor
 
 Los mock-ups de la aplicación móvil EcoMind representan la propuesta visual de alta fidelidad elaborada a partir de los wireframes. En estas pantallas se aplican la paleta de colores, las tipografías, los iconos, las ilustraciones y los componentes definitivos. La interfaz conserva una barra superior con los indicadores del usuario y una barra de navegación inferior que facilita el acceso a los módulos principales.
 
-**Figura 106**
+**Figura 109**
 
 *Mock-up de inicio de sesión.*
 
@@ -7307,7 +7703,7 @@ Los mock-ups de la aplicación móvil EcoMind representan la propuesta visual de
 
 La pantalla permite que el usuario ingrese sus credenciales y acceda a la aplicación. También ofrece una ruta directa al registro para quienes todavía no poseen una cuenta.
 
-**Figura 107**
+**Figura 110**
 
 *Mock-up de registro.*
 
@@ -7317,7 +7713,7 @@ La pantalla permite que el usuario ingrese sus credenciales y acceda a la aplica
 
 El registro reúne los datos necesarios para crear una cuenta, aceptar los términos y continuar con la verificación del correo electrónico.
 
-**Figura 108**
+**Figura 111**
 
 *Mock-up del menú principal de retos.*
 
@@ -7327,7 +7723,7 @@ El registro reúne los datos necesarios para crear una cuenta, aceptar los térm
 
 El menú principal presenta las categorías de actividades mediante botones visuales diferenciados por color. Desde esta pantalla se puede explorar el contenido ambiental o ingresar al módulo de aprendizaje.
 
-**Figura 109**
+**Figura 112**
 
 *Mock-up de ejecución de un reto.*
 
@@ -7337,7 +7733,7 @@ El menú principal presenta las categorías de actividades mediante botones visu
 
 La pantalla del reto muestra su categoría, duración, recompensa y tipo. Las actividades se marcan conforme son realizadas y la barra de progreso comunica el avance antes de finalizar el reto.
 
-**Figura 110**
+**Figura 113**
 
 *Mock-up del perfil del usuario.*
 
@@ -7347,7 +7743,7 @@ La pantalla del reto muestra su categoría, duración, recompensa y tipo. Las ac
 
 El perfil centraliza la identidad del usuario, su racha, EcoPoints, gemas, compromiso ambiental, medallas y accesos a las secciones de amigos y familia.
 
-**Figura 111**
+**Figura 114**
 
 *Mock-up de comunidad.*
 
@@ -7357,7 +7753,7 @@ El perfil centraliza la identidad del usuario, su racha, EcoPoints, gemas, compr
 
 La pantalla de comunidad presenta la meta compartida, su progreso y las pestañas de premios, eventos y noticias. También permite buscar, crear y unirse a eventos ambientales.
 
-**Figura 112**
+**Figura 115**
 
 *Mock-up de tienda.*
 
@@ -7367,7 +7763,7 @@ La pantalla de comunidad presenta la meta compartida, su progreso y las pestaña
 
 La tienda organiza avatares y cosméticos, multiplicadores, protectores y paquetes de gemas. Los estados visuales permiten distinguir los productos disponibles, adquiridos y equipados.
 
-**Figura 113**
+**Figura 116**
 
 *Mock-up de aprendizaje.*
 
@@ -7377,7 +7773,7 @@ La tienda organiza avatares y cosméticos, multiplicadores, protectores y paquet
 
 El módulo de aprendizaje presenta recursos educativos en tarjetas con su imagen, tipo, categoría, descripción y duración, además de acciones para descargar o guardar el contenido.
 
-**Figura 114**
+**Figura 117**
 
 *Mock-up de ranking.*
 
@@ -7387,7 +7783,7 @@ El módulo de aprendizaje presenta recursos educativos en tarjetas con su imagen
 
 El ranking muestra la posición del usuario y permite comparar EcoPoints en ámbitos local, global, de amigos y de familias, utilizando periodos diarios, semanales, mensuales o históricos.
 
-**Figura 115**
+**Figura 118**
 
 *Mock-up de ajustes.*
 
@@ -7399,7 +7795,7 @@ La pantalla de ajustes agrupa la información de la cuenta, las preferencias de 
 
 Los siguientes conjuntos reúnen las variantes y estados complementarios de cada módulo, como pantallas vacías, errores de carga, confirmaciones, filtros, formularios y acciones secundarias.
 
-**Figura 116**
+**Figura 119**
 
 *Conjunto de mock-ups de retos.*
 
@@ -7409,7 +7805,7 @@ Los siguientes conjuntos reúnen las variantes y estados complementarios de cada
 
 El conjunto incluye autenticación, categorías, búsqueda, filtros, planificación, progreso y ejecución de retos individuales y colaborativos.
 
-**Figura 117**
+**Figura 120**
 
 *Conjunto de mock-ups de tienda y aprendizaje.*
 
@@ -7419,7 +7815,7 @@ El conjunto incluye autenticación, categorías, búsqueda, filtros, planificaci
 
 Estas pantallas muestran las variantes de compra, inventario, multiplicadores, paquetes de gemas, búsqueda de recursos, aplicación de filtros y consulta del detalle educativo.
 
-**Figura 118**
+**Figura 121**
 
 *Conjunto de mock-ups de comunidad.*
 
@@ -7429,7 +7825,7 @@ Estas pantallas muestran las variantes de compra, inventario, multiplicadores, p
 
 El conjunto presenta las distintas vistas de premios, eventos y noticias, además de los procesos para crear comunidades y eventos, seleccionar participantes y confirmar la inscripción.
 
-**Figura 119**
+**Figura 122**
 
 *Conjunto de mock-ups de perfil.*
 
@@ -7439,7 +7835,7 @@ El conjunto presenta las distintas vistas de premios, eventos y noticias, ademá
 
 Estas pantallas desarrollan la edición del perfil, los compromisos, favoritos, amistades, invitaciones, creación y administración familiar, progreso de integrantes e informes semanales.
 
-**Figura 120**
+**Figura 123**
 
 *Conjunto de mock-ups de ranking, notificaciones y ajustes.*
 
@@ -7454,7 +7850,7 @@ El conjunto reúne las variantes del ranking, los estados de la bandeja de notif
 
 Los User Flow Diagrams muestran los recorridos previstos para que los usuarios alcancen objetivos específicos dentro de EcoMind. A diferencia de los wireflows, estos diagramas utilizan los mock-ups de alta fidelidad y destacan mediante flechas las acciones y transiciones entre pantallas.
 
-**Figura 121**
+**Figura 124**
 
 *User Flow de autenticación e identidad.*
 
@@ -7464,7 +7860,7 @@ Los User Flow Diagrams muestran los recorridos previstos para que los usuarios a
 
 El flujo de IAM contempla dos recorridos. Un usuario con una cuenta existente ingresa sus credenciales, y accede al menú principal. Un usuario nuevo selecciona la opción de registro, completa sus datos, acepta los términos y continúa con la verificación de la cuenta.
 
-**Figura 122**
+**Figura 125**
 
 *User Flow de retos.*
 
@@ -7474,7 +7870,7 @@ El flujo de IAM contempla dos recorridos. Un usuario con una cuenta existente in
 
 El flujo de Quests comienza en el panel principal con la selección de una categoría. El estudiante puede revisar su progreso o buscar una miniactividad mediante filtros. Al abrirla, consulta sus instrucciones y recompensas, inicia el reto, completa cada paso y confirma su finalización para recibir EcoPoints. Si el reto es colaborativo, selecciona la opción de invitar amigos, revisa la lista de participantes, administra el grupo e inicia la actividad en conjunto. Este diagrama cubre los flujos de validación “Miniactividades y retos” y “Desafío entre compañeros”.
 
-**Figura 123**
+**Figura 126**
 
 *User Flow de perfil, familia y seguimiento del progreso.*
 
@@ -7484,7 +7880,7 @@ El flujo de Quests comienza en el panel principal con la selección de una categ
 
 Después de completar un reto, el estudiante accede a su perfil para comprobar la actualización de la racha, los EcoPoints, las medallas y el progreso de sus actividades. También puede registrar un compromiso ambiental y consultar sus favoritos. En el recorrido para padres, el usuario abre la pestaña **Family**, revisa los integrantes, selecciona el perfil del hijo y consulta sus actividades completadas y pendientes. Este recorrido corresponde al flujo de validación “Familia y progreso”.
 
-**Figura 124**
+**Figura 127**
 
 *User Flow de aprendizaje.*
 
@@ -7494,7 +7890,7 @@ Después de completar un reto, el estudiante accede a su perfil para comprobar l
 
 El usuario accede a Learning desde el menú principal, revisa los recursos disponibles y abre el contenido seleccionado. Como recorrido alternativo, puede utilizar los filtros para limitar los resultados según el tipo, la categoría y otros criterios de búsqueda.
 
-**Figura 125**
+**Figura 128**
 
 *User Flow de tienda y monetización.*
 
@@ -7504,7 +7900,7 @@ El usuario accede a Learning desde el menú principal, revisa los recursos dispo
 
 Desde la tienda, el usuario selecciona la categoría de cosméticos, abre un producto y confirma la compra con gemas. Luego accede a **My Inventory** para equiparlo y comprobar el cambio en su avatar. El recorrido también permite revisar la descripción y duración de los multiplicadores o protectores antes de adquirirlos. En la sección de gemas, el usuario elige un paquete, selecciona el método de pago, revisa el resumen y confirma la operación. Para los estudiantes se valida la compra y personalización; para los padres se valida principalmente la comprensión y confianza que genera la economía virtual.
 
-**Figura 126**
+**Figura 129**
 
 *User Flow de ranking y gamificación.*
 
@@ -7514,7 +7910,7 @@ Desde la tienda, el usuario selecciona la categoría de cosméticos, abre un pro
 
 El flujo inicia en la barra de navegación inferior y conduce al ranking. Primero, el usuario identifica su posición resaltada; después puede cambiar entre las clasificaciones local, global, de amigos y de familias. Los filtros diario, semanal, mensual y acumulado permiten comparar los EcoPoints en distintos periodos. Para la validación se priorizan la posición propia, el ranking general y la clasificación semanal de la comunidad.
 
-**Figura 127**
+**Figura 130**
 
 *User Flow de comunidad.*
 
@@ -7524,7 +7920,7 @@ El flujo inicia en la barra de navegación inferior y conduce al ranking. Primer
 
 El recorrido de Community permite consultar la meta comunitaria y alternar entre premios, eventos y noticias. Desde la sección de eventos, el usuario puede buscar una actividad, revisar sus detalles y ubicación, crear un evento o solicitar una inscripción. La confirmación debe diferenciar claramente la participación individual de la familiar. Una vez inscrito, el usuario puede revisar el evento en **My events**, cancelarlo cuando sea necesario y acceder al espacio de comunicación. Este diagrama cubre “Comunidad y eventos” para estudiantes y “Actividad familiar en comunidad” para padres.
 
-**Figura 128**
+**Figura 131**
 
 *User Flow de notificaciones y ajustes.*
 
@@ -7541,6 +7937,10 @@ El usuario puede revisar sus notificaciones y marcar los avisos como leídos. De
 En el siguiente video se presenta el prototipo de EcoMind, compuesto por la Landing Page y la aplicación móvil. Primero, se realizará un recorrido por la Landing Page para explicar la propuesta de valor, las principales funcionalidades, los beneficios para estudiantes y familias, los planes disponibles, las preguntas frecuentes y las opciones para acceder a la aplicación.
 Posteriormente, se mostrarán los principales recorridos de la aplicación móvil, como el registro e inicio de sesión, la realización de retos ambientales, la participación en actividades colaborativas, el seguimiento del progreso personal y familiar, el acceso a contenidos educativos, el ranking, la comunidad, los eventos y la personalización mediante la tienda.
 Esta presentación tiene como finalidad demostrar cómo ambas interfaces trabajan de manera complementaria. La Landing Page permite conocer la solución y orienta al usuario antes de ingresar, mientras que la aplicación móvil ofrece las herramientas necesarias para aprender, participar y desarrollar hábitos sostenibles. Asimismo, el recorrido permite comprobar si la navegación, las instrucciones y las acciones disponibles son claras y coherentes con las necesidades de estudiantes y padres de familia.
+
+**Figura 132**
+
+*Video de navegación del prototipo de EcoMind.*
 
 <p align="center">
   <img src="assets/img/figures/prototype.jpeg" alt="Video de navegación del prototipo de EcoMind" width="700">
@@ -7567,12 +7967,20 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Project Management**
 
+**Tabla 215**
+
+*Herramientas de gestión de proyectos.*
+
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
 | WhatsApp | SaaS / Aplicación | Facilitar la comunicación del equipo, coordinar reuniones, resolver dudas y compartir avisos relacionados con el proyecto. | [https://www.whatsapp.com/](https://www.whatsapp.com/) |
 | Trello | SaaS | Organizar el Product Backlog y los Sprint Backlogs mediante tableros, listas y tarjetas. También permite asignar responsables y dar seguimiento al estado de las tareas. | [https://trello.com/](https://trello.com/) |
 
 **Requirements Management**
+
+**Tabla 216**
+
+*Herramientas de gestión de requisitos.*
 
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
@@ -7582,12 +7990,20 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Product UX/UI Design**
 
+**Tabla 217**
+
+*Herramientas de diseño UX/UI.*
+
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
 | Figma | SaaS / Aplicación | Diseñar los wireframes, mock-ups y prototipos interactivos de la landing page y de la aplicación móvil. También permite mantener los componentes visuales y colaborar en tiempo real. | [https://www.figma.com/](https://www.figma.com/) |
 | Lucidchart | SaaS | Elaborar los user flows y representar gráficamente los recorridos y decisiones de los usuarios dentro de EcoMind. | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
 
 **Software Development**
+
+**Tabla 218**
+
+*Herramientas de desarrollo de software.*
 
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
@@ -7603,6 +8019,10 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Software Testing**
 
+**Tabla 219**
+
+*Herramientas de pruebas de software.*
+
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
 | Google Chrome | Aplicación de escritorio | Ejecutar pruebas funcionales, visuales y de compatibilidad sobre la landing page, además de inspeccionar su comportamiento mediante las herramientas para desarrolladores. | [https://www.google.com/chrome/](https://www.google.com/chrome/) |
@@ -7610,6 +8030,10 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 | Android Emulator | Herramienta de Android Studio | Probar la aplicación móvil en diferentes versiones y configuraciones de Android sin depender exclusivamente de dispositivos físicos. | [https://developer.android.com/studio/run/emulator](https://developer.android.com/studio/run/emulator) |
 
 **Software Deployment**
+
+**Tabla 220**
+
+*Herramientas de despliegue de software.*
 
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
@@ -7624,6 +8048,10 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 
 **Software Documentation**
 
+**Tabla 221**
+
+*Herramientas de documentación de software.*
+
 | Producto | Tipo | Propósito de uso | Ruta |
 |---|---|---|---|
 | Markdown | Lenguaje de marcado | Redactar y estructurar el reporte del proyecto, los archivos README y la documentación técnica almacenada en los repositorios. | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
@@ -7636,6 +8064,10 @@ Para el desarrollo de EcoMind se seleccionaron herramientas que permiten gestion
 El proyecto se gestionará mediante Git como sistema de control de versiones, utilizando el modelo de ramas GitFlow, propuesto por Vincent Driessen (2010), como workflow principal. Este modelo permite mantener una estructura ordenada para el desarrollo, integración, pruebas, liberación y mantenimiento de los productos de software de EcoMind.
 
 **Repositorios de GitHub por producto**
+
+**Tabla 222**
+
+*Repositorios de GitHub por producto.*
 
 | Producto | Repositorio |
 |----------|-------------|
@@ -7876,6 +8308,10 @@ En esta sección se describe la configuración del despliegue de EcoMind, incluy
 5. Configurar GitHub Actions con autenticación federada de Azure. Al integrar cambios en `develop`, ejecutar las pruebas, construir la imagen y desplegarla en Container Apps.
 6. Verificar la nueva revisión y el estado de salud del Backend API.
 
+**Tabla 223**
+
+*URLs de los servicios desplegados de EcoMind.*
+
 | Servicio | URL |
 |---|---|
 | Backend API | [API de EcoMind](https://ca-ecomind-api.icybush-bd135296.westus2.azurecontainerapps.io/api/v1/) |
@@ -7892,6 +8328,10 @@ En esta sección se presenta el trabajo planificado para el primer Sprint de Eco
 #### 4.2.1.1. Sprint Planning 1
 
 Aquí se documentan los acuerdos de planificación del Sprint 1, incluyendo su objetivo y la estimación del trabajo.
+
+**Tabla 224**
+
+*Objetivo y estimación del Sprint 1.*
 
 | **Sprint #** |  1 |
 |------|--------|
@@ -7910,6 +8350,10 @@ Aquí se documentan los acuerdos de planificación del Sprint 1, incluyendo su o
 
 En esta sección se presentan los aspectos principales del Sprint 1 y la distribución de responsabilidades según las User Stories planteadas en el desarrollo del sprint. Entre ellas, la Landing Page informativa, los retos, aspectos de gamificación, rankings, la participación en comunidad, la personalización y compra de elementos virtuales, y la gestión de perfiles, familias y amigos. La tabla organiza estos aspectos por área del producto y presenta los roles de liderazgo y colaboración definidos para el Sprint.
 
+**Tabla 225**
+
+*Líderes y colaboradores por área del Sprint 1.*
+
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page | Quest | Community | Monetization | Profile | Gamification |
 |-------------------------------------|-----------------|--------------|-------|-----------|--------------|---------|--------------|
 | Astocondor Bazan, Alejandra Isabel | AleeAsto | C | L | C | C | C | C |
@@ -7924,13 +8368,13 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
 
 Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
 
-**Figura 129**
+**Figura 133**
 
 *Organización del sprint 1 en Trello*
 
 ![Sprint_1](assets/img/figures/Sprint_1.png)
 
-**Tabla 117**
+**Tabla 226**
  
 *Tabla de Sprint backlog 1*
 
@@ -8671,9 +9115,9 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 #### 4.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los flujos de la aplicación Android. La Tabla 118 relaciona los cambios con sus repositorios y ramas.
+Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los flujos de la aplicación Android. La Tabla 227 relaciona los cambios con sus repositorios y ramas.
 
-**Tabla 118**
+**Tabla 227**
 
 *Commits de implementación del Sprint 1*
 
@@ -8703,9 +9147,9 @@ Durante el Sprint 1 se desarrollaron la landing page, los servicios REST y los f
 
 La ejecución de Android corresponde a `feature/gamification`, commit [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad), que contiene los cambios de `develop` hasta [6db2af6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/6db2af6355fb1031b15c72724051367363939f3a). La integración se presenta en el [pull request #3](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/pull/3).
 
-El proyecto Android se trabaja en Android Studio. Su estructura organiza los bounded contexts en paquetes y separa las capas `application`, `domain`, `infrastructure` e `interfaces`. La Figura 130 muestra el módulo `app` y un caso de uso de Gamification.
+El proyecto Android se trabaja en Android Studio. Su estructura organiza los bounded contexts en paquetes y separa las capas `application`, `domain`, `infrastructure` e `interfaces`. La Figura 134 muestra el módulo `app` y un caso de uso de Gamification.
 
-**Figura 130**
+**Figura 134**
 
 *Proyecto EcoMind en Android Studio*
 
@@ -8713,9 +9157,9 @@ El proyecto Android se trabaja en Android Studio. Su estructura organiza los bou
 
 *Nota. Captura de Android Studio.*
 
-El Backend API se desarrolla en IntelliJ IDEA. La Figura 131 muestra el proyecto `EcoMind_Backend` en la rama `develop`, con las capas `application`, `domain`, `infrastructure` e `interfaces` del bounded context Gamification. En el editor, `GamificationContextFacade` expone la consulta `getUserProgress`, que delega en `GamificationQueryService` y devuelve un registro `Progress` con el identificador del usuario, sus ecopoints, la racha actual, la racha más larga y la fecha de última actividad.
+El Backend API se desarrolla en IntelliJ IDEA. La Figura 135 muestra el proyecto `EcoMind_Backend` en la rama `develop`, con las capas `application`, `domain`, `infrastructure` e `interfaces` del bounded context Gamification. En el editor, `GamificationContextFacade` expone la consulta `getUserProgress`, que delega en `GamificationQueryService` y devuelve un registro `Progress` con el identificador del usuario, sus ecopoints, la racha actual, la racha más larga y la fecha de última actividad.
 
-**Figura 131**
+**Figura 135**
 
 *Proyecto EcoMind Backend en IntelliJ IDEA*
 
@@ -8729,6 +9173,8 @@ Las pruebas de los servicios se ejecutaron en `main`, commit [a6d1491](https://g
 
 Los proyectos de pruebas se encuentran en [EcoMind_Backend/src/test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/a6d1491f722c8ee88cbd84337aa1c995e14be44c/src/test), [EcoMind_Android/app/src/test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/tree/5e26fe6ed67c9aa034c78c4c97badec589a88dad/app/src/test) y [EcoMind_Android/app/src/androidTest](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/tree/5e26fe6ed67c9aa034c78c4c97badec589a88dad/app/src/androidTest).
 
+**Tabla 228**
+
 *Commits que incorporan y actualizan las pruebas del Sprint 1*
 
 | Repositorio | Rama | Commit ID | Mensaje | Cuerpo del mensaje | Fecha |
@@ -8738,7 +9184,7 @@ Los proyectos de pruebas se encuentran en [EcoMind_Backend/src/test](https://git
 | EcoMind_Android | `feature/gamification` | [d88dffd](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/d88dffd451d6513a922cfe14f848f631b9bbcbaf) | feat(gamification): connect progress rewards and achievement sharing | — | 2026-10-09 |
 | EcoMind_Android | `feature/gamification` | [5e26fe6](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/5e26fe6ed67c9aa034c78c4c97badec589a88dad) | refactor(gamification): centralize authentication in shared client | — | 2026-10-10 |
 
-**Tabla 119**
+**Tabla 229**
 
 *Resultado de pruebas y compilación del 10 de octubre de 2026*
 
@@ -8754,17 +9200,17 @@ Cucumber ejecutó 73 escenarios de aceptación dentro de un total de 515 pruebas
 
 Las pruebas instrumentadas incluyen el inicio de sesión por Retrofit, la consulta de retos, navegación, filtros, progreso y logros.
 
-La Figura 132 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
+La Figura 136 presenta la ejecución del pipeline en `main`. Los resultados se conservan en el [resumen de pruebas](assets/evidence/sprint-1/test-results.json) y en el [registro de Maven Surefire](assets/evidence/sprint-1/backend-tests.txt).
 
-**Figura 132**
+**Figura 136**
 
 *Ejecución de la suite del backend en IntelliJ IDEA*
 
 <img src="assets/img/figures/sprint-1/backend-intellij-tests.png" alt="IntelliJ IDEA muestra 588 ejecuciones aprobadas y un escenario Gherkin de grupo familiar" width="100%">
 
-*Nota. La vista «All in ecomind-backend» de IntelliJ IDEA registra 588 ejecuciones aprobadas. La Tabla 119 corresponde a las 515 pruebas ejecutadas por Maven en cada base de datos del pipeline.*
+*Nota. La vista «All in ecomind-backend» de IntelliJ IDEA registra 588 ejecuciones aprobadas. La Tabla 229 corresponde a las 515 pruebas ejecutadas por Maven en cada base de datos del pipeline.*
 
-**Tabla 120**
+**Tabla 230**
 
 *Trazabilidad de pruebas de los servicios*
 
@@ -8800,7 +9246,7 @@ El workflow ejecuta las pruebas con H2 y PostgreSQL 17, verifica la cobertura co
 
 La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/38068283300) de `main` completó satisfactoriamente las pruebas y la construcción de la imagen.
 
-**Figura 133**
+**Figura 137**
 
 *Verificaciones del backend y construcción de la imagen en GitHub Actions*
 
@@ -8812,7 +9258,7 @@ La [ejecución 38068283300](https://github.com/upc-pre-202620-13980-greenminds/E
 
 La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Backend API mediante HTTP y autenticación JWT. El backend utilizó una base de datos PostgreSQL local y cuentas de prueba. La landing page se verificó desde su dirección pública.
 
-**Figura 134**
+**Figura 138**
 
 *Landing page de EcoMind en ejecución*
 
@@ -8824,7 +9270,7 @@ La aplicación se ejecutó en un emulador Android con API 37 y se conectó al Ba
 
 El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta su descripción, duración y ecopoints.
 
-**Figura 135**
+**Figura 139**
 
 *Inicio de sesión y detalle de un reto*
 
@@ -8837,7 +9283,7 @@ El inicio de sesión permite acceder al catálogo de retos. Cada reto presenta s
 
 Al completar la actividad, el usuario obtiene el resultado del reto y puede consultar su progreso. En la ejecución se registraron 10 ecopoints y el logro «First green step».
 
-**Figura 136**
+**Figura 140**
 
 *Finalización del reto y consulta de progreso*
 
@@ -8848,7 +9294,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 *Nota. Captura de la aplicación Android en el emulador.*
 
-**Figura 137**
+**Figura 141**
 
 *Medalla obtenida y ranking global semanal*
 
@@ -8861,7 +9307,7 @@ Al completar la actividad, el usuario obtiene el resultado del reto y puede cons
 
 La navegación también permite consultar el grupo familiar y el catálogo de cosméticos.
 
-**Figura 138**
+**Figura 142**
 
 *Grupo familiar y tienda de cosméticos*
 
@@ -8876,7 +9322,7 @@ La navegación también permite consultar el grupo familiar y el catálogo de co
 
 La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL en el puerto `8092`. Swagger UI estuvo disponible en `http://localhost:8092/swagger-ui/index.html`. La aplicación Android se instaló en el emulador con el APK debug y consumió `http://10.0.2.2:8092/api/v1/`.
 
-**Tabla 121**
+**Tabla 231**
 
 *Artefactos de ejecución*
 
@@ -8891,7 +9337,7 @@ La ejecución del Backend API se realizó con Spring Boot, JDK 21 y PostgreSQL e
 
 El Backend API documenta sus servicios con OpenAPI 3.1 y Swagger UI. Los contratos están agrupados por bounded context y especifican métodos HTTP, parámetros, cuerpos JSON y códigos de respuesta. El contrato corresponde al código [2264474](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/22644744806f6c2ce7eaa936942990f54e471635), integrado en `main` [a6d1491](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a6d1491f722c8ee88cbd84337aa1c995e14be44c). El [catálogo de servicios](assets/evidence/sprint-1/services-catalog.md) detalla 140 operaciones en 113 rutas, con parámetros, esquemas de solicitud y respuesta, códigos HTTP y ejemplos de invocación. La instancia documentada expone Swagger UI en `http://localhost:8093/swagger-ui/index.html` y el contrato en `http://localhost:8093/v3/api-docs`.
 
-**Tabla 122**
+**Tabla 232**
 
 *Servicios REST de los flujos implementados*
 
@@ -8928,7 +9374,7 @@ Los endpoints protegidos reciben `Authorization: Bearer <token>`. La consulta de
 
 Las respuestas ilustradas corresponden a la ejecución registrada del commit `11556d0`. La consulta `GET /api/v1/quests/1` devuelve el reto publicado con `200 OK`; un identificador inexistente se documenta con `404 Not Found`. El [contrato OpenAPI](assets/evidence/sprint-1/openapi.json) y las [respuestas de ejecución](assets/evidence/sprint-1/api-responses.json) acompañan las capturas.
 
-**Figura 139**
+**Figura 143**
 
 *Documentación de los endpoints de Gamification en Swagger UI*
 
@@ -8938,7 +9384,7 @@ Las respuestas ilustradas corresponden a la ejecución registrada del commit `11
 
 *Nota. Captura de Swagger UI.*
 
-**Figura 140**
+**Figura 144**
 
 *Respuesta HTTP 200 del detalle de un reto*
 
@@ -8960,7 +9406,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 1. Verificar que la versión final del proyecto esté almacenada y actualizada en la rama main del repositorio.
 
-**Figura 141**
+**Figura 145**
 
 *Verificación que el repositorio este actualizado*
 
@@ -8968,7 +9414,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 2. Acceder al repositorio en GitHub y dirigirse a Settings -> Pages. 
 
-**Figura 142**
+**Figura 146**
 
 *Acceso a configuración "Pages"*
 
@@ -8976,7 +9422,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 3. En la sección Source, seleccionar la rama main y la carpeta raíz.
 
-**Figura 143**
+**Figura 147**
 
 *Selección de rama a desplegar*
 
@@ -8984,7 +9430,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 4. Guardar la configuración para que GitHub Pages genere automáticamente la página pública. 
 
-**Figura 144**
+**Figura 148**
 
 *Verificación de estado del despliegue*
 
@@ -8992,7 +9438,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 5. Una vez desplegado, el sitio estará disponible. 
 
-**Figura 145**
+**Figura 149**
 
 *Verificación del landing page desplegado*
 
@@ -9000,7 +9446,7 @@ El despliegue se realizará mediante GitHub Pages, una plataforma gratuita de Gi
 
 Cuando el proyecto esté en fase de mantenimiento, las actualizaciones se gestionarán mediante commits y merges hacia la rama main. Cada cambio publicado en esta rama generará automáticamente una nueva versión desplegada del sitio.
 
-**Figura 146**
+**Figura 150**
 
 *Versionamiento de despliegues de la landing page*
 
@@ -9014,7 +9460,7 @@ Base de datos — Aiven (Sprint 1):
 
 1. Acceder a aiven (Crear cuenta en caso no disponga de una)
 
-**Figura 147**
+**Figura 151**
 
 *Acceso a pestaña home de aiven*
 
@@ -9022,7 +9468,7 @@ Base de datos — Aiven (Sprint 1):
 
 2. Seleccionar opción "Create service"
 
-**Figura 148**
+**Figura 152**
 
 *Pestaña de creación de servicio en aiven*
 
@@ -9030,7 +9476,7 @@ Base de datos — Aiven (Sprint 1):
 
 3. Realizar la configuración de plan y nombre a usar
 
-**Figura 149**
+**Figura 153**
 
 *Pestaña de configuración de servicio en aiven*
 
@@ -9038,7 +9484,7 @@ Base de datos — Aiven (Sprint 1):
 
 4. Guardar configuración y esperar que se termine el despliegue
 
-**Figura 150**
+**Figura 154**
 
 *Base de datos desplegada*
 
@@ -9048,7 +9494,7 @@ Backend — Render (Sprint 1):
 
 1. Acceder a render (Crear cuenta en caso no disponga de una)
 
-**Figura 151**
+**Figura 155**
 
 *Acceder a Render*
 
@@ -9056,7 +9502,7 @@ Backend — Render (Sprint 1):
 
 2. Crear un proyecto
 
-**Figura 152**
+**Figura 156**
 
 *Crear proyecto en Render*
 
@@ -9064,7 +9510,7 @@ Backend — Render (Sprint 1):
 
 3. Seleccionar opción "Create new service"
 
-**Figura 153**
+**Figura 157**
 
 *Comenzar creación de servicio en Render*
 
@@ -9072,7 +9518,7 @@ Backend — Render (Sprint 1):
 
 4. Seleccionar opción "Web Services"
 
-**Figura 154**
+**Figura 158**
 
 *Comenzar creación de web service en Render*
 
@@ -9080,7 +9526,7 @@ Backend — Render (Sprint 1):
 
 5. Seleccionar repositorio de github que se va a desplegar
 
-**Figura 155**
+**Figura 159**
 
 *Seleccionar repositorio para despliegue del backend en Render*
 
@@ -9088,7 +9534,7 @@ Backend — Render (Sprint 1):
 
 6. Realizar configuración del web service, que incluya nombre, lenguaje, rama a desplegar, región, plan y variables de entorno
 
-**Figura 156**
+**Figura 160**
 
 *Configurar web service en Render*
 
@@ -9096,7 +9542,7 @@ Backend — Render (Sprint 1):
 
 7. Guardar y esperar que se termine el despliegue
 
-**Figura 157**
+**Figura 161**
 
 *Backend desplegado*
 
@@ -9105,7 +9551,7 @@ Backend — Render (Sprint 1):
 
 8. Verificación del despliegue del backend
 
-**Figura 158**
+**Figura 162**
 
 *Verificar despliegue del backend*
 
@@ -9120,17 +9566,44 @@ En esta sección se muestra los aportes de cada integrante en los repositorios r
 
 **Sprint 1 - Landing page**
 
+**Figura 163**
+
+*Evidencia de colaboración en el repositorio de la Landing Page durante el Sprint 1.*
+
 ![sprint1_Landing_page_evidence1](assets/img/figures/sprint1_Landing_page_evidence1.png)
+
+**Figura 164**
+
+*Evidencia adicional de colaboración en el repositorio de la Landing Page durante el Sprint 1.*
+
 ![sprint1_Landing_page_evidence2](assets/img/figures/sprint1_Landing_page_evidence2.png)
 
 **Sprint 1 - App Android**
 
+**Figura 165**
+
+*Evidencia de colaboración en el repositorio de Android durante el Sprint 1.*
+
 ![sprint1_android_evidence1](assets/img/figures/sprint1_android_evidence1.png)
+
+**Figura 166**
+
+*Evidencia adicional de colaboración en el repositorio de Android durante el Sprint 1.*
+
 ![sprint1_android_evidence2](assets/img/figures/sprint1_android_evidence2.png)
 
 **Sprint 1 - Backend**
 
+**Figura 167**
+
+*Evidencia de colaboración en el repositorio del Backend durante el Sprint 1.*
+
 ![sprint1_backend_evidence1](assets/img/figures/sprint1_backend_evidence1.png)
+
+**Figura 168**
+
+*Evidencia adicional de colaboración en el repositorio del Backend durante el Sprint 1.*
+
 ![sprint1_backend_evidence2](assets/img/figures/sprint1_backend_evidence2.png)
 
 ### 4.2.2. Sprint 2
@@ -9141,7 +9614,7 @@ En esta sección se presenta el trabajo planificado para el segundo Sprint de Ec
 
 Aquí se documentan los acuerdos de planificación del Sprint 2, incluyendo su objetivo y la estimación del trabajo.
 
-**Tabla 123**
+**Tabla 233**
 
 *Planificación del aporte al Sprint 2.*
 
@@ -9160,9 +9633,11 @@ Aquí se documentan los acuerdos de planificación del Sprint 2, incluyendo su o
 
 #### 4.2.2.2. Aspect Leaders and Collaborators
 
-En el Sprint 2, el equipo se enfocó en completar las funcionalidades pendientes de la aplicación nativa de Android y avanzar en la implementación de las funcionalidades principales de EcoMind en Flutter. La Tabla 124 presenta la distribución de responsabilidades para las historias de usuario y las tareas técnicas del sprint en las áreas de gestión de acceso, retos, comunidad, monetización, perfiles, gamificación y aprendizaje. Para cada área, se indica quién asumió el liderazgo (L) y quiénes colaboraron (C).
+En el Sprint 2, el equipo se enfocó en completar las funcionalidades pendientes de la aplicación nativa de Android y avanzar en la implementación de las funcionalidades principales de EcoMind en Flutter. La Tabla 234 presenta la distribución de responsabilidades para las historias de usuario y las tareas técnicas del sprint en las áreas de gestión de acceso, retos, comunidad, monetización, perfiles, gamificación y aprendizaje. Para cada área, se indica quién asumió el liderazgo (L) y quiénes colaboraron (C).
 
-**Tabla 124**
+**Tabla 234**
+
+*Líderes y colaboradores por área del Sprint 2.*
 
 | Team Member (Last Name, First Name) | GitHub Username | IAM | Quest | Community | Monetization | Profile | Gamification | Learning |
 |-------------------------------------|-----------------|--------------|-------|-----------|--------------|---------|--------------|--------------|
@@ -9178,13 +9653,13 @@ El Sprint Backlog 2 retoma los pendientes del Sprint 1 para completar la aplicac
 
 Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6af417af4269d40dF11B3E7B/app-movil-ecomind
 
-**Figura XX**
+**Figura 169**
 
 *Organización del sprint 2 en Trello*
 
 ![Sprint_2](assets/img/figures/Sprint_2.png)
 
-**Tabla 125**
+**Tabla 235**
 
 *Sprint Backlog 2.*
 
@@ -9921,7 +10396,7 @@ Link: https://trello.com/invite/b/6aab0c88ceb4dbbd587813e8/ATTI7a418a77844bbcbb6
 
 Durante el Sprint 2, el equipo amplió la aplicación nativa de Android con retos familiares y colaborativos, funciones de comunidad y mejoras en gamificación y aprendizaje. En Flutter, implementó el acceso a la cuenta y el flujo principal de retos, desde la búsqueda hasta la consulta del progreso.
 
-**Tabla 126**
+**Tabla 236**
 
 *Commits de implementación del Sprint 2*
 
@@ -9999,24 +10474,206 @@ Durante el Sprint 2, el equipo amplió la aplicación nativa de Android con reto
 
 #### 4.2.2.5. Testing Suite Evidence for Sprint Review
 
-Las pruebas cubrieron recuperación, cierre de sesión, aceptación de términos, rankings, recompensas, rachas y medallas. Los [resultados registrados](assets/evidence/sprint-2/test-results.json) distinguen las revisiones y los ambientes utilizados.
+Las pruebas automatizadas del Sprint 2 cubren los servicios web de EcoMind y su integración con los clientes Android y Flutter. En el Backend API, las pruebas unitarias se implementaron con JUnit y Mockito, las de integración con Spring Boot Test y MockMvc, y las de aceptación con Cucumber, escenarios Gherkin y definiciones de pasos en Java. Las pruebas de los clientes verifican la lógica de aplicación, el contrato HTTP y los flujos de interfaz.
 
-**Tabla 127**
+**Repositorios de los proyectos de Testing**
+
+**Tabla 237**
+
+*Repositorios y ramas de las pruebas del Sprint 2.*
+
+| Repository | Rama revisada | Ubicación de las pruebas |
+|---|---|---|
+| [upc-pre-202620-13980-greenminds/EcoMind_Backend](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend) | `develop` · `518a6fb` | [src/test/java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java), [src/test/resources/features](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features) y [pruebas del despliegue](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/scripts/test_deploy_azure.py). |
+| [upc-pre-202620-13980-greenminds/EcoMind_Android](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android) | `develop` · `beabf47` | [app/src/test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/tree/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test) para JVM y [app/src/androidTest](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/tree/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/androidTest) para instrumentación. |
+| [upc-pre-202620-13980-greenminds/EcoMind_Flutter](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter) | `develop` · `5c53468` | [test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/tree/5c5346888d09b74fa38658fb7388f9d92af36330/test) para pruebas unitarias y de widgets, y [integration_test](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/tree/5c5346888d09b74fa38658fb7388f9d92af36330/integration_test) para integración. |
+
+**Unit Tests**
+
+**Tabla 238**
+
+*Pruebas unitarias del Backend API por historia o tarea del Sprint 2.*
+
+| Historia o tarea del sprint | Prueba en el Backend API | Clase o componente bajo prueba | Comportamiento verificado |
+|---|---|---|---|
+| HU-058 | [`PasswordRecoveryCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/iam/application/internal/commandservices/PasswordRecoveryCommandServiceImplTests.java) | `PasswordRecoveryCommandServiceImpl` | Guarda el hash del token, responde de forma genérica ante correos desconocidos y rechaza tokens vencidos o usados. Una contraseña débil no consume el token. |
+| HU-056, HU-057 | [`RegistrationCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/iam/application/internal/commandservices/RegistrationCommandServiceImplTests.java), [`AuthenticationCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/iam/application/internal/commandservices/AuthenticationCommandServiceImplTests.java) | `RegistrationCommandServiceImpl`, `AuthenticationCommandServiceImpl` | Valida el registro y la verificación del correo, y verifica las credenciales antes de emitir un token. |
+| HU-003 | [`UserProgressTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/gamification/domain/model/aggregates/UserProgressTests.java) | `UserProgress` | Acumula recompensas, cuenta una actividad válida por día, reinicia la racha tras un día perdido y rechaza recompensas negativas. |
+| HU-010, HU-046 | [`CollabQuestMemberCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/quests/application/internal/commandservices/CollabQuestMemberCommandServiceImplTests.java), [`CollabQuestSessionCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/quests/application/internal/commandservices/CollabQuestSessionCommandServiceImplTests.java) | `CollabQuestMemberCommandServiceImpl`, `CollabQuestSessionCommandServiceImpl` | Aplica permisos al responder invitaciones y requisitos de participación para iniciar una sesión. |
+| HU-013, HU-017 | [`FamilyPlanCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/quests/application/internal/commandservices/FamilyPlanCommandServiceImplTests.java) | `FamilyPlanCommandServiceImpl` | Valida los integrantes, los elementos del plan y las transiciones permitidas. |
+| HU-019, HU-039 | [`FamilyCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/users/application/internal/commandservices/FamilyCommandServiceImplTests.java), [`FriendshipCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/users/application/internal/commandservices/FriendshipCommandServiceImplTests.java) | `FamilyCommandServiceImpl`, `FriendshipCommandServiceImpl` | Verifica la autorización familiar, el código de invitación, el destinatario autorizado y el vencimiento de solicitudes de amistad. |
+| HU-041 | [`MinigameAttemptTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/quests/domain/model/aggregates/MinigameAttemptTests.java) | `MinigameAttempt` | Guarda el resultado de cada intento, distingue cancelación y rechaza finalizar por segunda vez. |
+| HU-067 | [`GemWalletTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/monetization/domain/model/aggregates/GemWalletTests.java) | `GemWallet` | Verifica abonos, débitos y rechazo cuando el saldo es insuficiente. |
+| Personalización de avatar | [`InventoryCommandServiceTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/monetization/application/internal/commandservices/InventoryCommandServiceTests.java) | `InventoryCommandService` | Equipar un accesorio reemplaza el que ocupa su ranura y conserva el avatar equipado. |
+| HU-014, HU-037 | [`EventRegistrationCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/community/application/internal/commandservices/EventRegistrationCommandServiceImplTests.java), [`EventChatAccessServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/community/application/internal/queryservices/EventChatAccessServiceImplTests.java) | `EventRegistrationCommandServiceImpl`, `EventChatAccessServiceImpl` | Valida el aforo familiar, la reinscripción y el acceso al chat de participantes activos antes del vencimiento. |
+| HU-063, HU-064 | [`CommunityGoalCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/community/application/internal/commandservices/CommunityGoalCommandServiceImplTests.java) | `CommunityGoalCommandServiceImpl` | Restringe la creación de metas, impide dos metas activas y evita duplicar el reconocimiento al completar una meta. |
+| TS-016, HU-018 | [`NotificationCommandServiceImplTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/notifications/application/internal/commandservices/NotificationCommandServiceImplTests.java), [`CommunityEventConsumerTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/notifications/interfaces/acl/CommunityEventConsumerTests.java), [`ScheduledNotificationsTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/notifications/application/internal/services/ScheduledNotificationsTests.java) | `NotificationCommandServiceImpl`, `CommunityEventConsumer`, `LearningReminderService`, `WeeklySummaryService` | Valida la lectura por el destinatario, evita duplicados por origen, limita las alertas de eventos a padres y comprueba los recordatorios y el resumen semanal. |
+
+**Tabla 239**
+
+*Pruebas unitarias en Android y Flutter por historia o tarea del Sprint 2.*
+
+| Historia o tarea del sprint | Prueba en el cliente | Clase o componente bajo prueba | Comportamiento verificado |
+|---|---|---|---|
+| HU-057, HU-058, HU-059 | [`AccountAccessUseCasesTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/iam/application/AccountAccessUseCasesTest.kt), [`ClearSessionUseCaseTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/iam/application/ClearSessionUseCaseTest.kt), [`RemoteAuthRepositoryTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/iam/infrastructure/implementation/RemoteAuthRepositoryTest.kt) | Casos de uso de recuperación y cierre de sesión, `ClearSessionUseCase`, `RemoteAuthRepository` | Normaliza correo y token, interpreta los resultados del servicio y borra la sesión incluso si la petición de cierre falla o se cancela. |
+| HU-007, HU-013, HU-017 | [`QuestExecutionServiceTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/quests/QuestExecutionServiceTest.kt), [`FamilyPlanServiceTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/quests/FamilyPlanServiceTest.kt) | `QuestExecutionService`, `FamilyPlanService` | Reanuda una asignación existente, bloquea el cierre prematuro y usa la asignación compartida al ejecutar un plan familiar. |
+| HU-011 | [`AchievementsTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/gamification/AchievementsTests.kt) | `GetAchievementsUseCase` | Separa las medallas obtenidas de las disponibles, elimina duplicados y excluye medallas de terceros. |
+| HU-041 | [`RemoteMinigameAttemptsTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/quests/RemoteMinigameAttemptsTest.kt) | `RemoteMinigameAttempts` | Distingue una recompensa de cero confirmada por el servicio de una recompensa aún ausente. |
+| TS-016 | [`NotificationMappersTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/notifications/NotificationMappersTest.kt) | `NotificationDto.toDomain`, `toDomainSkippingInvalid`, `destinationFor` | Conserva categorías válidas, omite filas con fechas inválidas y comprueba el destino asignado a cada tipo. |
+| HU-058 | [`confirm_password_recovery_use_case_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/test/features/iam/application/confirm_password_recovery_use_case_test.dart), [`auth_repository_confirmation_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/test/features/iam/infrastructure/auth_repository_confirmation_test.dart), [`iam_api_recovery_retry_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/test/features/iam/infrastructure/iam_api_recovery_retry_test.dart), [`reset_password_view_model_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/test/features/iam/presentation/reset_password/reset_password_view_model_test.dart) | `ConfirmPasswordRecoveryUseCase`, `AuthRepositoryImpl`, `IamApi`, `ResetPasswordViewModel` | Conserva la sesión ante errores, reintenta fallos transitorios, interpreta el token consumido y usa el mismo identificador cuando el resultado del intento anterior es incierto. |
+| Búsqueda de retos en Flutter | [`quest_search_repository_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/test/features/quests/quest_search_repository_test.dart) | `QuestRepository` | Filtra resultados por título y excluye los retos familiares de la búsqueda general. |
+| TS-016 | [`notification_mapper_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/test/features/users/notification_mapper_test.dart) | Mapeador de notificaciones | Conserva tipos y categorías válidos, tolera valores desconocidos y omite filas con fechas inválidas. |
+
+**Integration Tests de Web Services y pruebas de cliente**
+
+**Tabla 240**
+
+*Pruebas de integración de servicios web y clientes del Sprint 2.*
+
+| Proyecto | Historia o tarea | Prueba | Servicio, flujo o contrato verificado |
+|---|---|---|---|
+| Backend | HU-046 | [`ProtectedEndpointsIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/shared/interfaces/rest/ProtectedEndpointsIntegrationTests.java) | Los recursos privados rechazan peticiones sin JWT o con JWT inválido. |
+| Backend | HU-056 | [`RegistrationRetryIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/iam/interfaces/rest/RegistrationRetryIntegrationTests.java) | Envíos consecutivos y simultáneos conservan un único registro pendiente y sustituyen el código previo. |
+| Backend | HU-058 | [`PasswordRecoveryRetryIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/iam/interfaces/rest/PasswordRecoveryRetryIntegrationTests.java) | La API reconoce un reintento tras una respuesta perdida sin volver a cambiar la contraseña. Dos confirmaciones simultáneas solo pueden cambiarla una vez. |
+| Backend | HU-007, HU-010, HU-013, HU-017, HU-041 | [`QuestLifecycleIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/quests/interfaces/rest/QuestLifecycleIntegrationTests.java) | Verifica la entrega de actividades, el progreso compartido, los permisos sobre invitaciones, el ciclo de planes familiares y los umbrales del minijuego. |
+| Backend | HU-003, HU-041, HU-067 | [`GamificationReportIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/gamification/GamificationReportIntegrationTests.java), [`RewardCommandServiceIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/gamification/application/internal/commandservices/RewardCommandServiceIntegrationTests.java) | Verifica el puntaje decreciente hasta cero, el reinicio de la ventana, el bono semanal, el consumo del protector y la idempotencia. |
+| Backend | HU-011, HU-015, HU-016; regresión de ranking | [`FirstQuestAchievementIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/gamification/FirstQuestAchievementIntegrationTests.java), [`FamilyGamificationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/gamification/FamilyGamificationTests.java), [`RankingTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/gamification/RankingTests.java) | Comprueba la medalla del primer reto, los permisos y las recompensas familiares, y los periodos, el orden y la paginación del ranking. |
+| Backend | HU-067; regresiones de tienda | [`MonetizationPurchaseIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/monetization/interfaces/rest/MonetizationPurchaseIntegrationTests.java) | Comprueba idempotencia de compras, consistencia del inventario y acreditación única de gemas. |
+| Android | HU-049, HU-068 | [`OfflineQuestSyncTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/quests/OfflineQuestSyncTest.kt), [`OfflineQuestStorageTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/androidTest/java/pe/greenminds/ecomind/quests/OfflineQuestStorageTest.kt) | MockWebServer verifica que se reenvían cambios pendientes y se recupera la finalización usando la asignación existente. La prueba instrumentada verifica la persistencia local y el aislamiento por cuenta. |
+| Android | HU-013, HU-017 | [`FamilyPlanApiTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/quests/FamilyPlanApiTest.kt), [`FamilyPlanScreensTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/androidTest/java/pe/greenminds/ecomind/quests/FamilyPlanScreensTest.kt) | Verifica las rutas, los cuerpos de las solicitudes y los estados HTTP del API de planes. Compose comprueba las transiciones de pantalla. |
+| Android | HU-007, HU-012, HU-011; regresión de ranking | [`ProgressScreenTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/androidTest/java/pe/greenminds/ecomind/quests/ProgressScreenTest.kt), [`GamificationIntegrationTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/test/java/pe/greenminds/ecomind/gamification/GamificationIntegrationTests.kt), [`AchievementsScreenTests`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/androidTest/java/pe/greenminds/ecomind/gamification/AchievementsScreenTests.kt) | MockWebServer verifica la posición real del usuario y el alcance de los logros familiares. Las pruebas de Compose comprueban las pantallas de progreso y medallas. |
+| Android | HU-056, HU-057, HU-058, HU-059 | [`SignUpTermsViewModelTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/androidTest/java/pe/greenminds/ecomind/iam/SignUpTermsViewModelTest.kt), [`AccountAccessNavigationTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/androidTest/java/pe/greenminds/ecomind/iam/AccountAccessNavigationTest.kt), [`AccountAccessBackendTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/blob/beabf475a3fae14700ea4a98dc0c99db33ee3818/app/src/androidTest/java/pe/greenminds/ecomind/iam/AccountAccessBackendTest.kt) | Comprueba consentimiento explícito, navegación de acceso y, en el modo instrumentado con backend, recuperación, ingreso con la nueva contraseña y cierre de sesión. |
+| Flutter | HU-057, HU-058, HU-059 | [`password_reset_external_uri_receipt_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/integration_test/password_reset_external_uri_receipt_test.dart), [`password_reset_lost_response_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/integration_test/password_reset_lost_response_test.dart) | Comprueba la recepción del enlace desde Android y el restablecimiento con reintento tras perder la primera respuesta. Los modos contra la API se habilitan con datos de prueba. |
+| Flutter | HU-007, HU-012, HU-015 | [`quests_home_page_test.dart`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/blob/5c5346888d09b74fa38658fb7388f9d92af36330/test/features/quests/quests_home_page_test.dart) | Los widgets conservan el progreso visible al volver a la pestaña, reanudan la asignación y muestran la actividad familiar y las recompensas con repositorios de prueba. |
+
+**Acceptance Tests BDD de los Web Services**
+
+[`RunCucumberTest`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/RunCucumberTest.java) carga los `.feature` y los [Steps en Java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/tree/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd). `CucumberSpringConfiguration` inicia Spring con el perfil `test` y `ApiClient` llama a los servicios mediante MockMvc. Los Steps preparan datos, envían la solicitud y verifican el estado HTTP, los campos JSON y el estado que deja cada operación. `CommonSteps` aporta las aserciones compartidas.
+
+**Tabla 241**
+
+*Escenarios de aceptación en Gherkin del Sprint 2.*
+
+| Archivo Gherkin | Historias relacionadas | Comportamiento de aceptación | Steps en Java |
+|---|---|---|---|
+| [hu056_user_registration.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/iam/hu056_user_registration.feature) | HU-056 | Registro, validación de campos y rol, correo duplicado y creación de cuenta después de verificar el código. La aceptación de términos se verifica en Android. | [UserRegistrationSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/iam/UserRegistrationSteps.java) |
+| [hu057_sign_in.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/iam/hu057_sign_in.feature) | HU-057 | Inicio de sesión, emisión de token, credenciales incorrectas, campos vacíos y localización del error. | [SignInSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/iam/SignInSteps.java) |
+| [hu058_password_recovery.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/iam/hu058_password_recovery.feature) | HU-058 | Respuesta genérica, envío a una cuenta registrada, cambio válido, token de un solo uso y política de contraseña. | [PasswordRecoverySteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/iam/PasswordRecoverySteps.java) |
+| [hu059_logout.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/iam/hu059_logout.feature) | HU-059 | Cierre con sesión activa y rechazo de accesos sin token después de cerrar sesión. | [LogoutSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/iam/LogoutSteps.java), [SignInSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/iam/SignInSteps.java) |
+| [hu019_family_group.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/users/hu019_family_group.feature) | HU-019 | Creación familiar, altas y bajas, permisos del padre y restricción a una familia por persona. | [FamilyGroupSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/users/FamilyGroupSteps.java), [UsersCommonSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/users/UsersCommonSteps.java) |
+| [hu039_friend_requests.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/users/hu039_friend_requests.feature) | HU-039 | Solicitudes, vencimiento a las 48 horas, espera de siete días, códigos de invitación y eliminación autorizada. | [FriendRequestSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/users/FriendRequestSteps.java), [UsersCommonSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/users/UsersCommonSteps.java) |
+| [guided_quests.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/quests/guided_quests.feature) | HU-046; regresión de HU-001 y HU-004 | Protege las asignaciones de accesos de terceros y verifica catálogo, publicación, ejecución y recompensa única. | [QuestSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/quests/QuestSteps.java) |
+| [collaborative_lifecycle.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/quests/collaborative_lifecycle.feature) | HU-010, HU-046; etiquetado HU-001 y HU-004 | Verifica permisos, aceptación, rechazo, retiro y progreso compartido con participantes de una familia. La relación con HU-010 corresponde a las reglas compartidas de invitación y sesión. El escenario usa miembros de una familia como participantes. | [CollaborativeQuestSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/quests/CollaborativeQuestSteps.java), [UsersCommonSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/users/UsersCommonSteps.java) |
+| [community_participation.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/community/community_participation.feature) | HU-033, HU-034, HU-060–HU-064; regresión de HU-014 y HU-037 | Comprueba incorporación a una comunidad local, permisos y aforo inicial de una comunidad temática, publicaciones, reacciones, aforo de eventos, reinscripción y metas. La publicación de un logro ganado también se verifica en `GamificationReportIntegrationTests`. | [CommunitySteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/community/CommunitySteps.java), [UsersCommonSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/users/UsersCommonSteps.java) |
+| [store_and_wallet.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/monetization/store_and_wallet.feature) | HU-067; regresión de HU-029 y HU-035 | Consulta del catálogo y saldo. Rechaza compras de un protector con saldo insuficiente y solicitudes sin clave de idempotencia. | [MonetizationSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/monetization/MonetizationSteps.java), [UsersCommonSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/users/UsersCommonSteps.java) |
+| [ts016_notifications.feature](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/resources/features/notifications/ts016_notifications.feature) | TS-016, HU-018 | Bandeja, contador, lectura individual y masiva, aislamiento por destinatario y alertas de eventos para padres. Los dos escenarios HU-018 se agregaron en `2f6e6bf`. | [NotificationSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/notifications/NotificationSteps.java), [FriendRequestSteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/users/FriendRequestSteps.java), [CommunitySteps.java](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/blob/518a6fb0bfa86c5273ae7cdcfc7d6d22c91762bd/src/test/java/pe/greenminds/ecomind/bdd/community/CommunitySteps.java) |
+
+**Commits relacionados con Testing**
+
+La tabla incluye los commits que modificaron archivos de prueba durante el Sprint 2. La rama corresponde a la integración identificada en el historial de `develop`. La fecha se obtuvo del campo de confirmación de Git y `—` indica que el commit tiene solo asunto.
+
+**Tabla 242**
+
+*Commits de pruebas del Sprint 2.*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `develop` | [`988a49a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/988a49af5aeeac10caf0a5fe68e8e0d10b1d1bd9) | fix: quest tests | — | 07/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/azure-container-apps` | [`bd93175`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/bd93175bc64fd9fd1d36bcab53848fb0234a470b) | feat(iam): prepare recovery email delivery | — | 10/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `develop` | [`6471ae1`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/6471ae127e12b53ef33b1aa47913fea4d79cae2e) | fix(users): accept name in profile update | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/friend-request-expiry` | [`d7a059a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/d7a059a0d2de4a4b6450d8ed3fda64f9ae9df302) | feat(users): expire unanswered friend requests after 48 hours and expose createdAt | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/invitation-code` | [`6ca1ff2`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/6ca1ff2f7566a27298a37667d1223616222d50dc) | feat(users): add invitation codes to profiles and accept them in friend requests | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/invitation-code` | [`5c8b07f`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/5c8b07fbddc00f51e84e651a4dfaaf41d59e7c62) | style(users): wrap long lines and clarify the friend request receiver message | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/remove-friendship` | [`8d31c51`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8d31c5159ca3d36fc219ae85104941be5d6ea53a) | feat(users): remove friendships with DELETE /friend/{id} keeping the waiting period | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/notifications` | [`63c03a2`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/63c03a2864fec0b977333e04d18d2703cab9cdf7) | feat(notifications): add the notification inbox and notify accepted friend requests | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `develop` | [`3685b49`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/3685b494a6b3bb754d34e667e6105ba5870d98b9) | fix(users): expose equipped avatar in user profiles | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `develop` | [`f0f5051`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/f0f5051287b9c5f34df4e481ce61447d7ea6908a) | fix: count any completed quest toward the daily streak | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/create-event` | [`95b250a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/95b250ac453051231bc120633de84e0edbed1363) | feat: leave event when leaving community | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/join-event-chat` | [`2cf1b2d`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/2cf1b2db2facfba6f6ba3499b109ca6445d2ea26) | fix: fix test error | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/azure-container-apps` | [`632111c`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/632111ca72c8b3c228f21c237172f8232ed41610) | feat(iam): enable Azure email delivery | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/azure-container-apps` | [`930cdcd`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/930cdcda590afa2a8d4a12f156527b6f5680c625) | feat(iam): brand account emails and add recovery handoff | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/writeQuest` | [`72eb0a9`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/72eb0a9494c4582671469a07a4f2b03dc265467e) | feat: add write type of activity | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/posts-and-reactions` | [`aff898f`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/aff898f7ac4d7b59b64226bd23018fd024fbe59a) | feat: add other types of news and conditions | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/azure-container-apps` | [`f830eb6`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/f830eb6596497159ff2a0a67add57ce114e93584) | test(community): align fixtures with current participation rules | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/azure-container-apps` | [`c4737dc`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/c4737dc0231edc686e3b447b2f42bbac0b641ae1) | test(community): cover event access and participation rules | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/azure-container-apps` | [`ac19843`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/ac19843c28b60115600e086e258e84d0b6815f3f) | fix(iam): add safe Azure email delivery diagnostics | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/azure-container-apps` | [`e009a53`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/e009a533d5eb4800e3aabce4cbbfecebfdc26724) | fix(iam): preserve Azure send status after polling timeouts | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/writeQuest` | [`084a326`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/084a32612c2d338fd9fa7fadb684c15c62890989) | feat: add quest catalog seed | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/azure-develop-deployment` | [`f17ce52`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/f17ce52b4013e7481d0c13869c388edf1c8d33fd) | ci(azure): deploy verified develop builds | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/iam-email-delivery` | [`7ee549b`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/7ee549ba263a76c69e585af0b34851cd2b640e18) | fix(iam): improve Azure email delivery diagnostics | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/iam-email-delivery` | [`7bcb114`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/7bcb1146213d412632109a824960fa7dc37e59eb) | fix(iam): preserve Azure polling guidance | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/accessories` | [`5f20fb1`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/5f20fb1b9f057cef226a03c092c08bb9c8cb3fa9) | fix(monetization): equip cosmetics by slot | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/community-goal` | [`1a0547a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/1a0547aa51a71311e2d55d3d4640bc3b96a056c9) | feat: add community goal creation and enrollment | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `fix/iam-recovery-confirmation` | [`016d03a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/016d03ab5078ad6af3a5b9bef8d977fecac98379) | test: align community fixtures with current contracts | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `fix/iam-recovery-confirmation` | [`ec5ccf7`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/ec5ccf710eb8b25169116601564e550abdeae91b) | fix(iam): acknowledge recovery confirmation retries | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/gamification-catalog` | [`64ad6d9`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/64ad6d9c25dd73bd1e4f7a9a4d748c90223cd9aa) | feat(gamification): initialize achievement catalog | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/gamification-catalog` | [`8f159eb`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8f159eb030417414d54b8e7b87f962818bf77d3d) | test(gamification): await concurrent catalog initialization | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `develop` | [`14d8c36`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/14d8c368ecb1f2d6dcee4f00ae1437a1bf9fff87) | feat(gamification): restore weekly streak bonus | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `develop` | [`db44f6a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/db44f6ace7a890464d5ebbb1bca66ca0a0d3c49c) | fix(quests): replace seeded minigame with Collect Waste | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `develop` | [`a9974e4`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/a9974e4a266251334278af1a872858d990d9134e) | feat: add write quests seed | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `fix/first-quest-medal` | [`383341a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/383341a88068c6b14a1160bc275d0a1214e3b25c) | fix(gamification): restore first quest achievement | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `fix/first-quest-medal` | [`8d7ee24`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/8d7ee242cf562d0553ae39638da75f0bea74977a) | fix(gamification): recover missing first quest awards | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `fix/registration-retry` | [`1ad9ff6`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/1ad9ff6ab2e6d0951d0fbb4d0da7342610b7d5e6) | fix(iam): serialize concurrent registration attempts | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Backend | `feature/notification-consumers` | [`2f6e6bf`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/2f6e6bf5ab341930a9831b2d405ab8e819942b38) | feat(notifications): send the weekly progress summary | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/Learning` | [`3592349`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/3592349709e994801372188b3d2f353d1d396a8b) | feat(iam): connect recovery and logout APIs | — | 05/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/Learning` | [`cfe6ff7`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/cfe6ff7c34fc07e78d5af2327d1003f0cfd3b473) | feat(iam): add recovery and session screens | — | 05/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/Learning` | [`3ed4ada`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/3ed4adaf3f1b6bd85d1d893201b68028d3b2ee90) | fix(iam): preserve launch metadata for recovery links | — | 05/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/Learning` | [`931a785`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/931a7851a6ae4539797f0b1ff4679e22819b3679) | test(iam): wait for access navigation transitions | — | 05/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/collaborative-quests` | [`38541b2`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/38541b2f7c38e4e9d6a9e75874f55da85932cded) | feat: connect progress to backend | — | 06/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/family-plan` | [`82caee0`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/82caee046f0cf0cff59ff16412c0950e3ed967f2) | feat(quests): integrate family plans API | — | 07/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/family-plan` | [`82d0577`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/82d05776ceeb7f480ce481064e9b903e7da81fa8) | feat(quests): implement family plan UI, shared quest execution and completion flow | — | 08/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/iam-consent-validation` | [`e74125b`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/e74125bb239bc0e65dd74127d4d7a5f4f7504038) | test(iam): verify explicit terms acceptance | — | 08/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/iam-terms-and-recovery-email` | [`eb582eb`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/eb582eb6ae6b7b080acf05efe79edc3a7dab6b27) | feat(iam): complete terms and privacy information | — | 10/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/minigame` | [`ee75120`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/ee751208fd657a03a996e21b9cb888b7891373b4) | feat: add minigame | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/iam-terms-and-recovery-email` | [`eed8e30`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/eed8e3076780c9f04975d7a85a611c5045b7a6b0) | fix(iam): preserve terms access from settings | — | 11/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/iam-terms-and-recovery-email` | [`265e3e4`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/265e3e4cc03307092021779ed987a7d3c9226b0a) | feat(iam): use Azure defaults and update shared privacy details | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/iam-terms-and-recovery-email` | [`ab21a71`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/ab21a7177f5a59d66d166be07b1802bb8125b6a6) | test(iam): verify recovery links across mobile clients | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/iam-terms-and-recovery-email` | [`d220605`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/d22060563278e7761d223854daf8b8792e4af4b4) | test(iam): wait for sign-in before requesting recovery | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/writeActivity` | [`29882e3`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/29882e3f37b10cf99b03e61714d1c02b9fe3a109) | feat: add write activity execution | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/writeActivity` | [`43a787a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/43a787ae1fd9dcbd13350a9162d62c4653b0b854) | fix: start daily quest | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/iam-session-cleanup` | [`0ada1c8`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/0ada1c84c1116a80bbfee97dc01fba077ed6b250) | refactor(iam): move session cleanup into use case | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/gamification-integration` | [`f273074`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/f2730742f752bb157ecf9f1cee144c4d86963a05) | feat(gamification): integrate rankings and achievements with Azure | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `feature/notification-categories` | [`fc44286`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/fc44286c4751b14b70ff1d28ff247dad975af95e) | feat(notifications): read every notification type and skip invalid rows | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Android | `develop` | [`beabf47`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/beabf475a3fae14700ea4a98dc0c99db33ee3818) | feat: offline session | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/iam-terms-access` | [`e787a00`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/e787a0090c25450befac1da8236693d73997dd8a) | feat(iam): add password recovery and reset links | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/iam-terms-access` | [`21e307e`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/21e307e237abc1a21fdb230af0745ae6f7aa6c23) | fix(iam): preserve recovery after delayed sign-in | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/iam-terms-access` | [`6c60909`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/6c6090954967671ede9065b2a9d5b3b848488492) | test(iam): add opt-in recovery journey checks | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `fix/iam-recovery-confirmation` | [`4524e34`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/4524e34376d10924348476aed7c85d3cf54e7a87) | fix(iam): recover from lost password reset responses | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `fix/iam-recovery-confirmation` | [`afe6221`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/afe62219bb1d4334fad807861335072162c859fa) | test(iam): stage recovery fixtures in private app storage | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `fix/iam-recovery-confirmation` | [`f4080ce`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/f4080ced9febe439545d1a6daee10b71297da683) | style(iam): format fixture readiness check | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `fix/iam-recovery-confirmation` | [`955b314`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/955b314bf74d2462dd315cc50dc1f595ad2201b2) | test(iam): register text input for recovery checks | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `fix/iam-recovery-confirmation` | [`b1d9719`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/b1d971932e33815814ae14cefc997ff29c3f155e) | test(iam): reuse the integration runner binding | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `fix/iam-recovery-confirmation` | [`834b0a0`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/834b0a0ccb1521793afee98a22923d2e76945111) | test(iam): verify edits on the visible recovery fields | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `fix/iam-recovery-confirmation` | [`856b98f`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/856b98f15fb91b07849b1feb54ad2a6b1c4c6bd0) | test(iam): scope input to the active recovery form | — | 12/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/quests` | [`79d5273`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/79d5273187d34030454355671b2727b2f1dde129) | feat: add quests main page | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/quests` | [`a17d5da`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/a17d5da1c75ea35a3f7aa299f97cf70576de3398) | feat: unify quest execution | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/quests` | [`4eca0cc`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/4eca0ccdf5496560a548f376c4f5d54ad211ef33) | fix: adjust position | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/quests` | [`ae191be`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/ae191be1801009fdcb007c70a62bfa903ebe834a) | feat: My family activity | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/quests` | [`2ab3eb1`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/2ab3eb13411265716e7ce5af91d25877f56daaee) | feat: add progress view | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/quests` | [`17994a1`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/17994a1d3ccfa2c8e84b29d923647642134a53c4) | fix(quests): retain tab state and use loading spinners | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/quests` | [`7a94766`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/7a947665d04752e6a58c254831db397bf9ddf392) | feat: add quest search filters | — | 13/11/2026 |
+| upc-pre-202620-13980-greenminds/EcoMind_Flutter | `feature/notification-categories` | [`bf7a585`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/bf7a585e075ec981d2cfde743cc6d58a6b1aabc0) | feat(users): open the related tab when a notification is tapped | — | 13/11/2026 |
+
+**Ejecución de la suite**
+
+La Tabla 243 presenta los resultados por proyecto, revisión y entorno de ejecución. Los resultados se conservan en el [registro de pruebas del Sprint 2](assets/evidence/sprint-2/test-results.json).
+
+**Tabla 243**
 
 *Resultados de pruebas del Sprint 2.*
 
-| Producto y revisión | Pruebas | Resultado |
+| Proyecto y revisión ejecutada | Suite y ambiente | Resultado registrado |
 |---|---|---|
-| Backend `38939f5` | 736 pruebas con PostgreSQL y 9 pruebas de utilidades de despliegue. | Sin fallos; [CI/CD completado](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408). |
-| Android, integración de Gamification `f273074` | 91 pruebas JVM y 8 instrumentadas en emulador API 36. | Sin fallos. |
-| Flutter, integración `2ab1e5a` | 47 pruebas y escenario instrumentado de pérdida de respuesta durante la confirmación. | Pruebas y reintento completados. |
-| IAM en Azure, Flutter, 12/11/2026 | Inicio de sesión con nueva contraseña: `200`; contraseña anterior: `401`; token consumido: `422`; logout: `204`; acceso sin token: `401`. | Contrato verificado con correo recibido. |
+| Backend [`38939f5`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/38939f566f10ebc819d260959dcb8a0f8589b17e) | Maven `clean verify` con PostgreSQL 17 en GitHub Actions y pruebas Python de utilidades de despliegue. | 736 pruebas de la suite Java y 9 de utilidades, sin fallos. [Pipeline](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43382634408). |
+| Android [`f273074`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Android/commit/f2730742f752bb157ecf9f1cee144c4d86963a05) | Pruebas JVM e instrumentación en emulador Android API 36. | 91 pruebas JVM y 8 instrumentadas, sin fallos registrados. |
+| Flutter [`2ab1e5a`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Flutter/commit/2ab1e5add09b238f3a5b9c7df49d54b039b0ea37) | Suite Flutter y prueba instrumentada de pérdida de respuesta en Android. | 47 pruebas registradas y reintento completado. En Azure, el inicio de sesión devolvió `200` con la nueva contraseña y `401` con la anterior. La reutilización del token devolvió `422`, el cierre de sesión `204` y la consulta sin token `401`. |
+| Backend desplegado en Azure [`18eb479`](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/commit/18eb479e59d484fc9193cf21f4f661fb74c53f9e) | Comprobación con cuenta de prueba al completar un reto. | Los ecopoints pasaron de 20 a 30, las medallas de 0 a 1 y las recompensas de 1 a 2. Repetir la finalización devolvió `200` y conservó los totales. [Pipeline de esa revisión](https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend/actions/runs/43376286744). |
 
 #### 4.2.2.6. Execution Evidence for Sprint Review
 
 Android y Flutter consumen el mismo Backend API. Las ejecuciones de IAM incluyeron solicitud de recuperación, apertura del enlace, confirmación de contraseña, inicio de sesión y cierre de sesión. Flutter verificó además la recuperación ante pérdida de respuesta sin repetir el cambio de contraseña. Las ejecuciones registradas se realizaron en emuladores.
 
-**Figura 159**
+**Figura 170**
 
 *Confirmación de recuperación y retorno a inicio de sesión en Android con API local, registro del 5 de noviembre de 2026.*
 
@@ -10036,7 +10693,7 @@ Durante el Sprint 2 se consolidó la documentación de los Web Services del Back
 
 **Repositorio Backend:** https://github.com/upc-pre-202620-13980-greenminds/EcoMind_Backend
 
-**Tabla 128**
+**Tabla 244**
 
 *Nuevos Servicios REST implementados por bounded context.*
 
@@ -10205,7 +10862,7 @@ Los endpoints protegidos reciben `Authorization: Bearer <token>`. Son públicos 
 
 El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta la creación de una comunidad y evento dentro de ella. Para ello vamos a utilizar endpoints dentro de dos bounded context: Iam y Community.
 
-**Figura XX**
+**Figura 171**
 
 *Documentación de los endpoints de Iam en Swagger UI*
 
@@ -10215,7 +10872,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 172**
 
 *Body Sign Up POST endpoint*
 
@@ -10225,7 +10882,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 173**
 
 *Response Sign Up POST endpoint*
 
@@ -10235,7 +10892,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 174**
 
 *Body Verify Email POST endpoint*
 
@@ -10245,7 +10902,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 175**
 
 *Response Verify Email POST endpoint*
 
@@ -10255,7 +10912,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 176**
 
 *Body Sign In POST endpoint*
 
@@ -10265,7 +10922,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 177**
 
 *Response Sign In POST endpoint*
 
@@ -10275,7 +10932,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 178**
 
 *Documentación de los endpoints de Community en Swagger UI*
 
@@ -10287,7 +10944,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota: Tras hacer sign in hay que usar el token brindado*
 
-**Figura XX**
+**Figura 179**
 
 *Body Topic Community POST endpoint*
 
@@ -10297,7 +10954,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 180**
 
 *Response Topic Community POST endpoint*
 
@@ -10307,7 +10964,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 181**
 
 *Body Event POST endpoint*
 
@@ -10317,7 +10974,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 *Nota. Captura de Swagger UI.*
 
-**Figura XX**
+**Figura 182**
 
 *Response Event POST endpoint*
 
@@ -10331,7 +10988,7 @@ El siguiente flujo de ejecución muestra desde la creación de una cuenta hasta 
 
 El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub Actions ejecuta las pruebas y la verificación de la imagen antes de publicar los cambios de `develop`.
 
-**Tabla 129**
+**Tabla 245**
 
 *Recursos del despliegue de Sprint 2.*
 
@@ -10344,7 +11001,7 @@ El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub A
 | Azure Communication Services Email | Correos de verificación y recuperación de contraseña. |
 | Log Analytics | Registros de ejecución del backend. |
 
-**Figura 160**
+**Figura 183**
 
 *Pruebas y despliegue del Backend API: ejecución 43382634408, revisión 38939f5, 13 de noviembre de 2026.*
 
@@ -10352,31 +11009,31 @@ El backend se desplegó en Azure Container Apps con PostgreSQL privado. GitHub A
 
 Configuración registrada en el portal de Azure el 13 de noviembre de 2026.
 
-**Figura 161**
+**Figura 184**
 
 *Recursos de EcoMind en Azure.*
 
 ![Recursos de EcoMind en Azure](assets/img/figures/sprint-2/resource-group.png)
 
-**Figura 162**
+**Figura 185**
 
 *Backend API desplegado en Azure Container Apps.*
 
 ![Información general de la API en Azure Container Apps](assets/img/figures/sprint-2/container-app-overview.png)
 
-**Figura 163**
+**Figura 186**
 
 *Revisión activa del Backend API, asociada a la ejecución 43382634408.*
 
 ![Revisión activa del Backend API](assets/img/figures/sprint-2/container-app-revisions.png)
 
-**Figura 164**
+**Figura 187**
 
 *Servidor PostgreSQL de EcoMind en West US 2.*
 
 ![Servidor PostgreSQL de EcoMind](assets/img/figures/sprint-2/postgresql-overview.png)
 
-**Figura 165**
+**Figura 188**
 
 *Acceso privado de PostgreSQL mediante red virtual y DNS privado.*
 
@@ -10390,26 +11047,58 @@ En esta sección se muestran los aportes de cada integrante en los repositorios 
 
 **Sprint 2 - Landing page**
 
+**Figura 189**
+
+*Contribuciones a la Landing Page durante el Sprint 2.*
+
 ![Sprint2_Contributors](assets/img/figures/LandingSprint2Contributors.png)
+
+**Figura 190**
+
+*Actividad del repositorio de la Landing Page durante el Sprint 2.*
 
 ![Sprint2_Pulse](assets/img/figures/LandingSprint2Pulse.png)
 
 **Sprint 2 - App Android**
 
+**Figura 191**
+
+*Contribuciones a la aplicación Android durante el Sprint 2.*
+
 ![Sprint2_Contributors](assets/img/figures/AndroidSprint2Contributors.png)
+
+**Figura 192**
+
+*Actividad del repositorio de Android durante el Sprint 2.*
 
 ![Sprint2_Pulse](assets/img/figures/AndroidSprint2Pulse.png)
 
 
 **Sprint 2 - App Flutter**
 
+**Figura 193**
+
+*Contribuciones a la aplicación Flutter durante el Sprint 2.*
+
 ![Sprint2_Contributors](assets/img/figures/FlutterSprint2Contributors.png)
+
+**Figura 194**
+
+*Actividad del repositorio de Flutter durante el Sprint 2.*
 
 ![Sprint2_Pulse](assets/img/figures/FlutterSprint2Pulse.png)
 
 **Sprint 2 - Backend**
 
+**Figura 195**
+
+*Contribuciones al Backend durante el Sprint 2.*
+
 ![Sprint2_Contributors](assets/img/figures/CollabSprint2Backend1.png)
+
+**Figura 196**
+
+*Actividad del repositorio del Backend durante el Sprint 2.*
 
 ![Sprint2_Pulse](assets/img/figures/CollabSprint2Backend2.png)
 
@@ -10509,7 +11198,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Padres de Familia
 <br>
 
-**Tabla 131**
+**Tabla 246**
  
 *Entrevista de validación 1 del segmento de padres de familia.*
  
@@ -10519,7 +11208,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 | **Entrevistada N°1:** Yolanda Nely Mota Granados<br>**Edad:** 52 años<br>**Ubicación:** Surquillo, Lima<br>**Entrevistadora:** Katty Philco<br>**Fecha de la entrevista:** 09/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Yolanda Nely Mota Granados](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416107_upc_edu_pe/IQD6MW-bHvTgTLIvTWB1yt1yAdBEq5G0st9w9zk0MEyuoXs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BSMdpw)<br>**Instante del que inicia:** 00:58<br>**Duración:** 05:48<br><br>**Resumen:**<br><br>La entrevistada es Yolanda Nely Mota Granados, una madre de familia de 52 años que vive en Surquillo. Tras explorar el Landing Page, comprendió con claridad que EcoMind busca enseñar a los niños y a la familia a adoptar hábitos de cuidado del medio ambiente.<br><br>Al usar la aplicación, identificó sin dificultad la información familiar y el perfil de su hijo, y valoró positivamente la variedad de contenidos, retos, reuniones y comunidades. Indicó que el seguimiento al aprendizaje de su hija necesita mejoras para ser más efectivo. En comunidad logró crear comunidades, pero no comprendió el flujo para inscribir a su familia en los eventos del mapa.<br><br>Respecto a la gamificación, encontró con facilidad su posición en el ranking y señaló que ver los puestos la motiva a seguir participando. Le pareció atractiva la dinámica de la tienda y las gemas, aunque manifestó desconfianza ante el uso de tarjetas de crédito o pagos de dinero dentro de la plataforma.<br><br>Consideró que la aplicación es relevante tanto para los padres como para los niños, pero sintió confusión al navegar para encontrar secciones específicas. Por ello sugirió simplificar la interfaz para que los adultos aprendan a usarla más rápido. Propuso además incluir una función de comunicación familiar que permita enviarse recordatorios directos sobre acciones sostenibles en el hogar, como apagar las luces o cerrar los caños.<br><br>Calificó con 5 sobre 5 la probabilidad de usar EcoMind con regularidad junto a su familia, por su interés en promover la conservación ambiental y por el ahorro práctico de recursos en su hogar. |
 
  
-**Tabla 132**
+**Tabla 247**
  
 *Entrevista de validación 2 del segmento de padres de familia.*
  
@@ -10531,7 +11220,7 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 #### Segmento: Niños de primaria
 <br>
 
-**Tabla 133**
+**Tabla 248**
  
 *Entrevista de validación 1 del segmento de niños de primaria.*
  
@@ -10541,6 +11230,8 @@ En esta sección se registran las entrevistas de validación realizadas a usuari
 | **Entrevistado N°1:** Pablo Abel Astocondor Bazan<br>**Edad:** 12 años<br>**Ubicación:** Pueblo Libre, Lima<br>**Entrevistadora:** Alejandra Astocondor <br>**Fecha de la entrevista:** 10/10/2026<br><br>**Entrevista:** [Video de la entrevista de validación Nro. 1 - Pablo Astocondor ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410678_upc_edu_pe/IQB2Yd017FxJSLhZ88neGjwnAQdHxG3BwQITo458cL7Xk9s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lgMuR5)<br>**Instante del que inicia:** 00:00<br>**Duración:** 07:20<br><br>**Resumen:**<br><br>El participante Pablo Abel Astocondor Bazan, de 12 años y residente de Pueblo Libre, valoró positivamente las mejoras visuales del Landing Page y destacó la propuesta dirigida a los padres como la parte que más llamó su atención. Al probar la aplicación, comprendió el flujo para completar las actividades, aunque señaló que las instrucciones podrían ser más claras. Durante la navegación por el perfil y las secciones de progreso, amigos y familia, mencionó haberse perdido en una ocasión y observó que algunas funciones todavía no estaban disponibles; aun así, no encontró botones o pantallas cuya función desconociera por completo. Respecto al ranking, recomendó hacerlo más dinámico e incorporar ligas similares a las de Duolingo para fomentar la competencia. La prueba de personalización del avatar estuvo limitada porque los accesorios aún no se visualizaban en el perfil. En general, sus observaciones apuntan a mejorar las instrucciones, completar las funciones pendientes y ofrecer una dinámica de competencia más atractiva. |
 
 **Entrevista de validación - Sprint 2**
+
+**Tabla 249**
 
 *Entrevista de validación 2 del segmento de niños de primaria. (SPRINT 2)*
  
@@ -10586,6 +11277,10 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 **ESCALA DE SEVERIDAD:**
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
+**Tabla 250**
+
+*Escala de severidad de los problemas de usabilidad.*
+
 |Nivel|Descripción|
 |-----|-----------|
 |1|Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
@@ -10595,6 +11290,10 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 
 **TABLA RESUMEN:**
+
+**Tabla 251**
+
+*Resumen de hallazgos de la evaluación heurística.*
 
 |# |Problema|Escala de severidad |Heurística/Principio violada(o)|
 |-----|-----------|-----|---------|
@@ -10616,7 +11315,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Al completar retos o actividades, el sistema actualiza las rachas y puntos obtenidos; sin embargo, estos cambios no se muestran de una forma suficientemente visible para el usuario. Esto reduce la sensación de logro y dificulta percibir el avance dentro de la aplicación.
 
-**Figura 166**
+**Figura 197**
 
 *Visibilidad del progreso al completar actividades.*
 
@@ -10636,7 +11335,7 @@ Implementar animaciones, barras de progreso o indicadores visuales que muestren 
 
 Los eventos mostrados en la sección de comunidad presentan información resumida, lo que dificulta conocer todos los detalles relevantes antes de participar. El usuario debe inferir información o explorar más de lo necesario para comprender completamente cada evento.
 
-**Figura 167**
+**Figura 198**
 
 *Información disponible sobre eventos comunitarios.*
 
@@ -10656,7 +11355,7 @@ Incorporar una pantalla de detalle accesible al seleccionar cada evento, donde s
 
 Las actividades disponibles dentro de la aplicación se presentan principalmente como formularios o cuestionarios, sin comunicar con suficiente claridad qué acción debe realizar el usuario para cumplir el reto. Esta presentación dificulta relacionar la actividad con un desafío ambiental concreto y comprender su objetivo, más allá de responder preguntas.
 
-**Figura 168**
+**Figura 199**
 
 *Presentación de las actividades y retos.*
 
@@ -10676,7 +11375,7 @@ Presentar cada reto con un objetivo ambiental concreto, instrucciones en lenguaj
 
 En la sección de familia, las tarjetas de los miembros se presentan con un diseño visual idéntico en cuanto a color, tamaño y estructura. Aunque incluyen una etiqueta de rol, el usuario debe leer cada tarjeta para distinguir a los padres de los hijos, lo que dificulta reconocer rápidamente los roles al revisar el grupo familiar.
 
-**Figura 169**
+**Figura 200**
 
 *Tarjetas de integrantes de la familia.*
 
@@ -10695,7 +11394,7 @@ Incorporar un distintivo visual consistente para cada rol familiar, como un íco
 
 Durante la entrevista de validación, la apariencia del avatar en el perfil no reflejaba los accesorios que se indicaban como equipados. Esta diferencia impide al usuario comprobar visualmente cuál es el estado actual de su avatar. La evaluación considera la visualización del perfil, sin revisar el proceso de equipamiento de accesorios.
 
-**Figura 170**
+**Figura 201**
 
 *Visualización del avatar en el perfil.*
 
@@ -10768,11 +11467,15 @@ El video comienza mostrando la Landing Page y sus principales secciones informat
 </p>
 
 <p align="center">
-  <strong>Figura X.</strong> Video About the Product de EcoMind.<br>
+  <strong>Figura 202.</strong> Video About the Product de EcoMind.<br>
   <strong>Nota.</strong> Elaboración propia.
 </p>
 
 ### Secuencia de contenido
+
+**Tabla 252**
+
+*Secuencia del video About the Product.*
 
 | Tiempo | Contenido |
 |---|---|
@@ -10805,11 +11508,15 @@ Posteriormente, los integrantes presentan sus testimonios individuales, en los q
 </p>
 
 <p align="center">
-  <strong>Figura X.</strong> Video About the Team de GreenMinds.<br>
+  <strong>Figura 203.</strong> Video About the Team de GreenMinds.<br>
   <strong>Nota.</strong> Elaboración propia.
 </p>
 
 ### Secuencia de contenido
+
+**Tabla 253**
+
+*Secuencia del video About the Team.*
 
 | Inicio | Sección | Contenido |
 |---|---|---|
